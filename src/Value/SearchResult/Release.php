@@ -2,7 +2,7 @@
 
 namespace MusicBrainz\Value\SearchResult;
 
-use MusicBrainz\Value\Property\ReleaseTrait;
+use MusicBrainz\Value\Property\ReleasesTrait;
 use MusicBrainz\Value\SearchResult;
 
 /**
@@ -10,7 +10,7 @@ use MusicBrainz\Value\SearchResult;
  */
 class Release extends SearchResult
 {
-    use ReleaseTrait;
+    use ReleasesTrait;
 
     /**
      * Constructs a list of results from the search API.
@@ -19,7 +19,7 @@ class Release extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setReleaseFromArray($searchResult);
+        $this->setReleasesFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +30,6 @@ class Release extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getRelease();
+        return $this->getReleases();
     }
 }

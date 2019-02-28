@@ -14,16 +14,16 @@ class TrackDisplayNumber implements Value
      *
      * @var null|string
      */
-    private $trackNumber;
+    private $trackDisplayNumber;
 
     /**
      * Constructs a barcode.
      *
      * @param null|string $trackNumber The displayed track number
      */
-    public function __construct(?string $trackNumber = null)
+    public function __construct(?string $trackDisplayNumber = null)
     {
-        $this->trackNumber = $trackNumber;
+        $this->trackDisplayNumber = $trackDisplayNumber;
     }
 
     /**
@@ -33,6 +33,6 @@ class TrackDisplayNumber implements Value
      */
     public function __toString(): string
     {
-        return ($this->trackNumber) ? $this->trackNumber : '';
+        return ($this->trackDisplayNumber) ? $this->trackDisplayNumber : '';
     }
 }

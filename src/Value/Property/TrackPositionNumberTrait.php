@@ -11,16 +11,16 @@ use MusicBrainz\Value\TrackPositionNumber;
 trait TrackPositionNumberTrait
 {
     /**
-     * The displayed track number
+     * The displayed track position number
      *
      * @var TrackPositionNumber
      */
     public $trackPositionNumber;
 
     /**
-     * Returns the displayed track number.
+     * Returns the displayed track position number.
      *
-     * @return TrackNumber
+     * @return TrackPositionNumber
      */
     public function getTrackPositionNumber(): TrackPositionNumber
     {
