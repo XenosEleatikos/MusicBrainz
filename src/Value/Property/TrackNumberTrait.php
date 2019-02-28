@@ -3,28 +3,28 @@
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value\TrackPositionNumber;
+use MusicBrainz\Value\TrackNumber;
 
 /**
  * Provides a getter for a track position number.
  */
-trait TrackPositionNumberTrait
+trait TrackNumberTrait
 {
     /**
      * The displayed track position number
      *
      * @var TrackPositionNumber
      */
-    public $trackPositionNumber;
+    public $trackNumber;
 
     /**
      * Returns the displayed track position number.
      *
      * @return TrackPositionNumber
      */
-    public function getTrackPositionNumber(): TrackPositionNumber
+    public function getTrackNumber(): TrackNumber
     {
-        return $this->trackPositionNumber;
+        return $this->trackNumber;
     }
 
     /**
@@ -34,10 +34,10 @@ trait TrackPositionNumberTrait
      *
      * @return void
      */
-    private function setTrackPositionNumberFromArray(array $input): void
+    private function setTrackNumberFromArray(array $input): void
     {
-        $this->trackPositionNumber = is_null($trackPositionNumber = ArrayAccess::getString($input, 'position'))
-            ? new TrackPositionNumber
-            : new TrackPositionNumber($trackPositionNumber);
+        $this->trackNumber = is_null($trackNumber = ArrayAccess::getInteger($input, 'position'))
+            ? new TrackNumber
+            : new TrackNumber($trackNumber);
     }
 }

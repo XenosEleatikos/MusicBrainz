@@ -7,23 +7,23 @@ use MusicBrainz\Value;
 /**
  * A track position number
  */
-class TrackPositionNumber implements Value
+class TrackNumber implements Value
 {
     /**
      * The track position number
      *
      * @var null|int
      */
-    private $trackPositionNumber;
+    private $trackNumber;
 
     /**
      * Constructs a position.
      *
      * @param int $position A track position number
      */
-    public function __construct(?int $trackPositionNumber = null)
+    public function __construct(?int $trackNumber = 0)
     {
-        $this->trackPositionNumber = $trackPositionNumber;
+        $this->trackNumber = $trackNumber;
     }
 
     /**
@@ -33,6 +33,6 @@ class TrackPositionNumber implements Value
      */
     public function __toString(): string
     {
-        return ($this->trackPositionNumber) ? (string) $this->trackPositionNumber : '';
+        return ($this->trackNumber) ? (int) $this->trackNumber : '0';
     }
 }
