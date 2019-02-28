@@ -14,6 +14,7 @@ class Track implements Value
     use Property\LengthTrait;
     use Property\ArtistCreditsTrait;
     use Property\TrackDisplayNumberTrait;
+    use Property\TrackNumberTrait;
 
     /**
      * Constructs a track.
@@ -27,6 +28,7 @@ class Track implements Value
         $this->setLengthFromArray($track);
         $this->setArtistCreditsFromArray($track);
         $this->setTrackDisplayNumberFromArray($track);
+        $this->setTrackNumberFromArray($track);
     }
 
     /**
