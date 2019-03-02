@@ -28,14 +28,14 @@ class Config
      *
      * @var string
      */
-    private $userAgent = 'https://github.com/XenosEleatikos/MusicBrainz';
+    private $userAgent = 'https://github.com/papposilene/MusicBrainz';
 
     /**
      * URL of the MusicBrainz API
      *
      * @var string
      */
-    private $apiUrl = 'http://musicbrainz.org/ws/2';
+    private $apiUrl = 'https://musicbrainz.org/ws/2';
 
     /**
      * Returns the username.
