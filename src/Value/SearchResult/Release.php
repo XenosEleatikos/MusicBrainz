@@ -10,7 +10,7 @@ use MusicBrainz\Value\SearchResult;
  */
 class Release extends SearchResult
 {
-    use ReleasesTrait;
+    use ReleaseTrait;
 
     /**
      * Constructs a list of results from the search API.
@@ -19,7 +19,7 @@ class Release extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setReleasesFromArray($searchResult, null);
+        $this->setReleaseFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +30,6 @@ class Release extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getReleases();
+        return $this->getRelease();
     }
 }
