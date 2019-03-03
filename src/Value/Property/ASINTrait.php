@@ -22,7 +22,7 @@ trait ASINTrait
      *
      * @return ASIN
      */
-    public function getArea(): ASIN
+    public function getAsin(): ASIN
     {
         return $this->asin;
     }

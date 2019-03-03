@@ -2,10 +2,10 @@
 
 namespace MusicBrainz\Filter\Search;
 
-use AskLucy\Clause;
-use AskLucy\Phrase;
-use AskLucy\Query;
-use AskLucy\Term;
+use AskLucy\Expression\Clause\Clause;
+use AskLucy\Expression\Clause\Phrase;
+use AskLucy\Expression\Clause\Query;
+use AskLucy\Expression\Clause\Term;
 
 /**
  * An abstract filter

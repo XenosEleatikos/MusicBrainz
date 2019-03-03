@@ -1,7 +1,7 @@
 <?php
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Term;
+use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\ISO31663Code;
 
 trait Iso31663CodeTrait

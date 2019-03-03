@@ -36,7 +36,7 @@ trait LengthTrait
      */
     private function setLengthFromArray(array $input): void
     {
-        $this->length = is_null($length = ArrayAccess::getInteger($input, 'length'))
+        $this->length = is_null($length = ArrayAccess::getgetInteger($input, 'length'))
             ? new Length
             : new Length($length);
     }

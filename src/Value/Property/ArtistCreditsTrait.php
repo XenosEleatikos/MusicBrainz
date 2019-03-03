@@ -3,6 +3,7 @@
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Value\ArtistCredit;
 use MusicBrainz\Value\ArtistCreditList;
 
 /**
@@ -20,7 +21,7 @@ trait ArtistCreditsTrait
     /**
      * Returns a list of artist credits.
      *
-     * @return ArtistCreditList
+     * @return ArtistCredit[]|ArtistCreditList
      */
     public function getArtistCredits(): ArtistCreditList
     {
@@ -30,13 +31,14 @@ trait ArtistCreditsTrait
     /**
      * Sets the list of artist credits by extracting it from a given input array.
      *
-     * @param array $input An array returned by the webservice
+     * @param array  $input An array returned by the webservice
+     * @param string $key   Optional array key. Default: 'artist-credits'
      *
      * @return void
      */
-    private function setArtistCreditsFromArray(array $input): void
+    private function setArtistCreditsFromArray(array $input, string $key = 'artist-credits'): void
     {
-        $this->artistCredits = is_null($artistCredits = ArrayAccess::getArray($input, 'artist-credits'))
+        $this->artistCredits = is_null($artistCredits = ArrayAccess::getArray($input, $key))
             ? new ArtistCreditList
             : new ArtistCreditList($artistCredits);
     }

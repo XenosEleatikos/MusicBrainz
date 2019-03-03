@@ -21,7 +21,7 @@ git clone https://github.com/XenosEleatikos/MusicBrainz.git
 ```
 
 ### Install with Composer
-This project is available at [Packagist](https://packagist.org): https://packagist.org/packages/papposilene/musicbrainz.
+This project is available at [Packagist](https://packagist.org): https://packagist.org/packages/xenos/musicbrainz.
 
 You can use it in your project with the following command:
 ```bash
@@ -89,7 +89,7 @@ $musicBrainz->config()
 
 ### Custom API Path
 By default, all requests are executed against the MusicBrainz API at
-[https://musicbrainz.org/ws/2](http://musicbrainz.org/ws/2). You can set another base path (e. g. for your own MusicBrainz
+[http://musicbrainz.org/ws/2](http://musicbrainz.org/ws/2). You can set another base path (e. g. for your own MusicBrainz
 installation) as follows:
 
 ```php

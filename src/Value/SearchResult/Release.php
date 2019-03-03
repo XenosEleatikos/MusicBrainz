@@ -2,7 +2,7 @@
 
 namespace MusicBrainz\Value\SearchResult;
 
-use MusicBrainz\Value\Property\ReleasesTrait;
+use MusicBrainz\Value\Property\ReleaseTrait;
 use MusicBrainz\Value\SearchResult;
 
 /**

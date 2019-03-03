@@ -20,7 +20,7 @@ class ArtistCredit implements Value
      */
     public function __construct(array $artistCredit = [])
     {
-        $this->setArtist($artistCredit);
+        $this->setArtistFromArray($artistCredit);
         $this->setJoinPhraseFromArray($artistCredit);
         $this->setNameFromArray($artistCredit);
     }

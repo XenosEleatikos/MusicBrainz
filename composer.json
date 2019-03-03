@@ -1,9 +1,9 @@
 {
-    "name": "papposilene/musicbrainz",
+    "name": "xenos/musicbrainz",
     "type": "library",
     "description": "A PHP library for accessing the MusicBrainz API",
     "keywords": ["musicbrainz", "library", "php", "api"],
-    "homepage": "https://github.com/papposilene/MusicBrainz",
+    "homepage": "https://github.com/XenosEleatikos/MusicBrainz",
     "license": "MIT",
     "authors": [
         {
@@ -11,21 +11,15 @@
             "email": "christoph@hochholzer.info",
             "homepage": "https://github.com/XenosEleatikos",
             "role": "Developer"
-        },
-        {
-            "name": "Philippe-Alexandre Pierre",
-            "email": "dev@psln.nl",
-            "homepage": "https://github.com/papposilene",
-            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.1.0",
-        "guzzlehttp/guzzle": "^6",
         "psr/log": "~1.0",
-        "xenos/asklucy": "1.*"
+        "xenos/asklucy": "^2"
     },
     "require-dev": {
+        "guzzlehttp/guzzle": "^6",
         "phpunit/phpunit": "^6.2"
     },
     "suggest": {

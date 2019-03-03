@@ -33,7 +33,7 @@ trait MBIDTrait
      * Sets the MusicBrainz Identifier (MBID) by extracting it from a given input array.
      *
      * @param array  $input An array returned by the webservice
-     * @param string $key   An array key. Default: 'id'
+     * @param string $key   Optional array key. Default: 'id'
      *
      * @return void
      */

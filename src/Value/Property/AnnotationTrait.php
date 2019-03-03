@@ -30,7 +30,8 @@ trait AnnotationTrait
     /**
      * Sets the annotation by extracting it from a given input array.
      *
-     * @param array $annotation An array returned by the webservice
+     * @param array  $annotation An array returned by the webservice
+     * @param string $key        Optional array key. Default: 'annotation'
      *
      * @preturn void
      */

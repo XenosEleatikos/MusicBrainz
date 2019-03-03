@@ -1,8 +1,8 @@
 <?php
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Phrase;
-use AskLucy\Term;
+use AskLucy\Expression\Clause\Phrase;
+use AskLucy\Expression\Clause\Term;
 
 trait AbstractAdderTrait
 {

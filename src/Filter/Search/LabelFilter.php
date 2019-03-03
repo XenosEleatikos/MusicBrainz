@@ -1,8 +1,8 @@
 <?php
 
 namespace MusicBrainz\Filter\Search;
-use AskLucy\Phrase;
-use AskLucy\Term;
+use AskLucy\Expression\Clause\Phrase;
+use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Country;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Disambiguation;

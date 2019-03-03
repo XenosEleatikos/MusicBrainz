@@ -1,8 +1,7 @@
 <?php
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Term;
-use MusicBrainz\Value\Barcode;
+use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait ArtistIdTrait

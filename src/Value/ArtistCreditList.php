@@ -17,7 +17,7 @@ class ArtistCreditList extends ValueList
         parent::__construct(
             array_map(
                 function($artistCredit) {
-                    return new Artist($artistCredit);
+                    return new ArtistCredit($artistCredit);
                 },
                 $artistCredits
             )

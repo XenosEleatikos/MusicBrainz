@@ -1,7 +1,7 @@
 <?php
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Phrase;
+use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\Name;
 
 trait ArtistNameWithoutAccentsTrait

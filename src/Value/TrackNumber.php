@@ -5,7 +5,7 @@ namespace MusicBrainz\Value;
 use MusicBrainz\Value;
 
 /**
- * A track position number
+ * A track number
  */
 class TrackNumber implements Value
 {
@@ -17,9 +17,9 @@ class TrackNumber implements Value
     private $trackNumber;
 
     /**
-     * Constructs a position.
+     * Constructs a track position number.
      *
-     * @param int $position A track position number
+     * @param int $number A track number
      */
     public function __construct(?int $trackNumber = 0)
     {
@@ -33,6 +33,6 @@ class TrackNumber implements Value
      */
     public function __toString(): string
     {
-        return ($this->trackNumber) ? (int) $this->trackNumber : '0';
+        return ($this->trackNumber) ? (string) $this->trackNumber : '';
     }
 }

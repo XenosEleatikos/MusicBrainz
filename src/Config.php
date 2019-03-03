@@ -28,7 +28,7 @@ class Config
      *
      * @var string
      */
-    private $userAgent = 'https://github.com/papposilene/MusicBrainz';
+    private $userAgent = 'https://github.com/XenosEleatikos/MusicBrainz';
 
     /**
      * URL of the MusicBrainz API
