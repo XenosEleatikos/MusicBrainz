@@ -2,6 +2,7 @@
 
 namespace MusicBrainz\Value\Property;
 
+use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Place;
 
 /**
@@ -26,4 +27,17 @@ trait PlaceTrait
         return $this->place;
     }
 
+    /**
+     * Sets the place by extracting it from a given input array.
+     *
+     * @param array $input An array returned by the webservice
+     *
+     * @return void
+     */
+    private function setPlaceFromArray(array $input): void
+    {
+        $this->place = is_null($place = ArrayAccess::getArray($input, 'place'))
+            ? new Place
+            : new Place($place);
+    }
 }
