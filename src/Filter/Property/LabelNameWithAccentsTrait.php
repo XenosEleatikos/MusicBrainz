@@ -27,6 +27,6 @@ trait LabelNameWithAccentsTrait
      */
     public function addLabelNameWithAccents(Name $labelNameWithAccents): Phrase
     {
-        return $this->addPhrase($labelNameWithAccents, self::labelName());
+        return $this->addPhrase($labelNameWithAccents, self::labelNameWithAccents());
     }
 }
