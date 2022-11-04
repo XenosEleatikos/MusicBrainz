@@ -37,7 +37,7 @@ trait PlaceTrait
     private function setPlaceFromArray(array $input): void
     {
         $this->place = is_null($place = ArrayAccess::getArray($input, 'place'))
-            ? new Place
+            ? new Place()
             : new Place($place);
     }
 }

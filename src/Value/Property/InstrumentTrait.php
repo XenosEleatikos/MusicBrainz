@@ -37,7 +37,7 @@ trait InstrumentTrait
     private function setInstrumentFromArray(array $input): void
     {
         $this->instrument = is_null($sortName = ArrayAccess::getString($input, 'instrument'))
-            ? new Instrument
+            ? new Instrument()
             : new Instrument($sortName);
     }
 }

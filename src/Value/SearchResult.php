@@ -18,6 +18,6 @@ abstract class SearchResult implements Value
      */
     public function __construct(array $searchResult = [])
     {
-        $this->score = isset($searchResult['score']) ? new Score($searchResult['score']) : new Score;
+        $this->score = isset($searchResult['score']) ? new Score($searchResult['score']) : new Score();
     }
 }

@@ -39,7 +39,7 @@ trait RelationsToReleaseGroupTrait
     private function setReleaseGroupRelationsFromArray(array $input): void
     {
         $this->releaseGroupRelations = is_null($input = ArrayAccess::getArray($input, EntityType::RELEASE_GROUP))
-            ? new RelationToReleaseGroupList
+            ? new RelationToReleaseGroupList()
             : new RelationToReleaseGroupList($input);
     }
 }

@@ -37,7 +37,7 @@ trait LabelTypeTrait
     private function setLabelTypeFromArray(array $input): void
     {
         $this->labelType = is_null($labelType = ArrayAccess::getString($input, 'type'))
-            ? new LabelType
+            ? new LabelType()
             : new LabelType($labelType);
     }
 }

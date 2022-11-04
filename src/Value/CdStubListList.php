@@ -16,7 +16,7 @@ class CdStubListList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($cdStub) {
+                function ($cdStub) {
                     return new CdStub($cdStub);
                 },
                 $cdStubs

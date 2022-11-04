@@ -38,7 +38,7 @@ trait LanguagesTrait
     private function setLanguagesFromArray(array $input): void
     {
         $this->languages = is_null($languages = ArrayAccess::getArray($input, 'languages'))
-            ? new LanguageList
+            ? new LanguageList()
             : new LanguageList($languages);
     }
 }

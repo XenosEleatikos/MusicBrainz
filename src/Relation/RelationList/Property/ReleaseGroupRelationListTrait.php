@@ -45,11 +45,11 @@ trait ReleaseGroupRelationListTrait
                 }
             }
 
-            $this->relations = new ReleaseGroupRelationList;
+            $this->relations = new ReleaseGroupRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new ReleaseGroupRelationList($array)
-            : new ReleaseGroupRelationList;
+            : new ReleaseGroupRelationList();
     }
 }

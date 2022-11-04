@@ -37,7 +37,7 @@ trait EditorNameTrait
     private function setEditorNameFromArray(array $input): void
     {
         $this->editorName = is_null($editorName = ArrayAccess::getString($input, 'editor'))
-            ? new EditorName
+            ? new EditorName()
             : new EditorName($editorName);
     }
 }

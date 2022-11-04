@@ -25,5 +25,4 @@ trait TagTrait
     {
         return $this->Tag;
     }
-
 }

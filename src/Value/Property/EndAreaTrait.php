@@ -45,7 +45,7 @@ trait EndAreaTrait
     private function setEndAreaFromArray(array $input): void
     {
         $this->endArea = is_null($endArea = ArrayAccess::getArray($input, 'end-area'))
-            ? new Area
+            ? new Area()
             : new Area($endArea);
     }
 }

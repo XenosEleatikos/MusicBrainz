@@ -37,7 +37,7 @@ trait DataQualityTrait
     private function setDataQualityFromArray(array $input): void
     {
         $this->quality = is_null($quality = ArrayAccess::getString($input, 'quality'))
-            ? new DataQuality
+            ? new DataQuality()
             : new DataQuality($quality);
     }
 }

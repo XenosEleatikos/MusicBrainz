@@ -275,7 +275,6 @@ class Search
     private function getParameters(AbstractFilter $searchFilter, PageFilter $pageFilter): array
     {
         if (empty((string) $searchFilter)) {
-
             throw new Exception('The filter needs at least one argument to create a query.');
         }
 

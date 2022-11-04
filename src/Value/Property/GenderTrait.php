@@ -38,7 +38,7 @@ trait GenderTrait
     private function setGenderFromArray(array $input): void
     {
         $this->gender = is_null($sortName = ArrayAccess::getString($input, 'gender'))
-            ? new Gender
+            ? new Gender()
             : new Gender($sortName);
     }
 }

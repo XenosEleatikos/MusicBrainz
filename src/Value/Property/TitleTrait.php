@@ -37,7 +37,7 @@ trait TitleTrait
     private function setTitleFromArray(array $input): void
     {
         $this->title = is_null($title = ArrayAccess::getString($input, 'title'))
-            ? new Title
+            ? new Title()
             : new Title($title);
     }
 }

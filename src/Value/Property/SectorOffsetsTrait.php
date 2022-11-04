@@ -38,7 +38,7 @@ trait SectorOffsetsTrait
     private function setSectorOffsetsFromArray(array $input): void
     {
         $this->sectorOffsets = is_null($sectorOffsets = ArrayAccess::getArray($input, 'offsets'))
-            ? new SectorOffsetList
+            ? new SectorOffsetList()
             : new SectorOffsetList($sectorOffsets);
     }
 }

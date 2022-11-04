@@ -16,7 +16,7 @@ class WorkList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($work) {
+                function ($work) {
                     return new Work($work);
                 },
                 $works

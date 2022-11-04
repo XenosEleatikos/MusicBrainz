@@ -37,7 +37,7 @@ trait ASINTrait
     private function setAsinFromArray(array $input): void
     {
         $this->asin = is_null($asin = ArrayAccess::getString($input, 'asin'))
-            ? new ASIN
+            ? new ASIN()
             : new ASIN($asin);
     }
 }

@@ -37,7 +37,7 @@ trait OffsetTrait
     private function setOffsetFromArray(array $input): void
     {
         $this->offset = is_null($count = ArrayAccess::getInteger($input, 'offset'))
-            ? new Count
+            ? new Count()
             : new Count($count);
     }
 

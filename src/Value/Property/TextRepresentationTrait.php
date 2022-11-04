@@ -37,7 +37,7 @@ trait TextRepresentationTrait
     private function setTextRepresentationFromArray(array $input): void
     {
         $this->textRepresentation = is_null($textRepresentation = ArrayAccess::getArray($input, 'text-representation'))
-            ? new TextRepresentation
+            ? new TextRepresentation()
             : new TextRepresentation($textRepresentation);
     }
 }

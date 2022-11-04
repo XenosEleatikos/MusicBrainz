@@ -37,7 +37,7 @@ trait LabelTrait
     private function setLabelFromArray(array $input): void
     {
         $this->label = is_null($label = ArrayAccess::getArray($input, 'label'))
-            ? new Label
+            ? new Label()
             : new Label($label);
     }
 }

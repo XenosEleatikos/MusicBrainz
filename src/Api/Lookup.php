@@ -440,7 +440,7 @@ class Lookup
             'user-ratings'  => $workFields->getIncludeFlagForUserRatings(),
             'artist-rels'   => $workFields->getIncludeFlagForArtistRelations(),
             'label-rels'    => $workFields->getIncludeFlagForLabelRelations(),
-            'recording-rels'=> $workFields->getIncludeFlagForRecordingRelations(),
+            'recording-rels' => $workFields->getIncludeFlagForRecordingRelations(),
             'release-rels'  => $workFields->getIncludeFlagForReleaseRelations(),
             'release-group' => $workFields->getIncludeFlagForReleaseGroups(),
             'url-rels'      => $workFields->getIncludeFlagForURLRelations(),
@@ -475,7 +475,7 @@ class Lookup
         ];
 
         $response = $this->httpAdapter->call(
-            str_replace('_' , '-', (string) $entityType) .
+            str_replace('_', '-', (string) $entityType) .
             '/' .
             (string) $mbid,
             $this->config,

@@ -39,7 +39,7 @@ trait RelationsToLabelTrait
     private function setLabelRelationsFromArray(array $input): void
     {
         $this->labelRelations = is_null($input = ArrayAccess::getArray($input, EntityType::LABEL))
-            ? new RelationToLabelList
+            ? new RelationToLabelList()
             : new RelationToLabelList($input);
     }
 }

@@ -18,7 +18,7 @@ class IPIList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($ipiCode) {
+                function ($ipiCode) {
                     return new IPI($ipiCode);
                 },
                 $ipiCodes

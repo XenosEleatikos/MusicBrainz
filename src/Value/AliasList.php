@@ -18,7 +18,7 @@ class AliasList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($alias) {
+                function ($alias) {
                     return new Alias($alias);
                 },
                 $aliases

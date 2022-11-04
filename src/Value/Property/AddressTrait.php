@@ -37,7 +37,7 @@ trait AddressTrait
     private function setAddressFromArray(array $input): void
     {
         $this->address = is_null($address = ArrayAccess::getString($input, 'address'))
-            ? new Address
+            ? new Address()
             : new Address($address);
     }
 }

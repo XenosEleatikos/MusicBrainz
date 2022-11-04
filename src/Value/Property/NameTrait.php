@@ -38,7 +38,7 @@ trait NameTrait
     private function setNameFromArray(array $input, string $key = 'name'): void
     {
         $this->name = is_null($name = ArrayAccess::getString($input, $key))
-            ? new Name
+            ? new Name()
             : new Name($name);
     }
 }

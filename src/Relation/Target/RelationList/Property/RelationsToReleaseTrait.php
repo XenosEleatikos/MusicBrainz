@@ -39,7 +39,7 @@ trait RelationsToReleaseTrait
     private function setReleaseRelationsFromArray(array $input): void
     {
         $this->releaseRelations = is_null($input = ArrayAccess::getArray($input, EntityType::RELEASE))
-            ? new RelationToReleaseList
+            ? new RelationToReleaseList()
             : new RelationToReleaseList($input);
     }
 }

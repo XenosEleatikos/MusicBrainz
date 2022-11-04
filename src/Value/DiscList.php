@@ -16,7 +16,7 @@ class DiscList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($disc) {
+                function ($disc) {
                     return new Disc($disc);
                 },
                 $discs

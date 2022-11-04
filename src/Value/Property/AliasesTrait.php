@@ -38,7 +38,7 @@ trait AliasesTrait
     private function setAliasesFromArray(array $input): void
     {
         $this->aliases = is_null($aliases = ArrayAccess::getArray($input, 'aliases'))
-            ? new AliasList
+            ? new AliasList()
             : new AliasList($aliases);
     }
 }

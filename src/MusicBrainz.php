@@ -40,7 +40,7 @@ class MusicBrainz
     public function __construct(AbstractHttpAdapter $adapter, LoggerInterface $logger = null)
     {
         $this->adapter = $adapter;
-        $this->config  = new Config;
+        $this->config  = new Config();
         self::setLogger($logger);
     }
 
@@ -84,6 +84,6 @@ class MusicBrainz
      */
     private static function setLogger(LoggerInterface $logger = null): LoggerInterface
     {
-        return self::$logger = (is_null($logger)) ? new NullLogger : $logger;
+        return self::$logger = (is_null($logger)) ? new NullLogger() : $logger;
     }
 }

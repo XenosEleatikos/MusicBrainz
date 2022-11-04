@@ -37,7 +37,7 @@ trait DiscsTrait
     private function setDiscsFromArray(array $input): void
     {
         $this->discs = is_null($discs = ArrayAccess::getArray($input, 'discs'))
-            ? new DiscList
+            ? new DiscList()
             : new DiscList($discs);
     }
 }

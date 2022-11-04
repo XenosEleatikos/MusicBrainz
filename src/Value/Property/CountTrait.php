@@ -38,7 +38,7 @@ trait CountTrait
     private function setCountFromArray(array $input, string $key = 'count'): void
     {
         $this->count = is_null($count = ArrayAccess::getInteger($input, $key))
-            ? new Count
+            ? new Count()
             : new Count($count);
     }
 

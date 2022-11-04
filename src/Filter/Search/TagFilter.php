@@ -10,5 +10,4 @@ namespace MusicBrainz\Filter\Search;
 class TagFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\TagNameTrait;
-
 }

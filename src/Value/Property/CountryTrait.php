@@ -37,7 +37,7 @@ trait CountryTrait
     private function setCountryFromArray(array $input): void
     {
         $this->country = is_null($country = ArrayAccess::getString($input, 'country'))
-            ? new Country
+            ? new Country()
             : new Country($country);
     }
 }

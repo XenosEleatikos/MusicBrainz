@@ -16,7 +16,7 @@ class EventList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($event) {
+                function ($event) {
                     return new Event($event);
                 },
                 $events

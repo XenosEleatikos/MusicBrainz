@@ -40,7 +40,7 @@ trait IpisTrait
     private function setIpisFromArray(array $input): void
     {
         $this->ipis = is_null($ipis = ArrayAccess::getArray($input, 'ipis'))
-            ? new IPIList
+            ? new IPIList()
             : new IPIList($ipis);
     }
 }

@@ -38,7 +38,7 @@ trait CollectionsTrait
     private function setCollectionsFromArray(array $input): void
     {
         $this->collections = is_null($collections = ArrayAccess::getArray($input, 'collections'))
-            ? new CollectionList
+            ? new CollectionList()
             : new CollectionList($collections);
     }
 }

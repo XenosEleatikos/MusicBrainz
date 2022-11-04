@@ -37,7 +37,7 @@ trait CancelledTrait
     private function setCancelledFromArray(array $input): void
     {
         $this->cancelled = is_null($cancelled = ArrayAccess::getBool($input, 'cancelled'))
-            ? new Cancelled
+            ? new Cancelled()
             : new Cancelled($cancelled);
     }
 }

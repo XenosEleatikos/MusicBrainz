@@ -38,7 +38,7 @@ trait SecondaryReleaseTypesListTrait
     private function setSecondaryReleaseTypesFromArray(array $input): void
     {
         $this->secondaryReleaseTypes = is_null($secondaryReleaseTypes = ArrayAccess::getArray($input, 'secondary-types'))
-            ? new ReleaseTypeList
+            ? new ReleaseTypeList()
             : new ReleaseTypeList($secondaryReleaseTypes);
     }
 }

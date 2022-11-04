@@ -38,7 +38,7 @@ trait ReleasesTrait
     private function setReleasesFromArray(array $input): void
     {
         $this->releases = is_null($rating = ArrayAccess::getArray($input, 'releases'))
-            ? new ReleaseList
+            ? new ReleaseList()
             : new ReleaseList($rating);
     }
 }

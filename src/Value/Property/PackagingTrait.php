@@ -41,7 +41,7 @@ trait PackagingTrait
         $packagingId = ArrayAccess::getString($input, 'packaging-id');
 
             $this->packaging = (is_null($packaging) && is_null($packagingId))
-            ? new Packaging
+            ? new Packaging()
             : new Packaging($packaging, new MBID($packagingId ?: ''));
     }
 }

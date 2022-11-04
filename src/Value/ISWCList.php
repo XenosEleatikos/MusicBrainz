@@ -16,7 +16,7 @@ class ISWCList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($code) {
+                function ($code) {
                     return new ISWC($code);
                 },
                 $codes

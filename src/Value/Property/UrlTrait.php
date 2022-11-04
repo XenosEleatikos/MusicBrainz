@@ -25,5 +25,4 @@ trait UrlTrait
     {
         return $this->url;
     }
-
 }

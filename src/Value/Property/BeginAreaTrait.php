@@ -44,7 +44,7 @@ trait BeginAreaTrait
     private function setBeginAreaFromArray(array $input): void
     {
         $this->beginArea = is_null($beginArea = ArrayAccess::getArray($input, 'begin_area'))
-            ? new Area
+            ? new Area()
             : new Area($beginArea);
     }
 }

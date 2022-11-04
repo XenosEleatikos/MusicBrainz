@@ -37,7 +37,7 @@ trait EventTypeTrait
     private function setEventTypeFromArray(array $input): void
     {
         $this->eventType = is_null($eventType = ArrayAccess::getString($input, 'type'))
-            ? new EventType
+            ? new EventType()
             : new EventType($eventType);
     }
 }

@@ -37,7 +37,7 @@ trait LongitudeTrait
     private function setLongitudeFromArray(array $input): void
     {
         $this->longitude = is_null($longitude = ArrayAccess::getString($input, 'longitude'))
-            ? new Longitude
+            ? new Longitude()
             : new Longitude($longitude);
     }
 }

@@ -24,7 +24,7 @@ abstract class Page extends ValueList
     public function __construct(array $array = [], int $offset = 0, int $count = 0, string $created = '')
     {
         $array = array_map(
-            function($collection) {
+            function ($collection) {
                 $className = static::getType();
                 return new $className($collection);
             },

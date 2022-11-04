@@ -37,7 +37,7 @@ trait LocaleCodeTrait
     private function setLocaleCodeFromArray(array $input): void
     {
         $this->localeCode = is_null($localeCode = ArrayAccess::getString($input, 'locale'))
-            ? new LocaleCode
+            ? new LocaleCode()
             : new LocaleCode($localeCode);
     }
 }

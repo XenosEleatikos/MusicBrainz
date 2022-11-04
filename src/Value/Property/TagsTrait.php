@@ -38,7 +38,7 @@ trait TagsTrait
     private function setTagsFromArray(array $input): void
     {
         $this->tags = is_null($tags = ArrayAccess::getArray($input, 'tags'))
-            ? new TagList
+            ? new TagList()
             : new TagList($tags);
     }
 }

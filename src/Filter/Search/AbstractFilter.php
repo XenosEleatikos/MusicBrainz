@@ -24,7 +24,7 @@ abstract class AbstractFilter
      */
     public function __construct()
     {
-        $this->query = new Query;
+        $this->query = new Query();
     }
 
     /**

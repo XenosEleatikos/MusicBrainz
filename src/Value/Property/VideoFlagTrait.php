@@ -37,7 +37,7 @@ trait VideoFlagTrait
     private function setVideoFlagFromArray(array $input): void
     {
         $this->videoFlag = is_null($videoFlag = ArrayAccess::getBool($input, 'video'))
-            ? new VideoFlag
+            ? new VideoFlag()
             : new VideoFlag($videoFlag);
     }
 }

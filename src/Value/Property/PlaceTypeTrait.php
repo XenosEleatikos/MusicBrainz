@@ -37,7 +37,7 @@ trait PlaceTypeTrait
     private function setPlaceTypeFromArray(array $input): void
     {
         $this->placeType = is_null($placeType = ArrayAccess::getString($input, 'type'))
-            ? new PlaceType
+            ? new PlaceType()
             : new PlaceType($placeType);
     }
 }

@@ -17,7 +17,7 @@ class NullType extends Type
      */
     public static function getBaseEntityType(): EntityType
     {
-        return new EntityType;
+        return new EntityType();
     }
 
     /**
@@ -27,7 +27,7 @@ class NullType extends Type
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType;
+        return new EntityType();
     }
 
     /**

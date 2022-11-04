@@ -39,7 +39,7 @@ trait RelationsToArtistTrait
     private function setArtistRelationsFromArray(array $input): void
     {
         $this->artistRelations = is_null($input = ArrayAccess::getArray($input, EntityType::ARTIST))
-            ? new RelationToArtistList
+            ? new RelationToArtistList()
             : new RelationToArtistList($input);
     }
 }

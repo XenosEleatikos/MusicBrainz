@@ -38,7 +38,7 @@ trait TracksTrait
     private function setTracksFromArray(array $input): void
     {
         $this->tracks = is_null($tracks = ArrayAccess::getArray($input, 'tracks'))
-            ? new TrackList
+            ? new TrackList()
             : new TrackList($tracks);
     }
 }

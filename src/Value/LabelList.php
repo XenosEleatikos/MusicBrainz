@@ -16,7 +16,7 @@ class LabelList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($label) {
+                function ($label) {
                     return new Label($label);
                 },
                 $labels

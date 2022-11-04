@@ -16,7 +16,7 @@ class TrackList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($track) {
+                function ($track) {
                     return new Track($track);
                 },
                 $tracks

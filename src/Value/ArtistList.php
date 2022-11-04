@@ -16,7 +16,7 @@ class ArtistList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($artist) {
+                function ($artist) {
                     return new Artist($artist);
                 },
                 $artists

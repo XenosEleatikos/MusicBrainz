@@ -42,7 +42,7 @@ trait SortNameTrait
     private function setSortNameFromArray(array $input): void
     {
         $this->sortName = is_null($sortName = ArrayAccess::getString($input, 'sort-name'))
-            ? new SortName
+            ? new SortName()
             : new SortName($sortName);
     }
 }

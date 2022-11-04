@@ -71,9 +71,9 @@ class RelationFactory
         if (array_key_exists((string) $relationTypeId, $classMap)) {
             $relationType = RelationTypeId::getClassMap()[(string) $relationTypeId];
 
-            return new $relationType;
+            return new $relationType();
         }
 
-        return new NullType;
+        return new NullType();
     }
 }

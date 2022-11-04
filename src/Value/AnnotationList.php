@@ -16,7 +16,7 @@ class AnnotationList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($annotation) {
+                function ($annotation) {
                     return new Annotation($annotation);
                 },
                 $annotations

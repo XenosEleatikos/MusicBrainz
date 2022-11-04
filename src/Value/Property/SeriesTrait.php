@@ -37,7 +37,7 @@ trait SeriesTrait
     private function setSeriesFromArray(array $input): void
     {
         $this->series = is_null($series = ArrayAccess::getString($input, 'series'))
-            ? new Series
+            ? new Series()
             : new Series($series);
     }
 }

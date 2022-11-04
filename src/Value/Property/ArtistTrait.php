@@ -43,7 +43,7 @@ trait ArtistTrait
         }
 
         $this->artist = is_null($artist = ArrayAccess::getArray($input, $key))
-            ? new Artist
+            ? new Artist()
             : new Artist($artist);
     }
 }

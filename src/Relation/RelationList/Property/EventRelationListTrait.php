@@ -45,11 +45,11 @@ trait EventRelationListTrait
                 }
             }
 
-            $this->relations = new EventRelationList;
+            $this->relations = new EventRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new EventRelationList($array)
-            : new EventRelationList;
+            : new EventRelationList();
     }
 }

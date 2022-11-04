@@ -45,11 +45,11 @@ trait UrlRelationListTrait
                 }
             }
 
-            $this->relations = new UrlRelationList;
+            $this->relations = new UrlRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new UrlRelationList($array)
-            : new UrlRelationList;
+            : new UrlRelationList();
     }
 }

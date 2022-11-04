@@ -18,7 +18,7 @@ class TagList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($tag) {
+                function ($tag) {
                     return new Tag($tag);
                 },
                 $tags

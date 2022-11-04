@@ -16,7 +16,7 @@ class CollectionList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($collection) {
+                function ($collection) {
                     return new Collection($collection);
                 },
                 $collections

@@ -45,11 +45,11 @@ trait LabelRelationListTrait
                 }
             }
 
-            $this->relations = new LabelRelationList;
+            $this->relations = new LabelRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new LabelRelationList($array)
-            : new LabelRelationList;
+            : new LabelRelationList();
     }
 }

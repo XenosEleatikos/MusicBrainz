@@ -37,7 +37,7 @@ trait ReleaseGroupTrait
     private function setReleaseGroupFromArray(array $input): void
     {
         $this->releaseGroup = is_null($releaseGroup = ArrayAccess::getArray($input, 'release-group'))
-            ? new ReleaseGroup
+            ? new ReleaseGroup()
             : new ReleaseGroup($releaseGroup);
     }
 }

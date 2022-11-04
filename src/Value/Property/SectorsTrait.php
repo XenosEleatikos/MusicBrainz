@@ -37,7 +37,7 @@ trait SectorsTrait
     private function setSectorsFromArray(array $input): void
     {
         $this->sectors = is_null($sectors = ArrayAccess::getInteger($input, 'sectors'))
-            ? new Sectors
+            ? new Sectors()
             : new Sectors($sectors);
     }
 }

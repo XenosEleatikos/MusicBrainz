@@ -25,5 +25,4 @@ trait TrackTrait
     {
         return $this->track;
     }
-
 }

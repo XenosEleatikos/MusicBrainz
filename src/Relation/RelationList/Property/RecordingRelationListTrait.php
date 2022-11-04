@@ -45,11 +45,11 @@ trait RecordingRelationListTrait
                 }
             }
 
-            $this->relations = new RecordingRelationList;
+            $this->relations = new RecordingRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new RecordingRelationList($array)
-            : new RecordingRelationList;
+            : new RecordingRelationList();
     }
 }

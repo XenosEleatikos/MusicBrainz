@@ -16,7 +16,7 @@ class PlaceList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($place) {
+                function ($place) {
                     return new Place($place);
                 },
                 $places

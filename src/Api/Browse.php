@@ -464,7 +464,7 @@ class Browse
             $params['inc'] = implode('+', $includes);
         }
 
-        $response = $this->httpAdapter->call(str_replace('_' , '-', (string) $entity) . '/', $this->config, $params);
+        $response = $this->httpAdapter->call(str_replace('_', '-', (string) $entity) . '/', $this->config, $params);
 
         return $response;
     }

@@ -16,7 +16,7 @@ class ISO31661CodeList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($code) {
+                function ($code) {
                     return new ISO31661Code($code);
                 },
                 $codes

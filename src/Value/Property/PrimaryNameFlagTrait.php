@@ -37,7 +37,7 @@ trait PrimaryNameFlagTrait
     private function setPrimaryNameFromArray(array $input): void
     {
         $this->primaryName = is_null($primaryName = ArrayAccess::getBool($input, 'primary'))
-            ? new PrimaryNameFlag
+            ? new PrimaryNameFlag()
             : new PrimaryNameFlag($primaryName);
     }
 }

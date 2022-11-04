@@ -1,6 +1,7 @@
 <?php
 
 namespace MusicBrainz\Filter\Search;
+
 use AskLucy\Expression\Clause\Phrase;
 use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Country;

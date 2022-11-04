@@ -16,7 +16,7 @@ class SectorOffsetList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($sectors) {
+                function ($sectors) {
                     return new Sectors($sectors);
                 },
                 $sectorss

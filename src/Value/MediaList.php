@@ -16,7 +16,7 @@ class MediaList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($medium) {
+                function ($medium) {
                     return new Medium($medium);
                 },
                 $media

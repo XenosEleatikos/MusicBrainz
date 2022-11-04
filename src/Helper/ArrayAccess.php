@@ -21,12 +21,10 @@ class ArrayAccess
     public static function getArray(array $array, string $key): ?array
     {
         if (!isset($array[$key])) {
-
             return null;
         }
 
         if (is_array($array[$key])) {
-
             return $array[$key];
         }
 
@@ -48,12 +46,10 @@ class ArrayAccess
     public static function getBool(array $array, string $key): ?bool
     {
         if (!isset($array[$key])) {
-
             return null;
         }
 
         if (is_bool($array[$key])) {
-
             return $array[$key];
         }
 
@@ -75,12 +71,10 @@ class ArrayAccess
     public static function getFloat(array $array, string $key): ?float
     {
         if (!isset($array[$key])) {
-
             return null;
         }
 
         if (is_float($array[$key])) {
-
             return $array[$key];
         }
 
@@ -102,12 +96,10 @@ class ArrayAccess
     public static function getInteger(array $array, string $key): ?string
     {
         if (!isset($array[$key])) {
-
             return null;
         }
 
         if (is_int($array[$key])) {
-
             return $array[$key];
         }
 
@@ -129,12 +121,10 @@ class ArrayAccess
     public static function getString(array $array, string $key): ?string
     {
         if (!isset($array[$key])) {
-
             return null;
         }
 
         if (is_string($array[$key])) {
-
             return $array[$key];
         }
 

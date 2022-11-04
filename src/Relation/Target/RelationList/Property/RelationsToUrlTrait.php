@@ -39,7 +39,7 @@ trait RelationsToUrlTrait
     private function setUrlRelationsFromArray(array $input): void
     {
         $this->urlRelations = is_null($input = ArrayAccess::getArray($input, EntityType::URL))
-            ? new RelationToUrlList
+            ? new RelationToUrlList()
             : new RelationToUrlList($input);
     }
 }

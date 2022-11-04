@@ -37,7 +37,7 @@ trait ScriptTrait
     private function setScriptFromArray(array $input): void
     {
         $this->script = is_null($script = ArrayAccess::getString($input, 'script'))
-            ? new Script
+            ? new Script()
             : new Script($script);
     }
 }

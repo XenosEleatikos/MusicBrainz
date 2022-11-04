@@ -95,7 +95,7 @@ class InstrumentType implements Value
                 : self::UNDEFINED;
         }
 
-        $this->mbid = $mbid ?: new MBID;
+        $this->mbid = $mbid ?: new MBID();
     }
 
     /**

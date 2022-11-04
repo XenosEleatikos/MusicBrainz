@@ -38,7 +38,7 @@ trait EntityTypeTrait
     private function setEntityTypeFromArray(array $input, string $key = 'entity-type'): void
     {
         $this->entityType = is_null($entityType = ArrayAccess::getString($input, $key))
-            ? new EntityType
+            ? new EntityType()
             : new EntityType($entityType);
     }
 }

@@ -45,11 +45,11 @@ trait AreaRelationListTrait
                 }
             }
 
-            $this->relations = new AreaRelationList;
+            $this->relations = new AreaRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new AreaRelationList($array)
-            : new AreaRelationList;
+            : new AreaRelationList();
     }
 }

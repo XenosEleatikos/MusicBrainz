@@ -37,7 +37,7 @@ trait DiscIdTrait
     private function setDiscIdFromArray(array $input): void
     {
         $this->discId = is_null($discId = ArrayAccess::getString($input, 'id'))
-            ? new DiscId
+            ? new DiscId()
             : new DiscId($discId);
     }
 }

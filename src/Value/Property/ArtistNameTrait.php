@@ -38,7 +38,7 @@ trait ArtistNameTrait
     private function setArtistNameFromArray(array $input, string $key = 'artist'): void
     {
         $this->artistName = is_null($artistName = ArrayAccess::getString($input, $key))
-            ? new Name
+            ? new Name()
             : new Name($artistName);
     }
 }

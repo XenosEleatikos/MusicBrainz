@@ -37,7 +37,7 @@ trait DateTrait
     private function setDateFromArray(array $input): void
     {
         $this->date = is_null($date = ArrayAccess::getString($input, 'date'))
-            ? new Date
+            ? new Date()
             : new Date($date);
     }
 }

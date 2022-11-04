@@ -34,14 +34,12 @@ class Date implements Value
     public function __construct(string $date = '')
     {
         if (empty($date)) {
-
             return;
         }
 
         $this->originalFormat = $this->getFormat($date);
 
         if (null === $this->originalFormat) {
-
             return;
         }
 
@@ -65,18 +63,15 @@ class Date implements Value
      */
     private function getFormat(string $date): ?string
     {
-        if (preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/',$date)) {
-
+        if (preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/', $date)) {
             return 'Y-m-d';
-            }
+        }
 
-        if (preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])$/',$date)) {
-
+        if (preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])$/', $date)) {
             return 'Y-m';
         }
 
-        if (preg_match('/^[0-9]{4}$/',$date)) {
-
+        if (preg_match('/^[0-9]{4}$/', $date)) {
             return 'Y';
         }
 

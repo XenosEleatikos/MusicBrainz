@@ -37,7 +37,7 @@ trait LatitudeTrait
     private function setLatitudeFromArray(array $input): void
     {
         $this->latitude = is_null($latitude = ArrayAccess::getString($input, 'latitude'))
-            ? new Latitude
+            ? new Latitude()
             : new Latitude($latitude);
     }
 }

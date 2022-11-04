@@ -16,7 +16,7 @@ class RecordingList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($recording) {
+                function ($recording) {
                     return new Recording($recording);
                 },
                 $recording

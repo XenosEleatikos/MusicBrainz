@@ -16,7 +16,7 @@ class SeriesList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($series) {
+                function ($series) {
                     return new Series($series);
                 },
                 $series

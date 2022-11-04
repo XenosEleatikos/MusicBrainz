@@ -37,7 +37,7 @@ trait WorkTypeTrait
     private function setWorkTypeFromArray(array $input): void
     {
         $this->workType = is_null($workType = ArrayAccess::getString($input, 'type'))
-            ? new WorkType
+            ? new WorkType()
             : new WorkType($workType);
     }
 }

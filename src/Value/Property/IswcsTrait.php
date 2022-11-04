@@ -38,7 +38,7 @@ trait IswcsTrait
     private function setIswcsFromArray(array $input): void
     {
         $this->iswcs = is_null($iswcs = ArrayAccess::getArray($input, 'iswcs'))
-            ? new ISWCList
+            ? new ISWCList()
             : new ISWCList($iswcs);
     }
 }

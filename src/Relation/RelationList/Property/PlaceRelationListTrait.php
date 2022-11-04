@@ -45,11 +45,11 @@ trait PlaceRelationListTrait
                 }
             }
 
-            $this->relations = new PlaceRelationList;
+            $this->relations = new PlaceRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new PlaceRelationList($array)
-            : new PlaceRelationList;
+            : new PlaceRelationList();
     }
 }

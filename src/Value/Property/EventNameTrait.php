@@ -37,7 +37,7 @@ trait EventNameTrait
     private function setEventNameFromArray(array $input): void
     {
         $this->eventName = is_null($eventName = ArrayAccess::getString($input, 'name'))
-            ? new EventName
+            ? new EventName()
             : new EventName($eventName);
     }
 }

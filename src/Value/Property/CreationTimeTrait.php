@@ -47,7 +47,7 @@ trait CreationTimeTrait
     private function setCreationTimeFromArray(array $input): void
     {
         $this->creationTime = is_null($creationTime = ArrayAccess::getString($input, 'created'))
-            ? new TimeStamp
+            ? new TimeStamp()
             : new TimeStamp($creationTime);
     }
 }

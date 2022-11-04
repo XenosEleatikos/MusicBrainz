@@ -47,7 +47,7 @@ trait AreaTrait
         }
 
         $this->area = is_null($area = ArrayAccess::getArray($input, $key))
-            ? new Area
+            ? new Area()
             : new Area($area);
     }
 }

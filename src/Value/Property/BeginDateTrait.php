@@ -45,7 +45,7 @@ trait BeginDateTrait
     private function setBeginDateFromArray(array $input): void
     {
         $this->beginDate = is_null($beginDate = ArrayAccess::getString($input, 'begin'))
-            ? new Date
+            ? new Date()
             : new Date($beginDate);
     }
 }

@@ -38,7 +38,7 @@ trait AttributesTrait
     private function setAttributesFromArray(array $input): void
     {
         $this->attributes = is_null($attributes = ArrayAccess::getArray($input, 'attributes'))
-            ? new AttributeList
+            ? new AttributeList()
             : new AttributeList($attributes);
     }
 }

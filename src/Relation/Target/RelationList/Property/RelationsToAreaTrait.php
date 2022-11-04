@@ -39,7 +39,7 @@ trait RelationsToAreaTrait
     private function setAreaRelationsFromArray(array $input): void
     {
         $this->areaRelations = is_null($input = ArrayAccess::getArray($input, EntityType::AREA))
-            ? new RelationToAreaList
+            ? new RelationToAreaList()
             : new RelationToAreaList($input);
     }
 }

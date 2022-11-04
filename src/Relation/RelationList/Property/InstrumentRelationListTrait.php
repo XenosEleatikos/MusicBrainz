@@ -45,11 +45,11 @@ trait InstrumentRelationListTrait
                 }
             }
 
-            $this->relations = new InstrumentRelationList;
+            $this->relations = new InstrumentRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new InstrumentRelationList($array)
-            : new InstrumentRelationList;
+            : new InstrumentRelationList();
     }
 }

@@ -38,7 +38,7 @@ trait ISO31661CodesTrait
     private function setIso31661CodesFromArray(array $input): void
     {
         $this->ISO31661Codes = is_null($ISO31661Codes = ArrayAccess::getArray($input, 'iso-3166-1-codes'))
-            ? new ISO31661CodeList
+            ? new ISO31661CodeList()
             : new ISO31661CodeList($ISO31661Codes);
     }
 }

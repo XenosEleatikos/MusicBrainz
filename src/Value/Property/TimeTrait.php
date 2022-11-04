@@ -37,7 +37,7 @@ trait TimeTrait
     private function setTimeFromArray(array $input): void
     {
         $this->time = is_null($time = ArrayAccess::getString($input, 'time'))
-            ? new Time
+            ? new Time()
             : new Time($time);
     }
 }

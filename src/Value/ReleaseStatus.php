@@ -86,7 +86,7 @@ class ReleaseStatus implements Value
             ? $statusCode
             : self::UNDEFINED;
 
-        $this->MBID = $MBID ?: new MBID;
+        $this->MBID = $MBID ?: new MBID();
     }
 
     /**

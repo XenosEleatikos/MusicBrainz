@@ -37,7 +37,7 @@ trait RatingValueTrait
     private function setRatingValueFromArray(array $input): void
     {
         $this->ratingValue = is_null($ratingValue = ArrayAccess::getFloat($input, 'value'))
-            ? new RatingValue
+            ? new RatingValue()
             : new RatingValue($ratingValue);
     }
 }

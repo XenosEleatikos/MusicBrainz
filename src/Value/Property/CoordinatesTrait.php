@@ -37,7 +37,7 @@ trait CoordinatesTrait
     private function setCoordinatesFromArray(array $input): void
     {
         $this->coordinates = is_null($coordinates = ArrayAccess::getArray($input, 'coordinates'))
-            ? new Coordinates
+            ? new Coordinates()
             : new Coordinates($coordinates);
     }
 }

@@ -37,7 +37,7 @@ trait ResourceTrait
     private function setResourceFromArray(array $input): void
     {
         $this->resource = is_null($resource = ArrayAccess::getString($input, 'resource'))
-            ? new Resource
+            ? new Resource()
             : new Resource($resource);
     }
 }

@@ -16,7 +16,7 @@ class ReleaseEventList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($releaseEvent) {
+                function ($releaseEvent) {
                     return new ReleaseEvent($releaseEvent);
                 },
                 $releaseEvents

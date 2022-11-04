@@ -16,7 +16,7 @@ class LanguageList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($language) {
+                function ($language) {
                     return new Language($language);
                 },
                 $languages

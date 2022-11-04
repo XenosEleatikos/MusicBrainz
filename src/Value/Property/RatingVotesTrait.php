@@ -37,7 +37,7 @@ trait RatingVotesTrait
     private function setRatingVotesFromArray(array $input): void
     {
         $this->ratingVotes = is_null($ratingVotes = ArrayAccess::getInteger($input, 'votes-count'))
-            ? new RatingVotes
+            ? new RatingVotes()
             : new RatingVotes($ratingVotes);
     }
 }

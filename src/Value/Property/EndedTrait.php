@@ -37,7 +37,7 @@ trait EndedTrait
     private function setEndedFromArray(array $input): void
     {
         $this->ended = is_null($ended = ArrayAccess::getBool($input, 'ended'))
-            ? new Ended
+            ? new Ended()
             : new Ended($ended);
     }
 }

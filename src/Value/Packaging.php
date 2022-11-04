@@ -172,7 +172,7 @@ class Packaging implements Value
             ? $packagingCode
             : self::UNDEFINED;
 
-        $this->MBID = $packagingId ?: new MBID;
+        $this->MBID = $packagingId ?: new MBID();
     }
 
     /**

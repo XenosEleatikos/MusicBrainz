@@ -16,7 +16,7 @@ class ReleaseTypeList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($releaseType) {
+                function ($releaseType) {
                     return new ReleaseType($releaseType);
                 },
                 $releaseTypes

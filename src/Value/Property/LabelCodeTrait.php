@@ -37,7 +37,7 @@ trait LabelCodeTrait
     private function setLabelCodeFromArray(array $input): void
     {
         $this->labelCode = is_null($labelCode = ArrayAccess::getString($input, 'label-code'))
-            ? new LabelCode
+            ? new LabelCode()
             : new LabelCode($labelCode);
     }
 }

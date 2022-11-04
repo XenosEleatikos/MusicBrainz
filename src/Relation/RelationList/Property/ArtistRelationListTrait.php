@@ -45,11 +45,11 @@ trait ArtistRelationListTrait
                 }
             }
 
-            $this->relations = new ArtistRelationList;
+            $this->relations = new ArtistRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new ArtistRelationList($array)
-            : new ArtistRelationList;
+            : new ArtistRelationList();
     }
 }

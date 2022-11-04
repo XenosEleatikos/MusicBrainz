@@ -37,7 +37,7 @@ trait BarcodeTrait
     private function setBarcodeFromArray(array $input): void
     {
         $this->barcode = is_null($barcode = ArrayAccess::getString($input, 'barcode'))
-            ? new Barcode
+            ? new Barcode()
             : new Barcode($barcode);
     }
 }

@@ -45,11 +45,11 @@ trait SeriesRelationListTrait
                 }
             }
 
-            $this->relations = new SeriesRelationList;
+            $this->relations = new SeriesRelationList();
         }
 
         $this->relations = ($array = ArrayAccess::getArray($input, 'relations'))
             ? new SeriesRelationList($array)
-            : new SeriesRelationList;
+            : new SeriesRelationList();
     }
 }

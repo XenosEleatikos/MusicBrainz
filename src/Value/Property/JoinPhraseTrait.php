@@ -37,7 +37,7 @@ trait JoinPhraseTrait
     private function setJoinPhraseFromArray(array $input): void
     {
         $this->name = is_null($name = ArrayAccess::getString($input, 'joinphrase'))
-            ? new JoinPhrase
+            ? new JoinPhrase()
             : new JoinPhrase($name);
     }
 }

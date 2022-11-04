@@ -27,7 +27,7 @@ class MBID implements Value
     {
         $this->mbid = is_null($mbid)
             ? ''
-            :($this->isValidMBID($mbid))
+            : ($this->isValidMBID($mbid))
                 ? $mbid
                 : '';
     }

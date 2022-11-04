@@ -16,7 +16,7 @@ class InstrumentList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($instrument) {
+                function ($instrument) {
                     return new Instrument($instrument);
                 },
                 $instruments

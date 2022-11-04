@@ -37,7 +37,7 @@ trait DescriptionTrait
     private function setDescriptionFromArray(array $input): void
     {
         $this->description = is_null($description = ArrayAccess::getString($input, 'description'))
-            ? new Description
+            ? new Description()
             : new Description($description);
     }
 }

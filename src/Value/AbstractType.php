@@ -38,7 +38,7 @@ abstract class AbstractType implements Value
     public function __construct(?string $typeCode = self::UNDEFINED, MBID $mbid = null)
     {
         $this->typeCode = $typeCode ?: self::UNDEFINED;
-        $this->mbid     = $mbid ?: new MBID;
+        $this->mbid     = $mbid ?: new MBID();
     }
 
     /**

@@ -45,7 +45,7 @@ trait ReleaseTrait
         }
 
         $this->release = is_null($release = ArrayAccess::getArray($input, $key))
-            ? new Release
+            ? new Release()
             : new Release($release);
     }
 }

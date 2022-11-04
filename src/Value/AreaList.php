@@ -16,7 +16,7 @@ class AreaList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($area) {
+                function ($area) {
                     return new Area($area);
                 },
                 $areas

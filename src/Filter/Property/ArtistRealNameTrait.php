@@ -1,4 +1,5 @@
 <?php
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;

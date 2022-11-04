@@ -39,7 +39,7 @@ trait ArtistCreditsTrait
     private function setArtistCreditsFromArray(array $input, string $key = 'artist-credits'): void
     {
         $this->artistCredits = is_null($artistCredits = ArrayAccess::getArray($input, $key))
-            ? new ArtistCreditList
+            ? new ArtistCreditList()
             : new ArtistCreditList($artistCredits);
     }
 }

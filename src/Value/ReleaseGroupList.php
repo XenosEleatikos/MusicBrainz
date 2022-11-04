@@ -16,7 +16,7 @@ class ReleaseGroupList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($releaseGroup) {
+                function ($releaseGroup) {
                     return new ReleaseGroup($releaseGroup);
                 },
                 $releaseGroups

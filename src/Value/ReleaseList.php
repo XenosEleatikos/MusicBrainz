@@ -16,7 +16,7 @@ class ReleaseList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($release) {
+                function ($release) {
                     return new Release($release);
                 },
                 $releases

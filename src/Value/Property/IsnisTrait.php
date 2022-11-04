@@ -38,7 +38,7 @@ trait IsnisTrait
     private function setIsnisFromArray(array $input): void
     {
         $this->isnis = is_null($isnis = ArrayAccess::getArray($input, 'isnis'))
-            ? new ISNIList
+            ? new ISNIList()
             : new ISNIList($isnis);
     }
 }

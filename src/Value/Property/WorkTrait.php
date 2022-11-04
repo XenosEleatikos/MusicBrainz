@@ -37,7 +37,7 @@ trait WorkTrait
     private function setWorkFromArray(array $input): void
     {
         $this->work = is_null($work = ArrayAccess::getArray($input, 'work'))
-            ? new Work
+            ? new Work()
             : new Work($work);
     }
 }

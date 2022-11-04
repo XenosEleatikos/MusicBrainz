@@ -39,7 +39,7 @@ trait RelationsToRecordingTrait
     private function setRecordingRelationsFromArray(array $input): void
     {
         $this->recordingRelations = is_null($input = ArrayAccess::getArray($input, EntityType::RECORDING))
-            ? new RelationToRecordingList
+            ? new RelationToRecordingList()
             : new RelationToRecordingList($input);
     }
 }

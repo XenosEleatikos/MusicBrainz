@@ -37,7 +37,7 @@ trait PrimaryReleaseTypeTrait
     private function setPrimaryReleaseTypeFromArray(array $input): void
     {
         $this->primaryReleaseType = is_null($primaryReleaseType = ArrayAccess::getString($input, 'primary-type'))
-            ? new ReleaseType
+            ? new ReleaseType()
             : new ReleaseType($primaryReleaseType);
     }
 }

@@ -16,7 +16,7 @@ class AttributeList extends ValueList
     {
         parent::__construct(
             array_map(
-                function($attribute) {
+                function ($attribute) {
                     return new Attribute($attribute);
                 },
                 $attributes

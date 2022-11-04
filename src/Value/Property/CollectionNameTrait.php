@@ -37,7 +37,7 @@ trait CollectionNameTrait
     private function setCollectionNameFromArray(array $input): void
     {
         $this->collectionName = is_null($collectionName = ArrayAccess::getString($input, 'name'))
-            ? new CollectionName
+            ? new CollectionName()
             : new CollectionName($collectionName);
     }
 }

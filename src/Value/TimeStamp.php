@@ -23,11 +23,11 @@ class TimeStamp implements Value
      */
     public function __construct(string $time = '')
     {
-        if (preg_match
-        (
-            '/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])T(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9].[0-9]{1,3}Z$/',
-            $time
-        )
+        if (
+            preg_match(
+                '/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])T(0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9].[0-9]{1,3}Z$/',
+                $time
+            )
         ) {
             /**
              * - 'T' has a meaning in the time format given to createFromFormat(). So we replace it by '-' with strtr().
