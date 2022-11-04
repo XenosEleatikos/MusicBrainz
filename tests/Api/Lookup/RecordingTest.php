@@ -29,7 +29,7 @@ class RecordingTest extends ApiTestCase
      *
      * @var Recording
      */
-    private static $recording;
+    private static Recording $recording;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -38,7 +38,7 @@ class RecordingTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$recording)) {
+        if (isset(self::$recording)) {
             return;
         }
 

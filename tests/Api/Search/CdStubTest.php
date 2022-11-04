@@ -17,7 +17,7 @@ class CdStubTest extends ApiTestCase
      *
      * @var SearchResult\CdStub[]|CdStubListPage
      */
-    private static $cdStubList;
+    private static CdStubListPage $cdStubList;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -26,7 +26,7 @@ class CdStubTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$cdStubList)) {
+        if (isset(self::$cdStubList)) {
             return;
         }
 

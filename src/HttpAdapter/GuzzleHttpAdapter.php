@@ -17,7 +17,7 @@ class GuzzleHttpAdapter extends AbstractHttpAdapter
     /**
      * @var ClientInterface
      */
-    private $client;
+    private ClientInterface $client;
 
     /**
      * Initialize class

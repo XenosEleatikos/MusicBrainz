@@ -15,7 +15,7 @@ trait TrackDisplayNumberTrait
      *
      * @var TrackDisplayNumber
      */
-    public $trackDisplayNumber;
+    public TrackDisplayNumber $trackDisplayNumber;
 
     /**
      * Returns the displayed track number.

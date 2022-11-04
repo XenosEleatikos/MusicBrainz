@@ -23,7 +23,7 @@ trait EndAreaTrait
      *
      * @see ArtistType
      */
-    private $endArea;
+    private Area $endArea;
 
     /**
      * Returns the artist's ending area.

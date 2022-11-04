@@ -15,7 +15,7 @@ trait ReleaseTrait
      *
      * @var Release
      */
-    public $release;
+    public Release $release;
 
     /**
      * Returns the release.

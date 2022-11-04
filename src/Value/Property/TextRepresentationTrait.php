@@ -15,7 +15,7 @@ trait TextRepresentationTrait
      *
      * @var TextRepresentation
      */
-    private $textRepresentation;
+    private TextRepresentation $textRepresentation;
 
     /**
      * Returns the text representation.

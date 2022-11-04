@@ -33,7 +33,7 @@ class InstrumentTest extends ApiTestCase
      *
      * @var Instrument[]|InstrumentListPage
      */
-    private static $instrumentListPage;
+    private static InstrumentListPage $instrumentListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -42,7 +42,7 @@ class InstrumentTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$instrumentListPage)) {
+        if (isset(self::$instrumentListPage)) {
             return;
         }
 

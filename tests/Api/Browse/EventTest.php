@@ -19,7 +19,7 @@ class EventTest extends ApiTestCase
      *
      * @var Event[]|EventListPage
      */
-    private static $eventListPage;
+    private static EventListPage $eventListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -28,7 +28,7 @@ class EventTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$eventListPage)) {
+        if (isset(self::$eventListPage)) {
             return;
         }
 

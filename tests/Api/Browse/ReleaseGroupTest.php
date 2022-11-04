@@ -19,7 +19,7 @@ class ReleaseGroupTest extends ApiTestCase
      *
      * @var ReleaseGroup[]|ReleaseGroupListPage
      */
-    private static $releaseGroupListPage;
+    private static ReleaseGroupListPage $releaseGroupListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -28,7 +28,7 @@ class ReleaseGroupTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$releaseGroupListPage)) {
+        if (isset(self::$releaseGroupListPage)) {
             return;
         }
 

@@ -15,7 +15,7 @@ trait PrimaryNameFlagTrait
      *
      * @var PrimaryNameFlag
      */
-    private $primaryName;
+    private PrimaryNameFlag $primaryName;
 
     /**
      * Returns the "primary name" flag

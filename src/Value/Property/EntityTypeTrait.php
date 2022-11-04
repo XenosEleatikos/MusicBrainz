@@ -15,7 +15,7 @@ trait EntityTypeTrait
      *
      * @var EntityType
      */
-    private $entityType;
+    private EntityType $entityType;
 
     /**
      * Returns the entity type.

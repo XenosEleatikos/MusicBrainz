@@ -17,7 +17,7 @@ trait RelationsToRecordingTrait
      *
      * @var RelationToRecording[]|RelationToRecordingList
      */
-    private $recordingRelations;
+    private RelationToRecordingList $recordingRelations;
 
     /**
      * Returns a list of relations to a recording.

@@ -17,7 +17,7 @@ trait RelationsToPlaceTrait
      *
      * @var RelationToPlace[]|RelationToPlaceList
      */
-    private $placeRelations;
+    private RelationToPlaceList $placeRelations;
 
     /**
      * Returns a list of relations to a place.

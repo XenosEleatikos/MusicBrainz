@@ -22,7 +22,7 @@ class CollectionTest extends ApiTestCase
      *
      * @var Collection[]|CollectionListPage
      */
-    private static $collectionListPage;
+    private static CollectionListPage $collectionListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -31,7 +31,7 @@ class CollectionTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$collectionListPage)) {
+        if (isset(self::$collectionListPage)) {
             return;
         }
 

@@ -15,7 +15,7 @@ trait AttributeTypeTrait
      *
      * @var AttributeType
      */
-    private $attributeType;
+    private AttributeType $attributeType;
 
     /**
      * Returns the attribute type.

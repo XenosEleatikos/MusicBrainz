@@ -15,7 +15,7 @@ trait WorkTypeTrait
      *
      * @var WorkType
      */
-    private $workType;
+    private WorkType $workType;
 
     /**
      * Returns type of work.

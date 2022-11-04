@@ -15,7 +15,7 @@ trait SectorsTrait
      *
      * @var Sectors
      */
-    private $sectors;
+    private Sectors $sectors;
 
     /**
      * Returns the number of sectors.

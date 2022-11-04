@@ -9,7 +9,7 @@ trait EventRelationsTrait
      *
      * @var bool
      */
-    private $eventRelations = false;
+    private bool $eventRelations = false;
 
     /**
      * Returns true, if event relations should be included, otherwise false.

@@ -15,7 +15,7 @@ trait EditorNameTrait
      *
      * @var EditorName
      */
-    public $editorName;
+    public EditorName $editorName;
 
     /**
      * Returns the editor name.

@@ -15,7 +15,7 @@ trait CountTrait
      *
      * @var Count
      */
-    private $count;
+    private Count $count;
 
     /**
      * Returns the count.

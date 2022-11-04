@@ -9,7 +9,7 @@ trait TagsRelationsTrait
      *
      * @var bool
      */
-    private $tagsRelations = false;
+    private bool $tagsRelations = false;
 
     /**
      * Returns true, if tags relations should be included, otherwise false.

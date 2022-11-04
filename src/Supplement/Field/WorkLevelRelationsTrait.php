@@ -9,7 +9,7 @@ trait WorkLevelRelationsTrait
      *
      * @var bool
      */
-    private $workLevelRelations = false;
+    private bool $workLevelRelations = false;
 
     /**
      * Returns true, if work level relations should be included, otherwise false.

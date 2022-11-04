@@ -17,7 +17,7 @@ trait AreaTrait
      *
      * @var Area
      */
-    private $area;
+    private Area $area;
 
     /**
      * Returns the area.

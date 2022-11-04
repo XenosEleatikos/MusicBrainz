@@ -3,7 +3,7 @@
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value\Alias;
+use MusicBrainz\Value\Language;
 use MusicBrainz\Value\LanguageList;
 
 /**
@@ -14,14 +14,14 @@ trait LanguagesTrait
     /**
      * A list of languages
      *
-     * @var Alias[]|LanguageList
+     * @var Language[]|LanguageList
      */
-    private $languages;
+    private LanguageList $languages;
 
     /**
      * Returns a list of languages.
      *
-     * @return Alias[]|LanguageList
+     * @return Language[]|LanguageList
      */
     public function getLanguages(): LanguageList
     {

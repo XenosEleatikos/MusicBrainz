@@ -16,7 +16,7 @@ trait SecondaryReleaseTypesListTrait
      *
      * @var ReleaseType[]|ReleaseTypeList
      */
-    private $secondaryReleaseTypes;
+    private ReleaseTypeList $secondaryReleaseTypes;
 
     /**
      * Returns the list of secondary release types.

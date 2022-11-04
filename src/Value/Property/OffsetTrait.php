@@ -15,7 +15,7 @@ trait OffsetTrait
      *
      * @var Count
      */
-    private $offset;
+    private Count $offset;
 
     /**
      * Returns the offset.

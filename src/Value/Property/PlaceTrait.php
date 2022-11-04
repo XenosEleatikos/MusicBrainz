@@ -15,7 +15,7 @@ trait PlaceTrait
      *
      * @var Place
      */
-    public $place;
+    public Place $place;
 
     /**
      * Returns the place.

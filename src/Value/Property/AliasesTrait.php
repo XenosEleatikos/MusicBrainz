@@ -16,7 +16,7 @@ trait AliasesTrait
      *
      * @var Alias[]|AliasList
      */
-    private $aliases;
+    private AliasList $aliases;
 
     /**
      * Returns a list of aliases.

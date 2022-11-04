@@ -27,7 +27,7 @@ class UrlTest extends ApiTestCase
      *
      * @var URL
      */
-    private static $url;
+    private static URL $url;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -36,7 +36,7 @@ class UrlTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$url)) {
+        if (isset(self::$url)) {
             return;
         }
 

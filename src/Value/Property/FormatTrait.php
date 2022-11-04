@@ -14,7 +14,7 @@ trait FormatTrait
      *
      * @var Format
      */
-    private $format;
+    private Format $format;
 
     /**
      * Returns the format.

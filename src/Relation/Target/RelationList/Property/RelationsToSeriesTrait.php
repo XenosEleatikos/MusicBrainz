@@ -17,7 +17,7 @@ trait RelationsToSeriesTrait
      *
      * @var RelationToSeries[]|RelationToSeriesList
      */
-    private $seriesRelations;
+    private RelationToSeriesList $seriesRelations;
 
     /**
      * Returns a list of relations to a series.

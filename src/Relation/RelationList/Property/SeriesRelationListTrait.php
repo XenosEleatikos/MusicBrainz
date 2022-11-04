@@ -15,7 +15,7 @@ trait SeriesRelationListTrait
      *
      * @var SeriesRelationList
      */
-    private $relations;
+    private SeriesRelationList $relations;
 
     /**
      * Returns the list of relations the series stands in.

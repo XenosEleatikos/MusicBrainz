@@ -21,7 +21,7 @@ class AnnotationTest extends ApiTestCase
      *
      * @var SearchResult\Annotation[]|AnnotationListPage
      */
-    private static $annotationList;
+    private static AnnotationListPage $annotationList;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -30,7 +30,7 @@ class AnnotationTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$annotationList)) {
+        if (isset(self::$annotationList)) {
             return;
         }
 

@@ -9,7 +9,7 @@ trait UserTagsTrait
      *
      * @var bool
      */
-    private $userTags = false;
+    private bool $userTags = false;
 
     /**
      * Returns true, if user tags should be included, otherwise false.

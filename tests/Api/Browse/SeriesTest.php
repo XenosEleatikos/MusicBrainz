@@ -19,7 +19,7 @@ class SeriesTest extends ApiTestCase
      *
      * @var Series[]|SeriesListPage
      */
-    private static $seriesListPage;
+    private static SeriesListPage $seriesListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -28,7 +28,7 @@ class SeriesTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$seriesListPage)) {
+        if (isset(self::$seriesListPage)) {
             return;
         }
 

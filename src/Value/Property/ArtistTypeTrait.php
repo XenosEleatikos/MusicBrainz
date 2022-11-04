@@ -15,7 +15,7 @@ trait ArtistTypeTrait
      *
      * @var ArtistType
      */
-    private $artistType;
+    private ArtistType $artistType;
 
     /**
      * Returns the artist type.

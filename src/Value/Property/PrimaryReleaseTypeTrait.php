@@ -15,7 +15,7 @@ trait PrimaryReleaseTypeTrait
      *
      * @var ReleaseType
      */
-    private $primaryReleaseType;
+    private ReleaseType $primaryReleaseType;
 
     /**
      * Returns the primary release type.

@@ -19,7 +19,7 @@ class WorkTest extends ApiTestCase
      *
      * @var Work[]|WorkListPage
      */
-    private static $workListPage;
+    private static WorkListPage $workListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -28,7 +28,7 @@ class WorkTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$workListPage)) {
+        if (isset(self::$workListPage)) {
             return;
         }
 

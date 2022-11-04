@@ -10,7 +10,7 @@ class AreaList extends ValueList
     /**
      * Constructs a list of areas.
      *
-     * @param array $areas An array area arrays
+     * @param array $areas An array of area arrays
      */
     public function __construct(array $areas = [])
     {

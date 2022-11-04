@@ -15,7 +15,7 @@ trait CdStubTrait
      *
      * @var CdStub
      */
-    private $cdStub;
+    private CdStub $cdStub;
 
     /**
      * Returns the CD stub.

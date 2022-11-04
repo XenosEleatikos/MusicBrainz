@@ -15,7 +15,7 @@ trait DataQualityTrait
      *
      * @var DataQuality
      */
-    private $quality;
+    private DataQuality $quality;
 
     /**
      * Returns the data quality.

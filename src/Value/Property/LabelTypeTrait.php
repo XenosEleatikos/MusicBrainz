@@ -15,7 +15,7 @@ trait LabelTypeTrait
      *
      * @var LabelType
      */
-    private $labelType;
+    private LabelType $labelType;
 
     /**
      * Returns the label type.

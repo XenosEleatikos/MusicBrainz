@@ -15,7 +15,7 @@ trait EventRelationListTrait
      *
      * @var EventRelationList
      */
-    private $relations;
+    private EventRelationList $relations;
 
     /**
      * Returns the list of relations the event stands in.

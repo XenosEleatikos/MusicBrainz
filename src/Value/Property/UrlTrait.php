@@ -14,7 +14,7 @@ trait UrlTrait
      *
      * @var URL
      */
-    public $url;
+    public URL $url;
 
     /**
      * Returns the track.

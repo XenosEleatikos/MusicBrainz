@@ -21,7 +21,8 @@ class AliasType extends AbstractType
     /**
      * Constructs an alias type.
      *
-     * @param string $typeCode An alias type code
+     * @param null|string $typeCode An alias type code
+     * @param null|MBID   $mbid
      */
     public function __construct(?string $typeCode = parent::UNDEFINED, MBID $mbid = null)
     {

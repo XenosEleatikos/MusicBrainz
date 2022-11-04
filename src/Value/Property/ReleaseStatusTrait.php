@@ -16,7 +16,7 @@ trait ReleaseStatusTrait
      *
      * @var ReleaseStatus
      */
-    private $releaseStatus;
+    private ReleaseStatus $releaseStatus;
 
     /**
      * Returns the release status.

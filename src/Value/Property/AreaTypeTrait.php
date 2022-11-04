@@ -15,7 +15,7 @@ trait AreaTypeTrait
      *
      * @var AreaType
      */
-    private $areaType;
+    private AreaType $areaType;
 
     /**
      * Returns the area type.

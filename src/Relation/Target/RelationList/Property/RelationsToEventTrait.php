@@ -17,7 +17,7 @@ trait RelationsToEventTrait
      *
      * @var RelationToEvent[]|RelationToEventList
      */
-    private $eventRelations;
+    private RelationToEventList $eventRelations;
 
     /**
      * Returns a list of relations to an event.

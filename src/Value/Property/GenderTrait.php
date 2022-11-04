@@ -16,7 +16,7 @@ trait GenderTrait
      *
      * @var Gender
      */
-    private $gender;
+    private Gender $gender;
 
     /**
      * Returns the artist's gender.

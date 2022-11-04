@@ -15,7 +15,7 @@ trait TimeTrait
      *
      * @var Time
      */
-    public $time;
+    public Time $time;
 
     /**
      * Returns the time of day.

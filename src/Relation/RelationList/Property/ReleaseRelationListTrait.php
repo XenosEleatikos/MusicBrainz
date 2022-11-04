@@ -15,7 +15,7 @@ trait ReleaseRelationListTrait
      *
      * @var ReleaseRelationList
      */
-    private $relations;
+    private ReleaseRelationList $relations;
 
     /**
      * Returns the list of relations the release stands in.

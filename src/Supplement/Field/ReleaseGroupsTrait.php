@@ -9,7 +9,7 @@ trait ReleaseGroupsTrait
      *
      * @var bool
      */
-    private $releaseGroups = false;
+    private bool $releaseGroups = false;
 
     /**
      * Returns true, if release groups should be included, otherwise false.

@@ -15,7 +15,7 @@ trait RatingVotesTrait
      *
      * @var RatingVotes
      */
-    private $ratingVotes;
+    private RatingVotes $ratingVotes;
 
     /**
      * Returns the number of rating votes.

@@ -17,7 +17,7 @@ trait RelationsToLabelTrait
      *
      * @var RelationToLabel[]|RelationToLabelList
      */
-    private $labelRelations;
+    private RelationToLabelList $labelRelations;
 
     /**
      * Returns a list of relations to a label.

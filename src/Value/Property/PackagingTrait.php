@@ -16,7 +16,7 @@ trait PackagingTrait
      *
      * @var Packaging
      */
-    private $packaging;
+    private Packaging $packaging;
 
     /**
      * Returns the packaging.

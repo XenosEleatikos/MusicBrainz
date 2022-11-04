@@ -15,7 +15,7 @@ trait InstrumentRelationListTrait
      *
      * @var InstrumentRelationList
      */
-    private $relations;
+    private InstrumentRelationList $relations;
 
     /**
      * Returns the list of relations the instrument stands in.

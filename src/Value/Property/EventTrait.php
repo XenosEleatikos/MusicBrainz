@@ -15,7 +15,7 @@ trait EventTrait
      *
      * @var Event
      */
-    private $event;
+    private Event $event;
 
     /**
      * Returns the event.

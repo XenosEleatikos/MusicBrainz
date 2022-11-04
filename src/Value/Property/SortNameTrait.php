@@ -20,7 +20,7 @@ trait SortNameTrait
      *
      * @var SortName
      */
-    private $sortName;
+    private SortName $sortName;
 
     /**
      * Returns the sort index for the name.

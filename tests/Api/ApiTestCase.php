@@ -15,14 +15,14 @@ abstract class ApiTestCase extends TestCase
      *
      * @var \PHPUnit_Framework_MockObject_MockObject|AbstractHttpAdapter
      */
-    private $httpAdapter;
+    private AbstractHttpAdapter $httpAdapter;
 
     /**
      * The MusicBrainz API client
      *
      * @var MusicBrainz
      */
-    protected $musicBrainz;
+    protected MusicBrainz $musicBrainz;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.

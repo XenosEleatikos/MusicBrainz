@@ -16,7 +16,7 @@ trait CollectionsTrait
      *
      * @var Collection|CollectionList
      */
-    private $collections;
+    private CollectionList $collections;
 
     /**
      * Returns a list of collections.

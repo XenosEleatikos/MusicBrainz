@@ -14,14 +14,14 @@ trait AttributesTrait
     /**
      * A list of attributes
      *
-     * @var Attribute|AttributeList
+     * @var Attribute[]|AttributeList
      */
-    private $attributes;
+    private AttributeList $attributes;
 
     /**
      * Returns a list of attributes.
      *
-     * @return Attribute|AttributeList
+     * @return Attribute[]|AttributeList
      */
     public function getAttributes(): AttributeList
     {

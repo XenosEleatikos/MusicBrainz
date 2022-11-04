@@ -13,9 +13,9 @@ trait LongitudeTrait
     /**
      * The longitude
      *
-     * @var null|Longitude
+     * @var Longitude
      */
-    private $longitude;
+    private Longitude $longitude;
 
     /**
      * Returns the longitude.

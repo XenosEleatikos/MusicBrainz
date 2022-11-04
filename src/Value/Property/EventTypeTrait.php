@@ -15,7 +15,7 @@ trait EventTypeTrait
      *
      * @var EventType
      */
-    private $eventType;
+    private EventType $eventType;
 
     /**
      * Returns the event type.

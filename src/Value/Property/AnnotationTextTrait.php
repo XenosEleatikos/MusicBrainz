@@ -15,7 +15,7 @@ trait AnnotationTextTrait
      *
      * @var AnnotationText
      */
-    private $annotationText;
+    private AnnotationText $annotationText;
 
     /**
      * Returns the annotation text.

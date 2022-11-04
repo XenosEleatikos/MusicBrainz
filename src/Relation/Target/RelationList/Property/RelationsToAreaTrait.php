@@ -17,7 +17,7 @@ trait RelationsToAreaTrait
      *
      * @var RelationToArea[]|RelationToAreaList
      */
-    private $areaRelations;
+    private RelationToAreaList $areaRelations;
 
     /**
      * Returns a list of relations to an area.

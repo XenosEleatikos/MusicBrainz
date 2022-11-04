@@ -9,7 +9,7 @@ trait AreaRelationsTrait
      *
      * @var bool
      */
-    private $areaRelations = false;
+    private bool $areaRelations = false;
 
     /**
      * Returns true, if area relations should be included, otherwise false.

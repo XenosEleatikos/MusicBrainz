@@ -15,7 +15,7 @@ trait RatingValueTrait
      *
      * @var RatingValue
      */
-    private $ratingValue;
+    private RatingValue $ratingValue;
 
     /**
      * Returns the rating value.

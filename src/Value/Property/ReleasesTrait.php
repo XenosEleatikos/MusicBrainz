@@ -16,7 +16,7 @@ trait ReleasesTrait
      *
      * @var Release[]|ReleaseList
      */
-    private $releases;
+    private ReleaseList $releases;
 
     /**
      * Returns a list of releases.

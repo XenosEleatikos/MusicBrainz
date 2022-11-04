@@ -15,7 +15,7 @@ trait CoordinatesTrait
      *
      * @var Coordinates
      */
-    private $coordinates;
+    private Coordinates $coordinates;
 
     /**
      * Returns the coordinates.

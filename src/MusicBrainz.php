@@ -14,23 +14,23 @@ class MusicBrainz
     /**
      * The Http adapter used to make requests
      *
-     * @var \MusicBrainz\HttpAdapter\AbstractHttpAdapter
+     * @var AbstractHttpAdapter
      */
-    private $adapter;
+    private AbstractHttpAdapter $adapter;
 
     /**
      * A set of configuration.
      *
      * @var Config
      */
-    private $config;
+    private Config $config;
 
     /**
      * A logger
      *
      * @var LoggerInterface
      */
-    private static $logger;
+    private static LoggerInterface $logger;
 
     /**
      * Constructs the MusicBrainz API client.

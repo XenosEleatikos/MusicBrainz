@@ -15,7 +15,7 @@ trait LabelCodeTrait
      *
      * @var LabelCode
      */
-    private $labelCode;
+    private LabelCode $labelCode;
 
     /**
      * Returns the label code.

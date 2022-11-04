@@ -9,7 +9,7 @@ trait RecordingsTrait
      *
      * @var bool
      */
-    private $recordings = false;
+    private bool $recordings = false;
 
     /**
      * Returns true, if recordings should be included, otherwise false.

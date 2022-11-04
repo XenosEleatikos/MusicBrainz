@@ -15,7 +15,7 @@ trait InstrumentNameTrait
      *
      * @var InstrumentName
      */
-    public $instrumentName;
+    public InstrumentName $instrumentName;
 
     /**
      * Returns the instrument name.

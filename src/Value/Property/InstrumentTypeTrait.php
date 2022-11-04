@@ -16,7 +16,7 @@ trait InstrumentTypeTrait
      *
      * @var InstrumentType
      */
-    private $instrumentType;
+    private InstrumentType $instrumentType;
 
     /**
      * Returns the instrument type.

@@ -15,7 +15,7 @@ trait ScoreTrait
      *
      * @var Score
      */
-    private $score;
+    private Score $score;
 
     /**
      * Returns the relevance score for the search result.

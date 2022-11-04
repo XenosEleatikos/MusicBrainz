@@ -16,7 +16,7 @@ trait IswcsTrait
      *
      * @var ISWC[]|ISWCList
      */
-    private $iswcs;
+    private ISWCList $iswcs;
 
     /**
      * Returns a list of International Standard Musical Work Codes (ISWC).

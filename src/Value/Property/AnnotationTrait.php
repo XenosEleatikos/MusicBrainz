@@ -15,7 +15,7 @@ trait AnnotationTrait
      *
      * @var Annotation
      */
-    private $annotation;
+    private Annotation $annotation;
 
     /**
      * Returns the annotation.

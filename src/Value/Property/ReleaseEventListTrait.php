@@ -16,7 +16,7 @@ trait ReleaseEventListTrait
      *
      * @var ReleaseEvent[]|ReleaseEventList
      */
-    private $releaseEventList;
+    private ReleaseEventList $releaseEventList;
 
     /**
      * Returns the list of release events.

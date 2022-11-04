@@ -15,7 +15,7 @@ trait LabelRelationListTrait
      *
      * @var LabelRelationList
      */
-    private $relations;
+    private LabelRelationList $relations;
 
     /**
      * Returns the list of relations the label stands in.

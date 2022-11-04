@@ -9,7 +9,7 @@ trait URLRelationsTrait
      *
      * @var bool
      */
-    private $URLRelations = false;
+    private bool $URLRelations = false;
 
     /**
      * Returns true, if URL relations should be included, otherwise false.

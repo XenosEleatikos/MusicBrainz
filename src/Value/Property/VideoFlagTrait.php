@@ -15,7 +15,7 @@ trait VideoFlagTrait
      *
      * @var VideoFlag
      */
-    private $videoFlag;
+    private VideoFlag $videoFlag;
 
     /**
      * Returns the "video" flag.

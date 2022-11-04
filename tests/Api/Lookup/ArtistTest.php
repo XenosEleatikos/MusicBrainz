@@ -52,7 +52,7 @@ class ArtistTest extends ApiTestCase
      *
      * @var Artist
      */
-    private static $artist;
+    private static Artist $artist;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -61,7 +61,7 @@ class ArtistTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$artist)) {
+        if (isset(self::$artist)) {
             return;
         }
 

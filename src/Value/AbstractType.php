@@ -21,19 +21,20 @@ abstract class AbstractType implements Value
      *
      * @var string
      */
-    protected $typeCode;
+    protected string $typeCode;
 
     /**
      * The MusicBrainz Identifier (MBID) of the alias type
      *
      * @var MBID
      */
-    private $mbid;
+    private MBID $mbid;
 
     /**
      * Constructs an alias type.
      *
-     * @param string $typeCode An alias type code
+     * @param null|string $typeCode An alias type code
+     * @param null|MBID   $mbid
      */
     public function __construct(?string $typeCode = self::UNDEFINED, MBID $mbid = null)
     {

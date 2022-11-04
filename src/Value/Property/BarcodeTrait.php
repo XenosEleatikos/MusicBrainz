@@ -15,7 +15,7 @@ trait BarcodeTrait
      *
      * @var Barcode
      */
-    public $barcode;
+    public Barcode $barcode;
 
     /**
      * Returns the barcode.

@@ -16,7 +16,7 @@ trait MediaTrait
      *
      * @var Medium[]|MediaList
      */
-    private $media;
+    private MediaList $media;
 
     /**
      * Returns a list of media.

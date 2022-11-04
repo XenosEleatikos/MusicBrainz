@@ -16,7 +16,7 @@ trait ArtistCreditsTrait
      *
      * @var ArtistCreditList
      */
-    private $artistCredits;
+    private ArtistCreditList $artistCredits;
 
     /**
      * Returns a list of artist credits.

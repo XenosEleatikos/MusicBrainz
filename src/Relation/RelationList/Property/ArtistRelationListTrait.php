@@ -15,7 +15,7 @@ trait ArtistRelationListTrait
      *
      * @var ArtistRelationList
      */
-    private $relations;
+    private ArtistRelationList $relations;
 
     /**
      * Returns the list of relations the artist stands in.

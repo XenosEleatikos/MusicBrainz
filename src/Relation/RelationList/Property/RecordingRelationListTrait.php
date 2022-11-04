@@ -15,7 +15,7 @@ trait RecordingRelationListTrait
      *
      * @var RecordingRelationList
      */
-    private $relations;
+    private RecordingRelationList $relations;
 
     /**
      * Returns the list of relations the recording stands in.

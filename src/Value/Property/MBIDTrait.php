@@ -17,7 +17,7 @@ trait MBIDTrait
      *
      * @see https://musicbrainz.org/doc/MusicBrainz_Identifier
      */
-    private $MBID;
+    private MBID $MBID;
 
     /**
      * Returns the MusicBrainz Identifier (MBID).

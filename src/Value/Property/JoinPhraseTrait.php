@@ -15,7 +15,7 @@ trait JoinPhraseTrait
      *
      * @var JoinPhrase
      */
-    public $joinPhrase;
+    public JoinPhrase $joinPhrase;
 
     /**
      * Returns the joinPhrase.
@@ -36,7 +36,7 @@ trait JoinPhraseTrait
      */
     private function setJoinPhraseFromArray(array $input): void
     {
-        $this->name = is_null($name = ArrayAccess::getString($input, 'joinphrase'))
+        $this->joinPhrase = is_null($name = ArrayAccess::getString($input, 'joinphrase'))
             ? new JoinPhrase()
             : new JoinPhrase($name);
     }

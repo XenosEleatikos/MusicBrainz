@@ -15,7 +15,7 @@ trait DisambiguationTrait
      *
      * @var Disambiguation
      */
-    private $disambiguation;
+    private Disambiguation $disambiguation;
 
     /**
      * Returns a disambiguation comment.

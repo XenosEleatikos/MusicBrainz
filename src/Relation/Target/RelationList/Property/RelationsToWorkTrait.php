@@ -17,7 +17,7 @@ trait RelationsToWorkTrait
      *
      * @var RelationToWork[]|RelationToWorkList
      */
-    private $workRelations;
+    private RelationToWorkList $workRelations;
 
     /**
      * Returns a list of relations to a work.

@@ -16,7 +16,7 @@ class Address implements Value
      *
      * @var string
      */
-    private $address;
+    private string $address;
 
     /**
      * Constructs an address.

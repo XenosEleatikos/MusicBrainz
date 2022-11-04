@@ -16,7 +16,7 @@ trait TagsTrait
      *
      * @var Tag[]|TagList
      */
-    private $tags;
+    private TagList $tags;
 
     /**
      * Returns a list of tags associated to the artist.

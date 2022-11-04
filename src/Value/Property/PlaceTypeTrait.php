@@ -15,7 +15,7 @@ trait PlaceTypeTrait
      *
      * @var PlaceType
      */
-    private $placeType;
+    private PlaceType $placeType;
 
     /**
      * Returns type of place.

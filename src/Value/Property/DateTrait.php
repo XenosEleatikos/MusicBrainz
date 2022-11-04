@@ -15,7 +15,7 @@ trait DateTrait
      *
      * @var Date
      */
-    private $date;
+    private Date $date;
 
     /**
      * Returns the date.

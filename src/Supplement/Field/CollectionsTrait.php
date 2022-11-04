@@ -9,7 +9,7 @@ trait CollectionsTrait
      *
      * @var bool
      */
-    private $collections = false;
+    private bool $collections = false;
 
     /**
      * Returns true, if collections should be included, otherwise false.

@@ -17,12 +17,12 @@ trait RelationsToArtistTrait
      *
      * @var RelationToArtist[]|RelationToArtistList
      */
-    private $artistRelations;
+    private RelationToArtistList $artistRelations;
 
     /**
      * Returns a list of relations to an artist.
      *
-     * @return RelationToArtist[]RelationToArtistList
+     * @return RelationToArtist[]|RelationToArtistList
      */
     public function getArtistRelations(): RelationToArtistList
     {

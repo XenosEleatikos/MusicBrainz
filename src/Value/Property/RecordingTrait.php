@@ -15,7 +15,7 @@ trait RecordingTrait
      *
      * @var Recording
      */
-    public $recording;
+    public Recording $recording;
 
     /**
      * Returns the recording.

@@ -10,7 +10,6 @@ use MusicBrainz\Relation\Target\RelationList\RelationToUrlList;
 use MusicBrainz\Supplement\Lookup\ReleaseGroupFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseGroup;
 
 /**
@@ -21,9 +20,9 @@ class ReleaseGroupTest extends ApiTestCase
     /**
      * Test instance of the artist
      *
-     * @var Release
+     * @var ReleaseGroup
      */
-    private static $releaseGroup;
+    private static ReleaseGroup $releaseGroup;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -32,7 +31,7 @@ class ReleaseGroupTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$releaseGroup)) {
+        if (isset(self::$releaseGroup)) {
             return;
         }
 

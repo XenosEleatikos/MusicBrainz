@@ -15,7 +15,7 @@ trait PlaceRelationListTrait
      *
      * @var PlaceRelationList
      */
-    private $relations;
+    private PlaceRelationList $relations;
 
     /**
      * Returns the list of relations the place stands in.

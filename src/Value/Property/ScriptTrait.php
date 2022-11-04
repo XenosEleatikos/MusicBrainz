@@ -15,7 +15,7 @@ trait ScriptTrait
      *
      * @var Script
      */
-    public $script;
+    public Script $script;
 
     /**
      * Returns the script.

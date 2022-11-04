@@ -16,7 +16,7 @@ trait ISO31662CodesTrait
      *
      * @var ISO31662Code[]|ISO31662CodeList
      */
-    private $ISO31662Codes;
+    private ISO31662CodeList $ISO31662Codes;
 
     /**
      * Returns a list of ISO 3166-2 codes.

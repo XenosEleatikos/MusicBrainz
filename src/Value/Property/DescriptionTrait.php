@@ -15,7 +15,7 @@ trait DescriptionTrait
      *
      * @var Description
      */
-    private $description;
+    private Description $description;
 
     /**
      * Returns the description.

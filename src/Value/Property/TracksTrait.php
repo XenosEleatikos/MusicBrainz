@@ -16,7 +16,7 @@ trait TracksTrait
      *
      * @var Track[]|TrackList
      */
-    private $tracks;
+    private TrackList $tracks;
 
     /**
      * Returns a list of tracks.

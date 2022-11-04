@@ -15,7 +15,7 @@ trait CancelledTrait
      *
      * @var Cancelled
      */
-    private $cancelled;
+    private Cancelled $cancelled;
 
     /**
      * Returns the "cancelled" flag

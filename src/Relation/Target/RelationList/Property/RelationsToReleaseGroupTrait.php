@@ -17,7 +17,7 @@ trait RelationsToReleaseGroupTrait
      *
      * @var RelationToReleaseGroup[]|RelationToReleaseGroupList
      */
-    private $releaseGroupRelations;
+    private RelationToReleaseGroupList $releaseGroupRelations;
 
     /**
      * Returns a list of relations to a release group.

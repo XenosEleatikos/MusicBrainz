@@ -15,7 +15,7 @@ trait ASINTrait
      *
      * @var ASIN
      */
-    private $asin;
+    private ASIN $asin;
 
     /**
      * Returns the Amazon Standard Identification Number (ASIN).

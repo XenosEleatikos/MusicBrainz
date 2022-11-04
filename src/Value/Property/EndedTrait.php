@@ -15,7 +15,7 @@ trait EndedTrait
      *
      * @var Ended
      */
-    private $ended;
+    private Ended $ended;
 
     /**
      * Returns the "ended" flag

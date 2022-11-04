@@ -14,7 +14,7 @@ trait AttributeValueTrait
      *
      * @var AttributeValue
      */
-    private $attributeValue;
+    private AttributeValue $attributeValue;
 
     /**
      * Returns the attribute value.

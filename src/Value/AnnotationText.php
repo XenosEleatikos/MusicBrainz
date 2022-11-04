@@ -14,7 +14,7 @@ class AnnotationText implements Value
      *
      * @var string
      */
-    private $text;
+    private string $text;
 
     /**
      * Constructs an annotation text.

@@ -17,7 +17,7 @@ class LabelTest extends ApiTestCase
      *
      * @var SearchResult\Label[]|LabelListPage
      */
-    private static $labelList;
+    private static LabelListPage $labelList;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -26,7 +26,7 @@ class LabelTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$labelList)) {
+        if (isset(self::$labelList)) {
             return;
         }
 

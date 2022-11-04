@@ -9,7 +9,7 @@ trait ReleasesTrait
      *
      * @var bool
      */
-    private $releases = false;
+    private bool $releases = false;
 
     /**
      * Returns true, if releases should be included, otherwise false.

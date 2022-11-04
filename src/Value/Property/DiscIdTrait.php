@@ -15,7 +15,7 @@ trait DiscIdTrait
      *
      * @var DiscId
      */
-    public $discId;
+    public DiscId $discId;
 
     /**
      * Returns the barcode.

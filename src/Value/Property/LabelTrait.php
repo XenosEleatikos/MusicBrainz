@@ -15,7 +15,7 @@ trait LabelTrait
      *
      * @var Label
      */
-    private $label;
+    private Label $label;
 
     /**
      * Returns the label.

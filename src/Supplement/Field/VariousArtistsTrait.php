@@ -9,7 +9,7 @@ trait VariousArtistsTrait
      *
      * @var bool
      */
-    private $variousArtists = false;
+    private bool $variousArtists = false;
 
     /**
      * Returns true, if various artists should be included, otherwise false.

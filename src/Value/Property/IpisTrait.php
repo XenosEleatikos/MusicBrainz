@@ -18,7 +18,7 @@ trait IpisTrait
      *
      * @see https://musicbrainz.org/doc/IPI
      */
-    private $ipis;
+    private IPIList $ipis;
 
     /**
      * Returns a list of IPI codes.

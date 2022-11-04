@@ -44,14 +44,14 @@ class Lookup
      *
      * @var AbstractHttpAdapter
      */
-    private $httpAdapter;
+    private AbstractHttpAdapter $httpAdapter;
 
     /**
      * The API client configuration
      *
      * @var Config
      */
-    private $config;
+    private Config $config;
 
     /**
      * Constructs the search API.

@@ -15,7 +15,7 @@ trait WorkTrait
      *
      * @var Work
      */
-    public $work;
+    public Work $work;
 
     /**
      * Returns the work.

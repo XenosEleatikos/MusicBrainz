@@ -15,7 +15,7 @@ trait ResourceTrait
      *
      * @var Resource
      */
-    private $resource;
+    private Resource $resource;
 
     /**
      * Returns the resource.

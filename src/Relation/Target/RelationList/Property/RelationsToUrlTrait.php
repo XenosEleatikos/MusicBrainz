@@ -17,7 +17,7 @@ trait RelationsToUrlTrait
      *
      * @var RelationToUrl[]|RelationToUrlList
      */
-    private $urlRelations;
+    private RelationToUrlList $urlRelations;
 
     /**
      * Returns a list of relations to an URL.

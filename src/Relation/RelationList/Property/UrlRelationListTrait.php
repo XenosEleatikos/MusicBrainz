@@ -15,7 +15,7 @@ trait UrlRelationListTrait
      *
      * @var UrlRelationList
      */
-    private $relations;
+    private UrlRelationList $relations;
 
     /**
      * Returns the list of relations the URL stands in.

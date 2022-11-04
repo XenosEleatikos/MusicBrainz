@@ -14,7 +14,7 @@ trait ReleaseEventTrait
      *
      * @var ReleaseEvent
      */
-    private $releaseEvent;
+    private ReleaseEvent $releaseEvent;
 
     /**
      * Returns the release event.

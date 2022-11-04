@@ -9,7 +9,7 @@ trait AliasesTrait
      *
      * @var bool
      */
-    private $aliases = false;
+    private bool $aliases = false;
 
     /**
      * Returns true, if aliases should be included, otherwise false.

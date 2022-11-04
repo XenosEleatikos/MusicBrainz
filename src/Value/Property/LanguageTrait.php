@@ -15,7 +15,7 @@ trait LanguageTrait
      *
      * @var Language
      */
-    public $language;
+    public Language $language;
 
     /**
      * Returns the language.

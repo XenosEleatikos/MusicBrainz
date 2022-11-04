@@ -15,7 +15,7 @@ trait TitleTrait
      *
      * @var Title
      */
-    public $title;
+    public Title $title;
 
     /**
      * Returns the title.

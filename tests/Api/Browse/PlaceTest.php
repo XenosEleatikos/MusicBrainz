@@ -19,7 +19,7 @@ class PlaceTest extends ApiTestCase
      *
      * @var Place[]|PlaceListPage
      */
-    private static $placeListPage;
+    private static PlaceListPage $placeListPage;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -28,7 +28,7 @@ class PlaceTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$placeListPage)) {
+        if (isset(self::$placeListPage)) {
             return;
         }
 

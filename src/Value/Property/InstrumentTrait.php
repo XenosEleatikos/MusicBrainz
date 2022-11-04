@@ -15,7 +15,7 @@ trait InstrumentTrait
      *
      * @var Instrument
      */
-    private $instrument;
+    private Instrument $instrument;
 
     /**
      * Returns the instrument.

@@ -9,7 +9,7 @@ trait DiscIdsTrait
      *
      * @var bool
      */
-    private $discIds = false;
+    private bool $discIds = false;
 
     /**
      * Returns true, if disc ID's should be included, otherwise false.

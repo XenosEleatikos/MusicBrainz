@@ -15,7 +15,7 @@ trait AreaRelationListTrait
      *
      * @var AreaRelationList
      */
-    private $relations;
+    private AreaRelationList $relations;
 
     /**
      * Returns the list of relations the area stands in.

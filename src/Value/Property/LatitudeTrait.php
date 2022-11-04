@@ -13,9 +13,9 @@ trait LatitudeTrait
     /**
      * The latitude
      *
-     * @var null|Latitude
+     * @var Latitude
      */
-    private $latitude;
+    private Latitude  $latitude;
 
     /**
      * Returns the latitude.

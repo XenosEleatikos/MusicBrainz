@@ -34,7 +34,7 @@ class AreaTest extends ApiTestCase
      *
      * @var Area
      */
-    private static $area;
+    private static Area $area;
 
     /**
      * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
@@ -43,7 +43,7 @@ class AreaTest extends ApiTestCase
      */
     public function setUp(): void
     {
-        if (!is_null(self::$area)) {
+        if (isset(self::$area)) {
             return;
         }
 

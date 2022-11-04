@@ -9,7 +9,7 @@ trait SeriesRelationsTrait
      *
      * @var bool
      */
-    private $seriesRelations = false;
+    private bool $seriesRelations = false;
 
     /**
      * Returns true, if series relations should be included, otherwise false.

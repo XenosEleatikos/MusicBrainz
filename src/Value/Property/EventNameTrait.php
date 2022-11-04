@@ -15,7 +15,7 @@ trait EventNameTrait
      *
      * @var EventName
      */
-    public $eventName;
+    public EventName $eventName;
 
     /**
      * Returns the event name.

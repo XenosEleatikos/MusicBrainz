@@ -15,7 +15,7 @@ trait CountryTrait
      *
      * @var Country
      */
-    private $country;
+    private Country $country;
 
     /**
      * Returns the country.

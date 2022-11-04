@@ -16,7 +16,7 @@ trait SectorOffsetsTrait
      *
      * @var Sectors[]|SectorOffsetList
      */
-    private $sectorOffsets;
+    private SectorOffsetList $sectorOffsets;
 
     /**
      * Returns a list of sector offsets.

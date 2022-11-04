@@ -16,7 +16,7 @@ trait AliasTypeTrait
      *
      * @var AliasType
      */
-    private $aliasType;
+    private AliasType $aliasType;
 
     /**
      * Returns the alias type.

@@ -23,7 +23,7 @@ trait BeginDateTrait
      *
      * @var Date
      */
-    private $beginDate;
+    private Date $beginDate;
 
     /**
      * Returns the beginning date.

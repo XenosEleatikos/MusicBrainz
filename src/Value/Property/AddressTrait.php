@@ -15,7 +15,7 @@ trait AddressTrait
      *
      * @var Address
      */
-    private $address;
+    private Address $address;
 
     /**
      * Returns the address.

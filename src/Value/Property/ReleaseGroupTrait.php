@@ -15,7 +15,7 @@ trait ReleaseGroupTrait
      *
      * @var ReleaseGroup
      */
-    public $releaseGroup;
+    public ReleaseGroup $releaseGroup;
 
     /**
      * Returns the release.

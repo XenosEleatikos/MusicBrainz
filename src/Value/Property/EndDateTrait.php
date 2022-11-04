@@ -23,7 +23,7 @@ trait EndDateTrait
      *
      * @var Date
      */
-    private $endDate;
+    private Date $endDate;
 
     /**
      * Returns the ending date.

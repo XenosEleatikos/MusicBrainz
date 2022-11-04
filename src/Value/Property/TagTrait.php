@@ -14,7 +14,7 @@ trait TagTrait
      *
      * @var Tag
      */
-    public $Tag;
+    public Tag $Tag;
 
     /**
      * Returns the Tag.

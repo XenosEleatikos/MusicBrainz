@@ -12,7 +12,7 @@ abstract class AbstractHttpAdapter
     /**
      * @var string
      */
-    public $endpoint = 'https://musicbrainz.org/ws/2';
+    public string $endpoint = 'https://musicbrainz.org/ws/2';
 
     /**
      * Perform an HTTP request on MusicBrainz

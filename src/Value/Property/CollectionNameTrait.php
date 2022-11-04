@@ -15,7 +15,7 @@ trait CollectionNameTrait
      *
      * @var CollectionName
      */
-    public $collectionName;
+    public CollectionName $collectionName;
 
     /**
      * Returns the collection name.

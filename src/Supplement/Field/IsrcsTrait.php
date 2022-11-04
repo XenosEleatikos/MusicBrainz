@@ -9,7 +9,7 @@ trait IsrcsTrait
      *
      * @var bool
      */
-    private $isrcs = false;
+    private bool $isrcs = false;
 
     /**
      * Returns true, if ISRC's should be included, otherwise false.

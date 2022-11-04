@@ -15,7 +15,7 @@ trait LengthTrait
      *
      * @var Length
      */
-    private $length;
+    private Length $length;
 
     /**
      * Returns the length.

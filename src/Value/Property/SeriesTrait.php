@@ -15,7 +15,7 @@ trait SeriesTrait
      *
      * @var Series
      */
-    public $series;
+    public Series $series;
 
     /**
      * Returns the series.

@@ -22,7 +22,7 @@ trait BeginAreaTrait
      *
      * @see ArtistType
      */
-    private $beginArea;
+    private Area $beginArea;
 
     /**
      * Returns the artist's begin area.

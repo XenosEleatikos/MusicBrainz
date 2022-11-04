@@ -15,7 +15,7 @@ trait LifeSpanTrait
      *
      * @var LifeSpan
      */
-    private $lifeSpan;
+    private LifeSpan $lifeSpan;
 
     /**
      * Returns the artist's life span.

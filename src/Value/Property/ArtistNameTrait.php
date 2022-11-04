@@ -15,7 +15,7 @@ trait ArtistNameTrait
      *
      * @var Name
      */
-    public $artistName;
+    public Name $artistName;
 
     /**
      * Returns the artist name.

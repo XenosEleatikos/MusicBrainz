@@ -15,7 +15,7 @@ trait RelationTypeTrait
      *
      * @var Type
      */
-    private $relationType;
+    private Type $relationType;
 
     /**
      * Returns type of relation.

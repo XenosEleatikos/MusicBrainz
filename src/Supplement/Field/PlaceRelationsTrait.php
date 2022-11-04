@@ -9,7 +9,7 @@ trait PlaceRelationsTrait
      *
      * @var bool
      */
-    private $placeRelations = false;
+    private bool $placeRelations = false;
 
     /**
      * Returns true, if place relations should be included, otherwise false.

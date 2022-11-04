@@ -15,7 +15,7 @@ trait DiscsTrait
      *
      * @var DiscList
      */
-    private $discs;
+    private DiscList $discs;
 
     /**
      * Returns a list of discs.

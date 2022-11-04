@@ -14,7 +14,7 @@ trait TrackTrait
      *
      * @var Track
      */
-    public $track;
+    public Track $track;
 
     /**
      * Returns the track.

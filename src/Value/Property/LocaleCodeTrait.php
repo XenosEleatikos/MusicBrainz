@@ -15,7 +15,7 @@ trait LocaleCodeTrait
      *
      * @var LocaleCode
      */
-    private $localeCode;
+    private LocaleCode $localeCode;
 
     /**
      * Returns the locale code.

@@ -16,7 +16,7 @@ trait IsnisTrait
      *
      * @var ISNI|ISNIList
      */
-    private $isnis;
+    private ISNIList $isnis;
 
     /**
      * Returns a list of ISNI codes.

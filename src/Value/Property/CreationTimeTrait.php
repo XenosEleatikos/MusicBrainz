@@ -15,7 +15,7 @@ trait CreationTimeTrait
      *
      * @var TimeStamp
      */
-    private $creationTime;
+    private TimeStamp $creationTime;
 
     /**
      * Returns the creation time.

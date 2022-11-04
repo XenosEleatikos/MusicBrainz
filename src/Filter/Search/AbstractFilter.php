@@ -17,7 +17,7 @@ abstract class AbstractFilter
      *
      * @var Query
      */
-    protected $query;
+    protected Query $query;
 
     /**
      * Constructs an annotation filter.

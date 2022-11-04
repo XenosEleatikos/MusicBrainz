@@ -15,7 +15,7 @@ trait DirectionTrait
      *
      * @var Direction
      */
-    private $direction;
+    private Direction $direction;
 
     /**
      * Returns the direction of the relation.
