@@ -20,7 +20,8 @@
     },
     "require-dev": {
         "guzzlehttp/guzzle": "^6",
-        "phpunit/phpunit": "^6.2"
+        "phpunit/phpunit": "^6.2",
+        "squizlabs/php_codesniffer": "*"
     },
     "suggest": {
         "guzzle/guzzle": "Allows you to use the GuzzleHttpAdapter.",
