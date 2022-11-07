@@ -19,7 +19,7 @@
         "xenos/asklucy": "^2"
     },
     "require-dev": {
-        "guzzlehttp/guzzle": "^6",
+        "guzzlehttp/guzzle": "^7",
         "phpunit/phpunit": "10@dev",
         "squizlabs/php_codesniffer": "*"
     },
