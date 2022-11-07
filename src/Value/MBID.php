@@ -25,11 +25,7 @@ class MBID implements Value
      */
     public function __construct(?string $mbid = '')
     {
-        $this->mbid = is_null($mbid)
-            ? ''
-            : ($this->isValidMBID($mbid))
-                ? $mbid
-                : '';
+        $this->mbid = (is_null($mbid) ? '' : ($this->isValidMBID($mbid))) ? $mbid : '';
     }
 
     /**

@@ -16,9 +16,9 @@ trait IteratorTrait
      *
      * @link http://php.net/manual/en/iterator.rewind.php
      *
-     * @return mixed
+     * @return void
      */
-    public function rewind()
+    public function rewind(): void
     {
         reset($this->elements);
     }
@@ -30,7 +30,7 @@ trait IteratorTrait
      *
      * @return mixed
      */
-    public function current()
+    public function current(): mixed
     {
         return current($this->elements);
     }
@@ -40,9 +40,9 @@ trait IteratorTrait
      *
      * @link http://php.net/manual/en/iterator.key.php
      *
-     * @return mixed
+     * @return string|int|null
      */
-    public function key()
+    public function key(): string|int|null
     {
         return key($this->elements);
     }
@@ -52,11 +52,11 @@ trait IteratorTrait
      *
      * @link http://php.net/manual/en/iterator.next.php
      *
-     * @return mixed
+     * @return void
      */
-    public function next()
+    public function next(): void
     {
-        return next($this->elements);
+        next($this->elements);
     }
 
     /**

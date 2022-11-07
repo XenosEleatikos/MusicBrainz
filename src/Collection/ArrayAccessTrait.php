@@ -18,7 +18,7 @@ trait ArrayAccessTrait
      *
      * @return null|mixed
      */
-    public function offsetGet($key)
+    public function offsetGet($key): mixed
     {
         return isset($this->elements[$key]) ? $this->elements[$key] : null;
     }
@@ -31,7 +31,7 @@ trait ArrayAccessTrait
      *
      * @return void
      */
-    public function offsetSet($key, $value)
+    public function offsetSet($key, mixed $value): void
     {
         $this->elements[$key] = $value;
     }
@@ -43,7 +43,7 @@ trait ArrayAccessTrait
      *
      * @return void
      */
-    public function offsetUnset($key)
+    public function offsetUnset($key): void
     {
         unset($this->elements[$key]);
     }
@@ -55,7 +55,7 @@ trait ArrayAccessTrait
      *
      * @return bool
      */
-    public function offsetExists($key)
+    public function offsetExists($key): bool
     {
         return array_key_exists($key, $this->elements);
     }

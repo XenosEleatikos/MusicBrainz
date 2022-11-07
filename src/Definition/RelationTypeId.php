@@ -297,7 +297,7 @@ class RelationTypeId
             '87e922ba-872e-418a-9f41-0a63aa3c30cc' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered',
             '8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Production',
             '84453d28-c3e8-4864-9aae-25aa968bcf9e' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered\\Mastered',
-            '6cc958c0-533b-4540-a281-058fbb941890' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered\\Mixed',
+            '6cc958c0-533b-4540-a281-058fbb941890' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered\\AudioMixed',
             'f30c29d3-a3f1-420d-9b6c-a750fd6bc2aa' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered\\Edited',
             '271306ca-c77f-4fe0-94bc-dd4b87ae0205' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered\\SoundEngineered',
             'b04848d7-dbd9-4be0-9d8c-13df6d6e40db' => 'MusicBrainz\\Relation\\Type\\Artist\\Release\\Produced\\Engineered\\AudioEngineered',

@@ -32,7 +32,7 @@ abstract class ApiTestCase extends TestCase
     public function setUp(): void
     {
         $this->httpAdapter = $this->getMockBuilder('\MusicBrainz\HttpAdapter\AbstractHttpAdapter')
-            ->setMethods(['call'])
+            ->onlyMethods(['call'])
             ->getMockForAbstractClass();
 
         $this->musicBrainz = new \MusicBrainz\MusicBrainz($this->httpAdapter);
