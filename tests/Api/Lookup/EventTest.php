@@ -1,4 +1,5 @@
 <?php
+
 namespace MusicBrainz\Test\Api\Lookup;
 
 use MusicBrainz\Relation\RelationList\EventRelationList;

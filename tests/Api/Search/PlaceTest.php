@@ -1,5 +1,6 @@
 <?php
-namespace MusicBrainz\Test\Api;
+
+namespace MusicBrainz\Test\Api\Search;
 
 use AskLucy\Lucene;
 use MusicBrainz\Filter\PageFilter;

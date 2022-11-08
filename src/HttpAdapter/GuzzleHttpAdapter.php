@@ -8,7 +8,7 @@ use MusicBrainz\Config;
 use MusicBrainz\Exception;
 
 /**
- * Adapter for Guzzle 6 HTTP Client.
+ * Adapter for Guzzle 7 HTTP Client.
  *
  * @see http://docs.guzzlephp.org
  */

@@ -1,4 +1,5 @@
 <?php
+
 namespace MusicBrainz\Test\Api\Browse;
 
 use MusicBrainz\Filter\Browse\Relation\Entity\CollectionRelation;

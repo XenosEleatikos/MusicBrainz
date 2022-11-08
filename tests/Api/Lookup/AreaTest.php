@@ -1,16 +1,12 @@
 <?php
+
 namespace MusicBrainz\Test\Api\Lookup;
 
 use MusicBrainz\Relation\Target\RelationList\RelationToAreaList;
-use MusicBrainz\Relation\Target\RelationList\RelationToArtistList;
 use MusicBrainz\Relation\Target\RelationList\RelationToEventList;
 use MusicBrainz\Relation\Target\RelationList\RelationToInstrumentList;
-use MusicBrainz\Relation\Target\RelationList\RelationToLabelList;
-use MusicBrainz\Relation\Target\RelationList\RelationToPlaceList;
 use MusicBrainz\Relation\Target\RelationList\RelationToRecordingList;
-use MusicBrainz\Relation\Target\RelationList\RelationToReleaseGroupList;
 use MusicBrainz\Relation\Target\RelationList\RelationToReleaseList;
-use MusicBrainz\Relation\Target\RelationList\RelationToSeriesList;
 use MusicBrainz\Relation\Target\RelationList\RelationToUrlList;
 use MusicBrainz\Relation\Target\RelationList\RelationToWorkList;
 use MusicBrainz\Relation\Target\RelationToWork;

@@ -1,5 +1,6 @@
 <?php
-namespace MusicBrainz\Test\Api;
+
+namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\ReleaseFilter;
@@ -8,12 +9,10 @@ use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\ArtistCredit;
 use MusicBrainz\Value\ArtistCreditList;
 use MusicBrainz\Value\ASIN;
-use MusicBrainz\Value\Count;
 use MusicBrainz\Value\Country;
 use MusicBrainz\Value\Format;
 use MusicBrainz\Value\ISO31661Code;
 use MusicBrainz\Value\ISO31661CodeList;
-use MusicBrainz\Value\Label;
 use MusicBrainz\Value\Language;
 use MusicBrainz\Value\MediaList;
 use MusicBrainz\Value\Medium;
@@ -25,7 +24,6 @@ use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\ReleaseStatus;
 use MusicBrainz\Value\ReleaseType;
 use MusicBrainz\Value\Date;
-use MusicBrainz\Value\Gender;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Page\SearchResult\ReleaseListPage;

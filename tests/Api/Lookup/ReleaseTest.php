@@ -1,21 +1,18 @@
 <?php
+
 namespace MusicBrainz\Test\Api\Lookup;
 
 use MusicBrainz\Relation\Target\RelationList\RelationToAreaList;
 use MusicBrainz\Relation\Target\RelationList\RelationToArtistList;
 use MusicBrainz\Relation\Target\RelationList\RelationToEventList;
 use MusicBrainz\Relation\Target\RelationList\RelationToLabelList;
-use MusicBrainz\Relation\Target\RelationList\RelationToPlaceList;
 use MusicBrainz\Relation\Target\RelationList\RelationToRecordingList;
 use MusicBrainz\Relation\Target\RelationList\RelationToReleaseList;
 use MusicBrainz\Relation\Target\RelationList\RelationToSeriesList;
 use MusicBrainz\Relation\Target\RelationList\RelationToUrlList;
-use MusicBrainz\Relation\Target\RelationList\RelationToWorkList;
-use MusicBrainz\Supplement\Lookup\RecordingFields;
 use MusicBrainz\Supplement\Lookup\ReleaseFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Recording;
 use MusicBrainz\Value\Release;
 
 /**
