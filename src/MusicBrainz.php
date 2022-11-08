@@ -35,12 +35,14 @@ class MusicBrainz
     /**
      * Constructs the MusicBrainz API client.
      *
-     * @param HttpAdapter\AbstractHttpAdapter $adapter The Http adapter used to make requests
+     * @param AbstractHttpAdapter  $adapter The Http adapter used to make requests
+     * @param null|LoggerInterface $logger  A logger
+     * @param null|Config          $config  A set of configuration
      */
-    public function __construct(AbstractHttpAdapter $adapter, LoggerInterface $logger = null)
+    public function __construct(AbstractHttpAdapter $adapter, LoggerInterface $logger = null, Config $config = null)
     {
         $this->adapter = $adapter;
-        $this->config  = new Config();
+        $this->config  = $config ?? new Config();
         self::setLogger($logger);
     }
 
