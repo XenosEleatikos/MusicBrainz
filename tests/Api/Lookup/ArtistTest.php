@@ -34,6 +34,7 @@ use MusicBrainz\Value\Medium;
 use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseEvent;
 use MusicBrainz\Value\ReleaseEventList;
+use MusicBrainz\Value\ReleaseGroupList;
 use MusicBrainz\Value\ReleaseList;
 use MusicBrainz\Value\ReleaseStatus;
 use MusicBrainz\Value\Script;
@@ -196,6 +197,13 @@ class ArtistTest extends ApiTestCase
         /** @see testTextRepresentation() */
 
         /** @see testMedia() */
+    }
+
+    public function testReleaseGroups(): void
+    {
+        $releaseGroups = self::$artist->getReleaseGroups();
+
+        $this->assertInstanceOf(ReleaseGroupList::class, $releaseGroups);
     }
 
     /**

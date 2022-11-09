@@ -27,6 +27,7 @@ class Artist implements Value
     use Property\LifeSpanTrait;
     use Property\MBIDTrait;
     use Property\ReleasesTrait;
+    use Property\ReleaseGroupsTrait;
     use Property\ScoreTrait;
     use Property\SortNameTrait;
     use Property\TagsTrait;
@@ -53,6 +54,7 @@ class Artist implements Value
         $this->setLifeSpanFromArray($artist);
         $this->setMbidFromArray($artist);
         $this->setReleasesFromArray($artist);
+        $this->setReleaseGroupsFromArray($artist);
         $this->setScoreFromArray($artist);
         $this->setSortNameFromArray($artist);
         $this->setTagsFromArray($artist);
