@@ -4,6 +4,7 @@ namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\ReleaseFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\ArtistCredit;

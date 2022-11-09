@@ -4,6 +4,7 @@ namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AnnotationFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Annotation;
 use MusicBrainz\Value\AnnotationText;
 use MusicBrainz\Value\EntityType;

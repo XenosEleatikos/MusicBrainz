@@ -4,6 +4,7 @@ namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\AliasType;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\AreaType;

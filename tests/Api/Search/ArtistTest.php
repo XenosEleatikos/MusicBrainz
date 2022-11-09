@@ -4,6 +4,7 @@ namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\ArtistType;
 use MusicBrainz\Value\Date;

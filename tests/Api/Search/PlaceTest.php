@@ -5,6 +5,7 @@ namespace MusicBrainz\Test\Api\Search;
 use AskLucy\Lucene;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\PlaceFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Page\SearchResult\PlaceListPage;
 use MusicBrainz\Value\SearchResult;
 

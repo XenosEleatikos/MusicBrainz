@@ -4,6 +4,7 @@ namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\LabelFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Page\SearchResult\LabelListPage;
 use MusicBrainz\Value\SearchResult;

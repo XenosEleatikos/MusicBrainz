@@ -4,6 +4,7 @@ namespace MusicBrainz\Test\Api\Search;
 
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\CdStubFilter;
+use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Page\SearchResult\CdStubListPage;
 use MusicBrainz\Value\SearchResult;
 use MusicBrainz\Value\Title;
