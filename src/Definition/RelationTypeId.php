@@ -420,6 +420,7 @@ class RelationTypeId
             '35b3a50f-bf0e-4309-a3b4-58eeed8cee6a' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\OnlineCommunity',
             'eb535226-f8ca-499d-9b18-6a144df4ae6f' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\Blog',
             '89e4a949-0976-440d-bda1-5f772c1e5710' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\SocialNetwork\\Soundcloud',
+            '63cc5d1f-f096-4c94-a43f-ecb32ea94161' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\SocialNetwork\\Tidal',
             'd86c9450-b6d0-4760-a275-e7547495b48b' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\SocialNetwork\\VideoChannel',
             'bac47923-ecde-4b59-822e-d08f0cd10156' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\SocialNetwork\\Myspace',
             'b6f02157-a9d3-4f24-9057-0675b2dbc581' => 'MusicBrainz\\Relation\\Type\\Artist\\Url\\OnlineData\\SocialNetwork\\Purevolume',
