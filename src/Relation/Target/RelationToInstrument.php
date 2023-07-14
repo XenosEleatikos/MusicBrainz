@@ -39,4 +39,14 @@ class RelationToInstrument extends Relation
     {
         return new EntityType(EntityType::INSTRUMENT);
     }
+
+    /**
+     * Returns the related instrument.
+     *
+     * @return Instrument
+     */
+    public function getInstrument(): Instrument
+    {
+        return $this->instrument;
+    }
 }

@@ -39,4 +39,14 @@ class RelationToEvent extends Relation
     {
         return new EntityType(EntityType::EVENT);
     }
+
+    /**
+     * Returns the related event.
+     *
+     * @return Event
+     */
+    public function getEvent(): Event
+    {
+        return $this->event;
+    }
 }

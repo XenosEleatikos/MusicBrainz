@@ -39,4 +39,14 @@ class RelationToUrl extends Relation
     {
         return new EntityType(EntityType::URL);
     }
+
+    /**
+     * Returns the related URL.
+     *
+     * @return URL
+     */
+    public function getUrl(): URL
+    {
+        return $this->url;
+    }
 }

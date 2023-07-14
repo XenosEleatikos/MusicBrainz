@@ -39,4 +39,14 @@ class RelationToReleaseGroup extends Relation
     {
         return new EntityType(EntityType::RELEASE_GROUP);
     }
+
+    /**
+     * Returns the related release group.
+     *
+     * @return ReleaseGroup
+     */
+    public function getReleaseGroup(): ReleaseGroup
+    {
+        return $this->releaseGroup;
+    }
 }
