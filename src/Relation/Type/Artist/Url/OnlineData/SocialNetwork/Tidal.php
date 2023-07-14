@@ -8,7 +8,7 @@ use MusicBrainz\Value\Name;
 /**
  * This links an artist to its profile at Tidal.
  *
- * @see  https://soundcloud.com
+ * @see  https://tidal.com
  * @link https://musicbrainz.org/relationship/63cc5d1f-f096-4c94-a43f-ecb32ea94161
  */
 class Tidal extends SocalNetwork
