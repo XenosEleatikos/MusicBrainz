@@ -35,7 +35,7 @@ class LifeSpan implements Value
     public function __toString(): string
     {
         return ($this->getEnded()->isEnded())
-            ? $this->getBeginDate()
-            : $this->getBeginDate() . '–' . $this->getEndDate();
+            ? $this->getBeginDate() . ' – ' . $this->getEndDate()
+            : $this->getBeginDate();
     }
 }
