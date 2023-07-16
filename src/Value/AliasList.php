@@ -2,6 +2,9 @@
 
 namespace MusicBrainz\Value;
 
+use MusicBrainz\Value\Property\List\CommaSeperatedListTrait;
+use function Clue\StreamFilter\fun;
+
 /**
  * A list of aliases
  *
@@ -9,6 +12,8 @@ namespace MusicBrainz\Value;
  */
 class AliasList extends ValueList
 {
+    use CommaSeperatedListTrait;
+
     /**
      * Constructs a list of aliases.
      *

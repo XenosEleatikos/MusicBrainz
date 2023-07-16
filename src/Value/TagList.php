@@ -2,6 +2,8 @@
 
 namespace MusicBrainz\Value;
 
+use MusicBrainz\Value\Property\List\CommaSeperatedListTrait;
+
 /**
  * A list of tags
  *
@@ -9,6 +11,8 @@ namespace MusicBrainz\Value;
  */
 class TagList extends ValueList
 {
+    use CommaSeperatedListTrait;
+
     /**
      * Constructs a list of tags.
      *

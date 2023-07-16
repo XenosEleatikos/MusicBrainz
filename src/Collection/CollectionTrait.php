@@ -12,5 +12,5 @@ trait CollectionTrait
      *
      * @var array
      */
-    private array $elements = [];
+    protected array $elements = [];
 }
