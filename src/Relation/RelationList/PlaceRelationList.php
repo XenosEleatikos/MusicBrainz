@@ -23,12 +23,7 @@ class PlaceRelationList
      */
     public function __construct(array $relations = [])
     {
-        $relationList = [];
-
-        foreach ($relations as $relation) {
-            $relation = RelationFactory::make($relation);
-            $relationList[(string) $relation::getRelatedEntityType()][] = $relation;
-        }
+        $relationList = RelationFactory::makeRelations($relations);
 
         $this->setArtistRelationsFromArray($relationList);
         $this->setPlaceRelationsFromArray($relationList);
