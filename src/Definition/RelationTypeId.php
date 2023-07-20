@@ -329,6 +329,7 @@ class RelationTypeId
             'f03d59f3-97db-424b-885e-e8be69d65225' => 'MusicBrainz\\Relation\\Type\\Artist\\Series\\Tour',
             '2a1b5f1d-b712-4791-8079-57f95ce197d7' => 'MusicBrainz\\Relation\\Type\\Artist\\Series\\Catalogued',
             'b792d0a6-a443-4e00-8882-c4f2bef56511' => 'MusicBrainz\\Relation\\Type\\Artist\\Series\\HasCatalogue',
+            'd1a845d1-8c03-3191-9454-e4e8d37fa5e0' => 'MusicBrainz\\Relation\\Type\\Artist\\Series\\PartOf',
             '87bfa63d-c91f-4bf2-9051-5103f7d181dd' => 'MusicBrainz\\Relation\\Type\\Artist\\Instrument\\Invented',
             'b336d682-592f-4486-9f45-3d5d59895bdc' => 'MusicBrainz\\Relation\\Type\\Artist\\Label\\Contract\\RecordingContract',
             '577996f3-7ff9-45cf-877e-740fb1267a63' => 'MusicBrainz\\Relation\\Type\\Artist\\Label\\Contract\\Founded',
