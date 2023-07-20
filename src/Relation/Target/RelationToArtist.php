@@ -39,4 +39,14 @@ class RelationToArtist extends Relation
     {
         return new EntityType(EntityType::ARTIST);
     }
+
+    /**
+     * Returns the related artist.
+     *
+     * @return Artist
+     */
+    public function getArtist(): Artist
+    {
+        return $this->artist;
+    }
 }

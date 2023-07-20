@@ -39,4 +39,14 @@ class RelationToSeries extends Relation
     {
         return new EntityType(EntityType::SERIES);
     }
+
+    /**
+     * Returns the related series.
+     *
+     * @return Series
+     */
+    public function getSeries(): Series
+    {
+        return $this->series;
+    }
 }

@@ -39,4 +39,14 @@ class RelationToLabel extends Relation
     {
         return new EntityType(EntityType::LABEL);
     }
+
+    /**
+     * Returns the related label.
+     *
+     * @return Label
+     */
+    public function getLabel(): Label
+    {
+        return $this->label;
+    }
 }

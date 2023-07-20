@@ -39,4 +39,14 @@ class RelationToRelease extends Relation
     {
         return new EntityType(EntityType::RELEASE);
     }
+
+    /**
+     * Returns the related release.
+     *
+     * @return Release
+     */
+    public function getRelease(): Release
+    {
+        return $this->release;
+    }
 }

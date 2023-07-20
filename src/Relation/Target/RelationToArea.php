@@ -39,4 +39,14 @@ class RelationToArea extends Relation
     {
         return new EntityType(EntityType::AREA);
     }
+
+    /**
+     * Returns the related area.
+     *
+     * @return Area
+     */
+    public function getArea(): Area
+    {
+        return $this->area;
+    }
 }

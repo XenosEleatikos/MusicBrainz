@@ -39,4 +39,14 @@ class RelationToPlace extends Relation
     {
         return new EntityType(EntityType::PLACE);
     }
+
+    /**
+     * Returns the related place.
+     *
+     * @return Place
+     */
+    public function getPlace(): Place
+    {
+        return $this->place;
+    }
 }

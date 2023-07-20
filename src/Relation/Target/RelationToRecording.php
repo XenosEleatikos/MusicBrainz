@@ -39,4 +39,14 @@ class RelationToRecording extends Relation
     {
         return new EntityType(EntityType::RECORDING);
     }
+
+    /**
+     * Generates the related recording.
+     *
+     * @return Recording
+     */
+    public function getRecording(): Recording
+    {
+        return $this->recording;
+    }
 }

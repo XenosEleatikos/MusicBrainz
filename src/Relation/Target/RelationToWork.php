@@ -31,16 +31,6 @@ class RelationToWork extends Relation
     }
 
     /**
-     * Returns the related work.
-     *
-     * @return Work
-     */
-    public function getWork(): Work
-    {
-        return $this->work;
-    }
-
-    /**
      * Returns the entity type of the related entity.
      *
      * @return EntityType
@@ -48,5 +38,15 @@ class RelationToWork extends Relation
     public static function getRelatedEntityType(): EntityType
     {
         return new EntityType(EntityType::WORK);
+    }
+
+    /**
+     * Returns the related work.
+     *
+     * @return Work
+     */
+    public function getWork(): Work
+    {
+        return $this->work;
     }
 }
