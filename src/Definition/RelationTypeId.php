@@ -118,6 +118,7 @@ class RelationTypeId
             'e3390a1d-3083-4bc9-9295-aff9da18612c' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OtherDatabases\\LastFm',
             '51e9db21-8864-49b3-aa58-470d7b81fa50' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OtherDatabases\\Wikipedia',
             'c4bee4f4-e622-4c74-b80b-585989de27f4' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OtherDatabases\\Viaf',
+            '631712a0-7525-42ba-b7a3-605aa7a238c4' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OtherDatabases\\Youtube',
             'fe108f43-acb9-4ad1-8be3-57e6ec5b17b6' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OfficialHomepage',
             '16f681e4-93c9-4888-ae5e-3163f01269ab' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OnlineData\\Cowdfunding',
             '5ac35a29-d29b-4390-b279-587bcd42fc73' => 'MusicBrainz\\Relation\\Type\\Label\\Url\\OnlineData\\CatalogSite',
