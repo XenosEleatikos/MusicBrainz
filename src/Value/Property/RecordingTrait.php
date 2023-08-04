@@ -34,9 +34,15 @@ trait RecordingTrait
      *
      * @return void
      */
-    private function setRecordingFromArray(array $input): void
+    private function setRecordingFromArray(array $input, ?string $key = 'recording'): void
     {
-        $this->recording = is_null($recording = ArrayAccess::getString($input, 'recording'))
+        if (is_null($key)) {
+            $this->recording = new Recording($input);
+
+            return;
+        }
+
+        $this->recording = is_null($recording = ArrayAccess::getString($input, $key))
             ? new Recording()
             : new Recording($recording);
     }
