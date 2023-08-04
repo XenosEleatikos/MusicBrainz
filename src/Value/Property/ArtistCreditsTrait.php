@@ -36,7 +36,7 @@ trait ArtistCreditsTrait
      *
      * @return void
      */
-    private function setArtistCreditsFromArray(array $input, string $key = 'artist-credits'): void
+    private function setArtistCreditsFromArray(array $input, string $key = 'artist-credit'): void
     {
         $this->artistCredits = is_null($artistCredits = ArrayAccess::getArray($input, $key))
             ? new ArtistCreditList()
