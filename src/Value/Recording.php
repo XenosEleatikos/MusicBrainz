@@ -21,6 +21,7 @@ class Recording implements Value
     use Property\MBIDTrait;
     use Property\LengthTrait;
     use Property\TitleTrait;
+    use Property\FirstReleaseDateTrait;
     use Property\AliasesTrait;
     use Property\IpisTrait;
     use Property\CountryTrait;
@@ -49,6 +50,7 @@ class Recording implements Value
         $this->setMbidFromArray($recording);
         $this->setLengthFromArray($recording);
         $this->setTitleFromArray($recording);
+        $this->setFirstReleaseDateFromArray($recording);
         $this->setAliasesFromArray($recording);
         $this->setIpisFromArray($recording);
         $this->setCountryFromArray($recording);
