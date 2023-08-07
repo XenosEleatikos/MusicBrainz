@@ -43,7 +43,7 @@ class AreaTest extends ApiTestCase
                 'limit'      => 25,
                 'offset'     => 0,
                 'collection' => 'dce472b5-dcea-4ad6-9c51-d16703aa0c82',
-                'inc'        => 'aliases+annotation+ratings+tags+user-ratings+user-tags'
+                'inc'        => 'aliases+annotation+genres+tags+user-genres+user-tags'
             ],
             'Browse/Area.json'
         );
@@ -55,9 +55,9 @@ class AreaTest extends ApiTestCase
         $areaFields = (new AreaFields)
             ->includeAliases()
             ->includeAnnotation()
-            ->includeRatings()
+            ->includeGenres()
             ->includeTags()
-            ->includeUserRatings()
+            ->includeUserGenres()
             ->includeUserTags();
 
         self::$areaListPage = $this->musicBrainz->api()->browse()->area($areaRelation, $areaFields, new PageFilter);
@@ -73,7 +73,7 @@ class AreaTest extends ApiTestCase
         $areaListPage = self::$areaListPage;
 
         $this->assertInstanceOf(AreaListPage::class, $areaListPage);
-        $this->assertSame(1, count($areaListPage));
+        $this->assertSame(2, count($areaListPage));
 
         $area = $areaListPage[0];
 

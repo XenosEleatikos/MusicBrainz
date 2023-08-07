@@ -88,19 +88,20 @@ class Browse
     public function area(AreaRelation $areaRelation, AreaFields $areaFields, PageFilter $pageFilter): AreaListPage
     {
         $fields = [
-            'aliases'      => $areaFields->getIncludeFlagForAliases(),
-            'annotation'   => $areaFields->getIncludeFlagForAnnotation(),
-            'ratings'      => $areaFields->getIncludeFlagForRatings(),
-            'tags'         => $areaFields->getIncludeFlagForTags(),
-            'user-ratings' => $areaFields->getIncludeFlagForUserRatings(),
-            'user-tags'    => $areaFields->getIncludeFlagForUserTags()
+            'aliases'     => $areaFields->getIncludeFlagForAliases(),
+            'annotation'  => $areaFields->getIncludeFlagForAnnotation(),
+            'genres'      => $areaFields->getIncludeFlagForGenres(),
+            'tags'        => $areaFields->getIncludeFlagForTags(),
+            'user-genres' => $areaFields->getIncludeFlagForUserGenres(),
+            'user-tags'   => $areaFields->getIncludeFlagForUserTags()
         ];
 
         $result = $this->browse(
             new EntityType(EntityType::AREA),
             $areaRelation,
             $fields,
-            $pageFilter
+            $pageFilter,
+            (string)$areaRelation->getEntityType() === EntityType::COLLECTION
         );
 
         return AreaListPage::make($result, 'area');
@@ -438,10 +439,11 @@ class Browse
     /**
      * Looks up for entities standing in a certain relation.
      *
-     * @param EntityType       $entity     The type of the requested entities
-     * @param AbstractRelation $relation   The type of the related entity
-     * @param array            $includes   A list of properties of the requested entities to be included in the response
-     * @param PageFilter       $pageFilter A page filter
+     * @param EntityType       $entity       The type of the requested entities
+     * @param AbstractRelation $relation     The type of the related entity
+     * @param array            $includes     A list of properties of the requested entities to be included in the response
+     * @param PageFilter       $pageFilter   A page filter
+     * @param bool             $authRequired True, if user authentication is required
      *
      * @return array
      */
@@ -449,7 +451,8 @@ class Browse
         EntityType $entity,
         AbstractRelation $relation,
         array $includes,
-        PageFilter $pageFilter
+        PageFilter $pageFilter,
+        bool $authRequired = false
     ) {
         $includes = array_keys(array_filter($includes));
 
@@ -464,7 +467,7 @@ class Browse
             $params['inc'] = implode('+', $includes);
         }
 
-        $response = $this->httpAdapter->call(str_replace('_', '-', (string) $entity) . '/', $this->config, $params);
+        $response = $this->httpAdapter->call(str_replace('_', '-', (string) $entity) . '/', $this->config, $params, $authRequired);
 
         return $response;
     }
