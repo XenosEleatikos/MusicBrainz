@@ -39,7 +39,7 @@ class ArtistTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'artist/',
+            'artist',
             [
                 'fmt'     => 'json',
                 'limit'   => 25,

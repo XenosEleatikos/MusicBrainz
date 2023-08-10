@@ -37,7 +37,7 @@ class AreaTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'area/',
+            'area',
             [
                 'fmt'        => 'json',
                 'limit'      => 25,

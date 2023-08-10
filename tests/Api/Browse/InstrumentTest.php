@@ -51,7 +51,7 @@ class InstrumentTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'instrument/',
+            'instrument',
             [
                 'fmt'        => 'json',
                 'limit'      => 25,

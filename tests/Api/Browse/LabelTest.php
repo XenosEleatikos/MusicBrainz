@@ -37,7 +37,7 @@ class LabelTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'label/',
+            'label',
             [
                 'fmt'    => 'json',
                 'limit'  => 25,

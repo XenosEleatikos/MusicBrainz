@@ -37,7 +37,7 @@ class PlaceTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'place/',
+            'place',
             [
                 'fmt'    => 'json',
                 'limit'  => 25,

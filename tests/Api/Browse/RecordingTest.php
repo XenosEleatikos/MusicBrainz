@@ -37,7 +37,7 @@ class RecordingTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'recording/',
+            'recording',
             [
                 'fmt'    => 'json',
                 'limit'  => 25,

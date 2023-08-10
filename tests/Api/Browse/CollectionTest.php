@@ -40,7 +40,7 @@ class CollectionTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'collection/',
+            'collection',
             [
                 'fmt'    => 'json',
                 'limit'  => 25,

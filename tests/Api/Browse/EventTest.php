@@ -37,7 +37,7 @@ class EventTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'event/',
+            'event',
             [
                 'fmt'        => 'json',
                 'limit'      => 25,

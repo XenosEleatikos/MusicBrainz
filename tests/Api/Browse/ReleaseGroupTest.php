@@ -37,7 +37,7 @@ class ReleaseGroupTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'release-group/',
+            'release-group',
             [
                 'fmt'    => 'json',
                 'limit'  => 25,

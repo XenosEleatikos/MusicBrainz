@@ -37,7 +37,7 @@ class ReleaseTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'release/',
+            'release',
             [
                 'fmt'    => 'json',
                 'limit'  => 25,

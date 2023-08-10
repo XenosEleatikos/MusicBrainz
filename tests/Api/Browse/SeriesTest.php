@@ -37,7 +37,7 @@ class SeriesTest extends ApiTestCase
 
         /** Setting up the mock object of the abstract HTTP adapter */
         $this->expectApiCall(
-            'series/',
+            'series',
             [
                 'fmt'        => 'json',
                 'limit'      => 25,
