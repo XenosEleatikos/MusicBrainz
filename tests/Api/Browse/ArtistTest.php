@@ -45,7 +45,7 @@ class ArtistTest extends ApiTestCase
                 'limit'   => 25,
                 'offset'  => 0,
                 'area'    => '20619e36-fca8-4499-bcc8-be01a3ea3e41',
-                'inc'     => 'aliases+annotation+ratings+tags+user-ratings+user-tags'
+                'inc'     => 'aliases+annotation+genres+tags+user-genres+user-tags'
             ],
             'Browse/Artist.json'
         );
@@ -57,9 +57,9 @@ class ArtistTest extends ApiTestCase
         $artistFields = (new ArtistFields)
             ->includeAliases()
             ->includeAnnotation()
-            ->includeRatings()
+            ->includeGenres()
             ->includeTags()
-            ->includeUserRatings()
+            ->includeUserGenres()
             ->includeUserTags();
 
         self::$artistListPage = $this->musicBrainz->api()->browse()->artist($artistRelation, $artistFields, new PageFilter);

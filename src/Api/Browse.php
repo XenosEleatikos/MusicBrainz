@@ -119,19 +119,20 @@ class Browse
     public function artist(ArtistRelation $artistRelation, ArtistFields $artistFields, PageFilter $pageFilter): ArtistListPage
     {
         $fields = [
-            'aliases'      => $artistFields->getIncludeFlagForAliases(),
-            'annotation'   => $artistFields->getIncludeFlagForAnnotation(),
-            'ratings'      => $artistFields->getIncludeFlagForRatings(),
-            'tags'         => $artistFields->getIncludeFlagForTags(),
-            'user-ratings' => $artistFields->getIncludeFlagForUserRatings(),
-            'user-tags'    => $artistFields->getIncludeFlagForUserTags()
+            'aliases'     => $artistFields->getIncludeFlagForAliases(),
+            'annotation'  => $artistFields->getIncludeFlagForAnnotation(),
+            'genres'      => $artistFields->getIncludeFlagForGenres(),
+            'tags'        => $artistFields->getIncludeFlagForTags(),
+            'user-genres' => $artistFields->getIncludeFlagForUserGenres(),
+            'user-tags'   => $artistFields->getIncludeFlagForUserTags()
         ];
 
         $result = $this->browse(
             new EntityType(EntityType::ARTIST),
             $artistRelation,
             $fields,
-            $pageFilter
+            $pageFilter,
+            $fields['user-genres'] || $fields['user-tags']
         );
 
         return ArtistListPage::make($result, 'artist');
