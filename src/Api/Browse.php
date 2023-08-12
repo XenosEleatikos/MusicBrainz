@@ -174,19 +174,20 @@ class Browse
     public function event(EventRelation $eventRelation, EventFields $eventFields, PageFilter $pageFilter): EventListPage
     {
         $fields = [
-            'aliases'      => $eventFields->getIncludeFlagForAliases(),
-            'annotation'   => $eventFields->getIncludeFlagForAnnotation(),
-            'ratings'      => $eventFields->getIncludeFlagForRatings(),
-            'tags'         => $eventFields->getIncludeFlagForTags(),
-            'user-ratings' => $eventFields->getIncludeFlagForUserRatings(),
-            'user-tags'    => $eventFields->getIncludeFlagForUserTags()
+            'aliases'     => $eventFields->getIncludeFlagForAliases(),
+            'annotation'  => $eventFields->getIncludeFlagForAnnotation(),
+            'genres'      => $eventFields->getIncludeFlagForGenres(),
+            'tags'        => $eventFields->getIncludeFlagForTags(),
+            'user-genres' => $eventFields->getIncludeFlagForUserGenres(),
+            'user-tags'   => $eventFields->getIncludeFlagForUserTags()
         ];
 
         $result = $this->browse(
             new EntityType(EntityType::EVENT),
             $eventRelation,
             $fields,
-            $pageFilter
+            $pageFilter,
+            $fields['user-genres'] || $fields['user-tags']
         );
 
         return EventListPage::make($result, 'event');

@@ -43,7 +43,7 @@ class EventTest extends ApiTestCase
                 'limit'      => 25,
                 'offset'     => 0,
                 'artist'     => 'c3aeb863-7b26-4388-94e8-5a240f2be21b',
-                'inc'        => 'aliases+annotation+ratings+tags+user-ratings+user-tags'
+                'inc'        => 'aliases+annotation+genres+tags+user-genres+user-tags'
             ],
             'Browse/Event.json'
         );
@@ -55,9 +55,9 @@ class EventTest extends ApiTestCase
         $eventFields = (new EventFields)
             ->includeAliases()
             ->includeAnnotation()
-            ->includeRatings()
+            ->includeGenres()
             ->includeTags()
-            ->includeUserRatings()
+            ->includeUserGenres()
             ->includeUserTags();
 
         self::$eventListPage = $this->musicBrainz->api()->browse()->event($eventRelation, $eventFields, new PageFilter);

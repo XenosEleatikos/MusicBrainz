@@ -1,633 +1,384 @@
 {
+  "event-count": 18,
   "events": [
     {
-      "name": "23. Wave-Gotik-Treffen",
-      "user-tags": [],
       "annotation": null,
-      "time": "",
-      "id": "12edd063-219c-48e2-b626-c263b6537282",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "cancelled": false,
-      "setlist": "",
-      "type": "Festival",
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "life-span": {
-        "end": "2014-06-09",
-        "ended": true,
-        "begin": "2014-06-06"
-      },
-      "disambiguation": "",
-      "aliases": [
-        {
-          "end": null,
-          "name": "WGT 2014",
-          "begin": null,
-          "locale": null,
-          "type": null,
-          "sort-name": "WGT 2014",
-          "primary": null,
-          "ended": false,
-          "type-id": null
-        }
-      ]
-    },
-    {
+      "type": null,
+      "name": "Late Show with David Letterman",
+      "aliases": [],
+      "user-tags": [],
+      "genres": [],
+      "setlist": "@ Tom Waits\r\n* Take One Last Look",
       "disambiguation": "",
       "life-span": {
-        "end": "1839-02-16",
-        "begin": "1839-02-16",
+        "begin": "2015-05-14",
+        "end": "2015-05-14",
         "ended": true
       },
-      "rating": {
-        "votes-count": 0,
-        "value": null
+      "cancelled": false,
+      "id": "0165a62b-eda2-4641-baed-716a60f63394",
+      "time": "",
+      "tags": [],
+      "user-genres": [],
+      "type-id": null
+    },
+    {
+      "time": "",
+      "user-genres": [],
+      "tags": [],
+      "id": "191b42f0-1a99-4378-9173-b471611600f7",
+      "cancelled": false,
+      "life-span": {
+        "ended": true,
+        "end": "2008-07-25",
+        "begin": "2008-07-25"
       },
       "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
       "aliases": [],
-      "type": "Concert",
-      "setlist": "* [0e2d88c8-5f1c-47ef-8830-5a28e910d611|String Quartet no. 3 in D major, op. 44 no. 1] (Felix Mendelssohn) (world premiere)",
-      "id": "13b3b5c1-3bc6-4786-81f4-ca43fe8f8b4d",
+      "name": "Tom Waits at Le Grand Rex",
       "annotation": null,
-      "time": "",
-      "cancelled": false,
-      "tags": [
-        {
-          "count": 1,
-          "name": "chamber music"
-        },
-        {
-          "name": "classical",
-          "count": 1
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "name": "[concert]",
+      "type": "Concert",
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "second night",
       "user-tags": []
     },
     {
-      "id": "49a9fd47-92bc-4da1-b0b1-1263fb28bc31",
-      "annotation": null,
-      "time": "",
-      "cancelled": false,
-      "user-rating": {
-        "value": null
-      },
-      "tags": [
-        {
-          "count": 1,
-          "name": "classical"
-        },
-        {
-          "name": "symphony",
-          "count": 1
-        }
-      ],
-      "name": "[concert]",
       "user-tags": [],
-      "life-span": {
-        "begin": "1844-01-18",
-        "ended": true,
-        "end": "1844-01-18"
-      },
-      "disambiguation": "",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "aliases": [],
-      "type": "Concert",
-      "setlist": "* [30efddac-9845-435b-ba60-0913f72aeda7|Symphony no. 2 in E major, op. 10] (Niels Gade) (world premiere)"
-    },
-    {
-      "type": "Festival",
       "setlist": "",
-      "aliases": [
-        {
-          "locale": null,
-          "type": null,
-          "sort-name": "WGT 2015",
-          "primary": null,
-          "ended": false,
-          "type-id": null,
-          "end": null,
-          "name": "WGT 2015",
-          "begin": null
-        }
-      ],
+      "genres": [],
       "disambiguation": "",
-      "life-span": {
-        "end": "2015-05-25",
-        "ended": true,
-        "begin": "2015-05-22"
-      },
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
-      "user-tags": [],
-      "name": "24. Wave-Gotik-Treffen",
-      "cancelled": false,
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "id": "5e8c56e6-fec2-4514-801b-b4f885374cf8",
       "annotation": null,
-      "time": ""
-    },
-    {
-      "type": "Festival",
-      "setlist": "",
-      "aliases": [
-        {
-          "sort-name": "WGT 2017",
-          "primary": null,
-          "type": null,
-          "locale": null,
-          "type-id": null,
-          "ended": false,
-          "end": null,
-          "name": "WGT 2017",
-          "begin": null
-        }
-      ],
-      "life-span": {
-        "end": "2017-06-05",
-        "ended": true,
-        "begin": "2017-06-02"
-      },
-      "disambiguation": "",
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "user-tags": [],
-      "name": "26. Wave-Gotik-Treffen",
-      "cancelled": false,
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "id": "6be496b5-44a6-4db4-98f2-c1ed022d46a6",
-      "time": "",
-      "annotation": null
-    },
-    {
-      "name": "25. Wave-Gotik-Treffen",
-      "user-tags": [],
-      "id": "6e2ab7d5-f340-4c41-99a3-c901733402b4",
-      "annotation": "Announced but not in the list below:\r\nTHE AERDT (D)\r\nTHEATERPACK (D) http://www.theaterpack.com/\r\nTILO AUGSTEN (D) https://tiloaugsten.wordpress.com/\r\nMÄNNERCHOR LEIPZIG-NORD (D) http://maennerchorleipzig-nord.de/Neu2/index.htm\r\nMIDGARDS BOTEN (D) https://www.youtube.com/watch?v=E3jjb1m4N_E\r\nHUBERTUS SCHMIDT (D) \r\nMICHAEL BRUNNER (D) \r\nSANDRO STANDHAFT (D) \r\nMARKO MEYER (D)\r\nFRANK HERRMANN (D)\r\nCHOR, BALLETT UND ORCHESTER DER MUSIKALISCHEN KOMÖDIE LEIPZIG (D) http://www.oper-leipzig.de/de/musikalische-komoedie/orchester\r\nCHOR UND JUGENDCHOR DER OPER LEIPZIG (D) http://www.oper-leipzig.de/de/oper/kinder-und-jugendchor\r\nLEIPZIGER BALLETT (D) http://www.oper-leipzig.de/de/das-leipziger-ballett\r\nALEXANDER NYM (D) http://www.spontis.de/subkultur/wortkunst/alexander-nym-schillerndes-dunkel/\r\nANDI HARRIMAN (USA) http://andiharriman.com/\r\nANITA STEINER (D) https://www.facebook.com/AnitaSteinerCompany/\r\nBELEN RUALES AGUILAR (YV)\r\nBENJAMIN SCHMIDT (D) http://www.benjaminschmidt.org/\r\nBJÖRN BRÜNNICH (D) http://www.saechsische-blaeserphilharmonie.de/orchester/besetzung/bruennich-bjoern.html\r\nCAROLINA SIRUI-CAO (D)\r\nDENNY WILKE (D) http://paschen-projects.de/label/paschenrecords-kunstler/wilke-denny-ph/\r\nDIRK LEHMANN (D)\r\nDUO LIED KUNST (D) http://www.kyrasteckeweh.de/duo\r\nELBISH ROCK (D)\r\nELISABETH NEUSER (D) \r\nEMILY HOPPE (D) https://www.facebook.com/Emily-Hopper-Harpist-1654098691502536/\r\nENSEMBLE AMARILLI (D) http://www.amarilli.de/\r\nEVE MARTY (F)\r\nHENDRIK SCHNÖKE (D) http://www.ensemble-dix.de/Hendrik/bio.html\r\nJOANA GÖTTSCHE (D) \r\nJOHANNA MAENNIKE (D)\r\nJÖRG RICHTER (D)\r\nKARL-HEINZ GEORGI (D) http://www.georgi-digitalfoto.de/\r\nKATHRIN CHRISTIANS (D) http://kathrinchristians.de/\r\nLYDIA BENECKE (D) http://www.benecke-psychology.com/\r\nMARKO KRUPPE (D) http://www.mkruppe.de/multimedia/presse/\r\nMATTHIAS MÜLLER (D) \r\nMENDELSSOHNORCHESTER LEIPZIG (D) http://www.mko-leipzig.de/\r\nSASKIA ETZOLD (D) http://www.deutscher-kinderverein.de/index.php/botschafter/37-dr-saskia-etzold\r\nSEBASTIAN TAUBERT (D)\r\nSTEPHAN MEINER (D) \r\nSVEN GEIPEL (D) http://www.saechsische-blaeserphilharmonie.de/orchester/besetzung/geipel-sven.html\r\nTHALIA LAUER (D) \r\nTHOMAS MANEGOLD (D) https://manegold.wordpress.com/\r\nVEIT ETZOLD (D) http://www.veit-etzold.de/\r\nWOLFRAM KUHNT (D)",
-      "time": "",
-      "cancelled": false,
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "type": "Festival",
-      "setlist": "",
-      "disambiguation": "",
-      "life-span": {
-        "begin": "2016-05-13",
-        "ended": true,
-        "end": "2016-05-16"
-      },
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "aliases": [
-        {
-          "begin": null,
-          "end": null,
-          "name": "WGT 2016",
-          "type-id": null,
-          "ended": false,
-          "sort-name": "WGT 2016",
-          "primary": null,
-          "type": null,
-          "locale": null
-        }
-      ]
-    },
-    {
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "life-span": {
-        "end": "1844-11-24",
-        "ended": true,
-        "begin": "1844-11-24"
-      },
-      "disambiguation": "",
+      "type": "Concert",
+      "name": "Tom Waits at Ohio Theatre",
       "aliases": [],
-      "setlist": "* [92a56de1-7084-4898-a868-dd360ab68002|Im Hochland, op. 7] (Niels Gade) (World premiere)",
-      "type": "Concert",
-      "annotation": null,
-      "time": "",
-      "id": "716fac87-bd2b-4e95-81df-03ce6a077978",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [
-        {
-          "name": "classical",
-          "count": 1
-        },
-        {
-          "name": "orchestral",
-          "count": 1
-        }
-      ],
-      "cancelled": false,
-      "name": "[concert]",
-      "user-tags": []
-    },
-    {
-      "setlist": "* [fa97639c-ea29-47d6-9461-16b411322bac|Kantate, BWV 2 \"Ach Gott, vom Himmel sieh darein\"] (Johann Sebastian Bach) (world premiere)",
-      "type": "Concert",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
       "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
       "life-span": {
-        "begin": "1724-06-18",
         "ended": true,
-        "end": "1724-06-18"
+        "end": "2008-06-28",
+        "begin": "2008-06-28"
       },
-      "disambiguation": "",
+      "cancelled": false,
+      "id": "1e9beb00-72c2-4fba-80dd-7e34728e9c17",
+      "time": "",
+      "user-genres": [],
+      "tags": []
+    },
+    {
+      "genres": [],
+      "setlist": "",
+      "disambiguation": "first night",
+      "user-tags": [],
+      "name": "Tom Waits at Edinburgh Playhouse",
+      "annotation": null,
+      "type": "Concert",
       "aliases": [],
-      "name": "[concert]",
-      "user-tags": [],
-      "annotation": null,
-      "time": "",
-      "id": "94fc8e86-7f6a-438f-9192-ed14a0078001",
-      "user-rating": {
-        "value": null
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "cancelled": false,
+      "life-span": {
+        "begin": "2008-07-27",
+        "end": "2008-07-27",
+        "ended": true
       },
-      "tags": [
-        {
-          "name": "choral",
-          "count": 1
-        },
-        {
-          "name": "classical",
-          "count": 1
-        }
-      ],
-      "cancelled": false
+      "time": "",
+      "user-genres": [],
+      "tags": [],
+      "id": "2cab88c5-ea21-4aa9-88fc-b78e7491a6d6"
     },
     {
-      "name": "[concert]",
-      "user-tags": [],
-      "id": "983bd4af-7d2e-4a6f-8f66-517834ef1119",
+      "aliases": [],
+      "name": "1990-04-14: Michael’s Restaurant, Santa Monica, CA, USA",
+      "type": null,
       "annotation": null,
+      "disambiguation": "Chuck Plotkin wedding reception",
+      "genres": [],
+      "setlist": "@ [70248960-cb53-4ea4-943a-edb18f7d336f|Bruce Springsteen]\r\n# with\r\n@ [f09aa40c-b613-4ea2-a8cf-6056c2657a9a|Patti Scialfa]\r\n@ [10876f5a-9ac7-49c7-a2b6-46a3f1ac3523|Andrew Gold]\r\n@ [8b76d64a-923b-4c0f-b04f-f0f9f6a2c6c2|Karla Bonoff]\r\n\r\n* [e497263c-4f15-36c0-b27c-dca99482962c|The Fever] (with Tom Waits)\r\n* [8c806b4e-edb4-3101-bc58-2605ec309a2e|Jersey Girl] (with Tom Waits)\r\n* [54d6831c-4447-3087-a71e-3f92aa1fad27|Stand by Me] (with Tom Waits)\r\n* [453dd62c-072c-3b5a-9704-c0a82ab196be|It’s Gonna Work Out Fine] (with Jimmie Wood)\r\n* [e59ca323-dd32-3a0b-80a9-d42746362213|Glory Days]",
+      "user-tags": [],
+      "tags": [],
+      "user-genres": [],
       "time": "",
+      "id": "32cbeec2-6696-4f3c-83fe-8d2bfbfa1e14",
       "cancelled": false,
-      "tags": [
-        {
-          "name": "choral",
-          "count": 1
-        },
-        {
-          "name": "classical",
-          "count": 1
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "type": "Concert",
-      "setlist": "* [81d80e6f-38ea-4c74-8f53-6b81f82f66ef|Kantate, BWV 6 \"Bleib bei uns, denn es will Abend werden\"] (Johann Sebastian Bach) (world premiere)",
-      "disambiguation": "",
       "life-span": {
-        "begin": "1725-04-02",
+        "end": "1990-04-14",
+        "begin": "1990-04-14",
+        "ended": true
+      },
+      "type-id": null
+    },
+    {
+      "life-span": {
         "ended": true,
-        "end": "1725-04-02"
+        "end": "2008-07-24",
+        "begin": "2008-07-24"
       },
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
+      "cancelled": false,
+      "id": "3af31cf2-3ac2-49a5-88c2-e7e5e4a01895",
+      "tags": [],
+      "user-genres": [],
+      "time": "",
       "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "type": "Concert",
+      "annotation": null,
+      "name": "Tom Waits at Le Grand Rex",
+      "aliases": [],
+      "user-tags": [],
+      "disambiguation": "first night",
+      "genres": [],
+      "setlist": ""
+    },
+    {
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "",
+      "user-tags": [],
+      "aliases": [],
+      "name": "Tom Waits at Brady Theater",
+      "annotation": null,
+      "type": "Concert",
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "time": "",
+      "user-genres": [],
+      "tags": [],
+      "id": "581e508b-48b9-4095-b21e-9687b7e20766",
+      "cancelled": false,
+      "life-span": {
+        "ended": true,
+        "end": "2008-06-25",
+        "begin": "2008-06-25"
+      }
+    },
+    {
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "life-span": {
+        "ended": true,
+        "end": "1981-08-24",
+        "begin": "1981-08-24"
+      },
+      "cancelled": false,
+      "id": "59370b19-5071-4000-a896-1d458b45cf56",
+      "tags": [],
+      "user-genres": [],
+      "time": "",
+      "user-tags": [],
+      "disambiguation": "",
+      "setlist": "@ [70248960-cb53-4ea4-943a-edb18f7d336f|Bruce Springsteen]\r\n# &\r\n@ [d6652e7b-33fe-49ef-8336-4c863b4f996f|The E Street Band]\r\n\r\n* [e8a5fe99-0aff-3e7b-840c-7ab96cb702be|Badlands]\r\n* [59d022ee-d140-3bcd-b885-593c22e3f779|Who’ll Stop the Rain]\r\n* [35fdc4a9-fd0a-3a68-a539-5b377464a3ac|Out in the Street]\r\n* [d3cbf5a8-c80a-3273-a405-e756cf11e9ca|Darkness on the Edge of Town]\r\n* [921bbefd-62d6-465c-a2ae-aeb61ada82ee|Follow That Dream]\r\n* [588f5e54-97ad-3450-9849-dab3438483cb|Independence Day]\r\n* [16d30577-b539-3c38-b440-06a210d02325|Jackson Cage]\r\n* [58976436-655f-4cda-8aa7-2b3f45dc1bf2|Trapped]\r\n* [fa36af81-2bd8-3436-bf94-7df8e818d99d|Two Hearts]\r\n* [13411c83-ddd8-31ca-b968-79e4cf6db8fb|The Promised Land]\r\n* [fe0f14e5-de68-3aa6-bf48-80c4cbe2a1f7|The River]\r\n* [ca8235c6-1891-4d31-b55e-49f51ba3e613|This Land Is Your Land]\r\n* [872604b3-15d2-44fd-8631-0903b0ddb858|Prove It All Night]\r\n* [cc8d858a-38ef-35b0-b83c-a5d26f04207b|Thunder Road]\r\n* [db8f3060-b101-3877-9805-ce054f923302|Hungry Heart]\r\n* [7f44c910-49f8-35f5-bb65-4c6d790ad685|Cadillac Ranch]\r\n* [6b68afb7-d508-3cdb-8b41-687de4773d72|Sherry Darling]\r\n* [b1528b3f-0c0e-3977-ba98-5cb5b38108db|Growin’ Up]\r\n* [2e672a08-aa64-3ab1-9bcf-ab93b19ab5e4|Point Blank]\r\n* [e2c39ab9-be7b-4248-af0f-383883d2714d|Johnny Bye-Bye]\r\n* [5f9f38a1-f3fe-36ab-8a1e-b650f52e5acf|Candy’s Room]\r\n* [9915e1a9-13ff-3ea0-823d-56fe45f7535d|Ramrod]\r\n* [66969327-8735-37eb-aaa1-a4b638d446b0|Rosalita (Come Out Tonight)] / [7a4e4a26-acd7-45e4-bbc9-34875404daaa|Sweet Soul Music]\r\n* [8c806b4e-edb4-3101-bc58-2605ec309a2e|Jersey Girl] (with Tom Waits)\r\n* [6ee4ff85-be1a-4f50-b6ec-e8caa1e9fd5c|Jungleland]\r\n* [9893a23c-f282-3b07-a2db-b4f2f3b9f4b2|Born to Run]\r\n* [da1f36f5-dcdd-4a56-8d92-4b3527fd1291|Detroit Medley] / [2e5bff10-df66-4760-8df4-38a95d917d2a|You Can’t Sit Down] / [7a4e4a26-acd7-45e4-bbc9-34875404daaa|Sweet Soul Music] / [5740e2cf-979d-32ca-8ff3-7036e0bf4cef|Shake]\r\n* [7e2dedbb-5be0-32d4-8985-079d6df1e78b|Twist and Shout]",
+      "genres": [],
+      "type": "Concert",
+      "annotation": null,
+      "name": "1981-08-24: Los Angeles Memorial Sports Arena, Los Angeles, CA, USA",
       "aliases": []
     },
     {
-      "type": "Festival",
-      "setlist": "",
-      "aliases": [],
-      "disambiguation": "",
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
       "life-span": {
-        "end": "2012",
         "ended": true,
-        "begin": "2012"
+        "begin": "2008-07-01",
+        "end": "2008-07-01"
       },
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "user-tags": [],
-      "name": "21. Wave-Gotik-Treffen",
       "cancelled": false,
+      "id": "66eef6b6-c17d-4beb-ab48-095f0e1b93c2",
+      "user-genres": [],
       "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "id": "a06db581-5980-4454-86e3-97047bcc00e7",
-      "annotation": null,
-      "time": ""
-    },
-    {
+      "time": "",
+      "user-tags": [],
+      "disambiguation": "",
       "setlist": "",
-      "type": "Festival",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
-      "life-span": {
-        "end": "2013",
-        "begin": "2013",
-        "ended": true
-      },
-      "disambiguation": "",
-      "aliases": [],
-      "name": "22. Wave-Gotik-Treffen",
-      "user-tags": [],
-      "time": "",
-      "annotation": null,
-      "id": "b4b37130-25d3-4584-b3d3-3c5c06777189",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "cancelled": false
-    },
-    {
-      "user-rating": {
-        "value": null
-      },
-      "tags": [
-        {
-          "count": 1,
-          "name": "choral"
-        },
-        {
-          "count": 1,
-          "name": "classical"
-        }
-      ],
-      "cancelled": false,
-      "annotation": null,
-      "time": "",
-      "id": "b6ee94c0-2437-4c7b-a588-4b29a32d601c",
-      "user-tags": [],
-      "name": "Kantate, BWV 1 \"Wie schön leuchtet der Morgenstern\"",
-      "aliases": [],
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "disambiguation": "",
-      "life-span": {
-        "end": "1725-03-25",
-        "begin": "1725-03-25",
-        "ended": true
-      },
-      "setlist": "* [13bb5d97-00db-4fd8-920c-14da7c11bdd4|Kantate, BWV 1 \"Wie schön leuchtet der Morgenstern\"] (Johann Sebastian Bach) (world premiere)",
-      "type": "Concert"
-    },
-    {
-      "setlist": "",
+      "genres": [],
       "type": "Concert",
-      "aliases": [],
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "life-span": {
-        "ended": false,
-        "begin": "2016-11-11",
-        "end": null
-      },
-      "disambiguation": "",
-      "user-tags": [],
-      "name": "Dr. Woo rocks Leipzig - A Tribute to the History of Rock",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [
-        {
-          "count": 1,
-          "name": "hard-rock"
-        },
-        {
-          "count": 1,
-          "name": "heavy metal"
-        },
-        {
-          "name": "mashup",
-          "count": 1
-        },
-        {
-          "name": "rock",
-          "count": 1
-        }
-      ],
-      "cancelled": false,
       "annotation": null,
-      "time": "20:00",
-      "id": "bba673f2-9f9c-4bb1-b9dc-7a6176a7bb8b"
-    },
-    {
-      "disambiguation": "",
-      "life-span": {
-        "end": "1846-01-01",
-        "ended": true,
-        "begin": "1846-01-01"
-      },
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "aliases": [],
-      "type": "Concert",
-      "setlist": "* [0883b91a-f2c5-32b1-befb-f009af0ffbd7|Concerto for Piano and Orchestra in A minor, op. 54] (Robert Schumann) (world premiere)",
-      "id": "bdbfbb2b-7fb7-4cf7-b76f-3e7ecc56aa6d",
-      "annotation": null,
-      "time": "",
-      "cancelled": false,
-      "tags": [
-        {
-          "name": "classical",
-          "count": 1
-        },
-        {
-          "count": 1,
-          "name": "concerto"
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "name": "[concert]",
-      "user-tags": []
-    },
-    {
-      "name": "In Extremo at Haus Auensee Leipzig",
-      "user-tags": [],
-      "time": "",
-      "annotation": null,
-      "id": "c8729a11-33dc-40f3-ac86-5299a7b77953",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [
-        {
-          "count": 1,
-          "name": "my events"
-        }
-      ],
-      "cancelled": false,
-      "setlist": "",
-      "type": "Concert",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "disambiguation": "In Extremo Sänger Tour 2003 Leipzig",
-      "life-span": {
-        "ended": true,
-        "begin": "2003-10-11",
-        "end": "2003-10-11"
-      },
+      "name": "Tom Waits at Moran Theater",
       "aliases": []
     },
     {
-      "aliases": [],
-      "disambiguation": "",
-      "life-span": {
-        "ended": true,
-        "begin": "1981-11-05",
-        "end": "1981-11-05"
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "type": "Concert",
-      "setlist": "* [0217b92f-ab01-47ed-9425-13f95c790dcb| Symphony no. 3] (Alfred Schnittke) (world premiere)",
-      "cancelled": false,
-      "tags": [
-        {
-          "name": "classical",
-          "count": 1
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "id": "d2a1c310-7b15-4341-a1f4-db29943e3a83",
-      "annotation": null,
-      "time": "",
       "user-tags": [],
-      "name": "[concert]"
-    },
-    {
+      "disambiguation": "Roy Orbison’s Black & White Night",
+      "setlist": "@ [0bbbc496-c7b5-4b3f-bb6d-bd312827d6e5|Roy Orbison]\r\n# with\r\n@ [70248960-cb53-4ea4-943a-edb18f7d336f|Bruce Springsteen]\r\n@ [0f0da09c-3940-4cb5-879f-4cea28907810|Bonnie Raitt]\r\n@ [8a338e06-d182-46f2-bd16-30a09bc840ba|Elvis Costello]\r\n@ [81e2f4b1-4b48-4bdb-9717-4180e0f1ebc2|J.D. Souther]\r\n@ [88527d26-7496-47c5-8358-ebdb1868a90f|Jackson Browne]\r\n@ [2f140aa6-b99b-4f79-ae33-96018af87fa3|Jennifer Warnes]\r\n@ [675c1c5e-5625-4a5e-97a2-b02aab5db2fc|k.d. lang]\r\n@ [c3aeb863-7b26-4388-94e8-5a240f2be21b|Tom Waits]\r\n@ [b821dd8c-4583-4385-9293-6f1015b74ef9|T‐Bone Burnett]\r\n\r\n# Rehearsal\r\n* [41188891-81da-3ec6-8b37-137ae2b13833|Mean Woman Blues]\r\n* [27ea9789-d41f-3924-9ed0-20e87cc82cde|The Comedians]\r\n* [a9aa8366-e55a-3df5-a61a-050fbb189d10|Blue Angel]\r\n* [653769c3-7a78-3b1b-9bcc-be7a6c335a1b|Blue Bayou]\r\n* [8f6d1d5a-7d59-3dee-bafc-ea5c8d71f760|Candy Man]\r\n* [8e95a967-31e5-3839-9290-e9d30af110d8|It’s Over]\r\n* [c4e9c110-e548-37e9-8961-8d762797edf3|Ooby Dooby]\r\n* [21017d9d-584a-30b6-9ba3-d94f9e662f4b|Running Scared]\r\n* [80bdccf0-b216-40b2-8521-eee9108f0092|(All I Can Do Is) Dream You]\r\n* [21482f32-0d9e-45b5-9415-e49ca5ae0332|Uptown]\r\n* [3a4272a2-5a50-3a91-80ec-92147b863edb|Dream Baby (How Long Must I Dream)]\r\n\r\n# Concert\r\n* [a7e8fc9e-f457-370c-ab68-4b9d336cdb91|Only the Lonely]\r\n* [528c846b-e3fb-4db0-b591-bb507bf95706|Leah]\r\n* [660e9c82-497b-307b-8374-1f5489becdaf|In Dreams]\r\n* [773af48a-e550-3885-b575-1590dcb15dfa|Crying]\r\n* [21482f32-0d9e-45b5-9415-e49ca5ae0332|Uptown]\r\n* [27ea9789-d41f-3924-9ed0-20e87cc82cde|The Comedians]\r\n* [a9aa8366-e55a-3df5-a61a-050fbb189d10|Blue Angel]\r\n* [8e95a967-31e5-3839-9290-e9d30af110d8|It’s Over]\r\n* [21017d9d-584a-30b6-9ba3-d94f9e662f4b|Running Scared]\r\n* [3a4272a2-5a50-3a91-80ec-92147b863edb|Dream Baby (How Long Must I Dream)]\r\n* [41188891-81da-3ec6-8b37-137ae2b13833|Mean Woman Blues]\r\n* [8f6d1d5a-7d59-3dee-bafc-ea5c8d71f760|Candy Man]\r\n* [c4e9c110-e548-37e9-8961-8d762797edf3|Ooby Dooby]\r\n* [dec5eb02-6d51-385d-bbe5-864a51b09511|Go Go Go (Down the Line)]\r\n* [80bdccf0-b216-40b2-8521-eee9108f0092|(All I Can Do Is) Dream You]\r\n* [8c1bb4d2-95e7-405b-8ec0-a21989c3f9cc|Claudette]\r\n* [73a3f4b3-29c7-389a-a778-43cccd7be945|Oh, Pretty Woman]\r\n* [73a3f4b3-29c7-389a-a778-43cccd7be945|Oh, Pretty Woman]\r\n\r\n# Post show\r\n* [80bdccf0-b216-40b2-8521-eee9108f0092|(All I Can Do Is) Dream You]\r\n* [27ea9789-d41f-3924-9ed0-20e87cc82cde|The Comedians]\r\n* [8f6d1d5a-7d59-3dee-bafc-ea5c8d71f760|Candy Man]\r\n* [8c1bb4d2-95e7-405b-8ec0-a21989c3f9cc|Claudette]\r\n* [21482f32-0d9e-45b5-9415-e49ca5ae0332|Uptown]",
+      "genres": [],
       "aliases": [],
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
-      "disambiguation": "",
-      "life-span": {
-        "end": "1725-01-14",
-        "ended": true,
-        "begin": "1725-01-14"
-      },
-      "setlist": "* [3edf4a3f-2b11-4a61-a5cf-e193363ef55c|Kantate, BWV 3 \"Ach Gott, wie manches Herzeleid\"] (Johann Sebastian Bach) (world premiere)",
       "type": "Concert",
-      "tags": [
-        {
-          "count": 1,
-          "name": "choral"
-        },
-        {
-          "name": "classical",
-          "count": 1
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "cancelled": false,
       "annotation": null,
-      "time": "",
-      "id": "e132fd22-998b-4a31-9a90-28ee6e1a5666",
-      "user-tags": [],
-      "name": "[concert]"
-    },
-    {
-      "user-rating": {
-        "value": null
-      },
+      "name": "1987-09-30: Cocoanut Grove, Ambassador Hotel, Los Angeles, CA, USA",
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "id": "6de012e4-9650-4b86-9ba7-86ae97f589d9",
       "tags": [],
-      "cancelled": false,
+      "user-genres": [],
       "time": "",
-      "annotation": null,
-      "id": "f71bd5c3-7260-49b6-9a9e-afe8671d393d",
-      "user-tags": [],
-      "name": "27. Wave-Gotik-Treffen",
-      "aliases": [
-        {
-          "ended": false,
-          "type-id": null,
-          "locale": null,
-          "type": null,
-          "primary": null,
-          "sort-name": "WGT 2018",
-          "begin": null,
-          "end": null,
-          "name": "WGT 2018"
-        }
-      ],
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
       "life-span": {
         "ended": true,
-        "begin": "2018-05-18",
-        "end": "2018-05-21"
+        "begin": "1987-09-30",
+        "end": "1987-09-30"
       },
+      "cancelled": false
+    },
+    {
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "second night",
+      "user-tags": [],
+      "aliases": [],
+      "name": "Tom Waits at Edinburgh Playhouse",
+      "annotation": null,
+      "type": "Concert",
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "time": "",
+      "user-genres": [],
+      "tags": [],
+      "id": "75aae028-70d9-4ce8-a498-f5c0ad83370f",
+      "cancelled": false,
+      "life-span": {
+        "end": "2008-07-28",
+        "begin": "2008-07-28",
+        "ended": true
+      }
+    },
+    {
+      "time": "",
+      "tags": [],
+      "user-genres": [],
+      "id": "766f5d38-b796-49e6-b123-583273aa2bca",
+      "cancelled": false,
+      "life-span": {
+        "ended": true,
+        "end": "2008-07-05",
+        "begin": "2008-07-05"
+      },
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "aliases": [],
+      "name": "Tom Waits at Fox Theatre",
+      "annotation": null,
+      "type": "Concert",
+      "genres": [],
+      "setlist": "",
+      "disambiguation": "",
+      "user-tags": []
+    },
+    {
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "life-span": {
+        "begin": "2008-06-17",
+        "end": "2008-06-17",
+        "ended": true
+      },
+      "cancelled": false,
+      "id": "843348e8-8a83-4a23-8804-042c659a52dd",
+      "tags": [],
+      "user-genres": [],
+      "time": "08:30",
+      "user-tags": [],
+      "disambiguation": "first night",
+      "genres": [],
+      "setlist": "* Lucinda / Ain’t Goin’ Down to the Well\r\n* Hoist That Rag\r\n* Come On Up to the House\r\n* Jesus Gonna Be Here\r\n* November\r\n* Black Market Baby\r\n* Rain Dogs\r\n* Trampled Rose\r\n* Goin' Out West\r\n* Murder in the Red Barn\r\n* Anywhere I Lay My Head\r\n* Cemetery Polka\r\n* Get Behind the Mule\r\n* Eyeball Kid\r\n* Christmas Card from a Hooker in Minneapolis\r\n* Picture in a Frame\r\n* Invitation to the Blues\r\n* Innocent When You Dream\r\n* Lie to Me\r\n* Chocolate Jesus\r\n* Make It Rain \r\n# Encore\r\n* Way Down in the Hole\r\n* God's Away on Business\r\n* Time",
+      "type": "Concert",
+      "annotation": "This was the first night of the tour, and Ticketmaster's first paperlessly/digitally ticketed concert in the world. Tom and his band played a second, shorter set here on 2008-06-18. Three distinct high-quality bootleg recordings of this show have been circulated in the past.",
+      "name": "Tom Waits at the Orpheum Theatre",
+      "aliases": []
+    },
+    {
+      "user-tags": [],
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "second night",
+      "annotation": null,
+      "type": "Concert",
+      "name": "Tom Waits at Teatro degli Arcimboldi",
+      "aliases": [],
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "life-span": {
+        "begin": "2008-07-19",
+        "end": "2008-07-19",
+        "ended": true
+      },
+      "cancelled": false,
+      "id": "8575c08f-330a-45f2-a03d-988c73d8691d",
+      "time": "",
+      "user-genres": [],
+      "tags": []
+    },
+    {
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "life-span": {
+        "end": "2008-07-03",
+        "begin": "2008-07-03",
+        "ended": true
+      },
+      "cancelled": false,
+      "id": "88f8a60e-8d57-4bff-a5e5-6a1fe1d1d903",
+      "time": "",
+      "user-genres": [],
+      "tags": [],
+      "user-tags": [],
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "",
+      "annotation": null,
+      "type": "Concert",
+      "name": "Tom Waits at Alabama Theatre",
+      "aliases": []
+    },
+    {
+      "user-tags": [],
       "disambiguation": "",
       "setlist": "",
-      "type": "Festival"
+      "genres": [],
+      "type": "Concert",
+      "annotation": null,
+      "name": "Tom Waits at Knoxville Civic Coliseum",
+      "aliases": [],
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "life-span": {
+        "ended": true,
+        "begin": "2008-06-29",
+        "end": "2008-06-29"
+      },
+      "cancelled": false,
+      "id": "8c6ab232-24cc-4221-8425-cc98aa94504b",
+      "tags": [],
+      "user-genres": [],
+      "time": ""
+    },
+    {
+      "user-tags": [],
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "first night",
+      "aliases": [],
+      "annotation": null,
+      "type": "Concert",
+      "name": "Tom Waits at Teatro degli Arcimboldi",
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "id": "9655f67b-652f-487e-b532-305c5a87eb6e",
+      "time": "",
+      "user-genres": [],
+      "tags": [],
+      "life-span": {
+        "ended": true,
+        "begin": "2008-07-18",
+        "end": "2008-07-18"
+      },
+      "cancelled": false
+    },
+    {
+      "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+      "life-span": {
+        "ended": true,
+        "begin": "2008-08-01",
+        "end": "2008-08-01"
+      },
+      "cancelled": false,
+      "id": "c7a00993-1c3f-466d-9fbd-a8313239b492",
+      "time": "",
+      "tags": [],
+      "user-genres": [],
+      "user-tags": [],
+      "setlist": "",
+      "genres": [],
+      "disambiguation": "",
+      "annotation": null,
+      "type": "Concert",
+      "name": "Tom Waits at Phoenix Park",
+      "aliases": []
     }
   ],
-  "event-offset": 0,
-  "event-count": 18
+  "event-offset": 0
 }
