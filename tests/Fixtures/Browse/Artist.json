@@ -1,1268 +1,1430 @@
 {
-  "artist-count": 532,
   "artists": [
     {
-      "type": "Group",
-      "disambiguation": "",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "aliases": [],
-      "ipis": [],
-      "country": null,
-      "name": "Amnistia",
-      "user-tags": [],
-      "gender": null,
-      "id": "09732468-46b2-4a15-bcc4-eb2e9ece5fa3",
-      "gender-id": null,
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "sort-name": "Amnistia",
-      "isnis": [],
-      "life-span": {
-        "end": null,
-        "ended": false,
-        "begin": "2003-10"
-      },
-      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
-      "begin_area": null,
+      "sort-name": "$1 Bin",
+      "disambiguation": "US EDM/trap producer",
       "end_area": null,
-      "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      }
-    },
-    {
-      "begin_area": {
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": "",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      },
-      "end_area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      },
-      "life-span": {
-        "end": "2011",
-        "begin": "2007",
-        "ended": true
-      },
-      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
-      "isnis": [],
-      "sort-name": "Heart Is an Airport, A",
-      "area": {
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany",
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
-      },
-      "annotation": null,
-      "ipis": [],
-      "aliases": [],
-      "disambiguation": "",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "type": "Group",
-      "tags": [],
+      "name": "$1 Bin",
       "user-rating": {
         "value": null
       },
-      "id": "12546897-7d0a-4a33-a922-73026ec2bbd0",
-      "gender-id": null,
-      "user-tags": [],
-      "gender": null,
-      "country": "DE",
-      "name": "A Heart Is an Airport"
-    },
-    {
-      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
-      "id": "323c5f90-ecba-4992-8455-e316fa7f33d7",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "country": "DE",
-      "name": "Angela Wunderlich",
-      "gender": "Female",
-      "user-tags": [],
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "2Memory",
-      "aliases": [],
+      "country": "US",
       "ipis": [],
-      "type": "Person",
-      "annotation": null,
-      "area": {
-        "sort-name": "Germany",
-        "name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": ""
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
       "life-span": {
-        "ended": false,
-        "begin": "????-08-11",
-        "end": null
-      },
-      "end_area": null,
-      "begin_area": {
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": "",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      },
-      "sort-name": "Wunderlich, Angela",
-      "isnis": []
-    },
-    {
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "ended": false,
         "begin": null,
-        "end": null
-      },
-      "end_area": null,
-      "begin_area": null,
-      "sort-name": "Welling, Aleta",
-      "isnis": [],
-      "annotation": null,
-      "area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "",
-      "ipis": [],
-      "aliases": [],
-      "type": "Person",
-      "id": "34b3b3bc-35e0-40cc-bbcd-0aed49f57d71",
-      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "country": null,
-      "name": "Aleta Welling",
-      "user-tags": [],
-      "gender": "Female"
-    },
-    {
-      "type": "Person",
-      "disambiguation": "",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "ipis": [],
-      "aliases": [],
-      "country": "DE",
-      "name": "Anke Geißler",
-      "gender": "Female",
-      "user-tags": [],
-      "id": "3d08dc78-1ea1-4c99-9786-fd598d75f87c",
-      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
-      "tags": [
-        {
-          "count": 1,
-          "name": "kabarett"
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "sort-name": "Geißler, Anke",
-      "isnis": [],
-      "life-span": {
-        "begin": "1970-04-29",
-        "ended": false,
-        "end": null
+        "end": null,
+        "ended": false
       },
       "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "begin_area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "end_area": null,
-      "annotation": null,
-      "area": {
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": ""
-      }
-    },
-    {
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "445348dd-a2d0-46ab-b367-221dc7198632",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "name": "André Friedrich",
-      "country": "DE",
-      "user-tags": [],
-      "gender": "Male",
-      "disambiguation": "",
+      "id": "03b70c70-94fc-46fd-961e-ab72d730ff71",
       "rating": {
-        "votes-count": 0,
-        "value": null
+        "value": null,
+        "votes-count": 0
       },
-      "ipis": [],
+      "user-tags": [],
+      "isnis": [],
+      "end-area": null,
+      "begin-area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "disambiguation": "",
+        "sort-name": "New York",
+        "type-id": null,
+        "name": "New York"
+      },
+      "area": {
+        "name": "United States",
+        "type-id": null,
+        "sort-name": "United States",
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "type": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98"
+      },
+      "tags": [],
+      "user-genres": [],
+      "type": "Person",
+      "gender": "Male",
+      "begin_area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "disambiguation": "",
+        "sort-name": "New York",
+        "type-id": null,
+        "name": "New York"
+      },
+      "annotation": null,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "genres": [],
       "aliases": [
         {
-          "begin": null,
+          "primary": null,
           "end": null,
-          "name": "Jasper A. Friedrich",
-          "ended": false,
-          "type-id": null,
-          "type": null,
           "locale": null,
-          "primary": null,
-          "sort-name": "Friedrich, Jasper A."
-        },
+          "sort-name": "Dollar Bin",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "type": "Search hint",
+          "begin": null,
+          "ended": false,
+          "name": "Dollar Bin"
+        }
+      ]
+    },
+    {
+      "begin-area": {
+        "name": "Queens",
+        "sort-name": "Queens",
+        "type-id": null,
+        "disambiguation": "",
+        "id": "431a085b-9f4c-4fbb-82de-2ca7ce735da8",
+        "type": null
+      },
+      "tags": [],
+      "area": null,
+      "gender": "Male",
+      "type": "Person",
+      "user-genres": [],
+      "genres": [],
+      "aliases": [
         {
-          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
-          "ended": false,
-          "sort-name": "Friedrich, Jasper André",
-          "primary": null,
-          "locale": null,
+          "begin": "1997-07-27",
           "type": "Legal name",
-          "begin": null,
+          "sort-name": "Isaac Gutierrez",
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "locale": "en",
           "end": null,
-          "name": "Jasper André Friedrich"
-        },
-        {
-          "begin": null,
-          "end": null,
-          "name": "Jasper Fryth",
-          "type-id": null,
-          "ended": false,
-          "primary": null,
-          "sort-name": "Fryth, Jasper",
-          "type": null,
-          "locale": null
-        },
-        {
-          "type-id": null,
-          "ended": false,
-          "sort-name": "Aouxx, Mad",
-          "primary": null,
-          "type": null,
-          "locale": null,
-          "begin": null,
-          "end": null,
-          "name": "Mad Aouxx"
-        },
-        {
-          "end": null,
-          "name": "Mad Vaising",
-          "begin": null,
-          "sort-name": "Vaising, Mad",
-          "primary": null,
-          "type": null,
-          "locale": null,
-          "type-id": null,
+          "primary": true,
+          "name": "Isaac Gutierrez",
           "ended": false
         }
       ],
-      "type": "Person",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
       "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany"
-      },
-      "life-span": {
-        "ended": false,
-        "begin": "1965-05-07",
-        "end": null
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
       "begin_area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
+        "name": "Queens",
+        "sort-name": "Queens",
+        "type-id": null,
+        "disambiguation": "",
+        "id": "431a085b-9f4c-4fbb-82de-2ca7ce735da8",
+        "type": null
       },
       "end_area": null,
-      "sort-name": "Friedrich, André",
-      "isnis": [
-        "0000000382720230"
-      ]
-    },
-    {
-      "country": "DE",
-      "name": "Alia",
-      "gender": null,
-      "user-tags": [],
-      "gender-id": null,
-      "id": "4e135bb4-a0ca-4854-9d9b-2ca374b9d915",
-      "tags": [],
+      "disambiguation": "",
+      "sort-name": ".irg",
       "user-rating": {
         "value": null
       },
-      "type": "Group",
+      "country": null,
+      "name": ".irg",
       "rating": {
         "value": null,
         "votes-count": 0
       },
-      "disambiguation": "German post/punk/rock band",
-      "aliases": [],
-      "ipis": [],
-      "annotation": null,
-      "area": {
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": "",
-        "name": "Germany",
-        "sort-name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ]
+      "id": "04fa6b10-2d47-42a9-b12e-f7fbf41489cf",
+      "ipis": [
+        "00866140235"
+      ],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1997-07-27"
       },
-      "sort-name": "Alia",
+      "end-area": null,
       "isnis": [],
+      "user-tags": []
+    },
+    {
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "id": "1ed2bc02-11c4-4bb1-8e75-cdd728c33c33",
+      "ipis": [],
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
       "life-span": {
-        "ended": true,
+        "ended": false,
+        "end": null,
+        "begin": null
+      },
+      "end-area": null,
+      "isnis": [],
+      "user-tags": [],
+      "end_area": null,
+      "disambiguation": "",
+      "sort-name": "'Lagos Pepper Soup' String Orchestra",
+      "country": null,
+      "user-rating": {
+        "value": null
+      },
+      "name": "'Lagos Pepper Soup' String Orchestra",
+      "gender": null,
+      "type": "Group",
+      "user-genres": [],
+      "genres": [],
+      "aliases": [],
+      "gender-id": null,
+      "annotation": null,
+      "begin_area": null,
+      "begin-area": null,
+      "tags": [],
+      "area": {
+        "name": "New York",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "New York",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null
+      }
+    },
+    {
+      "aliases": [],
+      "genres": [],
+      "gender-id": null,
+      "annotation": null,
+      "begin_area": null,
+      "gender": null,
+      "type": null,
+      "user-genres": [],
+      "tags": [],
+      "area": {
+        "name": "Ithaca",
+        "sort-name": "Ithaca",
+        "type-id": null,
+        "disambiguation": "city",
+        "type": null,
+        "id": "68d8f243-fd55-4ca1-b511-48fa93575476"
+      },
+      "begin-area": null,
+      "end-area": null,
+      "isnis": [],
+      "user-tags": [],
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "id": "2f4c81aa-78b4-432a-acdb-d85f2e53de62",
+      "type-id": null,
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": null
+      },
+      "ipis": [],
+      "country": null,
+      "user-rating": {
+        "value": null
+      },
+      "name": "¡Viva Mayhem!",
+      "end_area": null,
+      "disambiguation": "",
+      "sort-name": "¡Viva Mayhem!"
+    },
+    {
+      "sort-name": "$windlaaa",
+      "disambiguation": "",
+      "end_area": null,
+      "name": "$windlaaa",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "begin": "2000-02-09",
+        "ended": false,
+        "end": null
+      },
+      "ipis": [],
+      "id": "416cc295-b99e-4996-9401-e42c23bf7f0a",
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "user-tags": [],
+      "isnis": [],
+      "end-area": null,
+      "begin-area": {
+        "name": "New York",
+        "type-id": null,
+        "sort-name": "New York",
+        "disambiguation": "",
+        "type": null,
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f"
+      },
+      "area": {
+        "disambiguation": "",
+        "sort-name": "New York",
+        "type-id": null,
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "name": "New York"
+      },
+      "tags": [],
+      "user-genres": [],
+      "type": "Person",
+      "gender": "Male",
+      "begin_area": {
+        "name": "New York",
+        "type-id": null,
+        "sort-name": "New York",
+        "disambiguation": "",
+        "type": null,
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f"
+      },
+      "annotation": null,
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "aliases": [],
+      "genres": []
+    },
+    {
+      "type": "Group",
+      "gender": null,
+      "user-genres": [],
+      "gender-id": null,
+      "genres": [],
+      "aliases": [],
+      "begin_area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "New York"
+      },
+      "annotation": null,
+      "begin-area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "New York"
+      },
+      "tags": [],
+      "area": {
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "United States",
+        "type": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98"
+      },
+      "id": "41f82fb6-d3a3-4fa5-a00a-1f16df494706",
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "ipis": [],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "life-span": {
+        "begin": "2005",
+        "end": null,
+        "ended": false
+      },
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "end_area": null,
+      "sort-name": "...Nous Non Plus",
+      "disambiguation": "",
+      "name": "...Nous Non Plus",
+      "country": "US",
+      "user-rating": {
+        "value": null
+      }
+    },
+    {
+      "user-genres": [],
+      "gender": null,
+      "type": "Person",
+      "annotation": null,
+      "begin_area": null,
+      "aliases": [],
+      "genres": [
+        {
+          "count": 1,
+          "id": "103a65bb-35d9-4d27-9c9b-f35a458621ba",
+          "name": "chiptune",
+          "disambiguation": ""
+        }
+      ],
+      "gender-id": null,
+      "begin-area": null,
+      "area": {
+        "name": "Poughkeepsie",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Poughkeepsie",
+        "type": null,
+        "id": "1c21104f-2f29-4de1-9b1b-a8290a0e8942"
+      },
+      "tags": [
+        {
+          "name": "chiptune",
+          "count": 1
+        }
+      ],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": null
+      },
+      "ipis": [],
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "id": "42d9a512-5fc6-4223-99b8-0b2172fe18f9",
+      "user-tags": [],
+      "end-area": null,
+      "isnis": [],
+      "disambiguation": "",
+      "sort-name": "_NetNomad",
+      "end_area": null,
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "name": "_NetNomad"
+    },
+    {
+      "begin-area": {
+        "name": "Ithaca",
+        "type": null,
+        "id": "68d8f243-fd55-4ca1-b511-48fa93575476",
+        "disambiguation": "city",
+        "sort-name": "Ithaca",
+        "type-id": null
+      },
+      "tags": [],
+      "area": {
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "disambiguation": "",
+        "sort-name": "United States",
+        "type-id": null,
+        "type": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States"
+      },
+      "gender": "Male",
+      "type": "Person",
+      "user-genres": [],
+      "aliases": [],
+      "genres": [],
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "annotation": null,
+      "begin_area": {
+        "name": "Ithaca",
+        "type": null,
+        "id": "68d8f243-fd55-4ca1-b511-48fa93575476",
+        "disambiguation": "city",
+        "sort-name": "Ithaca",
+        "type-id": null
+      },
+      "end_area": null,
+      "disambiguation": "Vii Caso's noise/drone/industrial/glitch/speedcore side project",
+      "sort-name": "(<0>)",
+      "user-rating": {
+        "value": null
+      },
+      "country": "US",
+      "name": "(<0>)",
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "id": "6b310391-d9b6-49da-8183-16066afb00fa",
+      "life-span": {
         "begin": null,
-        "end": null
+        "end": null,
+        "ended": false
       },
-      "end_area": null,
-      "begin_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      }
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "ipis": [],
+      "end-area": null,
+      "isnis": [],
+      "user-tags": []
     },
     {
-      "disambiguation": "",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "ipis": [],
-      "aliases": [],
-      "type": "Group",
+      "begin_area": null,
+      "annotation": null,
       "gender-id": null,
-      "id": "50fe1386-7fb9-4b63-9656-d2c6c2acfe63",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "country": null,
-      "name": "Anatephka Raptors",
-      "user-tags": [],
+      "aliases": [],
+      "genres": [
+        {
+          "disambiguation": "",
+          "id": "8cc9b280-230b-4a3a-b1e2-8acab0744dd3",
+          "count": 1,
+          "name": "punk"
+        }
+      ],
+      "user-genres": [],
+      "type": "Group",
       "gender": null,
-      "life-span": {
-        "end": "1998",
-        "begin": "1995",
-        "ended": true
+      "area": {
+        "name": "New York",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "New York",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null
       },
+      "tags": [
+        {
+          "count": 1,
+          "name": "punk"
+        }
+      ],
+      "begin-area": null,
+      "user-tags": [],
+      "isnis": [],
+      "end-area": null,
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
-      "begin_area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "end_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "sort-name": "Anatephka Raptors",
-      "isnis": [],
-      "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "name": "Leipzig",
-        "sort-name": "Leipzig"
-      }
-    },
-    {
-      "isnis": [
-        "0000000061605100"
-      ],
-      "sort-name": "Fielitz, Alexander Von",
-      "begin_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "end_area": {
-        "id": "d4c89a67-f9d8-41e0-8238-01261c55095a",
-        "disambiguation": "",
-        "name": "Bad Salzungen",
-        "sort-name": "Bad Salzungen"
-      },
-      "life-span": {
-        "end": "1930-07-29",
-        "ended": true,
-        "begin": "1860-12-26"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "area": {
-        "name": "Germany",
-        "sort-name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
-      },
-      "annotation": null,
-      "type": "Person",
-      "ipis": [],
-      "aliases": [],
-      "disambiguation": "",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "user-tags": [],
-      "gender": "Male",
-      "country": "DE",
-      "name": "Alexander Von Fielitz",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "542b338e-cb98-47d9-9d75-2e0814f105c1"
-    },
-    {
-      "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany"
-      },
-      "sort-name": "Marschner, Adolf Eduard",
-      "isnis": [
-        "0000000079896495"
-      ],
-      "life-span": {
-        "begin": "1819-03-05",
-        "ended": true,
-        "end": "1853-09-09"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "begin_area": {
-        "name": "Zielona Góra",
-        "sort-name": "Zielona Góra",
-        "id": "5e2c5983-6d1e-435c-ad1f-da4580953cc3",
-        "disambiguation": ""
-      },
-      "end_area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "country": "DE",
-      "name": "Adolf Eduard Marschner",
-      "gender": "Male",
-      "user-tags": [],
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "5ab2ac28-3ec6-4222-9ee3-3f3d60f74514",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "type": "Person",
-      "disambiguation": "",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "ipis": [],
-      "aliases": []
-    },
-    {
-      "area": {
-        "disambiguation": "",
-        "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
-        "sort-name": "Sweden",
-        "name": "Sweden",
-        "iso-3166-1-codes": [
-          "SE"
-        ]
-      },
-      "annotation": null,
-      "isnis": [
-        "0000000053112920"
-      ],
-      "sort-name": "Düben, Andreas",
-      "begin_area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "name": "Leipzig",
-        "sort-name": "Leipzig"
-      },
-      "end_area": {
-        "disambiguation": "",
-        "id": "1127ddc2-eab3-4662-8718-6adbdeea3b10",
-        "sort-name": "Stockholm",
-        "name": "Stockholm"
-      },
-      "life-span": {
-        "ended": true,
-        "begin": "1597",
-        "end": "1662-07-07"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "user-tags": [],
-      "gender": "Male",
-      "country": "SE",
-      "name": "Andreas Düben",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "id": "617129bc-707c-4305-aedb-f4e1fa43768a",
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "type": "Person",
-      "ipis": [],
-      "aliases": [],
-      "disambiguation": "",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      }
-    },
-    {
-      "country": null,
-      "name": "Angstbreaker",
-      "gender": null,
-      "user-tags": [],
-      "gender-id": null,
-      "id": "619578ea-b028-47fd-b305-1192831f14a6",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "type": "Group",
-      "disambiguation": "",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "ipis": [],
-      "aliases": [],
-      "annotation": null,
-      "area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "sort-name": "Angstbreaker",
-      "isnis": [],
       "life-span": {
         "ended": false,
-        "begin": "2012",
-        "end": null
+        "end": null,
+        "begin": null
       },
-      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
-      "begin_area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
+      "ipis": [],
+      "id": "731f1960-012b-4c78-81c6-212ce78efb03",
+      "rating": {
+        "votes-count": 0,
+        "value": null
       },
+      "name": "(A) T.R.U.T.H.",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "sort-name": "(A) T.R.U.T.H.",
+      "disambiguation": "",
       "end_area": null
     },
     {
-      "begin_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "end_area": null,
-      "life-span": {
-        "end": null,
-        "begin": "1976",
-        "ended": false
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "isnis": [],
-      "sort-name": "Uhlmann, Andreas",
-      "area": {
-        "sort-name": "Germany",
-        "name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": ""
-      },
-      "annotation": null,
-      "ipis": [],
-      "aliases": [],
-      "disambiguation": "",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "type": "Person",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "id": "676365f2-2d49-4a2e-8d2f-6f8e209df0fa",
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "user-tags": [],
-      "gender": "Male",
-      "country": "DE",
-      "name": "Andreas Uhlmann"
-    },
-    {
-      "disambiguation": "",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "ipis": [],
-      "aliases": [],
-      "type": "Person",
-      "id": "773ea576-7718-40d1-8d1d-4f5ca02707f2",
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "country": "DE",
-      "name": "Adolf Ruthardt",
-      "gender": "Male",
-      "user-tags": [],
-      "life-span": {
-        "end": "1934-09-12",
-        "ended": true,
-        "begin": "1849-02-09"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "begin_area": {
-        "name": "Stuttgart",
-        "sort-name": "Stuttgart",
-        "disambiguation": "",
-        "id": "8fe055d7-2c10-48a5-929a-1d1c50b648c1"
-      },
-      "end_area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      },
-      "sort-name": "Ruthardt, Adolf",
-      "isnis": [
-        "000000012099408X"
-      ],
-      "annotation": null,
-      "area": {
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "name": "Germany",
-        "sort-name": "Germany",
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
-      }
-    },
-    {
-      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
-      "id": "7bcb37ed-1d76-4eac-82b0-4c48082efe3b",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "name": "Anna Magdalena Bach",
-      "country": "DE",
-      "user-tags": [],
-      "gender": "Female",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "disambiguation": "",
-      "aliases": [],
-      "ipis": [],
-      "type": "Person",
-      "annotation": null,
-      "area": {
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "name": "Germany",
-        "sort-name": "Germany",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": ""
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "end": "1760-02-22",
-        "ended": true,
-        "begin": "1701-09-22"
-      },
-      "end_area": {
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": "",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      },
-      "begin_area": {
-        "sort-name": "Zeitz",
-        "name": "Zeitz",
-        "disambiguation": "",
-        "id": "f8575865-b20e-48c0-9c8f-34bfb22f5657"
-      },
-      "sort-name": "Bach, Anna Magdalena",
-      "isnis": [
-        "0000000110203432"
-      ]
-    },
-    {
-      "user-tags": [],
-      "gender": "Female",
-      "country": "DE",
-      "name": "Anja Pöche",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "id": "8469decc-a584-4c76-812f-404a20ee21fc",
-      "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
-      "type": "Person",
-      "aliases": [
-        {
-          "begin": null,
-          "end": null,
-          "name": "Anja Lipfert",
-          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
-          "ended": false,
-          "sort-name": "Anja Lipfert",
-          "primary": null,
-          "type": "Search hint",
-          "locale": null
-        }
-      ],
-      "ipis": [],
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "",
-      "area": {
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "sort-name": "Germany",
-        "name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ]
-      },
-      "annotation": null,
-      "isnis": [],
-      "sort-name": "Pöche, Anja",
-      "end_area": null,
-      "begin_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "ended": false,
-        "begin": "1980",
-        "end": null
-      }
-    },
-    {
-      "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "name": "Germany",
-        "sort-name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ]
-      },
-      "sort-name": "Winterberger, Alexander",
-      "isnis": [],
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "end": "1914-09-23",
-        "begin": "1834-08-14",
-        "ended": true
-      },
-      "end_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "begin_area": {
-        "name": "Weimar",
-        "sort-name": "Weimar",
-        "id": "c7644e45-dec4-43fd-aad6-35036b8e911d",
-        "disambiguation": ""
-      },
-      "name": "Alexander Winterberger",
-      "country": "DE",
-      "gender": "Male",
-      "user-tags": [],
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "869c6f53-841d-4e21-bcb2-c672d6083b49",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "type": "Person",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "",
-      "ipis": [],
-      "aliases": []
-    },
-    {
-      "country": "DE",
-      "name": "Albrecht Sack",
-      "user-tags": [],
-      "gender": "Male",
-      "id": "8b3d8c7d-92a7-4ebd-9fc7-40e16b4f2857",
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "type": "Person",
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "",
-      "aliases": [],
-      "ipis": [],
-      "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany"
-      },
-      "sort-name": "Sack, Albrecht",
-      "isnis": [
-        "0000000133300681"
-      ],
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "ended": false,
-        "begin": "1964-10-10",
-        "end": null
-      },
-      "end_area": null,
-      "begin_area": {
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": "",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      }
-    },
-    {
-      "type": "Person",
-      "ipis": [],
-      "aliases": [],
-      "disambiguation": "poet and translator",
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "user-tags": [],
-      "gender": "Male",
-      "country": "DE",
-      "name": "Adolf Böttger",
-      "user-rating": {
-        "value": null
-      },
-      "tags": [],
-      "id": "8f0aea87-de06-4612-96ce-43e55feb4710",
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "isnis": [
-        "0000000121407211"
-      ],
-      "sort-name": "Böttger, Adolf",
-      "begin_area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "sort-name": "Leipzig",
-        "name": "Leipzig"
-      },
-      "end_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "life-span": {
-        "begin": "1815-05-21",
-        "ended": true,
-        "end": "1870-11-16"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "area": {
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": "",
-        "name": "Germany",
-        "sort-name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ]
-      },
-      "annotation": null
-    },
-    {
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "German electronic music",
-      "aliases": [],
-      "ipis": [],
-      "type": null,
-      "gender-id": null,
-      "id": "98b9149f-9f74-4dbd-ad16-8a9a91aaa755",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
       "country": null,
-      "name": "¥€$⚡",
-      "user-tags": [],
-      "gender": null,
-      "type-id": null,
-      "life-span": {
-        "begin": null,
-        "ended": false,
-        "end": null
+      "user-rating": {
+        "value": null
       },
+      "name": "$.99 Dreams",
       "end_area": null,
-      "begin_area": null,
-      "sort-name": "YES78",
+      "disambiguation": "",
+      "sort-name": "$.99 Dreams",
+      "end-area": null,
       "isnis": [],
-      "annotation": null,
-      "area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      }
-    },
-    {
-      "annotation": null,
-      "area": {
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "sort-name": "Germany",
-        "name": "Germany",
-        "iso-3166-1-codes": [
-          "DE"
-        ]
-      },
-      "life-span": {
-        "begin": "1821-01-24",
-        "ended": true,
-        "end": "1905-01-22"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "begin_area": {
-        "name": "Waldenburg",
-        "sort-name": "Waldenburg",
-        "disambiguation": "",
-        "id": "21f9b939-3fb8-4a6b-8adc-c4a3154744e4"
-      },
-      "end_area": {
-        "sort-name": "Leipzig",
-        "name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "sort-name": "Dörffel, Alfred",
-      "isnis": [
-        "0000000110625686"
-      ],
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "a11e1d8f-7a33-4495-8659-b340fa000c25",
-      "tags": [
-        {
-          "name": "classical",
-          "count": 1
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "country": "DE",
-      "name": "Alfred Dörffel",
       "user-tags": [],
-      "gender": "Male",
-      "disambiguation": "",
       "rating": {
         "value": null,
         "votes-count": 0
       },
-      "ipis": [],
-      "aliases": [],
-      "type": "Person"
-    },
-    {
-      "type": "Group",
-      "ipis": [],
-      "aliases": [],
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "disambiguation": "",
-      "gender": null,
-      "user-tags": [],
-      "country": null,
-      "name": "100 Kilo Herz",
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "id": "a81cd4bd-2944-4040-8504-d373dd3b761b",
-      "gender-id": null,
-      "isnis": [],
-      "sort-name": "100 Kilo Herz",
-      "end_area": null,
-      "begin_area": null,
-      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
-      "life-span": {
-        "end": null,
-        "begin": null,
-        "ended": false
-      },
-      "area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41"
-      },
-      "annotation": null
-    },
-    {
-      "tags": [],
-      "user-rating": {
-        "value": null
-      },
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "cc75198f-ed09-4ddc-ae04-80d08a80a5f8",
-      "gender": "Male",
-      "user-tags": [],
-      "country": "DE",
-      "name": "Andreas Schröder",
-      "ipis": [],
-      "aliases": [],
-      "rating": {
-        "value": null,
-        "votes-count": 0
-      },
-      "disambiguation": "church musician",
-      "type": "Person",
-      "area": {
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
-        "disambiguation": ""
-      },
-      "annotation": null,
-      "end_area": null,
-      "begin_area": {
-        "disambiguation": "",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "name": "Leipzig",
-        "sort-name": "Leipzig"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "begin": "1939-06-09",
-        "ended": false,
-        "end": null
-      },
-      "isnis": [
-        "0000000055221311"
-      ],
-      "sort-name": "Schröder, Andreas"
-    },
-    {
-      "annotation": null,
-      "area": {
-        "iso-3166-1-codes": [
-          "DE"
-        ],
-        "sort-name": "Germany",
-        "name": "Germany",
-        "disambiguation": "",
-        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
-      },
-      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
-      "life-span": {
-        "ended": true,
-        "begin": "1697-04-26",
-        "end": "1754-10-06"
-      },
-      "end_area": {
-        "id": "f1271fec-4307-4a9c-b89d-aa2a7bede5ce",
-        "disambiguation": "",
-        "sort-name": "Bayreuth",
-        "name": "Bayreuth"
-      },
-      "begin_area": {
-        "name": "Leipzig",
-        "sort-name": "Leipzig",
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": ""
-      },
-      "sort-name": "Falckenhagen, Adam",
-      "isnis": [
-        "0000000118215569"
-      ],
-      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
-      "id": "d56f50b0-779f-4c3b-8990-a8d7e5b5f482",
-      "tags": [
-        {
-          "name": "to clean up",
-          "count": 1
-        }
-      ],
-      "user-rating": {
-        "value": null
-      },
-      "country": "DE",
-      "name": "Adam Falckenhagen",
-      "gender": "Male",
-      "user-tags": [],
-      "rating": {
-        "votes-count": 0,
-        "value": null
-      },
-      "disambiguation": "",
-      "ipis": [],
-      "aliases": [
-        {
-          "type": null,
-          "locale": null,
-          "primary": null,
-          "sort-name": "Falkenhagen, Adam",
-          "ended": false,
-          "type-id": null,
-          "name": "Adam Falkenhagen",
-          "end": null,
-          "begin": null
-        },
-        {
-          "locale": null,
-          "type": null,
-          "primary": null,
-          "sort-name": "Adam Falkenhagen",
-          "ended": false,
-          "type-id": null,
-          "end": null,
-          "name": "Falkenhagen",
-          "begin": null
-        }
-      ],
-      "type": "Person"
-    },
-    {
-      "annotation": null,
-      "area": {
-        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
-        "disambiguation": "",
-        "name": "Leipzig",
-        "sort-name": "Leipzig"
-      },
+      "id": "7b7f9365-45fc-43b0-a8c3-83f7451ddbd5",
       "life-span": {
         "end": null,
         "ended": false,
         "begin": null
       },
       "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
-      "begin_area": null,
-      "end_area": null,
-      "sort-name": "625-12P",
-      "isnis": [],
-      "gender-id": null,
-      "id": "da4572cb-d00a-435f-a3ce-e3880e56cf61",
+      "ipis": [],
       "tags": [],
-      "user-rating": {
-        "value": null
+      "area": {
+        "type": null,
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "New York"
       },
-      "country": null,
-      "name": "625-12P",
-      "user-tags": [],
+      "begin-area": null,
+      "aliases": [],
+      "genres": [],
+      "gender-id": null,
+      "annotation": null,
+      "begin_area": null,
       "gender": null,
-      "disambiguation": "",
+      "type": "Group",
+      "user-genres": []
+    },
+    {
+      "isnis": [],
+      "end-area": {
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "name": "New York"
+      },
+      "user-tags": [],
+      "id": "80241c32-da47-428a-b8cb-7e7b1bda0f5f",
       "rating": {
         "value": null,
         "votes-count": 0
       },
       "ipis": [],
+      "life-span": {
+        "begin": "1988-05-26",
+        "end": "2010-09-01",
+        "ended": true
+      },
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "name": "!JP",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "end_area": {
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "name": "New York"
+      },
+      "sort-name": "!JP",
+      "disambiguation": "",
+      "gender-id": null,
+      "genres": [],
       "aliases": [],
-      "type": "Group"
+      "begin_area": {
+        "name": "Zaandam",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Zaandam",
+        "id": "d424f63c-9fa2-4278-af70-02b91b9191d2",
+        "type": null
+      },
+      "annotation": null,
+      "type": "Group",
+      "gender": null,
+      "user-genres": [],
+      "tags": [],
+      "area": {
+        "name": "Amsterdam",
+        "type": null,
+        "id": "e8e317a1-268c-4e46-9db1-f10af959ffca",
+        "type-id": null,
+        "sort-name": "Amsterdam",
+        "disambiguation": ""
+      },
+      "begin-area": {
+        "name": "Zaandam",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Zaandam",
+        "id": "d424f63c-9fa2-4278-af70-02b91b9191d2",
+        "type": null
+      }
+    },
+    {
+      "user-genres": [],
+      "type": "Group",
+      "gender": null,
+      "begin_area": null,
+      "annotation": null,
+      "gender-id": null,
+      "genres": [],
+      "aliases": [],
+      "begin-area": null,
+      "area": {
+        "name": "Brooklyn",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Brooklyn",
+        "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+        "type": null
+      },
+      "tags": [],
+      "ipis": [],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "life-span": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "id": "86f351b6-8608-46b6-9844-c94e40a8fedc",
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "user-tags": [],
+      "isnis": [],
+      "end-area": null,
+      "sort-name": ".michael.",
+      "disambiguation": "clarinet/guitar duo",
+      "end_area": null,
+      "name": ".michael.",
+      "user-rating": {
+        "value": null
+      },
+      "country": null
+    },
+    {
+      "end_area": null,
+      "sort-name": "[<>]",
+      "disambiguation": "a capella artist",
+      "name": "[<>]",
+      "country": null,
+      "user-rating": {
+        "value": null
+      },
+      "id": "8f363b5c-89e1-4e2a-bb1e-871e50bc2d92",
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "type-id": null,
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": null
+      },
+      "ipis": [],
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "begin-area": null,
+      "tags": [
+        {
+          "count": 1,
+          "name": "!hyperfocus"
+        },
+        {
+          "name": "sillyname",
+          "count": 1
+        }
+      ],
+      "area": {
+        "name": "New York",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "New York"
+      },
+      "type": null,
+      "gender": null,
+      "user-genres": [],
+      "gender-id": null,
+      "aliases": [
+        {
+          "name": "bracketsfaggots",
+          "ended": false,
+          "begin": null,
+          "type": "Search hint",
+          "sort-name": "bracketsfaggots",
+          "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+          "locale": null,
+          "end": null,
+          "primary": null
+        }
+      ],
+      "genres": [],
+      "begin_area": null,
+      "annotation": null
+    },
+    {
+      "id": "9468a665-4196-4a84-8535-906f975d9e92",
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "life-span": {
+        "begin": "1997",
+        "ended": true,
+        "end": "2000"
+      },
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "ipis": [],
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "end_area": null,
+      "sort-name": "1 Life 2 Live",
+      "disambiguation": "",
+      "name": "1 Life 2 Live",
+      "user-rating": {
+        "value": null
+      },
+      "country": "US",
+      "type": "Group",
+      "gender": null,
+      "user-genres": [],
+      "gender-id": null,
+      "aliases": [],
+      "genres": [],
+      "begin_area": {
+        "name": "The Bronx",
+        "disambiguation": "",
+        "sort-name": "The Bronx",
+        "type-id": null,
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+        "type": null
+      },
+      "annotation": null,
+      "begin-area": {
+        "name": "The Bronx",
+        "disambiguation": "",
+        "sort-name": "The Bronx",
+        "type-id": null,
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+        "type": null
+      },
+      "tags": [],
+      "area": {
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "sort-name": "United States",
+        "type-id": null,
+        "type": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States"
+      }
+    },
+    {
+      "name": "Aurelia",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "sort-name": "(Electronic artist, singer, songwriter and producer)",
+      "disambiguation": "Electronic artist, singer, songwriter and producer",
+      "end_area": null,
+      "user-tags": [],
+      "isnis": [],
+      "end-area": null,
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1998-06-25"
+      },
+      "ipis": [],
+      "id": "b00d424d-3cf7-474e-a761-db2abc3bb3e0",
+      "rating": {
+        "votes-count": 1,
+        "value": 5
+      },
+      "area": {
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "name": "New York"
+      },
+      "tags": [],
+      "begin-area": {
+        "type": null,
+        "id": "75e398a3-5f3f-4224-9cd8-0fe44715bc95",
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "New York",
+        "iso-3166-2-codes": [
+          "US-NY"
+        ]
+      },
+      "begin_area": {
+        "type": null,
+        "id": "75e398a3-5f3f-4224-9cd8-0fe44715bc95",
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "New York",
+        "iso-3166-2-codes": [
+          "US-NY"
+        ]
+      },
+      "annotation": null,
+      "gender-id": "b239bbd8-aa84-4f11-8bdb-c4159e730ee5",
+      "aliases": [],
+      "genres": [],
+      "user-genres": [],
+      "type": "Person",
+      "gender": "Non-binary"
+    },
+    {
+      "end-area": null,
+      "isnis": [],
+      "user-tags": [],
+      "rating": {
+        "votes-count": 1,
+        "value": 5
+      },
+      "id": "b0d6108a-3dd5-479d-b518-803f54b3ba45",
+      "ipis": [],
+      "life-span": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "name": "1 Mile North",
+      "end_area": null,
+      "disambiguation": "",
+      "sort-name": "1 Mile North",
+      "genres": [
+        {
+          "disambiguation": "",
+          "name": "post-rock",
+          "id": "0bfffa19-4e4a-4bf7-bf53-6ec44f0a2f8e",
+          "count": 1
+        }
+      ],
+      "aliases": [
+        {
+          "end": null,
+          "primary": null,
+          "sort-name": "One Mile North",
+          "type-id": null,
+          "locale": null,
+          "begin": null,
+          "type": null,
+          "ended": false,
+          "name": "One Mile North"
+        }
+      ],
+      "gender-id": null,
+      "annotation": null,
+      "begin_area": null,
+      "gender": null,
+      "type": "Group",
+      "user-genres": [],
+      "tags": [
+        {
+          "name": "post-rock",
+          "count": 1
+        }
+      ],
+      "area": {
+        "name": "New York",
+        "iso-3166-2-codes": [
+          "US-NY"
+        ],
+        "type": null,
+        "id": "75e398a3-5f3f-4224-9cd8-0fe44715bc95",
+        "disambiguation": "",
+        "sort-name": "New York",
+        "type-id": null
+      },
+      "begin-area": null
+    },
+    {
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "id": "bf7d93f8-f3d4-491f-a85d-569bd1ec4248",
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1994-08-22"
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "ipis": [],
+      "name": "'Zel",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "end_area": null,
+      "sort-name": "'Zel",
+      "disambiguation": "",
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "aliases": [],
+      "genres": [],
+      "begin_area": {
+        "name": "The Bronx",
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+        "type": null,
+        "type-id": null,
+        "sort-name": "The Bronx",
+        "disambiguation": ""
+      },
+      "annotation": null,
+      "type": "Person",
+      "gender": "Male",
+      "user-genres": [],
+      "tags": [],
+      "area": null,
+      "begin-area": {
+        "name": "The Bronx",
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e",
+        "type": null,
+        "type-id": null,
+        "sort-name": "The Bronx",
+        "disambiguation": ""
+      }
+    },
+    {
+      "area": {
+        "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+        "type": null,
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Brooklyn",
+        "name": "Brooklyn"
+      },
+      "tags": [],
+      "begin-area": null,
+      "annotation": null,
+      "begin_area": null,
+      "aliases": [],
+      "genres": [],
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "user-genres": [],
+      "gender": "Male",
+      "type": "Person",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "name": ".thejass.",
+      "disambiguation": "",
+      "sort-name": ".thejass.",
+      "end_area": null,
+      "user-tags": [],
+      "end-area": null,
+      "isnis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+      },
+      "ipis": [],
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "id": "cc8d7728-f9c9-4bd2-8bb5-29b6dc510e28"
+    },
+    {
+      "gender": null,
+      "type": null,
+      "user-genres": [],
+      "aliases": [],
+      "genres": [],
+      "gender-id": null,
+      "annotation": null,
+      "begin_area": null,
+      "begin-area": null,
+      "tags": [],
+      "area": {
+        "name": "The Bronx",
+        "sort-name": "The Bronx",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "id": "eb4a386e-1178-4e3a-a371-30418dd6fd2e"
+      },
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "id": "d141db99-aec5-4167-af74-1dc0e293f385",
+      "type-id": null,
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": null
+      },
+      "ipis": [],
+      "end-area": null,
+      "isnis": [],
+      "user-tags": [],
+      "end_area": null,
+      "disambiguation": "",
+      "sort-name": "#1Gunna",
+      "country": null,
+      "user-rating": {
+        "value": null
+      },
+      "name": "#1Gunna"
+    },
+    {
+      "end_area": null,
+      "sort-name": "[Royal T.] Crown Jewels",
+      "disambiguation": "Hip-Hop Artist",
+      "name": "Crown Jewels",
+      "user-rating": {
+        "value": null
+      },
+      "country": "US",
+      "id": "d508cd94-68d7-4bb8-be4a-abb199a88cd4",
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "begin": "1984-06-06",
+        "ended": false,
+        "end": null
+      },
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "begin-area": {
+        "name": "East Meadow",
+        "type-id": null,
+        "sort-name": "East Meadow",
+        "disambiguation": "",
+        "type": null,
+        "id": "8ef2ca9b-9cef-437c-b732-d1aff58ed0d8"
+      },
+      "tags": [],
+      "area": {
+        "name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "disambiguation": "",
+        "sort-name": "United States",
+        "type-id": null,
+        "type": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98"
+      },
+      "type": "Person",
+      "gender": "Male",
+      "user-genres": [],
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "genres": [],
+      "aliases": [
+        {
+          "name": "Anthony Rashon Taylor",
+          "ended": false,
+          "type": "Legal name",
+          "begin": null,
+          "locale": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "sort-name": "Anthony Rashon Taylor",
+          "primary": null,
+          "end": null
+        },
+        {
+          "locale": null,
+          "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+          "sort-name": "Crown Jewels",
+          "primary": null,
+          "end": null,
+          "type": "Artist name",
+          "begin": null,
+          "ended": false,
+          "name": "[Royal T.] Crown Jewels"
+        }
+      ],
+      "begin_area": {
+        "name": "East Meadow",
+        "type-id": null,
+        "sort-name": "East Meadow",
+        "disambiguation": "",
+        "type": null,
+        "id": "8ef2ca9b-9cef-437c-b732-d1aff58ed0d8"
+      },
+      "annotation": null
+    },
+    {
+      "gender": "Male",
+      "type": "Person",
+      "user-genres": [],
+      "genres": [],
+      "aliases": [],
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "annotation": null,
+      "begin_area": {
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "New York",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "name": "New York"
+      },
+      "begin-area": {
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "New York",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "name": "New York"
+      },
+      "tags": [],
+      "area": {
+        "name": "United States",
+        "type-id": null,
+        "sort-name": "United States",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "disambiguation": "",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": null
+      },
+      "rating": {
+        "votes-count": 1,
+        "value": 4
+      },
+      "id": "d993169f-2033-4810-bae8-564d4aab89cd",
+      "ipis": [],
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1997-12-16"
+      },
+      "end-area": null,
+      "isnis": [],
+      "user-tags": [],
+      "end_area": null,
+      "disambiguation": "",
+      "sort-name": "$NOT",
+      "user-rating": {
+        "value": null
+      },
+      "country": "US",
+      "name": "$NOT"
+    },
+    {
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "name": "(青Tux)",
+      "disambiguation": "",
+      "sort-name": "(青Tux)",
+      "end_area": null,
+      "user-tags": [],
+      "end-area": null,
+      "isnis": [],
+      "type-id": null,
+      "life-span": {
+        "begin": null,
+        "end": null,
+        "ended": false
+      },
+      "ipis": [],
+      "rating": {
+        "votes-count": 0,
+        "value": null
+      },
+      "id": "de73f322-cc43-4b58-83bc-ae7ab6b31bc1",
+      "area": {
+        "name": "Manhattan",
+        "type": null,
+        "id": "261962ea-d8c2-4eaf-a80c-f14376ffadb0",
+        "disambiguation": "",
+        "type-id": null,
+        "sort-name": "Manhattan"
+      },
+      "tags": [],
+      "begin-area": null,
+      "annotation": null,
+      "begin_area": null,
+      "aliases": [],
+      "genres": [],
+      "gender-id": null,
+      "user-genres": [],
+      "gender": null,
+      "type": null
+    },
+    {
+      "name": "$hock Medusa",
+      "country": "US",
+      "user-rating": {
+        "value": null
+      },
+      "end_area": null,
+      "sort-name": "$hock Medusa",
+      "disambiguation": "",
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "id": "e79bc11b-18ec-4663-b076-87d82d5216a2",
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "life-span": {
+        "begin": "1995-01-26",
+        "end": null,
+        "ended": false
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "ipis": [
+        "00550616289"
+      ],
+      "tags": [
+        {
+          "name": "hip hop",
+          "count": 1
+        }
+      ],
+      "area": {
+        "name": "United States",
+        "disambiguation": "",
+        "iso-3166-1-codes": [
+          "US"
+        ],
+        "sort-name": "United States",
+        "type-id": null,
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "type": null
+      },
+      "begin-area": {
+        "type": null,
+        "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+        "type-id": null,
+        "sort-name": "Brooklyn",
+        "disambiguation": "",
+        "name": "Brooklyn"
+      },
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "aliases": [
+        {
+          "type": "Legal name",
+          "begin": null,
+          "locale": null,
+          "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+          "sort-name": "Stancil, Shakor",
+          "primary": null,
+          "end": null,
+          "name": "Shakor Stancil",
+          "ended": false
+        }
+      ],
+      "genres": [
+        {
+          "disambiguation": "",
+          "name": "hip hop",
+          "id": "52faa157-6bad-4d86-a0ab-d4dec7d2513c",
+          "count": 1
+        }
+      ],
+      "begin_area": {
+        "type": null,
+        "id": "a71b0d32-7752-49e9-8594-2247ad6ac12c",
+        "type-id": null,
+        "sort-name": "Brooklyn",
+        "disambiguation": "",
+        "name": "Brooklyn"
+      },
+      "annotation": null,
+      "type": "Person",
+      "gender": "Male",
+      "user-genres": []
+    },
+    {
+      "area": null,
+      "tags": [],
+      "begin-area": {
+        "name": "Elmira",
+        "sort-name": "Elmira",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "id": "3a1fee6d-7299-41d8-8256-99a7c2095562"
+      },
+      "begin_area": {
+        "name": "Elmira",
+        "sort-name": "Elmira",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "id": "3a1fee6d-7299-41d8-8256-99a7c2095562"
+      },
+      "annotation": null,
+      "gender-id": null,
+      "genres": [],
+      "aliases": [],
+      "user-genres": [],
+      "type": "Group",
+      "gender": null,
+      "name": "'sabella",
+      "country": null,
+      "user-rating": {
+        "value": null
+      },
+      "sort-name": "'sabella",
+      "disambiguation": "",
+      "end_area": null,
+      "user-tags": [],
+      "isnis": [],
+      "end-area": null,
+      "ipis": [],
+      "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "2013-01-01"
+      },
+      "id": "e87d17be-0f42-44b5-98b0-ad45ae484daf",
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      }
+    },
+    {
+      "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+      "genres": [],
+      "aliases": [],
+      "begin_area": null,
+      "annotation": null,
+      "type": "Person",
+      "gender": "Male",
+      "user-genres": [],
+      "tags": [],
+      "area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type": null,
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "New York"
+      },
+      "begin-area": null,
+      "isnis": [],
+      "end-area": null,
+      "user-tags": [],
+      "id": "fbf802db-9445-4dde-9140-5eb8fde03d41",
+      "rating": {
+        "value": null,
+        "votes-count": 0
+      },
+      "ipis": [],
+      "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+      },
+      "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+      "name": "&Friends",
+      "user-rating": {
+        "value": null
+      },
+      "country": null,
+      "end_area": null,
+      "sort-name": "&friends",
+      "disambiguation": ""
     }
   ],
-  "artist-offset": 0
+  "artist-offset": 0,
+  "artist-count": 21206
 }

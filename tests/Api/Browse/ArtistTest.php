@@ -44,22 +44,24 @@ class ArtistTest extends ApiTestCase
                 'fmt'     => 'json',
                 'limit'   => 25,
                 'offset'  => 0,
-                'area'    => '20619e36-fca8-4499-bcc8-be01a3ea3e41',
-                'inc'     => 'aliases+annotation+genres+tags+user-genres+user-tags'
+                'area'    => '75e398a3-5f3f-4224-9cd8-0fe44715bc95',
+                'inc'     => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags'
             ],
             'Browse/Artist.json'
         );
 
         /** Performing the test */
         $artistRelation = new ArtistRelation;
-        $artistRelation->area(new MBID('20619e36-fca8-4499-bcc8-be01a3ea3e41'));
+        $artistRelation->area(new MBID('75e398a3-5f3f-4224-9cd8-0fe44715bc95'));
 
         $artistFields = (new ArtistFields)
             ->includeAliases()
             ->includeAnnotation()
             ->includeGenres()
+            ->includeRatings()
             ->includeTags()
             ->includeUserGenres()
+            ->includeUserRatings()
             ->includeUserTags();
 
         self::$artistListPage = $this->musicBrainz->api()->browse()->artist($artistRelation, $artistFields, new PageFilter);
@@ -94,9 +96,9 @@ class ArtistTest extends ApiTestCase
         $this->assertInstanceOf(Artist::class, $artist);
 
         $this->assertInstanceOf(ArtistType::class, $artist->getArtistType());
-        $this->assertEquals('Group', $artist->getArtistType());
+        $this->assertEquals('Person', $artist->getArtistType());
         $this->assertInstanceOf(MBID::class, $artist->getArtistType()->getMBID());
-        $this->assertEquals('e431f5f6-b5d2-343d-8b36-72607fffb74b', $artist->getArtistType()->getMBID());
+        $this->assertEquals('b6e035f4-3ce9-331c-97df-83397230b0df', $artist->getArtistType()->getMBID());
 
         /** @todo Test disambiguation */
         /** @todo Test ratings */
@@ -105,7 +107,7 @@ class ArtistTest extends ApiTestCase
         /** @todo Test country */
 
         $this->assertInstanceOf(Name::class, $artist->getArtistName());
-        $this->assertEquals('Amnistia', $artist->getArtistName());
+        $this->assertEquals('$1 Bin', $artist->getArtistName());
 
         /** @todo Test ISNIs */
         /** @todo Test lifespan */
