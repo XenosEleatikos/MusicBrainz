@@ -116,7 +116,7 @@ class InstrumentTest extends ApiTestCase
         $aliases = self::$instrumentListPage[0]->getAliases();
 
         $this->assertInstanceOf(AliasList::class, $aliases);
-        $this->assertCount(25, $aliases);
+        $this->assertCount(27, $aliases);
 
         $alias = $aliases[0];
 
@@ -151,7 +151,7 @@ class InstrumentTest extends ApiTestCase
         $tags = self::$instrumentListPage[0]->getTags();
 
         $this->assertInstanceOf(TagList::class, $tags);
-        $this->assertCount(8, $tags);
+        $this->assertCount(26, $tags);
 
         $tag = $tags[1];
 
@@ -159,6 +159,6 @@ class InstrumentTest extends ApiTestCase
         $this->assertInstanceOf(Count::class, $tag->getCount());
         $this->assertSame(1, $tag->getCount()->getNumber());
         $this->assertInstanceOf(Name::class, $tag->getName());
-        $this->assertEquals('emoji', $tag->getName());
+        $this->assertEquals('art rock', $tag->getName());
     }
 }

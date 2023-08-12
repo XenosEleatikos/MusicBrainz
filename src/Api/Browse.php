@@ -205,17 +205,20 @@ class Browse
     public function instrument(InstrumentRelation $instrumentRelation, InstrumentFields $instrumentFields, PageFilter $pageFilter): InstrumentListPage
     {
         $fields = [
-            'aliases'      => $instrumentFields->getIncludeFlagForAliases(),
-            'annotation'   => $instrumentFields->getIncludeFlagForAnnotation(),
-            'tags'         => $instrumentFields->getIncludeFlagForTags(),
-            'user-tags'    => $instrumentFields->getIncludeFlagForUserTags()
+            'aliases'     => $instrumentFields->getIncludeFlagForAliases(),
+            'annotation'  => $instrumentFields->getIncludeFlagForAnnotation(),
+            'genres'      => $instrumentFields->getIncludeFlagForGenres(),
+            'tags'        => $instrumentFields->getIncludeFlagForTags(),
+            'user-genres' => $instrumentFields->getIncludeFlagForUserGenres(),
+            'user-tags'   => $instrumentFields->getIncludeFlagForUserTags()
         ];
 
         $result = $this->browse(
             new EntityType(EntityType::INSTRUMENT),
             $instrumentRelation,
             $fields,
-            $pageFilter
+            $pageFilter,
+            $fields['user-genres'] || $fields['user-tags']
         );
 
         return InstrumentListPage::make($result, 'instrument');
