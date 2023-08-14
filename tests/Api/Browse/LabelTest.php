@@ -42,21 +42,23 @@ class LabelTest extends ApiTestCase
                 'fmt'    => 'json',
                 'limit'  => 25,
                 'offset' => 0,
-                'area'   => '20619e36-fca8-4499-bcc8-be01a3ea3e41',
-                'inc'    => 'aliases+annotation+ratings+tags+user-ratings+user-tags'
+                'area'   => '75e398a3-5f3f-4224-9cd8-0fe44715bc95',
+                'inc'    => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags'
             ],
             'Browse/Label.json'
         );
 
         /** Performing the test */
         $labelRelation = new LabelRelation;
-        $labelRelation->area(new MBID('20619e36-fca8-4499-bcc8-be01a3ea3e41'));
+        $labelRelation->area(new MBID('75e398a3-5f3f-4224-9cd8-0fe44715bc95'));
 
         $labelFields = (new LabelFields)
             ->includeAliases()
             ->includeAnnotation()
+            ->includeGenres()
             ->includeRatings()
             ->includeTags()
+            ->includeUserGenres()
             ->includeUserRatings()
             ->includeUserTags();
 
