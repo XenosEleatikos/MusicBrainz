@@ -9,7 +9,7 @@ trait InstrumentRelationsTrait
      *
      * @var bool
      */
-    private bool $instrumentRelations = false;
+    protected bool $instrumentRelations = false;
 
     /**
      * Returns true, if instrument relations should be included, otherwise false.

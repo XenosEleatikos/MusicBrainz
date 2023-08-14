@@ -9,7 +9,7 @@ trait TagsTrait
      *
      * @var bool
      */
-    private bool $tags = false;
+    protected bool $tags = false;
 
     /**
      * Returns true, if tags should be included, otherwise false.

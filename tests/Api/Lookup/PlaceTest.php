@@ -59,7 +59,7 @@ class PlaceTest extends ApiTestCase
             ->includePlaceRelations()
             ->includeReleaseRelations()
             ->includeRecordingRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             ->includeWorkRelations();
 
         self::$place = $this->musicBrainz->api()->lookup()->place(

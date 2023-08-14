@@ -66,7 +66,7 @@ class EventTest extends ApiTestCase
             ->includeReleaseGroupRelations()
             ->includeRecordingRelations()
             ->includeSeriesRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             ->includeWorkRelations();
 
         self::$event = $this->musicBrainz->api()->lookup()->event(

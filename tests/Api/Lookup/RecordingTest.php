@@ -67,7 +67,7 @@ class RecordingTest extends ApiTestCase
             ->includeRecordingRelations()
             ->includeReleaseRelations()
             ->includeSeriesRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             ->includeWorkRelations();
 
         self::$recording = $this->musicBrainz->api()->lookup()->recording(

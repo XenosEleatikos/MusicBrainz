@@ -43,7 +43,7 @@ class RecordingTest extends ApiTestCase
                 'limit'  => 25,
                 'offset' => 0,
                 'artist' => 'c3aeb863-7b26-4388-94e8-5a240f2be21b',
-                'inc'    => 'annotation+artist-credits+isrcs+ratings+tags+user-tags+user-ratings'
+                'inc'    => 'annotation+artist-credits+isrcs+ratings+tags+user-ratings+user-tags'
             ],
             'Browse/Recording.json'
         );

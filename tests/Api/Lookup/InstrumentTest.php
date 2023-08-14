@@ -57,7 +57,7 @@ class InstrumentTest extends ApiTestCase
             ->includeArtistRelations()
             ->includeInstrumentRelations()
             ->includeLabelRelations()
-            ->includeURLRelations();
+            ->includeUrlRelations();
 
         self::$instrument = $this->musicBrainz->api()->lookup()->instrument(
             new MBID('7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87'),

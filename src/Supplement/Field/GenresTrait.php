@@ -9,7 +9,7 @@ trait GenresTrait
      *
      * @var bool
      */
-    private bool $genres = false;
+    protected bool $genres = false;
 
     /**
      * Returns true, if genres should be included, otherwise false.

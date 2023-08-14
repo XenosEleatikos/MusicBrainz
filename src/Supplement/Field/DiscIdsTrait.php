@@ -9,7 +9,7 @@ trait DiscIdsTrait
      *
      * @var bool
      */
-    private bool $discIds = false;
+    protected bool $discids = false;
 
     /**
      * Returns true, if disc ID's should be included, otherwise false.
@@ -18,7 +18,7 @@ trait DiscIdsTrait
      */
     public function getIncludeFlagForDiscIds(): bool
     {
-        return $this->discIds;
+        return $this->discids;
     }
 
     /**
@@ -30,7 +30,7 @@ trait DiscIdsTrait
      */
     public function includeDiscIds(bool $discIds = true): self
     {
-        $this->discIds = $discIds;
+        $this->discids = $discIds;
 
         return $this;
     }

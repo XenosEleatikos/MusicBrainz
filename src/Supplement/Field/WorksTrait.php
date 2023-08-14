@@ -9,7 +9,7 @@ trait WorksTrait
      *
      * @var bool
      */
-    private bool $works = false;
+    protected bool $works = false;
 
     /**
      * Returns true, if works should be included, otherwise false.

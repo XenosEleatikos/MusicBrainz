@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Lookup;
 
-class UrlFields
+use MusicBrainz\Supplement\Fields;
+
+class UrlFields extends Fields
 {
     // relations
     use \MusicBrainz\Supplement\Field\AreaRelationsTrait;
@@ -15,6 +17,6 @@ class UrlFields
     use \MusicBrainz\Supplement\Field\ReleaseRelationsTrait;
     use \MusicBrainz\Supplement\Field\ReleaseGroupRelationsTrait;
     use \MusicBrainz\Supplement\Field\SeriesRelationsTrait;
-    use \MusicBrainz\Supplement\Field\URLRelationsTrait;
+    use \MusicBrainz\Supplement\Field\UrlRelationsTrait;
     use \MusicBrainz\Supplement\Field\WorkRelationsTrait;
 }

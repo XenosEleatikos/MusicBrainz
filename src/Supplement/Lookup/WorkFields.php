@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Lookup;
 
-class WorkFields
+use MusicBrainz\Supplement\Fields;
+
+class WorkFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\ArtistsTrait;
     use \MusicBrainz\Supplement\Field\AliasesTrait;
@@ -15,7 +17,7 @@ class WorkFields
     use \MusicBrainz\Supplement\Field\RecordingRelationsTrait;
     use \MusicBrainz\Supplement\Field\ReleaseRelationsTrait;
     use \MusicBrainz\Supplement\Field\ReleaseGroupsTrait;
-    use \MusicBrainz\Supplement\Field\URLRelationsTrait;
+    use \MusicBrainz\Supplement\Field\UrlRelationsTrait;
     use \MusicBrainz\Supplement\Field\WorkRelationsTrait;
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
 }

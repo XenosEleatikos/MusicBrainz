@@ -20,6 +20,7 @@ use MusicBrainz\Filter\Browse\Relation\Entity\SeriesRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\WorkRelation;
 use MusicBrainz\Supplement\Browse\AreaFields;
 use MusicBrainz\Supplement\Browse\ArtistFields;
+use MusicBrainz\Supplement\Browse\CollectionFields;
 use MusicBrainz\Supplement\Browse\EventFields;
 use MusicBrainz\Supplement\Browse\InstrumentFields;
 use MusicBrainz\Supplement\Browse\LabelFields;
@@ -29,6 +30,7 @@ use MusicBrainz\Supplement\Browse\ReleaseFields;
 use MusicBrainz\Supplement\Browse\ReleaseGroupFields;
 use MusicBrainz\Supplement\Browse\SeriesFields;
 use MusicBrainz\Supplement\Browse\WorkFields;
+use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\Page\AreaListPage;
 use MusicBrainz\Value\Page\ArtistListPage;
@@ -87,19 +89,10 @@ class Browse
      */
     public function area(AreaRelation $areaRelation, AreaFields $areaFields, PageFilter $pageFilter): AreaListPage
     {
-        $fields = [
-            'aliases'     => $areaFields->getIncludeFlagForAliases(),
-            'annotation'  => $areaFields->getIncludeFlagForAnnotation(),
-            'genres'      => $areaFields->getIncludeFlagForGenres(),
-            'tags'        => $areaFields->getIncludeFlagForTags(),
-            'user-genres' => $areaFields->getIncludeFlagForUserGenres(),
-            'user-tags'   => $areaFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::AREA),
             $areaRelation,
-            $fields,
+            $areaFields,
             $pageFilter,
             (string)$areaRelation->getEntityType() === EntityType::COLLECTION
         );
@@ -118,23 +111,11 @@ class Browse
      */
     public function artist(ArtistRelation $artistRelation, ArtistFields $artistFields, PageFilter $pageFilter): ArtistListPage
     {
-        $fields = [
-            'aliases'      => $artistFields->getIncludeFlagForAliases(),
-            'annotation'   => $artistFields->getIncludeFlagForAnnotation(),
-            'genres'       => $artistFields->getIncludeFlagForGenres(),
-            'ratings'      => $artistFields->getIncludeFlagForRatings(),
-            'tags'         => $artistFields->getIncludeFlagForTags(),
-            'user-genres'  => $artistFields->getIncludeFlagForUserGenres(),
-            'user-ratings' => $artistFields->getIncludeFlagForUserRatings(),
-            'user-tags'    => $artistFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::ARTIST),
             $artistRelation,
-            $fields,
-            $pageFilter,
-            $fields['user-genres'] || $fields['user-tags'] || $fields['user-ratings']
+            $artistFields,
+            $pageFilter
         );
 
         return ArtistListPage::make($result, 'artist');
@@ -152,12 +133,10 @@ class Browse
      */
     public function collection(CollectionRelation $collectionRelation, PageFilter $pageFilter): CollectionListPage
     {
-        $fields = [];
-
         $result = $this->browse(
             new EntityType(EntityType::COLLECTION),
             $collectionRelation,
-            $fields,
+            new CollectionFields(),
             $pageFilter
         );
 
@@ -175,21 +154,11 @@ class Browse
      */
     public function event(EventRelation $eventRelation, EventFields $eventFields, PageFilter $pageFilter): EventListPage
     {
-        $fields = [
-            'aliases'     => $eventFields->getIncludeFlagForAliases(),
-            'annotation'  => $eventFields->getIncludeFlagForAnnotation(),
-            'genres'      => $eventFields->getIncludeFlagForGenres(),
-            'tags'        => $eventFields->getIncludeFlagForTags(),
-            'user-genres' => $eventFields->getIncludeFlagForUserGenres(),
-            'user-tags'   => $eventFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::EVENT),
             $eventRelation,
-            $fields,
-            $pageFilter,
-            $fields['user-genres'] || $fields['user-tags']
+            $eventFields,
+            $pageFilter
         );
 
         return EventListPage::make($result, 'event');
@@ -206,21 +175,11 @@ class Browse
      */
     public function instrument(InstrumentRelation $instrumentRelation, InstrumentFields $instrumentFields, PageFilter $pageFilter): InstrumentListPage
     {
-        $fields = [
-            'aliases'     => $instrumentFields->getIncludeFlagForAliases(),
-            'annotation'  => $instrumentFields->getIncludeFlagForAnnotation(),
-            'genres'      => $instrumentFields->getIncludeFlagForGenres(),
-            'tags'        => $instrumentFields->getIncludeFlagForTags(),
-            'user-genres' => $instrumentFields->getIncludeFlagForUserGenres(),
-            'user-tags'   => $instrumentFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::INSTRUMENT),
             $instrumentRelation,
-            $fields,
-            $pageFilter,
-            $fields['user-genres'] || $fields['user-tags']
+            $instrumentFields,
+            $pageFilter
         );
 
         return InstrumentListPage::make($result, 'instrument');
@@ -237,19 +196,10 @@ class Browse
      */
     public function label(LabelRelation $labelRelation, LabelFields $labelFields, PageFilter $pageFilter): LabelListPage
     {
-        $fields = [
-            'aliases'      => $labelFields->getIncludeFlagForAliases(),
-            'annotation'   => $labelFields->getIncludeFlagForAnnotation(),
-            'ratings'      => $labelFields->getIncludeFlagForRatings(),
-            'tags'         => $labelFields->getIncludeFlagForTags(),
-            'user-ratings' => $labelFields->getIncludeFlagForUserRatings(),
-            'user-tags'    => $labelFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::LABEL),
             $labelRelation,
-            $fields,
+            $labelFields,
             $pageFilter
         );
 
@@ -267,17 +217,10 @@ class Browse
      */
     public function place(PlaceRelation $placeRelation, PlaceFields $placeFields, PageFilter $pageFilter): PlaceListPage
     {
-        $fields = [
-            'aliases'      => $placeFields->getIncludeFlagForAliases(),
-            'annotation'   => $placeFields->getIncludeFlagForAnnotation(),
-            'tags'         => $placeFields->getIncludeFlagForTags(),
-            'user-tags'    => $placeFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::PLACE),
             $placeRelation,
-            $fields,
+            $placeFields,
             $pageFilter
         );
 
@@ -295,20 +238,10 @@ class Browse
      */
     public function recording(RecordingRelation $recordingRelation, RecordingFields $recordingFields, PageFilter $pageFilter): RecordingListPage
     {
-        $fields = [
-            'annotation'     => $recordingFields->getIncludeFlagForAnnotation(),
-            'artist-credits' => $recordingFields->getIncludeFlagForArtistCredits(),
-            'isrcs'          => $recordingFields->getIncludeFlagForIsrcs(),
-            'ratings'        => $recordingFields->getIncludeFlagForRatings(),
-            'tags'           => $recordingFields->getIncludeFlagForTags(),
-            'user-tags'      => $recordingFields->getIncludeFlagForUserTags(),
-            'user-ratings'   => $recordingFields->getIncludeFlagForUserRatings()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::RECORDING),
             $recordingRelation,
-            $fields,
+            $recordingFields,
             $pageFilter
         );
 
@@ -326,21 +259,10 @@ class Browse
      */
     public function release(ReleaseRelation $releaseRelation, ReleaseFields $releaseFields, PageFilter $pageFilter): ReleaseListPage
     {
-        $fields = [
-            'annotation'     => $releaseFields->getIncludeFlagForAnnotation(),
-            'artist-credits' => $releaseFields->getIncludeFlagForArtistCredits(),
-            'discids'        => $releaseFields->getIncludeFlagForDiscIds(),
-            'isrcs'          => $releaseFields->getIncludeFlagForIsrcs(),
-            'labels'         => $releaseFields->getIncludeFlagForLabels(),
-            'media'          => $releaseFields->getIncludeFlagForMedia(),
-            'recordings'     => $releaseFields->getIncludeFlagForRecordings(),
-            'release-groups' => $releaseFields->getIncludeFlagForReleaseGroups()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::RELEASE),
             $releaseRelation,
-            $fields,
+            $releaseFields,
             $pageFilter
         );
 
@@ -362,19 +284,10 @@ class Browse
         ReleaseGroupFields $releaseGroupFields,
         PageFilter $pageFilter
     ): ReleaseGroupListPage {
-        $fields = [
-            'annotation'     => $releaseGroupFields->getIncludeFlagForAnnotation(),
-            'artist-credits' => $releaseGroupFields->getIncludeFlagForArtistCredits(),
-            'ratings'        => $releaseGroupFields->getIncludeFlagForRatings(),
-            'tags'           => $releaseGroupFields->getIncludeFlagForTags(),
-            'user-ratings'   => $releaseGroupFields->getIncludeFlagForUserRatings(),
-            'user-tags'      => $releaseGroupFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::RELEASE_GROUP),
             $releaseRelation,
-            $fields,
+            $releaseGroupFields,
             $pageFilter
         );
 
@@ -392,17 +305,10 @@ class Browse
      */
     public function series(SeriesRelation $seriesRelation, SeriesFields $seriesFields, PageFilter $pageFilter): SeriesListPage
     {
-        $fields = [
-            'aliases'      => $seriesFields->getIncludeFlagForAliases(),
-            'annotation'   => $seriesFields->getIncludeFlagForAnnotation(),
-            'tags'         => $seriesFields->getIncludeFlagForTags(),
-            'user-tags'    => $seriesFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::SERIES),
             $seriesRelation,
-            $fields,
+            $seriesFields,
             $pageFilter
         );
 
@@ -424,19 +330,10 @@ class Browse
      */
     public function work(WorkRelation $workRelation, WorkFields $workFields, PageFilter $pageFilter): WorkListPage
     {
-        $fields = [
-            'aliases'      => $workFields->getIncludeFlagForAliases(),
-            'annotation'   => $workFields->getIncludeFlagForAnnotation(),
-            'ratings'      => $workFields->getIncludeFlagForRatings(),
-            'tags'         => $workFields->getIncludeFlagForTags(),
-            'user-ratings' => $workFields->getIncludeFlagForUserRatings(),
-            'user-tags'    => $workFields->getIncludeFlagForUserTags()
-        ];
-
         $result = $this->browse(
             new EntityType(EntityType::WORK),
             $workRelation,
-            $fields,
+            $workFields,
             $pageFilter
         );
 
@@ -448,7 +345,7 @@ class Browse
      *
      * @param EntityType       $entity       The type of the requested entities
      * @param AbstractRelation $relation     The type of the related entity
-     * @param array            $includes     A list of properties of the requested entities to be included in the response
+     * @param Fields           $includes     A list of properties of the requested entities to be included in the response
      * @param PageFilter       $pageFilter   A page filter
      * @param bool             $authRequired True, if user authentication is required
      *
@@ -457,11 +354,11 @@ class Browse
     private function browse(
         EntityType $entity,
         AbstractRelation $relation,
-        array $includes,
+        Fields $includes,
         PageFilter $pageFilter,
         bool $authRequired = false
     ) {
-        $includes = array_keys(array_filter($includes));
+        $includes = (string) $includes;
 
         $params = [
             (string) $relation->getEntityType()  => (string) $relation->getEntityId(),
@@ -471,8 +368,10 @@ class Browse
         ];
 
         if (!empty($includes)) {
-            $params['inc'] = implode('+', $includes);
+            $params['inc'] = $includes;
         }
+
+        $authRequired = $authRequired || stripos($includes, 'user');
 
         $response = $this->httpAdapter->call(str_replace('_', '-', (string) $entity), $this->config, $params, $authRequired);
 

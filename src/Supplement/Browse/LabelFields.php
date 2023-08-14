@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Browse;
 
-class LabelFields
+use MusicBrainz\Supplement\Fields;
+
+class LabelFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\AliasesTrait;
     use \MusicBrainz\Supplement\Field\AnnotationTrait;

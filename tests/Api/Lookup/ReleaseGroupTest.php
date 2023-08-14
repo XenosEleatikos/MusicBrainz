@@ -66,7 +66,7 @@ class ReleaseGroupTest extends ApiTestCase
             ->includeLabelRelations()
             ->includeReleaseGroupRelations()
             ->includeSeriesRelations()
-            ->includeURLRelations();
+            ->includeUrlRelations();
 
         /**
          * Performing the test

@@ -47,7 +47,7 @@ class ReleaseTest extends ApiTestCase
             'release/a146429a-cedc-3ab0-9e41-1aaf5f6cdc2d',
             [
                 'fmt' => 'json',
-                'inc' => 'collections+labels+recordings+release-groups+media+artist-credits+discids+annotation+aliases+area-rels+artist-rels+event-rels+label-rels+recording-rels+release-rels+series-rels+url-rels+recording-level-rels+work-level-rels'
+                'inc' => 'collections+labels+recordings+releases+media+artist-credits+discids+annotation+aliases+area-rels+artist-rels+event-rels+label-rels+recording-rels+release-rels+series-rels+url-rels+recording-level-rels+work-level-rels'
             ],
             'Lookup/Release.json'
         );
@@ -71,7 +71,7 @@ class ReleaseTest extends ApiTestCase
             ->includeRecordingRelations()
             ->includeReleaseRelations()
             ->includeSeriesRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             //
             ->includeRecordingLevelRelations()
             ->includeWorkLevelRelations();

@@ -9,7 +9,7 @@ trait LabelsTrait
      *
      * @var bool
      */
-    private bool $labels = false;
+    protected bool $labels = false;
 
     /**
      * Returns true, if labels should be included, otherwise false.

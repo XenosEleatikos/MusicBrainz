@@ -9,7 +9,7 @@ trait MediaTrait
      *
      * @var bool
      */
-    private bool $media = false;
+    protected bool $media = false;
 
     /**
      * Returns true, if media should be included, otherwise false.

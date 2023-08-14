@@ -9,7 +9,7 @@ trait UserGenresTrait
      *
      * @var bool
      */
-    private bool $userGenres = false;
+    protected bool $userGenres = false;
 
     /**
      * Returns true, if user genres should be included, otherwise false.

@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Lookup;
 
-class LabelFields
+use MusicBrainz\Supplement\Fields;
+
+class LabelFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\ReleasesTrait;
     use \MusicBrainz\Supplement\Field\DiscIdsTrait;
@@ -17,7 +19,7 @@ class LabelFields
     use \MusicBrainz\Supplement\Field\RecordingRelationsTrait;
     use \MusicBrainz\Supplement\Field\ReleaseRelationsTrait;
     use \MusicBrainz\Supplement\Field\ReleaseGroupRelationsTrait;
-    use \MusicBrainz\Supplement\Field\URLRelationsTrait;
+    use \MusicBrainz\Supplement\Field\UrlRelationsTrait;
     use \MusicBrainz\Supplement\Field\WorkRelationsTrait;
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
 }

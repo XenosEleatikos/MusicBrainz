@@ -9,7 +9,7 @@ trait ArtistCreditsTrait
      *
      * @var bool
      */
-    private bool $artistCredits = false;
+    protected bool $artistCredits = false;
 
     /**
      * Returns true, if artist credits should be included, otherwise false.

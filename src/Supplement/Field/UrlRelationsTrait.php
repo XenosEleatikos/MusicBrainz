@@ -2,14 +2,14 @@
 
 namespace MusicBrainz\Supplement\Field;
 
-trait URLRelationsTrait
+trait UrlRelationsTrait
 {
     /**
      * True, if URL relations should be included, otherwise false
      *
      * @var bool
      */
-    private bool $URLRelations = false;
+    protected bool $UrlRelations = false;
 
     /**
      * Returns true, if URL relations should be included, otherwise false.
@@ -18,7 +18,7 @@ trait URLRelationsTrait
      */
     public function getIncludeFlagForURLRelations(): bool
     {
-        return $this->URLRelations;
+        return $this->UrlRelations;
     }
 
     /**
@@ -28,9 +28,9 @@ trait URLRelationsTrait
      *
      * @return self
      */
-    public function includeURLRelations(bool $URLRelations = true): self
+    public function includeUrlRelations(bool $URLRelations = true): self
     {
-        $this->URLRelations = $URLRelations;
+        $this->UrlRelations = $URLRelations;
 
         return $this;
     }

@@ -71,7 +71,7 @@ class LabelTest extends ApiTestCase
             ->includeReleaseRelations()
             ->includeReleaseGroupRelations()
             ->includeRecordingRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             ->includeWorkRelations();
 
         self::$label = $this->musicBrainz->api()->lookup()->label(

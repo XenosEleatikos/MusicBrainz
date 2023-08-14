@@ -9,7 +9,7 @@ trait RecordingRelationsTrait
      *
      * @var bool
      */
-    private bool $recordingRelations = false;
+    protected bool $recordingRelations = false;
 
     /**
      * Returns true, if recording relations should be included, otherwise false.

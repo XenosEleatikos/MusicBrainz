@@ -66,7 +66,7 @@ class AreaTest extends ApiTestCase
             ->includeInstrumentRelations()
             ->includeReleaseRelations()
             ->includeRecordingRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             ->includeWorkRelations();
 
         self::$area = $this->musicBrainz->api()->lookup()->area(

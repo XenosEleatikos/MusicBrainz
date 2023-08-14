@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Lookup;
 
-class EventFields
+use MusicBrainz\Supplement\Fields;
+
+class EventFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\AreaRelationsTrait;
     use \MusicBrainz\Supplement\Field\ArtistRelationsTrait;
@@ -12,6 +14,6 @@ class EventFields
     use \MusicBrainz\Supplement\Field\ReleaseGroupRelationsTrait;
     use \MusicBrainz\Supplement\Field\ReleaseRelationsTrait;
     use \MusicBrainz\Supplement\Field\SeriesRelationsTrait;
-    use \MusicBrainz\Supplement\Field\URLRelationsTrait;
+    use \MusicBrainz\Supplement\Field\UrlRelationsTrait;
     use \MusicBrainz\Supplement\Field\WorkRelationsTrait;
 }

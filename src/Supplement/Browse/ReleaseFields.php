@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Browse;
 
-class ReleaseFields
+use MusicBrainz\Supplement\Fields;
+
+class ReleaseFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
     use \MusicBrainz\Supplement\Field\ArtistCreditsTrait;

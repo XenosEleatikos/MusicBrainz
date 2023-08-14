@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Browse;
 
-class InstrumentFields
+use MusicBrainz\Supplement\Fields;
+
+class InstrumentFields extends Fields
 {
     // ratings and user-ratings are not supported (docs are not correct)
     use \MusicBrainz\Supplement\Field\AliasesTrait;

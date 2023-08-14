@@ -9,7 +9,7 @@ trait LabelRelationsTrait
      *
      * @var bool
      */
-    private bool $labelRelations = false;
+    protected bool $labelRelations = false;
 
     /**
      * Returns true, if label relations should be included, otherwise false.

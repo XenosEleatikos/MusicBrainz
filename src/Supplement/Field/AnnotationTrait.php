@@ -9,7 +9,7 @@ trait AnnotationTrait
      *
      * @var bool
      */
-    private bool $annotation = false;
+    protected bool $annotation = false;
 
     /**
      * Returns true, if annotation should be included, otherwise false.

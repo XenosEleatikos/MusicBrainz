@@ -9,7 +9,7 @@ trait WorkRelationsTrait
      *
      * @var bool
      */
-    private bool $workRelations = false;
+    protected bool $workRelations = false;
 
     /**
      * Returns true, if work relations should be included, otherwise false.

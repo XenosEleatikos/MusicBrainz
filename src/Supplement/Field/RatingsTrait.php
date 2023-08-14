@@ -9,7 +9,7 @@ trait RatingsTrait
      *
      * @var bool
      */
-    private bool $ratings = false;
+    protected bool $ratings = false;
 
     /**
      * Returns true, if ratings should be included, otherwise false.

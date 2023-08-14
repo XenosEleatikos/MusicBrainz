@@ -61,7 +61,7 @@ class SeriesTest extends ApiTestCase
             ->includeReleaseRelations()
             ->includeReleaseGroupRelations()
             ->includeSeriesRelations()
-            ->includeURLRelations()
+            ->includeUrlRelations()
             ->includeWorkRelations();
 
         /**

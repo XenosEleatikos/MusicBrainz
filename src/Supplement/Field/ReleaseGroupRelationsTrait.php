@@ -9,7 +9,7 @@ trait ReleaseGroupRelationsTrait
      *
      * @var bool
      */
-    private bool $releaseGroupRelations = false;
+    protected bool $releaseGroupRelations = false;
 
     /**
      * Returns true, if release group relations should be included, otherwise false.

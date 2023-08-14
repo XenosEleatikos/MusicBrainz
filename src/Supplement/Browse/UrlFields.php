@@ -2,7 +2,9 @@
 
 namespace MusicBrainz\Supplement\Browse;
 
-class UrlFields
+use MusicBrainz\Supplement\Fields;
+
+class UrlFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
     use \MusicBrainz\Supplement\Field\TagsTrait;
