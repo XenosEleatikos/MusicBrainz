@@ -63,13 +63,8 @@ class RelationFactory
 
         $class = RelationTarget::getClassMap()[(string) $relatedEntityType];
 
-        if (empty($relation[(string) $relatedEntityType])) {
-            /** @todo Implement fallback for undefined relation */
-            die;
-        }
-
         return new $class(
-            $relation[(string) $relatedEntityType],
+            $relation[(string) $relation['target-type']],
             $relationType,
             $direction
         );
