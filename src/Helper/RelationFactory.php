@@ -46,7 +46,6 @@ class RelationFactory
     {
         $relationTypeId = ArrayAccess::getString($relation, 'type-id');
 
-        /** @var Type $relationType */
         $relationType = self::getRelationType(new MBID($relationTypeId));
 
         if ($relationType instanceof NullType) {
@@ -64,8 +63,9 @@ class RelationFactory
         $class = RelationTarget::getClassMap()[(string) $relatedEntityType];
 
         if (empty($relation[(string) $relatedEntityType])) {
-            /** @todo Implement fallback for undefined relation */
-            die;
+            MusicBrainz::log()->alert('Cannot resolve relation. See: https://musicbrainz.org/relationship/' . $relationTypeId);
+
+            return null;
         }
 
         return new $class(
