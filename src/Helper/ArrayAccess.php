@@ -29,7 +29,7 @@ class ArrayAccess
         }
 
         MusicBrainz::log()
-            ->error('Unexpected API behavior: Expected "' . $key . '" to be of tpye array, but got ' . gettype($array[$key]));
+            ->error('Unexpected API behavior: Expected "' . $key . '" to be of type array, but got ' . gettype($array[$key]));
 
         return null;
     }
