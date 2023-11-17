@@ -108,6 +108,20 @@ class EntityType implements Value
     public const TRACK = 'track';
 
     /**
+     * As a special case, release also allows track_artist, which is intended to allow you
+     * to browse various artist appearances for an artist. It will return any release where
+     * the artist appears in the artist credit for a track, but NOT in the artist credit for
+     * the entire release (as those would already have been returned in a request with
+     * artist=<MBID>).
+     *
+     * @see self::ARTIST
+     * @see https://musicbrainz.org/doc/MusicBrainz_API#Linked_entities
+     *
+     * @var string
+     */
+    public const TRACK_ARTIST = 'track_artist';
+
+    /**
      * An URL
      *
      * @var string
@@ -148,6 +162,7 @@ class EntityType implements Value
         self::RELEASE_GROUP,
         self::SERIES,
         self::TRACK,
+        self::TRACK_ARTIST,
         self::URL,
         self::WORK
     ];
