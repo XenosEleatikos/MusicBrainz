@@ -4,7 +4,6 @@ namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\ReleaseRelationListTrait;
 use MusicBrainz\Value;
-use Symfony\Component\DependencyInjection\Loader\Configurator\Traits\PropertyTrait;
 
 /**
  * A release
@@ -20,7 +19,7 @@ class Release implements Value
     use Property\CountryTrait;
     use Property\DateTrait;
     use Property\DisambiguationTrait;
-    use Property\LabelTrait;
+    use Property\LabelInfosTrait;
     use Property\MBIDTrait;
     use Property\MediaTrait;
     use Property\PackagingTrait;
@@ -47,7 +46,7 @@ class Release implements Value
         $this->setCountryFromArray($release);
         $this->setDateFromArray($release);
         $this->setDisambiguationFromArray($release);
-        $this->setLabelFromArray($release);
+        $this->setLabelInfosFromArray($release);
         $this->setMbidFromArray($release);
         $this->setMediaFromArray($release);
         $this->setDataQualityFromArray($release);

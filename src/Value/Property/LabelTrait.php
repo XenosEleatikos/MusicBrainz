@@ -36,7 +36,7 @@ trait LabelTrait
      */
     private function setLabelFromArray(array $input): void
     {
-        $this->label = is_null($label = ArrayAccess::getArray($input, 'label'))
+        $this->label = is_null($label = ArrayAccess::getArray($input, 'label-info'))
             ? new Label()
             : new Label($label);
     }

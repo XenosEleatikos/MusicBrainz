@@ -6,6 +6,11 @@ use MusicBrainz\Value;
 
 /**
  * A catalog number
+ * This is a number assigned to the release by the label which can often be found on the spine or near the barcode.
+ * There may be more than one, especially when multiple labels are involved. This is not the ASIN — there is a
+ * relationship for that — nor the label code.
+ *
+ * @see https://musicbrainz.org/doc/Release#Catalogue_number
  */
 class CatalogNumber implements Value
 {
@@ -14,16 +19,16 @@ class CatalogNumber implements Value
      *
      * @var string
      */
-    private $code;
+    private $catalogNumber;
 
     /**
      * Constructs a catalog number.
      *
-     * @param string $code A catalog number
+     * @param string $catalogNumber A catalog number
      */
-    public function __construct(string $code = '')
+    public function __construct(string $catalogNumber = '')
     {
-        $this->code = $code;
+        $this->catalogNumber = $catalogNumber;
     }
 
     /**
@@ -33,6 +38,6 @@ class CatalogNumber implements Value
      */
     public function __toString(): string
     {
-        return $this->code;
+        return $this->catalogNumber;
     }
 }
