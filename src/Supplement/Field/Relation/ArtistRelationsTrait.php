@@ -1,6 +1,6 @@
 <?php
 
-namespace MusicBrainz\Supplement\Field;
+namespace MusicBrainz\Supplement\Field\Relation;
 
 trait ArtistRelationsTrait
 {

@@ -18,15 +18,15 @@ class ReleaseFields extends Fields
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
     use \MusicBrainz\Supplement\Field\AliasesTrait;
     // relations
-    use \MusicBrainz\Supplement\Field\AreaRelationsTrait;
-    use \MusicBrainz\Supplement\Field\ArtistRelationsTrait;
-    use \MusicBrainz\Supplement\Field\EventRelationsTrait;
-    use \MusicBrainz\Supplement\Field\LabelRelationsTrait;
-    use \MusicBrainz\Supplement\Field\RecordingRelationsTrait;
-    use \MusicBrainz\Supplement\Field\ReleaseRelationsTrait;
-    use \MusicBrainz\Supplement\Field\SeriesRelationsTrait;
-    use \MusicBrainz\Supplement\Field\UrlRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\EventRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\LabelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\RecordingRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ReleaseRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\SeriesRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\UrlRelationsTrait;
 
-    use \MusicBrainz\Supplement\Field\RecordingLevelRelationsTrait;
-    use \MusicBrainz\Supplement\Field\WorkLevelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\RecordingLevelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\WorkLevelRelationsTrait;
 }

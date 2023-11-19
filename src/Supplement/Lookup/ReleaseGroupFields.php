@@ -17,10 +17,10 @@ class ReleaseGroupFields extends Fields
     use \MusicBrainz\Supplement\Field\RatingsTrait;
     use \MusicBrainz\Supplement\Field\UserRatingsTrait;
     // relations
-    use \MusicBrainz\Supplement\Field\ArtistRelationsTrait;
-    use \MusicBrainz\Supplement\Field\EventRelationsTrait;
-    use \MusicBrainz\Supplement\Field\LabelRelationsTrait;
-    use \MusicBrainz\Supplement\Field\ReleaseGroupRelationsTrait;
-    use \MusicBrainz\Supplement\Field\SeriesRelationsTrait;
-    use \MusicBrainz\Supplement\Field\UrlRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\EventRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\LabelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ReleaseGroupRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\SeriesRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\UrlRelationsTrait;
 }

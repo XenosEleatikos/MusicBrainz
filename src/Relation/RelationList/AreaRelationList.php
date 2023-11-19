@@ -14,6 +14,7 @@ class AreaRelationList
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToInstrumentTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToRecordingTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToReleaseTrait;
+    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToSeriesTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToUrlTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToWorkTrait;
 
@@ -31,6 +32,7 @@ class AreaRelationList
         $this->setInstrumentRelationsFromArray($relationList);
         $this->setRecordingRelationsFromArray($relationList);
         $this->setReleaseRelationsFromArray($relationList);
+        $this->setSeriesRelationsFromArray($relationList);
         $this->setUrlRelationsFromArray($relationList);
         $this->setWorkRelationsFromArray($relationList);
     }
