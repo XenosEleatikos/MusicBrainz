@@ -9,7 +9,6 @@ use MusicBrainz\Helper\RelationFactory;
  */
 class ArtistRelationList
 {
-    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToAreaTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToArtistTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToEventTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToInstrumentTrait;
@@ -31,7 +30,6 @@ class ArtistRelationList
     {
         $relationList = RelationFactory::makeRelations($relations);
 
-        $this->setAreaRelationsFromArray($relationList);
         $this->setArtistRelationsFromArray($relationList);
         $this->setEventRelationsFromArray($relationList);
         $this->setInstrumentRelationsFromArray($relationList);

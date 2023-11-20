@@ -10,7 +10,7 @@ use MusicBrainz\Relation\Type\Artist\Place;
  *
  * @link https://musicbrainz.org/relationship/666c5ee3-b763-4b74-8f71-3456dfd3e755
  */
-class EnginerrPosition extends Place
+class EngineerPosition extends Place
 {
     /**
      * Returns the name of the relation.

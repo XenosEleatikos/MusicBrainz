@@ -6,12 +6,11 @@ use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Place;
 
 /**
- * This relationship links an organist to the place(s) (most commonly religious buildings) at which they are the
- * resident organist.
+ * This indicates the artist was the owner of this place (often a studio, but sometimes also a venue).
  *
- * @link https://musicbrainz.org/relationship/cad0dbab-c711-442a-a91c-05359f0228ce
+ * @link https://musicbrainz.org/relationship/6f238bfb-0108-45ad-a1da-960c919a7066
  */
-class Organist extends Place
+class Owner extends Place
 {
     /**
      * Returns the name of the relation.
@@ -20,6 +19,6 @@ class Organist extends Place
      */
     public static function getRelationName(): Name
     {
-        return new Name('organist');
+        return new Name('owner');
     }
 }

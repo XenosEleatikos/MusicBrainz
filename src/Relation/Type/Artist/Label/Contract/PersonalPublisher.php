@@ -9,7 +9,7 @@ use MusicBrainz\Relation\Type\Artist\Label\Contract;
  * This indicates a personal publishing label for an artist. A personal publishing label is a small label (usually a
  * subdivision of a larger one) that exclusively handles the rights to works by that artist.
  *
- * @link https://musicbrainz.org/relationship/fe16f2bd-d324-435a-8076-bcf43b805bd9
+ * @link https://musicbrainz.org/relationship/8fecc8a7-0df7-4637-9152-f12a07f0e9cd
  */
 class PersonalPublisher extends Contract
 {

@@ -312,7 +312,6 @@ class ArtistTest extends ApiTestCase
         $relationList = self::$artist->getRelations();
 
         $this->assertInstanceOf(\MusicBrainz\Relation\RelationList\ArtistRelationList::class, $relationList);
-        $this->assertInstanceOf(RelationToAreaList::class, $relationList->getAreaRelations());
         $this->assertInstanceOf(RelationToArtistList::class, $relationList->getArtistRelations());
         $this->assertInstanceOf(RelationToEventList::class, $relationList->getEventRelations());
         $this->assertInstanceOf(RelationToInstrumentList::class, $relationList->getInstrumentRelations());
