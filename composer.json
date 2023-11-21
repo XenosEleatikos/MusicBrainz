@@ -21,7 +21,8 @@
     "require-dev": {
         "guzzlehttp/guzzle": "^7",
         "phpunit/phpunit": "10@dev",
-        "squizlabs/php_codesniffer": "*"
+        "squizlabs/php_codesniffer": "*",
+        "symfony/dom-crawler": "^6.3"
     },
     "suggest": {
         "guzzle/guzzle": "Allows you to use the GuzzleHttpAdapter.",
@@ -30,7 +31,8 @@
     "autoload": {
         "psr-4": {
             "MusicBrainz\\": "src",
-            "MusicBrainz\\Test\\": "tests"
+            "MusicBrainz\\Test\\": "tests/unit",
+            "MusicBrainz\\SpecificationTest\\": "tests/specification"
         }
     }
 }
