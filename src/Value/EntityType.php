@@ -164,7 +164,7 @@ class EntityType implements Value
         self::TRACK,
         self::TRACK_ARTIST,
         self::URL,
-        self::WORK
+        self::WORK,
     ];
 
     /**

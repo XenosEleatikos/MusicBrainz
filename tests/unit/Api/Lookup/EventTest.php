@@ -48,7 +48,7 @@ class EventTest extends ApiTestCase
             'event/9e94c410-54e6-4f32-981d-ae49642a3721',
             [
                 'fmt' => 'json',
-                'inc' => 'area-rels+artist-rels+event-rels+place-rels+recording-rels+release-group-rels+release-rels+series-rels+url-rels+work-rels'
+                'inc' => 'area-rels+artist-rels+event-rels+place-rels+recording-rels+release-group-rels+release-rels+series-rels+url-rels+work-rels',
             ],
             'Lookup/Event.json'
         );
@@ -56,7 +56,7 @@ class EventTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new EventFields)
+        $fields = (new EventFields())
             // Relations
             ->includeAreaRelations()
             ->includeArtistRelations()

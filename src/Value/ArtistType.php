@@ -73,7 +73,7 @@ class ArtistType implements Value
         self::CHOIR,
         self::CHARACTER,
         self::OTHER,
-        self::UNDEFINED
+        self::UNDEFINED,
         ];
 
     /**

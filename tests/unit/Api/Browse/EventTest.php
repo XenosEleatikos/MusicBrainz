@@ -43,16 +43,16 @@ class EventTest extends ApiTestCase
                 'limit'      => 25,
                 'offset'     => 0,
                 'artist'     => 'c3aeb863-7b26-4388-94e8-5a240f2be21b',
-                'inc'        => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags'
+                'inc'        => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags',
             ],
             'Browse/Event.json'
         );
 
         /** Performing the test */
-        $eventRelation = new EventRelation;
+        $eventRelation = new EventRelation();
         $eventRelation->artist(new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'));
 
-        $eventFields = (new EventFields)
+        $eventFields = (new EventFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeGenres()
@@ -62,7 +62,7 @@ class EventTest extends ApiTestCase
             ->includeUserRatings()
             ->includeUserTags();
 
-        self::$eventListPage = $this->musicBrainz->api()->browse()->event($eventRelation, $eventFields, new PageFilter);
+        self::$eventListPage = $this->musicBrainz->api()->browse()->event($eventRelation, $eventFields, new PageFilter());
     }
 
     /**

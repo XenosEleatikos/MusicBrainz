@@ -94,7 +94,7 @@ class Browse
             $areaRelation,
             $areaFields,
             $pageFilter,
-            (string)$areaRelation->getEntityType() === EntityType::COLLECTION
+            (string) $areaRelation->getEntityType() === EntityType::COLLECTION
         );
 
         return AreaListPage::make($result, 'area');
@@ -364,7 +364,7 @@ class Browse
             (string) $relation->getEntityType()  => (string) $relation->getEntityId(),
             'limit'                              => $pageFilter->getLimit(),
             'offset'                             => $pageFilter->getOffset(),
-            'fmt'                                => 'json'
+            'fmt'                                => 'json',
         ];
 
         if (!empty($includes)) {

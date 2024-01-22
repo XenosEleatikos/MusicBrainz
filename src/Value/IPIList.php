@@ -14,7 +14,7 @@ class IPIList extends ValueList
      *
      * @param array $ipiCodes An array of IPI code strings
      */
-    public function __construct(array $ipiCodes = array())
+    public function __construct(array $ipiCodes = [])
     {
         parent::__construct(
             array_map(

@@ -43,22 +43,22 @@ class PlaceTest extends ApiTestCase
                 'limit'  => 25,
                 'offset' => 0,
                 'area'   => '20619e36-fca8-4499-bcc8-be01a3ea3e41',
-                'inc'    => 'aliases+annotation+tags+user-tags'
+                'inc'    => 'aliases+annotation+tags+user-tags',
             ],
             'Browse/Place.json'
         );
 
         /** Performing the test */
-        $placeRelation = new PlaceRelation;
+        $placeRelation = new PlaceRelation();
         $placeRelation->area(new MBID('20619e36-fca8-4499-bcc8-be01a3ea3e41'));
 
-        $placeFields = (new PlaceFields)
+        $placeFields = (new PlaceFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeTags()
             ->includeUserTags();
 
-        self::$placeListPage = $this->musicBrainz->api()->browse()->place($placeRelation, $placeFields, new PageFilter);
+        self::$placeListPage = $this->musicBrainz->api()->browse()->place($placeRelation, $placeFields, new PageFilter());
     }
 
     /**

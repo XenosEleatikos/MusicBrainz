@@ -276,7 +276,7 @@ class Lookup
 
         $params = [
             'inc' => (string) $includes,
-            'fmt' => 'json'
+            'fmt' => 'json',
         ];
 
         if (!empty($includes)) {

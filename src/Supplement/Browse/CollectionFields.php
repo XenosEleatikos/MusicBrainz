@@ -4,6 +4,4 @@ namespace MusicBrainz\Supplement\Browse;
 
 use MusicBrainz\Supplement\Fields;
 
-class CollectionFields extends Fields
-{
-}
+class CollectionFields extends Fields {}

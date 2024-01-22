@@ -76,7 +76,7 @@ class ArtistTest extends ApiTestCase
             'artist/4aae17a7-9f0c-487b-b60e-f8eafb410b1d',
             [
                 'fmt' => 'json',
-                'inc' => 'aliases+annotation+discids+media+ratings+recordings+release-groups+releases+tags+user-ratings+user-tags+various-artists+works+area-rels+artist-rels+event-rels+instrument-rels+label-rels+place-rels+recording-rels+release-group-rels+release-rels+series-rels+url-rels+work-rels'
+                'inc' => 'aliases+annotation+discids+media+ratings+recordings+release-groups+releases+tags+user-ratings+user-tags+various-artists+works+area-rels+artist-rels+event-rels+instrument-rels+label-rels+place-rels+recording-rels+release-group-rels+release-rels+series-rels+url-rels+work-rels',
             ],
             'Lookup/Artist.json'
         );
@@ -84,7 +84,7 @@ class ArtistTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new ArtistFields)
+        $fields = (new ArtistFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeDiscIds()

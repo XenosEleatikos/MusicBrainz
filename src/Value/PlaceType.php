@@ -65,7 +65,7 @@ class PlaceType implements Value
         self::STADIUM,
         self::STUDIO,
         self::VENUE,
-        self::RELIGIOUS_BUILDING
+        self::RELIGIOUS_BUILDING,
     ];
 
     /**

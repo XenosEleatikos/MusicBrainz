@@ -37,7 +37,7 @@ class RelationTarget
             EntityType::RELEASE_GROUP => RelationToReleaseGroup::class,
             EntityType::SERIES        => RelationToSeries::class,
             EntityType::URL           => RelationToUrl::class,
-            EntityType::WORK          => RelationToWork::class
+            EntityType::WORK          => RelationToWork::class,
         ];
     }
 }

@@ -45,13 +45,13 @@ class AnnotationTest extends ApiTestCase
                 'limit'  => 5,
                 'offset' => 0,
                 'fmt'    => 'json',
-                'query'  => 'text:awesome'
+                'query'  => 'text:awesome',
             ],
             'Search/Annotation.json'
         );
 
         /** Performing the test */
-        $annotationFilter = new AnnotationFilter;
+        $annotationFilter = new AnnotationFilter();
         $annotationFilter->addAnnotationText(new AnnotationText('awesome'));
         $pageFilter = new PageFilter(0, 5);
 
@@ -64,9 +64,9 @@ class AnnotationTest extends ApiTestCase
 
         $this->assertInstanceOf(AnnotationListPage::class, $annotationList);
         $this->assertSame(5, count($annotationList));
-        $this->assertSame(68,$annotationList->getCount()->getNumber());
+        $this->assertSame(68, $annotationList->getCount()->getNumber());
         $this->assertSame(0, $annotationList->getOffset()->getNumber());
-        $this->assertSame('2017/07/09 11:49:48',(string) $annotationList->getCreationTime());
+        $this->assertSame('2017/07/09 11:49:48', (string) $annotationList->getCreationTime());
 
         $searchResult = $annotationList[0];
         $this->assertInstanceOf(SearchResult\Annotation::class, $searchResult);

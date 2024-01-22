@@ -20,7 +20,7 @@ trait ArrayAccessTrait
      */
     public function offsetGet($key): mixed
     {
-        return isset($this->elements[$key]) ? $this->elements[$key] : null;
+        return $this->elements[$key] ?? null;
     }
 
     /**

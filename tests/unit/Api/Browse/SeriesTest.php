@@ -43,22 +43,22 @@ class SeriesTest extends ApiTestCase
                 'limit'      => 25,
                 'offset'     => 0,
                 'collection' => 'a2a93eef-8545-4d84-b3f0-67e8054be5db',
-                'inc'        => 'aliases+annotation+tags+user-tags'
+                'inc'        => 'aliases+annotation+tags+user-tags',
             ],
             'Browse/Series.json'
         );
 
         /** Performing the test */
-        $seriesRelation = new SeriesRelation;
+        $seriesRelation = new SeriesRelation();
         $seriesRelation->collection(new MBID('a2a93eef-8545-4d84-b3f0-67e8054be5db'));
 
-        $seriesFields = (new SeriesFields)
+        $seriesFields = (new SeriesFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeTags()
             ->includeUserTags();
 
-        self::$seriesListPage = $this->musicBrainz->api()->browse()->series($seriesRelation, $seriesFields, new PageFilter);
+        self::$seriesListPage = $this->musicBrainz->api()->browse()->series($seriesRelation, $seriesFields, new PageFilter());
     }
 
     /**

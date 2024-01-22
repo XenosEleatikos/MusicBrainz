@@ -50,7 +50,7 @@ class UrlTest extends ApiTestCase
             'url/40c1c047-fa88-4f4a-bcc6-4e29a5c42679',
             [
                 'fmt' => 'json',
-                'inc' => 'area-rels+artist-rels+event-rels+instrument-rels+label-rels+place-rels+recording-rels+release-rels+release-group-rels+series-rels+work-rels'
+                'inc' => 'area-rels+artist-rels+event-rels+instrument-rels+label-rels+place-rels+recording-rels+release-rels+release-group-rels+series-rels+work-rels',
             ],
             'Lookup/Url.json'
         );
@@ -58,7 +58,7 @@ class UrlTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new UrlFields)
+        $fields = (new UrlFields())
             // Relations
             ->includeAreaRelations()
             ->includeArtistRelations()

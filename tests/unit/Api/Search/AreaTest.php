@@ -49,13 +49,13 @@ class AreaTest extends ApiTestCase
                 'limit'  => 5,
                 'offset' => 0,
                 'fmt'    => 'json',
-                'query' => 'area:Leipzig'
+                'query' => 'area:Leipzig',
             ],
             'Search/Area.json'
         );
 
         /** Performing the test */
-        $areaFilter = new AreaFilter;
+        $areaFilter = new AreaFilter();
         $areaFilter->addAreaName(new Name('Leipzig'));
         $pageFilter = new PageFilter(0, 5);
 

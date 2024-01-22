@@ -51,7 +51,7 @@ class DataQuality implements Value
     public const QUALITY_CODES = [
         self::LOW,
         self::NORMAL,
-        self::HIGH
+        self::HIGH,
     ];
 
     /**

@@ -143,7 +143,7 @@ class Packaging implements Value
         self::SNAP_CASE,
         self::GATEFOLD_COVER,
         self::DISCBOX_SLIDER,
-        self::NONE
+        self::NONE,
     ];
 
     /**

@@ -43,16 +43,16 @@ class WorkTest extends ApiTestCase
                 'limit'  => 25,
                 'offset' => 0,
                 'artist' => 'c3aeb863-7b26-4388-94e8-5a240f2be21b',
-                'inc'    => 'aliases+annotation+ratings+tags+user-ratings+user-tags'
+                'inc'    => 'aliases+annotation+ratings+tags+user-ratings+user-tags',
             ],
             'Browse/Work.json'
         );
 
         /** Performing the test */
-        $workRelation = new WorkRelation;
+        $workRelation = new WorkRelation();
         $workRelation->artist(new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'));
 
-        $workFields = (new WorkFields)
+        $workFields = (new WorkFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeRatings()
@@ -60,7 +60,7 @@ class WorkTest extends ApiTestCase
             ->includeTags()
             ->includeUserTags();
 
-        self::$workListPage = $this->musicBrainz->api()->browse()->work($workRelation, $workFields, new PageFilter);
+        self::$workListPage = $this->musicBrainz->api()->browse()->work($workRelation, $workFields, new PageFilter());
     }
 
     /**

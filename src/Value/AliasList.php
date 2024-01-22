@@ -3,6 +3,7 @@
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value\Property\List\CommaSeperatedListTrait;
+
 use function Clue\StreamFilter\fun;
 
 /**

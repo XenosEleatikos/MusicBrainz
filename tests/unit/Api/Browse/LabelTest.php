@@ -43,16 +43,16 @@ class LabelTest extends ApiTestCase
                 'limit'  => 25,
                 'offset' => 0,
                 'area'   => '75e398a3-5f3f-4224-9cd8-0fe44715bc95',
-                'inc'    => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags'
+                'inc'    => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags',
             ],
             'Browse/Label.json'
         );
 
         /** Performing the test */
-        $labelRelation = new LabelRelation;
+        $labelRelation = new LabelRelation();
         $labelRelation->area(new MBID('75e398a3-5f3f-4224-9cd8-0fe44715bc95'));
 
-        $labelFields = (new LabelFields)
+        $labelFields = (new LabelFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeGenres()
@@ -62,7 +62,7 @@ class LabelTest extends ApiTestCase
             ->includeUserRatings()
             ->includeUserTags();
 
-        self::$labelListPage = $this->musicBrainz->api()->browse()->label($labelRelation, $labelFields, new PageFilter);
+        self::$labelListPage = $this->musicBrainz->api()->browse()->label($labelRelation, $labelFields, new PageFilter());
     }
 
     /**

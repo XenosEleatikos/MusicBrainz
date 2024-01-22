@@ -43,16 +43,16 @@ class ReleaseTest extends ApiTestCase
                 'limit'  => 25,
                 'offset' => 0,
                 'label'  => '47e718e1-7ee4-460c-b1cc-1192a841c6e5',
-                'inc'    => 'annotation+artist-credits+discids+isrcs+labels+media+recordings+release-groups'
+                'inc'    => 'annotation+artist-credits+discids+isrcs+labels+media+recordings+release-groups',
             ],
             'Browse/Release.json'
         );
 
         /** Performing the test */
-        $releaseRelation = new ReleaseRelation;
+        $releaseRelation = new ReleaseRelation();
         $releaseRelation->label(new MBID('47e718e1-7ee4-460c-b1cc-1192a841c6e5'));
 
-        $releaseFields = (new ReleaseFields)
+        $releaseFields = (new ReleaseFields())
             ->includeReleaseGroups()
             ->includeRecordings()
             ->includeMedia()
@@ -62,7 +62,7 @@ class ReleaseTest extends ApiTestCase
             ->includeIsrcs()
             ->includeLabels();
 
-        self::$releaseListPage = $this->musicBrainz->api()->browse()->release($releaseRelation, $releaseFields, new PageFilter);
+        self::$releaseListPage = $this->musicBrainz->api()->browse()->release($releaseRelation, $releaseFields, new PageFilter());
     }
 
     /**

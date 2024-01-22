@@ -67,16 +67,16 @@ class ReleaseTest extends ApiTestCase
                 'fmt'    => 'json',
                 'query'  => 'arid:172e1f1a-504d-4488-b053-6344ba63e6d0',
                 'limit'  => 25,
-                'offset' => 0
+                'offset' => 0,
             ],
             'Search/Release.json'
         );
 
         /** Performing the test */
-        $releaseFilter = new ReleaseFilter;
+        $releaseFilter = new ReleaseFilter();
         $releaseFilter->addArtistId(new MBID('172e1f1a-504d-4488-b053-6344ba63e6d0'));
 
-        self::$releaseList = $this->musicBrainz->api()->search()->release($releaseFilter, new PageFilter);
+        self::$releaseList = $this->musicBrainz->api()->search()->release($releaseFilter, new PageFilter());
     }
 
     public function testPage(): void

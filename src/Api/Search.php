@@ -282,7 +282,7 @@ class Search
             'limit'  => $pageFilter->getLimit(),
             'offset' => $pageFilter->getOffset(),
             'fmt'    => 'json',
-            'query'  => (string) $searchFilter
+            'query'  => (string) $searchFilter,
         ];
     }
 }

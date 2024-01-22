@@ -45,11 +45,11 @@ class ReleaseGroupTest extends ApiTestCase
             'release-group/e8f70201-8899-3f0c-9e07-5d6495bc8046',
             [
                 'fmt' => 'json',
-                'inc' => 'aliases+artists+releases+discids+media+artist-credits+tags+user-tags+ratings+user-ratings+artist-rels+event-rels+label-rels+release-group-rels+series-rels+url-rels'
+                'inc' => 'aliases+artists+releases+discids+media+artist-credits+tags+user-tags+ratings+user-ratings+artist-rels+event-rels+label-rels+release-group-rels+series-rels+url-rels',
             ],
             'Lookup/ReleaseGroup.json'
         );
-        $fields = (new ReleaseGroupFields)
+        $fields = (new ReleaseGroupFields())
             ->includeAliases()
             ->includeArtists()
             ->includeReleases()

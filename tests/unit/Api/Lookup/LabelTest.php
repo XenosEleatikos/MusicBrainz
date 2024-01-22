@@ -47,7 +47,7 @@ class LabelTest extends ApiTestCase
             'label/19d052fa-570a-4b17-9a3d-8f2f029b7b57',
             [
                 'fmt' => 'json',
-                'inc' => 'releases+discids+media+aliases+tags+user-tags+ratings+user-ratings+artist-rels+label-rels+recording-rels+release-rels+release-group-rels+url-rels+work-rels+annotation'
+                'inc' => 'releases+discids+media+aliases+tags+user-tags+ratings+user-ratings+artist-rels+label-rels+recording-rels+release-rels+release-group-rels+url-rels+work-rels+annotation',
             ],
             'Lookup/Event.json'
         );
@@ -55,7 +55,7 @@ class LabelTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new LabelFields)
+        $fields = (new LabelFields())
             ->includeAnnotation()
             ->includeDiscIds()
             ->includeMedia()

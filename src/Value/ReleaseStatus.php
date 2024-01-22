@@ -57,7 +57,7 @@ class ReleaseStatus implements Value
         self::OFFICIAL,
         self::PROMOTION,
         self::BOOTLEG,
-        self::PSEUDO_RELEASE
+        self::PSEUDO_RELEASE,
     ];
 
     /**

@@ -54,9 +54,9 @@ class GuzzleHttpAdapter extends AbstractHttpAdapter
         $requestOptions = [
             'headers' => [
                 'Accept'     => 'application/json',
-                'User-Agent' => $config->getUserAgent()
+                'User-Agent' => $config->getUserAgent(),
             ],
-            'query' => urldecode(http_build_query($params))
+            'query' => urldecode(http_build_query($params)),
         ];
 
         if ($isAuthRequired) {
@@ -67,7 +67,7 @@ class GuzzleHttpAdapter extends AbstractHttpAdapter
             $requestOptions['auth'] = [
                 $config->getUsername(),
                 $config->getPassword(),
-                'digest'
+                'digest',
             ];
         }
 

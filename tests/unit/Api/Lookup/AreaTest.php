@@ -52,7 +52,7 @@ class AreaTest extends ApiTestCase
             'area/20619e36-fca8-4499-bcc8-be01a3ea3e41',
             [
                 'fmt' => 'json',
-                'inc' => 'area-rels+event-rels+instrument-rels+recording-rels+release-rels+url-rels+work-rels'
+                'inc' => 'area-rels+event-rels+instrument-rels+recording-rels+release-rels+url-rels+work-rels',
             ],
             'Lookup/Area.json'
         );
@@ -60,7 +60,7 @@ class AreaTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new AreaFields)
+        $fields = (new AreaFields())
             ->includeAreaRelations()
             ->includeEventRelations()
             ->includeInstrumentRelations()

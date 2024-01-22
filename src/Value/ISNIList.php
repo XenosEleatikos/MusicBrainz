@@ -14,7 +14,7 @@ class ISNIList extends ValueList
      *
      * @param array $isniCodes An array of ISNI code strings
      */
-    public function __construct(array $isniCodes = array())
+    public function __construct(array $isniCodes = [])
     {
         parent::__construct(
             array_map(

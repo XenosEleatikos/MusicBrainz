@@ -41,13 +41,13 @@ class PlaceTest extends ApiTestCase
                 'fmt'    => 'json',
                 'query'  => 'Leipzig',
                 'limit'  => 100,
-                'offset' => 0
+                'offset' => 0,
             ],
             'Search/Place.json'
         );
 
         /** Performing the test */
-        $placeFilter = new PlaceFilter;
+        $placeFilter = new PlaceFilter();
         $placeFilter->add(Lucene::term('Leipzig'));
 
         self::$placeList = $this->musicBrainz->api()->search()->place($placeFilter, new PageFilter(0, 100));

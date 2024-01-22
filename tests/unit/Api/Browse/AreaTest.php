@@ -43,16 +43,16 @@ class AreaTest extends ApiTestCase
                 'limit'      => 25,
                 'offset'     => 0,
                 'collection' => 'dce472b5-dcea-4ad6-9c51-d16703aa0c82',
-                'inc'        => 'aliases+annotation+genres+tags+user-genres+user-tags'
+                'inc'        => 'aliases+annotation+genres+tags+user-genres+user-tags',
             ],
             'Browse/Area.json'
         );
 
         /** Performing the test */
-        $areaRelation = new AreaRelation;
+        $areaRelation = new AreaRelation();
         $areaRelation->collection(new MBID('dce472b5-dcea-4ad6-9c51-d16703aa0c82'));
 
-        $areaFields = (new AreaFields)
+        $areaFields = (new AreaFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeGenres()
@@ -60,7 +60,7 @@ class AreaTest extends ApiTestCase
             ->includeUserGenres()
             ->includeUserTags();
 
-        self::$areaListPage = $this->musicBrainz->api()->browse()->area($areaRelation, $areaFields, new PageFilter);
+        self::$areaListPage = $this->musicBrainz->api()->browse()->area($areaRelation, $areaFields, new PageFilter());
     }
 
     /**

@@ -1,4 +1,5 @@
 <?php
+
 namespace MusicBrainz\Test\Api;
 
 use MusicBrainz\HttpAdapter\AbstractHttpAdapter;

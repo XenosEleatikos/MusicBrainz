@@ -57,22 +57,22 @@ class InstrumentTest extends ApiTestCase
                 'limit'      => 25,
                 'offset'     => 0,
                 'collection' => '60db380a-ef1a-4cf7-9abd-6fa26f401558',
-                'inc'        => 'aliases+annotation+tags+user-tags'
+                'inc'        => 'aliases+annotation+tags+user-tags',
             ],
             'Browse/Instrument.json'
         );
 
         /** Performing the test */
-        $instrumentRelation = (new InstrumentRelation);
+        $instrumentRelation = (new InstrumentRelation());
         $instrumentRelation->collection(new MBID('60db380a-ef1a-4cf7-9abd-6fa26f401558'));
 
-        $instrumentFields = (new InstrumentFields)
+        $instrumentFields = (new InstrumentFields())
             ->includeAnnotation()
             ->includeAliases()
             ->includeUserTags()
             ->includeTags();
 
-        self::$instrumentListPage = $this->musicBrainz->api()->browse()->instrument($instrumentRelation, $instrumentFields, new PageFilter);
+        self::$instrumentListPage = $this->musicBrainz->api()->browse()->instrument($instrumentRelation, $instrumentFields, new PageFilter());
     }
 
     /**

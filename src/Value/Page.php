@@ -65,7 +65,7 @@ abstract class Page extends ValueList
             $result[(substr($collectionType, -1) === 's') ? $collectionType : $collectionType . 's'], // Pluralize
             array_key_exists('offset', $result) ? $result['offset'] : $result[$collectionType . '-offset'], // Browse responses have type prefix, search result don't
             array_key_exists('count', $result) ? $result['count'] : $result[$collectionType . '-count'], // Browse responses have type prefix, search result don't
-            array_key_exists('created', $result) ? $result['created'] : ''
+            array_key_exists('created', $result) ? $result['created'] : '',
         ];
     }
 }

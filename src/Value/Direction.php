@@ -30,7 +30,7 @@ class Direction implements Value
      */
     public const DIRECTION_CODES = [
         self::BACKWARD,
-        self::FORWARD
+        self::FORWARD,
     ];
 
     /**

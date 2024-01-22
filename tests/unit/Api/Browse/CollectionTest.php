@@ -45,16 +45,16 @@ class CollectionTest extends ApiTestCase
                 'fmt'    => 'json',
                 'limit'  => 25,
                 'offset' => 0,
-                'artist' => 'c3aeb863-7b26-4388-94e8-5a240f2be21b'
+                'artist' => 'c3aeb863-7b26-4388-94e8-5a240f2be21b',
             ],
             'Browse/Collection.json'
         );
 
         /** Performing the test */
-        $collectionRelation = new CollectionRelation;
+        $collectionRelation = new CollectionRelation();
         $collectionRelation->artist(new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'));
 
-        self::$collectionListPage = $this->musicBrainz->api()->browse()->collection($collectionRelation, new PageFilter);
+        self::$collectionListPage = $this->musicBrainz->api()->browse()->collection($collectionRelation, new PageFilter());
     }
 
     /**

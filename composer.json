@@ -22,7 +22,7 @@
         "guzzlehttp/guzzle": "^7",
         "phpunit/phpunit": "10@dev",
         "squizlabs/php_codesniffer": "*",
-        "symfony/dom-crawler": "^6.3"
+        "friendsofphp/php-cs-fixer": "^3.48"
     },
     "suggest": {
         "guzzle/guzzle": "Allows you to use the GuzzleHttpAdapter.",

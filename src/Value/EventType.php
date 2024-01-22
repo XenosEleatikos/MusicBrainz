@@ -70,7 +70,7 @@ class EventType implements Value
         self::CONVENTION,
         self::FESTIVAL,
         self::LAUNCH_EVENT,
-        self::MASTERCLASS
+        self::MASTERCLASS,
     ];
 
     /**

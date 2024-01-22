@@ -43,16 +43,16 @@ class ReleaseGroupTest extends ApiTestCase
                 'limit'  => 25,
                 'offset' => 0,
                 'artist' => 'c3aeb863-7b26-4388-94e8-5a240f2be21b',
-                'inc'    => 'annotation+artist-credits+tags+user-ratings+user-tags'
+                'inc'    => 'annotation+artist-credits+tags+user-ratings+user-tags',
             ],
             'Browse/ReleaseGroup.json'
         );
 
         /** Performing the test */
-        $releaseGroupRelation = new ReleaseGroupRelation;
+        $releaseGroupRelation = new ReleaseGroupRelation();
         $releaseGroupRelation->artist(new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'));
 
-        $releaseGroupFields = (new ReleaseGroupFields)
+        $releaseGroupFields = (new ReleaseGroupFields())
             ->includeAnnotation()
             ->includeArtistCredits()
             ->includeUserRatings()
@@ -60,7 +60,7 @@ class ReleaseGroupTest extends ApiTestCase
             ->includeUserRatings()
             ->includeUserTags();
 
-        self::$releaseGroupListPage = $this->musicBrainz->api()->browse()->releaseGroup($releaseGroupRelation, $releaseGroupFields, new PageFilter);
+        self::$releaseGroupListPage = $this->musicBrainz->api()->browse()->releaseGroup($releaseGroupRelation, $releaseGroupFields, new PageFilter());
     }
 
     /**

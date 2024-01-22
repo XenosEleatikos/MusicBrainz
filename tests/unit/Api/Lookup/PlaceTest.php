@@ -45,7 +45,7 @@ class PlaceTest extends ApiTestCase
             'place/4352063b-a833-421b-a420-e7fb295dece0',
             [
                 'fmt' => 'json',
-                'inc' => 'artist-rels+place-rels+recording-rels+release-rels+url-rels+work-rels'
+                'inc' => 'artist-rels+place-rels+recording-rels+release-rels+url-rels+work-rels',
             ],
             'Lookup/Place.json'
         );
@@ -53,7 +53,7 @@ class PlaceTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new PlaceFields)
+        $fields = (new PlaceFields())
             // Relations
             ->includeArtistRelations()
             ->includePlaceRelations()

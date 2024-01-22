@@ -46,7 +46,7 @@ class Gender implements Value
         self::MALE,
         self::FEMALE,
         self::OTHER,
-        self::UNDEFINED
+        self::UNDEFINED,
     ];
 
     /**

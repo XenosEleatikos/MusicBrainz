@@ -44,7 +44,7 @@ class InstrumentTest extends ApiTestCase
             'instrument/7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87',
             [
                 'fmt' => 'json',
-                    'inc' => 'area-rels+artist-rels+instrument-rels+label-rels+url-rels'
+                    'inc' => 'area-rels+artist-rels+instrument-rels+label-rels+url-rels',
             ],
             'Lookup/Instrument.json'
         );
@@ -52,7 +52,7 @@ class InstrumentTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new InstrumentFields)
+        $fields = (new InstrumentFields())
             ->includeAreaRelations()
             ->includeArtistRelations()
             ->includeInstrumentRelations()

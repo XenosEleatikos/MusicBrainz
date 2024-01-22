@@ -91,7 +91,7 @@ class SeriesType implements Value
         self::RELEASE_GROUP,
         self::RUN,
         self::TOUR,
-        self::WORK
+        self::WORK,
     ];
 
     /**

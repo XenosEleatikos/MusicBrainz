@@ -41,13 +41,13 @@ class CdStubTest extends ApiTestCase
                 'fmt'    => 'json',
                 'query'  => 'title:Doo',
                 'limit'  => 100,
-                'offset' => 0
+                'offset' => 0,
             ],
             'Search/CdStub.json'
         );
 
         /** Performing the test */
-        $cdStubFilter = new CdStubFilter;
+        $cdStubFilter = new CdStubFilter();
         $cdStubFilter->addTitleComment(new Title('Doo'));
 
         self::$cdStubList = $this->musicBrainz->api()->search()->cdStub($cdStubFilter, new PageFilter(0, 100));

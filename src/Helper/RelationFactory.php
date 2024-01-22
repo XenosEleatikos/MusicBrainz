@@ -29,7 +29,7 @@ class RelationFactory
             if (is_null($relation)) {
                 continue;
             }
-            $relationList[(string)$relation::getRelatedEntityType()][] = $relation;
+            $relationList[(string) $relation::getRelatedEntityType()][] = $relation;
         }
 
         return $relationList ?? [];

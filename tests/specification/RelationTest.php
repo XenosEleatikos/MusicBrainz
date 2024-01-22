@@ -9,6 +9,7 @@ use MusicBrainz\Definition\RelationTypeId;
 use PHPUnit\Framework\TestCase;
 use SplFileInfo;
 use Symfony\Component\DomCrawler\Crawler;
+
 use function array_keys;
 use function array_map;
 use function explode;

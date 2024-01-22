@@ -47,16 +47,16 @@ class ArtistTest extends ApiTestCase
                 'fmt'    => 'json',
                 'query'  => 'artist:Waite',
                 'limit'  => 25,
-                'offset' => 0
+                'offset' => 0,
             ],
             'Search/Artist.json'
         );
 
         /** Performing the test */
-        $artistFilter = new ArtistFilter;
+        $artistFilter = new ArtistFilter();
         $artistFilter->addArtistNameWithoutAccents(new Name('Waite'));
 
-        self::$artistList = $this->musicBrainz->api()->search()->artist($artistFilter, new PageFilter);
+        self::$artistList = $this->musicBrainz->api()->search()->artist($artistFilter, new PageFilter());
     }
 
     public function testPage(): void

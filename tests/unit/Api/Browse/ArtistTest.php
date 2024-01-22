@@ -45,16 +45,16 @@ class ArtistTest extends ApiTestCase
                 'limit'   => 25,
                 'offset'  => 0,
                 'area'    => '75e398a3-5f3f-4224-9cd8-0fe44715bc95',
-                'inc'     => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags'
+                'inc'     => 'aliases+annotation+genres+ratings+tags+user-genres+user-ratings+user-tags',
             ],
             'Browse/Artist.json'
         );
 
         /** Performing the test */
-        $artistRelation = new ArtistRelation;
+        $artistRelation = new ArtistRelation();
         $artistRelation->area(new MBID('75e398a3-5f3f-4224-9cd8-0fe44715bc95'));
 
-        $artistFields = (new ArtistFields)
+        $artistFields = (new ArtistFields())
             ->includeAliases()
             ->includeAnnotation()
             ->includeGenres()
@@ -64,7 +64,7 @@ class ArtistTest extends ApiTestCase
             ->includeUserRatings()
             ->includeUserTags();
 
-        self::$artistListPage = $this->musicBrainz->api()->browse()->artist($artistRelation, $artistFields, new PageFilter);
+        self::$artistListPage = $this->musicBrainz->api()->browse()->artist($artistRelation, $artistFields, new PageFilter());
     }
 
     /**

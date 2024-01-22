@@ -49,7 +49,7 @@ class RecordingTest extends ApiTestCase
             'recording/61309059-1758-40d6-bf1b-52dedbd7b62b',
             [
                 'fmt' => 'json',
-                'inc' => 'area-rels+artist-rels+event-rels+label-rels+place-rels+recording-rels+release-rels+series-rels+url-rels+work-rels'
+                'inc' => 'area-rels+artist-rels+event-rels+label-rels+place-rels+recording-rels+release-rels+series-rels+url-rels+work-rels',
             ],
             'Lookup/Recording.json'
         );
@@ -57,7 +57,7 @@ class RecordingTest extends ApiTestCase
         /**
          * Performing the test
          */
-        $fields = (new RecordingFields)
+        $fields = (new RecordingFields())
             // Relations
             ->includeAreaRelations()
             ->includeArtistRelations()

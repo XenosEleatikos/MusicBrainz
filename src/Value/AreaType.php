@@ -90,7 +90,7 @@ class AreaType implements Value
         self::COUNTY,
         self::MUNICIPALITY,
         self::CITY,
-        self::DISTRICT
+        self::DISTRICT,
     ];
 
     /**

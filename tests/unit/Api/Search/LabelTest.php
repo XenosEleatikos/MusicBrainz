@@ -41,13 +41,13 @@ class LabelTest extends ApiTestCase
                 'fmt'    => 'json',
                 'query'  => 'label:"Devil\'s Records"',
                 'limit'  => 100,
-                'offset' => 0
+                'offset' => 0,
             ],
             'Search/Label.json'
         );
 
         /** Performing the test */
-        $labelFilter = new LabelFilter;
+        $labelFilter = new LabelFilter();
         $labelFilter->addLabelNameWithAccents(new Name('Devil\'s Records'));
 
         self::$labelList = $this->musicBrainz->api()->search()->label($labelFilter, new PageFilter(0, 100));

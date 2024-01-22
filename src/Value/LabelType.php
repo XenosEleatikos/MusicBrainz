@@ -86,7 +86,7 @@ class LabelType implements Value
         self::DISTRIBUTOR,
         self::HOLDING,
         self::RIGTHS_SOCIETY,
-        self::UNDEFINED
+        self::UNDEFINED,
         ];
 
     /**

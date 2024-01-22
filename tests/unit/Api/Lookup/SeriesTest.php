@@ -48,11 +48,11 @@ class SeriesTest extends ApiTestCase
             'series/1df4b695-967a-4294-8bb2-856a22f0c726',
             [
                 'fmt' => 'json',
-                'inc' => 'artist-rels+event-rels+label-rels+recording-rels+release-rels+release-group-rels+series-rels+url-rels+work-rels'
+                'inc' => 'artist-rels+event-rels+label-rels+recording-rels+release-rels+release-group-rels+series-rels+url-rels+work-rels',
             ],
             'Lookup/Series.json'
         );
-        $fields = (new SeriesFields)
+        $fields = (new SeriesFields())
             // Relations
             ->includeArtistRelations()
             ->includeEventRelations()

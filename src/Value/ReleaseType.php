@@ -109,7 +109,7 @@ class ReleaseType implements Value
         self::REMIX,
         self::SINGLE,
         self::SOUNDTRACK,
-        self::SPOKENWORD
+        self::SPOKENWORD,
     ];
 
     /**
