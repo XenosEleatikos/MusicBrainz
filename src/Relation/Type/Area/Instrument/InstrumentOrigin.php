@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Area\Instrument;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Instrument;
+use MusicBrainz\Value\Name;
 
 /**
  * This relationship type links instruments to the areas they originate from.

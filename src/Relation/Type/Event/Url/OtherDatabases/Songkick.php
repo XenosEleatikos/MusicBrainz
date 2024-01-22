@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This relationship type links an event to its corresponding page at Songkick.
  *
- * @see  https://www.songkick.com
  * @link https://musicbrainz.org/relationship/125afc57-4d33-3b63-ab41-848a3a18d3a6
  */
 class Songkick extends OtherDatabases

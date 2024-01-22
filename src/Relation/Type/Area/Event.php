@@ -3,14 +3,13 @@
 namespace MusicBrainz\Relation\Type\Area;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Type\Area;
 
 /**
- * A relation an event to an event
+ * A relation of an area to an event
  *
  * @link https://musicbrainz.org/relationships/area-event
  */
-abstract class Event extends Area
+abstract class Event extends \MusicBrainz\Relation\Type\Area
 {
     /**
      * Returns the entity type of the related entity.

@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Label;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a recording and another recording
+ * A relation of a label to a recording
  *
  * @link https://musicbrainz.org/relationships/label-recording
  */

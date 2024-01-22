@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Place;
+use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is only used for grouping other relationship types.

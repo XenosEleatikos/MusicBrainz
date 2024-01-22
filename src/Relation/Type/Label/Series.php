@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Label;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a label and a series
+ * A relation of a label to a series
  *
  * @link https://musicbrainz.org/relationships/label-series
  */

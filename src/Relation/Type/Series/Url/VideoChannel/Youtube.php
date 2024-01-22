@@ -2,17 +2,15 @@
 
 namespace MusicBrainz\Relation\Type\Series\Url\VideoChannel;
 
-use MusicBrainz\Relation\Type\Series\Url\SocialNetwork;
+use MusicBrainz\Relation\Type\Series\Url\VideoChannel;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type can be used to link a series to the equivalent entry in YouTube. URLs should follow the
- * format: http://www.youtube.com/user/<username>.
+ * This relationship type can be used to link a series to the equivalent entry in YouTube. URLs should follow the format http://www.youtube.com/user/<username>.
  *
- * @see  https://www.youtube.com/
- * @link https://musicbrainz.org/relationship/4789521b-57b9-4689-9644-46de63190f66
+ * @link https://musicbrainz.org/relationship/f23802a4-36be-3751-8e4d-93422e08b3e8
  */
-class Youtube extends SocialNetwork
+class Youtube extends VideoChannel
 {
     /**
      * Returns the name of the relation.

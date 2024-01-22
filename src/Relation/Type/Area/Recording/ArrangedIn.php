@@ -2,12 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Area\Recording;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Recording;
+use MusicBrainz\Value\Name;
 
 /**
- * An "is arranging area for" relation
- * Links a recording to the area it was arranged in. Only used when the place is unknown.
+ * Links a recording to the area it was arranged in. Use only when the place is unknown!
  *
  * @link https://musicbrainz.org/relationship/4f4aa317-c3c4-4001-ac23-fb8cf0bc543c
  */

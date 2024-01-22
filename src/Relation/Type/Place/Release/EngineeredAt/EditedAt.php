@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Place\Release\EngineeredAt;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Place\Release\EngineeredAt;
+use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the place it was edited at.

@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/0c1ff137-fca5-4148-82b7-8bce3c69165a
  */
-abstract class BusinessAssociation extends Label
+class BusinessAssociation extends Label
 {
     /**
      * Returns the name of the relation.

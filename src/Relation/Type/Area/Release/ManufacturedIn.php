@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Area\Release;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Release;
+use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the area it was manufactured ("made") in.

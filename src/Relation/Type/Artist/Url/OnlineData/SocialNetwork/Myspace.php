@@ -2,16 +2,15 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Url\OnlineData\SocialNetwork;
 
-use MusicBrainz\Relation\Type\Artist\Url\OnlineData\SocalNetwork;
+use MusicBrainz\Relation\Type\Artist\Url\OnlineData\SocialNetwork;
 use MusicBrainz\Value\Name;
 
 /**
  * This relationship type links an artist to their Myspace page.
  *
- * @see  https://myspace.com
  * @link https://musicbrainz.org/relationship/bac47923-ecde-4b59-822e-d08f0cd10156
  */
-class Myspace extends SocalNetwork
+class Myspace extends SocialNetwork
 {
     /**
      * Returns the name of the relation.

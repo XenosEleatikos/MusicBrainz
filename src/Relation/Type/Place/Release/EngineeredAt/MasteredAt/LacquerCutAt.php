@@ -19,6 +19,6 @@ class LacquerCutAt extends MasteredAt
      */
     public static function getRelationName(): Name
     {
-        return new Name('mastered at');
+        return new Name('lacquer cut at');
     }
 }

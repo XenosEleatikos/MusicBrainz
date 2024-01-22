@@ -2,12 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Event;
+use MusicBrainz\Value\Name;
 
 /**
- * An "is support act at" relation
- * Links an event to (one of) its support act(s).
+ * Links an event to (one of) its support act(s) (also known as opening acts or warm-up acts).
  *
  * @link https://musicbrainz.org/relationship/492a850e-97eb-306a-a85e-4b6d98527796
  */

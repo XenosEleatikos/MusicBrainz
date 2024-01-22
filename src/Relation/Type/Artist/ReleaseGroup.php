@@ -3,14 +3,13 @@
 namespace MusicBrainz\Relation\Type\Artist;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Type\Artist;
 
 /**
- * A relation between an artist and a release group
+ * A relation of an artist to a release group
  *
  * @link https://musicbrainz.org/relationships/artist-release_group
  */
-abstract class ReleaseGroup extends Artist
+abstract class ReleaseGroup extends \MusicBrainz\Relation\Type\Artist
 {
     /**
      * Returns the entity type of the related entity.

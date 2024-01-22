@@ -2,12 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Area\Recording\EngineeredIn;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Recording\EngineeredIn;
+use MusicBrainz\Value\Name;
 
 /**
- * An "is mixing area for" relation
- * Links a recording to the area it was mixed in. Only used when the place is unknown.
+ * Links a recording to the area it was mixed in. Use only when the place is unknown!
  *
  * @link https://musicbrainz.org/relationship/eef56d04-852a-4ce6-bfc9-678c19392a16
  */

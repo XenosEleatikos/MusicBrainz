@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/89fe4da2-ced3-4fd0-8739-fd22d823acdb
  */
-abstract class Discography extends Url
+class Discography extends Url
 {
     /**
      * Returns the name of the relation.

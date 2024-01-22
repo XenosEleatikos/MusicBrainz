@@ -2,13 +2,12 @@
 
 namespace MusicBrainz\Relation\Type\Area\Url;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Url;
+use MusicBrainz\Value\Name;
 
 /**
- * This links an area to the equivalent entry in another database. Please respect the whitelist.
+ * This links an entity to the equivalent entry in another database. Please respect the whitelist.
  *
- * @see  https://musicbrainz.org/doc/Other_Databases_Relationship_Type/Whitelist
  * @link https://musicbrainz.org/relationship/b879051b-10e6-43b4-a49a-efdecc695f02
  */
 class OtherDatabases extends Url

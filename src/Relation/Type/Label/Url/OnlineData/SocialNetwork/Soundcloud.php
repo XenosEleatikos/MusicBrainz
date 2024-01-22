@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This links a label to its profile at SoundCloud.
  *
- * @see  https://soundcloud.com
  * @link https://musicbrainz.org/relationship/a31d05ba-3b82-47b2-ab8b-1fe73b5459e2
  */
 class Soundcloud extends SocialNetwork

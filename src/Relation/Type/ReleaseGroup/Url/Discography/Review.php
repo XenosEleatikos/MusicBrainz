@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\ReleaseGroup\Url\Discography;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates a webpage that reviews the release (group) in question.
+ * Indicates a page that reviews the release (group) in question, whether it be in text, audio or video form.
  *
  * @link https://musicbrainz.org/relationship/c3ac9c3b-f546-4d15-873f-b294d2c1b708
  */

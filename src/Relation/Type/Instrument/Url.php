@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Instrument;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an instrument and an URL
+ * A relation of an instrument to an url
  *
  * @link https://musicbrainz.org/relationships/instrument-url
  */

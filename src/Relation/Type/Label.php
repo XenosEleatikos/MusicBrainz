@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type;
 
-use MusicBrainz\Value\EntityType;
 use MusicBrainz\Relation\Type;
+use MusicBrainz\Value\EntityType;
 
 /**
- * A relation of an label
+ * A relation of a label
  */
 abstract class Label extends Type
 {

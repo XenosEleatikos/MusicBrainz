@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * Points to the Wikipedia page for this artist.
  *
- * @see  https://www.wikipedia.org
  * @link https://musicbrainz.org/relationship/29651736-fa6d-48e4-aadc-a557c6add1cb
  */
 class Wikipedia extends OtherDatabases

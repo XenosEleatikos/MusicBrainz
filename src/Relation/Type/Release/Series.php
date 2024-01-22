@@ -5,11 +5,11 @@ namespace MusicBrainz\Relation\Type\Release;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a series and a series
+ * A relation of a release to a series
  *
- * @link https://musicbrainz.org/relationships/series-series
+ * @link https://musicbrainz.org/relationships/release-series
  */
-abstract class Series extends \MusicBrainz\Relation\Type\Recording
+abstract class Series extends \MusicBrainz\Relation\Type\Release
 {
     /**
      * Returns the entity type of the related entity.

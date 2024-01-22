@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/e13a6749-086a-4c52-a03f-fce7532113ba
  */
-abstract class OnlineData extends Url
+class OnlineData extends Url
 {
     /**
      * Returns the name of the relation.

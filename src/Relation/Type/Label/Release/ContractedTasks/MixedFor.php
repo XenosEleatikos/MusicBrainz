@@ -6,8 +6,7 @@ use MusicBrainz\Relation\Type\Label\Release\ContractedTasks;
 use MusicBrainz\Value\Name;
 
 /**
- * A "was mixed for" relation
- * Use this relationship for credits like "Release was mixed by X for Label".
+ * Use this relationship for credits like "Release was mixed by X for Label"
  *
  * @link https://musicbrainz.org/relationship/17976e73-51a2-4174-9004-3baaba6b78c6
  */

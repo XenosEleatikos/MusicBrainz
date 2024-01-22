@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Artist;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an artist and another artist
+ * A relation of an artist to an artist
  *
  * @link https://musicbrainz.org/relationships/artist-artist
  */

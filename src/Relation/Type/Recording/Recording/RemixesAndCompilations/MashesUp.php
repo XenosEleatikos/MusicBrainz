@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This is used to indicate that the recording is a mash-up of two (or more) other recordings.
  *
- * @see  https://musicbrainz.org/doc/Mix_Terminology#mash-up
  * @link https://musicbrainz.org/relationship/579d0b4c-bf77-479d-aa59-a8af1f518958
  */
 class MashesUp extends RemixesAndCompilations

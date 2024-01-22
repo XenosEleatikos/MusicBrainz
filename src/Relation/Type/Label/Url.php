@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Label;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a label and an URL
+ * A relation of a label to an url
  *
  * @link https://musicbrainz.org/relationships/label-url
  */

@@ -2,7 +2,7 @@
 
 namespace MusicBrainz\Relation\Type\Label\Url\OnlineData;
 
-use MusicBrainz\Relation\Type\Artist\Url\OnlineData;
+use MusicBrainz\Relation\Type\Label\Url\OnlineData;
 use MusicBrainz\Value\Name;
 
 /**

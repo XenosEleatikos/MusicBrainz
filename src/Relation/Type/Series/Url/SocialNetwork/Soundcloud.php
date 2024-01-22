@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This links a series (most commonly, but not necessarily always, a music festival) to its official page at SoundCloud.
  *
- * @see  https://soundcloud.com/
  * @link https://musicbrainz.org/relationship/4789521b-57b9-4689-9644-46de63190f66
  */
 class Soundcloud extends SocialNetwork

@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Event;
+use MusicBrainz\Value\Name;
 
 /**
  * Links an event to its host/MC. Event hosts usually do introductions to the show or each song.

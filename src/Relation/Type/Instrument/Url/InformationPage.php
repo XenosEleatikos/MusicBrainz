@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Instrument\Url;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Instrument\Url;
+use MusicBrainz\Value\Name;
 
 /**
- * Links an instrument with an information page..
+ * information page
  *
  * @link https://musicbrainz.org/relationship/0e62afec-12f3-3d0f-b122-956207839854
  */

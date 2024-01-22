@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/b367fae0-c4b0-48b9-a40c-f3ae4c02cffc
  */
-abstract class Production extends Recording
+class Production extends Recording
 {
     /**
      * Returns the name of the relation.

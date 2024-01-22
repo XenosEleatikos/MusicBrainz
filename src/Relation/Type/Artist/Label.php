@@ -3,14 +3,13 @@
 namespace MusicBrainz\Relation\Type\Artist;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Type\Artist;
 
 /**
- * A relation between an artist and a label
+ * A relation of an artist to a label
  *
  * @link https://musicbrainz.org/relationships/artist-label
  */
-abstract class Label extends Artist
+abstract class Label extends \MusicBrainz\Relation\Type\Artist
 {
     /**
      * Returns the entity type of the related entity.

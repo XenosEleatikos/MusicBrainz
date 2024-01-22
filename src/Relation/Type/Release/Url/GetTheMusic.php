@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/759935d6-c9c6-4362-8978-2f0d46d67deb
  */
-abstract class GetTheMusic extends Url
+class GetTheMusic extends Url
 {
     /**
      * Returns the name of the relation.

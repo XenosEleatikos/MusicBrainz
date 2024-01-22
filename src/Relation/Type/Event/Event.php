@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Event;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an event and another event
+ * A relation of an event to an event
  *
  * @link https://musicbrainz.org/relationships/event-event
  */

@@ -2,15 +2,14 @@
 
 namespace MusicBrainz\Relation\Type\Event;
 
-use MusicBrainz\Relation\Type\Event;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an event and a series
+ * A relation of an event to a series
  *
  * @link https://musicbrainz.org/relationships/event-series
  */
-abstract class Series extends Event
+abstract class Series extends \MusicBrainz\Relation\Type\Event
 {
     /**
      * Returns the entity type of the related entity.

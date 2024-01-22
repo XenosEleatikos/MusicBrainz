@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Instrument;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an instrument and another instrument
+ * A relation of an instrument to a label
  *
  * @link https://musicbrainz.org/relationships/instrument-label
  */

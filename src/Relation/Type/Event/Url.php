@@ -3,14 +3,13 @@
 namespace MusicBrainz\Relation\Type\Event;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Type\Event;
 
 /**
- * A relation between an event and an url
+ * A relation of an event to an url
  *
  * @link https://musicbrainz.org/relationships/event-url
  */
-abstract class Url extends Event
+abstract class Url extends \MusicBrainz\Relation\Type\Event
 {
     /**
      * Returns the entity type of the related entity.

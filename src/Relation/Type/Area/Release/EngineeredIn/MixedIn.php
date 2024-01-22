@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Area\Release\EngineeredIn;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Release\EngineeredIn;
+use MusicBrainz\Value\Name;
 
 /**
- * Links a release to the area it was mixed in. Only used when the place is unknown.
+ * Links a release to the area it was mixed in. Use only when the place is unknown!
  *
  * @link https://musicbrainz.org/relationship/653b7420-c418-4bdc-83a5-6b2f44a65915
  */

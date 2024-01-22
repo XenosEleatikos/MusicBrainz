@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\Event\Series;
 use MusicBrainz\Value\Name;
 
 /**
- * IIndicates that the event is part of a series.
+ * Indicates that the event is part of a series.
  *
  * @link https://musicbrainz.org/relationship/707d947d-9563-328a-9a7d-0c5b9c3a9791
  */

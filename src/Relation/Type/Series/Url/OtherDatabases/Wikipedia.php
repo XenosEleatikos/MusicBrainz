@@ -6,9 +6,8 @@ use MusicBrainz\Relation\Type\Series\Url\OtherDatabases;
 use MusicBrainz\Value\Name;
 
 /**
- *  Points to the Wikipedia page for this series.
+ * Points to the Wikipedia page for this series.
  *
- * @see  https://www.wikipedia.org
  * @link https://musicbrainz.org/relationship/b2b9407a-dd32-30f4-aa48-b2fd2077d1d2
  */
 class Wikipedia extends OtherDatabases

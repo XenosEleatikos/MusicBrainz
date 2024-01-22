@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Place;
+use MusicBrainz\Value\Name;
 
 /**
  * This is used to link an artist to its primary concert venue.

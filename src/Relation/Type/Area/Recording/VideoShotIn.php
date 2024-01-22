@@ -2,11 +2,10 @@
 
 namespace MusicBrainz\Relation\Type\Area\Recording;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Recording;
+use MusicBrainz\Value\Name;
 
 /**
- * A "video shot in" relation
  * This indicates the video was shot in this area.
  *
  * @link https://musicbrainz.org/relationship/d92ee325-0d37-4d1c-aea1-436f36e13565

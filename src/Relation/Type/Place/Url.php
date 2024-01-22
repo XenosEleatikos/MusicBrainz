@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Place;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a place and a url
+ * A relation of a place to an url
  *
  * @link https://musicbrainz.org/relationships/place-url
  */

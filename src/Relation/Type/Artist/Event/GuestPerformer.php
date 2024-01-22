@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Event;
+use MusicBrainz\Value\Name;
 
 /**
  * Links an event to a guest performer. Guest performers usually make short appearances during other artist's set.

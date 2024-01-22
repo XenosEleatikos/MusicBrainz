@@ -6,9 +6,7 @@ use MusicBrainz\Relation\Type\Artist\Recording;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates the artist who arranged a tune into a form suitable for performance. 'Arrangement' is used as a
- * catch-all term for all processes that turn a composition into a form that can be played by a specific type of
- * ensemble.
+ * This indicates the artist who arranged a tune into a form suitable for performance. “Arrangement” is used as a catch-all term for all processes that turn a composition into a form that can be played by a specific type of ensemble.
  *
  * @link https://musicbrainz.org/relationship/22661fb8-cdb7-4f67-8385-b2a8be6c9f0d
  */

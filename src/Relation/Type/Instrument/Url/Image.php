@@ -2,12 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Instrument\Url;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Instrument\Url;
+use MusicBrainz\Value\Name;
 
 /**
- * A "has a picture at" relation
- * Links an instrument with a picture.
+ * image
  *
  * @link https://musicbrainz.org/relationship/f64eacbd-1ea1-381e-9886-2cfb552b7d90
  */

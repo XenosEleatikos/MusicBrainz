@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * Points to the BookBrainz page for this release group.
  *
- * @see  https://bookbrainz.org
  * @link https://musicbrainz.org/relationship/27cfc95c-d368-45a9-ae0d-308c274c2017
  */
 class BookBrainz extends OtherDatabases

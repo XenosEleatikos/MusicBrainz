@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This is used to link the Discogs page for this release group.
  *
- * @see  https://www.discogs.com/
  * @link https://musicbrainz.org/relationship/99e550f3-5ab4-3110-b5b9-fe01d970b126
  */
 class Discogs extends OtherDatabases

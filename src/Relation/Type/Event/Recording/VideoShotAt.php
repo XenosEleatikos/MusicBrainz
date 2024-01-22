@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Event\Recording;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Event\Recording;
+use MusicBrainz\Value\Name;
 
 /**
  * This indicates the video was shot at/during this event.

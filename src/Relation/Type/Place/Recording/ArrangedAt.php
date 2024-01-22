@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Place\Recording;
 
+use MusicBrainz\Relation\Type\Place\Recording;
 use MusicBrainz\Value\Name;
-use MusicBrainz\Relation\Type\Label\Recording;
 
 /**
  * Links a recording to the place it was arranged at.

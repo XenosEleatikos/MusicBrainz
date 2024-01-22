@@ -6,11 +6,8 @@ use MusicBrainz\Relation\Type\Artist\Release\RemixesAndCompilations;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates the person who selected the tracks and the sequence for a compilation. If the tracks are pitched or
- * blended into each other, it is more appropriate to credit this person as a DJ-mixer.
+ * This indicates the person who selected the tracks and the sequence for a compilation. If the tracks are pitched or blended into each other, it is more appropriate to credit this person as a DJ-mixer.
  *
- * @see  MixDj
- * @see  https://musicbrainz.org/doc/Terminology#Mix_terminology
  * @link https://musicbrainz.org/relationship/2f81887a-8674-4d8b-bd48-8bfd4c6fa332
  */
 class Compiler extends RemixesAndCompilations

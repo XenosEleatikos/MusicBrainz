@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Place;
+use MusicBrainz\Value\Name;
 
 /**
  * Describes the fact a person was contracted by a place as an engineer.

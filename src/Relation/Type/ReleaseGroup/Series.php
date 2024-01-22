@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\ReleaseGroup;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a release group and a series
+ * A relation of a release group to a series
  *
  * @link https://musicbrainz.org/relationships/release_group-series
  */

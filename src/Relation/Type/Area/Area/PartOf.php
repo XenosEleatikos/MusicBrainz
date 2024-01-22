@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Area\Area;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Area;
+use MusicBrainz\Value\Name;
 
 /**
  * Designates that one area is contained by another.

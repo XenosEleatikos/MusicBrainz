@@ -5,11 +5,11 @@ namespace MusicBrainz\Relation\Type\Release;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a release and an url
+ * A relation of a release to an url
  *
  * @link https://musicbrainz.org/relationships/release-url
  */
-abstract class Url extends \MusicBrainz\Relation\Type\Recording
+abstract class Url extends \MusicBrainz\Relation\Type\Release
 {
     /**
      * Returns the entity type of the related entity.

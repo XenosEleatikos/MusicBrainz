@@ -3,14 +3,13 @@
 namespace MusicBrainz\Relation\Type\Event;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Type\Event;
 
 /**
- * A relation between an event and an work
+ * A relation of an event to a work
  *
  * @link https://musicbrainz.org/relationships/event-work
  */
-abstract class Work extends Event
+abstract class Work extends \MusicBrainz\Relation\Type\Event
 {
     /**
      * Returns the entity type of the related entity.

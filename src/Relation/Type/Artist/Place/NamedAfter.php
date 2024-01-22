@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Place;
+use MusicBrainz\Value\Name;
 
 /**
  * This indicates the artist that inspired this place’s name.

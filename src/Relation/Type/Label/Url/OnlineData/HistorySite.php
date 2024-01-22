@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\Label\Url\OnlineData;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is used to link a label to its blog.
+ * This links to a site describing relevant details about a label's history.
  *
  * @link https://musicbrainz.org/relationship/5261835c-0c23-4a63-94db-ad3a86bda846
  */

@@ -8,7 +8,7 @@ use MusicBrainz\Value\Name;
 /**
  * Links a release to the place it was engineered at.
  *
- * @link https://musicbrainz.org/relationship/3a24272b-3273-456a-9be8-421580513d4b
+ * @link https://musicbrainz.org/relationship/b35aae66-5578-41d1-b34b-1c9b1897ad49
  */
 class EngineeredAt extends Release
 {
@@ -19,6 +19,6 @@ class EngineeredAt extends Release
      */
     public static function getRelationName(): Name
     {
-        return new Name('engineered in');
+        return new Name('engineered at');
     }
 }

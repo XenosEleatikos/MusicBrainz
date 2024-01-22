@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type;
 
-use MusicBrainz\Value\EntityType;
 use MusicBrainz\Relation\Type;
+use MusicBrainz\Value\EntityType;
 
 /**
  * A relation of a place

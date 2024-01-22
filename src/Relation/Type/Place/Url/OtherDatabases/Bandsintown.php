@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This relationship type links a place to its corresponding page at Bandsintown.
  *
- * @see  https://bandsintown.com
  * @link https://musicbrainz.org/relationship/0e41b9de-20d8-4d1a-869d-7018e1045439
  */
 class Bandsintown extends OtherDatabases

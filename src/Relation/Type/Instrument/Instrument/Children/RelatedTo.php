@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\Instrument\Instrument\Children;
 use MusicBrainz\Value\Name;
 
 /**
- * Used when an instrument is related to another instrument.
+ * This indicates that two instruments are related in a way not covered by other, more specific relationships.
  *
  * @link https://musicbrainz.org/relationship/0fd327f5-8be4-3b9a-8852-2982c1a830ee
  */

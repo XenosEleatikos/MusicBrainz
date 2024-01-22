@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Area\Work;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Work;
+use MusicBrainz\Value\Name;
 
 /**
  * Indicates the area where the work had its first performance.

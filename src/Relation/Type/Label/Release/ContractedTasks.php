@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/19585b83-6783-4dff-9e4a-0ca56fe0ee8a
  */
-abstract class ContractedTasks extends Release
+class ContractedTasks extends Release
 {
     /**
      * Returns the name of the relation.

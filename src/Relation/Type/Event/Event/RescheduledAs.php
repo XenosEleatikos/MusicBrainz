@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Event\Event;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Event\Event;
+use MusicBrainz\Value\Name;
 
 /**
  * This links a postponed event to the later rescheduled event.

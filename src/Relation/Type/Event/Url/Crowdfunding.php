@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Event\Url;
 
-use MusicBrainz\Relation\Type\Area\Url;
+use MusicBrainz\Relation\Type\Event\Url;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates the official homepage for an event.
+ * This links an event to the relevant crowdfunding project at a crowdfunding site like Kickstarter or Indiegogo.
  *
  * @link https://musicbrainz.org/relationship/61187747-04d3-4d15-889a-0ceedaecf0aa
  */

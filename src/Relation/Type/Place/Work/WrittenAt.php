@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Place\Work;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Place\Work;
+use MusicBrainz\Value\Name;
 
 /**
  * This links a work with the place it was written at.

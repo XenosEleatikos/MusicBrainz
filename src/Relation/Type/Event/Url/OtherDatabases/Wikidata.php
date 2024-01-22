@@ -6,9 +6,8 @@ use MusicBrainz\Relation\Type\Event\Url\OtherDatabases;
 use MusicBrainz\Value\Name;
 
 /**
- * Points to the Wikidata page for this event, and will be used to fetch Wikipedia summaries and images.
+ * Points to the Wikidata page for this event, and will be used to fetch Wikipedia summaries.
  *
- * @see  https://www.wikidata.org
  * @link https://musicbrainz.org/relationship/b022d060-e6a8-340f-8c73-6b21b1d090b9
  */
 class Wikidata extends OtherDatabases

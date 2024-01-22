@@ -8,8 +8,7 @@ use MusicBrainz\Value\Name;
 /**
  * Points to the BookBrainz page for this label.
  *
- * @see  https://bookbrainz.org
- * @link https://musicbrainz.org/relationship/f82f9342-a08d-46b7-ab7a-d8b6330c805d
+ * @link https://musicbrainz.org/relationship/b7be2ca4-bdb7-4d87-9619-f2fa50120409
  */
 class BookBrainz extends OtherDatabases
 {

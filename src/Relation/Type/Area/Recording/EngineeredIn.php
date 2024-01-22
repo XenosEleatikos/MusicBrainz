@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Area\Recording;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Recording;
+use MusicBrainz\Value\Name;
 
 /**
- * Links a recording to the area it was engineered in. Only used when the place is unknown.
+ * Links a recording to the area it was engineered in. Use only when the place is unknown!
  *
  * @link https://musicbrainz.org/relationship/aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5
  */

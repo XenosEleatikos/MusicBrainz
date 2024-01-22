@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Series;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a series group and an URL
+ * A relation of a series to an url
  *
  * @link https://musicbrainz.org/relationships/series-url
  */

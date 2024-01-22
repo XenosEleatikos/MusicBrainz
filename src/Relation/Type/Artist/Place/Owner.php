@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Place;
+use MusicBrainz\Value\Name;
 
 /**
  * This indicates the artist was the owner of this place (often a studio, but sometimes also a venue).

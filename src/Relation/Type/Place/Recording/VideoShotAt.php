@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Place\Recording;
 
+use MusicBrainz\Relation\Type\Place\Recording;
 use MusicBrainz\Value\Name;
-use MusicBrainz\Relation\Type\Label\Recording;
 
 /**
  * This indicates the video was shot at this place.

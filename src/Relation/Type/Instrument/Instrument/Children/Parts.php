@@ -6,9 +6,9 @@ use MusicBrainz\Relation\Type\Instrument\Instrument\Children;
 use MusicBrainz\Value\Name;
 
 /**
- * Used when an instrument has another instrument as a part.
+ * This indicates that an instrument (often an ensemble or family) consists of two or more other instruments.
  *
- * @link https://musicbrainz.org/relationship/d5ee4568f-d8bd-321d-9426-0ff6819ae6b5
+ * @link https://musicbrainz.org/relationship/5ee4568f-d8bd-321d-9426-0ff6819ae6b5
  */
 class Parts extends Children
 {

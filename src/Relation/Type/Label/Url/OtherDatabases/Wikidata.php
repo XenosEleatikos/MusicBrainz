@@ -6,9 +6,8 @@ use MusicBrainz\Relation\Type\Label\Url\OtherDatabases;
 use MusicBrainz\Value\Name;
 
 /**
- * Points to the Wikidata page for this label, and will be used to fetch Wikipedia summaries and images.
+ * Points to the Wikidata page for this label, and will be used to fetch Wikipedia summaries.
  *
- * @see  https://www.wikidata.org
  * @link https://musicbrainz.org/relationship/75d87e83-d927-4580-ba63-44dc76256f98
  */
 class Wikidata extends OtherDatabases

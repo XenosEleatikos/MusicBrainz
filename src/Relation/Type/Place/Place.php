@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Place;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a place and another place
+ * A relation of a place to a place
  *
  * @link https://musicbrainz.org/relationships/place-place
  */

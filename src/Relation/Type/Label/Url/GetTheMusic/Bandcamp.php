@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This links a label to its page at Bandcamp.
  *
- * @see  https://bandcamp.com
  * @link https://musicbrainz.org/relationship/c535de4c-a112-4974-b138-5e0daa56eab5
  */
 class Bandcamp extends GetTheMusic

@@ -2,12 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Area\Release;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Area\Release;
+use MusicBrainz\Value\Name;
 
 /**
- * An "is engineering area for" relation
- * Links a release to the area it was engineered in. Only used when the place is unknown.
+ * Links a release to the area it was engineered in. Use only when the place is unknown!
  *
  * @link https://musicbrainz.org/relationship/3a24272b-3273-456a-9be8-421580513d4b
  */

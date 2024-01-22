@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/d23c710f-7657-41fe-a328-c588bcb52483
  */
-abstract class GetTheScore extends Work
+class GetTheScore extends Work
 {
     /**
      * Returns the name of the relation.

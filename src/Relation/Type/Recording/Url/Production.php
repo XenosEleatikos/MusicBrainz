@@ -8,9 +8,9 @@ use MusicBrainz\Value\Name;
 /**
  * This relationship type is only used for grouping other relationship types.
  *
- * @link https://musicbrainz.org/relationship/f25e301d-b87b-4561-86a0-5d2df6d26c0a
+ * @link https://musicbrainz.org/relationship/c0b9cc44-ea3b-4312-94f9-577c2605d305
  */
-abstract class Production extends Url
+class Production extends Url
 {
     /**
      * Returns the name of the relation.

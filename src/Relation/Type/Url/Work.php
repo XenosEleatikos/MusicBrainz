@@ -5,11 +5,11 @@ namespace MusicBrainz\Relation\Type\Url;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an URL and a work
+ * A relation of an url to a work
  *
- * @link https://musicbrainz.org/relationships/series-work
+ * @link https://musicbrainz.org/relationships/url-work
  */
-abstract class Work extends \MusicBrainz\Relation\Type\Series
+abstract class Work extends \MusicBrainz\Relation\Type\Url
 {
     /**
      * Returns the entity type of the related entity.

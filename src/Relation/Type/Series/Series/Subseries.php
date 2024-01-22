@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Series\Series;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Series\Series;
+use MusicBrainz\Value\Name;
 
 /**
  * Links a series to another series that exists within it.

@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Area;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation an area to another area
+ * A relation of an area to an area
  *
  * @link https://musicbrainz.org/relationships/area-area
  */

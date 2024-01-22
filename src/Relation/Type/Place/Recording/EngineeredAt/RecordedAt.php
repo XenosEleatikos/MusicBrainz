@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\Place\Recording\EngineeredAt;
 use MusicBrainz\Value\Name;
 
 /**
- * Links a recording to the place it was engineered at.
+ * Links a recording to the place it was recorded at.
  *
  * @link https://musicbrainz.org/relationship/ad462279-14b0-4180-9b58-571d0eef7c51
  */

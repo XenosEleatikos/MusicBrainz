@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This links an artist to the equivalent entry at YouTube.
  *
- * @see  https://www.youtube.com
  * @link https://musicbrainz.org/relationship/6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0
  */
 class Youtube extends VideoChannel

@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Event\Release;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Event\Release;
+use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the event it was recorded at.

@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type;
 
-use MusicBrainz\Value\EntityType;
 use MusicBrainz\Relation\Type;
+use MusicBrainz\Value\EntityType;
 
 /**
- * A relation of an recording
+ * A relation of a recording
  */
 abstract class Recording extends Type
 {

@@ -6,9 +6,9 @@ use MusicBrainz\Relation\Type\Instrument\Instrument\Children;
 use MusicBrainz\Value\Name;
 
 /**
- * Used when an instrument has a subtype.
+ * This links an instrument to more specific subtypes of it.
  *
- * @link https://musicbrainz.org/relationship/d40b2bd3f-1457-3ceb-810d-57f87f0f74f0
+ * @link https://musicbrainz.org/relationship/40b2bd3f-1457-3ceb-810d-57f87f0f74f0
  */
 class Subtype extends Children
 {

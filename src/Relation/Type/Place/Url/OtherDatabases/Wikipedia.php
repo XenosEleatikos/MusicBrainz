@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * Points to the Wikipedia page for this place.
  *
- * @see  https://www.wikipedia.org
  * @link https://musicbrainz.org/relationship/82680bbb-0391-4344-9687-4f419df4b97a
  */
 class Wikipedia extends OtherDatabases

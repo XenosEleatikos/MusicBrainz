@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Event;
+use MusicBrainz\Value\Name;
 
 /**
  * Links an event to (one of) its main performer(s).

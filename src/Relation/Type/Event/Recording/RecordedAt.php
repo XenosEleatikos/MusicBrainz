@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Event\Recording;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Event\Recording;
+use MusicBrainz\Value\Name;
 
 /**
  * Links a recording to the event it was recorded at.

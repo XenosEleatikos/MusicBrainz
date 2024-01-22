@@ -2,7 +2,7 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Url\OnlineData\SocialNetwork;
 
-use MusicBrainz\Relation\Type\Artist\Url\OnlineData\SocalNetwork;
+use MusicBrainz\Relation\Type\Artist\Url\OnlineData\SocialNetwork;
 use MusicBrainz\Value\Name;
 
 /**
@@ -10,7 +10,7 @@ use MusicBrainz\Value\Name;
  *
  * @link https://musicbrainz.org/relationship/d86c9450-b6d0-4760-a275-e7547495b48b
  */
-class VideoChannel extends SocalNetwork
+class VideoChannel extends SocialNetwork
 {
     /**
      * Returns the name of the relation.

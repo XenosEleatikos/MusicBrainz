@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\Instrument\Instrument\Children;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates that an instrument is derived from another instrument.
+ * This links an instrument to an older instrument that it was based on.
  *
  * @link https://musicbrainz.org/relationship/deaf1d50-e624-3069-91bd-88e51cafd605
  */

@@ -5,7 +5,7 @@ namespace MusicBrainz\Relation\Type\Recording;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between a recording and a url
+ * A relation of a recording to an url
  *
  * @link https://musicbrainz.org/relationships/recording-url
  */

@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Instrument;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Instrument;
+use MusicBrainz\Value\Name;
 
 /**
  * This relationship links an instrument to the person(s) who invented or designed it.

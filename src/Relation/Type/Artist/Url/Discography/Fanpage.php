@@ -6,7 +6,6 @@ use MusicBrainz\Relation\Type\Artist\Url\Discography;
 use MusicBrainz\Value\Name;
 
 /**
- * An "has fanpage at" relation
  * This links an artist to a fan-created website.
  *
  * @link https://musicbrainz.org/relationship/f484f897-81cc-406e-96f9-cd799a04ee24
@@ -20,6 +19,6 @@ class Fanpage extends Discography
      */
     public static function getRelationName(): Name
     {
-        return new Name('discography');
+        return new Name('fanpage');
     }
 }

@@ -6,11 +6,9 @@ use MusicBrainz\Relation\Type\Place\Url\OnlineData\VideoChannel;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type can be used to link a place to the equivalent entry in YouTube. URLs should follow the
- * format: http://www.youtube.com/user/<username>
+ * This relationship type can be used to link a place to the equivalent entry in YouTube. URLs should follow the format http://www.youtube.com/user/<username>.
  *
- * @see  https://www.youtube.com
- * @link https://musicbrainz.org/relationship/6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0
+ * @link https://musicbrainz.org/relationship/22ec436d-bb65-4c83-a268-0fdb0dbd8834
  */
 class Youtube extends VideoChannel
 {

@@ -3,14 +3,13 @@
 namespace MusicBrainz\Relation\Type\Artist;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Type\Artist;
 
 /**
- * A relation between an artist and a place
+ * A relation of an artist to a place
  *
  * @link https://musicbrainz.org/relationships/artist-place
  */
-abstract class Place extends Artist
+abstract class Place extends \MusicBrainz\Relation\Type\Artist
 {
     /**
      * Returns the entity type of the related entity.

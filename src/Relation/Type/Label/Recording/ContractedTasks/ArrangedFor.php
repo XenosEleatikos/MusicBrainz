@@ -6,7 +6,7 @@ use MusicBrainz\Relation\Type\Label\Recording\ContractedTasks;
 use MusicBrainz\Value\Name;
 
 /**
- * Use this relationship for credits like "Recording was arranged by X for Label".
+ * Use this relationship for credits like “Recording was arranged by X for Label”.
  *
  * @link https://musicbrainz.org/relationship/1a26bf37-1f34-4c9a-97d5-b96bc49e9153
  */

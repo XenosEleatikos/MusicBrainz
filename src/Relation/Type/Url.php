@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type;
 
-use MusicBrainz\Value\EntityType;
 use MusicBrainz\Relation\Type;
+use MusicBrainz\Value\EntityType;
 
 /**
- * A relation of an URL
+ * A relation of an url
  */
 abstract class Url extends Type
 {

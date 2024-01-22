@@ -2,15 +2,14 @@
 
 namespace MusicBrainz\Relation\Type\Event;
 
-use MusicBrainz\Relation\Type\Event;
 use MusicBrainz\Value\EntityType;
 
 /**
- * A relation between an event and a place
+ * A relation of an event to a place
  *
  * @link https://musicbrainz.org/relationships/event-place
  */
-abstract class Place extends Event
+abstract class Place extends \MusicBrainz\Relation\Type\Event
 {
     /**
      * Returns the entity type of the related entity.

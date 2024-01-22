@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This is used to link a series to the equivalent entry in Discogs.
  *
- * @see  https://www.discogs.com/
  * @link https://musicbrainz.org/relationship/338811ef-b1a9-449d-954e-115846f33a44
  */
 class Discogs extends OtherDatabases

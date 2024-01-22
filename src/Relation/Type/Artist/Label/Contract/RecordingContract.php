@@ -2,8 +2,8 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Label\Contract;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Label\Contract;
+use MusicBrainz\Value\Name;
 
 /**
  * This indicates that an artist had a recording contract with a label.

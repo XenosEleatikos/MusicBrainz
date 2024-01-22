@@ -2,7 +2,7 @@
 
 namespace MusicBrainz\Relation\Type\ReleaseGroup\Series;
 
-use MusicBrainz\Relation\Type\Recording\Series;
+use MusicBrainz\Relation\Type\ReleaseGroup\Series;
 use MusicBrainz\Value\Name;
 
 /**
@@ -19,6 +19,6 @@ class TourInSupportOf extends Series
      */
     public static function getRelationName(): Name
     {
-        return new Name('part of');
+        return new Name('tour in support of');
     }
 }

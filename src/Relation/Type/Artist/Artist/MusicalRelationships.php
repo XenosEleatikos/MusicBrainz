@@ -2,15 +2,15 @@
 
 namespace MusicBrainz\Relation\Type\Artist\Artist;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Artist\Artist;
+use MusicBrainz\Value\Name;
 
 /**
- * Indicates that an artist has a musical relationship to another artist.
+ * This relationship type is only used for grouping other relationship types.
  *
  * @link https://musicbrainz.org/relationship/92859e2a-f2e5-45fa-a680-3f62ba0beccc
  */
-abstract class MusicalRelationships extends Artist
+class MusicalRelationships extends Artist
 {
     /**
      * Returns the name of the relation.
@@ -19,6 +19,6 @@ abstract class MusicalRelationships extends Artist
      */
     public static function getRelationName(): Name
     {
-        return new Name('musicial relationships');
+        return new Name('musical relationships');
     }
 }

@@ -2,7 +2,7 @@
 
 namespace MusicBrainz\Relation\Type\Event\Url;
 
-use MusicBrainz\Relation\Type\Area\Url;
+use MusicBrainz\Relation\Type\Event\Url;
 use MusicBrainz\Value\Name;
 
 /**

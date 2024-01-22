@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This links an entity to the equivalent entry in another database. Please respect the whitelist.
  *
- * @see  https://musicbrainz.org/doc/Other_Databases_Relationship_Type/Whitelist
  * @link https://musicbrainz.org/relationship/1e06fb0b-831d-49cf-abfd-52acb5b56e05
  */
 class OtherDatabases extends Url

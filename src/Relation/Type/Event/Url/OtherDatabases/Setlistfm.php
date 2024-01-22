@@ -8,7 +8,6 @@ use MusicBrainz\Value\Name;
 /**
  * This relationship type links an event to its corresponding page at setlist.fm.
  *
- * @see  https://www.setlist.fm/
  * @link https://musicbrainz.org/relationship/027fce0c-c621-4fd1-b728-1678ae08f280
  */
 class Setlistfm extends OtherDatabases

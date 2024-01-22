@@ -2,11 +2,11 @@
 
 namespace MusicBrainz\Relation\Type\Place\Work;
 
-use MusicBrainz\Value\Name;
 use MusicBrainz\Relation\Type\Place\Work;
+use MusicBrainz\Value\Name;
 
 /**
- * Indicates the place where the work had its first performance.
+ * Indicates the place where the work had its first performance
  *
  * @link https://musicbrainz.org/relationship/a4d2a7cb-365b-4b90-b52f-29469edf8ac0
  */

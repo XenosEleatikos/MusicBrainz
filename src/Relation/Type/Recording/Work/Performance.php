@@ -8,7 +8,7 @@ use MusicBrainz\Value\Name;
 /**
  * This is used to link works to their recordings.
  *
- * @link https://musicbrainz.org/relationship/fa3005666-a872-32c3-ad06-98af558e99b0
+ * @link https://musicbrainz.org/relationship/a3005666-a872-32c3-ad06-98af558e99b0
  */
 class Performance extends Work
 {

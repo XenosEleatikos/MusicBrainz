@@ -6,8 +6,7 @@ use MusicBrainz\Relation\Type\Artist\ReleaseGroup;
 use MusicBrainz\Value\Name;
 
 /**
- * This credits a person or agency who provided some kind of general creative inspiration during the recording of this
- * release group, without actually contributing to the writing or performance.
+ * This credits a person or agency who provided some kind of general creative inspiration during the recording of this release group, without actually contributing to the writing or performance.
  *
  * @link https://musicbrainz.org/relationship/e035ac25-a2ff-48a6-9fb6-077692c67241
  */
