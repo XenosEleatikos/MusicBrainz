@@ -25,7 +25,7 @@ class RelationTypeId
         '249fc24f-d573-4290-9d74-0547712d1f1e' => 'MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships\Teacher',
         '094b1ddf-3df3-4fb9-8b01-cfd28e45da80' => 'MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships\ComposerInResidence',
         'e794f8ff-b77b-4dfe-86ca-83197146ef10' => 'MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship',
-        '9421ca84-934f-49fe-9e66-dea242430406' => 'MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship\Parent',
+        '9421ca84-934f-49fe-9e66-dea242430406' => 'MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship\IsParent',
         'b42b7966-b904-449e-b8f9-8c7297b863d0' => 'MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship\Sibling',
         'b2bf7a5d-2da6-4742-baf4-e38d8a7ad029' => 'MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship\Married',
         'fd3927ba-fd51-4fa9-bcc2-e83637896fe8' => 'MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship\InvolvedWith',
