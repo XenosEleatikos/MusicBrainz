@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -29,6 +31,6 @@ trait CreditNameTrait
      */
     public function addCreditName(Name $creditName): Phrase
     {
-        return $this->addPhrase($creditName, self::creditName());
+        return $this->addPhrase((string)$creditName, self::creditName());
     }
 }

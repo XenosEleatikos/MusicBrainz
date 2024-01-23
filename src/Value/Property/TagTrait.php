@@ -1,8 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\Property;
 
+use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Tag;
+use MusicBrainz\Value\Work;
 
 /**
  * Provides a getter for a Tag.
@@ -14,7 +18,7 @@ trait TagTrait
      *
      * @var Tag
      */
-    public Tag $Tag;
+    public Tag $tag;
 
     /**
      * Returns the Tag.
@@ -23,6 +27,20 @@ trait TagTrait
      */
     public function getTag(): Tag
     {
-        return $this->Tag;
+        return $this->tag;
+    }
+
+    /**
+     * Sets the tag by extracting it from a given input array.
+     *
+     * @param array $input An array returned by the webservice
+     *
+     * @return void
+     */
+    private function setTagFromArray(array $input): void
+    {
+        $this->tag = is_null($tag = ArrayAccess::getArray($input, 'tag'))
+            ? new Tag()
+            : new Tag($tag);
     }
 }

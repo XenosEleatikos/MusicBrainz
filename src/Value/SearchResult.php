@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -18,6 +20,6 @@ abstract class SearchResult implements Value
      */
     public function __construct(array $searchResult = [])
     {
-        $this->score = isset($searchResult['score']) ? new Score($searchResult['score']) : new Score();
+        $this->score = isset($searchResult['score']) ? new Score((int)$searchResult['score']) : new Score();
     }
 }

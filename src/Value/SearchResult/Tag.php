@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\TagTrait;
@@ -19,7 +21,7 @@ class Tag extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setTagFromArray($searchResult, null);
+        $this->setTagFromArray($searchResult);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +32,6 @@ class Tag extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getTag();
+        return (string)$this->getTag();
     }
 }

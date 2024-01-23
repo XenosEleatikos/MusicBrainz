@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -33,6 +35,6 @@ class TrackDisplayNumber implements Value
      */
     public function __toString(): string
     {
-        return ($this->trackNumber) ? $this->trackNumber : '';
+        return isset($this->trackNumber) ? (string)$this->trackNumber : '';
     }
 }

@@ -7,5 +7,7 @@ return (new PhpCsFixer\Config())
     ->setRules([
         '@PER-CS' => true,
         '@PHP82Migration' => true,
+        'declare_strict_types' => true,
     ])
+    ->setRiskyAllowed(true)
     ->setFinder($finder);

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait ReleaseIdTrait
      */
     public function addReleaseId(MBID $releaseId): Term
     {
-        return $this->addTerm($releaseId, self::releaseId());
+        return $this->addTerm((string)$releaseId, self::releaseId());
     }
 }

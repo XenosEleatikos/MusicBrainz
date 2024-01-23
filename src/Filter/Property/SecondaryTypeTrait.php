@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait SecondaryTypeTrait
      */
     public function addSecondaryType(ReleaseType $secondaryType): Term
     {
-        return $this->addTerm($secondaryType, self::secondaryType());
+        return $this->addTerm((string)$secondaryType, self::secondaryType());
     }
 }

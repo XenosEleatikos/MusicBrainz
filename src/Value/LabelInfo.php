@@ -1,9 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
-use MusicBrainz\Value\Property;
 
 /**
  * Label information
@@ -31,6 +32,6 @@ class LabelInfo implements Value
      */
     public function __toString(): string
     {
-        return $this->getCatalogueNumber();
+        return (string)$this->getCatalogueNumber();
     }
 }

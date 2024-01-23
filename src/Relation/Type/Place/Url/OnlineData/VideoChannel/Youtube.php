@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Place\Url\OnlineData\VideoChannel;
 
 use MusicBrainz\Relation\Type\Place\Url\OnlineData\VideoChannel;

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait AnnotationTextTrait
      */
     public function addAnnotationText(AnnotationText $annotationText): Phrase
     {
-        return $this->addPhrase($annotationText, self::annotationText());
+        return $this->addPhrase((string)$annotationText, self::annotationText());
     }
 }

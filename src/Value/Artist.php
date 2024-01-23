@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\ArtistRelationListTrait;
@@ -67,6 +69,6 @@ class Artist implements Value
      */
     public function __toString(): string
     {
-        return $this->getArtistName();
+        return (string)$this->getArtistName();
     }
 }

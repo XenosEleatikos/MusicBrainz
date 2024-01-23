@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait ScriptTrait
      */
     public function addScript(Script $script): Term
     {
-        return $this->addTerm($script, self::script());
+        return $this->addTerm((string)$script, self::script());
     }
 }

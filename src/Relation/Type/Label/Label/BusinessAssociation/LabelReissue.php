@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Label\Label\BusinessAssociation;
 
 use MusicBrainz\Relation\Type\Label\Label\BusinessAssociation;

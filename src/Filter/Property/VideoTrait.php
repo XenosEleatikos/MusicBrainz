@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait VideoTrait
      */
     public function addVideo(bool $video): Term
     {
-        return $this->addTerm($video, self::video());
+        return $this->addTerm((string)$video, self::video());
     }
 }

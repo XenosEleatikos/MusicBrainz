@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\PlaceTrait;
@@ -19,7 +21,7 @@ class Place extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setPlaceFromArray($searchResult, null);
+        $this->setPlaceFromArray($searchResult);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +32,6 @@ class Place extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getPlace();
+        return (string)$this->getPlace();
     }
 }

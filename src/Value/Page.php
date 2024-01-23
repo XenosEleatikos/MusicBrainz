@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 /**
@@ -21,7 +23,7 @@ abstract class Page extends ValueList
      * @param int    $count   The total number of elements
      * @param string $created Creation time
      */
-    public function __construct(array $array = [], int $offset = 0, int $count = 0, string $created = '')
+    final public function __construct(array $array = [], int $offset = 0, int $count = 0, string $created = '')
     {
         $array = array_map(
             function ($collection) {

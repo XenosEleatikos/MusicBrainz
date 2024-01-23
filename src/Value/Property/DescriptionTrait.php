@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
@@ -22,7 +24,7 @@ trait DescriptionTrait
      *
      * @return Description
      */
-    public function getDescription(): string
+    public function getDescription(): Description
     {
         return $this->description;
     }

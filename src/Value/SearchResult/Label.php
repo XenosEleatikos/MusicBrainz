@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\LabelTrait;
@@ -19,7 +21,7 @@ class Label extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setLabelFromArray($searchResult, null);
+        $this->setLabelFromArray($searchResult);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +32,6 @@ class Label extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getLabel();
+        return (string)$this->getLabel();
     }
 }

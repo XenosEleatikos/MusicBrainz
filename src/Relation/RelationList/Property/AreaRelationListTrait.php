@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\RelationList\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
@@ -36,8 +38,8 @@ trait AreaRelationListTrait
      */
     private function setRelationsFromArray(array $input): void
     {
-        if (!is_null($array = ArrayAccess::getArray($input, 'relation-list'))) {
-            if (!is_null($array = ArrayAccess::getArray($input['relation-list'], 0))) {
+        if (!is_null(ArrayAccess::getArray($input, 'relation-list'))) {
+            if (!is_null($array = ArrayAccess::getArray($input['relation-list'], '0'))) {
                 if (!is_null($array = ArrayAccess::getArray($array, 'relations'))) {
                     $this->relations = new AreaRelationList($array);
 

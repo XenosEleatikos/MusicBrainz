@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait WorkTypeTrait
      */
     public function addWorkType(WorkType $workType): Term
     {
-        return $this->addTerm($workType, self::workType());
+        return $this->addTerm((string)$workType, self::workType());
     }
 }

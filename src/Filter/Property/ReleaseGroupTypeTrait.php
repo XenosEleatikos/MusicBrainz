@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait ReleaseGroupTypeTrait
      */
     public function addReleaseGroupType(ReleaseType $releaseGroupType): Term
     {
-        return $this->addTerm($releaseGroupType, self::releaseGroupType());
+        return $this->addTerm((string)$releaseGroupType, self::releaseGroupType());
     }
 }

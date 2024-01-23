@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\ReleaseTrait;
@@ -30,6 +32,6 @@ class Release extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getRelease();
+        return (string)$this->getRelease();
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait TrackDisplayNumberTrait
      */
     public function addTrackDisplayNumber(TrackDisplayNumber $trackDisplayNumber): Phrase
     {
-        return $this->addPhrase($trackDisplayNumber, self::trackId());
+        return $this->addPhrase((string)$trackDisplayNumber, self::trackId());
     }
 }

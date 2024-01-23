@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\CdStubTrait;
@@ -19,7 +21,7 @@ class CdStub extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setCdStubFromArray($searchResult, null);
+        $this->setCdStubFromArray($searchResult);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +32,6 @@ class CdStub extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getCdStub();
+        return (string)$this->getCdStub();
     }
 }

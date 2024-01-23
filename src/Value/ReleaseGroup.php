@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\ReleaseGroupRelationListTrait;
@@ -52,6 +54,6 @@ class ReleaseGroup implements Value
      */
     public function __toString(): string
     {
-        return $this->getTitle();
+        return (string)$this->getTitle();
     }
 }

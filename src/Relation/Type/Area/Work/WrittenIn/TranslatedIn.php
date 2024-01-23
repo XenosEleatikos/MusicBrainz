@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Area\Work\WrittenIn;
 
 use MusicBrainz\Relation\Type\Area\Work\WrittenIn;

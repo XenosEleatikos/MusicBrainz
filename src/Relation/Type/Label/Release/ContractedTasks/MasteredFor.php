@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Label\Release\ContractedTasks;
 
 use MusicBrainz\Relation\Type\Label\Release\ContractedTasks;

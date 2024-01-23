@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -35,6 +37,6 @@ class Longitude implements Value
      */
     public function __toString(): string
     {
-        return $this->longitude;
+        return (string)$this->longitude;
     }
 }

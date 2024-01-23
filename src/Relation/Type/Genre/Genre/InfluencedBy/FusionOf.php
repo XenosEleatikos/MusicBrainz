@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Genre\Genre\InfluencedBy;
 
 use MusicBrainz\Relation\Type\Genre\Genre\InfluencedBy;

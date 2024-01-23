@@ -1,6 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter;
+
+use MusicBrainz\Exception;
 
 /**
  * A page filter

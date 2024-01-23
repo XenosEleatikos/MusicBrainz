@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -43,6 +45,13 @@ class EntityType implements Value
      * @var string
      */
     public const EVENT = 'event';
+
+    /**
+     * A genre
+     *
+     * @var string
+     */
+    public const GENRE = 'genre';
 
     /**
      * An instrument
@@ -153,6 +162,7 @@ class EntityType implements Value
         self::COLLECTION,
         self::EDITOR,
         self::EVENT,
+        self::GENRE,
         self::INSTRUMENT,
         self::LABEL,
         self::PLACE,

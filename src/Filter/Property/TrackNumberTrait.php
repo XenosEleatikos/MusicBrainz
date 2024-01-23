@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait TrackNumberTrait
      */
     public function addTrackNumber(TrackNumber $trackNumber): Term
     {
-        return $this->addTerm($trackNumber, self::trackNumber());
+        return $this->addTerm((string)$trackNumber, self::trackNumber());
     }
 }

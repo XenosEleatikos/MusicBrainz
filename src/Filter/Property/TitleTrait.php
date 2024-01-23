@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait TitleTrait
      */
     public function addTitleComment(Title $title): Phrase
     {
-        return $this->addPhrase($title, self::title());
+        return $this->addPhrase((string)$title, self::title());
     }
 }

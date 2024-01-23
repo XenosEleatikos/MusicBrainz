@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Artist\Work\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Work\Misc;

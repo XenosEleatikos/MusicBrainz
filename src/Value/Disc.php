@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -32,6 +34,6 @@ class Disc implements Value
      */
     public function __toString(): string
     {
-        return $this->getDiscId();
+        return (string)$this->getDiscId();
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait CatalogNumberTrait
      */
     public function addCatalogNumber(CatalogNumber $catalogNumber): Phrase
     {
-        return $this->addPhrase($catalogNumber, self::catalogNumber());
+        return $this->addPhrase((string)$catalogNumber, self::catalogNumber());
     }
 }

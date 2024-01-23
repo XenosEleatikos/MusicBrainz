@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\WorkTrait;
@@ -19,7 +21,7 @@ class Work extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setWorkFromArray($searchResult, null);
+        $this->setWorkFromArray($searchResult);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +32,6 @@ class Work extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getWork();
+        return (string)$this->getWork();
     }
 }

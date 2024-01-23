@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\CoversAndVersions;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\CoversAndVersions;

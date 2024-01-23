@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -43,6 +45,6 @@ class Ended implements Value
      */
     public function __toString(): string
     {
-        return $this->ended;
+        return (string)$this->ended;
     }
 }

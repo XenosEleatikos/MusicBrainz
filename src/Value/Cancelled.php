@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -33,6 +35,6 @@ class Cancelled implements Value
      */
     public function __toString(): string
     {
-        return $this->cancelled;
+        return (string)$this->cancelled;
     }
 }

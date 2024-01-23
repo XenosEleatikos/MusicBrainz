@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Browse\Relation;
 
 use MusicBrainz\Value\EntityType;

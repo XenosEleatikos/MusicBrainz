@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait ReleaseGroupNameWithoutAccentsTrait
      */
     public function addReleaseGroupNameWithoutAccents(Name $releaseGroupNameWithoutAccents): Phrase
     {
-        return $this->addPhrase($releaseGroupNameWithoutAccents, self::releaseGroupNameWithoutAccent());
+        return $this->addPhrase((string)$releaseGroupNameWithoutAccents, self::releaseGroupNameWithoutAccent());
     }
 }

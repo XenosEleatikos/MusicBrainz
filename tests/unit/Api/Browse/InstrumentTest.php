@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Test\Api\Browse;
 
 use MusicBrainz\Filter\Browse\Relation\Entity\InstrumentRelation;

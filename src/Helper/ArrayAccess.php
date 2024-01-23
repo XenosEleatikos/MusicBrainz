@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Helper;
 
 use MusicBrainz\MusicBrainz;
@@ -93,7 +95,7 @@ class ArrayAccess
      *
      * @return null|string
      */
-    public static function getInteger(array $array, string $key): ?string
+    public static function getInteger(array $array, string $key): ?int
     {
         if (!isset($array[$key])) {
             return null;

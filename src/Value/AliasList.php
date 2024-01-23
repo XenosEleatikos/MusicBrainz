@@ -1,10 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value\Property\List\CommaSeperatedListTrait;
-
-use function Clue\StreamFilter\fun;
 
 /**
  * A list of aliases

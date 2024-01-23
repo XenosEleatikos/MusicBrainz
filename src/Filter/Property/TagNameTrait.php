@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait TagNameTrait
      */
     public function addTagName(Name $tagName): Phrase
     {
-        return $this->addPhrase($tagName, self::tagName());
+        return $this->addPhrase((string)$tagName, self::tagName());
     }
 }

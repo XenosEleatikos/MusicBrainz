@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait ArtistRealNameTrait
      */
     public function addArtistRealName(Name $artistRealName): Phrase
     {
-        return $this->addPhrase($artistRealName, self::artistRealName());
+        return $this->addPhrase((string)$artistRealName, self::artistRealName());
     }
 }

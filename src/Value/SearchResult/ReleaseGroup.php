@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\ReleaseGroupTrait;
@@ -19,7 +21,7 @@ class ReleaseGroup extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setReleaseGroupFromArray($searchResult, null);
+        $this->setReleaseGroupFromArray($searchResult);
         parent::__construct($searchResult);
     }
 
@@ -30,6 +32,6 @@ class ReleaseGroup extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getReleaseGroup();
+        return (string)$this->getReleaseGroup();
     }
 }

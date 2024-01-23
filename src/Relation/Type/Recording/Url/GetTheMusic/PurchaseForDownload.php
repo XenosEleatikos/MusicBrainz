@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Recording\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Recording\Url\GetTheMusic;

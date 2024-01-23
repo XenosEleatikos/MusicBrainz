@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait EndAreaNameTrait
      */
     public function addEndAreaName(Name $endAreaName): Phrase
     {
-        return $this->addPhrase($endAreaName, self::endAreaName());
+        return $this->addPhrase((string)$endAreaName, self::endAreaName());
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Url\Work\GetTheScore;
 
 use MusicBrainz\Relation\Type\Url\Work\GetTheScore;

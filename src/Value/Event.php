@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\EventRelationListTrait;
@@ -47,6 +49,6 @@ class Event implements Value
      */
     public function __toString(): string
     {
-        return $this->getEventName();
+        return (string)$this->getEventName();
     }
 }

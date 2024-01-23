@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -37,7 +39,7 @@ class Score implements Value
     {
         return (null === $this->number)
             ? ''
-            : $this->number;
+            : (string)$this->number;
     }
 
     /**

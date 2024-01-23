@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait WorkNameWithoutAccentsTrait
      */
     public function addWorkNameWithoutAccents(Name $workNameWithoutAccents): Phrase
     {
-        return $this->addPhrase($workNameWithoutAccents, self::workNameWithoutAccents());
+        return $this->addPhrase((string)$workNameWithoutAccents, self::workNameWithoutAccents());
     }
 }

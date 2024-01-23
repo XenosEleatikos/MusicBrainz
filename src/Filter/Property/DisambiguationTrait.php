@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait DisambiguationTrait
      */
     public function addDisambiguationComment(Disambiguation $disambiguation): Phrase
     {
-        return $this->addPhrase($disambiguation, self::disambiguation());
+        return $this->addPhrase((string)$disambiguation, self::disambiguation());
     }
 }

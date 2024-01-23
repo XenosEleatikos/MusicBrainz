@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\RelationList\Property;
 
 use MusicBrainz\Helper\ArrayAccess;

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait ArtistIdTrait
      */
     public function addArtistId(MBID $artistId): Term
     {
-        return $this->addTerm($artistId, self::artistId());
+        return $this->addTerm((string)$artistId, self::artistId());
     }
 }

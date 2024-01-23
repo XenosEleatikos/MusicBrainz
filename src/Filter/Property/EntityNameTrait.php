@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait EntityNameTrait
      */
     public function addEntityName(Name $entityName): Phrase
     {
-        return $this->addPhrase($entityName, self::entityName());
+        return $this->addPhrase((string)$entityName, self::entityName());
     }
 }

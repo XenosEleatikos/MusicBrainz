@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Helper\ArrayAccess;
@@ -37,6 +39,6 @@ class Collection implements Value
      */
     public function __toString(): string
     {
-        return $this->getCollectionName();
+        return (string)$this->getCollectionName();
     }
 }

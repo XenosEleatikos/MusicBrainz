@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -30,6 +32,6 @@ class Tag implements Value
      */
     public function __toString(): string
     {
-        return $this->name;
+        return (string)$this->name;
     }
 }

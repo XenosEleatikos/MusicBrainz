@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\HttpAdapter;
 
 use GuzzleHttp\ClientInterface;
@@ -84,7 +86,7 @@ class GuzzleHttpAdapter extends AbstractHttpAdapter
             throw new Exception($exception->getMessage());
         }
 
-        $responseBody = json_decode($request->getBody());
+        $responseBody = json_decode($request->getBody()->getContents());
         /**
          * This is a weird one, but because most if not all functions in this package expect arrays
          * we try to give them that as early as possible and avoid errors while keeping compatibility to a maximum.

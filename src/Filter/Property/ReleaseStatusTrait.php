@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
@@ -28,6 +30,6 @@ trait ReleaseStatusTrait
      */
     public function addReleaseStatus(ReleaseStatus $releaseStatus): Term
     {
-        return $this->addTerm($releaseStatus, self::releaseStatus());
+        return $this->addTerm((string)$releaseStatus, self::releaseStatus());
     }
 }

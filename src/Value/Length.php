@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -33,7 +35,7 @@ class Length implements Value
      */
     public function __toString(): string
     {
-        return $this->length;
+        return (string)$this->length;
         //date('i:s', floor($this->length/1000));
     }
 }

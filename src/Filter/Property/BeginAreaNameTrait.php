@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait BeginAreaNameTrait
      */
     public function addBeginAreaName(Name $beginAreaName): Phrase
     {
-        return $this->addPhrase($beginAreaName, self::beginAreaName());
+        return $this->addPhrase((string)$beginAreaName, self::beginAreaName());
     }
 }

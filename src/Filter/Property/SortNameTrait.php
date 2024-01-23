@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Phrase;
@@ -28,6 +30,6 @@ trait SortNameTrait
      */
     public function addSortNameWithAccents(Name $sortName): Phrase
     {
-        return $this->addPhrase($sortName, self::sortName());
+        return $this->addPhrase((string)$sortName, self::sortName());
     }
 }

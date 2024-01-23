@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Recording\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Recording\Url\OtherDatabases;

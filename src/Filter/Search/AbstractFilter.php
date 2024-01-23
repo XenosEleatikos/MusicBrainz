@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Filter\Search;
 
 use AskLucy\Expression\Clause\Clause;
@@ -48,7 +50,7 @@ abstract class AbstractFilter
      */
     public function __toString(): string
     {
-        return $this->query;
+        return (string)$this->query;
     }
 
     /**

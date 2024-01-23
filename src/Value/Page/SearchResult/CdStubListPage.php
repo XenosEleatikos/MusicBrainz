@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\Page\SearchResult;
 
 use MusicBrainz\Value\SearchResult\CdStub;

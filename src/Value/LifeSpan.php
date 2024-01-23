@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -36,6 +38,6 @@ class LifeSpan implements Value
     {
         return ($this->getEnded()->isEnded())
             ? $this->getBeginDate() . ' – ' . $this->getEndDate()
-            : $this->getBeginDate();
+            : (string)$this->getBeginDate();
     }
 }

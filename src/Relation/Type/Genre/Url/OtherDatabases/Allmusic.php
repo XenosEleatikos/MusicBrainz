@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Genre\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Genre\Url\OtherDatabases;

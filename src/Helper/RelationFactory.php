@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Helper;
 
 use MusicBrainz\Definition\RelationTarget;

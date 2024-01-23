@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Place\Release\EngineeredAt\MasteredAt;
 
 use MusicBrainz\Relation\Type\Place\Release\EngineeredAt\MasteredAt;

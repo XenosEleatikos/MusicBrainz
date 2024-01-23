@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Engineer\Recording;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Engineer\Recording;

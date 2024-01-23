@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\UrlRelationListTrait;
@@ -38,6 +40,6 @@ class URL implements Value
      */
     public function __toString(): string
     {
-        return $this->getResource();
+        return (string)$this->getResource();
     }
 }

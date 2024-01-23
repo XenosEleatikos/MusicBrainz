@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Test\Api\Lookup;
 
 use MusicBrainz\Relation\RelationList\LabelRelationList;

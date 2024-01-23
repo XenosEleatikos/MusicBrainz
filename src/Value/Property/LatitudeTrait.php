@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
@@ -36,7 +38,7 @@ trait LatitudeTrait
      */
     private function setLatitudeFromArray(array $input): void
     {
-        $this->latitude = is_null($latitude = ArrayAccess::getString($input, 'latitude'))
+        $this->latitude = is_null($latitude = ArrayAccess::getFloat($input, 'latitude'))
             ? new Latitude()
             : new Latitude($latitude);
     }

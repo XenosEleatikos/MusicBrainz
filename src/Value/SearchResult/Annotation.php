@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value\SearchResult;
 
 use MusicBrainz\Value\Property\AnnotationTrait;
@@ -30,6 +32,6 @@ class Annotation extends SearchResult
      */
     public function __toString(): string
     {
-        return $this->getAnnotation();
+        return (string)$this->getAnnotation();
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
@@ -37,6 +39,6 @@ class RatingVotes implements Value
      */
     public function __toString(): string
     {
-        return $this->votes;
+        return (string)$this->votes;
     }
 }

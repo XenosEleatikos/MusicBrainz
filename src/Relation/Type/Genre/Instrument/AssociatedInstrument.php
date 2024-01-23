@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace MusicBrainz\Relation\Type\Genre\Instrument;
 
 use MusicBrainz\Relation\Type\Genre\Instrument;
