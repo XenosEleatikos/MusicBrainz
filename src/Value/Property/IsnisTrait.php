@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value\ISNI;
 use MusicBrainz\Value\ISNIList;
 
 /**
@@ -16,14 +15,14 @@ trait IsnisTrait
     /**
      * A list of ISNI codes
      *
-     * @var ISNI|ISNIList
+     * @var ISNIList
      */
     private ISNIList $isnis;
 
     /**
      * Returns a list of ISNI codes.
      *
-     * @return ISNI|ISNIList
+     * @return ISNIList
      */
     public function getIsnis(): ISNIList
     {

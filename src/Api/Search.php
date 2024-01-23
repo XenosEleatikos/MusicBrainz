@@ -79,7 +79,7 @@ class Search
     public function annotation(AnnotationFilter $annotationFilter, PageFilter $pageFilter): AnnotationListPage
     {
         $params   = $this->getParameters($annotationFilter, $pageFilter);
-        $response = $this->httpAdapter->call('annotation' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('annotation' . '/', $this->config, $params, false);
 
         return AnnotationListPage::make($response, 'annotation');
     }
@@ -97,7 +97,7 @@ class Search
     public function area(AreaFilter $areaFilter, PageFilter $pageFilter): AreaListPage
     {
         $params   = $this->getParameters($areaFilter, $pageFilter);
-        $response = $this->httpAdapter->call('area' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('area' . '/', $this->config, $params, false);
 
         return AreaListPage::make($response, 'area');
     }
@@ -115,7 +115,7 @@ class Search
     public function artist(ArtistFilter $artistFilter, PageFilter $pageFilter): ArtistListPage
     {
         $params   = $this->getParameters($artistFilter, $pageFilter);
-        $response = $this->httpAdapter->call('artist' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('artist' . '/', $this->config, $params);
 
         return ArtistListPage::make($response, 'artist');
     }
@@ -133,7 +133,7 @@ class Search
     public function cdStub(CdStubFilter $cdStubFilter, PageFilter $pageFilter): CdStubListPage
     {
         $params   = $this->getParameters($cdStubFilter, $pageFilter);
-        $response = $this->httpAdapter->call('cdstub' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('cdstub' . '/', $this->config, $params);
 
         return CdStubListPage::make($response, 'cdstub');
     }
@@ -151,7 +151,7 @@ class Search
     public function label(LabelFilter $labelFilter, PageFilter $pageFilter): LabelListPage
     {
         $params   = $this->getParameters($labelFilter, $pageFilter);
-        $response = $this->httpAdapter->call('label' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('label' . '/', $this->config, $params);
 
         return LabelListPage::make($response, 'label');
     }
@@ -169,7 +169,7 @@ class Search
     public function place(PlaceFilter $placeFilter, PageFilter $pageFilter): PlaceListPage
     {
         $params   = $this->getParameters($placeFilter, $pageFilter);
-        $response = $this->httpAdapter->call('place' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('place' . '/', $this->config, $params);
 
         return PlaceListPage::make($response, 'place');
     }
@@ -187,7 +187,7 @@ class Search
     public function recording(RecordingFilter $recordingFilter, PageFilter $pageFilter): RecordingListPage
     {
         $params   = $this->getParameters($recordingFilter, $pageFilter);
-        $response = $this->httpAdapter->call('recording' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('recording' . '/', $this->config, $params);
 
         return RecordingListPage::make($response, 'recording');
     }
@@ -205,7 +205,7 @@ class Search
     public function release(ReleaseFilter $releaseFilter, PageFilter $pageFilter): ReleaseListPage
     {
         $params   = $this->getParameters($releaseFilter, $pageFilter);
-        $response = $this->httpAdapter->call('release' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('release' . '/', $this->config, $params);
 
         return ReleaseListPage::make($response, 'release');
     }
@@ -223,7 +223,7 @@ class Search
     public function releaseGroup(ReleaseGroupFilter $releaseGroupFilter, PageFilter $pageFilter): ReleaseGroupListPage
     {
         $params   = $this->getParameters($releaseGroupFilter, $pageFilter);
-        $response = $this->httpAdapter->call('release-group' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('release-group' . '/', $this->config, $params);
 
         return ReleaseGroupListPage::make($response, 'release-group');
     }
@@ -241,7 +241,7 @@ class Search
     public function tag(TagFilter $tagFilter, PageFilter $pageFilter): TagListPage
     {
         $params   = $this->getParameters($tagFilter, $pageFilter);
-        $response = $this->httpAdapter->call('tag' . '/', $this->config, $params, true, true);
+        $response = $this->httpAdapter->call('tag' . '/', $this->config, $params);
 
         return new TagListPage($response);
     }
@@ -259,7 +259,7 @@ class Search
     public function work(WorkFilter $workFilter, PageFilter $pageFilter): WorkListPage
     {
         $params   = $this->getParameters($workFilter, $pageFilter);
-        $response = $this->httpAdapter->call('work' . '/', $this->config, $params, false, true);
+        $response = $this->httpAdapter->call('work' . '/', $this->config, $params, false);
 
         return new WorkListPage($response);
     }

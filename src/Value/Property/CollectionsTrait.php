@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value\Collection;
 use MusicBrainz\Value\CollectionList;
 
 /**
@@ -16,14 +15,14 @@ trait CollectionsTrait
     /**
      * A list of collections
      *
-     * @var Collection|CollectionList
+     * @var CollectionList
      */
     private CollectionList $collections;
 
     /**
      * Returns a list of collections.
      *
-     * @return Collection|CollectionList
+     * @return CollectionList
      */
     public function getCollections(): CollectionList
     {

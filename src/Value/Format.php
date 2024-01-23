@@ -26,7 +26,7 @@ class Format implements Value
     /**
      * Constructs a format.
      *
-     * @param string $format Information about the format from the webservice
+     * @param array $format Information about the format from the webservice
      */
     public function __construct(array $format = [])
     {

@@ -93,7 +93,7 @@ class ArrayAccess
      * @param array  $array The input array
      * @param string $key   An array key
      *
-     * @return null|string
+     * @return null|int
      */
     public static function getInteger(array $array, string $key): ?int
     {

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Target\RelationList\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Relation\Target\RelationToArea;
 use MusicBrainz\Value\EntityType;
 use MusicBrainz\Relation\Target\RelationList\RelationToAreaList;
 
@@ -17,14 +16,14 @@ trait RelationsToAreaTrait
     /**
      * A list of relations to an area
      *
-     * @var RelationToArea[]|RelationToAreaList
+     * @var RelationToAreaList
      */
     private RelationToAreaList $areaRelations;
 
     /**
      * Returns a list of relations to an area.
      *
-     * @return RelationToArea[]RelationToAreaList
+     * @return RelationToAreaList
      */
     public function getAreaRelations(): RelationToAreaList
     {

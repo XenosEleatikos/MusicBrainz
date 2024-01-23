@@ -135,7 +135,7 @@ class Lookup
      *
      * @return Instrument
      */
-    public function instrument(MBID $mbid, $instrumentFields): Instrument
+    public function instrument(MBID $mbid, InstrumentFields $instrumentFields): Instrument
     {
         $result = $this->lookup(new EntityType(EntityType::INSTRUMENT), $mbid, $instrumentFields);
 
@@ -174,8 +174,8 @@ class Lookup
     /**
      * Looks up for a recording and returns the result.
      *
-     * @param MBID            $mbid        A Music Brainz Identifier (MBID) of a recording
-     * @param RecordingFields $placeFields List of fields to be included in the response
+     * @param MBID            $mbid            A Music Brainz Identifier (MBID) of a recording
+     * @param RecordingFields $recordingFields List of fields to be included in the response
      *
      * @return Recording
      */
@@ -189,8 +189,8 @@ class Lookup
     /**
      * Looks up for a release and returns the result.
      *
-     * @param MBID            $mbid          A Music Brainz Identifier (MBID) of a release
-     * @param RecordingFields $releaseFields List of fields to be included in the response
+     * @param MBID          $mbid          A Music Brainz Identifier (MBID) of a release
+     * @param ReleaseFields $releaseFields List of fields to be included in the response
      *
      * @return Release
      */
@@ -204,8 +204,8 @@ class Lookup
     /**
      * Looks up for a release group and returns the result.
      *
-     * @param MBID               $mbid          A Music Brainz Identifier (MBID) of a release
-     * @param ReleaseGroupFields $releaseFields List of fields to be included in the response
+     * @param MBID               $mbid               A Music Brainz Identifier (MBID) of a release
+     * @param ReleaseGroupFields $releaseGroupFields List of fields to be included in the response
      *
      * @return ReleaseGroup
      */
@@ -219,8 +219,8 @@ class Lookup
     /**
      * Looks up for an URL and returns the result.
      *
-     * @param MBID         $mbid          A Music Brainz Identifier (MBID) of a release
-     * @param SeriesFields $releaseFields List of fields to be included in the response
+     * @param MBID         $mbid         A Music Brainz Identifier (MBID) of a release
+     * @param SeriesFields $seriesFields List of fields to be included in the response
      *
      * @return Series
      */
@@ -267,7 +267,7 @@ class Lookup
      *
      * @param EntityType $entityType   An entity type
      * @param MBID       $mbid         A MusicBrainz Identifier (MBID)
-     * @param array      $includes     A list of include parameters
+     * @param Fields     $includes     A list of include parameters
      * @param bool       $authRequired True, if user authentication is required
      *
      * @return array
@@ -290,7 +290,7 @@ class Lookup
         $response = $this->httpAdapter->call(
             str_replace('_', '-', (string) $entityType) .
             '/' .
-            (string) $mbid,
+            $mbid,
             $this->config,
             $params,
             $authRequired

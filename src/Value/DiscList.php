@@ -12,7 +12,7 @@ class DiscList extends ValueList
     /**
      * Constructs a list of discs.
      *
-     * @param array $disc Information about the discs
+     * @param array $discs Information about the discs
      */
     public function __construct(array $discs = [])
     {
