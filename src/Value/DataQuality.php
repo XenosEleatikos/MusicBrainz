@@ -48,7 +48,7 @@ class DataQuality implements Value
     /**
      * A list of valid quality codes.
      *
-     * @var array
+     * @var string[]
      */
     public const QUALITY_CODES = [
         self::LOW,

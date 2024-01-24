@@ -60,7 +60,7 @@ class PlaceType implements Value
     /**
      * A list of valid place type codes
      *
-     * @var array
+     * @var string[]
      */
     public const TYPE_CODES = [
         self::INDOOR_ARENA,

@@ -42,7 +42,7 @@ class Gender implements Value
     /**
      * A list of valid gender codes
      *
-     * @var array
+     * @var string[]
      */
     public const GENDERS = [
         self::MALE,

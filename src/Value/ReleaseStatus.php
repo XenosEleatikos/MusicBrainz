@@ -53,7 +53,7 @@ class ReleaseStatus implements Value
     /**
      * A list of valid status codes
      *
-     * @var array
+     * @var string[]
      */
     public const STATUS_CODES = [
         self::OFFICIAL,

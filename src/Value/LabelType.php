@@ -78,7 +78,7 @@ class LabelType implements Value
     /**
      * A list of valid label type codes
      *
-     * @var array
+     * @var string[]
      */
     private const TYPES = [
         self::IMPRINT,

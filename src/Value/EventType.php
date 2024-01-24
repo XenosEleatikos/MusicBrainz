@@ -65,7 +65,7 @@ class EventType implements Value
     /**
      * A list of valid event types
      *
-     * @var array
+     * @var string[]
      */
     private const EVENT_TYPES = [
         self::CONCERT,

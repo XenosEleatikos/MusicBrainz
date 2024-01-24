@@ -98,7 +98,7 @@ class ReleaseType implements Value
     /**
      * A list of valid type codes
      *
-     * @var array
+     * @var string[]
      */
     public const TYPE_CODES = [
         self::ALBUM,

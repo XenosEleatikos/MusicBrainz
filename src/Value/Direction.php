@@ -28,7 +28,7 @@ class Direction implements Value
     /**
      * A list of valid direction codes.
      *
-     * @var array
+     * @var string[]
      */
     public const DIRECTION_CODES = [
         self::BACKWARD,

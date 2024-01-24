@@ -84,7 +84,7 @@ class AreaType implements Value
     /**
      * A list a valid area type codes
      *
-     * @var array
+     * @var string[]
      */
     public const TYPE_CODES = [
         self::COUNTRY,

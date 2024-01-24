@@ -154,7 +154,7 @@ class EntityType implements Value
     /**
      * A list of valid entity types
      *
-     * @var array
+     * @var string[]
      */
     private const ENTITY_TYPES = [
         self::AREA,

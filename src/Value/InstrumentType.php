@@ -56,7 +56,7 @@ class InstrumentType implements Value
     /**
      * A list of valid instrument types
      *
-     * @var array
+     * @var string[]
      */
     private const INSTRUMENT_TYPES = [
         self::ELECTRONIC_INSTRUMENT,

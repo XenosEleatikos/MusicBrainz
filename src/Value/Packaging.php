@@ -130,7 +130,7 @@ class Packaging implements Value
     /**
      * A list of valid packaging codes
      *
-     * @var array
+     * @var string[]
      */
     public const PACKAGINGS = [
         self::JEWEL_CASE,
