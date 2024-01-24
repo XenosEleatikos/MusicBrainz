@@ -75,7 +75,7 @@ class MusicBrainz
      */
     public static function log(): LoggerInterface
     {
-        return (is_null(self::$logger)) ? self::setLogger() : self::$logger;
+        return self::$logger;
     }
 
     /**
@@ -88,6 +88,6 @@ class MusicBrainz
      */
     private static function setLogger(LoggerInterface $logger = null): LoggerInterface
     {
-        return self::$logger = (is_null($logger)) ? new NullLogger() : $logger;
+        return self::$logger = is_null($logger) ? new NullLogger() : $logger;
     }
 }

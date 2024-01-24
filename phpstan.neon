@@ -1,4 +1,6 @@
 parameters:
-	level: 2
-	paths:
-		- src
+    level: 4
+    paths:
+        - src
+    ignoreErrors:
+        - '#Call to function is_null\(\) with array\|null will always evaluate to false.#'

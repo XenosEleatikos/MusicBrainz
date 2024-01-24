@@ -34,7 +34,7 @@ class ArtistCredit implements Value
      */
     public function __toString(): string
     {
-        $joinPhrase = (empty($this->getJoinPhrase())) ? '' : $this->getJoinPhrase() . ' ';
+        $joinPhrase = (empty((string)$this->getJoinPhrase())) ? '' : $this->getJoinPhrase() . ' ';
 
         return $joinPhrase . $this->getName();
     }

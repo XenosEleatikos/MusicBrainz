@@ -16,7 +16,7 @@ class Score implements Value
      *
      * @var null|int
      */
-    private $number;
+    private ?int $number;
 
     /**
      * Constructs a relevance score.
@@ -25,7 +25,7 @@ class Score implements Value
      */
     public function __construct(int $number = null)
     {
-        $this->number = ((0 <= $number && $number <= 100) || null === $number)
+        $this->number = (0 <= $number && $number <= 100)
             ? $number
             : null;
     }
