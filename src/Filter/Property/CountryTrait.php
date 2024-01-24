@@ -30,6 +30,6 @@ trait CountryTrait
      */
     public function addCountry(Country $country): Term
     {
-        return $this->addTerm($country, self::country());
+        return $this->addTerm((string)$country, self::country());
     }
 }

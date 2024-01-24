@@ -30,6 +30,6 @@ trait DateTrait
      */
     public function addDate(Date $date): Term
     {
-        return $this->addTerm($date, self::date());
+        return $this->addTerm((string)$date, self::date());
     }
 }

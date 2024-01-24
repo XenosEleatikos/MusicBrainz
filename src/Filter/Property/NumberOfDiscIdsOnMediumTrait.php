@@ -31,6 +31,6 @@ trait NumberOfDiscIdsOnMediumTrait
      */
     public function addNumberOfDiscIdsOnMedium(Count $numberOfDiscIdsOnMedium): Term
     {
-        return $this->addTerm($numberOfDiscIdsOnMedium, self::numberOfDiscIdsOnMedium());
+        return $this->addTerm((string)$numberOfDiscIdsOnMedium, self::numberOfDiscIdsOnMedium());
     }
 }

@@ -30,6 +30,6 @@ trait BeginDateTrait
      */
     public function addBeginDate(Date $beginDate): Term
     {
-        return $this->addTerm($beginDate, self::beginDate());
+        return $this->addTerm((string)$beginDate, self::beginDate());
     }
 }

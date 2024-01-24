@@ -30,6 +30,6 @@ trait LabelTypeTrait
      */
     public function addLabelType(LabelType $labelType): Term
     {
-        return $this->addTerm($labelType, self::labelType());
+        return $this->addTerm((string)$labelType, self::labelType());
     }
 }

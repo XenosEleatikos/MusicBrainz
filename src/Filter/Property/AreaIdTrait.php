@@ -30,6 +30,6 @@ trait AreaIdTrait
      */
     public function addAreaId(MBID $areaId): Term
     {
-        return $this->addTerm($areaId, self::areaId());
+        return $this->addTerm((string)$areaId, self::areaId());
     }
 }

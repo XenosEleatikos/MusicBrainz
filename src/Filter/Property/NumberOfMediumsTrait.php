@@ -30,6 +30,6 @@ trait NumberOfMediumsTrait
      */
     public function addNumberOfMediums(Count $numberOfMediums): Term
     {
-        return $this->addTerm($numberOfMediums, self::numberOfMediums());
+        return $this->addTerm((string)$numberOfMediums, self::numberOfMediums());
     }
 }

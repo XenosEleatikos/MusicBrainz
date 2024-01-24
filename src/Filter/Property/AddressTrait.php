@@ -30,6 +30,6 @@ trait AddressTrait
      */
     public function addAddress(Address $address): Term
     {
-        return $this->addTerm($address, self::address());
+        return $this->addTerm((string)$address, self::address());
     }
 }

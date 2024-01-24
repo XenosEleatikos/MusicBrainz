@@ -30,6 +30,6 @@ trait NumberOfTracksOnReleaseTrait
      */
     public function addNumberOfTracksOnRelease(TrackNumber $numberOfTracksOnRelease): Term
     {
-        return $this->addTerm($numberOfTracksOnRelease, self::numberOfTracksOnRelease());
+        return $this->addTerm((string)$numberOfTracksOnRelease, self::numberOfTracksOnRelease());
     }
 }

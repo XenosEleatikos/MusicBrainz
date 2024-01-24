@@ -30,6 +30,6 @@ trait IsrcTrait
      */
     public function addIsrcCode(ISRC $isrcCode): Term
     {
-        return $this->addTerm($isrcCode, self::isrcCode());
+        return $this->addTerm((string)$isrcCode, self::isrcCode());
     }
 }

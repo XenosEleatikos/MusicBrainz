@@ -44,7 +44,7 @@ trait RecordingTrait
             return;
         }
 
-        $this->recording = is_null($recording = ArrayAccess::getString($input, $key))
+        $this->recording = is_null($recording = ArrayAccess::getArray($input, $key))
             ? new Recording()
             : new Recording($recording);
     }

@@ -30,6 +30,6 @@ trait LabelIdTrait
      */
     public function addLabelId(MBID $labelId): Term
     {
-        return $this->addTerm($labelId, self::labelId());
+        return $this->addTerm((string)$labelId, self::labelId());
     }
 }

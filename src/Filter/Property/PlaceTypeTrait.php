@@ -30,6 +30,6 @@ trait PlaceTypeTrait
      */
     public function addPlaceType(PlaceType $placeType): Term
     {
-        return $this->addTerm($placeType, self::placeType());
+        return $this->addTerm((string)$placeType, self::placeType());
     }
 }

@@ -38,7 +38,7 @@ trait CdStubTrait
      */
     private function setCdStubFromArray(array $input): void
     {
-        $this->cdStub = is_null($cdStub = ArrayAccess::getString($input, 'cdStub'))
+        $this->cdStub = is_null($cdStub = ArrayAccess::getArray($input, 'cdStub'))
             ? new CdStub()
             : new CdStub($cdStub);
     }

@@ -30,6 +30,6 @@ trait EndDateTrait
      */
     public function addEndDate(Date $endDate): Term
     {
-        return $this->addTerm($endDate, self::endDate());
+        return $this->addTerm((string)$endDate, self::endDate());
     }
 }

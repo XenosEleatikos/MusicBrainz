@@ -30,6 +30,6 @@ trait AsinTrait
      */
     public function addASIN(ASIN $asin): Term
     {
-        return $this->addTerm($asin, self::asin());
+        return $this->addTerm((string)$asin, self::asin());
     }
 }

@@ -38,7 +38,7 @@ trait ScoreTrait
      */
     private function setScoreFromArray(array $input): void
     {
-        $this->score = is_null($entityType = ArrayAccess::getString($input, 'score'))
+        $this->score = is_null($entityType = ArrayAccess::getInteger($input, 'score'))
             ? new Score()
             : new Score($entityType);
     }
