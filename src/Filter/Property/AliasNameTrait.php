@@ -30,6 +30,6 @@ trait AliasNameTrait
      */
     public function addAliasName(Name $aliasName): Phrase
     {
-        return $this->addPhrase((string)$aliasName, self::aliasName());
+        return $this->addPhrase((string) $aliasName, self::aliasName());
     }
 }

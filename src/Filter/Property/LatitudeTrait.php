@@ -30,6 +30,6 @@ trait LatitudeTrait
      */
     public function addLatitude(Latitude $latitude): Term
     {
-        return $this->addTerm((string)$latitude, self::latitude());
+        return $this->addTerm((string) $latitude, self::latitude());
     }
 }

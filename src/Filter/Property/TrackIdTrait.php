@@ -30,6 +30,6 @@ trait TrackIdTrait
      */
     public function addTrackId(MBID $trackId): Term
     {
-        return $this->addTerm((string)$trackId, self::trackId());
+        return $this->addTerm((string) $trackId, self::trackId());
     }
 }

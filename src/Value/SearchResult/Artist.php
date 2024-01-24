@@ -32,6 +32,6 @@ class Artist extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getArtist();
+        return (string) $this->getArtist();
     }
 }

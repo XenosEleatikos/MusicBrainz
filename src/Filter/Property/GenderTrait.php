@@ -30,6 +30,6 @@ trait GenderTrait
      */
     public function addGender(Gender $gender): Term
     {
-        return $this->addTerm((string)$gender, self::gender());
+        return $this->addTerm((string) $gender, self::gender());
     }
 }

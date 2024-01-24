@@ -35,6 +35,6 @@ class TrackDisplayNumber implements Value
      */
     public function __toString(): string
     {
-        return isset($this->trackNumber) ? (string)$this->trackNumber : '';
+        return isset($this->trackNumber) ? (string) $this->trackNumber : '';
     }
 }

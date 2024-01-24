@@ -49,6 +49,6 @@ class Event implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getEventName();
+        return (string) $this->getEventName();
     }
 }

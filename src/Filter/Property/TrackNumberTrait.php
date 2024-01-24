@@ -30,6 +30,6 @@ trait TrackNumberTrait
      */
     public function addTrackNumber(TrackNumber $trackNumber): Term
     {
-        return $this->addTerm((string)$trackNumber, self::trackNumber());
+        return $this->addTerm((string) $trackNumber, self::trackNumber());
     }
 }

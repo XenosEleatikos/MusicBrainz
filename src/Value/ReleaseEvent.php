@@ -35,7 +35,7 @@ class ReleaseEvent implements Value
         if (empty((string) $this->getDate())) {
             $releaseEvent = (empty((string) $this->getArea()))
                 ? ''
-                : $this->getArea();
+                : (string) $this->getArea();
         } else {
             $releaseEvent = $this->getDate();
             $releaseEvent .= (empty((string) $this->getArea()))

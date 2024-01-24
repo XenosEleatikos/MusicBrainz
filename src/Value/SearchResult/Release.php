@@ -32,6 +32,6 @@ class Release extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getRelease();
+        return (string) $this->getRelease();
     }
 }

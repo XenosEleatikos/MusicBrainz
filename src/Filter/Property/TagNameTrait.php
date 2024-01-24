@@ -30,6 +30,6 @@ trait TagNameTrait
      */
     public function addTagName(Name $tagName): Phrase
     {
-        return $this->addPhrase((string)$tagName, self::tagName());
+        return $this->addPhrase((string) $tagName, self::tagName());
     }
 }

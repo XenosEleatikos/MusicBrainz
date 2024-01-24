@@ -30,6 +30,6 @@ trait WorkNameWithoutAccentsTrait
      */
     public function addWorkNameWithoutAccents(Name $workNameWithoutAccents): Phrase
     {
-        return $this->addPhrase((string)$workNameWithoutAccents, self::workNameWithoutAccents());
+        return $this->addPhrase((string) $workNameWithoutAccents, self::workNameWithoutAccents());
     }
 }

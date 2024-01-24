@@ -30,6 +30,6 @@ trait EntityTypeTrait
      */
     public function addEntityType(EntityType $entityType): Term
     {
-        return $this->addTerm((string)$entityType, self::entityType());
+        return $this->addTerm((string) $entityType, self::entityType());
     }
 }

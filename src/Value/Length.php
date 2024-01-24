@@ -35,7 +35,7 @@ class Length implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->length;
+        return (string) $this->length;
         //date('i:s', floor($this->length/1000));
     }
 }

@@ -30,6 +30,6 @@ trait ReleaseGroupIdTrait
      */
     public function addReleaseGroupId(MBID $releaseGroupId): Term
     {
-        return $this->addTerm((string)$releaseGroupId, self::releaseGroupId());
+        return $this->addTerm((string) $releaseGroupId, self::releaseGroupId());
     }
 }

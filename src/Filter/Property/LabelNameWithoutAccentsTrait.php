@@ -30,6 +30,6 @@ trait LabelNameWithoutAccentsTrait
      */
     public function addLabelNameWithoutAccents(Name $labelNameWithoutAccents): Phrase
     {
-        return $this->addPhrase((string)$labelNameWithoutAccents, self::labelNameWithoutAccents());
+        return $this->addPhrase((string) $labelNameWithoutAccents, self::labelNameWithoutAccents());
     }
 }

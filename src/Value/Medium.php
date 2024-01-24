@@ -36,6 +36,6 @@ class Medium implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getTitle();
+        return (string) $this->getTitle();
     }
 }

@@ -30,6 +30,6 @@ trait RecordingNameWithAccentsTrait
      */
     public function addRecordingNameWithAccents(Name $recordingNameWithAccents): Phrase
     {
-        return $this->addPhrase((string)$recordingNameWithAccents, self::recordingNameWithAccent());
+        return $this->addPhrase((string) $recordingNameWithAccents, self::recordingNameWithAccent());
     }
 }

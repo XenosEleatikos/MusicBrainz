@@ -30,6 +30,6 @@ trait MediumNumberTrait
      */
     public function addMediumNumber(MediumNumber $mediumNumber): Term
     {
-        return $this->addTerm((string)$mediumNumber, self::mediumNumber());
+        return $this->addTerm((string) $mediumNumber, self::mediumNumber());
     }
 }

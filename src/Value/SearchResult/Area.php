@@ -32,6 +32,6 @@ class Area extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getArea();
+        return (string) $this->getArea();
     }
 }

@@ -38,6 +38,6 @@ class Track implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->title;
+        return (string) $this->title;
     }
 }

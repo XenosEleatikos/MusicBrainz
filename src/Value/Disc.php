@@ -34,6 +34,6 @@ class Disc implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getDiscId();
+        return (string) $this->getDiscId();
     }
 }

@@ -30,6 +30,6 @@ trait DataQualityTrait
      */
     public function addDataQuality(DataQuality $dataQuality): Term
     {
-        return $this->addTerm((string)$dataQuality, self::dataQuality());
+        return $this->addTerm((string) $dataQuality, self::dataQuality());
     }
 }

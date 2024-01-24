@@ -31,6 +31,6 @@ trait CreditNameTrait
      */
     public function addCreditName(Name $creditName): Phrase
     {
-        return $this->addPhrase((string)$creditName, self::creditName());
+        return $this->addPhrase((string) $creditName, self::creditName());
     }
 }

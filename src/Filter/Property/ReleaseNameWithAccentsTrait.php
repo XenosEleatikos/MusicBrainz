@@ -30,6 +30,6 @@ trait ReleaseNameWithAccentsTrait
      */
     public function addReleaseNameWithAccent(Name $releaseNameWithAccent): Phrase
     {
-        return $this->addPhrase((string)$releaseNameWithAccent, self::releaseNameWithAccent());
+        return $this->addPhrase((string) $releaseNameWithAccent, self::releaseNameWithAccent());
     }
 }

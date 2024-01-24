@@ -30,6 +30,6 @@ trait QuantizedLengthTrait
      */
     public function addQuantizedLength(Length $quantizedLength): Term
     {
-        return $this->addTerm((string)$quantizedLength, self::quantizedLength());
+        return $this->addTerm((string) $quantizedLength, self::quantizedLength());
     }
 }

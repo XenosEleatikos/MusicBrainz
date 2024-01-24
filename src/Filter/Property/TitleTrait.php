@@ -30,6 +30,6 @@ trait TitleTrait
      */
     public function addTitleComment(Title $title): Phrase
     {
-        return $this->addPhrase((string)$title, self::title());
+        return $this->addPhrase((string) $title, self::title());
     }
 }

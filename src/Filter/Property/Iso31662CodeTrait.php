@@ -30,6 +30,6 @@ trait Iso31662CodeTrait
      */
     public function addIso31662Code(ISO31662Code $iso31662Code): Term
     {
-        return $this->addTerm((string)$iso31662Code, self::iso31662Code());
+        return $this->addTerm((string) $iso31662Code, self::iso31662Code());
     }
 }

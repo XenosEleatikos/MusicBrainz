@@ -30,6 +30,6 @@ trait WorkTypeTrait
      */
     public function addWorkType(WorkType $workType): Term
     {
-        return $this->addTerm((string)$workType, self::workType());
+        return $this->addTerm((string) $workType, self::workType());
     }
 }

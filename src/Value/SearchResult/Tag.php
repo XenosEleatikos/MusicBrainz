@@ -32,6 +32,6 @@ class Tag extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getTag();
+        return (string) $this->getTag();
     }
 }

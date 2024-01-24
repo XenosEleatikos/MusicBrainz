@@ -30,6 +30,6 @@ trait IpiCodeTrait
      */
     public function addIpiCode(IPI $ipiCode): Term
     {
-        return $this->addTerm((string)$ipiCode, self::ipiCode());
+        return $this->addTerm((string) $ipiCode, self::ipiCode());
     }
 }

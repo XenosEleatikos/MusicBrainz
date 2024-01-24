@@ -30,6 +30,6 @@ trait ArtistRealNameTrait
      */
     public function addArtistRealName(Name $artistRealName): Phrase
     {
-        return $this->addPhrase((string)$artistRealName, self::artistRealName());
+        return $this->addPhrase((string) $artistRealName, self::artistRealName());
     }
 }

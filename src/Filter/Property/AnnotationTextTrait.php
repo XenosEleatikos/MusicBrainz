@@ -30,6 +30,6 @@ trait AnnotationTextTrait
      */
     public function addAnnotationText(AnnotationText $annotationText): Phrase
     {
-        return $this->addPhrase((string)$annotationText, self::annotationText());
+        return $this->addPhrase((string) $annotationText, self::annotationText());
     }
 }

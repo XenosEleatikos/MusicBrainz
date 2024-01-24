@@ -30,6 +30,6 @@ trait VideoTrait
      */
     public function addVideo(bool $video): Term
     {
-        return $this->addTerm((string)$video, self::video());
+        return $this->addTerm((string) $video, self::video());
     }
 }

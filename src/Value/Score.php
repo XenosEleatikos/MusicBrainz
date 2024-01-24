@@ -39,7 +39,7 @@ class Score implements Value
     {
         return (null === $this->number)
             ? ''
-            : (string)$this->number;
+            : (string) $this->number;
     }
 
     /**

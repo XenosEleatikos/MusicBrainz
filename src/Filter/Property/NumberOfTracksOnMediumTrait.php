@@ -30,6 +30,6 @@ trait NumberOfTracksOnMediumTrait
      */
     public function addNumberOfTracksOnMedium(TrackNumber $numberOfTracksOnMedium): Term
     {
-        return $this->addTerm((string)$numberOfTracksOnMedium, self::numberOfTracksOnMedium());
+        return $this->addTerm((string) $numberOfTracksOnMedium, self::numberOfTracksOnMedium());
     }
 }

@@ -32,6 +32,6 @@ class Tag implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->name;
+        return (string) $this->name;
     }
 }

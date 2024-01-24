@@ -39,6 +39,6 @@ class Collection implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getCollectionName();
+        return (string) $this->getCollectionName();
     }
 }

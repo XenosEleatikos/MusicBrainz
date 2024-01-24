@@ -30,6 +30,6 @@ trait AreaTypeTrait
      */
     public function addAreaType(AreaType $areaType): Term
     {
-        return $this->addTerm((string)$areaType, self::areaType());
+        return $this->addTerm((string) $areaType, self::areaType());
     }
 }

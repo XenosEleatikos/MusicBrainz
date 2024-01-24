@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Definition;
 
+use MusicBrainz\Relation;
 use MusicBrainz\Relation\Target\RelationToArea;
 use MusicBrainz\Relation\Target\RelationToArtist;
 use MusicBrainz\Relation\Target\RelationToEvent;
@@ -23,7 +24,7 @@ class RelationTarget
     /**
      * Returns a list of relation classes associated their target's entity type.
      *
-     * @return array
+     * @return array<string, class-string<Relation>>
      */
     public static function getClassMap(): array
     {

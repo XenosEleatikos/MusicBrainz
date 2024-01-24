@@ -30,6 +30,6 @@ trait RecordingNameWithoutAccentsTrait
      */
     public function addRecordingNameWithoutAccents(Name $recordingNameWithoutAccents): Phrase
     {
-        return $this->addPhrase((string)$recordingNameWithoutAccents, self::recordingNameWithoutAccent());
+        return $this->addPhrase((string) $recordingNameWithoutAccents, self::recordingNameWithoutAccent());
     }
 }

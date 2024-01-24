@@ -30,6 +30,6 @@ trait BeginAreaNameTrait
      */
     public function addBeginAreaName(Name $beginAreaName): Phrase
     {
-        return $this->addPhrase((string)$beginAreaName, self::beginAreaName());
+        return $this->addPhrase((string) $beginAreaName, self::beginAreaName());
     }
 }

@@ -47,6 +47,6 @@ class Instrument implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getInstrumentName();
+        return (string) $this->getInstrumentName();
     }
 }

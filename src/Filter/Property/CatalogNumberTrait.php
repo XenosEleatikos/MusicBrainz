@@ -30,6 +30,6 @@ trait CatalogNumberTrait
      */
     public function addCatalogNumber(CatalogNumber $catalogNumber): Phrase
     {
-        return $this->addPhrase((string)$catalogNumber, self::catalogNumber());
+        return $this->addPhrase((string) $catalogNumber, self::catalogNumber());
     }
 }

@@ -32,6 +32,6 @@ class Place extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getPlace();
+        return (string) $this->getPlace();
     }
 }

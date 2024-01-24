@@ -58,6 +58,6 @@ class Label implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getName();
+        return (string) $this->getName();
     }
 }

@@ -30,6 +30,6 @@ trait SecondaryTypeTrait
      */
     public function addSecondaryType(ReleaseType $secondaryType): Term
     {
-        return $this->addTerm((string)$secondaryType, self::secondaryType());
+        return $this->addTerm((string) $secondaryType, self::secondaryType());
     }
 }

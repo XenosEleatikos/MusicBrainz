@@ -40,6 +40,6 @@ class URL implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getResource();
+        return (string) $this->getResource();
     }
 }

@@ -34,6 +34,6 @@ class Rating implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getRatingValue();
+        return (string) $this->getRatingValue();
     }
 }

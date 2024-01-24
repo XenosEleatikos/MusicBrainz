@@ -32,6 +32,6 @@ class LabelInfo implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getCatalogueNumber();
+        return (string) $this->getCatalogueNumber();
     }
 }

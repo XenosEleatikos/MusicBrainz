@@ -32,6 +32,6 @@ trait IswcTrait
      */
     public function addDisambiguationComment(ISWC $iswc): Term
     {
-        return $this->addTerm((string)$iswc, self::iswc());
+        return $this->addTerm((string) $iswc, self::iswc());
     }
 }

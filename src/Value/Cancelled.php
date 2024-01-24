@@ -35,6 +35,6 @@ class Cancelled implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->cancelled;
+        return (string) $this->cancelled;
     }
 }

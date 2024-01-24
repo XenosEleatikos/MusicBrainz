@@ -35,6 +35,6 @@ class VideoFlag implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->video;
+        return (string) $this->video;
     }
 }

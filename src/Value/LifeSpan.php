@@ -38,6 +38,6 @@ class LifeSpan implements Value
     {
         return ($this->getEnded()->isEnded())
             ? $this->getBeginDate() . ' – ' . $this->getEndDate()
-            : (string)$this->getBeginDate();
+            : (string) $this->getBeginDate();
     }
 }

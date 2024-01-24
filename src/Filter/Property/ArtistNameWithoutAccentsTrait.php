@@ -30,6 +30,6 @@ trait ArtistNameWithoutAccentsTrait
      */
     public function addArtistNameWithoutAccents(Name $artistNameWithoutAccents): Phrase
     {
-        return $this->addPhrase((string)$artistNameWithoutAccents, self::artistNameWithoutAccent());
+        return $this->addPhrase((string) $artistNameWithoutAccents, self::artistNameWithoutAccent());
     }
 }

@@ -30,6 +30,6 @@ trait ArtistIdTrait
      */
     public function addArtistId(MBID $artistId): Term
     {
-        return $this->addTerm((string)$artistId, self::artistId());
+        return $this->addTerm((string) $artistId, self::artistId());
     }
 }

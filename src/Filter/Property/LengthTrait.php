@@ -30,6 +30,6 @@ trait LengthTrait
      */
     public function addLength(Length $length): Term
     {
-        return $this->addTerm((string)$length, self::length());
+        return $this->addTerm((string) $length, self::length());
     }
 }

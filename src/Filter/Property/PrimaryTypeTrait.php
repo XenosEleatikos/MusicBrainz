@@ -30,6 +30,6 @@ trait PrimaryTypeTrait
      */
     public function addPrimaryType(ReleaseType $primaryType): Term
     {
-        return $this->addTerm((string)$primaryType, self::primaryType());
+        return $this->addTerm((string) $primaryType, self::primaryType());
     }
 }

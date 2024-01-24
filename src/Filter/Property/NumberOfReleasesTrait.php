@@ -30,6 +30,6 @@ trait NumberOfReleasesTrait
      */
     public function addNumberOfReleases(Count $numberOfReleases): Term
     {
-        return $this->addTerm((string)$numberOfReleases, self::numberOfReleases());
+        return $this->addTerm((string) $numberOfReleases, self::numberOfReleases());
     }
 }

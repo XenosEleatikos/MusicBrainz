@@ -31,6 +31,6 @@ trait NumberOfDiscIdsTrait
      */
     public function addNumberOfDiscIds(Count $numberOfDiscIds): Term
     {
-        return $this->addTerm((string)$numberOfDiscIds, self::numberOfDiscIds());
+        return $this->addTerm((string) $numberOfDiscIds, self::numberOfDiscIds());
     }
 }

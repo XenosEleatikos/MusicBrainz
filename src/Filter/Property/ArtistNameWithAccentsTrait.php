@@ -30,6 +30,6 @@ trait ArtistNameWithAccentsTrait
      */
     public function addArtistNameWithAccents(Name $artistNameWithAccents): Phrase
     {
-        return $this->addPhrase((string)$artistNameWithAccents, self::artistNameWithAccent());
+        return $this->addPhrase((string) $artistNameWithAccents, self::artistNameWithAccent());
     }
 }

@@ -30,6 +30,6 @@ trait BarcodeTrait
      */
     public function addBarcode(Barcode $barcode): Term
     {
-        return $this->addTerm((string)$barcode, self::barcode());
+        return $this->addTerm((string) $barcode, self::barcode());
     }
 }

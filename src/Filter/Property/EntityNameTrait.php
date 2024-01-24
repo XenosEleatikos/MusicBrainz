@@ -30,6 +30,6 @@ trait EntityNameTrait
      */
     public function addEntityName(Name $entityName): Phrase
     {
-        return $this->addPhrase((string)$entityName, self::entityName());
+        return $this->addPhrase((string) $entityName, self::entityName());
     }
 }

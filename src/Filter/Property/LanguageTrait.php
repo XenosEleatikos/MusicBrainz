@@ -30,6 +30,6 @@ trait LanguageTrait
      */
     public function addLanguage(Language $language): Term
     {
-        return $this->addTerm((string)$language, self::language());
+        return $this->addTerm((string) $language, self::language());
     }
 }

@@ -32,6 +32,6 @@ class Recording extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getRecording();
+        return (string) $this->getRecording();
     }
 }

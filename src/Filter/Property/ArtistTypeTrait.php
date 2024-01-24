@@ -30,6 +30,6 @@ trait ArtistTypeTrait
      */
     public function addArtistType(ArtistType $artistType): Term
     {
-        return $this->addTerm((string)$artistType, self::artistType());
+        return $this->addTerm((string) $artistType, self::artistType());
     }
 }

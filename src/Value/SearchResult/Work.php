@@ -32,6 +32,6 @@ class Work extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getWork();
+        return (string) $this->getWork();
     }
 }

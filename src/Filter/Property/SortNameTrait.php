@@ -30,6 +30,6 @@ trait SortNameTrait
      */
     public function addSortNameWithAccents(Name $sortName): Phrase
     {
-        return $this->addPhrase((string)$sortName, self::sortName());
+        return $this->addPhrase((string) $sortName, self::sortName());
     }
 }

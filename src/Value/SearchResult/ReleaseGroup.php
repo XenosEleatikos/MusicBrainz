@@ -32,6 +32,6 @@ class ReleaseGroup extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getReleaseGroup();
+        return (string) $this->getReleaseGroup();
     }
 }

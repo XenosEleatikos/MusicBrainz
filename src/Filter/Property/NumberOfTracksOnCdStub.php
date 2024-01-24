@@ -30,6 +30,6 @@ trait NumberOfTracksOnCdStub
      */
     public function addNumberOfTracksOnCdStub(TrackNumber $numberOfTracksOnMedium): Term
     {
-        return $this->addTerm((string)$numberOfTracksOnMedium, self::numberOfTracksOnCdStub());
+        return $this->addTerm((string) $numberOfTracksOnMedium, self::numberOfTracksOnCdStub());
     }
 }

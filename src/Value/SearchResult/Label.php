@@ -32,6 +32,6 @@ class Label extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getLabel();
+        return (string) $this->getLabel();
     }
 }

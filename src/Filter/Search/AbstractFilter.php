@@ -50,7 +50,7 @@ abstract class AbstractFilter
      */
     public function __toString(): string
     {
-        return (string)$this->query;
+        return (string) $this->query;
     }
 
     /**

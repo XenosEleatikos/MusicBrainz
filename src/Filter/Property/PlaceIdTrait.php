@@ -31,6 +31,6 @@ trait PlaceIdTrait
      */
     public function addPlaceId(MBID $placeId): Term
     {
-        return $this->addTerm((string)$placeId, self::placeId());
+        return $this->addTerm((string) $placeId, self::placeId());
     }
 }

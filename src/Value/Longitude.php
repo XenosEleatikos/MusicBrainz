@@ -37,6 +37,6 @@ class Longitude implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->longitude;
+        return (string) $this->longitude;
     }
 }

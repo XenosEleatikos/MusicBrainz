@@ -69,6 +69,6 @@ class Artist implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->getArtistName();
+        return (string) $this->getArtistName();
     }
 }

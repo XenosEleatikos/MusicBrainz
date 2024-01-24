@@ -12,13 +12,14 @@ use MusicBrainz\Relation\NullType;
 use MusicBrainz\Relation\Type;
 use MusicBrainz\Value\Direction;
 use MusicBrainz\Value\MBID;
+use MusicBrainz\Value\Property\AreaTrait;
 
 /**
  * The relation factory
  */
 class RelationFactory
 {
-    use \MusicBrainz\Value\Property\AreaTrait;
+    use AreaTrait;
 
     /**
      * @param array $relations

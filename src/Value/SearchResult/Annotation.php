@@ -32,6 +32,6 @@ class Annotation extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getAnnotation();
+        return (string) $this->getAnnotation();
     }
 }

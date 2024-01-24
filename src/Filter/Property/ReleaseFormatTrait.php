@@ -30,6 +30,6 @@ trait ReleaseFormatTrait
      */
     public function addFormat(Format $format): Term
     {
-        return $this->addTerm((string)$format, self::format());
+        return $this->addTerm((string) $format, self::format());
     }
 }

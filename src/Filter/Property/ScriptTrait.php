@@ -30,6 +30,6 @@ trait ScriptTrait
      */
     public function addScript(Script $script): Term
     {
-        return $this->addTerm((string)$script, self::script());
+        return $this->addTerm((string) $script, self::script());
     }
 }

@@ -30,6 +30,6 @@ trait ReleaseGroupNameWithAccentsTrait
      */
     public function addReleaseGroupNameWithAccents(Name $releaseGroupNameWithAccents): Phrase
     {
-        return $this->addPhrase((string)$releaseGroupNameWithAccents, self::releaseGroupNameWithAccent());
+        return $this->addPhrase((string) $releaseGroupNameWithAccents, self::releaseGroupNameWithAccent());
     }
 }

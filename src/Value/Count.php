@@ -35,7 +35,7 @@ class Count implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->number;
+        return (string) $this->number;
     }
 
     /**

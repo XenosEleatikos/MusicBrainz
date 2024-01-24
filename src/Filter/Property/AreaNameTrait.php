@@ -30,6 +30,6 @@ trait AreaNameTrait
      */
     public function addAreaName(Name $areaName): Phrase
     {
-        return $this->addPhrase((string)$areaName, self::areaName());
+        return $this->addPhrase((string) $areaName, self::areaName());
     }
 }

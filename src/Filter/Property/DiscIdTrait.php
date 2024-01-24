@@ -31,6 +31,6 @@ trait DiscIdTrait
      */
     public function addDiscId(MBID $mbid): Term
     {
-        return $this->addTerm((string)$mbid, self::discId());
+        return $this->addTerm((string) $mbid, self::discId());
     }
 }

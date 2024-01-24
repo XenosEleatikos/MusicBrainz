@@ -30,6 +30,6 @@ trait EntityIdTrait
      */
     public function addEntityId(MBID $entityId): Term
     {
-        return $this->addTerm((string)$entityId, self::entityId());
+        return $this->addTerm((string) $entityId, self::entityId());
     }
 }

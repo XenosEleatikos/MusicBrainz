@@ -30,6 +30,6 @@ trait WorkIdTrait
      */
     public function addWorkId(MBID $workId): Term
     {
-        return $this->addTerm((string)$workId, self::workId());
+        return $this->addTerm((string) $workId, self::workId());
     }
 }

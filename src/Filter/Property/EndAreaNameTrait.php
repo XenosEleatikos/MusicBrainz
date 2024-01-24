@@ -30,6 +30,6 @@ trait EndAreaNameTrait
      */
     public function addEndAreaName(Name $endAreaName): Phrase
     {
-        return $this->addPhrase((string)$endAreaName, self::endAreaName());
+        return $this->addPhrase((string) $endAreaName, self::endAreaName());
     }
 }

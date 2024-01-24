@@ -45,6 +45,6 @@ class Ended implements Value
      */
     public function __toString(): string
     {
-        return (string)$this->ended;
+        return (string) $this->ended;
     }
 }

@@ -35,7 +35,7 @@ class TextRepresentation implements Value
         if (empty((string) $this->getScript())) {
             $textRepresentation = (empty((string) $this->getLanguage()))
                 ? ''
-                : $this->getLanguage();
+                : (string) $this->getLanguage();
         } else {
             $textRepresentation = $this->getScript();
             $textRepresentation .= (empty((string) $this->getLanguage()))

@@ -30,6 +30,6 @@ trait RecordingIdTrait
      */
     public function addRecordingId(MBID $recordingId): Term
     {
-        return $this->addTerm((string)$recordingId, self::recordingId());
+        return $this->addTerm((string) $recordingId, self::recordingId());
     }
 }

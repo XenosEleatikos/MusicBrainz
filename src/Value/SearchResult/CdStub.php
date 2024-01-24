@@ -32,6 +32,6 @@ class CdStub extends SearchResult
      */
     public function __toString(): string
     {
-        return (string)$this->getCdStub();
+        return (string) $this->getCdStub();
     }
 }

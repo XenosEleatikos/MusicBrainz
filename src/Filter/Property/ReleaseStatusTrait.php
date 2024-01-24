@@ -30,6 +30,6 @@ trait ReleaseStatusTrait
      */
     public function addReleaseStatus(ReleaseStatus $releaseStatus): Term
     {
-        return $this->addTerm((string)$releaseStatus, self::releaseStatus());
+        return $this->addTerm((string) $releaseStatus, self::releaseStatus());
     }
 }
