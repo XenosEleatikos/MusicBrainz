@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\MediaList;
 use MusicBrainz\Value\Medium;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of media.
  */

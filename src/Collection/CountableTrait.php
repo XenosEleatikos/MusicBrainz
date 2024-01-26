@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Collection;
 
+use function count;
+
 /**
  * Provides an implementation of the PHP countable interface.
  *

@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Collection;
 
+use function array_key_exists;
+
 /**
  * Provides accessing objects as arrays.
  *

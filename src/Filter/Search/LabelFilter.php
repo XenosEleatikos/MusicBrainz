@@ -4,18 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Search;
 
-use AskLucy\Expression\Clause\Phrase;
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Country;
-use MusicBrainz\Value\Date;
-use MusicBrainz\Value\Disambiguation;
-use MusicBrainz\Value\IPI;
-use MusicBrainz\Value\LabelCode;
-use MusicBrainz\Value\LabelType;
-use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Name;
-use MusicBrainz\Value\Tag;
-
 /**
  * A filter for searching labels
  *

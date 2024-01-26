@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use ArrayAccess;
+use Countable;
+use Iterator;
 use MusicBrainz\Collection\ArrayAccessTrait;
 use MusicBrainz\Collection\CollectionTrait;
 use MusicBrainz\Collection\CountableTrait;
@@ -15,9 +18,9 @@ use MusicBrainz\Collection\IteratorTrait;
  * @link http://php.net/manual/en/class.iterator.php
  */
 abstract class ValueList implements
-    \ArrayAccess,
-    \Countable,
-    \Iterator
+    ArrayAccess,
+    Countable,
+    Iterator
 {
     use ArrayAccessTrait;
     use CollectionTrait;

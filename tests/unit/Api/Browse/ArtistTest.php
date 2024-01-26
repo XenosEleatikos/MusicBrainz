@@ -8,11 +8,13 @@ use MusicBrainz\Filter\Browse\Relation\Entity\ArtistRelation;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\ArtistFields;
 use MusicBrainz\Test\Api\ApiTestCase;
+use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\ArtistType;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Artist;
-use MusicBrainz\Value\Page\ArtistListPage;
 use MusicBrainz\Value\Name;
+use MusicBrainz\Value\Page\ArtistListPage;
+
+use function count;
 
 /**
  * Unit tests for the browse artist request

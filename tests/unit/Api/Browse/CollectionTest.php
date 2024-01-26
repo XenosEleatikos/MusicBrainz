@@ -7,13 +7,15 @@ namespace MusicBrainz\Test\Api\Browse;
 use MusicBrainz\Filter\Browse\Relation\Entity\CollectionRelation;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Test\Api\ApiTestCase;
+use MusicBrainz\Value\Collection;
 use MusicBrainz\Value\CollectionName;
 use MusicBrainz\Value\Count;
 use MusicBrainz\Value\EditorName;
 use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Collection;
 use MusicBrainz\Value\Page\CollectionListPage;
+
+use function count;
 
 /**
  * Unit tests for the browse collection request

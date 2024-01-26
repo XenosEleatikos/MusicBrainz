@@ -7,6 +7,8 @@ namespace MusicBrainz\Value\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\CatalogNumber;
 
+use function is_null;
+
 /**
  * Provides a getter for the catalog number.
  */

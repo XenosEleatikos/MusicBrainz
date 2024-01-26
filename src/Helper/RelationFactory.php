@@ -14,6 +14,9 @@ use MusicBrainz\Value\Direction;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Property\AreaTrait;
 
+use function array_key_exists;
+use function is_null;
+
 /**
  * The relation factory
  */

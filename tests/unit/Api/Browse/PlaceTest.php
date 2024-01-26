@@ -9,8 +9,10 @@ use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\PlaceFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Place;
 use MusicBrainz\Value\Page\PlaceListPage;
+use MusicBrainz\Value\Place;
+
+use function count;
 
 /**
  * Unit tests for the browse place request

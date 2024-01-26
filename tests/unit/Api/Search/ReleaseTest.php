@@ -13,29 +13,31 @@ use MusicBrainz\Value\ArtistCredit;
 use MusicBrainz\Value\ArtistCreditList;
 use MusicBrainz\Value\ASIN;
 use MusicBrainz\Value\Country;
+use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Format;
 use MusicBrainz\Value\ISO31661Code;
 use MusicBrainz\Value\ISO31661CodeList;
 use MusicBrainz\Value\Language;
+use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\MediaList;
 use MusicBrainz\Value\Medium;
+use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Packaging;
+use MusicBrainz\Value\Page\SearchResult\ReleaseListPage;
 use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseEvent;
 use MusicBrainz\Value\ReleaseEventList;
 use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\ReleaseStatus;
 use MusicBrainz\Value\ReleaseType;
-use MusicBrainz\Value\Date;
-use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Name;
-use MusicBrainz\Value\Page\SearchResult\ReleaseListPage;
 use MusicBrainz\Value\ReleaseTypeList;
 use MusicBrainz\Value\Script;
 use MusicBrainz\Value\SearchResult;
 use MusicBrainz\Value\SortName;
 use MusicBrainz\Value\TextRepresentation;
 use MusicBrainz\Value\Title;
+
+use function count;
 
 /**
  * Unit tests for the release search

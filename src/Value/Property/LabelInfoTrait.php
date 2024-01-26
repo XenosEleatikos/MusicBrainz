@@ -7,6 +7,8 @@ namespace MusicBrainz\Value\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\LabelInfo;
 
+use function is_null;
+
 /**
  * Provides a getter for label information
  */

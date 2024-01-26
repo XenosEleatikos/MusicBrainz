@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\LabelRelationListTrait;
-use MusicBrainz\Relation\Target\RelationList\Property\RelationsToLabelTrait;
 use MusicBrainz\Value;
 
 /**

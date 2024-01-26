@@ -7,6 +7,7 @@ namespace MusicBrainz\Test\Api;
 use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
 use MusicBrainz\MusicBrainz;
 use PHPUnit\Framework\TestCase;
+use PHPUnit_Framework_MockObject_MockObject;
 
 /**
  * Unit tests for the lookup API.
@@ -16,7 +17,7 @@ abstract class ApiTestCase extends TestCase
     /**
      * A mock object of the abstract HTTP adapter
      *
-     * @var \PHPUnit_Framework_MockObject_MockObject|AbstractHttpAdapter
+     * @var PHPUnit_Framework_MockObject_MockObject|AbstractHttpAdapter
      */
     private AbstractHttpAdapter $httpAdapter;
 

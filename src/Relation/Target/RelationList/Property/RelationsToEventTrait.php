@@ -5,9 +5,11 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Target\RelationList\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Relation\Target\RelationList\RelationToEventList;
 use MusicBrainz\Relation\Target\RelationToEvent;
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Target\RelationList\RelationToEventList;
+
+use function is_null;
 
 /**
  * Provides a getter for the list of relations to an event.

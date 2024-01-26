@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of releases.
  */

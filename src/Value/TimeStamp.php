@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use DateTime;
 use MusicBrainz\Value;
 
 /**
@@ -14,7 +15,7 @@ class TimeStamp implements Value
     /**
      * The time of day as string, formatted like 00:00, ..., 23:59
      *
-     * @var null|\DateTime
+     * @var null|DateTime
      */
     private $dateTime;
 
@@ -36,7 +37,7 @@ class TimeStamp implements Value
              * - \DateTime::format() doesn't work, if the DateTime object was created with milliseconds. So we remove
              * them with substr()
              */
-            $dateTime = \DateTime::createFromFormat(
+            $dateTime = DateTime::createFromFormat(
                 'Y-m-d-H:i:s',
                 substr(strtr($time, 'T', '-'), 0, 19)
             );
@@ -48,9 +49,9 @@ class TimeStamp implements Value
     /**
      * Returns the DateTime object.
      *
-     * @return null|\DateTime
+     * @return null|DateTime
      */
-    public function getDateTime(): ?\DateTime
+    public function getDateTime(): ?DateTime
     {
         return $this->dateTime;
     }

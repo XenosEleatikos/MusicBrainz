@@ -6,6 +6,7 @@ namespace MusicBrainz\Api;
 
 use MusicBrainz\Config;
 use MusicBrainz\Exception;
+use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AbstractFilter;
 use MusicBrainz\Filter\Search\AnnotationFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
@@ -19,7 +20,6 @@ use MusicBrainz\Filter\Search\ReleaseGroupFilter;
 use MusicBrainz\Filter\Search\TagFilter;
 use MusicBrainz\Filter\Search\WorkFilter;
 use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
-use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Value\Page\SearchResult\AnnotationListPage;
 use MusicBrainz\Value\Page\SearchResult\AreaListPage;
 use MusicBrainz\Value\Page\SearchResult\ArtistListPage;

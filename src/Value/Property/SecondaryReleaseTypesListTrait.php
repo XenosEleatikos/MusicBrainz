@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\ReleaseType;
 use MusicBrainz\Value\ReleaseTypeList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of secondary release types.
  */

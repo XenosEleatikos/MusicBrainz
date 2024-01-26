@@ -9,8 +9,10 @@ use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\ReleaseFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Release;
 use MusicBrainz\Value\Page\ReleaseListPage;
+use MusicBrainz\Value\Release;
+
+use function count;
 
 /**
  * Unit tests for the browse release request

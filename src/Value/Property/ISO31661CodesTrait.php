@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\ISO31661Code;
 use MusicBrainz\Value\ISO31661CodeList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of ISO 3166-1 codes.
  */

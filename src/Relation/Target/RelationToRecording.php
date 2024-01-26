@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Target;
 
 use MusicBrainz\Relation;
-use MusicBrainz\Value\Recording;
 use MusicBrainz\Value\EntityType;
+use MusicBrainz\Value\Recording;
 
 /**
  * A recording relation

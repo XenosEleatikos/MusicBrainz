@@ -9,8 +9,10 @@ use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\RecordingFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Recording;
 use MusicBrainz\Value\Page\RecordingListPage;
+use MusicBrainz\Value\Recording;
+
+use function count;
 
 /**
  * Unit tests for the browse recording request

@@ -9,6 +9,8 @@ use GuzzleHttp\Exception\GuzzleException;
 use MusicBrainz\Config;
 use MusicBrainz\Exception;
 
+use function is_array;
+
 /**
  * Adapter for Guzzle 7 HTTP Client.
  *

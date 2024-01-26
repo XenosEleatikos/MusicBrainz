@@ -7,6 +7,8 @@ namespace MusicBrainz\Relation\RelationList\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Relation\RelationList\EventRelationList;
 
+use function is_null;
+
 /**
  * Provides a getter for the list of relations an event stands in.
  */

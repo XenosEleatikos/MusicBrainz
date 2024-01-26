@@ -6,7 +6,6 @@ namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Count;
-use MusicBrainz\Value\Country;
 
 trait NumberOfDiscIdsTrait
 {

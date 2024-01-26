@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use function array_key_exists;
+
 /**
  * A list of values
  *

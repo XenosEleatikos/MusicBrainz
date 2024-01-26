@@ -9,8 +9,10 @@ use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\SeriesFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Series;
 use MusicBrainz\Value\Page\SeriesListPage;
+use MusicBrainz\Value\Series;
+
+use function count;
 
 /**
  * Unit tests for the browse series request

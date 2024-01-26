@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Direction;
 
 /**

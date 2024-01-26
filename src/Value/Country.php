@@ -6,6 +6,8 @@ namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
 
+use function strlen;
+
 /**
  * A country
  *

@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\LabelInfo;
 use MusicBrainz\Value\LabelInfoList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of label information.
  */

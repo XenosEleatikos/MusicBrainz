@@ -8,9 +8,11 @@ use MusicBrainz\Filter\Browse\Relation\Entity\EventRelation;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\EventFields;
 use MusicBrainz\Test\Api\ApiTestCase;
-use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Event;
+use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Page\EventListPage;
+
+use function count;
 
 /**
  * Unit tests for the browse event request

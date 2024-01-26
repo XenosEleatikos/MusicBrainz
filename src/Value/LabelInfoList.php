@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value\LabelInfo;
-use MusicBrainz\Value\ValueList;
-
 /**
  * A list of label information
  */

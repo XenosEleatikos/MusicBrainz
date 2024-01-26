@@ -8,9 +8,11 @@ use MusicBrainz\Filter\Browse\Relation\Entity\LabelRelation;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\LabelFields;
 use MusicBrainz\Test\Api\ApiTestCase;
-use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Label;
+use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Page\LabelListPage;
+
+use function count;
 
 /**
  * Unit tests for the browse label request

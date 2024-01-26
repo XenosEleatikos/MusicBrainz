@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\IPI;
 use MusicBrainz\Value\IPIList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of IPI codes.
  */

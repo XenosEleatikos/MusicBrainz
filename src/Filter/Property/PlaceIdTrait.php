@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Barcode;
 use MusicBrainz\Value\MBID;
 
 trait PlaceIdTrait

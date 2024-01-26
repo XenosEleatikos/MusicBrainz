@@ -7,6 +7,8 @@ namespace MusicBrainz\Relation\RelationList\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Relation\RelationList\LabelRelationList;
 
+use function is_null;
+
 /**
  * Provides a getter for the list of relations an label stands in.
  */

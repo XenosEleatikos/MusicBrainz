@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\ArtistCredit;
 use MusicBrainz\Value\ArtistCreditList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of artist credits.
  */

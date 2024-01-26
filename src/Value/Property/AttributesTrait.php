@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Attribute;
 use MusicBrainz\Value\AttributeList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of attributes.
  */

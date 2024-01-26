@@ -4,9 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Disambiguation;
 use MusicBrainz\Value\ISWC;
 
 trait IswcTrait

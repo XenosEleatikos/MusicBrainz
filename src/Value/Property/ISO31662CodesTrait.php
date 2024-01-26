@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\ISO31662Code;
 use MusicBrainz\Value\ISO31662CodeList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of ISO 3166-2 codes.
  */

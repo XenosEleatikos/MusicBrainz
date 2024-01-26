@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Supplement;
 
-abstract class Fields implements \JsonSerializable
+use JsonSerializable;
+
+abstract class Fields implements JsonSerializable
 {
     public function __toString(): string
     {

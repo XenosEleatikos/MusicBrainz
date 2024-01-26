@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\SectorOffsetList;
 use MusicBrainz\Value\Sectors;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of sector offsets.
  */

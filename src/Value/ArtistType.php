@@ -7,6 +7,8 @@ namespace MusicBrainz\Value;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value;
 
+use function in_array;
+
 /**
  * An artist type
  *

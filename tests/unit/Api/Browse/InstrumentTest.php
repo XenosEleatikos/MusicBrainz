@@ -14,17 +14,19 @@ use MusicBrainz\Value\AliasType;
 use MusicBrainz\Value\Count;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Ended;
+use MusicBrainz\Value\Instrument;
 use MusicBrainz\Value\InstrumentName;
 use MusicBrainz\Value\InstrumentType;
 use MusicBrainz\Value\LocaleCode;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Instrument;
-use MusicBrainz\Value\Page\InstrumentListPage;
 use MusicBrainz\Value\Name;
+use MusicBrainz\Value\Page\InstrumentListPage;
 use MusicBrainz\Value\PrimaryNameFlag;
 use MusicBrainz\Value\SortName;
 use MusicBrainz\Value\Tag;
 use MusicBrainz\Value\TagList;
+
+use function count;
 
 /**
  * Unit tests for the browse instrument request

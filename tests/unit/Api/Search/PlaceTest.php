@@ -11,6 +11,8 @@ use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Page\SearchResult\PlaceListPage;
 use MusicBrainz\Value\SearchResult;
 
+use function count;
+
 /**
  * Unit tests for the place search
  */

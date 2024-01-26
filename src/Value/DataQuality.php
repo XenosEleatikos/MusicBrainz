@@ -6,6 +6,8 @@ namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
 
+use function in_array;
+
 /**
  * The data quality
  * Data quality indicates how good the data for a release is. It is not a mark of how good or bad the music itself is.

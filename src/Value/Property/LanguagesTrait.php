@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Language;
 use MusicBrainz\Value\LanguageList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of languages.
  */

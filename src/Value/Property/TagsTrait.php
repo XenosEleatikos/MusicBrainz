@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Tag;
 use MusicBrainz\Value\TagList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of tags.
  */

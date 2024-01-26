@@ -8,9 +8,11 @@ use MusicBrainz\Filter\Browse\Relation\Entity\AreaRelation;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\AreaFields;
 use MusicBrainz\Test\Api\ApiTestCase;
-use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Area;
+use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Page\AreaListPage;
+
+use function count;
 
 /**
  * Unit tests for the browse area request

@@ -6,6 +6,8 @@ namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
 
+use function in_array;
+
 /**
  * The type describes the main activity of the label.
  *

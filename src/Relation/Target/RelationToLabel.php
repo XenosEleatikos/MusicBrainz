@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Target;
 
 use MusicBrainz\Relation;
-use MusicBrainz\Value\Label;
 use MusicBrainz\Value\EntityType;
+use MusicBrainz\Value\Label;
 
 /**
  * A label relation

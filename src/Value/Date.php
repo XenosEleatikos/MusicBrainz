@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use DateTime;
 use MusicBrainz\Value;
 
 /**
@@ -24,7 +25,7 @@ class Date implements Value
     /**
      * Date and time
      *
-     * @var null|\DateTime
+     * @var null|DateTime
      */
     private $dateTime;
 
@@ -45,7 +46,7 @@ class Date implements Value
             return;
         }
 
-        $dateTime = \DateTime::createFromFormat('!' . $this->originalFormat, $date);
+        $dateTime = DateTime::createFromFormat('!' . $this->originalFormat, $date);
 
         $this->dateTime = ($dateTime && $dateTime->format($this->originalFormat) === $date)
             ? $dateTime
@@ -83,9 +84,9 @@ class Date implements Value
     /**
      * Returns the date time object.
      *
-     * @return null|\DateTime
+     * @return null|DateTime
      */
-    public function getDateTime(): ?\DateTime
+    public function getDateTime(): ?DateTime
     {
         return $this->dateTime;
     }

@@ -17,6 +17,8 @@ use MusicBrainz\Value\Page\SearchResult\ArtistListPage;
 use MusicBrainz\Value\SearchResult;
 use MusicBrainz\Value\SortName;
 
+use function count;
+
 /**
  * Unit tests for the search API.
  */

@@ -6,7 +6,8 @@ namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Tag;
-use MusicBrainz\Value\Work;
+
+use function is_null;
 
 /**
  * Provides a getter for a Tag.

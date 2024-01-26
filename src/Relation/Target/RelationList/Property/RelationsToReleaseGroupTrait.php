@@ -5,9 +5,11 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Target\RelationList\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Relation\Target\RelationList\RelationToReleaseGroupList;
 use MusicBrainz\Relation\Target\RelationToReleaseGroup;
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Relation\Target\RelationList\RelationToReleaseGroupList;
+
+use function is_null;
 
 /**
  * Provides a getter for the list of relations to a release group.

@@ -7,7 +7,6 @@ namespace MusicBrainz\SpecificationTest;
 use DirectoryIterator;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use MusicBrainz\Definition\RelationTypeId;
 use PHPUnit\Framework\TestCase;
 use SplFileInfo;
 use Symfony\Component\DomCrawler\Crawler;

@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\ArtistType;
 
+use function is_null;
+
 /**
  * Provides a getter for the ending area.
  */

@@ -11,6 +11,8 @@ use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Page\SearchResult\LabelListPage;
 use MusicBrainz\Value\SearchResult;
 
+use function count;
+
 /**
  * Unit tests for the label search
  */

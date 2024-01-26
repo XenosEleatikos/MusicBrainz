@@ -6,6 +6,8 @@ namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
 
+use function in_array;
+
 /**
  * A type of series
  * The type primarily describes what type of entity the series contains.

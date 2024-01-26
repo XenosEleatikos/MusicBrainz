@@ -7,6 +7,8 @@ namespace MusicBrainz\Relation\RelationList\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Relation\RelationList\PlaceRelationList;
 
+use function is_null;
+
 /**
  * Provides a getter for the list of relations an place stands in.
  */

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Page\SearchResult;
 
-use MusicBrainz\Value\SearchResult\Area;
 use MusicBrainz\Value\Page;
+use MusicBrainz\Value\SearchResult\Area;
 
 /**
  * A list of values

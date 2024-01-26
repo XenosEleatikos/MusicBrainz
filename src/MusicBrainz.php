@@ -8,6 +8,8 @@ use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
+use function is_null;
+
 /**
  * The library's main class
  */

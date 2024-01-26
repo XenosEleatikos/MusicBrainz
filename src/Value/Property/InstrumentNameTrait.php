@@ -7,6 +7,8 @@ namespace MusicBrainz\Value\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\InstrumentName;
 
+use function is_null;
+
 /**
  * Provides a getter for an instrument name.
  */

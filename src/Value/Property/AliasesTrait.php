@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Alias;
 use MusicBrainz\Value\AliasList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of aliases.
  */

@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\Track;
 use MusicBrainz\Value\TrackList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of tracks.
  */

@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace MusicBrainz;
 
 use MusicBrainz\Api\Browse;
-use MusicBrainz\Api\Search;
 use MusicBrainz\Api\Lookup;
+use MusicBrainz\Api\Search;
 use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
 
 /**

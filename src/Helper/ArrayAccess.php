@@ -6,6 +6,13 @@ namespace MusicBrainz\Helper;
 
 use MusicBrainz\MusicBrainz;
 
+use function gettype;
+use function is_array;
+use function is_bool;
+use function is_float;
+use function is_int;
+use function is_string;
+
 /**
  * A helper class for extracting values from an array.
  */

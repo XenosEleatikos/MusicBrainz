@@ -15,6 +15,8 @@ use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Page\SearchResult\AnnotationListPage;
 use MusicBrainz\Value\SearchResult;
 
+use function count;
+
 /**
  * Unit tests for the search API.
  */

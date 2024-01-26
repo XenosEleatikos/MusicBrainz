@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\ISWC;
 use MusicBrainz\Value\ISWCList;
 
+use function is_null;
+
 /**
  * Provides a getter for a list of International Standard Musical Work Codes (ISWC).
  */

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Api\Lookup;
 
-use MusicBrainz\Relation\Target\RelationList\RelationToAreaList;
 use MusicBrainz\Relation\Target\RelationList\RelationToArtistList;
 use MusicBrainz\Relation\Target\RelationList\RelationToEventList;
 use MusicBrainz\Relation\Target\RelationList\RelationToInstrumentList;
@@ -33,6 +32,7 @@ use MusicBrainz\Value\Language;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\MediaList;
 use MusicBrainz\Value\Medium;
+use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseEvent;
 use MusicBrainz\Value\ReleaseEventList;
@@ -42,7 +42,6 @@ use MusicBrainz\Value\ReleaseStatus;
 use MusicBrainz\Value\Script;
 use MusicBrainz\Value\SectorOffsetList;
 use MusicBrainz\Value\Sectors;
-use MusicBrainz\Value\Name;
 use MusicBrainz\Value\TextRepresentation;
 use MusicBrainz\Value\Title;
 

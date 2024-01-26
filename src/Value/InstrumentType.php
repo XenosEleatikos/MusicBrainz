@@ -6,6 +6,9 @@ namespace MusicBrainz\Value;
 
 use MusicBrainz\Value;
 
+use function in_array;
+use function is_null;
+
 /**
  * An instrument type
  */

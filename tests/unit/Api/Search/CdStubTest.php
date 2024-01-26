@@ -11,6 +11,8 @@ use MusicBrainz\Value\Page\SearchResult\CdStubListPage;
 use MusicBrainz\Value\SearchResult;
 use MusicBrainz\Value\Title;
 
+use function count;
+
 /**
  * Unit tests for the cdStub search
  */

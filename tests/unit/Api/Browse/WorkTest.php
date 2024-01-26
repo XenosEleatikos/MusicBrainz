@@ -9,8 +9,10 @@ use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\WorkFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Work;
 use MusicBrainz\Value\Page\WorkListPage;
+use MusicBrainz\Value\Work;
+
+use function count;
 
 /**
  * Unit tests for the browse work request

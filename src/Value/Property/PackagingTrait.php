@@ -8,6 +8,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Packaging;
 
+use function is_null;
+
 /**
  * Provides a getter for a packaging.
  */
