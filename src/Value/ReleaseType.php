@@ -124,9 +124,9 @@ class ReleaseType implements Value
     /**
      * Constructs a release type.
      *
-     * @param null|string $typeCode A release type code
+     * @param string $typeCode A release type code
      */
-    public function __construct(?string $typeCode = self::OTHER)
+    public function __construct(string $typeCode = self::OTHER)
     {
         $this->typeCode = (in_array($typeCode, self::TYPE_CODES))
             ? $typeCode

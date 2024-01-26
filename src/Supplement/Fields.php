@@ -17,6 +17,7 @@ abstract class Fields implements \JsonSerializable
             $mappedKey = str_replace(
                 'relations',
                 'rels',
+                // @phpstan-ignore-next-line The following Regex converts 'urlRelations' to 'url-relations'
                 strtolower(preg_replace('/(?<!^)[A-Z]/', '-$0', $key))
             );
             $array[$mappedKey] = $property;

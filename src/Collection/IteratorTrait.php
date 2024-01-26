@@ -70,6 +70,6 @@ trait IteratorTrait
      */
     public function valid(): bool
     {
-        return array_key_exists($this->key(), $this->elements);
+        return key($this->elements) !== null;
     }
 }

@@ -42,8 +42,9 @@ trait ReleaseStatusTrait
         $releaseStatus   = ArrayAccess::getString($input, 'status');
         $releaseStatusId = ArrayAccess::getString($input, 'status-id');
 
-        $this->releaseStatus = (is_null($releaseStatus) && is_null($releaseStatusId))
-            ? new ReleaseStatus()
-            : new ReleaseStatus($releaseStatus, new MBID($releaseStatusId ?: ''));
+        $this->releaseStatus = new ReleaseStatus(
+            $releaseStatus ?? ReleaseStatus::UNDEFINED,
+            isset($releaseStatusId) ? new MBID($releaseStatusId) : null
+        );
     }
 }

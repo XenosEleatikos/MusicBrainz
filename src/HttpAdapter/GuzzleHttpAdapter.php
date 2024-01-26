@@ -86,6 +86,12 @@ class GuzzleHttpAdapter extends AbstractHttpAdapter
             throw new Exception($exception->getMessage());
         }
 
-        return json_decode($request->getBody()->getContents(), true);
+        $array = json_decode($request->getBody()->getContents(), true);
+
+        if (!is_array($array)) {
+            throw new Exception('Unexpected response from the webservice: ' . $request->getBody()->getContents());
+        }
+
+        return $array;
     }
 }

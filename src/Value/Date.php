@@ -107,8 +107,8 @@ class Date implements Value
      */
     public function __toString(): string
     {
-        return ($this->getDateTime())
-            ? $this->getDateTime()->format($this->getOriginalFormat())
+        return isset($this->dateTime) && isset($this->originalFormat)
+            ? $this->dateTime->format($this->originalFormat)
             : '';
     }
 }

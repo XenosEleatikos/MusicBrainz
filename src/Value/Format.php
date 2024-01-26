@@ -30,7 +30,7 @@ class Format implements Value
      */
     public function __construct(array $format = [])
     {
-        $this->code = ArrayAccess::getString($format, 'format');
+        $this->code = ArrayAccess::getString($format, 'format') ?? '';
         $this->setMbidFromArray($format, 'format-id');
     }
 

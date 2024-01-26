@@ -57,7 +57,7 @@ class RelationFactory
             return null;
         }
 
-        $direction = new Direction(ArrayAccess::getString($relation, 'direction'));
+        $direction = new Direction(ArrayAccess::getString($relation, 'direction') ?? '');
 
         $relatedEntityType = (Direction::FORWARD == $direction)
             ? $relationType::getRelatedEntityType()

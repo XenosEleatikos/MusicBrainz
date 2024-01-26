@@ -41,6 +41,6 @@ trait AnnotationTrait
     {
         $this->annotation = (is_null($key))
             ? new Annotation($annotation)
-            : new Annotation(ArrayAccess::getArray($annotation, $key));
+            : new Annotation(ArrayAccess::getArray($annotation, $key) ?? []);
     }
 }

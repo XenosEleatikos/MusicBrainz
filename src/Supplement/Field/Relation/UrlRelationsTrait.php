@@ -11,7 +11,7 @@ trait UrlRelationsTrait
      *
      * @var bool
      */
-    protected bool $UrlRelations = false;
+    protected bool $urlRelations = false;
 
     /**
      * Returns true, if URL relations should be included, otherwise false.
@@ -20,19 +20,19 @@ trait UrlRelationsTrait
      */
     public function getIncludeFlagForURLRelations(): bool
     {
-        return $this->UrlRelations;
+        return $this->urlRelations;
     }
 
     /**
      * Sets whether URL relations should be included.
      *
-     * @param bool $URLRelations True, if URL relations should be included, otherwise false
+     * @param bool $urlRelations True, if URL relations should be included, otherwise false
      *
      * @return self
      */
-    public function includeUrlRelations(bool $URLRelations = true): self
+    public function includeUrlRelations(bool $urlRelations = true): self
     {
-        $this->UrlRelations = $URLRelations;
+        $this->urlRelations = $urlRelations;
 
         return $this;
     }

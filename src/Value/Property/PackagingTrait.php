@@ -44,6 +44,6 @@ trait PackagingTrait
 
         $this->packaging = (is_null($packaging) && is_null($packagingId))
         ? new Packaging()
-        : new Packaging($packaging, new MBID($packagingId ?: ''));
+        : new Packaging($packaging ?? Packaging::UNDEFINED, new MBID($packagingId ?: ''));
     }
 }
