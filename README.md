@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/XenosEleatikos/MusicBrainz.svg)](https://travis-ci.org/XenosEleatikos/MusicBrainz)
-
 # MusicBrainz API Client
 This project contains an easy to use PHP API client for the [MusicBrainz JSON web service](https://musicbrainz.org/doc/Development/JSON_Web_Service).
 
