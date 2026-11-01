@@ -83,7 +83,7 @@ final readonly class Page implements ArrayAccess, Countable, IteratorAggregate
     {
         $items = [];
         foreach (self::elements($result, $type) as $element) {
-            $items[] = SearchResult::fromArray($element, $class);
+            $items[] = SearchResult::from($element, $class);
         }
 
         return new self(

@@ -14,16 +14,6 @@ trait ReleaseGroupLevelRelationsTrait
     protected bool $releaseGroupLevelRelations = false;
 
     /**
-     * Returns true, if release group level relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForReleaseGroupLevelRelations(): bool
-    {
-        return $this->releaseGroupLevelRelations;
-    }
-
-    /**
      * Sets whether release group level relations should be included.
      *
      * @param bool $releaseGroupLevelRelations True, if release group level relations should be included, otherwise false

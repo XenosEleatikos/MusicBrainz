@@ -14,16 +14,6 @@ trait ArtistRelationsTrait
     protected bool $artistRelations = false;
 
     /**
-     * Returns true, if artist relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForArtistRelations(): bool
-    {
-        return $this->artistRelations;
-    }
-
-    /**
      * Sets whether artist relations should be included.
      *
      * @param bool $artistRelations True, if artist relations should be included, otherwise false

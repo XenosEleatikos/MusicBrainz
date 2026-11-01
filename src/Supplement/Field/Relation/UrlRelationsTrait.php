@@ -14,16 +14,6 @@ trait UrlRelationsTrait
     protected bool $urlRelations = false;
 
     /**
-     * Returns true, if URL relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForURLRelations(): bool
-    {
-        return $this->urlRelations;
-    }
-
-    /**
      * Sets whether URL relations should be included.
      *
      * @param bool $urlRelations True, if URL relations should be included, otherwise false

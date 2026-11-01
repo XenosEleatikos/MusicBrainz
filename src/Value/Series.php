@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Series
  */
-final readonly class Series implements Parsable
+final readonly class Series implements Entity
 {
     /**
      * @param list<Alias> $aliases
@@ -50,7 +50,7 @@ final readonly class Series implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            SeriesType::fromArray($data, 'type', 'type-id'),
+            SeriesType::fromKeys($data, 'type', 'type-id'),
             ...SharedFields::parse($data),
         );
     }

@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Release_Group
  */
-final readonly class ReleaseGroup implements Parsable
+final readonly class ReleaseGroup implements Entity
 {
     /**
      * @param list<SecondaryReleaseType> $secondaryTypes
@@ -58,7 +58,7 @@ final readonly class ReleaseGroup implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'title') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            PrimaryReleaseType::fromArray($data, 'primary-type', 'primary-type-id'),
+            PrimaryReleaseType::fromKeys($data, 'primary-type', 'primary-type-id'),
             self::secondaryTypes($data),
             Json::list($data, 'artist-credit', ArtistCredit::class),
             Json::id($data, 'artist-credit-id'),

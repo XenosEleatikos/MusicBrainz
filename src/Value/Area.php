@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Area
  */
-final readonly class Area implements Parsable
+final readonly class Area implements Entity
 {
     /**
      * @param list<string> $iso31661Codes
@@ -59,27 +59,13 @@ final readonly class Area implements Parsable
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'sort-name'),
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            AreaType::fromArray($data, 'type', 'type-id'),
+            AreaType::fromKeys($data, 'type', 'type-id'),
             Json::strings($data, 'iso-3166-1-codes'),
             Json::strings($data, 'iso-3166-2-codes'),
             Json::strings($data, 'iso-3166-3-codes'),
-            self::object($data, 'life-span', LifeSpan::class),
+            Json::object($data, 'life-span', LifeSpan::class),
             ...SharedFields::parse($data),
         );
     }
 
-    /**
-     * @param array<mixed>    $data
-     * @param class-string<T> $class
-     *
-     * @return null|T
-     *
-     * @template T of Parsable
-     */
-    private static function object(array $data, string $key, string $class): ?object
-    {
-        $object = Json::object($data, $key, $class);
-
-        return $object instanceof $class ? $object : null;
-    }
 }

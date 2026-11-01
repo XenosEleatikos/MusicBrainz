@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Instrument
  */
-final readonly class Instrument implements Parsable
+final readonly class Instrument implements Entity
 {
     /**
      * @param list<Alias> $aliases
@@ -51,7 +51,7 @@ final readonly class Instrument implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            InstrumentType::fromArray($data, 'type', 'type-id'),
+            InstrumentType::fromKeys($data, 'type', 'type-id'),
             ArrayAccess::getString($data, 'description') ?? '',
             ...SharedFields::parse($data),
         );

@@ -14,16 +14,6 @@ trait RatingsTrait
     protected bool $ratings = false;
 
     /**
-     * Returns true, if ratings should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForRatings(): bool
-    {
-        return $this->ratings;
-    }
-
-    /**
      * Sets whether ratings should be included.
      *
      * @param bool $ratings True, if ratings should be included, otherwise false

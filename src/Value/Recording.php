@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Recording
  */
-final readonly class Recording implements Parsable
+final readonly class Recording implements Entity
 {
     /**
      * @param list<ArtistCredit> $artistCredits

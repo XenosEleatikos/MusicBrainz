@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Work
  */
-final readonly class Work implements Parsable
+final readonly class Work implements Entity
 {
     /**
      * @param list<string> $languages
@@ -57,7 +57,7 @@ final readonly class Work implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'title') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            WorkType::fromArray($data, 'type', 'type-id'),
+            WorkType::fromKeys($data, 'type', 'type-id'),
             ArrayAccess::getString($data, 'language'),
             Json::strings($data, 'languages'),
             Json::strings($data, 'iswcs'),

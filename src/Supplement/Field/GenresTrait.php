@@ -14,16 +14,6 @@ trait GenresTrait
     protected bool $genres = false;
 
     /**
-     * Returns true, if genres should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForGenres(): bool
-    {
-        return $this->genres;
-    }
-
-    /**
      * Sets whether genres should be included.
      *
      * @param bool $genres True, if genres should be included, otherwise false

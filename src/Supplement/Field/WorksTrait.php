@@ -14,16 +14,6 @@ trait WorksTrait
     protected bool $works = false;
 
     /**
-     * Returns true, if works should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForWorks(): bool
-    {
-        return $this->works;
-    }
-
-    /**
      * Sets whether works should be included.
      *
      * @param bool $works True, if works should be included, otherwise false

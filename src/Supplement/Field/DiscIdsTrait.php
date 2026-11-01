@@ -14,16 +14,6 @@ trait DiscIdsTrait
     protected bool $discids = false;
 
     /**
-     * Returns true, if disc ID's should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForDiscIds(): bool
-    {
-        return $this->discids;
-    }
-
-    /**
      * Sets whether disc ID's should be included.
      *
      * @param bool $discIds True, if disc ID's should be included, otherwise false

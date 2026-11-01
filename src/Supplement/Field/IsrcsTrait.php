@@ -14,16 +14,6 @@ trait IsrcsTrait
     protected bool $isrcs = false;
 
     /**
-     * Returns true, if ISRC's should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForIsrcs(): bool
-    {
-        return $this->isrcs;
-    }
-
-    /**
      * Sets whether ISRC's should be included.
      *
      * @param bool $isrcs True, if ISRC's should be included, otherwise false

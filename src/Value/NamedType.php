@@ -100,7 +100,7 @@ abstract readonly class NamedType implements Stringable
      *
      * @internal
      */
-    final public static function fromArray(array $data, string $nameKey, string $idKey): ?static
+    final public static function fromKeys(array $data, string $nameKey, string $idKey): ?static
     {
         $name = ArrayAccess::getString($data, $nameKey);
 

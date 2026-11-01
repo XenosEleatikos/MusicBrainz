@@ -27,18 +27,18 @@ final readonly class CoverArtArchive implements Parsable
     ) {}
 
     /**
-     * @param array<mixed> $input The "cover-art-archive" object of a release
+     * @param array<mixed> $data The "cover-art-archive" object of a release
      *
      * @internal
      */
-    public static function fromArray(array $input): static
+    public static function fromArray(array $data): static
     {
         return new self(
-            ArrayAccess::getBool($input, 'artwork') ?? false,
-            ArrayAccess::getInteger($input, 'count') ?? 0,
-            ArrayAccess::getBool($input, 'front') ?? false,
-            ArrayAccess::getBool($input, 'back') ?? false,
-            ArrayAccess::getBool($input, 'darkened') ?? false,
+            ArrayAccess::getBool($data, 'artwork') ?? false,
+            ArrayAccess::getInteger($data, 'count') ?? 0,
+            ArrayAccess::getBool($data, 'front') ?? false,
+            ArrayAccess::getBool($data, 'back') ?? false,
+            ArrayAccess::getBool($data, 'darkened') ?? false,
         );
     }
 }

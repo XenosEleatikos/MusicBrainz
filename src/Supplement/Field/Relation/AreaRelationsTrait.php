@@ -14,16 +14,6 @@ trait AreaRelationsTrait
     protected bool $areaRelations = false;
 
     /**
-     * Returns true, if area relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForAreaRelations(): bool
-    {
-        return $this->areaRelations;
-    }
-
-    /**
      * Sets whether area relations should be included.
      *
      * @param bool $areaRelations True, if area relations should be included, otherwise false

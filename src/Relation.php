@@ -14,6 +14,7 @@ use MusicBrainz\Value\Area;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Direction;
+use MusicBrainz\Value\Entity;
 use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\Event;
 use MusicBrainz\Value\Genre;
@@ -51,7 +52,7 @@ final readonly class Relation
         public Type $type,
         public Direction $direction,
         public EntityType $targetType,
-        public Area|Artist|Event|Genre|Instrument|Label|Place|Recording|Release|ReleaseGroup|Series|URL|Work $target,
+        public Entity $target,
         public ?Date $begin = null,
         public ?Date $end = null,
         public bool $ended = false,
@@ -72,7 +73,7 @@ final readonly class Relation
      *
      * @internal
      */
-    public static function fromArray(array $data): ?self
+    public static function tryFromArray(array $data): ?self
     {
         $typeId = ArrayAccess::getString($data, 'type-id');
         $type = self::type($typeId);
@@ -145,7 +146,7 @@ final readonly class Relation
     /**
      * @param array<mixed> $data
      */
-    private static function target(EntityType $type, array $data): Area|Artist|Event|Genre|Instrument|Label|Place|Recording|Release|ReleaseGroup|Series|URL|Work
+    private static function target(EntityType $type, array $data): Entity
     {
         return match ($type) {
             EntityType::Area         => Area::fromArray($data),

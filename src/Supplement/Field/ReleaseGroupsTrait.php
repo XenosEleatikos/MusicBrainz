@@ -14,16 +14,6 @@ trait ReleaseGroupsTrait
     protected bool $releaseGroups = false;
 
     /**
-     * Returns true, if release groups should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForReleaseGroups(): bool
-    {
-        return $this->releaseGroups;
-    }
-
-    /**
      * Sets whether release groups should be included.
      *
      * @param bool $releaseGroups True, if release groups should be included, otherwise false

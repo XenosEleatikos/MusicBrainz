@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Event
  */
-final readonly class Event implements Parsable
+final readonly class Event implements Entity
 {
     /**
      * @param list<Alias> $aliases
@@ -54,27 +54,13 @@ final readonly class Event implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            EventType::fromArray($data, 'type', 'type-id'),
+            EventType::fromKeys($data, 'type', 'type-id'),
             ArrayAccess::getString($data, 'time'),
             ArrayAccess::getBool($data, 'cancelled') ?? false,
             ArrayAccess::getString($data, 'setlist') ?? '',
-            self::object($data, 'life-span', LifeSpan::class),
+            Json::object($data, 'life-span', LifeSpan::class),
             ...SharedFields::parse($data),
         );
     }
 
-    /**
-     * @param array<mixed>    $data
-     * @param class-string<T> $class
-     *
-     * @return null|T
-     *
-     * @template T of Parsable
-     */
-    private static function object(array $data, string $key, string $class): ?object
-    {
-        $object = Json::object($data, $key, $class);
-
-        return $object instanceof $class ? $object : null;
-    }
 }

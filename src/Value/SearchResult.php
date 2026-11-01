@@ -32,7 +32,7 @@ final readonly class SearchResult
      *
      * @internal
      */
-    public static function fromArray(array $data, string $class): self
+    public static function from(array $data, string $class): self
     {
         /** @var E $entity */
         $entity = $class::fromArray($data);

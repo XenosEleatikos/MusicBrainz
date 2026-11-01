@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/URL
  */
-final readonly class URL implements Parsable
+final readonly class URL implements Entity
 {
     /**
      */

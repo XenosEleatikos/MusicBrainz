@@ -38,7 +38,7 @@ final readonly class RelationList implements Countable, IteratorAggregate
     {
         $result = [];
         foreach ($relations as $data) {
-            $relation = is_array($data) ? Relation::fromArray($data) : null;
+            $relation = is_array($data) ? Relation::tryFromArray($data) : null;
             if (null !== $relation) {
                 $result[] = $relation;
             }

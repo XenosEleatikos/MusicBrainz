@@ -11,7 +11,7 @@ use Stringable;
 /**
  * A genre, as assigned to an entity (with the number of votes for it)
  */
-final readonly class Genre implements Parsable, Stringable
+final readonly class Genre implements Entity, Stringable
 {
     public function __construct(
         public ?MBID $id,

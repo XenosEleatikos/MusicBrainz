@@ -197,6 +197,10 @@ empty (`''` for names, `[]` for lists), never a dummy object. Dates are `Date` o
 database has ("1969", "1969-09", "1969-09-26"). The classes are built from the decoded JSON with `X::fromArray()`;
 that factory is not meant to be called by applications.
 
+The rule for missing data: a name, title or disambiguation the web service always delivers is a `string` (`''` if empty);
+anything it may leave out is nullable (`?string`, `?Date`, `?Area`, ...); lists are never null. The entities implement the
+marker interface `MusicBrainz\Value\Entity`.
+
 ### Types and unknown values
 Types, genders, statuses etc. are value objects with the name as MusicBrainz delivers it, the MBID of the type, and a
 `kind()` returning an enum for the values the library knows:

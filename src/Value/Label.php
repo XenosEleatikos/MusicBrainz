@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Label
  */
-final readonly class Label implements Parsable
+final readonly class Label implements Entity
 {
     /**
      * @param list<string> $ipis
@@ -62,30 +62,16 @@ final readonly class Label implements Parsable
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'sort-name'),
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            LabelType::fromArray($data, 'type', 'type-id'),
+            LabelType::fromKeys($data, 'type', 'type-id'),
             ArrayAccess::getString($data, 'country'),
-            self::object($data, 'area', Area::class),
+            Json::object($data, 'area', Area::class),
             ArrayAccess::getInteger($data, 'label-code'),
             Json::strings($data, 'ipis'),
             Json::strings($data, 'isnis'),
-            self::object($data, 'life-span', LifeSpan::class),
+            Json::object($data, 'life-span', LifeSpan::class),
             Json::list($data, 'releases', Release::class),
             ...SharedFields::parse($data),
         );
     }
 
-    /**
-     * @param array<mixed>    $data
-     * @param class-string<T> $class
-     *
-     * @return null|T
-     *
-     * @template T of Parsable
-     */
-    private static function object(array $data, string $key, string $class): ?object
-    {
-        $object = Json::object($data, $key, $class);
-
-        return $object instanceof $class ? $object : null;
-    }
 }

@@ -14,16 +14,6 @@ trait ArtistCreditsTrait
     protected bool $artistCredits = false;
 
     /**
-     * Returns true, if artist credits should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForArtistCredits(): bool
-    {
-        return $this->artistCredits;
-    }
-
-    /**
      * Sets whether artist credits should be included.
      *
      * @param bool $artistCredits True, if artist credits should be included, otherwise false

@@ -15,7 +15,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Release
  */
-final readonly class Release implements Parsable
+final readonly class Release implements Entity
 {
     /**
      * @param list<ArtistCredit> $artistCredits
@@ -71,13 +71,13 @@ final readonly class Release implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'title') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            ReleaseStatus::fromArray($data, 'status', 'status-id'),
-            Packaging::fromArray($data, 'packaging', 'packaging-id'),
+            ReleaseStatus::fromKeys($data, 'status', 'status-id'),
+            Packaging::fromKeys($data, 'packaging', 'packaging-id'),
             self::quality($data),
-            self::object($data, 'text-representation', TextRepresentation::class),
+            Json::object($data, 'text-representation', TextRepresentation::class),
             Json::list($data, 'artist-credit', ArtistCredit::class),
             Json::id($data, 'artist-credit-id'),
-            self::object($data, 'release-group', ReleaseGroup::class),
+            Json::object($data, 'release-group', ReleaseGroup::class),
             Json::date($data, 'date'),
             ArrayAccess::getString($data, 'country'),
             Json::list($data, 'release-events', ReleaseEvent::class),
@@ -85,26 +85,12 @@ final readonly class Release implements Parsable
             ArrayAccess::getString($data, 'asin'),
             Json::list($data, 'label-info', LabelInfo::class),
             Json::list($data, 'media', Medium::class),
-            self::object($data, 'cover-art-archive', CoverArtArchive::class),
+            Json::object($data, 'cover-art-archive', CoverArtArchive::class),
             Json::list($data, 'collections', Collection::class),
             ...SharedFields::parse($data),
         );
     }
 
-    /**
-     * @param array<mixed>    $data
-     * @param class-string<T> $class
-     *
-     * @return null|T
-     *
-     * @template T of Parsable
-     */
-    private static function object(array $data, string $key, string $class): ?object
-    {
-        $object = Json::object($data, $key, $class);
-
-        return $object instanceof $class ? $object : null;
-    }
 
     /**
      * @param array<mixed> $data

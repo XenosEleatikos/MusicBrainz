@@ -83,7 +83,7 @@ class NamedTypeTest extends TestCase
 
     public function testFromArrayWithoutNameReturnsNull(): void
     {
-        self::assertNull(ReleaseStatus::fromArray(['status-id' => 'x'], 'status', 'status-id'));
+        self::assertNull(ReleaseStatus::fromKeys(['status-id' => 'x'], 'status', 'status-id'));
         self::assertSame([], $this->logs);
     }
 

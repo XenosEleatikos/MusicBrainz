@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Artist
  */
-final readonly class Artist implements Parsable
+final readonly class Artist implements Entity
 {
     /**
      * @param list<string> $ipis
@@ -70,13 +70,13 @@ final readonly class Artist implements Parsable
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'sort-name'),
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            ArtistType::fromArray($data, 'type', 'type-id'),
-            Gender::fromArray($data, 'gender', 'gender-id'),
+            ArtistType::fromKeys($data, 'type', 'type-id'),
+            Gender::fromKeys($data, 'gender', 'gender-id'),
             ArrayAccess::getString($data, 'country'),
-            self::object($data, 'area', Area::class),
-            self::object($data, 'begin-area', Area::class),
-            self::object($data, 'end-area', Area::class),
-            self::object($data, 'life-span', LifeSpan::class),
+            Json::object($data, 'area', Area::class),
+            Json::object($data, 'begin-area', Area::class),
+            Json::object($data, 'end-area', Area::class),
+            Json::object($data, 'life-span', LifeSpan::class),
             Json::strings($data, 'ipis'),
             Json::strings($data, 'isnis'),
             Json::list($data, 'releases', Release::class),
@@ -87,18 +87,4 @@ final readonly class Artist implements Parsable
         );
     }
 
-    /**
-     * @param array<mixed>    $data
-     * @param class-string<T> $class
-     *
-     * @return null|T
-     *
-     * @template T of Parsable
-     */
-    private static function object(array $data, string $key, string $class): ?object
-    {
-        $object = Json::object($data, $key, $class);
-
-        return $object instanceof $class ? $object : null;
-    }
 }

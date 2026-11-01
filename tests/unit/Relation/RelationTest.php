@@ -61,7 +61,7 @@ final class RelationTest extends TestCase
 
     public function testRelationKnowsItsTargetAndItsOwnData(): void
     {
-        $relation = Relation::fromArray(self::memberOfBand());
+        $relation = Relation::tryFromArray(self::memberOfBand());
 
         self::assertInstanceOf(Relation::class, $relation);
         self::assertSame(EntityType::Artist, $relation->targetType);
@@ -79,7 +79,7 @@ final class RelationTest extends TestCase
     public function testSearchResultsNameTheTargetOnTheOtherSideRegardlessOfTheDirection(): void
     {
         // "held at" is a relation of an event to a place; a search for events says "backward" and delivers the place
-        $relation = Relation::fromArray([
+        $relation = Relation::tryFromArray([
             'type' => 'held at',
             'type-id' => 'e2c6f697-07dc-38b1-be0b-83d740165532',
             'direction' => 'backward',
@@ -113,15 +113,15 @@ final class RelationTest extends TestCase
 
     public function testRelationsWithoutValidDirectionAreSkippedAndReported(): void
     {
-        self::assertNull(Relation::fromArray(self::memberOfBand(['direction' => 'sideways'])));
-        self::assertNull(Relation::fromArray(self::memberOfBand(['direction' => null])));
+        self::assertNull(Relation::tryFromArray(self::memberOfBand(['direction' => 'sideways'])));
+        self::assertNull(Relation::tryFromArray(self::memberOfBand(['direction' => null])));
         self::assertCount(2, $this->logged);
         self::assertStringContainsString('valid direction', $this->logged[0]);
     }
 
     public function testRelationsWithoutTargetAreSkippedAndReported(): void
     {
-        self::assertNull(Relation::fromArray(self::memberOfBand(['artist' => []])));
+        self::assertNull(Relation::tryFromArray(self::memberOfBand(['artist' => []])));
         self::assertStringContainsString('Cannot resolve relation', $this->logged[0]);
     }
 }

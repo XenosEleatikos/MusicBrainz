@@ -17,7 +17,7 @@ final readonly class Medium implements Parsable
      * @param list<Track> $tracks
      */
     public function __construct(
-        public ?MBID $id = null,
+        public ?MBID $id,
         public ?int $position = null,
         public string $title = '',
         public ?string $format = null,

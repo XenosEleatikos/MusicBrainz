@@ -14,16 +14,6 @@ trait MediaTrait
     protected bool $media = false;
 
     /**
-     * Returns true, if media should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForMedia(): bool
-    {
-        return $this->media;
-    }
-
-    /**
      * Sets whether media should be included.
      *
      * @param bool $media True, if media should be included, otherwise false

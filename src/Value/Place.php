@@ -14,7 +14,7 @@ use MusicBrainz\Relation\RelationList;
  *
  * @see https://musicbrainz.org/doc/Place
  */
-final readonly class Place implements Parsable
+final readonly class Place implements Entity
 {
     /**
      * @param list<Alias> $aliases
@@ -54,11 +54,11 @@ final readonly class Place implements Parsable
             Json::id($data, 'id'),
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'disambiguation') ?? '',
-            PlaceType::fromArray($data, 'type', 'type-id'),
+            PlaceType::fromKeys($data, 'type', 'type-id'),
             ArrayAccess::getString($data, 'address') ?? '',
             self::coordinates($data),
-            self::object($data, 'area', Area::class),
-            self::object($data, 'life-span', LifeSpan::class),
+            Json::object($data, 'area', Area::class),
+            Json::object($data, 'life-span', LifeSpan::class),
             ...SharedFields::parse($data),
         );
     }
@@ -70,21 +70,7 @@ final readonly class Place implements Parsable
     {
         $coordinates = ArrayAccess::getArray($data, 'coordinates');
 
-        return null === $coordinates ? null : Coordinates::fromArray($coordinates);
+        return null === $coordinates ? null : Coordinates::tryFromArray($coordinates);
     }
 
-    /**
-     * @param array<mixed>    $data
-     * @param class-string<T> $class
-     *
-     * @return null|T
-     *
-     * @template T of Parsable
-     */
-    private static function object(array $data, string $key, string $class): ?object
-    {
-        $object = Json::object($data, $key, $class);
-
-        return $object instanceof $class ? $object : null;
-    }
 }

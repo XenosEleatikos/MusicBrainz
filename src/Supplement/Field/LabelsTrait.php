@@ -14,16 +14,6 @@ trait LabelsTrait
     protected bool $labels = false;
 
     /**
-     * Returns true, if labels should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForLabels(): bool
-    {
-        return $this->labels;
-    }
-
-    /**
      * Sets whether labels should be included.
      *
      * @param bool $labels True, if labels should be included, otherwise false

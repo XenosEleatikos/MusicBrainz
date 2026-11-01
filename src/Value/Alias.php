@@ -34,7 +34,7 @@ final readonly class Alias implements Parsable, Stringable
         return new self(
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'sort-name'),
-            AliasType::fromArray($data, 'type', 'type-id'),
+            AliasType::fromKeys($data, 'type', 'type-id'),
             ArrayAccess::getString($data, 'locale'),
             ArrayAccess::getBool($data, 'primary') ?? false,
             // The search API calls the period begin-date/end-date, lookups call it begin/end

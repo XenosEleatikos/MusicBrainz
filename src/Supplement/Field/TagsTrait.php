@@ -14,16 +14,6 @@ trait TagsTrait
     protected bool $tags = false;
 
     /**
-     * Returns true, if tags should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForTags(): bool
-    {
-        return $this->tags;
-    }
-
-    /**
      * Sets whether tags should be included.
      *
      * @param bool $tags True, if tags should be included, otherwise false

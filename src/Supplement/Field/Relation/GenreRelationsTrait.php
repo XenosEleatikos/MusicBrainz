@@ -14,16 +14,6 @@ trait GenreRelationsTrait
     protected bool $genreRelations = false;
 
     /**
-     * Returns true, if genre relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForGenreRelations(): bool
-    {
-        return $this->genreRelations;
-    }
-
-    /**
      * Sets whether genre relations should be included.
      *
      * @param bool $genreRelations True, if genre relations should be included, otherwise false
