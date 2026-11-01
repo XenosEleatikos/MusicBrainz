@@ -14,6 +14,10 @@ use MusicBrainz\Value;
  */
 class Artist implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
+    use Property\UserRatingTrait;
+    use Property\RatingTrait;
     use Property\GenresTrait;
     use ArtistRelationListTrait;
     use Property\AliasesTrait;
@@ -42,6 +46,10 @@ class Artist implements Value
      */
     public function __construct(array $artist = [])
     {
+        $this->setUserTagsFromArray($artist);
+        $this->setUserGenresFromArray($artist);
+        $this->setUserRatingFromArray($artist);
+        $this->setRatingFromArray($artist);
         $this->setGenresFromArray($artist);
         $this->setRelationsFromArray($artist);
         $this->setAliasesFromArray($artist);

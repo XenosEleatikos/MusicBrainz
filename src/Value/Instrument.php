@@ -14,6 +14,8 @@ use MusicBrainz\Value;
  */
 class Instrument implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
     use Property\GenresTrait;
     use InstrumentRelationListTrait;
     use Property\AliasesTrait;
@@ -31,6 +33,8 @@ class Instrument implements Value
      */
     public function __construct(array $instrument = [])
     {
+        $this->setUserTagsFromArray($instrument);
+        $this->setUserGenresFromArray($instrument);
         $this->setGenresFromArray($instrument);
         $this->setRelationsFromArray($instrument);
         $this->setAliasesFromArray($instrument);

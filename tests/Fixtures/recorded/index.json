@@ -135,6 +135,11 @@
         "recorded": "2026-11-01T14:22:28+00:00",
         "slimmed": true
     },
+    "artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d__inc=user-genres+user-ratings+user-tags-6486410e.json": {
+        "url": "https://musicbrainz.org/ws/2/artist/b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d?inc=user-genres%2Buser-ratings%2Buser-tags&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:15+00:00"
+    },
     "artist/b856b4ae-5c73-4476-a61c-f1fddc573a4e__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/artist/b856b4ae-5c73-4476-a61c-f1fddc573a4e?inc=&fmt=json",
         "status": 200,
@@ -150,6 +155,12 @@
         "url": "https://musicbrainz.org/ws/2/artist?area=85752fda-13c4-31a3-bee5-0e5cb1f51dad&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags%2Bartist-rels%2Bevent-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
         "status": 200,
         "recorded": "2026-11-01T14:24:25+00:00",
+        "slimmed": true
+    },
+    "artist/list__collection=f27d2f80-0aff-4a0f-a8c3-296226073b20_inc=aliases+annotation+genres+ra-29b455cd.json": {
+        "url": "https://musicbrainz.org/ws/2/artist?collection=f27d2f80-0aff-4a0f-a8c3-296226073b20&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags%2Buser-genres%2Buser-ratings%2Buser-tags%2Bartist-rels%2Bevent-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:08+00:00",
         "slimmed": true
     },
     "artist/list__inc=aliases+annotation+genres+ratings+tags+artist-rels+event-rels+instrument-rel-2fa9db67.json": {
@@ -179,6 +190,16 @@
         "url": "https://musicbrainz.org/ws/2/cdstub/?limit=5&offset=0&fmt=json&query=title%3A%22Abbey%20Road%22",
         "status": 200,
         "recorded": "2026-11-01T14:39:05+00:00"
+    },
+    "collection/f27d2f80-0aff-4a0f-a8c3-296226073b20__inc=-339bf5ca.json": {
+        "url": "https://musicbrainz.org/ws/2/collection/f27d2f80-0aff-4a0f-a8c3-296226073b20?inc=&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:00+00:00"
+    },
+    "collection/list__editor=XenosEleatikos_limit=10_offset=0-8893ed6d.json": {
+        "url": "https://musicbrainz.org/ws/2/collection?editor=XenosEleatikos&limit=10&offset=0&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:02+00:00"
     },
     "event/8e0ff16a-757f-4e16-9877-4c4131621a8b__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/event/8e0ff16a-757f-4e16-9877-4c4131621a8b?inc=&fmt=json",
@@ -257,6 +278,11 @@
         "recorded": "2026-11-01T14:23:30+00:00",
         "slimmed": true
     },
+    "label/df7d1c7f-ef95-425f-8eef-445b3d7bcbd9__inc=user-genres+user-tags+user-ratings-dbabff88.json": {
+        "url": "https://musicbrainz.org/ws/2/label/df7d1c7f-ef95-425f-8eef-445b3d7bcbd9?inc=user-genres%2Buser-tags%2Buser-ratings&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:28+00:00"
+    },
     "label/list__area=85752fda-13c4-31a3-bee5-0e5cb1f51dad_inc=aliases+annotation+genres+ratings+-e6b6964f.json": {
         "url": "https://musicbrainz.org/ws/2/label?area=85752fda-13c4-31a3-bee5-0e5cb1f51dad&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags",
         "status": 200,
@@ -307,6 +333,11 @@
         "recorded": "2026-11-01T14:23:45+00:00",
         "slimmed": true
     },
+    "recording/106d1527-d378-4e55-ba49-d18f8e63ae8a__inc=user-tags+user-genres+user-ratings-6db582de.json": {
+        "url": "https://musicbrainz.org/ws/2/recording/106d1527-d378-4e55-ba49-d18f8e63ae8a?inc=user-tags%2Buser-genres%2Buser-ratings&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:25+00:00"
+    },
     "recording/79d660ef-dd32-4c5c-b2aa-a9d736cd2396__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/recording/79d660ef-dd32-4c5c-b2aa-a9d736cd2396?inc=&fmt=json",
         "status": 200,
@@ -356,6 +387,11 @@
         "recorded": "2026-11-01T14:23:57+00:00",
         "slimmed": true
     },
+    "release-group/9162580e-5df4-32de-80cc-f45a8d8a9b1d__inc=user-genres+user-tags+user-ratings-dbabff88.json": {
+        "url": "https://musicbrainz.org/ws/2/release-group/9162580e-5df4-32de-80cc-f45a8d8a9b1d?inc=user-genres%2Buser-tags%2Buser-ratings&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:18+00:00"
+    },
     "release-group/b1392450-e666-3926-a536-22c65f834433__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/release-group/b1392450-e666-3926-a536-22c65f834433?inc=&fmt=json",
         "status": 200,
@@ -400,6 +436,11 @@
         "status": 200,
         "recorded": "2026-11-01T14:23:48+00:00",
         "slimmed": true
+    },
+    "release/31765b9f-e969-4257-855f-c7ea1f657b2a__inc=user-tags+user-genres+user-ratings-6db582de.json": {
+        "url": "https://musicbrainz.org/ws/2/release/31765b9f-e969-4257-855f-c7ea1f657b2a?inc=user-tags%2Buser-genres%2Buser-ratings&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:16+00:00"
     },
     "release/8c6a00d5-8673-4aad-8192-5fe8649b5efa__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/release/8c6a00d5-8673-4aad-8192-5fe8649b5efa?inc=&fmt=json",
@@ -491,6 +532,12 @@
         "url": "https://musicbrainz.org/ws/2/work/41c94a08-a551-3c86-bb17-d9a52e3a618b?inc=genres%2Baliases%2Btags%2Bratings%2Bartist-rels%2Blabel-rels%2Brecording-rels%2Brelease-rels%2Burl-rels%2Bwork-rels%2Bannotation&fmt=json",
         "status": 200,
         "recorded": "2026-11-01T14:24:09+00:00",
+        "slimmed": true
+    },
+    "work/41c94a08-a551-3c86-bb17-d9a52e3a618b__inc=user-genres+user-tags+user-ratings-dbabff88.json": {
+        "url": "https://musicbrainz.org/ws/2/work/41c94a08-a551-3c86-bb17-d9a52e3a618b?inc=user-genres%2Buser-tags%2Buser-ratings&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T16:57:26+00:00",
         "slimmed": true
     },
     "work/a8f4f093-823a-4cc0-86e7-76c784dbd65b__inc=-339bf5ca.json": {

@@ -1,0 +1,33 @@
+{
+    "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
+    "isnis": [],
+    "name": "Parlophone",
+    "ipis": [],
+    "sort-name": "Parlophone",
+    "user-genres": [],
+    "disambiguation": "",
+    "user-tags": [],
+    "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+    "label-code": 299,
+    "type": "Original Production",
+    "user-rating": {
+        "value": null
+    },
+    "area": {
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "sort-name": "United Kingdom",
+        "iso-3166-1-codes": [
+            "GB"
+        ]
+    },
+    "country": "GB",
+    "life-span": {
+        "ended": false,
+        "begin": "1896",
+        "end": null
+    }
+}

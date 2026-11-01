@@ -21,11 +21,9 @@ use MusicBrainz\Value\MBID;
 abstract class AbstractRelation
 {
     /**
-     * The MusicBrainz Identifier (MBID) for the related entity
-     *
-     * @var MBID
+     * The MusicBrainz Identifier (MBID) for the related entity, or the user name for an editor (editors have no MBID)
      */
-    private $entityId;
+    private MBID|string $entityId;
 
     /**
      * The type of the related entity
@@ -39,7 +37,7 @@ abstract class AbstractRelation
      *
      * @return MBID
      */
-    public function getEntityId(): MBID
+    public function getEntityId(): MBID|string
     {
         return $this->entityId;
     }
@@ -51,7 +49,7 @@ abstract class AbstractRelation
      *
      * @return self
      */
-    protected function setEntityId(MBID $mbid): self
+    protected function setEntityId(MBID|string $mbid): self
     {
         $this->entityId = $mbid;
 

@@ -14,6 +14,9 @@ use MusicBrainz\Value;
  */
 class Place implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
+    use Property\UserRatingTrait;
     use Property\TagsTrait;
     use Property\GenresTrait;
     use Property\RatingTrait;
@@ -34,6 +37,9 @@ class Place implements Value
      */
     public function __construct(array $place = [])
     {
+        $this->setUserTagsFromArray($place);
+        $this->setUserGenresFromArray($place);
+        $this->setUserRatingFromArray($place);
         $this->setTagsFromArray($place);
         $this->setGenresFromArray($place);
         $this->setRatingFromArray($place);

@@ -25,6 +25,9 @@ use function is_string;
  */
 class Recording implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
+    use Property\UserRatingTrait;
     use Property\GenresTrait;
     use Property\MBIDTrait;
     use Property\LengthTrait;
@@ -78,6 +81,9 @@ class Recording implements Value
      */
     public function __construct(array $recording = [])
     {
+        $this->setUserTagsFromArray($recording);
+        $this->setUserGenresFromArray($recording);
+        $this->setUserRatingFromArray($recording);
         $this->setGenresFromArray($recording);
         $this->setMbidFromArray($recording);
         $this->isrcs = array_values(array_filter(ArrayAccess::getArray($recording, 'isrcs') ?? [], is_string(...)));

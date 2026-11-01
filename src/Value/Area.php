@@ -12,6 +12,8 @@ use MusicBrainz\Value;
  */
 class Area implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
     use Property\TagsTrait;
     use Property\GenresTrait;
     use AreaRelationListTrait;
@@ -32,6 +34,8 @@ class Area implements Value
      */
     public function __construct(array $area = [])
     {
+        $this->setUserTagsFromArray($area);
+        $this->setUserGenresFromArray($area);
         $this->setTagsFromArray($area);
         $this->setGenresFromArray($area);
         $this->setAliasesFromArray($area);

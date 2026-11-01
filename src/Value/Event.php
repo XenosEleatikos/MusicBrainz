@@ -17,6 +17,9 @@ use MusicBrainz\Value;
  */
 class Event implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
+    use Property\UserRatingTrait;
     use Property\TagsTrait;
     use Property\GenresTrait;
     use Property\RatingTrait;
@@ -46,6 +49,9 @@ class Event implements Value
      */
     public function __construct(array $event = [])
     {
+        $this->setUserTagsFromArray($event);
+        $this->setUserGenresFromArray($event);
+        $this->setUserRatingFromArray($event);
         $this->setTagsFromArray($event);
         $this->setGenresFromArray($event);
         $this->setRatingFromArray($event);

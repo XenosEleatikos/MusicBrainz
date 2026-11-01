@@ -1,0 +1,43 @@
+{
+    "user-tags": [],
+    "title": "Abbey Road",
+    "cover-art-archive": {
+        "front": true,
+        "back": false,
+        "artwork": true,
+        "count": 1,
+        "darkened": false
+    },
+    "packaging": "None",
+    "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "date": "2015-12-24",
+    "user-genres": [],
+    "release-events": [
+        {
+            "date": "2015-12-24",
+            "area": {
+                "type": null,
+                "sort-name": "[Worldwide]",
+                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                "name": "[Worldwide]",
+                "type-id": null,
+                "iso-3166-1-codes": [
+                    "XW"
+                ],
+                "disambiguation": ""
+            }
+        }
+    ],
+    "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+    },
+    "id": "31765b9f-e969-4257-855f-c7ea1f657b2a",
+    "status": "Official",
+    "country": "XW",
+    "quality": "normal",
+    "barcode": "00602547670342",
+    "asin": null,
+    "disambiguation": ""
+}

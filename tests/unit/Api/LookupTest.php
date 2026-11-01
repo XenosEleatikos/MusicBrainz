@@ -36,7 +36,7 @@ final class LookupTest extends TestCase
      */
     public static function lookups(): array
     {
-        $names = array_keys(array_filter(RecordedApi::scenarios(), static fn(string $name): bool => str_starts_with($name, 'lookup/'), ARRAY_FILTER_USE_KEY));
+        $names = array_keys(array_filter(RecordedApi::scenarios(), static fn(string $name): bool => str_starts_with($name, 'lookup/') || str_starts_with($name, 'auth/lookup/'), ARRAY_FILTER_USE_KEY));
 
         return array_combine($names, array_map(static fn(string $name): array => [$name], $names));
     }
@@ -47,8 +47,7 @@ final class LookupTest extends TestCase
         $api = new RecordedApi();
         $entity = RecordedApi::scenarios()[$scenario]($api->musicBrainz);
         $json = $api->lastResponse();
-        $type = explode('/', $scenario)[1];
-        $type = 'releaseGroup' === $type ? 'release-group' : $type;
+        [, $type] = RecordedApi::parse($scenario);
 
         EntityFields::assertDetails($entity, $json);
         EntityFields::assertStructure($entity, $json);

@@ -65,4 +65,21 @@ final class RecordedApi
     {
         return require __DIR__ . '/../Fixtures/scenarios.php';
     }
+
+    /**
+     * Splits a scenario name like "lookup/artist/beatles/full" or "auth/browse/collection/by-editor" into kind
+     * ("lookup", "browse", "search", "error") and entity type as used in the API path ("release-group").
+     *
+     * @return array{0: string, 1: string}
+     */
+    public static function parse(string $scenario): array
+    {
+        $parts = explode('/', $scenario);
+        if ('auth' === $parts[0]) {
+            array_shift($parts);
+        }
+        $type = 'releaseGroup' === $parts[1] ? 'release-group' : $parts[1];
+
+        return [$parts[0], $type];
+    }
 }

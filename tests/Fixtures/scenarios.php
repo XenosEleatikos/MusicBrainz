@@ -10,6 +10,7 @@ declare(strict_types=1);
  */
 
 use MusicBrainz\Filter\Browse\Relation\Entity\ArtistRelation;
+use MusicBrainz\Filter\Browse\Relation\Entity\CollectionRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\EventRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\LabelRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\RecordingRelation;
@@ -202,6 +203,39 @@ $scenarios['search/cdstub/abbey-road'] = static function (MusicBrainz $mb) use (
 
     return $mb->api()->search()->cdStub($filter, $page(5));
 };
+
+// ---------------------------------------------------------------------------------------------------- authenticated
+// Scenarios named "auth/..." need an OAuth2 access token (MB_ACCESS_TOKEN), see bin/record-fixtures. They use the
+// public collection of the maintainer's account; user tags, ratings and genres are those of this account.
+$collection = 'f27d2f80-0aff-4a0f-a8c3-296226073b20';
+$withUser = static function (Fields $fields): Fields {
+    foreach (get_class_methods($fields) as $method) {
+        if (str_starts_with($method, 'include')) {
+            $fields->$method();
+        }
+    }
+
+    return $fields;
+};
+$scenarios['auth/lookup/collection/favourite-artists'] = static fn(MusicBrainz $mb) => $mb->api()->lookup()->collection($mbid($collection));
+$scenarios['auth/browse/collection/by-editor'] = static function (MusicBrainz $mb) use ($page) {
+    $relation = new CollectionRelation();
+    $relation->editor('XenosEleatikos');
+
+    return $mb->api()->browse()->collection($relation, $page(10));
+};
+$scenarios['auth/browse/artist/by-collection'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->artist($relation(ArtistRelation::class, 'collection', $collection), $withUser(new Browse\ArtistFields()), $page(10));
+foreach ([
+    'artist'       => 'b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d',
+    'release'      => '31765b9f-e969-4257-855f-c7ea1f657b2a',
+    'releaseGroup' => '9162580e-5df4-32de-80cc-f45a8d8a9b1d',
+    'recording'    => '106d1527-d378-4e55-ba49-d18f8e63ae8a',
+    'work'         => '41c94a08-a551-3c86-bb17-d9a52e3a618b',
+    'label'        => 'df7d1c7f-ef95-425f-8eef-445b3d7bcbd9',
+] as $entity => $id) {
+    $fieldsClass = 'MusicBrainz\\Supplement\\Lookup\\' . ucfirst($entity) . 'Fields';
+    $scenarios["auth/lookup/$entity/user-data"] = static fn(MusicBrainz $mb) => $mb->api()->lookup()->$entity($mbid($id), (new $fieldsClass())->includeUserTags()->includeUserRatings()->includeUserGenres());
+}
 
 // ---------------------------------------------------------------------------------------------------- errors
 // The library throws for 4xx responses; these scenarios return the exception, so that the contract can be asserted.

@@ -13,7 +13,6 @@ use PHPUnit\Framework\TestCase;
 use function array_filter;
 use function array_keys;
 use function count;
-use function explode;
 use function is_array;
 use function str_starts_with;
 
@@ -31,7 +30,7 @@ final class PageTest extends TestCase
     {
         $names = array_keys(array_filter(
             RecordedApi::scenarios(),
-            static fn(string $name): bool => str_starts_with($name, 'browse/') || str_starts_with($name, 'search/'),
+            static fn(string $name): bool => str_starts_with($name, 'browse/') || str_starts_with($name, 'search/') || str_starts_with($name, 'auth/browse/'),
             ARRAY_FILTER_USE_KEY,
         ));
 
@@ -44,7 +43,7 @@ final class PageTest extends TestCase
         $api = new RecordedApi();
         $page = RecordedApi::scenarios()[$scenario]($api->musicBrainz);
         $json = $api->lastResponse();
-        [$kind, $type] = explode('/', $scenario);
+        [$kind, $type] = RecordedApi::parse($scenario);
 
         self::assertInstanceOf(Page::class, $page);
 

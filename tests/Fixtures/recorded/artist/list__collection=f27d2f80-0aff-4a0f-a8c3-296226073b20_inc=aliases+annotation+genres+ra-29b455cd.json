@@ -1,0 +1,3366 @@
+{
+    "artist-offset": 0,
+    "artist-count": 2,
+    "artists": [
+        {
+            "country": "US",
+            "life-span": {
+                "begin": "1970-12-12",
+                "end": null,
+                "ended": false
+            },
+            "id": "5debb1f0-d42e-4de5-8d7c-e3eb68c38719",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "end-area": null,
+            "genres": [
+                {
+                    "id": "2b4f0036-79a0-4ce0-a38c-4c0c8e61c579",
+                    "disambiguation": "",
+                    "count": 1,
+                    "name": "contemporary christian"
+                }
+            ],
+            "annotation": null,
+            "area": {
+                "name": "United States",
+                "sort-name": "United States",
+                "iso-3166-1-codes": [
+                    "US"
+                ],
+                "type-id": null,
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "disambiguation": "",
+                "type": null
+            },
+            "tags": [
+                {
+                    "name": "contemporary christian",
+                    "count": 1
+                }
+            ],
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "isnis": [],
+            "user-tags": [],
+            "user-rating": {
+                "value": null
+            },
+            "disambiguation": "Contemporary Christian",
+            "ipis": [],
+            "gender": "Male",
+            "begin-area": {
+                "iso-3166-2-codes": [
+                    "US-GA"
+                ],
+                "type-id": null,
+                "id": "d10ba752-c9ce-4804-afc0-7ff94aa5d8d6",
+                "disambiguation": "",
+                "type": null,
+                "sort-name": "Georgia",
+                "name": "Georgia"
+            },
+            "relations": [
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+                    "attributes": [],
+                    "type": "parent",
+                    "artist": {
+                        "name": "Baylee Waller",
+                        "sort-name": "Waller, Baylee",
+                        "country": null,
+                        "id": "ceda24ee-9283-4d8f-a438-08699ed326ac",
+                        "disambiguation": "Daughter of John Waller",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                    }
+                },
+                {
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "type": "performer",
+                    "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                    "attributes": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "recording": {
+                        "video": false,
+                        "length": 267733,
+                        "disambiguation": "",
+                        "title": "As for Me and My House",
+                        "id": "4bfe5b94-3033-4011-9098-5090b4201ec5"
+                    },
+                    "source-credit": "",
+                    "target-type": "recording"
+                },
+                {
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "type": "instrument",
+                    "attributes": [
+                        "membranophone",
+                        "percussion"
+                    ],
+                    "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+                    "begin": null,
+                    "attribute-credits": [],
+                    "attribute-ids": {
+                        "percussion": "8e9abdf1-0afc-4544-b201-c6fa768d01f4",
+                        "membranophone": "3bccb7eb-cbca-42cd-b0ac-a5e959df7221"
+                    },
+                    "source-credit": "",
+                    "release": {
+                        "disambiguation": "",
+                        "packaging": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States"
+                                },
+                                "date": "1990"
+                            }
+                        ],
+                        "packaging-id": null,
+                        "barcode": null,
+                        "id": "2b8c9a36-6643-4006-b102-a6211b9624e3",
+                        "date": "1990",
+                        "title": "There's an Answer",
+                        "country": "US",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "status": null
+                    },
+                    "target-type": "release"
+                },
+                {
+                    "type": "free streaming",
+                    "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                    "attributes": [],
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "id": "542fcf4a-8745-48a6-93b0-0e04c592c169",
+                        "resource": "https://open.spotify.com/artist/2Px7jTtwBH0nHI1fYSYuaL"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                    "attributes": [],
+                    "type": "free streaming",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "id": "7519a369-9d1e-4da9-9fcb-a0c8707b9845",
+                        "resource": "https://www.deezer.com/artist/196171"
+                    }
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "official homepage",
+                    "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                    "attributes": [],
+                    "url": {
+                        "resource": "http://www.johnwalleronline.com/",
+                        "id": "b4faf529-fc98-4cbf-943c-af80d274866c"
+                    },
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "url": {
+                        "id": "147a2535-3d80-45ad-9174-166c33784755",
+                        "resource": "https://music.apple.com/gb/artist/176667411"
+                    },
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "attributes": [],
+                    "type": "streaming"
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url",
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "resource": "https://tidal.com/artist/28067",
+                        "id": "7d5d7947-f85b-41ce-a05e-eb626cee6b54"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "type": "streaming",
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "attributes": []
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                    "attributes": [],
+                    "type": "VIAF",
+                    "ended": false,
+                    "end": null,
+                    "url": {
+                        "id": "f01d0a24-d2ea-4e23-9b34-7d97e14a4187",
+                        "resource": "http://viaf.org/viaf/90590731"
+                    },
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward"
+                },
+                {
+                    "type": "wikidata",
+                    "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://www.wikidata.org/wiki/Q6262809",
+                        "id": "40ef6c02-22d4-4032-ba6e-187f3cae4797"
+                    },
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                }
+            ],
+            "user-genres": [],
+            "aliases": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "name": "John Waller",
+            "sort-name": "Waller, John"
+        },
+        {
+            "genres": [
+                {
+                    "name": "americana",
+                    "id": "2c765e49-a12e-45eb-b628-f8b9cc0a0250",
+                    "count": 1,
+                    "disambiguation": ""
+                },
+                {
+                    "name": "avant-garde jazz",
+                    "disambiguation": "",
+                    "count": 1,
+                    "id": "8d901306-d4a3-436c-a1c3-75550e5b6eaf"
+                },
+                {
+                    "name": "beat poetry",
+                    "id": "e60a0c34-fb01-4434-a835-a9167f136fe9",
+                    "count": 1,
+                    "disambiguation": ""
+                }
+            ],
+            "end-area": null,
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "type": "Person",
+            "life-span": {
+                "begin": "1949-12-07",
+                "ended": false,
+                "end": null
+            },
+            "id": "c3aeb863-7b26-4388-94e8-5a240f2be21b",
+            "country": "US",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "americana"
+                },
+                {
+                    "name": "avant-garde jazz",
+                    "count": 1
+                },
+                {
+                    "name": "beat poetry",
+                    "count": 1
+                }
+            ],
+            "area": {
+                "type-id": null,
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "disambiguation": "",
+                "type": null,
+                "name": "United States",
+                "sort-name": "United States",
+                "iso-3166-1-codes": [
+                    "US"
+                ]
+            },
+            "annotation": null,
+            "begin-area": {
+                "id": "f65f6373-5044-416b-985f-1ea5a1f4e436",
+                "type": null,
+                "disambiguation": "",
+                "type-id": null,
+                "name": "Pomona",
+                "sort-name": "Pomona"
+            },
+            "gender": "Male",
+            "disambiguation": "",
+            "ipis": [
+                "00076346852",
+                "00218688241"
+            ],
+            "user-rating": {
+                "value": null
+            },
+            "user-tags": [],
+            "isnis": [
+                "0000000114751153"
+            ],
+            "name": "Tom Waits",
+            "rating": {
+                "votes-count": 15,
+                "value": 4.85
+            },
+            "sort-name": "Waits, Tom",
+            "aliases": [
+                {
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "locale": null,
+                    "primary": null,
+                    "type": "Legal name",
+                    "sort-name": "Waits, Thomas Alan",
+                    "name": "Thomas Alan Waits",
+                    "ended": false,
+                    "end": null,
+                    "begin": null
+                },
+                {
+                    "begin": null,
+                    "name": "Tom Waites",
+                    "sort-name": "Tom Waites",
+                    "ended": false,
+                    "end": null,
+                    "type": null,
+                    "primary": null,
+                    "type-id": null,
+                    "locale": null
+                },
+                {
+                    "begin": null,
+                    "ended": false,
+                    "end": null,
+                    "sort-name": "Ton Waits",
+                    "name": "Ton Waits",
+                    "type": null,
+                    "primary": null,
+                    "locale": null,
+                    "type-id": null
+                },
+                {
+                    "begin": null,
+                    "ended": false,
+                    "end": null,
+                    "name": "Waits",
+                    "sort-name": "Waits",
+                    "primary": false,
+                    "type": null,
+                    "locale": "en",
+                    "type-id": null
+                },
+                {
+                    "primary": null,
+                    "type": null,
+                    "type-id": null,
+                    "locale": null,
+                    "begin": null,
+                    "sort-name": "Waits, Tom",
+                    "name": "Waits, Tom",
+                    "ended": false,
+                    "end": null
+                }
+            ],
+            "user-genres": [],
+            "relations": [
+                {
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": "1980-08-10",
+                    "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+                    "attributes": [],
+                    "type": "married",
+                    "artist": {
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "610621a9-f9a7-4aba-8d30-2307c61e1f08",
+                        "country": "US",
+                        "type": "Person",
+                        "disambiguation": "",
+                        "sort-name": "Brennan, Kathleen",
+                        "name": "Kathleen Brennan"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": []
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "attributes": [],
+                    "artist": {
+                        "name": "Roy Orbison and Friends",
+                        "sort-name": "Roy Orbison and Friends",
+                        "type": "Group",
+                        "disambiguation": "",
+                        "country": null,
+                        "id": "ed87203c-a57f-40a1-a24e-ba1af54bb546",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                    },
+                    "type": "member of band"
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+                    "type": "parent",
+                    "artist": {
+                        "name": "Casey Waits",
+                        "sort-name": "Waits, Casey",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "country": null,
+                        "id": "0c63ccaf-b048-45a6-99e0-7626b95c4772",
+                        "disambiguation": "drummer & tuntablist, son of Tom Waits",
+                        "type": "Person"
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "source-credit": ""
+                },
+                {
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "parent",
+                    "artist": {
+                        "sort-name": "Waits, Sullivan",
+                        "name": "Sullivan Waits",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "ab521dcd-b09a-4374-baad-c465c22994dc",
+                        "country": null,
+                        "disambiguation": "multi-instrumentalist, son of Tom Waits",
+                        "type": "Person"
+                    },
+                    "attributes": [],
+                    "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "artist"
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "artist",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "ended": false,
+                    "end": null,
+                    "type": "tribute",
+                    "artist": {
+                        "sort-name": "Dirty Machine",
+                        "name": "Dirty Machine",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "disambiguation": "Belgian Tom Waits tribute band",
+                        "type": "Group",
+                        "id": "48c36bd6-856e-4025-9c92-3824ef1ffee1",
+                        "country": "BE"
+                    },
+                    "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+                    "attributes": []
+                },
+                {
+                    "artist": {
+                        "country": "BE",
+                        "id": "0845cc74-c55a-4f3b-9f11-8a55b699fb8f",
+                        "disambiguation": "Belgian Tom Waits tribute band",
+                        "type": "Group",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "name": "Nighthawks",
+                        "sort-name": "Nighthawks"
+                    },
+                    "type": "tribute",
+                    "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+                    "attributes": [],
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "artist",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "artist",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "ended": false,
+                    "end": null,
+                    "artist": {
+                        "sort-name": "Swordfishtrombones",
+                        "name": "Swordfishtrombones",
+                        "type": "Group",
+                        "disambiguation": "Finnish Tom Waits tribute band",
+                        "id": "5d98a95b-bdde-40f2-b460-5b66780d171e",
+                        "country": "FI",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                    },
+                    "type": "tribute",
+                    "attributes": [],
+                    "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f"
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "event",
+                    "event": {
+                        "time": "",
+                        "name": "1981‐08‐24: Los Angeles Memorial Sports Arena, Los Angeles, CA, USA",
+                        "type": "Concert",
+                        "disambiguation": "",
+                        "setlist": "@ [70248960-cb53-4ea4-943a-edb18f7d336f|Bruce Springsteen]\r\n# &\r\n@ [d6652e7b-33fe-49ef-8336-4c863b4f996f|The E Street Band]\r\n\r\n* [e8a5fe99-0aff-3e7b-840c-7ab96cb702be|Badlands]\r\n* [59d022ee-d140-3bcd-b885-593c22e3f779|Who’ll Stop the Rain]\r\n* [35fdc4a9-fd0a-3a68-a539-5b377464a3ac|Out in the Street]\r\n* [d3cbf5a8-c80a-3273-a405-e756cf11e9ca|Darkness on the Edge of Town]\r\n* [921bbefd-62d6-465c-a2ae-aeb61ada82ee|Follow That Dream]\r\n* [588f5e54-97ad-3450-9849-dab3438483cb|Independence Day]\r\n* [16d30577-b539-3c38-b440-06a210d02325|Jackson Cage]\r\n* [58976436-655f-4cda-8aa7-2b3f45dc1bf2|Trapped]\r\n* [fa36af81-2bd8-3436-bf94-7df8e818d99d|Two Hearts]\r\n* [13411c83-ddd8-31ca-b968-79e4cf6db8fb|The Promised Land]\r\n* [fe0f14e5-de68-3aa6-bf48-80c4cbe2a1f7|The River]\r\n* [ca8235c6-1891-4d31-b55e-49f51ba3e613|This Land Is Your Land]\r\n* [872604b3-15d2-44fd-8631-0903b0ddb858|Prove It All Night]\r\n* [cc8d858a-38ef-35b0-b83c-a5d26f04207b|Thunder Road]\r\n* [db8f3060-b101-3877-9805-ce054f923302|Hungry Heart]\r\n* [7f44c910-49f8-35f5-bb65-4c6d790ad685|Cadillac Ranch]\r\n* [6b68afb7-d508-3cdb-8b41-687de4773d72|Sherry Darling]\r\n* [b1528b3f-0c0e-3977-ba98-5cb5b38108db|Growin’ Up]\r\n* [2e672a08-aa64-3ab1-9bcf-ab93b19ab5e4|Point Blank]\r\n* [e2c39ab9-be7b-4248-af0f-383883d2714d|Johnny Bye-Bye]\r\n* [5f9f38a1-f3fe-36ab-8a1e-b650f52e5acf|Candy’s Room]\r\n* [9915e1a9-13ff-3ea0-823d-56fe45f7535d|Ramrod]\r\n* [66969327-8735-37eb-aaa1-a4b638d446b0|Rosalita (Come Out Tonight)] / [7a4e4a26-acd7-45e4-bbc9-34875404daaa|Sweet Soul Music]\r\n* [8c806b4e-edb4-3101-bc58-2605ec309a2e|Jersey Girl] (with Tom Waits)\r\n* [6ee4ff85-be1a-4f50-b6ec-e8caa1e9fd5c|Jungleland]\r\n* [9893a23c-f282-3b07-a2db-b4f2f3b9f4b2|Born to Run]\r\n* [da1f36f5-dcdd-4a56-8d92-4b3527fd1291|Detroit Medley] / [2e5bff10-df66-4760-8df4-38a95d917d2a|You Can’t Sit Down] / [7a4e4a26-acd7-45e4-bbc9-34875404daaa|Sweet Soul Music] / [5740e2cf-979d-32ca-8ff3-7036e0bf4cef|Shake]\r\n* [7e2dedbb-5be0-32d4-8985-079d6df1e78b|Twist and Shout]",
+                        "cancelled": false,
+                        "life-span": {
+                            "end": "1981-08-24",
+                            "ended": true,
+                            "begin": "1981-08-24"
+                        },
+                        "id": "59370b19-5071-4000-a896-1d458b45cf56",
+                        "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+                    },
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "guest performer",
+                    "attributes": [],
+                    "type-id": "292df906-98a6-307e-86e8-df01a579a321"
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "event": {
+                        "disambiguation": "Roy Orbison’s Black & White Night",
+                        "type": "Concert",
+                        "setlist": "@ [0bbbc496-c7b5-4b3f-bb6d-bd312827d6e5|Roy Orbison]\r\n# with\r\n@ [70248960-cb53-4ea4-943a-edb18f7d336f|Bruce Springsteen]\r\n@ [0f0da09c-3940-4cb5-879f-4cea28907810|Bonnie Raitt]\r\n@ [8a338e06-d182-46f2-bd16-30a09bc840ba|Elvis Costello]\r\n@ [81e2f4b1-4b48-4bdb-9717-4180e0f1ebc2|J.D. Souther]\r\n@ [88527d26-7496-47c5-8358-ebdb1868a90f|Jackson Browne]\r\n@ [2f140aa6-b99b-4f79-ae33-96018af87fa3|Jennifer Warnes]\r\n@ [675c1c5e-5625-4a5e-97a2-b02aab5db2fc|k.d. lang]\r\n@ [c3aeb863-7b26-4388-94e8-5a240f2be21b|Tom Waits]\r\n@ [b821dd8c-4583-4385-9293-6f1015b74ef9|T‐Bone Burnett]\r\n\r\n# Rehearsal\r\n* [41188891-81da-3ec6-8b37-137ae2b13833|Mean Woman Blues]\r\n* [27ea9789-d41f-3924-9ed0-20e87cc82cde|The Comedians]\r\n* [a9aa8366-e55a-3df5-a61a-050fbb189d10|Blue Angel]\r\n* [653769c3-7a78-3b1b-9bcc-be7a6c335a1b|Blue Bayou]\r\n* [8f6d1d5a-7d59-3dee-bafc-ea5c8d71f760|Candy Man]\r\n* [8e95a967-31e5-3839-9290-e9d30af110d8|It’s Over]\r\n* [c4e9c110-e548-37e9-8961-8d762797edf3|Ooby Dooby]\r\n* [21017d9d-584a-30b6-9ba3-d94f9e662f4b|Running Scared]\r\n* [80bdccf0-b216-40b2-8521-eee9108f0092|(All I Can Do Is) Dream You]\r\n* [21482f32-0d9e-45b5-9415-e49ca5ae0332|Uptown]\r\n* [3a4272a2-5a50-3a91-80ec-92147b863edb|Dream Baby (How Long Must I Dream)]\r\n\r\n# Concert\r\n* [a7e8fc9e-f457-370c-ab68-4b9d336cdb91|Only the Lonely]\r\n* [528c846b-e3fb-4db0-b591-bb507bf95706|Leah]\r\n* [660e9c82-497b-307b-8374-1f5489becdaf|In Dreams]\r\n* [773af48a-e550-3885-b575-1590dcb15dfa|Crying]\r\n* [21482f32-0d9e-45b5-9415-e49ca5ae0332|Uptown]\r\n* [27ea9789-d41f-3924-9ed0-20e87cc82cde|The Comedians]\r\n* [a9aa8366-e55a-3df5-a61a-050fbb189d10|Blue Angel]\r\n* [8e95a967-31e5-3839-9290-e9d30af110d8|It’s Over]\r\n* [21017d9d-584a-30b6-9ba3-d94f9e662f4b|Running Scared]\r\n* [3a4272a2-5a50-3a91-80ec-92147b863edb|Dream Baby (How Long Must I Dream)]\r\n* [41188891-81da-3ec6-8b37-137ae2b13833|Mean Woman Blues]\r\n* [8f6d1d5a-7d59-3dee-bafc-ea5c8d71f760|Candy Man]\r\n* [c4e9c110-e548-37e9-8961-8d762797edf3|Ooby Dooby]\r\n* [dec5eb02-6d51-385d-bbe5-864a51b09511|Go Go Go (Down the Line)]\r\n* [80bdccf0-b216-40b2-8521-eee9108f0092|(All I Can Do Is) Dream You]\r\n* [8c1bb4d2-95e7-405b-8ec0-a21989c3f9cc|Claudette]\r\n* [73a3f4b3-29c7-389a-a778-43cccd7be945|Oh, Pretty Woman]\r\n* [73a3f4b3-29c7-389a-a778-43cccd7be945|Oh, Pretty Woman]\r\n\r\n# Post show\r\n* [80bdccf0-b216-40b2-8521-eee9108f0092|(All I Can Do Is) Dream You]\r\n* [27ea9789-d41f-3924-9ed0-20e87cc82cde|The Comedians]\r\n* [8f6d1d5a-7d59-3dee-bafc-ea5c8d71f760|Candy Man]\r\n* [8c1bb4d2-95e7-405b-8ec0-a21989c3f9cc|Claudette]\r\n* [21482f32-0d9e-45b5-9415-e49ca5ae0332|Uptown]",
+                        "cancelled": false,
+                        "id": "6de012e4-9650-4b86-9ba7-86ae97f589d9",
+                        "life-span": {
+                            "begin": "1987-09-30",
+                            "end": "1987-09-30",
+                            "ended": true
+                        },
+                        "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                        "time": "",
+                        "name": "1987‐09‐30: Cocoanut Grove, Ambassador Hotel, Los Angeles, CA, USA"
+                    },
+                    "target-type": "event",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "type": "main performer",
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "attributes": []
+                },
+                {
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "main performer",
+                    "attributes": [],
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "event": {
+                        "name": "1990‐04‐14: Michael’s Restaurant, Santa Monica, CA, USA",
+                        "time": "",
+                        "type-id": null,
+                        "cancelled": false,
+                        "id": "32cbeec2-6696-4f3c-83fe-8d2bfbfa1e14",
+                        "life-span": {
+                            "begin": "1990-04-14",
+                            "ended": true,
+                            "end": "1990-04-14"
+                        },
+                        "type": null,
+                        "disambiguation": "Chuck Plotkin wedding reception",
+                        "setlist": "@ [70248960-cb53-4ea4-943a-edb18f7d336f|Bruce Springsteen]\r\n# with\r\n@ [f09aa40c-b613-4ea2-a8cf-6056c2657a9a|Patti Scialfa]\r\n@ [10876f5a-9ac7-49c7-a2b6-46a3f1ac3523|Andrew Gold]\r\n@ [8b76d64a-923b-4c0f-b04f-f0f9f6a2c6c2|Karla Bonoff]\r\n\r\n* [e497263c-4f15-36c0-b27c-dca99482962c|The Fever] (with Tom Waits)\r\n* [8c806b4e-edb4-3101-bc58-2605ec309a2e|Jersey Girl] (with Tom Waits)\r\n* [54d6831c-4447-3087-a71e-3f92aa1fad27|Stand by Me] (with Tom Waits)\r\n* [453dd62c-072c-3b5a-9704-c0a82ab196be|It’s Gonna Work Out Fine] (with Jimmie Wood)\r\n* [e59ca323-dd32-3a0b-80a9-d42746362213|Glory Days]"
+                    },
+                    "target-type": "event"
+                },
+                {
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false,
+                    "type": "main performer",
+                    "attributes": [],
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "event": {
+                        "type-id": null,
+                        "type": null,
+                        "disambiguation": "",
+                        "setlist": "@ Tom Waits\r\n* Take One Last Look",
+                        "cancelled": false,
+                        "id": "0165a62b-eda2-4641-baed-716a60f63394",
+                        "life-span": {
+                            "begin": "2015-05-14",
+                            "end": "2015-05-14",
+                            "ended": true
+                        },
+                        "time": "",
+                        "name": "Late Show with David Letterman"
+                    },
+                    "target-type": "event"
+                },
+                {
+                    "attribute-ids": {
+                        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87",
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348",
+                        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                    },
+                    "attribute-credits": [],
+                    "begin": null,
+                    "target-type": "event",
+                    "event": {
+                        "name": "Tom Waits at the Orpheum Theatre",
+                        "time": "08:30",
+                        "life-span": {
+                            "end": "2008-06-17",
+                            "ended": true,
+                            "begin": "2008-06-17"
+                        },
+                        "id": "843348e8-8a83-4a23-8804-042c659a52dd",
+                        "cancelled": false,
+                        "setlist": "* Lucinda / Ain’t Goin’ Down to the Well\r\n* Hoist That Rag\r\n* Come On Up to the House\r\n* Jesus Gonna Be Here\r\n* November\r\n* Black Market Baby\r\n* Rain Dogs\r\n* Trampled Rose\r\n* Goin' Out West\r\n* Murder in the Red Barn\r\n* Anywhere I Lay My Head\r\n* Cemetery Polka\r\n* Get Behind the Mule\r\n* Eyeball Kid\r\n* Christmas Card from a Hooker in Minneapolis\r\n* Picture in a Frame\r\n* Invitation to the Blues\r\n* Innocent When You Dream\r\n* Lie to Me\r\n* Chocolate Jesus\r\n* Make It Rain \r\n# Encore\r\n* Way Down in the Hole\r\n* God's Away on Business\r\n* Time",
+                        "type": "Concert",
+                        "disambiguation": "first night",
+                        "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+                    },
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "attributes": [
+                        "electric guitar",
+                        "lead vocals",
+                        "piano"
+                    ],
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "type": "main performer"
+                },
+                {
+                    "source-credit": "",
+                    "label": {
+                        "id": "0eb64515-de93-4fd1-9d31-121cd8676354",
+                        "disambiguation": "",
+                        "type": "Holding",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "label-code": null,
+                        "sort-name": "Lost Henry",
+                        "name": "Lost Henry"
+                    },
+                    "target-type": "label",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "personal label",
+                    "attributes": [],
+                    "type-id": "fe16f2bd-d324-435a-8076-bcf43b805bd9",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "label": {
+                        "type": "Publisher",
+                        "disambiguation": "",
+                        "id": "3f8b5375-ce15-48a3-a288-553038dfa26a",
+                        "label-code": null,
+                        "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                        "sort-name": "Jalma Music",
+                        "name": "Jalma Music"
+                    },
+                    "source-credit": "",
+                    "target-type": "label",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "personal publisher",
+                    "type-id": "8fecc8a7-0df7-4637-9152-f12a07f0e9cd",
+                    "attributes": []
+                },
+                {
+                    "recording": {
+                        "length": 145560,
+                        "video": false,
+                        "id": "5ba3b5da-b985-4499-b9d8-640734d25997",
+                        "title": "’T Ain’t No Sin",
+                        "disambiguation": ""
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "attributes": [],
+                    "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+                    "type": "arranger"
+                },
+                {
+                    "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+                    "attributes": [],
+                    "type": "arranger",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "76419bee-79e4-4cfa-a53e-3917ed90d657",
+                        "title": "9th & Hennepin",
+                        "length": 116866,
+                        "video": false
+                    },
+                    "begin": null
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+                    "type": "arranger",
+                    "recording": {
+                        "title": "16 Shells From a Thirty‐Ought‐Six",
+                        "id": "847a2ee5-d95a-4b72-a6e5-76f3036a2ad3",
+                        "disambiguation": "",
+                        "length": 273000,
+                        "video": false
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": ""
+                },
+                {
+                    "recording": {
+                        "length": 260640,
+                        "video": false,
+                        "id": "0fac81d4-3486-468a-8ce8-c96434543f33",
+                        "title": "Closing Time",
+                        "disambiguation": ""
+                    },
+                    "attribute-ids": {
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                    },
+                    "attribute-credits": [],
+                    "begin": "1972",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "end": "1972",
+                    "ended": true,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "attributes": [
+                        "piano"
+                    ],
+                    "type": "instrument"
+                },
+                {
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": true,
+                    "end": "1972",
+                    "type": "instrument",
+                    "attributes": [
+                        "piano"
+                    ],
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "begin": "1972",
+                    "attribute-credits": [],
+                    "attribute-ids": {
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                    },
+                    "recording": {
+                        "length": 289160,
+                        "video": false,
+                        "disambiguation": "",
+                        "id": "f41bf8bc-554f-4d02-8c42-12efa349cece",
+                        "title": "Grapefruit Moon"
+                    },
+                    "source-credit": "",
+                    "target-type": "recording"
+                },
+                {
+                    "attributes": [
+                        "piano"
+                    ],
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "type": "instrument",
+                    "end": "1972",
+                    "ended": true,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "attribute-ids": {
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                    },
+                    "recording": {
+                        "video": false,
+                        "length": 234413,
+                        "title": "I Hope That I Don’t Fall in Love With You",
+                        "id": "39bce42d-5cc8-4f4c-8120-73c35606ca38",
+                        "disambiguation": ""
+                    },
+                    "attribute-credits": [],
+                    "begin": "1972"
+                },
+                {
+                    "attribute-ids": [],
+                    "recording": {
+                        "video": false,
+                        "length": 237973,
+                        "title": "A Good Man Is Hard to Find",
+                        "id": "86eb1a4a-b57f-4b2c-8d4e-b115fcf97429",
+                        "disambiguation": ""
+                    },
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "68330a36-44cf-4fa2-84e8-533c6fe3fc23",
+                    "type": "misc"
+                },
+                {
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                    "type": "performer",
+                    "attribute-ids": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "be219955-36ef-48f7-a7b6-80a4d6c74805",
+                        "title": "I’ll Tell You Why That Is",
+                        "video": false,
+                        "length": 317293
+                    },
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": ""
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": null,
+                    "recording": {
+                        "length": 381400,
+                        "video": false,
+                        "id": "8e7cf9de-d04a-4ce1-a856-ce3c79fd2390",
+                        "title": "Jesus Blood Never Failed Me Yet (feat. Tom Waits)",
+                        "disambiguation": ""
+                    },
+                    "attribute-ids": [],
+                    "type": "performer",
+                    "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                    "attributes": [],
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null
+                },
+                {
+                    "attributes": [],
+                    "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                    "type": "performer",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "recording": {
+                        "title": "Jesus' Blood Never Failed Me Yet",
+                        "id": "39cdc94d-ec9f-4287-9d36-70f7c2fc3569",
+                        "disambiguation": "",
+                        "video": false,
+                        "length": 244948
+                    },
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "attributes": [],
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "type": "producer",
+                    "end": "1998",
+                    "ended": true,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "recording": {
+                        "id": "30d44ed7-5a41-479b-90c5-04cf7321d930",
+                        "title": "Big Face Money",
+                        "disambiguation": "",
+                        "video": false,
+                        "length": 38840
+                    },
+                    "attribute-ids": [],
+                    "begin": "1998"
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": "1998",
+                    "recording": {
+                        "disambiguation": "",
+                        "title": "Big in Japan",
+                        "id": "1e71653a-d5c6-4f18-bd29-35f3e76e87eb",
+                        "length": 245160,
+                        "video": false
+                    },
+                    "attribute-ids": [],
+                    "type": "producer",
+                    "attributes": [],
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": "1998",
+                    "ended": true
+                },
+                {
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "recording": {
+                        "video": false,
+                        "length": 302440,
+                        "title": "Black Market Baby",
+                        "id": "18f7eed0-65db-4d39-b689-fcb8888ecb06",
+                        "disambiguation": ""
+                    },
+                    "begin": "1998",
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "attributes": [],
+                    "type": "producer",
+                    "end": "1998",
+                    "ended": true,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": ""
+                },
+                {
+                    "type-id": "601fc03e-1058-4ee6-a546-b914d55aa6ba",
+                    "attributes": [],
+                    "type": "video appearance",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "recording": {
+                        "id": "8c966f9c-f117-41a7-8cec-c27c609e6e68",
+                        "title": "Teenage Riot",
+                        "disambiguation": "",
+                        "video": true,
+                        "length": 259000
+                    },
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "type": "vocal",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": true,
+                    "end": "1972",
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": "1972",
+                    "attribute-ids": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "title": "Grapefruit Moon",
+                        "id": "f41bf8bc-554f-4d02-8c42-12efa349cece",
+                        "length": 289160,
+                        "video": false
+                    }
+                },
+                {
+                    "begin": "1972",
+                    "recording": {
+                        "length": 234413,
+                        "video": false,
+                        "title": "I Hope That I Don’t Fall in Love With You",
+                        "id": "39bce42d-5cc8-4f4c-8120-73c35606ca38",
+                        "disambiguation": ""
+                    },
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": true,
+                    "end": "1972",
+                    "type": "vocal",
+                    "attributes": [],
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+                },
+                {
+                    "ended": true,
+                    "end": "1972",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "attributes": [],
+                    "type": "vocal",
+                    "attribute-ids": [],
+                    "recording": {
+                        "length": 185560,
+                        "video": false,
+                        "disambiguation": "",
+                        "title": "Ice Cream Man",
+                        "id": "14cfa452-343f-4b9b-806b-e43e87732cee"
+                    },
+                    "begin": "1972",
+                    "target-type": "recording",
+                    "source-credit": ""
+                },
+                {
+                    "type": "vocal",
+                    "attributes": [
+                        "spoken vocals"
+                    ],
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": "1973-08-12",
+                    "ended": true,
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "attribute-credits": [],
+                    "begin": "1973-08-12",
+                    "attribute-ids": {
+                        "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+                    },
+                    "recording": {
+                        "disambiguation": "live broadcast, 1973-08-12: KPFK Studio, Los Angeles, California",
+                        "title": "Interview",
+                        "id": "d610bbb3-a0a3-4737-8955-d704d7d25cac",
+                        "video": false,
+                        "length": 100480
+                    }
+                },
+                {
+                    "attribute-credits": [],
+                    "begin": "1973-08-12",
+                    "attribute-ids": {
+                        "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+                    },
+                    "recording": {
+                        "disambiguation": "live broadcast, 1973-08-12: KPFK Studio, Los Angeles, California",
+                        "id": "dab65bf1-3e85-4895-b11d-5f5f5d2461d6",
+                        "title": "Interview",
+                        "length": 122413,
+                        "video": false
+                    },
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": "1973-08-12",
+                    "ended": true,
+                    "type": "vocal",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "attributes": [
+                        "spoken vocals"
+                    ]
+                },
+                {
+                    "attribute-credits": [],
+                    "begin": "1973-08-12",
+                    "recording": {
+                        "id": "c314b861-7fbc-436a-833c-06e85e975aa8",
+                        "title": "Interview",
+                        "disambiguation": "live broadcast, 1973-08-12: KPFK Studio, Los Angeles, California",
+                        "video": false,
+                        "length": 145253
+                    },
+                    "attribute-ids": {
+                        "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+                    },
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": "1973-08-12",
+                    "ended": true,
+                    "type": "vocal",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "attributes": [
+                        "spoken vocals"
+                    ]
+                },
+                {
+                    "type-id": "34d5334e-a4c8-4b65-a5f8-bbcc9c81d13d",
+                    "attributes": [],
+                    "type": "arranger",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "target-type": "release",
+                    "source-credit": "",
+                    "release": {
+                        "release-events": [
+                            {
+                                "area": {
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States"
+                                },
+                                "date": "1992-04-07"
+                            }
+                        ],
+                        "status-id": null,
+                        "disambiguation": "",
+                        "packaging": null,
+                        "packaging-id": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "barcode": "731451072529",
+                        "id": "d451c1ce-8862-425a-afae-023de0d9f61b",
+                        "date": "1992-04-07",
+                        "title": "Night on Earth",
+                        "country": "US",
+                        "status": null
+                    },
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "release",
+                    "release": {
+                        "status": null,
+                        "barcode": "4007192623709",
+                        "id": "bc3825fd-c854-3c55-acbc-50a82510ee50",
+                        "date": "1991",
+                        "country": "DE",
+                        "title": "Night on Earth",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "packaging-id": null,
+                        "disambiguation": "",
+                        "packaging": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "type-id": null,
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "name": "Germany",
+                                    "sort-name": "Germany",
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ]
+                                },
+                                "date": "1991"
+                            }
+                        ],
+                        "status-id": null
+                    },
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type-id": "34d5334e-a4c8-4b65-a5f8-bbcc9c81d13d",
+                    "attributes": [],
+                    "type": "arranger"
+                },
+                {
+                    "release": {
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "GB"
+                                    ],
+                                    "name": "United Kingdom",
+                                    "sort-name": "United Kingdom",
+                                    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null
+                                },
+                                "date": "2010-07-01"
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status": null,
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "date": "2010-07-01",
+                        "id": "03d74f77-b777-499c-ac4f-35342b68a529",
+                        "country": "GB",
+                        "title": "Step Right Up!",
+                        "barcode": ""
+                    },
+                    "source-credit": "",
+                    "target-type": "release",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "compiler",
+                    "type-id": "2f81887a-8674-4d8b-bd48-8bfd4c6fa332",
+                    "attributes": [],
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "release",
+                    "release": {
+                        "status": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "barcode": "045778663224",
+                        "date": "2002-05-07",
+                        "id": "1b3fe3d5-3d19-4062-a455-9fe74fcb4d02",
+                        "title": "Alice",
+                        "country": "US",
+                        "packaging-id": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2002-05-07",
+                                "area": {
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States"
+                                }
+                            }
+                        ],
+                        "disambiguation": "",
+                        "packaging": null
+                    },
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "type-id": "01ce32b0-d873-4baa-8025-714b45c0c754",
+                    "attributes": [],
+                    "type": "composer"
+                },
+                {
+                    "type": "composer",
+                    "attributes": [],
+                    "type-id": "01ce32b0-d873-4baa-8025-714b45c0c754",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "release": {
+                        "packaging-id": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "XE"
+                                    ],
+                                    "sort-name": "Europe",
+                                    "name": "Europe"
+                                },
+                                "date": "2002-05-07"
+                            }
+                        ],
+                        "status": null,
+                        "country": "XE",
+                        "title": "Alice",
+                        "id": "c0c1245c-f8b3-3dba-9310-82052adfa73a",
+                        "date": "2002-05-07",
+                        "barcode": "8714092663228",
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        }
+                    },
+                    "target-type": "release",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "attributes": [],
+                    "type-id": "01ce32b0-d873-4baa-8025-714b45c0c754",
+                    "type": "composer",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "target-type": "release",
+                    "release": {
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2002-05-06",
+                                "area": {
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "name": "Germany",
+                                    "sort-name": "Germany"
+                                }
+                            },
+                            {
+                                "date": "2002-05-06",
+                                "area": {
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "GB"
+                                    ],
+                                    "name": "United Kingdom",
+                                    "sort-name": "United Kingdom"
+                                }
+                            },
+                            {
+                                "area": {
+                                    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "XE"
+                                    ],
+                                    "sort-name": "Europe",
+                                    "name": "Europe"
+                                },
+                                "date": "2002-05-07"
+                            }
+                        ],
+                        "packaging-id": null,
+                        "date": "2002-05-06",
+                        "id": "0001853e-ccc7-4555-9eb2-03cb8ce4a7b2",
+                        "title": "Blood Money",
+                        "country": "DE",
+                        "barcode": "8714092662924",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "status": null
+                    },
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "attribute-ids": {
+                        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+                    },
+                    "begin": null,
+                    "target-type": "release",
+                    "release": {
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "barcode": "193483697734",
+                        "title": "Rise",
+                        "country": "US",
+                        "date": "2019-06-21",
+                        "id": "65b5b55b-ccbc-425b-b6a3-22c1f72003cc",
+                        "status": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States"
+                                },
+                                "date": "2019-06-21"
+                            },
+                            {
+                                "area": {
+                                    "type-id": null,
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                                    "sort-name": "Canada",
+                                    "name": "Canada",
+                                    "iso-3166-1-codes": [
+                                        "CA"
+                                    ]
+                                },
+                                "date": ""
+                            }
+                        ],
+                        "status-id": null,
+                        "disambiguation": "",
+                        "packaging": null,
+                        "packaging-id": null
+                    },
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "attributes": [
+                        "additional"
+                    ],
+                    "type-id": "87e922ba-872e-418a-9f41-0a63aa3c30cc",
+                    "type": "engineer"
+                },
+                {
+                    "target-type": "release",
+                    "release": {
+                        "status": null,
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "barcode": null,
+                        "title": "1999-04-01: VH1 Storytellers: Burbank Airport, Los Angeles, CA, USA",
+                        "country": "US",
+                        "id": "3ea47acd-e2d9-458d-8f16-483e2051e49c",
+                        "date": "1999",
+                        "packaging-id": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "1999",
+                                "area": {
+                                    "sort-name": "United States",
+                                    "name": "United States",
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "type-id": null,
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type": null,
+                                    "disambiguation": ""
+                                }
+                            }
+                        ],
+                        "disambiguation": "",
+                        "packaging": null
+                    },
+                    "source-credit": "",
+                    "attribute-ids": {
+                        "guitar": "63021302-86cd-4aee-80df-2270d54f4978",
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                    },
+                    "begin": null,
+                    "attribute-credits": [],
+                    "attributes": [
+                        "guitar",
+                        "piano"
+                    ],
+                    "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+                    "type": "instrument",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward"
+                },
+                {
+                    "attribute-credits": [],
+                    "begin": null,
+                    "attribute-ids": {
+                        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+                    },
+                    "source-credit": "",
+                    "release": {
+                        "title": "Glitter and Doom: Live",
+                        "country": "US",
+                        "date": "2009-11-23",
+                        "id": "4342d3c6-f1a2-46e8-b208-77f3bf1f27af",
+                        "barcode": "8714092705324",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "status": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2009-11-23",
+                                "area": {
+                                    "sort-name": "United States",
+                                    "name": "United States",
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "type-id": null,
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type": null,
+                                    "disambiguation": ""
+                                }
+                            }
+                        ],
+                        "packaging-id": null
+                    },
+                    "target-type": "release",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "instrument",
+                    "attributes": [
+                        "guitar"
+                    ],
+                    "type-id": "67555849-61e5-455b-96e3-29733f0115f5"
+                },
+                {
+                    "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+                    "attributes": [
+                        "piano"
+                    ],
+                    "type": "instrument",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "target-type": "release",
+                    "release": {
+                        "packaging-id": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "type-id": null,
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "name": "United States",
+                                    "sort-name": "United States",
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ]
+                                },
+                                "date": "2009-11-23"
+                            }
+                        ],
+                        "status": null,
+                        "date": "2009-11-23",
+                        "id": "4342d3c6-f1a2-46e8-b208-77f3bf1f27af",
+                        "country": "US",
+                        "title": "Glitter and Doom: Live",
+                        "barcode": "8714092705324",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "quality": "normal"
+                    },
+                    "source-credit": "",
+                    "attribute-ids": {
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                    },
+                    "begin": null,
+                    "attribute-credits": []
+                },
+                {
+                    "target-type": "release",
+                    "release": {
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "date": "2006-09-19",
+                                "area": {
+                                    "type-id": null,
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "sort-name": "United States",
+                                    "name": "United States",
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ]
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status": null,
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "title": "Hell's Ditch",
+                        "country": "US",
+                        "date": "2006-09-19",
+                        "id": "0e286a11-075f-495a-b8c0-b3cdfc1d0f14",
+                        "barcode": "081227406721"
+                    },
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": "2004-03",
+                    "attributes": [],
+                    "type-id": "01323b4f-7aba-410c-8c91-cb224b963a40",
+                    "type": "liner notes",
+                    "ended": true,
+                    "end": "2004-03",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward"
+                },
+                {
+                    "ended": true,
+                    "end": "2004-03",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "01323b4f-7aba-410c-8c91-cb224b963a40",
+                    "type": "liner notes",
+                    "attribute-ids": [],
+                    "begin": "2004-03",
+                    "target-type": "release",
+                    "release": {
+                        "packaging": null,
+                        "disambiguation": "",
+                        "release-events": [
+                            {
+                                "date": "2006-09-19",
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "sort-name": "United States",
+                                    "name": "United States",
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type-id": null
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging-id": null,
+                        "date": "2006-09-19",
+                        "id": "248f3e9b-87c0-340f-a8d1-caf89e49a72c",
+                        "title": "Rum Sodomy & the Lash",
+                        "country": "US",
+                        "barcode": "081227407223",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "status": null
+                    },
+                    "source-credit": ""
+                },
+                {
+                    "type": "liner notes",
+                    "type-id": "01323b4f-7aba-410c-8c91-cb224b963a40",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "release": {
+                        "packaging-id": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "release-events": [
+                            {
+                                "date": "2002-02-25",
+                                "area": {
+                                    "type-id": null,
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                                    "name": "United Kingdom",
+                                    "sort-name": "United Kingdom",
+                                    "iso-3166-1-codes": [
+                                        "GB"
+                                    ]
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "status": null,
+                        "country": "GB",
+                        "title": "Man in Black: The Very Best of Johnny Cash",
+                        "id": "5016cfc2-03b7-493b-8971-14954c69273d",
+                        "date": "2002-02-25",
+                        "barcode": "5099750634523",
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        }
+                    },
+                    "target-type": "release",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "target-type": "release",
+                    "source-credit": "",
+                    "release": {
+                        "date": "2000-01-25",
+                        "id": "ef02bf50-56c0-4b1c-98bf-02b317e5d0bc",
+                        "country": "US",
+                        "title": "Black & White Night",
+                        "barcode": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "status": null,
+                        "packaging": null,
+                        "disambiguation": "",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States",
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null
+                                },
+                                "date": "2000-01-25"
+                            }
+                        ],
+                        "packaging-id": null
+                    },
+                    "attribute-ids": {
+                        "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c"
+                    },
+                    "begin": null,
+                    "attributes": [
+                        "guest"
+                    ],
+                    "type-id": "888a2320-52e4-4fe8-a8a0-7a4c8dfde167",
+                    "type": "performer",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": []
+                },
+                {
+                    "target-type": "release",
+                    "release": {
+                        "barcode": "045778717729",
+                        "title": "Bad as Me",
+                        "country": "US",
+                        "id": "95501339-d993-49d8-8bb0-54cb98464c29",
+                        "date": "2011-10-24",
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "status": null,
+                        "disambiguation": "deluxe edition",
+                        "packaging": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2011-10-24",
+                                "area": {
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "sort-name": "United States",
+                                    "name": "United States"
+                                }
+                            }
+                        ],
+                        "packaging-id": null
+                    },
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "0b58dc9b-9c49-4b19-bb58-9c06d41c8fbf",
+                    "type": "photography",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward"
+                },
+                {
+                    "target-type": "release",
+                    "release": {
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States"
+                                },
+                                "date": "2002-05-07"
+                            }
+                        ],
+                        "status-id": null,
+                        "disambiguation": "",
+                        "packaging": null,
+                        "status": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "barcode": "045778663224",
+                        "title": "Alice",
+                        "country": "US",
+                        "id": "1b3fe3d5-3d19-4062-a455-9fe74fcb4d02",
+                        "date": "2002-05-07"
+                    },
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f",
+                    "type": "producer",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward"
+                },
+                {
+                    "type-id": "8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f",
+                    "attributes": [],
+                    "type": "producer",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "target-type": "release",
+                    "release": {
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "country": "XE",
+                        "title": "Alice",
+                        "id": "c0c1245c-f8b3-3dba-9310-82052adfa73a",
+                        "date": "2002-05-07",
+                        "barcode": "8714092663228",
+                        "status": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "XE"
+                                    ],
+                                    "sort-name": "Europe",
+                                    "name": "Europe",
+                                    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null
+                                },
+                                "date": "2002-05-07"
+                            }
+                        ],
+                        "packaging": null,
+                        "disambiguation": "",
+                        "packaging-id": null
+                    },
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "type-id": "8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f",
+                    "attributes": [],
+                    "type": "producer",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "release",
+                    "release": {
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2002-05-06",
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "sort-name": "Germany",
+                                    "name": "Germany",
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null
+                                }
+                            },
+                            {
+                                "area": {
+                                    "name": "United Kingdom",
+                                    "sort-name": "United Kingdom",
+                                    "iso-3166-1-codes": [
+                                        "GB"
+                                    ],
+                                    "type-id": null,
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+                                },
+                                "date": "2002-05-06"
+                            },
+                            {
+                                "date": "2002-05-07",
+                                "area": {
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "XE"
+                                    ],
+                                    "sort-name": "Europe",
+                                    "name": "Europe"
+                                }
+                            }
+                        ],
+                        "packaging": null,
+                        "disambiguation": "",
+                        "packaging-id": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "date": "2002-05-06",
+                        "id": "0001853e-ccc7-4555-9eb2-03cb8ce4a7b2",
+                        "title": "Blood Money",
+                        "country": "DE",
+                        "barcode": "8714092662924",
+                        "status": null
+                    },
+                    "source-credit": ""
+                },
+                {
+                    "target-type": "release",
+                    "release": {
+                        "disambiguation": "",
+                        "packaging": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "US"
+                                    ],
+                                    "name": "United States",
+                                    "sort-name": "United States"
+                                },
+                                "date": "1999"
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging-id": null,
+                        "barcode": null,
+                        "date": "1999",
+                        "id": "3ea47acd-e2d9-458d-8f16-483e2051e49c",
+                        "title": "1999-04-01: VH1 Storytellers: Burbank Airport, Los Angeles, CA, USA",
+                        "country": "US",
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "status": null
+                    },
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "eb10f8a0-0f4c-4dce-aa47-87bcb2bc42f3",
+                    "type": "vocal",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward"
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "type-id": "b41e7530-cde4-459c-b8c5-dfef08fc8295",
+                    "attributes": [],
+                    "release_group": {
+                        "first-release-date": "2026-09-03",
+                        "primary-type-id": null,
+                        "disambiguation": "",
+                        "primary-type": null,
+                        "id": "e9743d1a-713b-4974-97ea-ae7c137e1e30",
+                        "title": "AN EVENING WITH TOM",
+                        "secondary-type-ids": [],
+                        "secondary-types": []
+                    },
+                    "type": "dedicated to",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "release_group",
+                    "source-credit": ""
+                },
+                {
+                    "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+                    "attributes": [],
+                    "release_group": {
+                        "title": "2008-06-13: Bonnaroo Music Festival, Manchester, TN, USA",
+                        "primary-type": null,
+                        "id": "f9ced425-6f13-4fbc-8b42-cd2fec827ddb",
+                        "disambiguation": "",
+                        "secondary-types": [],
+                        "secondary-type-ids": [],
+                        "primary-type-id": null,
+                        "first-release-date": "2008-06-13"
+                    },
+                    "type": "tribute",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "target-type": "release_group",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "tribute",
+                    "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+                    "attributes": [],
+                    "release_group": {
+                        "primary-type-id": null,
+                        "first-release-date": "2019-11-22",
+                        "title": "Come On Up to the House: Women Sing Waits",
+                        "primary-type": null,
+                        "id": "992cf3bf-d3e0-408e-9205-73b8ff3e15a7",
+                        "disambiguation": "",
+                        "secondary-types": [],
+                        "secondary-type-ids": []
+                    },
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "release_group"
+                },
+                {
+                    "target-type": "release_group",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "release_group": {
+                        "primary-type-id": null,
+                        "first-release-date": "2008",
+                        "secondary-types": [],
+                        "secondary-type-ids": [],
+                        "title": "Female Tribute to Tom Waits, Volume 1",
+                        "id": "3e431b1a-be65-4c1b-80b3-5c28134989ab",
+                        "primary-type": null,
+                        "disambiguation": ""
+                    },
+                    "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+                    "attributes": [],
+                    "type": "tribute",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward"
+                },
+                {
+                    "target-type": "series",
+                    "source-credit": "",
+                    "ordering-key": 5,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "begin": null,
+                    "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0",
+                    "attributes": [
+                        "number"
+                    ],
+                    "type": "part of",
+                    "ended": false,
+                    "end": null,
+                    "series": {
+                        "id": "c8235dc4-50c9-458f-abcd-f77a6274037a",
+                        "disambiguation": "",
+                        "type": "Artist series",
+                        "type-id": "c5358f01-618a-396d-8c78-9e76e6a52d7d",
+                        "name": "Paste: 100 Best Living Songwriters"
+                    },
+                    "target-credit": "",
+                    "attribute-values": {
+                        "number": "4"
+                    },
+                    "direction": "forward"
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "series",
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "ordering-key": 174,
+                    "type": "part of",
+                    "attributes": [
+                        "number"
+                    ],
+                    "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0",
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": {
+                        "number": "2011"
+                    },
+                    "series": {
+                        "name": "Rock ’n’ Roll Hall of Fame: Performers",
+                        "type-id": "dca73eca-a855-3408-9094-f7d5d073cef0",
+                        "disambiguation": "",
+                        "type": "Artist award",
+                        "id": "1f49c45f-aa53-445b-9cc3-be483dd93e22"
+                    },
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "series": {
+                        "id": "ec0538ef-f036-4343-8223-2e498d26a5c3",
+                        "type": "Tour",
+                        "disambiguation": "",
+                        "type-id": "8ff6df0e-3dce-3bdf-bd57-d386c51b0060",
+                        "name": "Glitter and Doom Tour"
+                    },
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "f03d59f3-97db-424b-885e-e8be69d65225",
+                    "type": "tour",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "series",
+                    "source-credit": ""
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "allmusic",
+                    "attributes": [],
+                    "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "id": "4111fa52-f13a-4b2f-8d36-48c6fa0b64c5",
+                        "resource": "https://www.allmusic.com/artist/mn0000615119"
+                    },
+                    "ended": false,
+                    "end": null
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+                    "attributes": [],
+                    "type": "bandcamp",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "resource": "https://tomwaits.bandcamp.com/",
+                        "id": "8e4780fa-8183-49a9-9d9f-7d6a6f3461ae"
+                    }
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "url": {
+                        "id": "5b8eac2c-ce34-4975-9d06-a1d40aa18a34",
+                        "resource": "https://www.bbc.co.uk/music/artists/c3aeb863-7b26-4388-94e8-5a240f2be21b"
+                    },
+                    "end": "2020-11-19",
+                    "ended": true,
+                    "type": "BBC Music page",
+                    "attributes": [],
+                    "type-id": "d028a975-000c-4525-9333-d3c8425e4b54"
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "url": {
+                        "resource": "http://www.anti.com/artists/view/1",
+                        "id": "36a89e83-e1cf-4e8f-bdda-a2fbd6d30cc3"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "type": "biography",
+                    "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+                    "attributes": []
+                },
+                {
+                    "url": {
+                        "resource": "https://www.discogs.com/artist/82294",
+                        "id": "0af67f76-1176-4aeb-8643-3568023d697f"
+                    },
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false,
+                    "type": "discogs",
+                    "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                    "attributes": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url"
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "id": "30d34fea-f219-4c61-873b-8cb8181b52b5",
+                        "resource": "http://eyeballkid.blogspot.com/"
+                    },
+                    "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                    "attributes": [],
+                    "type": "fanpage",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": ""
+                },
+                {
+                    "attributes": [],
+                    "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                    "type": "fanpage",
+                    "end": null,
+                    "ended": false,
+                    "url": {
+                        "resource": "http://www.tomwaitsfan.com/",
+                        "id": "bfa20df3-f03e-464f-859b-0119d6ebf362"
+                    },
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "fanpage",
+                    "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "id": "4580bc07-7f5a-405f-88ba-60289fdb9167",
+                        "resource": "http://www.tomwaitslibrary.com/"
+                    },
+                    "ended": false,
+                    "end": null
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "free streaming",
+                    "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://open.spotify.com/artist/7x83XhcMbOTl1UdYsPTuZM",
+                        "id": "bf5cc3ba-28b4-4217-9640-713bc2f8eb65"
+                    },
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "type": "free streaming",
+                    "attributes": [],
+                    "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "url": {
+                        "id": "ad32094d-2069-4258-8064-99398bca298d",
+                        "resource": "https://www.deezer.com/artist/1128"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "url": {
+                        "resource": "https://commons.wikimedia.org/wiki/File:Tom_Waits_3.jpg",
+                        "id": "88804162-ebd8-4107-9e8d-f9c137b3cfa9"
+                    },
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+                    "type": "image",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": ""
+                },
+                {
+                    "type": "IMDb",
+                    "attributes": [],
+                    "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://www.imdb.com/name/nm0001823/",
+                        "id": "7f99e485-13d8-48cc-a414-183df68111ae"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://www.last.fm/music/Tom+Waits",
+                        "id": "b9bcd30a-70a8-4218-a7d2-204547671160"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "type": "last.fm",
+                    "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+                    "type": "lyrics",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "url": {
+                        "resource": "http://muzikum.eu/en/122-5268/tom-waits/lyrics.html",
+                        "id": "a8c26c35-6ca6-4925-b603-cec3de44c0c9"
+                    },
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url",
+                    "url": {
+                        "id": "cb8ee44f-7195-4563-a557-649ce2a80518",
+                        "resource": "https://genius.com/artists/Tom-waits"
+                    },
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "type": "lyrics",
+                    "attributes": [],
+                    "type-id": "e4d73442-3762-45a8-905c-401da65544ed"
+                },
+                {
+                    "attributes": [],
+                    "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                    "type": "myspace",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "resource": "https://myspace.com/tomwaits",
+                        "id": "7e80f68f-f2fe-4e24-8d6f-8c346407e966"
+                    },
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "type": "official homepage",
+                    "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                    "attributes": [],
+                    "url": {
+                        "resource": "http://www.tomwaits.com/",
+                        "id": "dc132554-6796-415a-8685-2e06fa5faf36"
+                    },
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                    "type": "other databases",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "url": {
+                        "resource": "http://id.loc.gov/authorities/names/n90611983",
+                        "id": "fb4b714c-130b-42b6-839d-734c880de62e"
+                    }
+                },
+                {
+                    "url": {
+                        "id": "b02e7f83-1fa8-4797-819d-5e8fa753c5ea",
+                        "resource": "https://catalogue.bnf.fr/ark:/12148/cb139009478"
+                    },
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "other databases",
+                    "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                    "attributes": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url"
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "url": {
+                        "resource": "https://d-nb.info/gnd/11897792X",
+                        "id": "fa191bf8-b1b3-456d-a8e0-b365c48aa735"
+                    },
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+                    "attributes": [],
+                    "type": "other databases"
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                    "type": "purchase for download",
+                    "end": null,
+                    "ended": false,
+                    "url": {
+                        "resource": "https://music.apple.com/us/artist/83964",
+                        "id": "b637c132-7fe4-44b5-b642-b9d741060c2b"
+                    },
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": []
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                    "type": "purchase for download",
+                    "end": null,
+                    "ended": false,
+                    "url": {
+                        "resource": "https://www.amazon.com/-/e/B000APAB9U",
+                        "id": "1892836f-db9e-4d49-8ae7-60b2f5a3cd19"
+                    },
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": []
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "url": {
+                        "resource": "https://www.hdtracks.com/music/artist/view/id/4332/",
+                        "id": "272462d6-9848-41ee-83dc-11e237a091ed"
+                    },
+                    "attributes": [],
+                    "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                    "type": "purchase for download",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": ""
+                },
+                {
+                    "url": {
+                        "resource": "https://www.amazon.com/-/e/B000APAB9U",
+                        "id": "1892836f-db9e-4d49-8ae7-60b2f5a3cd19"
+                    },
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "type": "purchase for mail-order",
+                    "attributes": [],
+                    "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url"
+                },
+                {
+                    "type": "secondhandsongs",
+                    "attributes": [],
+                    "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "resource": "https://secondhandsongs.com/artist/618",
+                        "id": "101c0b9b-bf30-4628-bfd3-9f9c8f7204eb"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+                    "attributes": [],
+                    "type": "setlistfm",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://www.setlist.fm/setlists/tom-waits-3bd6c0ac.html",
+                        "id": "d68fa553-6ac4-47f7-9905-f8e1a5280bb7"
+                    },
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                    "type": "social network",
+                    "end": null,
+                    "ended": false,
+                    "url": {
+                        "resource": "https://twitter.com/tomwaits",
+                        "id": "00860f65-a407-482b-a7cf-8503d1fe888f"
+                    },
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": ""
+                },
+                {
+                    "attributes": [],
+                    "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                    "type": "social network",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "id": "41f8104e-2c2e-4801-ae60-ded196cf9e17",
+                        "resource": "https://www.facebook.com/tomwaits"
+                    },
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "url": {
+                        "resource": "https://www.songkick.com/artists/14561",
+                        "id": "0b563890-63a0-4ada-95e9-f99d60fa5137"
+                    },
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "attributes": [],
+                    "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+                    "type": "songkick"
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "attributes": [],
+                    "type": "streaming",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "resource": "https://music.apple.com/gb/artist/83964",
+                        "id": "49f95a71-9d9e-452c-80d8-c52d3cb1545c"
+                    }
+                },
+                {
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "attributes": [],
+                    "type": "streaming",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "url": {
+                        "id": "b637c132-7fe4-44b5-b642-b9d741060c2b",
+                        "resource": "https://music.apple.com/us/artist/83964"
+                    },
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "url": {
+                        "resource": "https://tidal.com/artist/3869",
+                        "id": "09944210-fc0e-456e-bda3-f99b42f9e4ee"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "type": "streaming",
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "attributes": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "url"
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+                    "type": "VIAF",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "resource": "http://viaf.org/viaf/74039179",
+                        "id": "57ed5608-4929-4692-a080-0516c68404d4"
+                    }
+                },
+                {
+                    "type": "wikidata",
+                    "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "url": {
+                        "id": "a667f772-70ce-4ace-beca-96cd9fb640ac",
+                        "resource": "https://www.wikidata.org/wiki/Q184805"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "target-type": "url",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "29651736-fa6d-48e4-aadc-a557c6add1cb",
+                    "attributes": [],
+                    "type": "wikipedia",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://fr.wikipedia.org/wiki/Tom_Waits",
+                        "id": "afe31775-637b-431d-bdf0-df9c4745c946"
+                    }
+                },
+                {
+                    "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+                    "attributes": [],
+                    "work": {
+                        "language": null,
+                        "languages": [],
+                        "iswcs": [],
+                        "type-id": null,
+                        "attributes": [],
+                        "type": null,
+                        "disambiguation": "",
+                        "title": "Baby I’m Not a Baby Anymore (Beatrice Theme)",
+                        "id": "4a91b6cb-9b6f-4ea2-96f7-8a6f0ff62531"
+                    },
+                    "type": "arranger",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "target-type": "work",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "work": {
+                        "languages": [],
+                        "language": null,
+                        "iswcs": [],
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "3babc3b1-daca-337f-afe2-0cd45331956c",
+                        "title": "Back in the Good Old World (Gypsy)",
+                        "attributes": [],
+                        "type-id": null
+                    },
+                    "type": "arranger",
+                    "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "target-type": "work",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+                    "attributes": [],
+                    "type": "arranger",
+                    "work": {
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "attributes": [],
+                        "id": "c2145a15-1dff-4ff8-b9e9-d2cb7d375e99",
+                        "title": "Bella ciao (Goodbye Beautiful)",
+                        "disambiguation": "",
+                        "type": "Song",
+                        "iswcs": [
+                            "T-923.790.761-8"
+                        ],
+                        "languages": [
+                            "eng"
+                        ],
+                        "language": "eng"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "target-type": "work",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "work",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "work": {
+                        "id": "726cecc0-6c5c-347a-9acb-e0779ee5c65f",
+                        "title": "’Til the Money Runs Out",
+                        "disambiguation": "",
+                        "type": null,
+                        "attributes": [],
+                        "type-id": null,
+                        "iswcs": [],
+                        "languages": [],
+                        "language": null
+                    },
+                    "type": "composer",
+                    "attributes": [],
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null
+                },
+                {
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "attributes": [],
+                    "work": {
+                        "type": "Song",
+                        "disambiguation": "",
+                        "id": "22087ea3-e646-3444-a595-a925be0a814c",
+                        "title": "(Looking for) The Heart of Saturday Night",
+                        "attributes": [],
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "languages": [
+                            "eng"
+                        ],
+                        "language": "eng",
+                        "iswcs": [
+                            "T-070.076.579-2"
+                        ]
+                    },
+                    "type": "composer",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "target-type": "work",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "work",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "work": {
+                        "languages": [
+                            "eng"
+                        ],
+                        "language": "eng",
+                        "iswcs": [],
+                        "type": "Song",
+                        "disambiguation": "",
+                        "id": "79b7759c-f27a-48fd-a3dd-c485fb2fd9a4",
+                        "title": "$29.00",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "attributes": []
+                    },
+                    "type": "composer",
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "attributes": []
+                },
+                {
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "ended": false,
+                    "end": null,
+                    "type": "lyricist",
+                    "work": {
+                        "attributes": [],
+                        "type-id": null,
+                        "id": "726cecc0-6c5c-347a-9acb-e0779ee5c65f",
+                        "title": "’Til the Money Runs Out",
+                        "disambiguation": "",
+                        "type": null,
+                        "iswcs": [],
+                        "languages": [],
+                        "language": null
+                    },
+                    "attributes": [],
+                    "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "work"
+                },
+                {
+                    "attributes": [],
+                    "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                    "work": {
+                        "language": "eng",
+                        "languages": [
+                            "eng"
+                        ],
+                        "iswcs": [
+                            "T-070.076.579-2"
+                        ],
+                        "type": "Song",
+                        "disambiguation": "",
+                        "title": "(Looking for) The Heart of Saturday Night",
+                        "id": "22087ea3-e646-3444-a595-a925be0a814c",
+                        "attributes": [],
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                    },
+                    "type": "lyricist",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "target-type": "work",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "target-type": "work",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                    "attributes": [],
+                    "work": {
+                        "language": "eng",
+                        "languages": [
+                            "eng"
+                        ],
+                        "iswcs": [],
+                        "disambiguation": "",
+                        "type": "Song",
+                        "title": "$29.00",
+                        "id": "79b7759c-f27a-48fd-a3dd-c485fb2fd9a4",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "attributes": []
+                    },
+                    "type": "lyricist",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "target-credit": "",
+                    "attribute-values": []
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                    "type": "writer",
+                    "work": {
+                        "title": "2:19",
+                        "id": "1d0e2cba-2eba-3652-914f-e7afbe2bba1b",
+                        "type": null,
+                        "disambiguation": "",
+                        "attributes": [],
+                        "type-id": null,
+                        "iswcs": [],
+                        "language": null,
+                        "languages": []
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "work",
+                    "source-credit": ""
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "work",
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "attributes": [],
+                    "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                    "work": {
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "attributes": [],
+                        "id": "accc42ea-0680-357e-bc14-787c8b0a91a8",
+                        "title": "Alice",
+                        "disambiguation": "Tom Waits song",
+                        "type": "Song",
+                        "iswcs": [],
+                        "languages": [
+                            "eng"
+                        ],
+                        "language": "eng"
+                    },
+                    "type": "writer"
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "work",
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                    "attributes": [],
+                    "work": {
+                        "type": "Song",
+                        "disambiguation": "",
+                        "title": "All the Time",
+                        "id": "325caa6a-b457-4ad0-815c-8dfa1131cd0a",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "attributes": [],
+                        "language": "eng",
+                        "languages": [
+                            "eng"
+                        ],
+                        "iswcs": []
+                    },
+                    "type": "writer"
+                }
+            ]
+        }
+    ]
+}

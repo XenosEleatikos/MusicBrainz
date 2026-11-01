@@ -12,6 +12,9 @@ use MusicBrainz\Value;
  */
 class Label implements Value
 {
+    use Property\UserTagsTrait;
+    use Property\UserGenresTrait;
+    use Property\UserRatingTrait;
     use Property\TagsTrait;
     use Property\GenresTrait;
     use Property\RatingTrait;
@@ -37,6 +40,9 @@ class Label implements Value
      */
     public function __construct(array $label = [])
     {
+        $this->setUserTagsFromArray($label);
+        $this->setUserGenresFromArray($label);
+        $this->setUserRatingFromArray($label);
         $this->setTagsFromArray($label);
         $this->setGenresFromArray($label);
         $this->setRatingFromArray($label);

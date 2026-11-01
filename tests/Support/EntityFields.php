@@ -28,6 +28,7 @@ final class EntityFields
         'release'      => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation', 'country' => 'getCountry', 'date' => 'getDate', 'barcode' => 'getBarcode', 'asin' => 'getAsin'],
         'release-group' => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
         'url'          => ['id' => 'getMBID', 'resource' => 'getResource'],
+        'collection'   => ['id' => 'getMBID', 'name' => 'getCollectionName', 'editor' => 'getEditorName'],
         'series'       => ['id' => 'getMBID', 'name' => 'getName', 'disambiguation' => 'getDisambiguation'],
         'work'         => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
     ];
@@ -124,6 +125,25 @@ final class EntityFields
         if (method_exists($entity, 'getRating') && isset($json['rating'])) {
             Assert::assertSame((float) $json['rating']['value'], (float) (string) $entity->getRating()->getRatingValue());
             Assert::assertSame($json['rating']['votes-count'], (int) (string) $entity->getRating()->getRatingVotes());
+        }
+
+        if (method_exists($entity, 'getUserTags') && isset($json['user-tags'])) {
+            Assert::assertCount(count($json['user-tags']), $entity->getUserTags());
+            foreach ($json['user-tags'] as $index => $tagJson) {
+                Assert::assertSame($tagJson['name'], (string) $entity->getUserTags()[$index]->getName());
+            }
+        }
+
+        if (method_exists($entity, 'getUserGenres') && isset($json['user-genres'])) {
+            Assert::assertCount(count($json['user-genres']), $entity->getUserGenres());
+            foreach ($json['user-genres'] as $index => $genreJson) {
+                Assert::assertSame($genreJson['name'], (string) $entity->getUserGenres()[$index]->getName());
+                Assert::assertSame($genreJson['id'], (string) $entity->getUserGenres()[$index]->getMBID());
+            }
+        }
+
+        if (method_exists($entity, 'getUserRating') && isset($json['user-rating'])) {
+            Assert::assertSame($json['user-rating']['value'] ?? null, $entity->getUserRating());
         }
 
         if (method_exists($entity, 'getTags') && isset($json['tags'])) {
