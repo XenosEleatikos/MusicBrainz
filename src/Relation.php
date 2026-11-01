@@ -88,13 +88,23 @@ final readonly class Relation
             return null;
         }
 
-        $targetType = Direction::Forward === $direction ? $type::getRelatedEntityType() : $type::getBaseEntityType();
-        if (null === $targetType) {
-            return null;
+        // The target is the entity on the other side of the entity the relation was requested with. Lookups tell by the
+        // direction which side that is; search results do not follow that convention, so the other side is tried as well.
+        $sides = Direction::Forward === $direction
+            ? [$type::getRelatedEntityType(), $type::getBaseEntityType()]
+            : [$type::getBaseEntityType(), $type::getRelatedEntityType()];
+        $targetType = null;
+        $targetData = null;
+        foreach ($sides as $side) {
+            $candidate = null === $side ? null : ArrayAccess::getArray($data, $side->value);
+            if (null !== $side && !empty($candidate)) {
+                $targetType = $side;
+                $targetData = $candidate;
+                break;
+            }
         }
 
-        $targetData = ArrayAccess::getArray($data, $targetType->value);
-        if (empty($targetData)) {
+        if (null === $targetType || null === $targetData) {
             MusicBrainz::log()->warning('Cannot resolve relation. See: https://musicbrainz.org/relationship/' . $typeId);
 
             return null;

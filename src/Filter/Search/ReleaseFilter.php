@@ -11,6 +11,10 @@ namespace MusicBrainz\Filter\Search;
  */
 class ReleaseFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\ReleaseGroupTypeTrait;
+    use \MusicBrainz\Filter\Property\PackagingTrait;
+    use \MusicBrainz\Filter\Property\MediumIdTrait;
+    use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\CatalogNumberTrait;
     use \MusicBrainz\Filter\Property\AsinTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;

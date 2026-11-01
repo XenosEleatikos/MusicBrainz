@@ -18,7 +18,7 @@ trait LabelNameWithAccentsTrait
      */
     public static function labelNameWithAccents(): string
     {
-        return 'label';
+        return 'labelaccent';
     }
 
     /**

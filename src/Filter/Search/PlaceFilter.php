@@ -11,6 +11,7 @@ namespace MusicBrainz\Filter\Search;
  */
 class PlaceFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\PlaceNameWithAccentsTrait;
     use \MusicBrainz\Filter\Property\AddressTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;

@@ -11,6 +11,9 @@ namespace MusicBrainz\Filter\Search;
  */
 class AreaFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\TagNameTrait;
+    use \MusicBrainz\Filter\Property\SortNameTrait;
+    use \MusicBrainz\Filter\Property\AreaNameWithAccentsTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaIdTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;

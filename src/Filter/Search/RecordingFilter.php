@@ -11,6 +11,9 @@ namespace MusicBrainz\Filter\Search;
  */
 class RecordingFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\NumberOfTracksOnAnyReleaseTrait;
+    use \MusicBrainz\Filter\Property\FirstReleaseDateTrait;
+    use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
     use \MusicBrainz\Filter\Property\ArtistRealNameTrait;

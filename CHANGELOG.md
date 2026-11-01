@@ -8,7 +8,7 @@ the versioning follows [Semantic Versioning](https://semver.org/).
 Known limitation: the logger is process-wide (the most recently created `MusicBrainz` instance wins).
 
 Planned for 2.1: write access (tags, ratings, collection items), lookups by DiscID, ISRC and ISWC, the multi-URL
-lookup, search for events, instruments, series and URLs.
+lookup.
 
 ## [2.0.0] - unreleased
 
@@ -46,6 +46,8 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- Search for events, instruments, series and URLs. Every search filter offers exactly the fields the documentation of the
+  search lists (a test compares them), including `alias`, `tag`, `isni`, the `*accent` variants and `release_count`.
 - Genres, tags and ratings on all entities (`genres`, `tags`, `rating`), and the same for the authenticated user
   (`userGenres`, `userTags`, `userRating`). Annotations, and the recordings, works and releases an artist or label was
   requested with, are no longer dropped.

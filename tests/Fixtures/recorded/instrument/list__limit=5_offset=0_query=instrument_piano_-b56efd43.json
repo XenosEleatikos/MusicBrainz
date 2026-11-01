@@ -1,0 +1,264 @@
+{
+    "created": "2026-11-01T19:28:42.647Z",
+    "count": 19,
+    "offset": 0,
+    "instruments": [
+        {
+            "id": "b3eac5f9-7859-4416-ac39-7154e2e8d348",
+            "type": "String instrument",
+            "type-id": "cc00f97f-cf3d-3ae2-9163-041cb1a0d726",
+            "score": 100,
+            "name": "piano",
+            "aliases": [
+                {
+                    "sort-name": "Klavier",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "Klavier",
+                    "locale": "de",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "kuãytasã",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "kuãytasã",
+                    "locale": "gn",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "piano",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "piano",
+                    "locale": "an",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "paino",
+                    "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d",
+                    "name": "paino",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "pino",
+                    "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d",
+                    "name": "pino",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "pano",
+                    "type-id": "7d5ef40f-4856-3000-8667-aa13b9db547d",
+                    "name": "pano",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "western classical"
+                },
+                {
+                    "count": 1,
+                    "name": "romantic classical"
+                },
+                {
+                    "count": 1,
+                    "name": "classical period"
+                }
+            ]
+        },
+        {
+            "id": "0a49e297-8430-44cd-be7b-1fd22560b6e1",
+            "type": "Ensemble",
+            "type-id": "98d6049d-3823-41ef-af2e-c13c214a787c",
+            "score": 75,
+            "name": "piano duo",
+            "disambiguation": "ensemble of two pianists playing on separate pianos",
+            "description": "Chamber ensemble where two pianists play on a different piano each."
+        },
+        {
+            "id": "ba4550e2-5bf1-4778-a3b7-1e5552d6dba9",
+            "type": "Wind instrument",
+            "type-id": "876464a8-e74f-3f40-9bd3-637d2b1743ae",
+            "score": 75,
+            "name": "piano accordion",
+            "aliases": [
+                {
+                    "sort-name": "Pianoakkordeon",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "Pianoakkordeon",
+                    "locale": "de",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "piano accordion",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "piano accordion",
+                    "locale": "en",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "pianoharmonikka",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "pianoharmonikka",
+                    "locale": "fi",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "bellows"
+                },
+                {
+                    "count": 1,
+                    "name": "keys"
+                }
+            ]
+        },
+        {
+            "id": "75b8297f-d9fe-455d-85cf-d62843f14da5",
+            "type": "Other instrument",
+            "type-id": "01ba5777-02dd-347d-94a1-73e3db00215d",
+            "score": 75,
+            "name": "electric piano",
+            "aliases": [
+                {
+                    "sort-name": "Konzertharfe",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "Konzertharfe",
+                    "locale": "de",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "電子ピアノ",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "電子ピアノ",
+                    "locale": "ja",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "piano électrique",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "piano électrique",
+                    "locale": "fr",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "7e704071-7d7c-42f2-af03-a15eb66916d2",
+            "type": "String instrument",
+            "type-id": "cc00f97f-cf3d-3ae2-9163-041cb1a0d726",
+            "score": 75,
+            "name": "tack piano",
+            "description": "The tack piano is a permanently altered version of an ordinary piano, which has tacks or nails placed on the felt-padded hammers of the instrument at the point where the hammers hit the strings, giving the instrument a tinny, more percussive sound.",
+            "aliases": [
+                {
+                    "sort-name": "harpsipiano",
+                    "name": "harpsipiano",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "honky-tonk piano",
+                    "name": "honky-tonk piano",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "jangle piano",
+                    "name": "jangle piano",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "honky-tonk piano",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "honky-tonk piano",
+                    "locale": "nl",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "tack piano",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "tack piano",
+                    "locale": "en",
+                    "type": "Instrument name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "piano honky tonk",
+                    "type-id": "2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd",
+                    "name": "piano honky tonk",
+                    "locale": "fr",
+                    "type": "Instrument name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "ragtime"
+                },
+                {
+                    "count": 1,
+                    "name": "honky tonk"
+                }
+            ]
+        }
+    ]
+}

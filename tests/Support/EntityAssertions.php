@@ -111,7 +111,7 @@ final class EntityAssertions
             'language' => ['language', 'nstr'], 'languages' => ['languages', 'strs'], 'iswcs' => ['iswcs', 'strs'], 'attributes' => ['attributes', 'list', 'attribute'],
         ],
         'url' => [
-            'id' => ['id', 'id'], 'resource' => ['resource', 'str'], 'relations' => ['relations', 'relations'], 'relation-list' => ['relations', 'relations'],
+            'id' => ['id', 'id'], 'resource' => ['resource', 'str'], 'relations' => ['relations', 'relations'], 'relation-list' => ['relations', 'relations'], 'score' => [null, 'skip'],
         ],
         'collection' => [
             'id' => ['id', 'id'], 'name' => ['name', 'str'], 'editor' => ['editor', 'str'], 'entity-type' => ['entityType', 'entityType'], 'type' => ['type', 'nstr'],

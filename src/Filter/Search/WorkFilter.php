@@ -11,6 +11,9 @@ namespace MusicBrainz\Filter\Search;
  */
 class WorkFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\RecordingIdTrait;
+    use \MusicBrainz\Filter\Property\NumberOfRecordingsTrait;
+    use \MusicBrainz\Filter\Property\RelatedRecordingNameTrait;
     use \MusicBrainz\Filter\Property\WorkIdTrait;
     use \MusicBrainz\Filter\Property\IswcTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;

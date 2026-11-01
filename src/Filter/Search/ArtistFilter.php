@@ -11,6 +11,8 @@ namespace MusicBrainz\Filter\Search;
  */
 class ArtistFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\IsniCodeTrait;
+    use \MusicBrainz\Filter\Property\PrimaryAliasNameTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;

@@ -8,6 +8,10 @@ use MusicBrainz\Value\Annotation;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\CdStub;
+use MusicBrainz\Value\Event;
+use MusicBrainz\Value\Instrument;
+use MusicBrainz\Value\Series;
+use MusicBrainz\Value\URL;
 use MusicBrainz\Value\Label;
 use MusicBrainz\Value\Place;
 use MusicBrainz\Value\Recording;
@@ -24,6 +28,10 @@ use MusicBrainz\Filter\Search\AnnotationFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Filter\Search\CdStubFilter;
+use MusicBrainz\Filter\Search\EventFilter;
+use MusicBrainz\Filter\Search\InstrumentFilter;
+use MusicBrainz\Filter\Search\SeriesFilter;
+use MusicBrainz\Filter\Search\UrlFilter;
 use MusicBrainz\Filter\Search\LabelFilter;
 use MusicBrainz\Filter\Search\PlaceFilter;
 use MusicBrainz\Filter\Search\RecordingFilter;
@@ -137,6 +145,78 @@ class Search
         $response = $this->apiClient->call('cdstub/', $this->config, $params);
 
         return Page::search($response, 'cdstub', CdStub::class);
+    }
+
+    /**
+     * Searches for events and returns the result.
+     *
+     * @param EventFilter $eventFilter A filter for events
+     * @param PageFilter            $pageFilter A page filter
+     *
+     * @return Page<SearchResult<Event>>
+     *
+     * @throws Exception
+     */
+    public function event(EventFilter $eventFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($eventFilter, $pageFilter);
+        $response = $this->apiClient->call('event/', $this->config, $params, false);
+
+        return Page::search($response, 'event', Event::class);
+    }
+
+    /**
+     * Searches for instruments and returns the result.
+     *
+     * @param InstrumentFilter $instrumentFilter A filter for instruments
+     * @param PageFilter                 $pageFilter A page filter
+     *
+     * @return Page<SearchResult<Instrument>>
+     *
+     * @throws Exception
+     */
+    public function instrument(InstrumentFilter $instrumentFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($instrumentFilter, $pageFilter);
+        $response = $this->apiClient->call('instrument/', $this->config, $params, false);
+
+        return Page::search($response, 'instrument', Instrument::class);
+    }
+
+    /**
+     * Searches for series and returns the result.
+     *
+     * @param SeriesFilter $seriesFilter A filter for series
+     * @param PageFilter             $pageFilter A page filter
+     *
+     * @return Page<SearchResult<Series>>
+     *
+     * @throws Exception
+     */
+    public function series(SeriesFilter $seriesFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($seriesFilter, $pageFilter);
+        $response = $this->apiClient->call('series/', $this->config, $params, false);
+
+        return Page::search($response, 'series', Series::class);
+    }
+
+    /**
+     * Searches for URLs and returns the result.
+     *
+     * @param UrlFilter $urlFilter A filter for URLs
+     * @param PageFilter          $pageFilter A page filter
+     *
+     * @return Page<SearchResult<URL>>
+     *
+     * @throws Exception
+     */
+    public function url(UrlFilter $urlFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($urlFilter, $pageFilter);
+        $response = $this->apiClient->call('url/', $this->config, $params, false);
+
+        return Page::search($response, 'url', URL::class);
     }
 
     /**

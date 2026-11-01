@@ -11,6 +11,8 @@ namespace MusicBrainz\Filter\Search;
  */
 class LabelFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\ReleaseCountTrait;
+    use \MusicBrainz\Filter\Property\IsniCodeTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;
     use \MusicBrainz\Filter\Property\BeginDateTrait;

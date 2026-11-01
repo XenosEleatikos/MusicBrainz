@@ -76,6 +76,22 @@ final class RelationTest extends TestCase
         self::assertSame([], $this->logged);
     }
 
+    public function testSearchResultsNameTheTargetOnTheOtherSideRegardlessOfTheDirection(): void
+    {
+        // "held at" is a relation of an event to a place; a search for events says "backward" and delivers the place
+        $relation = Relation::fromArray([
+            'type' => 'held at',
+            'type-id' => 'e2c6f697-07dc-38b1-be0b-83d740165532',
+            'direction' => 'backward',
+            'place' => ['id' => 'db17e312-ec0a-4d8e-b2e4-bd00a7924588', 'name' => 'Wembley Stadium'],
+        ]);
+
+        self::assertNotNull($relation);
+        self::assertSame(EntityType::Place, $relation->targetType);
+        self::assertSame('Wembley Stadium', $relation->target->name);
+        self::assertSame([], $this->logged);
+    }
+
     public function testRelationListGroupsByTargetType(): void
     {
         $list = RelationList::fromArray([self::memberOfBand(), self::memberOfBand(['artist' => ['id' => 'a74b1b7f-71a5-4011-9441-d0b5e4122711', 'name' => 'Radiohead']])]);

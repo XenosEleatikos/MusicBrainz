@@ -11,6 +11,7 @@ namespace MusicBrainz\Filter\Search;
  */
 class AnnotationFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\AnnotationIdTrait;
     use \MusicBrainz\Filter\Property\AnnotationTextTrait;
     use \MusicBrainz\Filter\Property\EntityIdTrait;
     use \MusicBrainz\Filter\Property\EntityNameTrait;

@@ -11,6 +11,7 @@ namespace MusicBrainz\Filter\Search;
  */
 class CdStubFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\DateAddedTrait;
     use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
     use \MusicBrainz\Filter\Property\BarcodeTrait;
     use \MusicBrainz\Filter\Property\DisambiguationTrait;

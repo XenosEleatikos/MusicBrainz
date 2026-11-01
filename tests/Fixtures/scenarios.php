@@ -26,6 +26,10 @@ use MusicBrainz\Filter\Search\AnnotationFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Filter\Search\CdStubFilter;
+use MusicBrainz\Filter\Search\EventFilter;
+use MusicBrainz\Filter\Search\InstrumentFilter;
+use MusicBrainz\Filter\Search\SeriesFilter;
+use MusicBrainz\Filter\Search\UrlFilter;
 use MusicBrainz\Filter\Search\LabelFilter;
 use MusicBrainz\Filter\Search\PlaceFilter;
 use MusicBrainz\Filter\Search\RecordingFilter;
@@ -37,6 +41,7 @@ use MusicBrainz\MusicBrainz;
 use MusicBrainz\Supplement\Browse;
 use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Supplement\Lookup;
+use MusicBrainz\Value\ASIN;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Title;
@@ -187,6 +192,36 @@ $scenarios['search/place/abbey-road'] = static function (MusicBrainz $mb) use ($
     $filter->addPlaceName(new Name('Abbey Road Studios'));
 
     return $mb->api()->search()->place($filter, $page(5));
+};
+$scenarios['search/event/live-aid'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new EventFilter();
+    $filter->addEventNameWithoutAccents(new Name('Live Aid'));
+
+    return $mb->api()->search()->event($filter, $page(5));
+};
+$scenarios['search/instrument/piano'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new InstrumentFilter();
+    $filter->addInstrumentNameWithoutAccents(new Name('piano'));
+
+    return $mb->api()->search()->instrument($filter, $page(5));
+};
+$scenarios['search/series/beethoven'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new SeriesFilter();
+    $filter->addSeriesNameWithoutAccents(new Name('Beethoven'));
+
+    return $mb->api()->search()->series($filter, $page(5));
+};
+$scenarios['search/url/wikidata-beatles'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new UrlFilter();
+    $filter->addUrl('https://www.wikidata.org/wiki/Q1299');
+
+    return $mb->api()->search()->url($filter, $page(5));
+};
+$scenarios['search/release/by-asin'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new ReleaseFilter();
+    $filter->addASIN(new ASIN('B000003Z4N'));
+
+    return $mb->api()->search()->release($filter, $page(5));
 };
 $scenarios['search/tag/rock'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new TagFilter();
