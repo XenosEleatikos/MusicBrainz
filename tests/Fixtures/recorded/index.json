@@ -194,12 +194,12 @@
     "collection/f27d2f80-0aff-4a0f-a8c3-296226073b20__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/collection/f27d2f80-0aff-4a0f-a8c3-296226073b20?inc=&fmt=json",
         "status": 200,
-        "recorded": "2026-11-01T16:57:00+00:00"
+        "recorded": "2026-11-01T17:03:05+00:00"
     },
-    "collection/list__editor=XenosEleatikos_limit=10_offset=0-8893ed6d.json": {
-        "url": "https://musicbrainz.org/ws/2/collection?editor=XenosEleatikos&limit=10&offset=0&fmt=json",
+    "collection/list__editor=example-user_limit=10_offset=0-4a5ad49f.json": {
+        "url": "https://musicbrainz.org/ws/2/collection?editor=example-user&limit=10&offset=0&fmt=json",
         "status": 200,
-        "recorded": "2026-11-01T16:57:02+00:00"
+        "recorded": "2026-11-01T17:03:05+00:00"
     },
     "event/8e0ff16a-757f-4e16-9877-4c4131621a8b__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/event/8e0ff16a-757f-4e16-9877-4c4131621a8b?inc=&fmt=json",

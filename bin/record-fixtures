@@ -69,7 +69,9 @@ $logger = new class extends AbstractLogger {
     }
 };
 
-$store = new FixtureStore(__DIR__ . '/../tests/Fixtures/recorded');
+// The account name used for authenticated scenarios (MB_EDITOR) is replaced by "example-user" in everything stored
+$editor = (string) getenv('MB_EDITOR');
+$store = new FixtureStore(__DIR__ . '/../tests/Fixtures/recorded', '' !== $editor ? [$editor => 'example-user'] : []);
 $http = new RecordingHttpClient(
     new Psr18Client(HttpClient::create(['timeout' => 30])),
     $store,

@@ -207,6 +207,8 @@ $scenarios['search/cdstub/abbey-road'] = static function (MusicBrainz $mb) use (
 // ---------------------------------------------------------------------------------------------------- authenticated
 // Scenarios named "auth/..." need an OAuth2 access token (MB_ACCESS_TOKEN), see bin/record-fixtures. They use the
 // public collection of the maintainer's account; user tags, ratings and genres are those of this account.
+// The account name is only known while recording (MB_EDITOR); the store replaces it by "example-user"
+$editor = getenv('MB_EDITOR') ?: 'example-user';
 $collection = 'f27d2f80-0aff-4a0f-a8c3-296226073b20';
 $withUser = static function (Fields $fields): Fields {
     foreach (get_class_methods($fields) as $method) {
@@ -218,9 +220,9 @@ $withUser = static function (Fields $fields): Fields {
     return $fields;
 };
 $scenarios['auth/lookup/collection/favourite-artists'] = static fn(MusicBrainz $mb) => $mb->api()->lookup()->collection($mbid($collection));
-$scenarios['auth/browse/collection/by-editor'] = static function (MusicBrainz $mb) use ($page) {
+$scenarios['auth/browse/collection/by-editor'] = static function (MusicBrainz $mb) use ($page, $editor) {
     $relation = new CollectionRelation();
-    $relation->editor('XenosEleatikos');
+    $relation->editor($editor);
 
     return $mb->api()->browse()->collection($relation, $page(10));
 };

@@ -43,7 +43,17 @@ final class FixtureStore
 {
     private const INDEX = 'index.json';
 
-    public function __construct(private readonly string $directory) {}
+    /**
+     * @param string                $directory Directory of the fixtures
+     * @param array<string, string> $anonymize Real value => replacement. Applied to request parameters (so that a
+     *                                         fixture is found under the replacement) and to everything that is stored.
+     */
+    public function __construct(private readonly string $directory, private readonly array $anonymize = []) {}
+
+    private function anonymized(string $text): string
+    {
+        return [] === $this->anonymize ? $text : strtr($text, $this->anonymize);
+    }
 
     /**
      * Returns the file name (relative to the fixture directory) for a request, e.g.
@@ -60,7 +70,7 @@ final class FixtureStore
         $entity = array_shift($segments);
         $rest = $segments ? implode('_', $segments) : 'list';
 
-        parse_str($uri->getQuery(), $query);
+        parse_str($this->anonymized($uri->getQuery()), $query);
         unset($query['fmt']);
         ksort($query);
         $queryString = http_build_query($query, '', '&', PHP_QUERY_RFC3986);
@@ -161,11 +171,11 @@ final class FixtureStore
             // keep non-JSON bodies as they are
             $wasSlimmed = false;
         }
-        file_put_contents($file, $body . "\n");
+        file_put_contents($file, $this->anonymized($body) . "\n");
 
         $index = $this->index();
         $index[$name] = [
-            'url' => (string) $request->getUri(),
+            'url' => $this->anonymized((string) $request->getUri()),
             'status' => $status,
             'recorded' => gmdate('c'),
         ] + ($wasSlimmed ? ['slimmed' => true] : []);
