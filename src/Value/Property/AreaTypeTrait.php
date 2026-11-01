@@ -4,44 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\AreaType;
 
-use function is_null;
-
 /**
- * Provides a getter for the area type.
+ * Provides a getter for an area type.
  */
 trait AreaTypeTrait
 {
-    /**
-     * An area type
-     *
-     * @var AreaType
-     */
-    private AreaType $areaType;
+    private ?AreaType $areaType;
 
     /**
-     * Returns the area type.
-     *
-     * @return AreaType
+     * Returns an area type, or null if the web service did not deliver one.
      */
-    public function getAreaType(): AreaType
+    public function getAreaType(): ?AreaType
     {
         return $this->areaType;
     }
 
     /**
-     * Sets the area type by extracting it from a given input array.
-     *
-     * @param array $input An array returned by the webservice
-     *
-     * @return void
+     * @param array<mixed> $input An array returned by the webservice
      */
     private function setAreaTypeFromArray(array $input): void
     {
-        $this->areaType = is_null($areaType = ArrayAccess::getString($input, 'type'))
-            ? new AreaType()
-            : new AreaType($areaType);
+        $this->areaType = AreaType::fromArray($input, 'type', 'type-id');
     }
 }

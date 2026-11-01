@@ -4,44 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\PlaceType;
 
-use function is_null;
-
 /**
- * Provides a getter for the type of place.
+ * Provides a getter for a place type.
  */
 trait PlaceTypeTrait
 {
-    /**
-     * A type of place
-     *
-     * @var PlaceType
-     */
-    private PlaceType $placeType;
+    private ?PlaceType $placeType;
 
     /**
-     * Returns type of place.
-     *
-     * @return PlaceType
+     * Returns a place type, or null if the web service did not deliver one.
      */
-    public function getPlaceType(): PlaceType
+    public function getPlaceType(): ?PlaceType
     {
         return $this->placeType;
     }
 
     /**
-     * Sets the type of place by extracting it from a given input array.
-     *
-     * @param array  $input An array returned by the webservice
-     *
-     * @return void
+     * @param array<mixed> $input An array returned by the webservice
      */
     private function setPlaceTypeFromArray(array $input): void
     {
-        $this->placeType = is_null($placeType = ArrayAccess::getString($input, 'type'))
-            ? new PlaceType()
-            : new PlaceType($placeType);
+        $this->placeType = PlaceType::fromArray($input, 'type', 'type-id');
     }
 }

@@ -22,6 +22,7 @@ class Series implements Value
     use Property\DisambiguationTrait;
     use Property\MBIDTrait;
     use Property\NameTrait;
+    use Property\SeriesTypeTrait;
 
     /**
      * Constructs a series.
@@ -34,6 +35,7 @@ class Series implements Value
         $this->setDisambiguationFromArray($series);
         $this->setMbidFromArray($series);
         $this->setNameFromArray($series);
+        $this->setSeriesTypeFromArray($series);
         $this->setRelationsFromArray($series);
     }
 

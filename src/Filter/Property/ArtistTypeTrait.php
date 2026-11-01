@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ArtistType;
+use MusicBrainz\Value\ArtistTypeKind;
 
 trait ArtistTypeTrait
 {
@@ -24,12 +24,12 @@ trait ArtistTypeTrait
     /**
      * Adds the type of artist.
      *
-     * @param ArtistType $artistType The type of artist
+     * @param ArtistTypeKind $artistType The type of artist
      *
      * @return Term
      */
-    public function addArtistType(ArtistType $artistType): Term
+    public function addArtistType(ArtistTypeKind $artistType): Term
     {
-        return $this->addTerm((string) $artistType, self::artistType());
+        return $this->addTerm($artistType->value, self::artistType());
     }
 }

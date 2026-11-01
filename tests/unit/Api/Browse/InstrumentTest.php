@@ -17,6 +17,7 @@ use MusicBrainz\Value\Ended;
 use MusicBrainz\Value\Instrument;
 use MusicBrainz\Value\InstrumentName;
 use MusicBrainz\Value\InstrumentType;
+use MusicBrainz\Value\InstrumentTypeKind;
 use MusicBrainz\Value\LocaleCode;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
@@ -106,9 +107,9 @@ class InstrumentTest extends ApiTestCase
         $this->assertInstanceOf(MBID::class, $instrument->getMBID());
         $this->assertEquals('63021302-86cd-4aee-80df-2270d54f4978', $instrument->getMBID());
         $this->assertInstanceOf(InstrumentType::class, $instrument->getInstrumentType());
-        $this->assertEquals((string) new InstrumentType(InstrumentType::STRING_INSTRUMENT), $instrument->getInstrumentType());
-        $this->assertInstanceOf(MBID::class, $instrument->getInstrumentType()->getMBID());
-        $this->assertEquals('cc00f97f-cf3d-3ae2-9163-041cb1a0d726', $instrument->getInstrumentType()->getMBID());
+        $this->assertSame(InstrumentTypeKind::StringInstrument, $instrument->getInstrumentType()->kind());
+        $this->assertInstanceOf(MBID::class, $instrument->getInstrumentType()->id);
+        $this->assertEquals('cc00f97f-cf3d-3ae2-9163-041cb1a0d726', $instrument->getInstrumentType()->id);
         /** @todo test description */
         /** @todo test disambiguation */
         /** @todo test annotation */

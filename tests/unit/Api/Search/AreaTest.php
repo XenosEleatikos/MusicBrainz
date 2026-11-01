@@ -10,6 +10,7 @@ use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\AliasType;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\AreaType;
+use MusicBrainz\Value\AreaTypeKind;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\LifeSpan;
 use MusicBrainz\Value\LocaleCode;
@@ -95,7 +96,7 @@ class AreaTest extends ApiTestCase
         $this->assertInstanceOf(Area::class, $area);
 
         $this->assertInstanceOf(AreaType::class, $area->getAreaType());
-        $this->assertSame(AreaType::CITY, (string) $area->getAreaType());
+        $this->assertSame(AreaTypeKind::City, $area->getAreaType()->kind());
 
         /** @todo Test not-empty life spans */
         $this->assertInstanceOf(LifeSpan::class, $area->getLifeSpan());

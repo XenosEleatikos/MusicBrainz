@@ -4,44 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\WorkType;
 
-use function is_null;
-
 /**
- * Provides a getter for the type of work.
+ * Provides a getter for a work type.
  */
 trait WorkTypeTrait
 {
-    /**
-     * A type of work
-     *
-     * @var WorkType
-     */
-    private WorkType $workType;
+    private ?WorkType $workType;
 
     /**
-     * Returns type of work.
-     *
-     * @return WorkType
+     * Returns a work type, or null if the web service did not deliver one.
      */
-    public function getWorkType(): WorkType
+    public function getWorkType(): ?WorkType
     {
         return $this->workType;
     }
 
     /**
-     * Sets the type of work by extracting it from a given input array.
-     *
-     * @param array $input An array returned by the webservice
-     *
-     * @return void
+     * @param array<mixed> $input An array returned by the webservice
      */
     private function setWorkTypeFromArray(array $input): void
     {
-        $this->workType = is_null($workType = ArrayAccess::getString($input, 'type'))
-            ? new WorkType()
-            : new WorkType($workType);
+        $this->workType = WorkType::fromArray($input, 'type', 'type-id');
     }
 }

@@ -9,6 +9,7 @@ use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\ArtistType;
+use MusicBrainz\Value\ArtistTypeKind;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Gender;
 use MusicBrainz\Value\MBID;
@@ -92,9 +93,9 @@ class ArtistTest extends ApiTestCase
         $this->assertInstanceOf(Artist::class, $artist);
 
         $this->assertInstanceOf(ArtistType::class, $artist->getArtistType());
-        $this->assertEquals(ArtistType::PERSON, $artist->getArtistType());
-        $this->assertInstanceOf(MBID::class, $artist->getArtistType()->getMBID());
-        $this->assertEquals('b6e035f4-3ce9-331c-97df-83397230b0df', $artist->getArtistType()->getMBID());
+        $this->assertSame(ArtistTypeKind::Person, $artist->getArtistType()->kind());
+        $this->assertInstanceOf(MBID::class, $artist->getArtistType()->id);
+        $this->assertEquals('b6e035f4-3ce9-331c-97df-83397230b0df', $artist->getArtistType()->id);
         $this->assertSame('b856b4ae-5c73-4476-a61c-f1fddc573a4e', (string) $artist->getMBID());
 
         $this->assertInstanceOf(Name::class, $artist->getArtistName());

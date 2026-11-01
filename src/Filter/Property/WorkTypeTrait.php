@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\WorkType;
+use MusicBrainz\Value\WorkTypeKind;
 
 trait WorkTypeTrait
 {
@@ -24,12 +24,12 @@ trait WorkTypeTrait
     /**
      * Adds the type of work.
      *
-     * @param WorkType $workType The type of work
+     * @param WorkTypeKind $workType The type of work
      *
      * @return Term
      */
-    public function addWorkType(WorkType $workType): Term
+    public function addWorkType(WorkTypeKind $workType): Term
     {
-        return $this->addTerm((string) $workType, self::workType());
+        return $this->addTerm($workType->value, self::workType());
     }
 }

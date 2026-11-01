@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\AreaType;
+use MusicBrainz\Value\AreaTypeKind;
 
 trait AreaTypeTrait
 {
@@ -24,12 +24,12 @@ trait AreaTypeTrait
     /**
      * Adds the area type.
      *
-     * @param AreaType $areaType The area type
+     * @param AreaTypeKind $areaType The area type
      *
      * @return Term
      */
-    public function addAreaType(AreaType $areaType): Term
+    public function addAreaType(AreaTypeKind $areaType): Term
     {
-        return $this->addTerm((string) $areaType, self::areaType());
+        return $this->addTerm($areaType->value, self::areaType());
     }
 }

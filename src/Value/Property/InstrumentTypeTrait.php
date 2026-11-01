@@ -4,44 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\InstrumentType;
-use MusicBrainz\Value\MBID;
 
 /**
- * Provides a getter for the instrument type.
+ * Provides a getter for an instrument type.
  */
 trait InstrumentTypeTrait
 {
-    /**
-     * The instrument type
-     *
-     * @var InstrumentType
-     */
-    private InstrumentType $instrumentType;
+    private ?InstrumentType $instrumentType;
 
     /**
-     * Returns the instrument type.
-     *
-     * @return InstrumentType
+     * Returns an instrument type, or null if the web service did not deliver one.
      */
-    public function getInstrumentType(): InstrumentType
+    public function getInstrumentType(): ?InstrumentType
     {
         return $this->instrumentType;
     }
 
     /**
-     * Sets the instrument type by extracting it from a given input array.
-     *
-     * @param array $input An array returned by the webservice
-     *
-     * @return void
+     * @param array<mixed> $input An array returned by the webservice
      */
     private function setInstrumentTypeFromArray(array $input): void
     {
-        $this->instrumentType = new InstrumentType(
-            ArrayAccess::getString($input, 'type'),
-            new MBID(ArrayAccess::getString($input, 'type-id'))
-        );
+        $this->instrumentType = InstrumentType::fromArray($input, 'type', 'type-id');
     }
 }

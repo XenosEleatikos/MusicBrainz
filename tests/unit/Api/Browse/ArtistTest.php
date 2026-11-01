@@ -10,6 +10,7 @@ use MusicBrainz\Supplement\Browse\ArtistFields;
 use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\ArtistType;
+use MusicBrainz\Value\ArtistTypeKind;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Page\ArtistListPage;
@@ -101,8 +102,9 @@ class ArtistTest extends ApiTestCase
 
         $this->assertInstanceOf(ArtistType::class, $artist->getArtistType());
         $this->assertEquals('Person', $artist->getArtistType());
-        $this->assertInstanceOf(MBID::class, $artist->getArtistType()->getMBID());
-        $this->assertEquals('b6e035f4-3ce9-331c-97df-83397230b0df', $artist->getArtistType()->getMBID());
+        $this->assertSame(ArtistTypeKind::Person, $artist->getArtistType()->kind());
+        $this->assertInstanceOf(MBID::class, $artist->getArtistType()->id);
+        $this->assertEquals('b6e035f4-3ce9-331c-97df-83397230b0df', $artist->getArtistType()->id);
 
         /** @todo Test disambiguation */
         /** @todo Test ratings */
