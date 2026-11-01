@@ -147,6 +147,7 @@ final class EntityFields
         if ($entity instanceof \MusicBrainz\Value\ReleaseGroup) {
             if (isset($json['primary-type'])) {
                 Assert::assertSame($json['primary-type'], $entity->getPrimaryReleaseType()->name);
+                Assert::assertSame($json['primary-type-id'] ?? null, (string) $entity->getPrimaryReleaseType()->id ?: null);
                 Assert::assertNotNull($entity->getPrimaryReleaseType()->kind());
             }
             Assert::assertCount(count($json['secondary-types'] ?? []), $entity->getSecondaryReleaseTypes());

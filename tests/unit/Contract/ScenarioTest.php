@@ -31,7 +31,6 @@ final class ScenarioTest extends TestCase
      * @var list<string>
      */
     private const KNOWN_GAPS = [
-        'Unknown relation type given',
     ];
 
     /**

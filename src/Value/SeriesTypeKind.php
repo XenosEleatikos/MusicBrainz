@@ -27,4 +27,5 @@ enum SeriesTypeKind: string
     case ArtistAward = 'Artist award';
     case SeriesSeries = 'Series series';
     case SeriesAward = 'Series award';
+    case Podcast = 'Podcast';
 }

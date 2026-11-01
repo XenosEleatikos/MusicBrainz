@@ -32,16 +32,6 @@ final class LookupTest extends TestCase
     ];
 
     /**
-     * @param list<string> $messages
-     *
-     * @return list<string>
-     */
-    private static function withoutKnownGaps(array $messages): array
-    {
-        return array_values(array_filter($messages, static fn(string $message): bool => !str_contains($message, 'Unknown relation type given')));
-    }
-
-    /**
      * @return array<string, array{string}>
      */
     public static function lookups(): array
@@ -75,7 +65,7 @@ final class LookupTest extends TestCase
             self::assertCount(count($json[$key] ?? []), $entity->$getter(), "$getter() must have all elements of $key");
         }
 
-        self::assertSame([], self::withoutKnownGaps($api->logged), 'The library logged problems');
+        self::assertSame([], $api->logged, 'The library logged problems');
     }
 
     #[DataProvider('lookups')]
