@@ -28,9 +28,13 @@ use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseEvent;
 use MusicBrainz\Value\ReleaseEventList;
 use MusicBrainz\Value\ReleaseGroup;
+use MusicBrainz\Value\PrimaryReleaseType;
+use MusicBrainz\Value\PrimaryReleaseTypeKind;
 use MusicBrainz\Value\ReleaseStatus;
-use MusicBrainz\Value\ReleaseType;
-use MusicBrainz\Value\ReleaseTypeList;
+use MusicBrainz\Value\ReleaseStatusKind;
+use MusicBrainz\Value\SecondaryReleaseType;
+use MusicBrainz\Value\SecondaryReleaseTypeKind;
+use MusicBrainz\Value\SecondaryReleaseTypeList;
 use MusicBrainz\Value\Script;
 use MusicBrainz\Value\SearchResult;
 use MusicBrainz\Value\SortName;
@@ -118,7 +122,7 @@ class ReleaseTest extends ApiTestCase
         $this->assertEquals('Live Seeds', $release->getTitle());
 
         $this->assertInstanceOf(ReleaseStatus::class, $release->getReleaseStatus());
-        $this->assertEquals(ReleaseStatus::OFFICIAL, $release->getReleaseStatus());
+        $this->assertSame(ReleaseStatusKind::Official, $release->getReleaseStatus()->kind());
 
         $this->assertInstanceOf(Packaging::class, $release->getPackaging());
         $this->assertEquals(Packaging::JEWEL_CASE, $release->getPackaging());
@@ -146,12 +150,14 @@ class ReleaseTest extends ApiTestCase
         $this->assertInstanceOf(ReleaseGroup::class, $releaseGroup);
         $this->assertInstanceOf(MBID::class, $releaseGroup->getMBID());
         $this->assertEquals('ed4bb6ce-ace6-3841-931b-7f8f0bcfe806', $releaseGroup->getMBID());
-        $this->assertInstanceOf(ReleaseType::class, $releaseGroup->getPrimaryReleaseType());
+        $this->assertInstanceOf(PrimaryReleaseType::class, $releaseGroup->getPrimaryReleaseType());
         $this->assertEquals('Album', $releaseGroup->getPrimaryReleaseType());
-        $this->assertInstanceOf(ReleaseTypeList::class, $releaseGroup->getSecondaryReleaseTypes());
+        $this->assertSame(PrimaryReleaseTypeKind::Album, $releaseGroup->getPrimaryReleaseType()->kind());
+        $this->assertInstanceOf(SecondaryReleaseTypeList::class, $releaseGroup->getSecondaryReleaseTypes());
         $this->assertCount(1, $releaseGroup->getSecondaryReleaseTypes());
-        $this->assertContainsOnlyInstancesOf(ReleaseType::class, $releaseGroup->getSecondaryReleaseTypes());
+        $this->assertContainsOnlyInstancesOf(SecondaryReleaseType::class, $releaseGroup->getSecondaryReleaseTypes());
         $this->assertEquals('Live', $releaseGroup->getSecondaryReleaseTypes()[0]);
+        $this->assertSame(SecondaryReleaseTypeKind::Live, $releaseGroup->getSecondaryReleaseTypes()[0]->kind());
 
         $this->assertInstanceOf(Date::class, $release->getDate());
         $this->assertEquals('1996-08-05', $release->getDate());

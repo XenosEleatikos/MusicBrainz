@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ReleaseStatus;
+use MusicBrainz\Value\ReleaseStatusKind;
 
 trait ReleaseStatusTrait
 {
@@ -24,12 +24,12 @@ trait ReleaseStatusTrait
     /**
      * Adds the release status.
      *
-     * @param ReleaseStatus $releaseStatus The release status
+     * @param ReleaseStatusKind $releaseStatus The release status
      *
      * @return Term
      */
-    public function addReleaseStatus(ReleaseStatus $releaseStatus): Term
+    public function addReleaseStatus(ReleaseStatusKind $releaseStatus): Term
     {
-        return $this->addTerm((string) $releaseStatus, self::releaseStatus());
+        return $this->addTerm($releaseStatus->value, self::releaseStatus());
     }
 }

@@ -5,7 +5,8 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ReleaseType;
+use MusicBrainz\Value\PrimaryReleaseTypeKind;
+use MusicBrainz\Value\SecondaryReleaseTypeKind;
 
 trait ReleaseGroupTypeTrait
 {
@@ -24,12 +25,12 @@ trait ReleaseGroupTypeTrait
     /**
      * Adds the type of the release group.
      *
-     * @param ReleaseType $releaseGroupType The type of the release group
+     * @param PrimaryReleaseTypeKind|SecondaryReleaseTypeKind $releaseGroupType The type of the release group
      *
      * @return Term
      */
-    public function addReleaseGroupType(ReleaseType $releaseGroupType): Term
+    public function addReleaseGroupType(PrimaryReleaseTypeKind|SecondaryReleaseTypeKind $releaseGroupType): Term
     {
-        return $this->addTerm((string) $releaseGroupType, self::releaseGroupType());
+        return $this->addTerm($releaseGroupType->value, self::releaseGroupType());
     }
 }

@@ -39,6 +39,7 @@ use MusicBrainz\Value\ReleaseEventList;
 use MusicBrainz\Value\ReleaseGroupList;
 use MusicBrainz\Value\ReleaseList;
 use MusicBrainz\Value\ReleaseStatus;
+use MusicBrainz\Value\ReleaseStatusKind;
 use MusicBrainz\Value\Script;
 use MusicBrainz\Value\SectorOffsetList;
 use MusicBrainz\Value\Sectors;
@@ -160,8 +161,9 @@ class ArtistTest extends ApiTestCase
         $releaseStatus = $release->getReleaseStatus();
         $this->assertInstanceOf(ReleaseStatus::class, $releaseStatus);
         $this->assertEquals('Official', $releaseStatus);
-        $this->assertInstanceOf(MBID::class, $releaseStatus->getMBID());
-        $this->assertEquals('4e304316-386d-3409-af2e-78857eec5cfe', $releaseStatus->getMBID());
+        $this->assertSame(ReleaseStatusKind::Official, $releaseStatus->kind());
+        $this->assertInstanceOf(MBID::class, $releaseStatus->id);
+        $this->assertEquals('4e304316-386d-3409-af2e-78857eec5cfe', $releaseStatus->id);
 
         /** @todo Test release aliases */
 

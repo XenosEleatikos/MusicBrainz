@@ -4,44 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value\ReleaseType;
-
-use function is_null;
+use MusicBrainz\Value\PrimaryReleaseType;
 
 /**
  * Provides a getter for the primary release type.
  */
 trait PrimaryReleaseTypeTrait
 {
-    /**
-     * The primary release type
-     *
-     * @var ReleaseType
-     */
-    private ReleaseType $primaryReleaseType;
+    private ?PrimaryReleaseType $primaryReleaseType;
 
     /**
-     * Returns the primary release type.
-     *
-     * @return ReleaseType
+     * Returns the primary release type, or null if the web service did not deliver one.
      */
-    public function getPrimaryReleaseType(): ReleaseType
+    public function getPrimaryReleaseType(): ?PrimaryReleaseType
     {
         return $this->primaryReleaseType;
     }
 
     /**
-     * Sets the primary release type by extracting it from a given input array.
-     *
-     * @param array $input An array returned by the webservice
-     *
-     * @return void
+     * @param array<mixed> $input An array returned by the webservice
      */
     private function setPrimaryReleaseTypeFromArray(array $input): void
     {
-        $this->primaryReleaseType = is_null($primaryReleaseType = ArrayAccess::getString($input, 'primary-type'))
-            ? new ReleaseType()
-            : new ReleaseType($primaryReleaseType);
+        $this->primaryReleaseType = PrimaryReleaseType::fromArray($input, 'primary-type', 'primary-type-id');
     }
 }
