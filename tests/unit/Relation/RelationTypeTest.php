@@ -42,6 +42,7 @@ final class RelationTypeTest extends TestCase
         $type = new $class();
 
         self::assertInstanceOf(Type::class, $type);
+        self::assertSame($uuid, (string) $class::getRelationTypeId(), 'getRelationTypeId() must return the key of the map');
         self::assertNotSame('', (string) $class::getRelationName());
         self::assertInstanceOf(EntityType::class, $class::getBaseEntityType());
         self::assertInstanceOf(EntityType::class, $class::getRelatedEntityType());

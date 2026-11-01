@@ -41,10 +41,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MusicBrainz\\": "src",
-            "MusicBrainz\\Test\\": "tests/unit",
-            "MusicBrainz\\Test\\Support\\": "tests/Support",
-            "MusicBrainz\\SpecificationTest\\": "tests/specification"
+            "MusicBrainz\\": "src"
         }
     },
     "scripts": {
@@ -71,5 +68,12 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MusicBrainz\\Test\\": "tests/unit",
+            "MusicBrainz\\Test\\Support\\": "tests/Support",
+            "MusicBrainz\\SpecificationTest\\": "tests/specification"
+        }
     }
 }

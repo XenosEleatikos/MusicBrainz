@@ -6,8 +6,11 @@ namespace MusicBrainz\Relation;
 
 use MusicBrainz\Definition\RelationTypeId;
 use MusicBrainz\Value\EntityType;
+use LogicException;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
+
+use function is_string;
 
 /**
  * A relation type
@@ -42,12 +45,12 @@ abstract class Type
      */
     final public static function getRelationTypeId(): MBID
     {
-        return new MBID(
-            // @phpstan-ignore-next-line Each relation type is defined in class map
-            array_search(
-                self::class,
-                RelationTypeId::getClassMap()
-            )
-        );
+        $id = array_search(static::class, RelationTypeId::getClassMap(), true);
+
+        if (!is_string($id)) {
+            throw new LogicException(static::class . ' is not part of the map of relation types');
+        }
+
+        return new MBID($id);
     }
 }

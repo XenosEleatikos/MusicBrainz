@@ -37,4 +37,13 @@ enum EntityType: string
     {
         return str_replace('_', '-', $this->value);
     }
+
+    /**
+     * Returns the name of the query parameter that browse requests use for this entity type. The web service is not
+     * consistent here: "release-group" has a hyphen, "track_artist" an underscore.
+     */
+    public function browseParameter(): string
+    {
+        return self::TrackArtist === $this ? $this->value : $this->path();
+    }
 }
