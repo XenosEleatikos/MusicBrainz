@@ -4,46 +4,34 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
 
 /**
- * A CD stub
- * A CD stub is an anonymously submitted track list that contains a disc ID, barcode, comment field, and basic metadata
- * like a release title and track names.
- * All CD stubs are segregated from the main database and are editable by anyone (whether they are logged in or not),
- * however, they don't benefit from core MusicBrainz features such as edit history, permanent unique identifiers
- * (MBIDs), relationships, release information (date, country, label, etc.), and much more.
- * CD stubs were implemented as a means for people to easily contribute data to MusicBrainz when they are unable, or
- * unwilling, to create an account and add a release. They also enable us to store "untrusted" metadata like the CD Baby
- * music catalog, and to actively serve all this content without cluttering the main database.
+ * A CD stub: a disc ID submitted for a CD that is not in the database yet
  */
-class CdStub implements Value
+final readonly class CdStub implements Parsable
 {
-    use Property\ArtistNameTrait;
-    use Property\BarcodeTrait;
-    use Property\DisambiguationTrait;
-    use Property\TitleTrait;
+    public function __construct(
+        public string $discId,
+        public string $title,
+        public string $artist,
+        public string $barcode = '',
+        public string $disambiguation = '',
+        public ?int $trackCount = null,
+    ) {}
 
     /**
-     * Constructs an area.
-     *
-     * @param array $cdStub Information about a CD stub
+     * @param array<mixed> $data
      */
-    public function __construct(array $cdStub = [])
+    public static function fromArray(array $data): static
     {
-        $this->setArtistNameFromArray($cdStub);
-        $this->setBarcodeFromArray($cdStub);
-        $this->setDisambiguationFromArray($cdStub);
-        $this->setTitleFromArray($cdStub);
-    }
-
-    /**
-     * Returns the CD stub as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return $this->getTitle() . '(' . $this->getArtistName() . ')';
+        return new self(
+            ArrayAccess::getString($data, 'id') ?? '',
+            ArrayAccess::getString($data, 'title') ?? '',
+            ArrayAccess::getString($data, 'artist') ?? '',
+            ArrayAccess::getString($data, 'barcode') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            ArrayAccess::getInteger($data, 'count'),
+        );
     }
 }

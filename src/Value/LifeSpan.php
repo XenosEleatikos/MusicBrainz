@@ -4,40 +4,29 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
 
 /**
- * A life span.
- *
- * @link https://musicbrainz.org/doc/Artist
+ * The period of existence of an entity
  */
-class LifeSpan implements Value
+final readonly class LifeSpan implements Parsable
 {
-    use Property\BeginDateTrait;
-    use Property\EndDateTrait;
-    use Property\EndedTrait;
+    public function __construct(
+        public ?Date $begin = null,
+        public ?Date $end = null,
+        public bool $ended = false,
+    ) {}
 
     /**
-     * Constructs a life span.
-     *
-     * @param array $lifeSpan An array of information about a life span
+     * @param array<mixed> $data A "life-span" object
      */
-    public function __construct(array $lifeSpan = [])
+    public static function fromArray(array $data): static
     {
-        $this->setBeginDateFromArray($lifeSpan);
-        $this->setEndDateFromArray($lifeSpan);
-        $this->setEndedFromArray($lifeSpan);
-    }
-
-    /**
-     * Returns the life span as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return ($this->getEnded()->isEnded())
-            ? $this->getBeginDate() . ' – ' . $this->getEndDate()
-            : (string) $this->getBeginDate();
+        return new self(
+            Json::date($data, 'begin'),
+            Json::date($data, 'end'),
+            ArrayAccess::getBool($data, 'ended') ?? false,
+        );
     }
 }

@@ -81,7 +81,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Area, $mbid, $areaFields);
 
-        return new Area($result);
+        return Area::fromArray($result);
     }
 
     /**
@@ -95,7 +95,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Artist, $mbid, $artistFields);
 
-        return new Artist($result);
+        return Artist::fromArray($result);
     }
 
     /**
@@ -109,7 +109,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Collection, $mbid, new CollectionFields());
 
-        return new Collection($result);
+        return Collection::fromArray($result);
     }
 
     /**
@@ -120,11 +120,11 @@ class Lookup
      *
      * @return Event
      */
-    public function event(MBID $mbid, EventFields $eventFields)
+    public function event(MBID $mbid, EventFields $eventFields): Event
     {
         $result = $this->lookup(EntityType::Event, $mbid, $eventFields);
 
-        return new Event($result);
+        return Event::fromArray($result);
     }
 
     /**
@@ -139,7 +139,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Instrument, $mbid, $instrumentFields);
 
-        return new Instrument($result);
+        return Instrument::fromArray($result);
     }
 
     /**
@@ -153,7 +153,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Label, $mbid, $labelFields);
 
-        return new Label($result);
+        return Label::fromArray($result);
     }
 
     /**
@@ -168,7 +168,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Place, $mbid, $placeFields);
 
-        return new Place($result);
+        return Place::fromArray($result);
     }
 
     /**
@@ -183,7 +183,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Recording, $mbid, $recordingFields);
 
-        return new Recording($result);
+        return Recording::fromArray($result);
     }
 
     /**
@@ -198,7 +198,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Release, $mbid, $releaseFields);
 
-        return new Release($result);
+        return Release::fromArray($result);
     }
 
     /**
@@ -213,7 +213,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::ReleaseGroup, $mbid, $releaseGroupFields);
 
-        return new ReleaseGroup($result);
+        return ReleaseGroup::fromArray($result);
     }
 
     /**
@@ -228,7 +228,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Series, $mbid, $seriesFields);
 
-        return new Series($result);
+        return Series::fromArray($result);
     }
 
     /**
@@ -239,11 +239,11 @@ class Lookup
      *
      * @return URL
      */
-    public function url(MBID $mbid, $urlFields): URL
+    public function url(MBID $mbid, UrlFields $urlFields): URL
     {
         $result = $this->lookup(EntityType::Url, $mbid, $urlFields);
 
-        return new URL($result);
+        return URL::fromArray($result);
     }
 
     /**
@@ -257,7 +257,7 @@ class Lookup
     {
         $result = $this->lookup(EntityType::Work, $mbid, $workFields);
 
-        return new Work($result);
+        return Work::fromArray($result);
     }
 
     /**

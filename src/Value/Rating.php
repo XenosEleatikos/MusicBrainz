@@ -4,36 +4,23 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
 
 /**
- * A rating
- *
- * @link https://musicbrainz.org/doc/Rating_System
+ * The average rating of an entity (0 to 5 stars) and the number of votes
  */
-class Rating implements Value
+final readonly class Rating implements Parsable
 {
-    use Property\RatingValueTrait;
-    use Property\RatingVotesTrait;
+    public function __construct(
+        public ?float $value,
+        public int $votes = 0,
+    ) {}
 
     /**
-     * Constructs a rating.
-     *
-     * @param array $rating Information about the rating
+     * @param array<mixed> $data
      */
-    public function __construct(array $rating = [])
+    public static function fromArray(array $data): static
     {
-        $this->setRatingValueFromArray($rating);
-        $this->setRatingVotesFromArray($rating);
-    }
-
-    /**
-     * Returns the rating as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getRatingValue();
+        return new self(ArrayAccess::getFloat($data, 'value'), ArrayAccess::getInteger($data, 'votes-count') ?? 0);
     }
 }

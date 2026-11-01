@@ -9,7 +9,7 @@ use MusicBrainz\Helper\ArrayAccess;
 /**
  * Availability of cover art of a release at the Cover Art Archive
  */
-final readonly class CoverArtArchive
+final readonly class CoverArtArchive implements Parsable
 {
     /**
      * @param bool $artwork  True, if there is any artwork
@@ -29,7 +29,7 @@ final readonly class CoverArtArchive
     /**
      * @param array<mixed> $input The "cover-art-archive" object of a release
      */
-    public static function fromArray(array $input): self
+    public static function fromArray(array $input): static
     {
         return new self(
             ArrayAccess::getBool($input, 'artwork') ?? false,

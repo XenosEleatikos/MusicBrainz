@@ -4,71 +4,87 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\LabelRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\Relation\RelationList;
 
 /**
- * A label
+ * A label: an organization that releases music.
+ *
+ * @see https://musicbrainz.org/doc/Label
  */
-class Label implements Value
+final readonly class Label implements Parsable
 {
-    use Property\UserTagsTrait;
-    use Property\UserGenresTrait;
-    use Property\UserRatingTrait;
-    use Property\TagsTrait;
-    use Property\GenresTrait;
-    use Property\RatingTrait;
-    use LabelRelationListTrait;
-    use Property\AliasesTrait;
-    use Property\AreaTrait;
-    use Property\CountryTrait;
-    use Property\DisambiguationTrait;
-    use Property\IpisTrait;
-    use Property\IsnisTrait;
-    use Property\LabelCodeTrait;
-    use Property\LabelTypeTrait;
-    use Property\LifeSpanTrait;
-    use Property\MBIDTrait;
-    use Property\NameTrait;
-    use Property\ScoreTrait;
-    use Property\SortNameTrait;
+    /**
+     * @param list<string> $ipis
+     * @param list<string> $isnis
+     * @param list<Release> $releases
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public ?string $sortName = null,
+        public string $disambiguation = '',
+        public ?LabelType $type = null,
+        public ?string $country = null,
+        public ?Area $area = null,
+        public ?int $labelCode = null,
+        public array $ipis = [],
+        public array $isnis = [],
+        public ?LifeSpan $lifeSpan = null,
+        public array $releases = [],
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs a label.
-     *
-     * @param array $label Array of information about a label
+     * @param array<mixed> $data A decoded label of the web service
      */
-    public function __construct(array $label = [])
+    public static function fromArray(array $data): static
     {
-        $this->setUserTagsFromArray($label);
-        $this->setUserGenresFromArray($label);
-        $this->setUserRatingFromArray($label);
-        $this->setTagsFromArray($label);
-        $this->setGenresFromArray($label);
-        $this->setRatingFromArray($label);
-        $this->setRelationsFromArray($label);
-        $this->setAliasesFromArray($label);
-        $this->setAreaFromArray($label);
-        $this->setCountryFromArray($label);
-        $this->setDisambiguationFromArray($label);
-        $this->setIpisFromArray($label);
-        $this->setIsnisFromArray($label);
-        $this->setLabelCodeFromArray($label);
-        $this->setLabelTypeFromArray($label);
-        $this->setLifeSpanFromArray($label);
-        $this->setMbidFromArray($label);
-        $this->setNameFromArray($label);
-        $this->setScoreFromArray($label);
-        $this->setSortNameFromArray($label);
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'sort-name'),
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            LabelType::fromArray($data, 'type', 'type-id'),
+            ArrayAccess::getString($data, 'country'),
+            self::object($data, 'area', Area::class),
+            ArrayAccess::getInteger($data, 'label-code'),
+            Json::strings($data, 'ipis'),
+            Json::strings($data, 'isnis'),
+            self::object($data, 'life-span', LifeSpan::class),
+            Json::list($data, 'releases', Release::class),
+            ...SharedFields::parse($data),
+        );
     }
 
     /**
-     * Returns the label as string.
+     * @param array<mixed>    $data
+     * @param class-string<T> $class
      *
-     * @return string
+     * @return null|T
+     *
+     * @template T of Parsable
      */
-    public function __toString(): string
+    private static function object(array $data, string $key, string $class): ?object
     {
-        return (string) $this->getName();
+        $object = Json::object($data, $key, $class);
+
+        return $object instanceof $class ? $object : null;
     }
 }

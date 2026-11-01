@@ -4,6 +4,19 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Api;
 
+use MusicBrainz\Value\Area;
+use MusicBrainz\Value\Artist;
+use MusicBrainz\Value\Collection;
+use MusicBrainz\Value\Event;
+use MusicBrainz\Value\Instrument;
+use MusicBrainz\Value\Label;
+use MusicBrainz\Value\Place;
+use MusicBrainz\Value\Recording;
+use MusicBrainz\Value\Release;
+use MusicBrainz\Value\ReleaseGroup;
+use MusicBrainz\Value\Series;
+use MusicBrainz\Value\Work;
+use MusicBrainz\Value\URL;
 use MusicBrainz\Config;
 use MusicBrainz\Filter\Browse\Relation\AbstractRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\AreaRelation;
@@ -34,18 +47,7 @@ use MusicBrainz\Supplement\Browse\SeriesFields;
 use MusicBrainz\Supplement\Browse\WorkFields;
 use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Value\Page\AreaListPage;
-use MusicBrainz\Value\Page\ArtistListPage;
-use MusicBrainz\Value\Page\CollectionListPage;
-use MusicBrainz\Value\Page\EventListPage;
-use MusicBrainz\Value\Page\InstrumentListPage;
-use MusicBrainz\Value\Page\LabelListPage;
-use MusicBrainz\Value\Page\PlaceListPage;
-use MusicBrainz\Value\Page\RecordingListPage;
-use MusicBrainz\Value\Page\ReleaseGroupListPage;
-use MusicBrainz\Value\Page\ReleaseListPage;
-use MusicBrainz\Value\Page\SeriesListPage;
-use MusicBrainz\Value\Page\WorkListPage;
+use MusicBrainz\Value\Page;
 
 /**
  * Browse requests are a direct lookup of all the entities directly linked to another entity.
@@ -87,9 +89,9 @@ class Browse
      * @param AreaFields   $areaFields   A list of properties of the areas to be included in the response
      * @param PageFilter   $pageFilter   A page filter
      *
-     * @return AreaListPage
+     * @return Page<Area>
      */
-    public function area(AreaRelation $areaRelation, AreaFields $areaFields, PageFilter $pageFilter): AreaListPage
+    public function area(AreaRelation $areaRelation, AreaFields $areaFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Area,
@@ -98,7 +100,7 @@ class Browse
             $pageFilter
         );
 
-        return AreaListPage::make($result, 'area');
+        return Page::browse($result, 'area', Area::class);
     }
 
     /**
@@ -108,9 +110,9 @@ class Browse
      * @param ArtistFields   $artistFields   A list of properties of the artists to be included in the response
      * @param PageFilter     $pageFilter     A page filter
      *
-     * @return ArtistListPage
+     * @return Page<Artist>
      */
-    public function artist(ArtistRelation $artistRelation, ArtistFields $artistFields, PageFilter $pageFilter): ArtistListPage
+    public function artist(ArtistRelation $artistRelation, ArtistFields $artistFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Artist,
@@ -119,7 +121,7 @@ class Browse
             $pageFilter
         );
 
-        return ArtistListPage::make($result, 'artist');
+        return Page::browse($result, 'artist', Artist::class);
     }
 
     /**
@@ -130,9 +132,9 @@ class Browse
      * @param CollectionRelation $collectionRelation A relation, the requested collections stand in
      * @param PageFilter         $pageFilter         A page filter
      *
-     * @return CollectionListPage
+     * @return Page<Collection>
      */
-    public function collection(CollectionRelation $collectionRelation, PageFilter $pageFilter): CollectionListPage
+    public function collection(CollectionRelation $collectionRelation, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Collection,
@@ -141,7 +143,7 @@ class Browse
             $pageFilter
         );
 
-        return CollectionListPage::make($result, 'collection');
+        return Page::browse($result, 'collection', Collection::class);
     }
 
     /**
@@ -151,9 +153,9 @@ class Browse
      * @param EventFields   $eventFields   A list of properties of the events to be included in the response
      * @param PageFilter    $pageFilter    A page filter
      *
-     * @return EventListPage
+     * @return Page<Event>
      */
-    public function event(EventRelation $eventRelation, EventFields $eventFields, PageFilter $pageFilter): EventListPage
+    public function event(EventRelation $eventRelation, EventFields $eventFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Event,
@@ -162,7 +164,7 @@ class Browse
             $pageFilter
         );
 
-        return EventListPage::make($result, 'event');
+        return Page::browse($result, 'event', Event::class);
     }
 
     /**
@@ -172,9 +174,9 @@ class Browse
      * @param InstrumentFields   $instrumentFields   A list of properties of the instrument to be included in the response
      * @param PageFilter         $pageFilter         A page filter
      *
-     * @return InstrumentListPage
+     * @return Page<Instrument>
      */
-    public function instrument(InstrumentRelation $instrumentRelation, InstrumentFields $instrumentFields, PageFilter $pageFilter): InstrumentListPage
+    public function instrument(InstrumentRelation $instrumentRelation, InstrumentFields $instrumentFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Instrument,
@@ -183,7 +185,7 @@ class Browse
             $pageFilter
         );
 
-        return InstrumentListPage::make($result, 'instrument');
+        return Page::browse($result, 'instrument', Instrument::class);
     }
 
     /**
@@ -193,9 +195,9 @@ class Browse
      * @param LabelFields   $labelFields   A list of properties of the labels to be included in the response
      * @param PageFilter    $pageFilter    A page filter
      *
-     * @return LabelListPage
+     * @return Page<Label>
      */
-    public function label(LabelRelation $labelRelation, LabelFields $labelFields, PageFilter $pageFilter): LabelListPage
+    public function label(LabelRelation $labelRelation, LabelFields $labelFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Label,
@@ -204,7 +206,7 @@ class Browse
             $pageFilter
         );
 
-        return LabelListPage::make($result, 'label');
+        return Page::browse($result, 'label', Label::class);
     }
 
     /**
@@ -214,9 +216,9 @@ class Browse
      * @param PlaceFields   $placeFields   A list of properties of the places to be included in the response
      * @param PageFilter    $pageFilter    A page filter
      *
-     * @return PlaceListPage
+     * @return Page<Place>
      */
-    public function place(PlaceRelation $placeRelation, PlaceFields $placeFields, PageFilter $pageFilter): PlaceListPage
+    public function place(PlaceRelation $placeRelation, PlaceFields $placeFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Place,
@@ -225,7 +227,7 @@ class Browse
             $pageFilter
         );
 
-        return PlaceListPage::make($result, 'place');
+        return Page::browse($result, 'place', Place::class);
     }
 
     /**
@@ -235,9 +237,9 @@ class Browse
      * @param RecordingFields   $recordingFields   A list of properties of the recordings to be included in the response
      * @param PageFilter        $pageFilter        A page filter
      *
-     * @return RecordingListPage
+     * @return Page<Recording>
      */
-    public function recording(RecordingRelation $recordingRelation, RecordingFields $recordingFields, PageFilter $pageFilter): RecordingListPage
+    public function recording(RecordingRelation $recordingRelation, RecordingFields $recordingFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Recording,
@@ -246,7 +248,7 @@ class Browse
             $pageFilter
         );
 
-        return RecordingListPage::make($result, 'recording');
+        return Page::browse($result, 'recording', Recording::class);
     }
 
     /**
@@ -256,9 +258,9 @@ class Browse
      * @param ReleaseFields   $releaseFields   A list of properties of the releases to be included in the response
      * @param PageFilter      $pageFilter      A page filter
      *
-     * @return ReleaseListPage
+     * @return Page<Release>
      */
-    public function release(ReleaseRelation $releaseRelation, ReleaseFields $releaseFields, PageFilter $pageFilter): ReleaseListPage
+    public function release(ReleaseRelation $releaseRelation, ReleaseFields $releaseFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Release,
@@ -267,7 +269,7 @@ class Browse
             $pageFilter
         );
 
-        return ReleaseListPage::make($result, 'release');
+        return Page::browse($result, 'release', Release::class);
     }
 
     /**
@@ -278,13 +280,13 @@ class Browse
      *                                                 response
      * @param PageFilter           $pageFilter         A page filter
      *
-     * @return ReleaseGroupListPage
+     * @return Page<ReleaseGroup>
      */
     public function releaseGroup(
         ReleaseGroupRelation $releaseRelation,
         ReleaseGroupFields $releaseGroupFields,
         PageFilter $pageFilter
-    ): ReleaseGroupListPage {
+    ): Page {
         $result = $this->browse(
             EntityType::ReleaseGroup,
             $releaseRelation,
@@ -292,7 +294,7 @@ class Browse
             $pageFilter
         );
 
-        return ReleaseGroupListPage::make($result, 'release-group');
+        return Page::browse($result, 'release-group', ReleaseGroup::class);
     }
 
     /**
@@ -302,9 +304,9 @@ class Browse
      * @param SeriesFields   $seriesFields   A list of properties of the series to be included in the response
      * @param PageFilter      $pageFilter    A page filter
      *
-     * @return SeriesListPage
+     * @return Page<Series>
      */
-    public function series(SeriesRelation $seriesRelation, SeriesFields $seriesFields, PageFilter $pageFilter): SeriesListPage
+    public function series(SeriesRelation $seriesRelation, SeriesFields $seriesFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Series,
@@ -313,7 +315,7 @@ class Browse
             $pageFilter
         );
 
-        return SeriesListPage::make($result, 'series');
+        return Page::browse($result, 'series', Series::class);
     }
 
     /**
@@ -327,9 +329,9 @@ class Browse
      * @param WorkFields   $workFields   A list of properties of the series to be included in the response
      * @param PageFilter   $pageFilter   A page filter
      *
-     * @return WorkListPage
+     * @return Page<Work>
      */
-    public function work(WorkRelation $workRelation, WorkFields $workFields, PageFilter $pageFilter): WorkListPage
+    public function work(WorkRelation $workRelation, WorkFields $workFields, PageFilter $pageFilter): Page
     {
         $result = $this->browse(
             EntityType::Work,
@@ -338,7 +340,7 @@ class Browse
             $pageFilter
         );
 
-        return WorkListPage::make($result, 'work');
+        return Page::browse($result, 'work', Work::class);
     }
 
     /**

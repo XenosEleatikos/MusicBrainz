@@ -4,36 +4,32 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
 
 /**
- * A disc
+ * A disc ID of a medium
  */
-class Disc implements Value
+final readonly class Disc implements Parsable
 {
-    use Property\DiscIdTrait;
-    use Property\SectorOffsetsTrait;
-    use Property\SectorsTrait;
+    /**
+     * @param list<int> $offsets Sector offsets of the tracks
+     */
+    public function __construct(
+        public string $id,
+        public ?int $sectors = null,
+        public array $offsets = [],
+    ) {}
 
     /**
-     * Constructs a disc.
-     *
-     * @param array $disc Information about the disc
+     * @param array<mixed> $data
      */
-    public function __construct(array $disc = [])
+    public static function fromArray(array $data): static
     {
-        $this->setDiscIdFromArray($disc);
-        $this->setSectorOffsetsFromArray($disc);
-        $this->setSectorsFromArray($disc);
-    }
-
-    /**
-     * Returns the disc ID as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getDiscId();
+        return new self(
+            ArrayAccess::getString($data, 'id') ?? '',
+            ArrayAccess::getInteger($data, 'sectors'),
+            Json::integers($data, 'offsets'),
+        );
     }
 }

@@ -8,7 +8,7 @@ use MusicBrainz\MusicBrainz;
 use MusicBrainz\Test\Support\FakeHttpClient;
 use MusicBrainz\Value\ReleaseStatus;
 use MusicBrainz\Value\ReleaseStatusKind;
-use MusicBrainz\Value\SecondaryReleaseTypeList;
+use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\SecondaryReleaseTypeKind;
 use Nyholm\Psr7\Factory\Psr17Factory;
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -87,16 +87,17 @@ class NamedTypeTest extends TestCase
         self::assertSame([], $this->logs);
     }
 
-    public function testSecondaryTypeListPairsNamesWithIds(): void
+    public function testSecondaryTypesOfAReleaseGroupPairNamesWithIds(): void
     {
-        $list = new SecondaryReleaseTypeList(
-            ['Live', 'DJ-mix'],
-            ['6fd474e2-6b58-3102-9d17-d6f7eb7da0a0', '4ffb3c4f-e2fe-3c8d-9c1b-0d7c1d1d5b6e'],
-        );
+        $releaseGroup = ReleaseGroup::fromArray([
+            'id' => 'ed4bb6ce-ace6-3841-931b-7f8f0bcfe806',
+            'secondary-types' => ['Live', 'DJ-mix'],
+            'secondary-type-ids' => ['6fd474e2-6b58-3102-9d17-d6f7eb7da0a0', '4ffb3c4f-e2fe-3c8d-9c1b-0d7c1d1d5b6e'],
+        ]);
 
-        self::assertCount(2, $list);
-        self::assertSame(SecondaryReleaseTypeKind::Live, $list[0]->kind());
-        self::assertSame(SecondaryReleaseTypeKind::DjMix, $list[1]->kind());
-        self::assertSame('4ffb3c4f-e2fe-3c8d-9c1b-0d7c1d1d5b6e', (string) $list[1]->id);
+        self::assertCount(2, $releaseGroup->secondaryTypes);
+        self::assertSame(SecondaryReleaseTypeKind::Live, $releaseGroup->secondaryTypes[0]->kind());
+        self::assertSame(SecondaryReleaseTypeKind::DjMix, $releaseGroup->secondaryTypes[1]->kind());
+        self::assertSame('4ffb3c4f-e2fe-3c8d-9c1b-0d7c1d1d5b6e', (string) $releaseGroup->secondaryTypes[1]->id);
     }
 }

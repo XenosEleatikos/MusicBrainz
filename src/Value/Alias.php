@@ -4,53 +4,46 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use Stringable;
 
 /**
- * Aliases are variant names that are mostly used as search help: if a search matches an entity's alias, the entity will
- * be given as a result - even if the actual name wouldn't be.
- *
- * @see https://musicbrainz.org/doc/Aliases
+ * An alias of an entity
  */
-class Alias implements Value
+final readonly class Alias implements Parsable, Stringable
 {
-    use Property\AliasTypeTrait;
-    use Property\BeginDateTrait;
-    use Property\EndDateTrait;
-    use Property\EndedTrait;
-    use Property\LocaleCodeTrait;
-    use Property\NameTrait;
-    use Property\PrimaryNameFlagTrait;
-    use Property\SortNameTrait;
+    public function __construct(
+        public string $name,
+        public ?string $sortName = null,
+        public ?AliasType $type = null,
+        public ?string $locale = null,
+        public bool $primary = false,
+        public ?Date $begin = null,
+        public ?Date $end = null,
+        public bool $ended = false,
+    ) {}
 
     /**
-     * Constructs an alias.
-     *
-     * @param array $alias An array with information about the alias
+     * @param array<mixed> $data
      */
-    public function __construct(array $alias = [])
+    public static function fromArray(array $data): static
     {
-        // The search API calls the period of an alias begin-date/end-date, lookups call it begin/end
-        $alias['begin'] ??= $alias['begin-date'] ?? null;
-        $alias['end'] ??= $alias['end-date'] ?? null;
-
-        $this->setAliasTypeFromArray($alias);
-        $this->setBeginDateFromArray($alias);
-        $this->setEndDateFromArray($alias);
-        $this->setEndedFromArray($alias);
-        $this->setLocaleCodeFromArray($alias);
-        $this->setNameFromArray($alias);
-        $this->setPrimaryNameFromArray($alias);
-        $this->setSortNameFromArray($alias);
+        return new self(
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'sort-name'),
+            AliasType::fromArray($data, 'type', 'type-id'),
+            ArrayAccess::getString($data, 'locale'),
+            ArrayAccess::getBool($data, 'primary') ?? false,
+            // The search API calls the period begin-date/end-date, lookups call it begin/end
+            Json::date($data, 'begin') ?? Json::date($data, 'begin-date'),
+            Json::date($data, 'end') ?? Json::date($data, 'end-date'),
+            ArrayAccess::getBool($data, 'ended') ?? false,
+        );
     }
 
-    /**
-     * Returns the alternative name.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->getName();
+        return $this->name;
     }
 }

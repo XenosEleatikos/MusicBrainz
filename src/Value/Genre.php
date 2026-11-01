@@ -4,38 +4,37 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use Stringable;
 
 /**
  * A genre, as assigned to an entity (with the number of votes for it)
  */
-class Genre implements Value
+final readonly class Genre implements Parsable, Stringable
 {
-    use Value\Property\CountTrait;
-    use Value\Property\DisambiguationTrait;
-    use Value\Property\MBIDTrait;
-    use Value\Property\NameTrait;
+    public function __construct(
+        public ?MBID $id,
+        public string $name,
+        public int $count = 0,
+        public string $disambiguation = '',
+    ) {}
 
     /**
-     * Constructs a genre.
-     *
-     * @param array $genre Array of information about a genre
+     * @param array<mixed> $data
      */
-    public function __construct(array $genre = [])
+    public static function fromArray(array $data): static
     {
-        $this->setCountFromArray($genre);
-        $this->setDisambiguationFromArray($genre);
-        $this->setMbidFromArray($genre);
-        $this->setNameFromArray($genre);
+        return new self(
+            Json::id($data),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getInteger($data, 'count') ?? 0,
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+        );
     }
 
-    /**
-     * Returns the genre's name.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->name;
+        return $this->name;
     }
 }

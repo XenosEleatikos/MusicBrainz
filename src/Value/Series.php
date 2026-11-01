@@ -4,56 +4,53 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\SeriesRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\Relation\RelationList;
 
 /**
- * A series
- * A series is a sequence of separate release groups, releases, recordings, works or events with a common theme. The
- * theme is usually prominent in the branding of the entities in the series and the individual entities will often have
- * been given a number indicating the position in the series.
+ * A series: a sequence of separate release groups, releases, recordings, works or events with a common theme.
  *
- * @see https://wiki.musicbrainz.org/Series
+ * @see https://musicbrainz.org/doc/Series
  */
-class Series implements Value
+final readonly class Series implements Parsable
 {
-    use Property\UserTagsTrait;
-    use Property\UserGenresTrait;
-    use Property\TagsTrait;
-    use Property\GenresTrait;
-    use SeriesRelationListTrait;
-    use Property\AliasesTrait;
-    use Property\DisambiguationTrait;
-    use Property\MBIDTrait;
-    use Property\NameTrait;
-    use Property\SeriesTypeTrait;
+    /**
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public string $disambiguation = '',
+        public ?SeriesType $type = null,
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs a series.
-     *
-     * @param array $series Array of information about the series
+     * @param array<mixed> $data A decoded series of the web service
      */
-    public function __construct(array $series = [])
+    public static function fromArray(array $data): static
     {
-        $this->setUserTagsFromArray($series);
-        $this->setUserGenresFromArray($series);
-        $this->setTagsFromArray($series);
-        $this->setGenresFromArray($series);
-        $this->setAliasesFromArray($series);
-        $this->setDisambiguationFromArray($series);
-        $this->setMbidFromArray($series);
-        $this->setNameFromArray($series);
-        $this->setSeriesTypeFromArray($series);
-        $this->setRelationsFromArray($series);
-    }
-
-    /**
-     * Returns the series as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getName();
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            SeriesType::fromArray($data, 'type', 'type-id'),
+            ...SharedFields::parse($data),
+        );
     }
 }

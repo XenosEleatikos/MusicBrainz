@@ -4,34 +4,31 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
 
 /**
- * An attribute
+ * An attribute of a work (e.g. its key or tempo)
  */
-class Attribute implements Value
+final readonly class Attribute implements Parsable
 {
-    use Property\AttributeTypeTrait;
-    use Property\AttributeValueTrait;
+    public function __construct(
+        public string $type,
+        public ?MBID $typeId = null,
+        public ?string $value = null,
+        public ?MBID $valueId = null,
+    ) {}
 
     /**
-     * Constructs an attribute.
-     *
-     * @param array $attribute Information about the attribute
+     * @param array<mixed> $data
      */
-    public function __construct(array $attribute = [])
+    public static function fromArray(array $data): static
     {
-        $this->setAttributeTypeFromArray($attribute);
-        $this->setAttributeValueFromArray($attribute);
-    }
-
-    /**
-     * Returns the attribute as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return $this->getAttributeType() . ': ' . (string) $this->getAttributeValue();
+        return new self(
+            ArrayAccess::getString($data, 'type') ?? '',
+            Json::id($data, 'type-id'),
+            ArrayAccess::getString($data, 'value'),
+            Json::id($data, 'value-id'),
+        );
     }
 }

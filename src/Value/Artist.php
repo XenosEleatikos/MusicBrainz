@@ -4,81 +4,100 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\ArtistRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\Relation\RelationList;
 
 /**
- * An artist
+ * An artist: a person, group, orchestra, character or other entity that makes music.
  *
  * @see https://musicbrainz.org/doc/Artist
  */
-class Artist implements Value
+final readonly class Artist implements Parsable
 {
-    use Property\UserTagsTrait;
-    use Property\UserGenresTrait;
-    use Property\UserRatingTrait;
-    use Property\RatingTrait;
-    use Property\GenresTrait;
-    use ArtistRelationListTrait;
-    use Property\AliasesTrait;
-    use Property\AreaTrait;
-    use Property\ArtistNameTrait;
-    use Property\ArtistTypeTrait;
-    use Property\BeginAreaTrait;
-    use Property\CountryTrait;
-    use Property\DisambiguationTrait;
-    use Property\EndAreaTrait;
-    use Property\GenderTrait;
-    use Property\IsnisTrait;
-    use Property\IpisTrait;
-    use Property\LifeSpanTrait;
-    use Property\MBIDTrait;
-    use Property\ReleasesTrait;
-    use Property\ReleaseGroupsTrait;
-    use Property\ScoreTrait;
-    use Property\SortNameTrait;
-    use Property\TagsTrait;
+    /**
+     * @param list<string> $ipis
+     * @param list<string> $isnis
+     * @param list<Release> $releases
+     * @param list<ReleaseGroup> $releaseGroups
+     * @param list<Recording> $recordings
+     * @param list<Work> $works
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public ?string $sortName = null,
+        public string $disambiguation = '',
+        public ?ArtistType $type = null,
+        public ?Gender $gender = null,
+        public ?string $country = null,
+        public ?Area $area = null,
+        public ?Area $beginArea = null,
+        public ?Area $endArea = null,
+        public ?LifeSpan $lifeSpan = null,
+        public array $ipis = [],
+        public array $isnis = [],
+        public array $releases = [],
+        public array $releaseGroups = [],
+        public array $recordings = [],
+        public array $works = [],
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs an artist.
-     *
-     * @param array $artist Array of information about an artist
+     * @param array<mixed> $data A decoded artist of the web service
      */
-    public function __construct(array $artist = [])
+    public static function fromArray(array $data): static
     {
-        $this->setUserTagsFromArray($artist);
-        $this->setUserGenresFromArray($artist);
-        $this->setUserRatingFromArray($artist);
-        $this->setRatingFromArray($artist);
-        $this->setGenresFromArray($artist);
-        $this->setRelationsFromArray($artist);
-        $this->setAliasesFromArray($artist);
-        $this->setAreaFromArray($artist);
-        $this->setArtistNameFromArray($artist, 'name');
-        $this->setArtistTypeFromArray($artist);
-        $this->setBeginAreaFromArray($artist);
-        $this->setCountryFromArray($artist);
-        $this->setDisambiguationFromArray($artist);
-        $this->setEndAreaFromArray($artist);
-        $this->setGenderFromArray($artist);
-        $this->setIpisFromArray($artist);
-        $this->setIsnisFromArray($artist);
-        $this->setLifeSpanFromArray($artist);
-        $this->setMbidFromArray($artist);
-        $this->setReleasesFromArray($artist);
-        $this->setReleaseGroupsFromArray($artist);
-        $this->setScoreFromArray($artist);
-        $this->setSortNameFromArray($artist);
-        $this->setTagsFromArray($artist);
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'sort-name'),
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            ArtistType::fromArray($data, 'type', 'type-id'),
+            Gender::fromArray($data, 'gender', 'gender-id'),
+            ArrayAccess::getString($data, 'country'),
+            self::object($data, 'area', Area::class),
+            self::object($data, 'begin-area', Area::class),
+            self::object($data, 'end-area', Area::class),
+            self::object($data, 'life-span', LifeSpan::class),
+            Json::strings($data, 'ipis'),
+            Json::strings($data, 'isnis'),
+            Json::list($data, 'releases', Release::class),
+            Json::list($data, 'release-groups', ReleaseGroup::class),
+            Json::list($data, 'recordings', Recording::class),
+            Json::list($data, 'works', Work::class),
+            ...SharedFields::parse($data),
+        );
     }
 
     /**
-     * Returns the artist as string.
+     * @param array<mixed>    $data
+     * @param class-string<T> $class
      *
-     * @return string
+     * @return null|T
+     *
+     * @template T of Parsable
      */
-    public function __toString(): string
+    private static function object(array $data, string $key, string $class): ?object
     {
-        return (string) $this->getArtistName();
+        $object = Json::object($data, $key, $class);
+
+        return $object instanceof $class ? $object : null;
     }
 }

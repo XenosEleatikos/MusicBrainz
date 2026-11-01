@@ -4,34 +4,26 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
 
 /**
- * Label information
+ * The label a release was published by, with the catalog number
  */
-class LabelInfo implements Value
+final readonly class LabelInfo implements Parsable
 {
-    use Property\CatalogueNumberTrait;
-    use Property\LabelTrait;
+    public function __construct(
+        public ?string $catalogNumber = null,
+        public ?Label $label = null,
+    ) {}
 
     /**
-     * Constructs label information.
-     *
-     * @param array $labelInfo Array of information about label information
+     * @param array<mixed> $data
      */
-    public function __construct(array $labelInfo = [])
+    public static function fromArray(array $data): static
     {
-        $this->setCatalogueNumberFromArray($labelInfo);
-        $this->setLabelFromArray($labelInfo);
-    }
+        $label = Json::object($data, 'label', Label::class);
 
-    /**
-     * Returns the label as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getCatalogueNumber();
+        return new self(ArrayAccess::getString($data, 'catalog-number'), $label instanceof Label ? $label : null);
     }
 }

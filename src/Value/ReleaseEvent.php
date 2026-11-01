@@ -4,45 +4,25 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\Json;
 
 /**
- * A release event
+ * The release of a release in an area at a date
  */
-class ReleaseEvent implements Value
+final readonly class ReleaseEvent implements Parsable
 {
-    use Property\AreaTrait;
-    use Property\DateTrait;
+    public function __construct(
+        public ?Date $date = null,
+        public ?Area $area = null,
+    ) {}
 
     /**
-     * Constructs a release event.
-     *
-     * @param array $releaseEvent Array of information about the release event
+     * @param array<mixed> $data
      */
-    public function __construct(array $releaseEvent = [])
+    public static function fromArray(array $data): static
     {
-        $this->setAreaFromArray($releaseEvent);
-        $this->setDateFromArray($releaseEvent);
-    }
+        $area = Json::object($data, 'area', Area::class);
 
-    /**
-     * Returns the release event as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        if (empty((string) $this->getDate())) {
-            $releaseEvent = (empty((string) $this->getArea()))
-                ? ''
-                : (string) $this->getArea();
-        } else {
-            $releaseEvent = $this->getDate();
-            $releaseEvent .= (empty((string) $this->getArea()))
-                ? ''
-                : ' (' . $this->getArea() . ')';
-        }
-
-        return $releaseEvent;
+        return new self(Json::date($data, 'date'), $area instanceof Area ? $area : null);
     }
 }

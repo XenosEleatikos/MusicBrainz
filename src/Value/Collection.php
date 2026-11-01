@@ -5,40 +5,46 @@ declare(strict_types=1);
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\Json;
+use Stringable;
 
 /**
- * A collection
+ * A collection of entities of an editor
  */
-class Collection implements Value
+final readonly class Collection implements Parsable, Stringable
 {
-    use Property\CollectionNameTrait;
-    use Property\CountTrait;
-    use Property\EditorNameTrait;
-    use Property\EntityTypeTrait;
-    use Property\MBIDTrait;
+    public function __construct(
+        public MBID $id,
+        public string $name,
+        public string $editor,
+        public ?EntityType $entityType = null,
+        public ?string $type = null,
+        public int $count = 0,
+    ) {}
 
     /**
-     * Constructs a collection.
-     *
-     * @param array $collection Information about the collection
+     * @param array<mixed> $data
      */
-    public function __construct(array $collection = [])
+    public static function fromArray(array $data): static
     {
-        $this->setCollectionNameFromArray($collection);
-        $this->setCountFromArray($collection, ArrayAccess::getString($collection, 'entity-type') . '-count');
-        $this->setEditorNameFromArray($collection);
-        $this->setEntityTypeFromArray($collection);
-        $this->setMbidFromArray($collection);
+        $entityTypeName = ArrayAccess::getString($data, 'entity-type');
+        $entityType = null === $entityTypeName ? null : EntityType::tryFrom(str_replace('-', '_', $entityTypeName));
+        if (null !== $entityTypeName && null === $entityType) {
+            \MusicBrainz\MusicBrainz::log()->error('Unknown entity type "' . $entityTypeName . '" of a collection');
+        }
+
+        return new self(
+            Json::id($data) ?? new MBID(),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'editor') ?? '',
+            $entityType,
+            ArrayAccess::getString($data, 'type'),
+            null === $entityTypeName ? 0 : (ArrayAccess::getInteger($data, $entityTypeName . '-count') ?? 0),
+        );
     }
 
-    /**
-     * Returns the collection name as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->getCollectionName();
+        return $this->name;
     }
 }

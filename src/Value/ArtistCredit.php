@@ -4,38 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
 
 /**
- * An artist credit
+ * The credit of an artist on a release, release group, recording or track
  */
-class ArtistCredit implements Value
+final readonly class ArtistCredit implements Parsable
 {
-    use Property\ArtistTrait;
-    use Property\JoinPhraseTrait;
-    use Property\NameTrait;
+    public function __construct(
+        public Artist $artist,
+        public string $name = '',
+        public string $joinPhrase = '',
+    ) {}
 
     /**
-     * Constructs an artist credit.
-     *
-     * @param array $artistCredit An array of information about the artist credit
+     * @param array<mixed> $data
      */
-    public function __construct(array $artistCredit = [])
+    public static function fromArray(array $data): static
     {
-        $this->setArtistFromArray($artistCredit);
-        $this->setJoinPhraseFromArray($artistCredit);
-        $this->setNameFromArray($artistCredit);
-    }
-
-    /**
-     * Returns the artist credit as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        $joinPhrase = (empty((string) $this->getJoinPhrase())) ? '' : $this->getJoinPhrase() . ' ';
-
-        return $joinPhrase . $this->getName();
+        return new self(
+            Artist::fromArray(ArrayAccess::getArray($data, 'artist') ?? []),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'joinphrase') ?? '',
+        );
     }
 }

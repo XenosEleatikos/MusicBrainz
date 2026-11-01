@@ -4,75 +4,76 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\EventRelationListTrait;
 use MusicBrainz\Helper\ArrayAccess;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\Relation\RelationList;
 
 /**
- * An event
- * An event refers to an organised event which people can attend, and is relevant to MusicBrainz. Generally this means
- * live performances, like concerts and festivals.
+ * An event: a concert, festival or other musical happening.
  *
- * @link https://musicbrainz.org/doc/Event
+ * @see https://musicbrainz.org/doc/Event
  */
-class Event implements Value
+final readonly class Event implements Parsable
 {
-    use Property\UserTagsTrait;
-    use Property\UserGenresTrait;
-    use Property\UserRatingTrait;
-    use Property\TagsTrait;
-    use Property\GenresTrait;
-    use Property\RatingTrait;
-    use EventRelationListTrait;
-    use Property\CancelledTrait;
-    use Property\DisambiguationTrait;
-    use Property\EventNameTrait;
-    use Property\EventTypeTrait;
-    use Property\LifeSpanTrait;
-    use Property\MBIDTrait;
-    use Property\TimeTrait;
-
-    private string $setlist;
+    /**
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public string $disambiguation = '',
+        public ?EventType $type = null,
+        public ?string $time = null,
+        public bool $cancelled = false,
+        public string $setlist = '',
+        public ?LifeSpan $lifeSpan = null,
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Returns the setlist of the event in the MusicBrainz setlist notation (empty if there is none).
+     * @param array<mixed> $data A decoded event of the web service
      */
-    public function getSetlist(): string
+    public static function fromArray(array $data): static
     {
-        return $this->setlist;
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            EventType::fromArray($data, 'type', 'type-id'),
+            ArrayAccess::getString($data, 'time'),
+            ArrayAccess::getBool($data, 'cancelled') ?? false,
+            ArrayAccess::getString($data, 'setlist') ?? '',
+            self::object($data, 'life-span', LifeSpan::class),
+            ...SharedFields::parse($data),
+        );
     }
 
     /**
-     * Constructs an event.
+     * @param array<mixed>    $data
+     * @param class-string<T> $class
      *
-     * @param array $event Information about an event
+     * @return null|T
+     *
+     * @template T of Parsable
      */
-    public function __construct(array $event = [])
+    private static function object(array $data, string $key, string $class): ?object
     {
-        $this->setUserTagsFromArray($event);
-        $this->setUserGenresFromArray($event);
-        $this->setUserRatingFromArray($event);
-        $this->setTagsFromArray($event);
-        $this->setGenresFromArray($event);
-        $this->setRatingFromArray($event);
-        $this->setlist = ArrayAccess::getString($event, 'setlist') ?? '';
-        $this->setCancelledFromArray($event);
-        $this->setDisambiguationFromArray($event);
-        $this->setEventNameFromArray($event);
-        $this->setEventTypeFromArray($event);
-        $this->setLifeSpanFromArray($event);
-        $this->setMbidFromArray($event);
-        $this->setRelationsFromArray($event);
-        $this->setTimeFromArray($event);
-    }
+        $object = Json::object($data, $key, $class);
 
-    /**
-     * Returns the event name.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getEventName();
+        return $object instanceof $class ? $object : null;
     }
 }

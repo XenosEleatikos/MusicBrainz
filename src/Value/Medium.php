@@ -4,38 +4,46 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
 
 /**
- * A medium
+ * A medium (CD, vinyl, ...) of a release
  */
-class Medium implements Value
+final readonly class Medium implements Parsable
 {
-    use Property\DiscsTrait;
-    use Property\FormatTrait;
-    use Property\TitleTrait;
-    use Property\TracksTrait;
+    /**
+     * @param list<Disc>  $discs
+     * @param list<Track> $tracks
+     */
+    public function __construct(
+        public ?MBID $id = null,
+        public ?int $position = null,
+        public string $title = '',
+        public ?string $format = null,
+        public ?MBID $formatId = null,
+        public ?int $trackCount = null,
+        public ?int $discCount = null,
+        public array $discs = [],
+        public array $tracks = [],
+    ) {}
 
     /**
-     * Constructs a medium.
-     *
-     * @param array $medium Information about the medium
+     * @param array<mixed> $data
      */
-    public function __construct(array $medium = [])
+    public static function fromArray(array $data): static
     {
-        $this->setDiscsFromArray($medium);
-        $this->setFormatFromArray($medium);
-        $this->setTitleFromArray($medium);
-        $this->setTracksFromArray($medium);
-    }
-
-    /**
-     * Returns the title of the medium as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getTitle();
+        return new self(
+            Json::id($data),
+            ArrayAccess::getInteger($data, 'position'),
+            ArrayAccess::getString($data, 'title') ?? '',
+            ArrayAccess::getString($data, 'format'),
+            Json::id($data, 'format-id'),
+            ArrayAccess::getInteger($data, 'track-count'),
+            ArrayAccess::getInteger($data, 'disc-count'),
+            Json::list($data, 'discs', Disc::class),
+            // Search results call the list "track"
+            Json::list($data, 'tracks', Track::class) ?: Json::list($data, 'track', Track::class),
+        );
     }
 }
