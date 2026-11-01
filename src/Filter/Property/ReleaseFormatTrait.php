@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use MusicBrainz\Value\Format;
+use MusicBrainz\Value\MediumFormatKind;
 
 trait ReleaseFormatTrait
 {
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the release format.
+     * Returns the field name for the format of a medium of the release.
      *
      * @return string
      */
@@ -21,15 +21,15 @@ trait ReleaseFormatTrait
     }
 
     /**
-     * Adds the recording release format.
+     * Searches for the format of any medium of the release.
      *
-     * @param Format $format The recording release format
+     * @param MediumFormatKind $format The format
      *
      * @return static
      */
-    public function addFormat(Format $format): static
+    public function addFormat(MediumFormatKind $format): static
     {
-        $this->addTerm((string) $format, self::format());
+        $this->addPhrase($format->value, self::format());
 
         return $this;
     }

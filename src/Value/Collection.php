@@ -18,7 +18,7 @@ final readonly class Collection implements Parsable, Stringable
         public string $name,
         public string $editor,
         public ?EntityType $entityType = null,
-        public ?string $type = null,
+        public ?CollectionType $type = null,
         public int $count = 0,
     ) {}
 
@@ -40,7 +40,7 @@ final readonly class Collection implements Parsable, Stringable
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'editor') ?? '',
             $entityType,
-            ArrayAccess::getString($data, 'type'),
+            CollectionType::fromKeys($data, 'type', 'type-id'),
             null === $entityTypeName ? 0 : (ArrayAccess::getInteger($data, $entityTypeName . '-count') ?? 0),
         );
     }

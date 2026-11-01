@@ -19,6 +19,7 @@ use MusicBrainz\Filter\Value\Latitude;
 use MusicBrainz\Filter\Value\Longitude;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Filter\Value\Name;
+use MusicBrainz\Value\MediumFormatKind;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -76,5 +77,13 @@ final class SearchFilterTest extends TestCase
 
         self::assertSame($filter, $result);
         self::assertSame('asin:B000003Z4N catno:"PCS 7088"', (string) $filter);
+    }
+
+    public function testFormatsOfMediaCanBeSearchedFor(): void
+    {
+        $filter = new ReleaseFilter();
+        $filter->addFormat(MediumFormatKind::Vinyl12);
+
+        self::assertSame('format:"12\" Vinyl"', (string) $filter);
     }
 }

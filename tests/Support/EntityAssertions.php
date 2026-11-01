@@ -118,7 +118,7 @@ final class EntityAssertions
             'id' => ['id', 'id'], 'resource' => ['resource', 'str'], 'relations' => ['relations', 'relations'], 'relation-list' => ['relations', 'relations'], 'score' => [null, 'skip'],
         ],
         'collection' => [
-            'id' => ['id', 'id'], 'name' => ['name', 'str'], 'editor' => ['editor', 'str'], 'entity-type' => ['entityType', 'entityType'], 'type' => ['type', 'nstr'],
+            'id' => ['id', 'id'], 'name' => ['name', 'str'], 'editor' => ['editor', 'str'], 'entity-type' => ['entityType', 'entityType'], 'type' => ['type', 'named', 'type-id'],
             'type-id' => [null, 'skip'], 'artist-count' => [null, 'skip'], 'release-count' => [null, 'skip'], 'area-count' => [null, 'skip'], 'event-count' => [null, 'skip'],
             'instrument-count' => [null, 'skip'], 'label-count' => [null, 'skip'], 'place-count' => [null, 'skip'], 'recording-count' => [null, 'skip'],
             'release-group-count' => [null, 'skip'], 'series-count' => [null, 'skip'], 'work-count' => [null, 'skip'], 'genre-count' => [null, 'skip'],
@@ -144,7 +144,7 @@ final class EntityAssertions
         'coordinates' => ['latitude' => ['latitude', 'float'], 'longitude' => ['longitude', 'float']],
         'artist-credit' => ['name' => ['name', 'str'], 'joinphrase' => ['joinPhrase', 'str'], 'artist' => ['artist', 'entity', 'artist']],
         'medium' => [
-            'id' => ['id', 'id'], 'position' => ['position', 'nint'], 'title' => ['title', 'str'], 'format' => ['format', 'nstr'], 'format-id' => ['formatId', 'id'],
+            'id' => ['id', 'id'], 'position' => ['position', 'nint'], 'title' => ['title', 'str'], 'format' => ['format', 'named', 'format-id'], 'format-id' => [null, 'skip'],
             'track-count' => ['trackCount', 'nint'], 'disc-count' => ['discCount', 'nint'], 'track-offset' => [null, 'skip'], 'track' => ['tracks', 'list', 'track'], 'discs' => ['discs', 'list', 'disc'], 'tracks' => ['tracks', 'list', 'track'],
         ],
         'disc' => ['id' => ['id', 'str'], 'sectors' => ['sectors', 'nint'], 'offsets' => ['offsets', 'ints'], 'offset-count' => [null, 'skip']],
