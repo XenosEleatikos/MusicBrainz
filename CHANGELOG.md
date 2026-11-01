@@ -5,6 +5,8 @@ the versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+Known limitation: the logger is process-wide (the most recently created `MusicBrainz` instance wins).
+
 Planned for 2.1: write access (tags, ratings, collection items), lookups by DiscID, ISRC and ISWC, the multi-URL
 lookup, search for events, instruments, series and URLs.
 

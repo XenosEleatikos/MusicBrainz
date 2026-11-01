@@ -66,6 +66,10 @@ Optionally, you may set any [PSR-3](http://www.php-fig.org/psr/psr-3/) logger as
 $musicBrainz = new MusicBrainz(new Psr18Client(), new Psr17Factory(), $logger);
 ```
 
+The logger receives warnings about data the library does not know yet (a new type, an unknown relationship type) and
+unexpected API behavior. Note that the logger is process-wide: value objects are built from plain arrays and log through
+`MusicBrainz::log()`, so the logger of the most recently created `MusicBrainz` instance is used.
+
 ### User agent and rate limit
 MusicBrainz requires a meaningful user agent and allows one request per second. The client throttles requests
 automatically and retries on HTTP 503. Please set the name and contact of your application:
