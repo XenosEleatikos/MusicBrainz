@@ -46,5 +46,30 @@
             "MusicBrainz\\Test\\Support\\": "tests/Support",
             "MusicBrainz\\SpecificationTest\\": "tests/specification"
         }
+    },
+    "scripts": {
+        "test": "phpunit --testsuite unit --no-coverage",
+        "test:coverage": [
+            "phpunit --testsuite unit --coverage-clover build/clover.xml",
+            "@php bin/check-coverage build/clover.xml 85"
+        ],
+        "test:specification": "phpunit --testsuite specification --no-coverage",
+        "stan": "phpstan analyse --no-progress",
+        "cs": "php-cs-fixer fix",
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
+        "ci": [
+            "@cs:check",
+            "@stan",
+            "@test:coverage"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Runs the unit tests offline against recorded API responses",
+        "test:coverage": "Runs the unit tests and fails below 85 % line coverage",
+        "test:specification": "Compares the library with the live MusicBrainz documentation (needs network)",
+        "ci": "Everything the CI runs"
+    },
+    "config": {
+        "sort-packages": true
     }
 }

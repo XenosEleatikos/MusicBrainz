@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Fails if the line coverage of a Clover report is below a minimum.
+ *
+ * Usage: bin/check-coverage <clover.xml> <minimum percent>
+ */
+
+[$script, $file, $minimum] = $argv + [null, null, null];
+if (null === $file || null === $minimum || !is_file($file)) {
+    fwrite(STDERR, "Usage: bin/check-coverage <clover.xml> <minimum percent>\n");
+    exit(2);
+}
+
+$xml = simplexml_load_file($file);
+$statements = 0;
+$covered = 0;
+foreach ($xml->xpath('//file/metrics') ?: [] as $metrics) {
+    $statements += (int) $metrics['statements'];
+    $covered += (int) $metrics['coveredstatements'];
+}
+$percent = $statements > 0 ? 100 * $covered / $statements : 0.0;
+
+printf("Line coverage: %.2f %% (%d of %d statements), required: %s %%\n", $percent, $covered, $statements, $minimum);
+exit($percent + 1e-9 >= (float) $minimum ? 0 : 1);

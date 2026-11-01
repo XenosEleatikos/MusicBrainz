@@ -25,7 +25,7 @@ class Latitude implements Value
      *
      * @param float $latitude The latitude
      */
-    public function __construct(float $latitude = null)
+    public function __construct(?float $latitude = null)
     {
         $this->latitude = $latitude;
     }

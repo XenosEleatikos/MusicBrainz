@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # Weekly: compares the library with the live MusicBrainz documentation (see the "specification" job)
+    - cron: '17 4 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  static-analysis:
+    name: Code style and static analysis
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: composer cs:check
+      - run: composer stan
+
+  tests:
+    name: Tests (PHP ${{ matrix.php }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['8.3', '8.4', '8.5']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          tools: composer
+          coverage: ${{ matrix.php == '8.3' && 'pcov' || 'none' }}
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - name: Unit tests
+        if: matrix.php != '8.3'
+        run: composer test
+      - name: Unit tests with coverage gate
+        if: matrix.php == '8.3'
+        run: composer test:coverage
+
+  # Talks to musicbrainz.org (about 160 requests, throttled to one per second). Not part of every push.
+  specification:
+    name: Specification (live MusicBrainz documentation)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: composer test:specification

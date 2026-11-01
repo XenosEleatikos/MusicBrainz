@@ -23,7 +23,7 @@ class Score implements Value
      *
      * @param null|int $number The number
      */
-    public function __construct(int $number = null)
+    public function __construct(?int $number = null)
     {
         $this->number = (0 <= $number && $number <= 100)
             ? $number

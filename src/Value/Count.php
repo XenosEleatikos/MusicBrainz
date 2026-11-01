@@ -23,7 +23,7 @@ class Count implements Value
      *
      * @param int $number A number
      */
-    public function __construct(int $number = null)
+    public function __construct(?int $number = null)
     {
         $this->number = ($number >= 0) ? $number : null;
     }

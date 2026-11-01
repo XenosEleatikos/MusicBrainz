@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# Not part of the package that Composer downloads (composer install --prefer-dist)
+/.github/                export-ignore
+/bin/                    export-ignore
+/tests/                  export-ignore
+/.gitattributes          export-ignore
+/.gitignore              export-ignore
+/.php-cs-fixer.dist.php  export-ignore
+/CONTRIBUTING.md         export-ignore
+/phpstan.neon            export-ignore
+/phpunit.xml             export-ignore
+
+# Recorded API responses are data, not code
+/tests/Fixtures/recorded/** linguist-generated=true
