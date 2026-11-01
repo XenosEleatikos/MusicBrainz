@@ -4,38 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
 /**
  * A length
  */
-class Length implements Value
+final readonly class Length implements Stringable
 {
     /**
-     * The length in milli seconds
+     * @param int $milliseconds The length in milliseconds
      *
-     * @var int
+     * @throws InvalidArgumentException
      */
-    private int $length;
-
-    /**
-     * Constructs a length.
-     *
-     * @param int $length The length
-     */
-    public function __construct(int $length = 0)
+    public function __construct(public int $milliseconds)
     {
-        $this->length = $length;
+        if (!($milliseconds >= 0)) {
+            throw new InvalidArgumentException('A length cannot be negative, got ' . $milliseconds);
+        }
     }
 
-    /**
-     * Returns the string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->length;
-        //date('i:s', floor($this->length/1000));
+        return (string) $this->milliseconds;
     }
 }

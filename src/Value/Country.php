@@ -4,43 +4,36 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
-use function strlen;
+use function preg_match;
+use function strtoupper;
 
 /**
  * A country
  *
  * @link https://wiki.musicbrainz.org/Release_Country
  */
-class Country implements Value
+final readonly class Country implements Stringable
 {
-    /**
-     * The country code
-     *
-     * @var string
-     */
-    private string $countryCode;
+    public string $value;
 
     /**
-     * Constructs a country.
+     * @param string $value A two-letter country code (ISO 3166-1 alpha-2); stored in upper case
      *
-     * @param string $countryCode A country code
+     * @throws InvalidArgumentException
      */
-    public function __construct(string $countryCode = '')
+    public function __construct(string $value = '')
     {
-        $this->countryCode = (strlen($countryCode) === 2)
-            ? strtoupper($countryCode)
-            : '';
+        if ('' !== $value && 1 !== preg_match('/^[A-Za-z]{2}$/', $value)) {
+            throw new InvalidArgumentException('"' . $value . '" is not a two-letter country code');
+        }
+        $this->value = strtoupper($value);
     }
 
-    /**
-     * Returns the country code.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->countryCode;
+        return $this->value;
     }
 }

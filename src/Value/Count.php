@@ -4,47 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
 /**
  * A count
  */
-class Count implements Value
+final readonly class Count implements Stringable
 {
     /**
-     * The number
+     * @param int $value The number
      *
-     * @var null|int
+     * @throws InvalidArgumentException
      */
-    private ?int $number = null;
-
-    /**
-     * Constructs a count.
-     *
-     * @param int $number A number
-     */
-    public function __construct(?int $number = null)
+    public function __construct(public int $value)
     {
-        $this->number = ($number >= 0) ? $number : null;
+        if (!($value >= 0)) {
+            throw new InvalidArgumentException('A count cannot be negative, got ' . $value);
+        }
     }
 
-    /**
-     * Returns the count as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->number;
-    }
-
-    /**
-     * Returns the number.
-     *
-     * @return null|int
-     */
-    public function getNumber(): ?int
-    {
-        return $this->number;
+        return (string) $this->value;
     }
 }

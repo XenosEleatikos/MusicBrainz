@@ -4,37 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
 /**
  * A track number
  */
-class TrackNumber implements Value
+final readonly class TrackNumber implements Stringable
 {
     /**
-     * The track number
+     * @param int $value The number
      *
-     * @var null|int
+     * @throws InvalidArgumentException
      */
-    private ?int $number = null;
-
-    /**
-     * Constructs a barcode.
-     *
-     * @param int $number A track number
-     */
-    public function __construct(?int $number = null)
+    public function __construct(public int $value)
     {
-        $this->number = $number;
+        if (!($value >= 0)) {
+            throw new InvalidArgumentException('A track number cannot be negative, got ' . $value);
+        }
     }
 
-    /**
-     * Returns the track number as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return ($this->number) ? (string) $this->number : '';
+        return (string) $this->value;
     }
 }

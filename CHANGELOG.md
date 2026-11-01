@@ -38,6 +38,11 @@ guide in the README.
   a list of `SecondaryReleaseType`.
 - Browse filters: `ReleaseRelation::setEntityTypeRelease()` and `setEntityTypeReleaseGroup()` are now `release()` and
   `releaseGroup()`. `CollectionRelation::editor()` takes the user name of the editor (editors have no MBID).
+- The small value objects the search filters take as input (`Name`, `MBID`, `Date`, `Count`, `Country`, `LabelCode`, ...)
+  are `final readonly` with a public `value` and refuse impossible values with an `InvalidArgumentException`
+  (negative counts, coordinates outside the earth, an invalid IPI, ...) instead of silently turning them into nothing.
+  `Date` exposes `originalFormat` and `dateTime`; `LabelCode::withoutPrefix()` replaces
+  `getLabelCodeWithoutLcPrefix()`. The marker interfaces `Value` and `Expression` are gone.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added

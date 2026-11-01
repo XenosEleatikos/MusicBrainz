@@ -4,37 +4,20 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * A track number as displayed on a release
  */
-class TrackDisplayNumber implements Value
+final readonly class TrackDisplayNumber implements Stringable
 {
     /**
-     * The displayed track number
-     *
-     * @var null|string
+     * @param string $value The value
      */
-    private ?string $trackNumber = null;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs a barcode.
-     *
-     * @param null|string $trackNumber The displayed track number
-     */
-    public function __construct(?string $trackNumber = null)
-    {
-        $this->trackNumber = $trackNumber;
-    }
-
-    /**
-     * Returns the track number as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return isset($this->trackNumber) ? (string) $this->trackNumber : '';
+        return $this->value;
     }
 }

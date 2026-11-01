@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * A name
@@ -15,32 +15,15 @@ use MusicBrainz\Value;
  * - The name of an area
  * - The name of a tag
  */
-class Name implements Value
+final readonly class Name implements Stringable
 {
     /**
-     * The name
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $name;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs a name.
-     *
-     * @param string $name The name
-     */
-    public function __construct(string $name = '')
-    {
-        $this->name = $name;
-    }
-
-    /**
-     * Returns the string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->name;
+        return $this->value;
     }
 }

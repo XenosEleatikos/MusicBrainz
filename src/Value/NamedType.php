@@ -7,7 +7,7 @@ namespace MusicBrainz\Value;
 use BackedEnum;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\MusicBrainz;
-use MusicBrainz\Value;
+use Stringable;
 
 use function strcasecmp;
 
@@ -17,7 +17,7 @@ use function strcasecmp;
  * New values can appear at any time. Therefore the raw name and the MusicBrainz Identifier of the type are always
  * kept. The enum of known values is just a convenience, see {@see NamedType::kind()}.
  */
-abstract readonly class NamedType implements Value
+abstract readonly class NamedType implements Stringable
 {
     final public function __construct(
         public string $name,

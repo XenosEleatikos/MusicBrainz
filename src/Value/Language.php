@@ -4,37 +4,20 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * A language
  */
-class Language implements Value
+final readonly class Language implements Stringable
 {
     /**
-     * The language code
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $languageCode;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs a language.
-     *
-     * @param string $languageCode The language code
-     */
-    public function __construct(string $languageCode = '')
-    {
-        $this->languageCode = $languageCode;
-    }
-
-    /**
-     * Returns the language code.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->languageCode;
+        return $this->value;
     }
 }

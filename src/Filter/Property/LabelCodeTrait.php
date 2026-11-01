@@ -30,6 +30,6 @@ trait LabelCodeTrait
      */
     public function addLabelCode(LabelCode $labelCode): Term
     {
-        return $this->addTerm($labelCode->getLabelCodeWithoutLcPrefix(), self::labelCode());
+        return $this->addTerm($labelCode->withoutPrefix(), self::labelCode());
     }
 }

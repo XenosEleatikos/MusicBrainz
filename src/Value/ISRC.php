@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * The International Standard Recording Code (ISRC)
@@ -20,32 +20,15 @@ use MusicBrainz\Value;
  *
  * @link https://musicbrainz.org/doc/ISRC
  */
-class ISRC implements Value
+final readonly class ISRC implements Stringable
 {
     /**
-     * The code
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $code;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs an ISRC.
-     *
-     * @param string $code An ISRC
-     */
-    public function __construct(string $code = '')
-    {
-        $this->code = $code;
-    }
-
-    /**
-     * Returns the ISRC as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->code;
+        return $this->value;
     }
 }

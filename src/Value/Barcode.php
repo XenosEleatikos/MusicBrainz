@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * Barcodes are numbers used as stock control mechanisms by retailers: as such they are highly standardised and well
@@ -13,32 +13,15 @@ use MusicBrainz\Value;
  *
  * @see https://musicbrainz.org/doc/Barcode
  */
-class Barcode implements Value
+final readonly class Barcode implements Stringable
 {
     /**
-     * The barcode
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $code;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs a barcode.
-     *
-     * @param string $code A barcode
-     */
-    public function __construct(string $code = '')
-    {
-        $this->code = $code;
-    }
-
-    /**
-     * Returns the barcode as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->code;
+        return $this->value;
     }
 }

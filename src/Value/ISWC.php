@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * An International Standard Musical Work Code (ISWC)
@@ -13,32 +13,15 @@ use MusicBrainz\Value;
  *
  * @link https://musicbrainz.org/doc/ISWC
  */
-class ISWC implements Value
+final readonly class ISWC implements Stringable
 {
     /**
-     * The code
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $code;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs an ISWC.
-     *
-     * @param string $code An ISWC
-     */
-    public function __construct(string $code = '')
-    {
-        $this->code = $code;
-    }
-
-    /**
-     * Returns the ISWC as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->code;
+        return $this->value;
     }
 }

@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
+use function ctype_digit;
 use function strlen;
 
 /**
@@ -14,34 +16,22 @@ use function strlen;
  *
  * @see https://musicbrainz.org/doc/IPI
  */
-class IPI implements Value
+final readonly class IPI implements Stringable
 {
     /**
-     * The IPI code
+     * @param string $value An IPI code: 11 digits
      *
-     * @var string
+     * @throws InvalidArgumentException
      */
-    private string $code;
-
-    /**
-     * Constructs an IPI code.
-     *
-     * @param string $code An IPI code
-     */
-    public function __construct(string $code = '')
+    public function __construct(public string $value = '')
     {
-        $this->code = (11 === strlen($code) && ctype_digit($code))
-            ? $code
-            : '';
+        if ('' !== $value && (11 !== strlen($value) || !ctype_digit($value))) {
+            throw new InvalidArgumentException('"' . $value . '" is not an IPI code (11 digits)');
+        }
     }
 
-    /**
-     * Returns the IPI code.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->code;
+        return $this->value;
     }
 }

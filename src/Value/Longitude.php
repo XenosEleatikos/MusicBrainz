@@ -4,39 +4,30 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
 /**
  * A longitude
  *
  * @link https://musicbrainz.org/doc/Place
  */
-class Longitude implements Value
+final readonly class Longitude implements Stringable
 {
     /**
-     * The longitude
+     * @param float $value Degrees
      *
-     * @var null|float
+     * @throws InvalidArgumentException
      */
-    private ?float $longitude = null;
-
-    /**
-     * Constructs a longitude.
-     *
-     * @param float $longitude The longitude
-     */
-    public function __construct(?float $longitude = null)
+    public function __construct(public float $value)
     {
-        $this->longitude = $longitude;
+        if (!($value >= -180.0 && $value <= 180.0)) {
+            throw new InvalidArgumentException('A longitude is between -180 and 180 degrees, got ' . $value);
+        }
     }
 
-    /**
-     * Returns the longitude as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->longitude;
+        return (string) $this->value;
     }
 }

@@ -31,8 +31,8 @@ final class DateTest extends TestCase
     {
         $date = new Date($input);
 
-        self::assertSame($format, $date->getOriginalFormat());
+        self::assertSame($format, $date->originalFormat);
         self::assertSame($valid ? $input : '', (string) $date);
-        self::assertSame($valid ? $input : null, $date->getDateTime()?->format($format ?? 'Y'));
+        self::assertSame($valid ? $input : null, $date->dateTime?->format($format ?? 'Y'));
     }
 }

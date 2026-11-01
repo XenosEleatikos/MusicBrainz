@@ -4,37 +4,22 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use Stringable;
+
 /**
  * An ISO 3166-3 code
  *
  * @link https://en.wikipedia.org/wiki/ISO_3166-3
  */
-class ISO31663Code implements ISO3166Code
+final readonly class ISO31663Code implements Stringable
 {
     /**
-     * The ISO 3166-3 code
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $code;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs an ISO 3166-3 code.
-     *
-     * @param string $code An ISO 3166-3 code
-     */
-    public function __construct(string $code = '')
-    {
-        $this->code = $code;
-    }
-
-    /**
-     * Returns the ISO 3166-3 code as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->code;
+        return $this->value;
     }
 }

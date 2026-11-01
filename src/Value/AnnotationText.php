@@ -4,37 +4,20 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * An annotation text
  */
-class AnnotationText implements Value
+final readonly class AnnotationText implements Stringable
 {
     /**
-     * The text
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $text;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs an annotation text.
-     *
-     * @param string $text The text
-     */
-    public function __construct(string $text = '')
-    {
-        $this->text = $text;
-    }
-
-    /**
-     * Returns the annotation text as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->text;
+        return $this->value;
     }
 }

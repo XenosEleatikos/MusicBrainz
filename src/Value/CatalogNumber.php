@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use Stringable;
 
 /**
  * A catalog number
@@ -14,32 +14,15 @@ use MusicBrainz\Value;
  *
  * @see https://musicbrainz.org/doc/Release#Catalog_number
  */
-class CatalogNumber implements Value
+final readonly class CatalogNumber implements Stringable
 {
     /**
-     * A catalog number
-     *
-     * @var string
+     * @param string $value The value
      */
-    private string $catalogNumber;
+    public function __construct(public string $value = '') {}
 
-    /**
-     * Constructs a catalog number.
-     *
-     * @param string $catalogNumber A catalog number
-     */
-    public function __construct(string $catalogNumber = '')
-    {
-        $this->catalogNumber = $catalogNumber;
-    }
-
-    /**
-     * Returns the catalog number as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->catalogNumber;
+        return $this->value;
     }
 }

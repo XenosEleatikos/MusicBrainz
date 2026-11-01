@@ -4,37 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
 
 /**
  * A medium number
  */
-class MediumNumber implements Value
+final readonly class MediumNumber implements Stringable
 {
     /**
-     * The track number
+     * @param int $value The number
      *
-     * @var null|int
+     * @throws InvalidArgumentException
      */
-    private ?int $number = null;
-
-    /**
-     * Constructs a medium number.
-     *
-     * @param int $number A medium number
-     */
-    public function __construct(?int $number = null)
+    public function __construct(public int $value)
     {
-        $this->number = $number;
+        if (!($value >= 1)) {
+            throw new InvalidArgumentException('A medium number starts at 1, got ' . $value);
+        }
     }
 
-    /**
-     * Returns the medium number as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return ($this->number) ? (string) $this->number : '';
+        return (string) $this->value;
     }
 }
