@@ -11,6 +11,8 @@ namespace MusicBrainz\Filter\Search;
  */
 class ReleaseFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\CatalogNumberTrait;
+    use \MusicBrainz\Filter\Property\AsinTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
     use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
     use \MusicBrainz\Filter\Property\ArtistRealNameTrait;

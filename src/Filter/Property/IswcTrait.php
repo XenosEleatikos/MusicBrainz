@@ -28,7 +28,7 @@ trait IswcTrait
      *
      * @return Term
      */
-    public function addDisambiguationComment(ISWC $iswc): Term
+    public function addIswc(ISWC $iswc): Term
     {
         return $this->addTerm((string) $iswc, self::iswc());
     }

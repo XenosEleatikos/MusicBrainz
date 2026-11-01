@@ -11,6 +11,7 @@ namespace MusicBrainz\Filter\Search;
  */
 class ReleaseGroupFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\NumberOfReleasesTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
     use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
     use \MusicBrainz\Filter\Property\ArtistRealNameTrait;

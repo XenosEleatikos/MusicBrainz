@@ -7,6 +7,3 @@ parameters:
             identifier: missingType.iterableValue
         -
             identifier: missingType.generics
-        # Unfinished/unused traits, to be resolved in the API gap analysis
-        -
-            identifier: trait.unused
