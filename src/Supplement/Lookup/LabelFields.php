@@ -7,9 +7,9 @@ namespace MusicBrainz\Supplement\Lookup;
 use MusicBrainz\Supplement\Fields;
 
 /**
- * The inc parameters a lookup of label accepts. The list is derived from the web service itself (see
- * tests/Fixtures/accepted-includes.json); flags for data that needs authentication (user-tags, user-genres,
- * user-ratings) require an access token.
+ * The inc parameters a lookup of label accepts. The list is derived from the web service itself (see tests/Fixtures/accepted-includes.json). Some parameters (media,
+ * discids, isrcs, various-artists) only work together with releases or recordings. The flags for data that needs
+ * authentication (user-tags, user-genres, user-ratings) require an access token.
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */
@@ -24,6 +24,8 @@ class LabelFields extends Fields
     use \MusicBrainz\Supplement\Field\RatingsTrait;
     use \MusicBrainz\Supplement\Field\UserRatingsTrait;
     use \MusicBrainz\Supplement\Field\ReleasesTrait;
+    use \MusicBrainz\Supplement\Field\MediaTrait;
+    use \MusicBrainz\Supplement\Field\DiscIdsTrait;
     use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\EventRelationsTrait;

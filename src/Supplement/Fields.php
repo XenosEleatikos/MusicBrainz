@@ -13,6 +13,9 @@ abstract class Fields implements JsonSerializable
         return implode('+', array_keys(array_filter($this->jsonSerialize())));
     }
 
+    /**
+     * @return array<string, mixed>
+     */
     public function jsonSerialize(): array
     {
         foreach (get_object_vars($this) as $key => $property) {

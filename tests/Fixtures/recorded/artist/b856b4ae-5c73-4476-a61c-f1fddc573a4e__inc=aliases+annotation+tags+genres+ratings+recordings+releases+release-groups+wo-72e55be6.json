@@ -1,0 +1,421 @@
+{
+    "area": null,
+    "annotation": null,
+    "isnis": [],
+    "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+    },
+    "genres": [],
+    "gender": "Female",
+    "recordings": [
+        {
+            "genres": [],
+            "video": false,
+            "length": 198160,
+            "aliases": [],
+            "disambiguation": "",
+            "tags": [],
+            "id": "3338dce8-3bc3-47b2-83c5-0981d773f5a7",
+            "title": "Kitty ina Moonlight"
+        },
+        {
+            "title": "Simone",
+            "tags": [],
+            "id": "f820b1c1-4d5f-4f21-9ed3-fd9143e22ed7",
+            "aliases": [],
+            "disambiguation": "",
+            "video": false,
+            "length": 247000,
+            "genres": []
+        },
+        {
+            "title": "Simone [Comeback]",
+            "tags": [],
+            "id": "c5bcd418-3ec2-4325-b5bb-d55deb84225b",
+            "disambiguation": "",
+            "aliases": [],
+            "video": false,
+            "length": 132000,
+            "genres": []
+        }
+    ],
+    "release-groups": [],
+    "end-area": null,
+    "rating": {
+        "value": null,
+        "votes-count": 0
+    },
+    "name": "Xanthe Waite",
+    "relations": [
+        {
+            "attribute-ids": [],
+            "target-credit": "",
+            "begin": null,
+            "source-credit": "",
+            "ended": false,
+            "type": "member of band",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "artist": {
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "country": "AU",
+                "type": "Group",
+                "sort-name": "Terry",
+                "disambiguation": "Australian indie rock band",
+                "id": "70195961-574a-498e-9101-1bed7ff978d5",
+                "name": "Terry"
+            },
+            "attributes": [],
+            "target-type": "artist",
+            "attribute-values": [],
+            "direction": "forward",
+            "end": null
+        },
+        {
+            "begin": null,
+            "target-credit": "",
+            "attribute-ids": [],
+            "ended": false,
+            "source-credit": "",
+            "attributes": [],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "target-type": "recording",
+            "attribute-values": [],
+            "recording": {
+                "id": "3e259934-b43c-42f3-9422-0c67dff46858",
+                "length": 125000,
+                "video": false,
+                "title": "A Day Like Any Other",
+                "disambiguation": ""
+            },
+            "direction": "forward",
+            "end": null
+        },
+        {
+            "direction": "forward",
+            "end": null,
+            "attribute-values": [],
+            "recording": {
+                "id": "ad47d071-0959-4fac-9453-08e39fbcb44a",
+                "title": "Coffee Colour",
+                "length": 127000,
+                "video": false,
+                "disambiguation": ""
+            },
+            "attributes": [
+                "background vocals"
+            ],
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "target-type": "recording",
+            "attribute-credits": [],
+            "begin": null,
+            "target-credit": "",
+            "attribute-ids": {
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "ended": false,
+            "source-credit": ""
+        },
+        {
+            "attribute-values": [],
+            "recording": {
+                "id": "f25828c6-650e-411b-a75d-9b73fb87c8cd",
+                "length": 181000,
+                "video": false,
+                "title": "Don't Say a Thing",
+                "disambiguation": ""
+            },
+            "direction": "forward",
+            "end": null,
+            "attribute-ids": [],
+            "begin": null,
+            "target-credit": "",
+            "source-credit": "",
+            "ended": false,
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "attributes": [],
+            "target-type": "recording"
+        },
+        {
+            "end": null,
+            "direction": "forward",
+            "recording": {
+                "id": "bea39752-52a3-43c3-a758-1ce400d3885a",
+                "title": "More and More, Less and Less",
+                "video": false,
+                "length": 142000,
+                "disambiguation": ""
+            },
+            "attribute-values": [],
+            "target-type": "recording",
+            "attributes": [],
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "begin": null,
+            "attribute-ids": []
+        },
+        {
+            "attributes": [
+                "background vocals"
+            ],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "attribute-credits": [],
+            "target-type": "recording",
+            "target-credit": "",
+            "begin": null,
+            "attribute-ids": {
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "end": null,
+            "attribute-values": [],
+            "recording": {
+                "title": "SS c'est bon",
+                "length": 167000,
+                "video": false,
+                "disambiguation": "",
+                "id": "de68f286-bc23-4cb9-a761-48049c6db185"
+            }
+        },
+        {
+            "url": {
+                "id": "5bb6372a-eb96-42ea-863b-521c0e3af21e",
+                "resource": "https://www.discogs.com/artist/2036836"
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "target-credit": "",
+            "source-credit": "",
+            "ended": false,
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "type": "discogs",
+            "attributes": [],
+            "target-type": "url",
+            "attribute-values": [],
+            "direction": "forward",
+            "end": null
+        }
+    ],
+    "id": "b856b4ae-5c73-4476-a61c-f1fddc573a4e",
+    "begin-area": null,
+    "works": [],
+    "disambiguation": "",
+    "aliases": [],
+    "type": "Person",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "tags": [],
+    "ipis": [],
+    "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+    "country": null,
+    "sort-name": "Waite, Xanthe",
+    "releases": [
+        {
+            "date": "2014-05-02",
+            "aliases": [],
+            "disambiguation": "",
+            "genres": [],
+            "barcode": "4030433779620",
+            "status": "Official",
+            "quality": "normal",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "release-group": null,
+            "id": "b57f3717-719f-4a3d-ac0f-523263ff7fea",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "date": "2014-05-02",
+                    "area": {
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                        "name": "Germany",
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "type-id": null,
+                        "type": null,
+                        "sort-name": "Germany",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "country": "DE",
+            "media": [
+                {
+                    "format": "CD",
+                    "position": 1,
+                    "discs": [
+                        {
+                            "offset-count": 18,
+                            "id": "xjI2pTfOyWlfE_HQywnyHK6Col8-",
+                            "sectors": 341925,
+                            "offsets": [
+                                150,
+                                19456,
+                                29788,
+                                48772,
+                                71430,
+                                88905,
+                                120317,
+                                134979,
+                                150341,
+                                173747,
+                                188609,
+                                207297,
+                                223903,
+                                238336,
+                                272640,
+                                297024,
+                                318653,
+                                323458
+                            ]
+                        }
+                    ],
+                    "track-count": 18,
+                    "id": "a2924c41-2d7c-309b-8d0a-b7bc5c24248a",
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "title": ""
+                }
+            ],
+            "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+            "title": "Axels & Sockets: The Jeffrey Lee Pierce Sessions Project",
+            "packaging": "Digipak",
+            "tags": []
+        },
+        {
+            "barcode": "4051972124511",
+            "genres": [],
+            "status": "Official",
+            "date": "2014-05-02",
+            "aliases": [],
+            "disambiguation": "",
+            "id": "61f37d1a-2924-4258-9355-6b5a8bb8a252",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "quality": "normal",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "release-group": null,
+            "country": "DZ",
+            "media": [
+                {
+                    "format": "Digital Media",
+                    "position": 1,
+                    "discs": [],
+                    "id": "f23ecf5a-4237-39b1-8d2a-850cce99073e",
+                    "track-count": 18,
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "title": ""
+                }
+            ],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "release-events": [
+                {
+                    "area": {
+                        "id": "28242750-534a-326b-8ed6-1b03dfb88cd0",
+                        "iso-3166-1-codes": [
+                            "DZ"
+                        ],
+                        "name": "Algeria",
+                        "disambiguation": "",
+                        "type": null,
+                        "type-id": null,
+                        "sort-name": "Algeria"
+                    },
+                    "date": "2014-05-02"
+                },
+                {
+                    "area": {
+                        "id": "e01da61e-99a8-3c76-a27d-774c3f4982f0",
+                        "name": "Andorra",
+                        "iso-3166-1-codes": [
+                            "AD"
+                        ],
+                        "type": null,
+                        "type-id": null,
+                        "sort-name": "Andorra",
+                        "disambiguation": ""
+                    },
+                    "date": "2014-05-02"
+                },
+                {
+                    "date": "2014-05-02",
+                    "area": {
+                        "sort-name": "Argentina",
+                        "type": null,
+                        "type-id": null,
+                        "disambiguation": "",
+                        "name": "Argentina",
+                        "iso-3166-1-codes": [
+                            "AR"
+                        ],
+                        "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b"
+                    }
+                }
+            ],
+            "tags": [],
+            "title": "The Jeffrey Lee Pierce Sessions Project: Axels & Sockets",
+            "packaging": "None"
+        },
+        {
+            "release-events": [
+                {
+                    "date": "2019-03-15",
+                    "area": {
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "type-id": null,
+                        "sort-name": "United States",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "media": [
+                {
+                    "format": "Digital Media",
+                    "position": 1,
+                    "discs": [],
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "id": "7a9ef6e0-a111-3f1c-84fc-d5b68229ad9e",
+                    "track-count": 14,
+                    "title": ""
+                }
+            ],
+            "country": "US",
+            "packaging": "None",
+            "title": "Qui m'aime me suive !",
+            "tags": [],
+            "disambiguation": "",
+            "aliases": [],
+            "date": "2019-03-15",
+            "status": "Official",
+            "genres": [],
+            "barcode": null,
+            "release-group": null,
+            "text-representation": {
+                "script": "Latn",
+                "language": "fra"
+            },
+            "quality": "normal",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "id": "4727c806-f6f9-40f4-8cf2-6f360be5986d"
+        }
+    ]
+}

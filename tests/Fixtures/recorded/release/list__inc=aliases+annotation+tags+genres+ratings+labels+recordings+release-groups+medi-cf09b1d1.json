@@ -1,0 +1,1552 @@
+{
+    "release-offset": 0,
+    "release-count": 9653,
+    "releases": [
+        {
+            "date": "1927",
+            "quality": "normal",
+            "packaging-id": null,
+            "asin": null,
+            "artist-credit": [
+                {
+                    "name": "The Goofus Five",
+                    "artist": {
+                        "country": null,
+                        "disambiguation": "1920s jazz recording group",
+                        "aliases": [],
+                        "name": "The Goofus Five",
+                        "id": "85e9d90b-040a-4ca8-9809-d26d41e18dba",
+                        "genres": [],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "sort-name": "Goofus Five, The",
+                        "type": "Group",
+                        "tags": []
+                    },
+                    "joinphrase": " / "
+                },
+                {
+                    "name": "Okeh Syncopators",
+                    "artist": {
+                        "aliases": [],
+                        "disambiguation": "",
+                        "country": null,
+                        "tags": [],
+                        "sort-name": "Okeh Syncopators",
+                        "type": "Group",
+                        "genres": [],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "name": "Okeh Syncopators",
+                        "id": "2da5ebf0-44a5-4ca0-b2a8-c7743b8c6373"
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "barcode": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "media": [
+                {
+                    "position": 1,
+                    "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b",
+                    "id": "399296ee-dd3d-3b8d-98f9-29635430a54b",
+                    "track-offset": 0,
+                    "format": "10\" Shellac",
+                    "track-count": 2,
+                    "title": "",
+                    "discs": [],
+                    "tracks": [
+                        {
+                            "id": "2fdca2af-cfb1-4919-8cca-43609b4f6f73",
+                            "number": "1",
+                            "length": null,
+                            "position": 1,
+                            "title": "Mary Lou",
+                            "recording": {
+                                "tags": [],
+                                "title": "Mary Lou",
+                                "relations": [
+                                    {
+                                        "target-credit": "",
+                                        "attribute-ids": {
+                                            "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                                        },
+                                        "attribute-values": [],
+                                        "source-credit": "",
+                                        "artist": {
+                                            "disambiguation": "",
+                                            "country": "US",
+                                            "sort-name": "Brodsky, Irving",
+                                            "rating": {
+                                                "value": null,
+                                                "votes-count": 0
+                                            },
+                                            "type": "Person",
+                                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                            "name": "Irving Brodsky",
+                                            "id": "f5595026-de52-4d5f-a5a6-0dc97e8a28af"
+                                        },
+                                        "direction": "backward",
+                                        "ended": true,
+                                        "attribute-credits": [],
+                                        "target-type": "artist",
+                                        "attributes": [
+                                            "piano"
+                                        ],
+                                        "end": "1926-07-15",
+                                        "begin": "1926-07-15",
+                                        "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                                        "type": "instrument"
+                                    },
+                                    {
+                                        "attribute-ids": {
+                                            "reeds": "1313dfa6-2073-4a55-b60e-904d47c704fa"
+                                        },
+                                        "attribute-values": [],
+                                        "target-credit": "",
+                                        "artist": {
+                                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                            "id": "89b1270b-7fa7-4b26-8102-d6c2adc6d2ed",
+                                            "name": "Bobby Davis",
+                                            "rating": {
+                                                "value": null,
+                                                "votes-count": 0
+                                            },
+                                            "type": "Person",
+                                            "sort-name": "Davis, Bobby",
+                                            "disambiguation": "jazz saxophonist",
+                                            "country": "US"
+                                        },
+                                        "source-credit": "",
+                                        "attribute-credits": [],
+                                        "ended": true,
+                                        "target-type": "artist",
+                                        "attributes": [
+                                            "reeds"
+                                        ],
+                                        "end": "1926-07-15",
+                                        "begin": "1926-07-15",
+                                        "direction": "backward",
+                                        "type": "instrument",
+                                        "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+                                    },
+                                    {
+                                        "attribute-credits": [],
+                                        "ended": true,
+                                        "end": "1926-07-15",
+                                        "target-type": "artist",
+                                        "attributes": [
+                                            "banjo"
+                                        ],
+                                        "begin": "1926-07-15",
+                                        "direction": "backward",
+                                        "type": "instrument",
+                                        "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                                        "attribute-ids": {
+                                            "banjo": "6bf88fc7-a235-4d95-a910-a4ce4a4853c6"
+                                        },
+                                        "attribute-values": [],
+                                        "target-credit": "",
+                                        "artist": {
+                                            "name": "Tommy Felline",
+                                            "id": "c1a09c8e-b5dc-42f2-b4c5-60753097714d",
+                                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                            "sort-name": "Felline, Tommy",
+                                            "type": "Person",
+                                            "rating": {
+                                                "votes-count": 0,
+                                                "value": null
+                                            },
+                                            "country": "US",
+                                            "disambiguation": ""
+                                        },
+                                        "source-credit": ""
+                                    },
+                                    {
+                                        "type": "vocal",
+                                        "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                                        "target-type": "artist",
+                                        "end": "1926-07-15",
+                                        "attributes": [],
+                                        "begin": "1926-07-15",
+                                        "ended": true,
+                                        "direction": "backward",
+                                        "artist": {
+                                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                            "name": "Ernest Hare",
+                                            "id": "8d029801-643f-4d5e-a060-6c2f41c270e4",
+                                            "sort-name": "Hare, Ernest",
+                                            "type": "Person",
+                                            "rating": {
+                                                "votes-count": 0,
+                                                "value": null
+                                            },
+                                            "disambiguation": "",
+                                            "country": "US"
+                                        },
+                                        "source-credit": "",
+                                        "attribute-ids": [],
+                                        "attribute-values": [],
+                                        "target-credit": ""
+                                    },
+                                    {
+                                        "attribute-values": [],
+                                        "attribute-ids": [],
+                                        "target-credit": "",
+                                        "work": {
+                                            "type": "Song",
+                                            "rating": {
+                                                "value": null,
+                                                "votes-count": 0
+                                            },
+                                            "iswcs": [],
+                                            "id": "22e66190-114f-42d0-944d-dcde65d4cc27",
+                                            "language": "fra",
+                                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                            "languages": [
+                                                "fra"
+                                            ],
+                                            "attributes": [],
+                                            "relations": [
+                                                {
+                                                    "artist": {
+                                                        "country": "FR",
+                                                        "disambiguation": "",
+                                                        "rating": {
+                                                            "votes-count": 0,
+                                                            "value": null
+                                                        },
+                                                        "type": "Person",
+                                                        "sort-name": "Briquet, Paul",
+                                                        "id": "71d5712f-0fca-495d-8827-0d2288bd3289",
+                                                        "name": "Paul Briquet",
+                                                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                                                    },
+                                                    "source-credit": "",
+                                                    "attribute-ids": [],
+                                                    "attribute-values": [],
+                                                    "target-credit": "",
+                                                    "type": "translator",
+                                                    "type-id": "da6c5d8a-ce13-474d-9375-61feb29039a5",
+                                                    "ended": false,
+                                                    "target-type": "artist",
+                                                    "attributes": [],
+                                                    "end": null,
+                                                    "begin": null,
+                                                    "direction": "backward"
+                                                },
+                                                {
+                                                    "direction": "backward",
+                                                    "ended": false,
+                                                    "attributes": [],
+                                                    "target-type": "artist",
+                                                    "end": null,
+                                                    "begin": null,
+                                                    "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                                                    "type": "writer",
+                                                    "target-credit": "",
+                                                    "attribute-ids": [],
+                                                    "attribute-values": [],
+                                                    "artist": {
+                                                        "disambiguation": "",
+                                                        "country": null,
+                                                        "sort-name": "George Waggner",
+                                                        "type": null,
+                                                        "rating": {
+                                                            "value": null,
+                                                            "votes-count": 0
+                                                        },
+                                                        "type-id": null,
+                                                        "name": "George Waggner",
+                                                        "id": "248f102a-42a7-4eb3-8883-0acd7bd4fa00"
+                                                    },
+                                                    "source-credit": ""
+                                                },
+                                                {
+                                                    "type": "writer",
+                                                    "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                                                    "attributes": [],
+                                                    "target-type": "artist",
+                                                    "end": null,
+                                                    "begin": null,
+                                                    "ended": false,
+                                                    "direction": "backward",
+                                                    "artist": {
+                                                        "id": "5f2ffed7-6e8f-45b2-8a48-30fe87b50595",
+                                                        "name": "J. Russel Robinson",
+                                                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                                        "rating": {
+                                                            "votes-count": 0,
+                                                            "value": null
+                                                        },
+                                                        "type": "Person",
+                                                        "sort-name": "Robinson, J. Russel",
+                                                        "country": "US",
+                                                        "disambiguation": "Dixieland and ragtime pianist and composer"
+                                                    },
+                                                    "source-credit": "",
+                                                    "attribute-ids": [],
+                                                    "attribute-values": [],
+                                                    "target-credit": "Joseph Russel Robinson"
+                                                }
+                                            ],
+                                            "title": "Mary Lou",
+                                            "disambiguation": ""
+                                        },
+                                        "source-credit": "",
+                                        "ended": true,
+                                        "begin": "1926-07-15",
+                                        "target-type": "work",
+                                        "end": "1926-07-15",
+                                        "attributes": [],
+                                        "direction": "forward",
+                                        "type": "performance",
+                                        "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                                    }
+                                ],
+                                "isrcs": [],
+                                "first-release-date": "1927",
+                                "rating": {
+                                    "value": null,
+                                    "votes-count": 0
+                                },
+                                "genres": [],
+                                "id": "d261e7f3-0b14-458e-8eb4-16caf3043a9d",
+                                "video": false,
+                                "aliases": [],
+                                "artist-credit": [
+                                    {
+                                        "joinphrase": "",
+                                        "artist": {
+                                            "sort-name": "Goofus Five, The",
+                                            "type": "Group",
+                                            "rating": {
+                                                "value": null,
+                                                "votes-count": 0
+                                            },
+                                            "name": "The Goofus Five",
+                                            "id": "85e9d90b-040a-4ca8-9809-d26d41e18dba",
+                                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                            "country": null,
+                                            "disambiguation": "1920s jazz recording group"
+                                        },
+                                        "name": "The Goofus Five"
+                                    }
+                                ],
+                                "disambiguation": "",
+                                "length": null
+                            },
+                            "artist-credit": [
+                                {
+                                    "name": "The Goofus Five",
+                                    "artist": {
+                                        "id": "85e9d90b-040a-4ca8-9809-d26d41e18dba",
+                                        "name": "The Goofus Five",
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "type": "Group",
+                                        "rating": {
+                                            "value": null,
+                                            "votes-count": 0
+                                        },
+                                        "sort-name": "Goofus Five, The",
+                                        "country": null,
+                                        "disambiguation": "1920s jazz recording group",
+                                        "aliases": []
+                                    },
+                                    "joinphrase": ""
+                                }
+                            ]
+                        },
+                        {
+                            "recording": {
+                                "relations": [],
+                                "isrcs": [],
+                                "title": "Black Bottom",
+                                "tags": [],
+                                "length": null,
+                                "disambiguation": "",
+                                "aliases": [],
+                                "video": false,
+                                "artist-credit": [
+                                    {
+                                        "joinphrase": "",
+                                        "name": "Okeh Syncopators",
+                                        "artist": {
+                                            "sort-name": "Okeh Syncopators",
+                                            "type": "Group",
+                                            "rating": {
+                                                "votes-count": 0,
+                                                "value": null
+                                            },
+                                            "name": "Okeh Syncopators",
+                                            "id": "2da5ebf0-44a5-4ca0-b2a8-c7743b8c6373",
+                                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                            "country": null,
+                                            "disambiguation": ""
+                                        }
+                                    }
+                                ],
+                                "id": "4411c053-480b-4bda-a887-2063f9b3dcf0",
+                                "genres": [],
+                                "rating": {
+                                    "value": null,
+                                    "votes-count": 0
+                                },
+                                "first-release-date": "1927"
+                            },
+                            "position": 2,
+                            "title": "Black Bottom",
+                            "artist-credit": [
+                                {
+                                    "joinphrase": "",
+                                    "artist": {
+                                        "aliases": [],
+                                        "country": null,
+                                        "disambiguation": "",
+                                        "type": "Group",
+                                        "rating": {
+                                            "votes-count": 0,
+                                            "value": null
+                                        },
+                                        "sort-name": "Okeh Syncopators",
+                                        "id": "2da5ebf0-44a5-4ca0-b2a8-c7743b8c6373",
+                                        "name": "Okeh Syncopators",
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                                    },
+                                    "name": "Okeh Syncopators"
+                                }
+                            ],
+                            "length": null,
+                            "number": "2",
+                            "id": "02929a66-955d-4bd6-b7f6-32850d0ac8ca"
+                        }
+                    ]
+                }
+            ],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "cover-art-archive": {
+                "darkened": false,
+                "artwork": false,
+                "front": false,
+                "back": false,
+                "count": 0
+            },
+            "title": "Mary Lou / Black Bottom",
+            "relations": [
+                {
+                    "type": "discogs",
+                    "url": {
+                        "resource": "https://www.discogs.com/release/10937901",
+                        "id": "1c6c74c1-3ace-4b3f-8555-93b4ba79d26b"
+                    },
+                    "type-id": "4a78823c-1c53-4176-a5f3-58026c76f2bc",
+                    "ended": false,
+                    "target-type": "url",
+                    "attributes": [],
+                    "end": null,
+                    "begin": null,
+                    "direction": "forward",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "attribute-values": [],
+                    "target-credit": ""
+                }
+            ],
+            "release-events": [
+                {
+                    "date": "1927",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "AU"
+                        ],
+                        "sort-name": "Australia",
+                        "type": null,
+                        "name": "Australia",
+                        "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+                        "disambiguation": "",
+                        "type-id": null
+                    }
+                }
+            ],
+            "genres": [],
+            "id": "0dc54a05-8270-47d4-af8c-4364101aa577",
+            "label-info": [
+                {
+                    "label": {
+                        "sort-name": "Parlophone",
+                        "type": "Original Production",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "alternative"
+                            },
+                            {
+                                "name": "alternative rock",
+                                "count": 1
+                            },
+                            {
+                                "count": 1,
+                                "name": "art rock"
+                            }
+                        ],
+                        "label-code": 299,
+                        "name": "Parlophone",
+                        "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
+                        "genres": [
+                            {
+                                "name": "alternative rock",
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                                "disambiguation": "",
+                                "count": 1
+                            },
+                            {
+                                "disambiguation": "",
+                                "count": 1,
+                                "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                                "name": "art rock"
+                            },
+                            {
+                                "name": "baroque pop",
+                                "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                                "disambiguation": "",
+                                "count": 1
+                            },
+                            {
+                                "count": 1,
+                                "disambiguation": "",
+                                "name": "pop",
+                                "id": "911c7bbb-172d-4df8-9478-dbff4296e791"
+                            },
+                            {
+                                "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                                "name": "rock",
+                                "count": 1,
+                                "disambiguation": ""
+                            }
+                        ],
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "aliases": [
+                            {
+                                "begin": null,
+                                "end": null,
+                                "ended": false,
+                                "name": "Parlaphone",
+                                "primary": null,
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "sort-name": "Parlaphone",
+                                "type": "Search hint",
+                                "locale": null
+                            },
+                            {
+                                "primary": null,
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "name": "Parlaphone",
+                                "sort-name": "Parlaphone",
+                                "locale": null,
+                                "type": "Search hint",
+                                "ended": false,
+                                "begin": null,
+                                "end": null
+                            },
+                            {
+                                "end": null,
+                                "begin": null,
+                                "ended": false,
+                                "name": "Parlaphone",
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "primary": null,
+                                "type": "Search hint",
+                                "locale": null,
+                                "sort-name": "Parlaphone"
+                            },
+                            {
+                                "locale": "de",
+                                "type": "Label name",
+                                "sort-name": "Parlophon",
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "primary": true,
+                                "name": "Parlophon",
+                                "ended": false,
+                                "end": null,
+                                "begin": null
+                            },
+                            {
+                                "type": "Label name",
+                                "locale": "de",
+                                "sort-name": "Parlophon",
+                                "primary": true,
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "name": "Parlophon",
+                                "ended": false,
+                                "end": null,
+                                "begin": null
+                            },
+                            {
+                                "sort-name": "Parlophon",
+                                "type": "Label name",
+                                "locale": "de",
+                                "primary": true,
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "name": "Parlophon",
+                                "ended": false,
+                                "begin": null,
+                                "end": null
+                            }
+                        ],
+                        "disambiguation": ""
+                    },
+                    "catalog-number": "A 2125"
+                }
+            ],
+            "aliases": [],
+            "disambiguation": "",
+            "status": "Official",
+            "tags": [],
+            "release-group": {
+                "title": "Mary Lou / Black Bottom",
+                "relations": [],
+                "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                "primary-type": "Single",
+                "tags": [
+                    {
+                        "name": "jazz",
+                        "count": 1
+                    },
+                    {
+                        "count": 1,
+                        "name": "pop"
+                    }
+                ],
+                "secondary-types": [],
+                "disambiguation": "",
+                "artist-credit": [
+                    {
+                        "name": "The Goofus Five",
+                        "artist": {
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "id": "85e9d90b-040a-4ca8-9809-d26d41e18dba",
+                            "name": "The Goofus Five",
+                            "rating": {
+                                "value": null,
+                                "votes-count": 0
+                            },
+                            "type": "Group",
+                            "sort-name": "Goofus Five, The",
+                            "disambiguation": "1920s jazz recording group",
+                            "country": null,
+                            "aliases": []
+                        },
+                        "joinphrase": " / "
+                    },
+                    {
+                        "name": "Okeh Syncopators",
+                        "artist": {
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "id": "2da5ebf0-44a5-4ca0-b2a8-c7743b8c6373",
+                            "name": "Okeh Syncopators",
+                            "type": "Group",
+                            "rating": {
+                                "value": null,
+                                "votes-count": 0
+                            },
+                            "sort-name": "Okeh Syncopators",
+                            "disambiguation": "",
+                            "country": null,
+                            "aliases": []
+                        },
+                        "joinphrase": ""
+                    }
+                ],
+                "aliases": [],
+                "secondary-type-ids": [],
+                "id": "343df9db-7e2c-48aa-97d4-378da4790550",
+                "genres": [
+                    {
+                        "name": "jazz",
+                        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+                        "count": 1,
+                        "disambiguation": ""
+                    },
+                    {
+                        "disambiguation": "",
+                        "count": 1,
+                        "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                        "name": "pop"
+                    }
+                ],
+                "rating": {
+                    "value": null,
+                    "votes-count": 0
+                },
+                "first-release-date": "1927"
+            },
+            "country": "AU",
+            "packaging": null,
+            "annotation": null
+        },
+        {
+            "title": "Dog on the Piano / Too Tired",
+            "relations": [
+                {
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "discogs",
+                    "url": {
+                        "id": "9390e23e-b508-4b21-a9aa-f8937bdad14e",
+                        "resource": "https://www.discogs.com/release/23301419"
+                    },
+                    "type-id": "4a78823c-1c53-4176-a5f3-58026c76f2bc",
+                    "ended": false,
+                    "attributes": [],
+                    "target-type": "url",
+                    "end": null,
+                    "begin": null,
+                    "direction": "forward"
+                }
+            ],
+            "release-events": [
+                {
+                    "date": "1925",
+                    "area": {
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "sort-name": "United Kingdom",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "name": "United Kingdom",
+                        "type-id": null,
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "cover-art-archive": {
+                "front": true,
+                "darkened": false,
+                "artwork": true,
+                "count": 2,
+                "back": false
+            },
+            "artist-credit": [
+                {
+                    "name": "Arcadia Peacock Orchestra",
+                    "artist": {
+                        "country": "US",
+                        "disambiguation": "",
+                        "aliases": [],
+                        "id": "192733b2-d6c8-4e52-8674-6969c1d95212",
+                        "name": "Arcadia Peacock Orchestra of St. Louis",
+                        "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+                        "genres": [],
+                        "type": "Orchestra",
+                        "sort-name": "Arcadia Peacock Orchestra of St. Louis",
+                        "tags": []
+                    },
+                    "joinphrase": " / "
+                },
+                {
+                    "name": "Parlophone Syncopaters",
+                    "artist": {
+                        "type": "Group",
+                        "sort-name": "Parlophone Syncopators",
+                        "tags": [],
+                        "id": "4290d215-efe5-4087-8c92-234de589298c",
+                        "name": "Parlophone Syncopators",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "genres": [],
+                        "aliases": [],
+                        "country": null,
+                        "disambiguation": ""
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "packaging-id": null,
+            "asin": null,
+            "media": [
+                {
+                    "track-offset": 0,
+                    "format": "10\" Shellac",
+                    "track-count": 2,
+                    "id": "2ac23b6d-3138-3873-8a2a-1180306161cf",
+                    "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b",
+                    "position": 1,
+                    "discs": [],
+                    "tracks": [
+                        {
+                            "id": "8968bf9c-e92b-4cf1-a986-5d3e34057279",
+                            "number": "A",
+                            "length": null,
+                            "title": "Dog On The Piano",
+                            "position": 1,
+                            "recording": {
+                                "relations": [],
+                                "isrcs": [],
+                                "title": "Dog On The Piano",
+                                "tags": [],
+                                "artist-credit": [
+                                    {
+                                        "name": "Arcadia Peacock Orchestra",
+                                        "artist": {
+                                            "country": "US",
+                                            "disambiguation": "",
+                                            "name": "Arcadia Peacock Orchestra of St. Louis",
+                                            "id": "192733b2-d6c8-4e52-8674-6969c1d95212",
+                                            "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+                                            "sort-name": "Arcadia Peacock Orchestra of St. Louis",
+                                            "type": "Orchestra",
+                                            "rating": {
+                                                "votes-count": 0,
+                                                "value": null
+                                            }
+                                        },
+                                        "joinphrase": ""
+                                    }
+                                ],
+                                "video": false,
+                                "aliases": [],
+                                "length": null,
+                                "disambiguation": "",
+                                "rating": {
+                                    "votes-count": 0,
+                                    "value": null
+                                },
+                                "first-release-date": "1925",
+                                "id": "f5918842-50ae-475e-89db-7dede54a256b",
+                                "genres": []
+                            },
+                            "artist-credit": [
+                                {
+                                    "artist": {
+                                        "aliases": [],
+                                        "disambiguation": "",
+                                        "country": "US",
+                                        "type": "Orchestra",
+                                        "rating": {
+                                            "value": null,
+                                            "votes-count": 0
+                                        },
+                                        "sort-name": "Arcadia Peacock Orchestra of St. Louis",
+                                        "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+                                        "id": "192733b2-d6c8-4e52-8674-6969c1d95212",
+                                        "name": "Arcadia Peacock Orchestra of St. Louis"
+                                    },
+                                    "name": "Arcadia Peacock Orchestra",
+                                    "joinphrase": ""
+                                }
+                            ]
+                        },
+                        {
+                            "number": "B",
+                            "id": "df546e27-0803-4320-980c-49d6212e45ce",
+                            "length": null,
+                            "position": 2,
+                            "title": "Too Tired",
+                            "recording": {
+                                "isrcs": [],
+                                "relations": [],
+                                "title": "Too Tired",
+                                "tags": [],
+                                "artist-credit": [
+                                    {
+                                        "name": "Parlophone Syncopators",
+                                        "artist": {
+                                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                            "name": "Parlophone Syncopators",
+                                            "id": "4290d215-efe5-4087-8c92-234de589298c",
+                                            "sort-name": "Parlophone Syncopators",
+                                            "rating": {
+                                                "votes-count": 0,
+                                                "value": null
+                                            },
+                                            "type": "Group",
+                                            "disambiguation": "",
+                                            "country": null
+                                        },
+                                        "joinphrase": ""
+                                    }
+                                ],
+                                "aliases": [],
+                                "video": false,
+                                "disambiguation": "",
+                                "length": null,
+                                "first-release-date": "1925",
+                                "rating": {
+                                    "value": null,
+                                    "votes-count": 0
+                                },
+                                "genres": [],
+                                "id": "370ca925-eb78-4582-b051-2413664aaffb"
+                            },
+                            "artist-credit": [
+                                {
+                                    "joinphrase": "",
+                                    "name": "Parlophone Syncopators",
+                                    "artist": {
+                                        "disambiguation": "",
+                                        "country": null,
+                                        "aliases": [],
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "name": "Parlophone Syncopators",
+                                        "id": "4290d215-efe5-4087-8c92-234de589298c",
+                                        "sort-name": "Parlophone Syncopators",
+                                        "type": "Group",
+                                        "rating": {
+                                            "votes-count": 0,
+                                            "value": null
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "title": ""
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": null,
+            "date": "1925",
+            "quality": "normal",
+            "country": "GB",
+            "annotation": null,
+            "packaging": null,
+            "release-group": {
+                "tags": [
+                    {
+                        "count": 1,
+                        "name": "jazz"
+                    },
+                    {
+                        "count": 1,
+                        "name": "pop"
+                    }
+                ],
+                "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                "primary-type": "Single",
+                "title": "Dog on the Piano / Too Tired",
+                "relations": [],
+                "rating": {
+                    "votes-count": 0,
+                    "value": null
+                },
+                "first-release-date": "1925",
+                "id": "caacdbad-7fb8-4cac-8467-679a472c4249",
+                "genres": [
+                    {
+                        "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+                        "name": "jazz",
+                        "disambiguation": "",
+                        "count": 1
+                    },
+                    {
+                        "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                        "name": "pop",
+                        "count": 1,
+                        "disambiguation": ""
+                    }
+                ],
+                "artist-credit": [
+                    {
+                        "name": "Arcadia Peacock Orchestra",
+                        "artist": {
+                            "name": "Arcadia Peacock Orchestra of St. Louis",
+                            "id": "192733b2-d6c8-4e52-8674-6969c1d95212",
+                            "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+                            "sort-name": "Arcadia Peacock Orchestra of St. Louis",
+                            "type": "Orchestra",
+                            "rating": {
+                                "value": null,
+                                "votes-count": 0
+                            },
+                            "country": "US",
+                            "disambiguation": "",
+                            "aliases": []
+                        },
+                        "joinphrase": " / "
+                    },
+                    {
+                        "joinphrase": "",
+                        "artist": {
+                            "aliases": [],
+                            "disambiguation": "",
+                            "country": null,
+                            "rating": {
+                                "votes-count": 0,
+                                "value": null
+                            },
+                            "type": "Group",
+                            "sort-name": "Parlophone Syncopators",
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "id": "4290d215-efe5-4087-8c92-234de589298c",
+                            "name": "Parlophone Syncopators"
+                        },
+                        "name": "Parlophone Syncopaters"
+                    }
+                ],
+                "aliases": [],
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "disambiguation": ""
+            },
+            "tags": [],
+            "aliases": [],
+            "label-info": [
+                {
+                    "label": {
+                        "sort-name": "Parlophone",
+                        "type": "Original Production",
+                        "label-code": 299,
+                        "tags": [
+                            {
+                                "name": "alternative",
+                                "count": 1
+                            },
+                            {
+                                "count": 1,
+                                "name": "alternative rock"
+                            },
+                            {
+                                "count": 1,
+                                "name": "art rock"
+                            }
+                        ],
+                        "name": "Parlophone",
+                        "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
+                        "genres": [
+                            {
+                                "name": "alternative rock",
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                                "count": 1,
+                                "disambiguation": ""
+                            },
+                            {
+                                "disambiguation": "",
+                                "count": 1,
+                                "name": "art rock",
+                                "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b"
+                            },
+                            {
+                                "name": "baroque pop",
+                                "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                                "count": 1,
+                                "disambiguation": ""
+                            },
+                            {
+                                "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                                "name": "pop",
+                                "count": 1,
+                                "disambiguation": ""
+                            },
+                            {
+                                "disambiguation": "",
+                                "count": 1,
+                                "name": "rock",
+                                "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798"
+                            }
+                        ],
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "aliases": [
+                            {
+                                "ended": false,
+                                "end": null,
+                                "begin": null,
+                                "type": "Search hint",
+                                "locale": null,
+                                "sort-name": "Parlaphone",
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "primary": null,
+                                "name": "Parlaphone"
+                            },
+                            {
+                                "ended": false,
+                                "end": null,
+                                "begin": null,
+                                "locale": null,
+                                "type": "Search hint",
+                                "sort-name": "Parlaphone",
+                                "primary": null,
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "name": "Parlaphone"
+                            },
+                            {
+                                "locale": null,
+                                "type": "Search hint",
+                                "sort-name": "Parlaphone",
+                                "name": "Parlaphone",
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "primary": null,
+                                "end": null,
+                                "begin": null,
+                                "ended": false
+                            },
+                            {
+                                "begin": null,
+                                "end": null,
+                                "ended": false,
+                                "name": "Parlophon",
+                                "primary": true,
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "sort-name": "Parlophon",
+                                "type": "Label name",
+                                "locale": "de"
+                            },
+                            {
+                                "name": "Parlophon",
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "primary": true,
+                                "sort-name": "Parlophon",
+                                "type": "Label name",
+                                "locale": "de",
+                                "begin": null,
+                                "end": null,
+                                "ended": false
+                            },
+                            {
+                                "end": null,
+                                "begin": null,
+                                "ended": false,
+                                "type": "Label name",
+                                "locale": "de",
+                                "sort-name": "Parlophon",
+                                "name": "Parlophon",
+                                "primary": true,
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675"
+                            }
+                        ],
+                        "disambiguation": ""
+                    },
+                    "catalog-number": "E 5370"
+                }
+            ],
+            "status": "Official",
+            "disambiguation": "",
+            "id": "0ecd1319-0d55-4c3b-b97c-16dd8d2fe408",
+            "genres": []
+        },
+        {
+            "media": [
+                {
+                    "title": "",
+                    "tracks": [
+                        {
+                            "title": "'n Zoen moet je mondeling doen",
+                            "position": 1,
+                            "recording": {
+                                "disambiguation": "",
+                                "length": 181000,
+                                "aliases": [],
+                                "video": false,
+                                "artist-credit": [
+                                    {
+                                        "joinphrase": "",
+                                        "artist": {
+                                            "country": "NL",
+                                            "disambiguation": "",
+                                            "name": "Willy Derby",
+                                            "id": "40010e46-28bc-4254-abbc-2e525dc382d4",
+                                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                            "sort-name": "Derby, Willy",
+                                            "type": "Person",
+                                            "rating": {
+                                                "value": null,
+                                                "votes-count": 0
+                                            }
+                                        },
+                                        "name": "Willy Derby"
+                                    }
+                                ],
+                                "genres": [],
+                                "id": "e5d62444-9010-4a79-95dd-cec38edc5cb0",
+                                "first-release-date": "1921",
+                                "rating": {
+                                    "votes-count": 0,
+                                    "value": null
+                                },
+                                "relations": [],
+                                "title": "'n Zoen moet je mondeling doen",
+                                "isrcs": [],
+                                "tags": []
+                            },
+                            "artist-credit": [
+                                {
+                                    "artist": {
+                                        "disambiguation": "",
+                                        "country": "NL",
+                                        "aliases": [
+                                            {
+                                                "locale": null,
+                                                "type": null,
+                                                "sort-name": "Dieben, Willem Frederik Christiaan",
+                                                "name": "Willem Frederik Christiaan Dieben",
+                                                "primary": null,
+                                                "type-id": null,
+                                                "end": null,
+                                                "begin": null,
+                                                "ended": false
+                                            }
+                                        ],
+                                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                        "id": "40010e46-28bc-4254-abbc-2e525dc382d4",
+                                        "name": "Willy Derby",
+                                        "type": "Person",
+                                        "rating": {
+                                            "votes-count": 0,
+                                            "value": null
+                                        },
+                                        "sort-name": "Derby, Willy"
+                                    },
+                                    "name": "Willy Derby",
+                                    "joinphrase": ""
+                                }
+                            ],
+                            "id": "f10f68b0-95f6-3ad4-b2c2-dcb977ee6fd9",
+                            "number": "1",
+                            "length": 181000
+                        },
+                        {
+                            "recording": {
+                                "title": "Met jou wil ik uit vissen gaan",
+                                "relations": [],
+                                "isrcs": [],
+                                "tags": [],
+                                "length": null,
+                                "disambiguation": "",
+                                "video": false,
+                                "aliases": [],
+                                "artist-credit": [
+                                    {
+                                        "artist": {
+                                            "country": "NL",
+                                            "disambiguation": "",
+                                            "id": "40010e46-28bc-4254-abbc-2e525dc382d4",
+                                            "name": "Willy Derby",
+                                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                            "rating": {
+                                                "value": null,
+                                                "votes-count": 0
+                                            },
+                                            "type": "Person",
+                                            "sort-name": "Derby, Willy"
+                                        },
+                                        "name": "Willy Derby",
+                                        "joinphrase": ""
+                                    }
+                                ],
+                                "id": "28a6646c-3551-4fd0-b2b4-e6cc2cceb986",
+                                "genres": [],
+                                "rating": {
+                                    "votes-count": 0,
+                                    "value": null
+                                },
+                                "first-release-date": "1921"
+                            },
+                            "position": 2,
+                            "title": "Met jou wil ik uit vissen gaan",
+                            "artist-credit": [
+                                {
+                                    "joinphrase": "",
+                                    "name": "Willy Derby",
+                                    "artist": {
+                                        "aliases": [
+                                            {
+                                                "locale": null,
+                                                "type": null,
+                                                "sort-name": "Dieben, Willem Frederik Christiaan",
+                                                "primary": null,
+                                                "type-id": null,
+                                                "name": "Willem Frederik Christiaan Dieben",
+                                                "ended": false,
+                                                "end": null,
+                                                "begin": null
+                                            }
+                                        ],
+                                        "disambiguation": "",
+                                        "country": "NL",
+                                        "rating": {
+                                            "value": null,
+                                            "votes-count": 0
+                                        },
+                                        "type": "Person",
+                                        "sort-name": "Derby, Willy",
+                                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                        "id": "40010e46-28bc-4254-abbc-2e525dc382d4",
+                                        "name": "Willy Derby"
+                                    }
+                                }
+                            ],
+                            "length": null,
+                            "id": "97cb363e-095f-36ad-9f40-e140b08df706",
+                            "number": "2"
+                        }
+                    ],
+                    "discs": [],
+                    "position": 1,
+                    "track-count": 2,
+                    "track-offset": 0,
+                    "format": "10\" Shellac",
+                    "id": "42b784f6-db70-3249-8a88-9ff2416a996c",
+                    "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b"
+                }
+            ],
+            "barcode": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "artist-credit": [
+                {
+                    "joinphrase": "",
+                    "name": "Willy Derby",
+                    "artist": {
+                        "name": "Willy Derby",
+                        "id": "40010e46-28bc-4254-abbc-2e525dc382d4",
+                        "genres": [],
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "Derby, Willy",
+                        "type": "Person",
+                        "tags": [],
+                        "country": "NL",
+                        "disambiguation": "",
+                        "aliases": [
+                            {
+                                "type-id": null,
+                                "primary": null,
+                                "name": "Willem Frederik Christiaan Dieben",
+                                "sort-name": "Dieben, Willem Frederik Christiaan",
+                                "locale": null,
+                                "type": null,
+                                "ended": false,
+                                "begin": null,
+                                "end": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "packaging-id": null,
+            "asin": null,
+            "quality": "normal",
+            "date": "1921",
+            "release-events": [
+                {
+                    "date": "1921",
+                    "area": {
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "NL"
+                        ],
+                        "sort-name": "Netherlands",
+                        "type-id": null,
+                        "disambiguation": "",
+                        "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+                        "name": "Netherlands"
+                    }
+                }
+            ],
+            "title": "'n zoen moet je mondeling doen / Met jou wil ik uit visschen gaan",
+            "relations": [],
+            "text-representation": {
+                "script": "Latn",
+                "language": "nld"
+            },
+            "cover-art-archive": {
+                "front": true,
+                "artwork": true,
+                "darkened": false,
+                "count": 2,
+                "back": false
+            },
+            "status": "Official",
+            "disambiguation": "",
+            "aliases": [],
+            "label-info": [
+                {
+                    "catalog-number": "46962",
+                    "label": {
+                        "disambiguation": "",
+                        "aliases": [
+                            {
+                                "locale": null,
+                                "type": "Search hint",
+                                "sort-name": "Parlaphone",
+                                "name": "Parlaphone",
+                                "primary": null,
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "end": null,
+                                "begin": null,
+                                "ended": false
+                            },
+                            {
+                                "sort-name": "Parlaphone",
+                                "type": "Search hint",
+                                "locale": null,
+                                "name": "Parlaphone",
+                                "primary": null,
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "begin": null,
+                                "end": null,
+                                "ended": false
+                            },
+                            {
+                                "ended": false,
+                                "begin": null,
+                                "end": null,
+                                "sort-name": "Parlaphone",
+                                "type": "Search hint",
+                                "locale": null,
+                                "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                                "primary": null,
+                                "name": "Parlaphone"
+                            },
+                            {
+                                "name": "Parlophon",
+                                "primary": true,
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "type": "Label name",
+                                "locale": "de",
+                                "sort-name": "Parlophon",
+                                "end": null,
+                                "begin": null,
+                                "ended": false
+                            },
+                            {
+                                "locale": "de",
+                                "type": "Label name",
+                                "sort-name": "Parlophon",
+                                "name": "Parlophon",
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "primary": true,
+                                "end": null,
+                                "begin": null,
+                                "ended": false
+                            },
+                            {
+                                "sort-name": "Parlophon",
+                                "type": "Label name",
+                                "locale": "de",
+                                "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                                "primary": true,
+                                "name": "Parlophon",
+                                "ended": false,
+                                "begin": null,
+                                "end": null
+                            }
+                        ],
+                        "name": "Parlophone",
+                        "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
+                        "genres": [
+                            {
+                                "count": 1,
+                                "disambiguation": "",
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                                "name": "alternative rock"
+                            },
+                            {
+                                "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                                "name": "art rock",
+                                "count": 1,
+                                "disambiguation": ""
+                            },
+                            {
+                                "name": "baroque pop",
+                                "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                                "disambiguation": "",
+                                "count": 1
+                            },
+                            {
+                                "count": 1,
+                                "disambiguation": "",
+                                "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                                "name": "pop"
+                            },
+                            {
+                                "disambiguation": "",
+                                "count": 1,
+                                "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                                "name": "rock"
+                            }
+                        ],
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "sort-name": "Parlophone",
+                        "type": "Original Production",
+                        "tags": [
+                            {
+                                "name": "alternative",
+                                "count": 1
+                            },
+                            {
+                                "count": 1,
+                                "name": "alternative rock"
+                            },
+                            {
+                                "count": 1,
+                                "name": "art rock"
+                            }
+                        ],
+                        "label-code": 299
+                    }
+                }
+            ],
+            "id": "2d2f24ec-ee86-41eb-bf06-025111511cb1",
+            "genres": [],
+            "country": "NL",
+            "packaging": null,
+            "annotation": null,
+            "release-group": {
+                "title": "'n zoen moet je mondeling doen / Met jou wil ik uit visschen gaan",
+                "relations": [],
+                "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                "primary-type": "Single",
+                "tags": [],
+                "secondary-types": [],
+                "disambiguation": "",
+                "aliases": [],
+                "artist-credit": [
+                    {
+                        "joinphrase": "",
+                        "name": "Willy Derby",
+                        "artist": {
+                            "disambiguation": "",
+                            "country": "NL",
+                            "aliases": [
+                                {
+                                    "name": "Willem Frederik Christiaan Dieben",
+                                    "type-id": null,
+                                    "primary": null,
+                                    "sort-name": "Dieben, Willem Frederik Christiaan",
+                                    "locale": null,
+                                    "type": null,
+                                    "begin": null,
+                                    "end": null,
+                                    "ended": false
+                                }
+                            ],
+                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                            "id": "40010e46-28bc-4254-abbc-2e525dc382d4",
+                            "name": "Willy Derby",
+                            "rating": {
+                                "value": null,
+                                "votes-count": 0
+                            },
+                            "type": "Person",
+                            "sort-name": "Derby, Willy"
+                        }
+                    }
+                ],
+                "secondary-type-ids": [],
+                "id": "ab6c2c95-9a25-458e-88d7-ae7b2d549806",
+                "genres": [],
+                "rating": {
+                    "votes-count": 0,
+                    "value": null
+                },
+                "first-release-date": "1921"
+            },
+            "tags": []
+        }
+    ]
+}
