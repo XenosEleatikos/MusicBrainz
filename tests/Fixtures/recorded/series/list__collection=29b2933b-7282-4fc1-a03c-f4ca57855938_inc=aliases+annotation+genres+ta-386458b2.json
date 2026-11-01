@@ -1,0 +1,19 @@
+{
+    "series-offset": 0,
+    "series-count": 1,
+    "series": [
+        {
+            "type-id": "52b90f1e-ff62-3bd0-b254-5d91ced5d757",
+            "genres": [],
+            "user-tags": [],
+            "id": "c91a484c-b9f5-4842-a39f-906c4bfc9c7e",
+            "disambiguation": "Stradivari Series",
+            "type": "Release series",
+            "name": "Beethoven: Symphonies",
+            "tags": [],
+            "annotation": null,
+            "user-genres": [],
+            "aliases": []
+        }
+    ]
+}
