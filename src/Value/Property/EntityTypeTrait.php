@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\MusicBrainz;
 use MusicBrainz\Value\EntityType;
 
 /**
@@ -39,6 +40,11 @@ trait EntityTypeTrait
      */
     private function setEntityTypeFromArray(array $input, string $key = 'entity-type'): void
     {
-        $this->entityType = ArrayAccess::getEnum($input, $key, EntityType::class);
+        $value = ArrayAccess::getString($input, $key);
+        $this->entityType = null === $value ? null : EntityType::tryFrom($value);
+
+        if (null !== $value && null === $this->entityType) {
+            MusicBrainz::log()->error('Unexpected API behavior: "' . $value . '" is not a known EntityType');
+        }
     }
 }

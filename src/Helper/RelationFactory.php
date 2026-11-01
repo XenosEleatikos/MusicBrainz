@@ -64,10 +64,11 @@ class RelationFactory
             return null;
         }
 
-        $direction = ArrayAccess::getEnum($relation, 'direction', Direction::class);
+        $directionCode = ArrayAccess::getString($relation, 'direction');
+        $direction = null === $directionCode ? null : Direction::tryFrom($directionCode);
 
         if (null === $direction) {
-            MusicBrainz::log()->alert('Cannot resolve relation without a valid direction. See: https://musicbrainz.org/relationship/' . $relationTypeId);
+            MusicBrainz::log()->alert('Cannot resolve relation without a valid direction (got "' . ($directionCode ?? 'null') . '"). See: https://musicbrainz.org/relationship/' . $relationTypeId);
 
             return null;
         }

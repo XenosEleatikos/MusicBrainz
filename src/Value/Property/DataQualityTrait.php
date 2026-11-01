@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Value\Property;
 
 use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\MusicBrainz;
 use MusicBrainz\Value\DataQuality;
 
 /**
@@ -38,6 +39,11 @@ trait DataQualityTrait
      */
     private function setDataQualityFromArray(array $input): void
     {
-        $this->quality = ArrayAccess::getEnum($input, 'quality', DataQuality::class);
+        $value = ArrayAccess::getString($input, 'quality');
+        $this->quality = null === $value ? null : DataQuality::tryFrom($value);
+
+        if (null !== $value && null === $this->quality) {
+            MusicBrainz::log()->error('Unexpected API behavior: "' . $value . '" is not a known DataQuality');
+        }
     }
 }
