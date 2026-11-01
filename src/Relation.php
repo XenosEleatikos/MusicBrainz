@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz;
 
+use LogicException;
 use MusicBrainz\Definition\RelationTypeId;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
@@ -160,7 +161,7 @@ final readonly class Relation
             EntityType::Series       => Series::fromArray($data),
             EntityType::Url          => URL::fromArray($data),
             EntityType::Work         => Work::fromArray($data),
-            default                  => throw new Exception('Relations to ' . $type->value . ' are not supported'),
+            default                  => throw new LogicException('Relations to ' . $type->value . ' are not supported'),
         };
     }
 

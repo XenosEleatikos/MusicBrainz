@@ -7,9 +7,10 @@ namespace MusicBrainz\Value;
 use ArrayAccess;
 use ArrayIterator;
 use Countable;
+use LogicException;
 use IteratorAggregate;
-use MusicBrainz\Exception;
 use MusicBrainz\MusicBrainz;
+use OutOfRangeException;
 use Traversable;
 
 use function array_key_exists;
@@ -119,17 +120,17 @@ final readonly class Page implements ArrayAccess, Countable, IteratorAggregate
      */
     public function offsetGet(mixed $offset): mixed
     {
-        return $this->items[$offset] ?? throw new Exception('There is no element at position ' . var_export($offset, true));
+        return $this->items[$offset] ?? throw new OutOfRangeException('There is no element at position ' . var_export($offset, true));
     }
 
     public function offsetSet(mixed $offset, mixed $value): never
     {
-        throw new Exception('A page is immutable');
+        throw new LogicException('A page is immutable');
     }
 
     public function offsetUnset(mixed $offset): never
     {
-        throw new Exception('A page is immutable');
+        throw new LogicException('A page is immutable');
     }
 
     /**

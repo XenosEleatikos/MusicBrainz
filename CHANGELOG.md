@@ -46,6 +46,11 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- Exceptions: `MusicBrainz\ExceptionInterface` is implemented by everything the library throws on purpose. `ApiException` (HTTP
+  status as code), `TransportException`, `ResponseException` and `ConfigurationException` extend `MusicBrainz\Exception` for
+  everything that goes wrong with a request; `InvalidArgumentException` (an SPL exception) signals invalid input and is no
+  longer an `Exception`, so that a `catch` around a request does not swallow programming errors. `Config` validates its
+  settings, and the library logs a warning, once, if the default user agent is used.
 - A section in the README that thanks the authors the library builds on.
 - Input is validated: an invalid MBID or date, an empty text value, a bad page filter or an empty search filter throw a
   `MusicBrainz\InvalidArgumentException`. What the web service delivers is read tolerantly: an invalid id or date, a

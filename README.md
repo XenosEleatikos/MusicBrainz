@@ -230,8 +230,17 @@ foreach ($artist->relations?->to(EntityType::Artist) ?? [] as $relation) {
 ```
 
 ### Errors
-Failed requests throw a `MusicBrainz\Exception`; its code is the HTTP status (404 for an unknown MBID). Responses with
-HTTP 503 are retried automatically, see `Config::setMaxRetries()`.
+Everything the library throws on purpose implements `MusicBrainz\ExceptionInterface`:
+
+- `MusicBrainz\ApiException`: the web service answered with an HTTP error; the code is the HTTP status (404 for an unknown
+  MBID, 401 for a missing or invalid token). Responses with HTTP 503 are retried automatically, see
+  `Config::setMaxRetries()`.
+- `MusicBrainz\TransportException`: the HTTP client failed (no connection, timeout).
+- `MusicBrainz\ResponseException`: the answer was not the expected JSON.
+- `MusicBrainz\ConfigurationException`: no user agent, or a token is needed and none is set.
+
+These extend `MusicBrainz\Exception`. `MusicBrainz\InvalidArgumentException` (an SPL `InvalidArgumentException`) signals invalid
+input such as an MBID that is no UUID; it is a bug in the calling code and not an `Exception`.
 
 ## Stability
 The public API is what this readme describes: the `MusicBrainz` entry point and its `Config`, the lookup, browse and search

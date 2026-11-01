@@ -7,6 +7,11 @@ namespace MusicBrainz\Http;
 use JsonException;
 use MusicBrainz\Config;
 use MusicBrainz\Exception;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\TransportException;
+use MusicBrainz\ResponseException;
+use MusicBrainz\ConfigurationException;
+use MusicBrainz\ApiException;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
@@ -16,6 +21,7 @@ use function http_build_query;
 use function is_array;
 use function json_decode;
 use function max;
+use function mb_strimwidth;
 use function microtime;
 use function parse_url;
 use function strtotime;
@@ -51,6 +57,9 @@ final class ApiClient
      */
     private static array $lastRequest = [];
 
+    /** Whether the warning about the default user agent was given already (once per process) */
+    private static bool $warnedAboutUserAgent = false;
+
     public function __construct(
         private readonly ClientInterface $client,
         private readonly RequestFactoryInterface $requestFactory,
@@ -71,7 +80,15 @@ final class ApiClient
     public function call(string $path, Config $config, array $params = [], bool $isAuthRequired = false): array
     {
         if ('' === trim($config->getUserAgent())) {
-            throw new Exception('You must set a valid User Agent before accessing the MusicBrainz API');
+            throw new ConfigurationException('You must set a valid User Agent before accessing the MusicBrainz API');
+        }
+
+        if (Config::DEFAULT_USER_AGENT === $config->getUserAgent() && !self::$warnedAboutUserAgent) {
+            self::$warnedAboutUserAgent = true;
+            MusicBrainz::log()->warning(
+                'The default user agent is shared by all applications; MusicBrainz asks for one that identifies yours: '
+                . '$musicBrainz->config()->setUserAgent(\'MyApp/1.0 ( https://example.org/contact )\')'
+            );
         }
 
         $params['fmt'] = 'json';
@@ -87,7 +104,7 @@ final class ApiClient
         if (null !== $token && '' !== $token) {
             $request = $request->withHeader('Authorization', 'Bearer ' . $token);
         } elseif ($isAuthRequired) {
-            throw new Exception('Authentication is required: set an OAuth2 access token in the configuration');
+            throw new ConfigurationException('Authentication is required: set an OAuth2 access token in the configuration');
         }
 
         $host = (string) parse_url($url, PHP_URL_HOST);
@@ -97,7 +114,7 @@ final class ApiClient
             try {
                 $response = $this->client->sendRequest($request);
             } catch (ClientExceptionInterface $exception) {
-                throw new Exception($exception->getMessage(), 0, $exception);
+                throw new TransportException($exception->getMessage(), 0, $exception);
             }
             self::$lastRequest[$host] = microtime(true);
         } while (503 === $response->getStatusCode() && $attempt++ < $config->getMaxRetries() && $this->wait($response));
@@ -158,11 +175,11 @@ final class ApiClient
             $message = is_array($data) && isset($data['error']) && is_string($data['error'])
                 ? $data['error']
                 : 'HTTP ' . $status;
-            throw new Exception('MusicBrainz API error: ' . $message, $status);
+            throw new ApiException('MusicBrainz API error: ' . $message, $status);
         }
 
         if (!is_array($data)) {
-            throw new Exception('Unexpected response from the web service: ' . $body);
+            throw new ResponseException('Unexpected response from the web service: ' . mb_strimwidth($body, 0, 200, '…'));
         }
 
         return $data;

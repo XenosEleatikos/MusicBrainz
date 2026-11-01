@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace MusicBrainz;
 
+use function preg_match;
+use function rtrim;
+
 /**
  * The API client configuration
  */
@@ -34,7 +37,10 @@ final class Config
      *
      * @var string
      */
-    private string $userAgent = 'XenosMusicBrainz/2 ( https://github.com/XenosEleatikos/MusicBrainz )';
+    /** The user agent used if the application sets none. All applications share it, so please set your own. */
+    public const DEFAULT_USER_AGENT = 'XenosMusicBrainz/2 ( https://github.com/XenosEleatikos/MusicBrainz )';
+
+    private string $userAgent = self::DEFAULT_USER_AGENT;
 
     /**
      * URL of the MusicBrainz API
@@ -62,6 +68,9 @@ final class Config
 
     public function setMinRequestInterval(float $seconds): self
     {
+        if ($seconds < 0) {
+            throw new InvalidArgumentException('The interval between requests must not be negative, got ' . $seconds);
+        }
         $this->minRequestInterval = $seconds;
 
         return $this;
@@ -74,6 +83,9 @@ final class Config
 
     public function setMaxRetries(int $maxRetries): self
     {
+        if ($maxRetries < 0) {
+            throw new InvalidArgumentException('The number of retries must not be negative, got ' . $maxRetries);
+        }
         $this->maxRetries = $maxRetries;
 
         return $this;
@@ -122,7 +134,10 @@ final class Config
      */
     public function setApiUrl(string $apiUrl): Config
     {
-        $this->apiUrl = $apiUrl;
+        if (1 !== preg_match('~^https?://[^/\s]+~i', $apiUrl)) {
+            throw new InvalidArgumentException('The API URL must start with http:// or https://, got "' . $apiUrl . '"');
+        }
+        $this->apiUrl = rtrim($apiUrl, '/');
 
         return $this;
     }

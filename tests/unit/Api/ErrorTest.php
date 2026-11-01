@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Api;
 
-use MusicBrainz\Exception;
+use MusicBrainz\ApiException;
 use MusicBrainz\Filter\Browse\Relation\Entity\ArtistRelation;
 use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Supplement\Browse\ArtistFields;
@@ -42,7 +42,7 @@ final class ErrorTest extends TestCase
 
         $exception = RecordedApi::scenarios()[$scenario]($api->musicBrainz);
 
-        self::assertInstanceOf(Exception::class, $exception);
+        self::assertInstanceOf(ApiException::class, $exception);
         self::assertSame(404, $exception->getCode());
         self::assertSame('MusicBrainz API error: Not Found', $exception->getMessage());
     }
@@ -51,7 +51,7 @@ final class ErrorTest extends TestCase
     {
         $api = new RecordedApi();
 
-        $this->expectException(Exception::class);
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('at least one argument');
 
         try {

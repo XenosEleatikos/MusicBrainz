@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Value;
 
-use MusicBrainz\Exception;
+use MusicBrainz\ExceptionInterface;
 use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Value\MBID;
 use PHPUnit\Framework\TestCase;
@@ -25,9 +25,9 @@ final class MBIDTest extends TestCase
         new MBID('typo');
     }
 
-    public function testTheExceptionIsAMusicBrainzException(): void
+    public function testTheExceptionBelongsToTheLibrary(): void
     {
-        $this->expectException(Exception::class);
+        $this->expectException(ExceptionInterface::class);
 
         new MBID('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600');
     }
