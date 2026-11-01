@@ -8,6 +8,10 @@ use MusicBrainz\Supplement\Fields;
 
 class InstrumentFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\TagsTrait;
+    use \MusicBrainz\Supplement\Field\GenresTrait;
+    use \MusicBrainz\Supplement\Field\UserTagsTrait;
+    use \MusicBrainz\Supplement\Field\UserGenresTrait;
     use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\InstrumentRelationsTrait;

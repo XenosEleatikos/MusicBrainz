@@ -11,6 +11,7 @@ declare(strict_types=1);
  *   pattern    Only run scenarios whose name contains one of the patterns (e.g. "lookup/artist")
  *   --refresh  Ask the web service again, even if a fixture already exists
  *   --list     List the scenarios and exit
+ *   --prune    After running all scenarios (no pattern), delete fixtures no scenario uses any more
  *
  * Requests are throttled to one per second. Fixtures that already exist are never requested again unless --refresh is
  * given. Warnings and errors the library logs while parsing a response are printed per scenario: they point at
@@ -31,6 +32,7 @@ require __DIR__ . '/../vendor/autoload.php';
 $arguments = array_slice($argv, 1);
 $refresh = in_array('--refresh', $arguments, true);
 $list = in_array('--list', $arguments, true);
+$prune = in_array('--prune', $arguments, true);
 $patterns = array_values(array_filter($arguments, static fn (string $a): bool => !str_starts_with($a, '--')));
 
 /** @var array<string, callable(MusicBrainz): mixed> $scenarios */
@@ -103,4 +105,12 @@ foreach ($scenarios as $name => $scenario) {
 }
 
 printf("\n%d scenarios, %d failed, %d with log messages, %d requests to the web service\n", count($scenarios), $failed, $noisy, $http->networkRequests);
+if ($prune) {
+    if ($patterns || $failed) {
+        echo "Not pruning: only possible for a complete, successful run.\n";
+    } else {
+        $deleted = $store->prune($http->used);
+        printf("Pruned %d unused fixtures\n", count($deleted));
+    }
+}
 exit($failed ? 1 : 0);

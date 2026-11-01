@@ -1,0 +1,3544 @@
+{
+    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+    "recordings": [
+        {
+            "video": false,
+            "aliases": [],
+            "title": "\" The Grid\" Tron Remix",
+            "length": 94981,
+            "disambiguation": "",
+            "tags": [],
+            "id": "b45a554b-8a63-43c5-b26e-187aa3e15d50",
+            "genres": []
+        },
+        {
+            "length": 19000,
+            "disambiguation": "One More Virgin Jingle 1 + 5 + 9",
+            "video": false,
+            "aliases": [],
+            "title": "(Jingle)",
+            "id": "ab9bfca7-ca9b-4f4c-8c81-49cc6b8fd8fc",
+            "genres": [],
+            "tags": []
+        },
+        {
+            "tags": [],
+            "id": "0fd30808-8881-447c-a845-a4c5e81d5d51",
+            "genres": [],
+            "aliases": [],
+            "video": false,
+            "title": "(Jingle)",
+            "length": 7000,
+            "disambiguation": "One More Virgin Jingle 2 + 6"
+        }
+    ],
+    "end-area": null,
+    "tags": [
+        {
+            "count": 2,
+            "name": "club"
+        },
+        {
+            "name": "dance",
+            "count": 6
+        },
+        {
+            "name": "dance and electronica",
+            "count": 1
+        }
+    ],
+    "type": "Group",
+    "area": {
+        "type-id": null,
+        "disambiguation": "",
+        "id": "08310658-51eb-3801-80de-5a0739207115",
+        "name": "France",
+        "type": null,
+        "iso-3166-1-codes": [
+            "FR"
+        ],
+        "sort-name": "France"
+    },
+    "gender": null,
+    "country": "FR",
+    "gender-id": null,
+    "annotation": null,
+    "life-span": {
+        "ended": true,
+        "begin": "1993",
+        "end": "2021-02-22"
+    },
+    "relations": [
+        {
+            "source-credit": "",
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "id": "122a2714-24f8-4046-a532-64064b5076d2",
+                "country": "US",
+                "name": "Thomas Bangalter",
+                "type": "Person",
+                "sort-name": "Bangalter, Thomas"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f",
+                "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+            },
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "type": "member of band",
+            "direction": "backward",
+            "begin": "1993",
+            "target-type": "artist",
+            "end": "2021-02-22",
+            "attributes": [
+                "bass",
+                "keyboard",
+                "original",
+                "synthesizer"
+            ],
+            "attribute-credits": [],
+            "ended": true
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155",
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978",
+                "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+            },
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "sort-name": "Homem‐Christo, Guy‐Manuel, de",
+                "type": "Person",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "name": "Guy‐Manuel de Homem‐Christo",
+                "id": "83886397-adf2-431a-b841-dc4af744a6cc",
+                "country": "FR"
+            },
+            "begin": "1993",
+            "target-type": "artist",
+            "end": "2021-02-22",
+            "attributes": [
+                "drums (drum set)",
+                "guitar",
+                "original",
+                "synthesizer"
+            ],
+            "ended": true,
+            "attribute-credits": [],
+            "direction": "backward",
+            "type": "member of band",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821"
+        },
+        {
+            "direction": "backward",
+            "ended": false,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "type-id": "1af24726-5b1f-4b07-826e-5351723f504b",
+            "type": "named after artist",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "artist": {
+                "sort-name": "Daft Punk NFT",
+                "type": null,
+                "disambiguation": "",
+                "type-id": null,
+                "name": "Daft Punk NFT",
+                "id": "80846e42-6bba-4fed-9d08-f095b15f28ec",
+                "country": null
+            }
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "direction": "backward",
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "",
+                "country": "IE",
+                "id": "00ed6585-726c-4d21-9eec-f7548cb3a926",
+                "name": "Daft Funk",
+                "type": "Group",
+                "sort-name": "Daft Funk"
+            }
+        },
+        {
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "type-id": null,
+                "disambiguation": "Mecado-artist used for covers",
+                "country": null,
+                "id": "8c4c6781-82e2-4a37-9fbb-664cc52d4eaf",
+                "name": "Dance Funk",
+                "type": null,
+                "sort-name": "Dance Funk"
+            },
+            "end": null,
+            "target-type": "artist",
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "backward",
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f"
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "type": "Group",
+                "sort-name": "Discovery",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "Australian Daft Punk Tribute",
+                "id": "d18af91c-6ce0-4096-8286-1daf594a9a7f",
+                "country": "AU",
+                "name": "Discovery"
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "direction": "backward"
+        },
+        {
+            "event": {
+                "type-id": "d23e6bdf-1007-443a-ad2a-82f4a728b5e9",
+                "name": "56th Annual GRAMMY Awards",
+                "id": "76d5facb-a31e-43d9-a33a-20a7fd7a9ba0",
+                "type": "Award ceremony",
+                "disambiguation": "",
+                "time": "17:00",
+                "cancelled": false,
+                "life-span": {
+                    "ended": true,
+                    "begin": "2014-01-26",
+                    "end": "2014-01-26"
+                },
+                "setlist": ""
+            },
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "type": "main performer",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "event",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "event": {
+                "setlist": "# House of Groove\r\n@ Rockers Hi-Fi\r\n@ Dub Warriors\r\n@ Rub Ultra\r\n@ Dj Cam & Dj Yellow\r\n@ Daft Punk\r\n@ S & M",
+                "life-span": {
+                    "begin": "1995-09-22",
+                    "end": "1995-09-22",
+                    "ended": true
+                },
+                "cancelled": false,
+                "time": "",
+                "disambiguation": "2ème soir - vendredi",
+                "type": "Concert",
+                "id": "cb8833ad-4fb7-4161-bc83-b669020cdead",
+                "name": "1995-09-22: Inauguration de l’Olympic rénovée, Nantes, France",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "main performer",
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "target-type": "event",
+            "attributes": [],
+            "direction": "forward"
+        },
+        {
+            "type": "main performer",
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "ended": false,
+            "begin": null,
+            "target-type": "event",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "event": {
+                "setlist": "",
+                "life-span": {
+                    "begin": "2006-04-29",
+                    "end": "2007-12-22",
+                    "ended": true
+                },
+                "cancelled": false,
+                "time": "",
+                "disambiguation": "tour",
+                "type": "Concert",
+                "id": "98eb1f5a-a663-4684-b80e-301debf3d275",
+                "name": "Alive 2006/2007",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+            },
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "label": {
+                "label-code": null,
+                "type": "Original Production",
+                "sort-name": "ClubDaft",
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                "disambiguation": "",
+                "id": "ab94c5f0-1a8f-406a-b331-b34481b430ad",
+                "name": "ClubDaft"
+            },
+            "target-credit": "",
+            "direction": "forward",
+            "target-type": "label",
+            "attributes": [],
+            "attribute-ids": [],
+            "end": null,
+            "attribute-values": [],
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "type-id": "fe16f2bd-d324-435a-8076-bcf43b805bd9",
+            "type": "personal label"
+        },
+        {
+            "type": "recording contract",
+            "source-credit": "",
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "attribute-values": [],
+            "begin": null,
+            "target-type": "label",
+            "attributes": [],
+            "attribute-ids": [],
+            "end": null,
+            "ended": false,
+            "target-credit": "",
+            "label": {
+                "sort-name": "Columbia Records",
+                "type": "Original Production",
+                "label-code": 162,
+                "name": "Columbia Records",
+                "id": "ad6f8706-c95e-443b-8579-8e3ecd27126c",
+                "disambiguation": "EMI‐owned 1931–1990, worldwide except US, CA, MX, ES, & JP; largely defunct since Jan 1973",
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+            },
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "label": {
+                "id": "61668889-f6cd-48bd-b221-622028b67c1b",
+                "name": "Daft Life Limited",
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "disambiguation": "holding, file NO releases here!",
+                "type": "Holding",
+                "sort-name": "Daft Life Limited",
+                "label-code": null
+            },
+            "target-credit": "",
+            "ended": false,
+            "target-type": "label",
+            "end": null,
+            "attribute-ids": [],
+            "attributes": [],
+            "attribute-values": [],
+            "begin": null,
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "source-credit": "",
+            "type": "recording contract"
+        },
+        {
+            "target-credit": "",
+            "label": {
+                "sort-name": "Soma Records",
+                "type": "Original Production",
+                "label-code": null,
+                "name": "Soma Records",
+                "id": "dcd9689f-3dee-4765-8a1e-3f79956ce6e0",
+                "disambiguation": "Glasgow-based electronic label",
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+            },
+            "direction": "forward",
+            "begin": null,
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "label",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "source-credit": "",
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "type": "recording contract"
+        },
+        {
+            "type-id": "666c5ee3-b763-4b74-8f71-3456dfd3e755",
+            "source-credit": "",
+            "place": {
+                "area": {
+                    "disambiguation": "",
+                    "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+                    "name": "Paris",
+                    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                    "iso-3166-2-codes": [
+                        "FR-75"
+                    ],
+                    "type": "City",
+                    "sort-name": "Paris"
+                },
+                "disambiguation": "",
+                "coordinates": null,
+                "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                "address": "",
+                "name": "Daft House",
+                "id": "a89a5a08-fc9c-4548-a10e-708861ba3c84",
+                "type": "Studio"
+            },
+            "type": "engineer position",
+            "direction": "forward",
+            "target-credit": "",
+            "ended": false,
+            "attribute-values": [],
+            "begin": null,
+            "target-type": "place",
+            "end": null,
+            "attribute-ids": [],
+            "attributes": []
+        },
+        {
+            "type": "creative direction",
+            "type-id": "0eb67a3e-796b-4394-ab6e-1224f43236b6",
+            "recording": {
+                "video": true,
+                "title": "Robot Rock",
+                "length": 193000,
+                "id": "342e5282-5543-447d-a80b-2a9f2bcdd082",
+                "disambiguation": ""
+            },
+            "ended": false,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "type-id": "0eb67a3e-796b-4394-ab6e-1224f43236b6",
+            "type": "creative direction",
+            "direction": "forward",
+            "recording": {
+                "length": 174000,
+                "id": "7802f8d4-c75b-47ae-b470-7496a82b085d",
+                "disambiguation": "",
+                "video": true,
+                "title": "Technologic"
+            },
+            "ended": false,
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "40dff87a-e475-4aa6-b615-9935b564d756",
+            "type": "editor",
+            "direction": "forward",
+            "recording": {
+                "video": false,
+                "title": "I Gotta Try You Girl (Daft Punk edit)",
+                "id": "2dbd7070-3e61-4f6c-926f-e2aa6481e9c2",
+                "length": 921000,
+                "disambiguation": ""
+            },
+            "ended": false,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": {
+                "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+            },
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "synthesizer"
+            ],
+            "begin": null,
+            "attribute-credits": [],
+            "recording": {
+                "id": "ce495790-b2f7-4ff0-858c-8df38c2025ab",
+                "length": 290000,
+                "disambiguation": "",
+                "video": false,
+                "title": "Beyond"
+            },
+            "ended": false,
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "type": "instrument"
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "synthesizer"
+            ],
+            "ended": false,
+            "recording": {
+                "title": "Contact",
+                "video": false,
+                "disambiguation": "",
+                "length": 381000,
+                "id": "78194fbe-3bcd-4afe-b4a6-7a97711c325f"
+            },
+            "attribute-credits": [],
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "type": "instrument"
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": {
+                "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+            },
+            "target-credit": "",
+            "source-credit": "",
+            "begin": null,
+            "end": null,
+            "target-type": "recording",
+            "attributes": [
+                "synthesizer"
+            ],
+            "ended": false,
+            "recording": {
+                "title": "Doin’ It Right",
+                "video": false,
+                "disambiguation": "",
+                "length": 251000,
+                "id": "4e4a5947-a6e5-4091-9b42-f7e9ba387c1b"
+            },
+            "attribute-credits": [],
+            "direction": "forward",
+            "type": "instrument",
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+        },
+        {
+            "type-id": "28338ee6-d578-485a-bb53-61dbfd7c6545",
+            "type": "mix-DJ",
+            "direction": "forward",
+            "recording": {
+                "length": 7244000,
+                "id": "88826caf-88a9-40d8-b93c-c78aea8fa8d7",
+                "disambiguation": "",
+                "video": false,
+                "title": "1998-12-31: Daft Punk, BBC Radio One Essential Selection"
+            },
+            "ended": false,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "mix-DJ",
+            "type-id": "28338ee6-d578-485a-bb53-61dbfd7c6545",
+            "ended": false,
+            "recording": {
+                "length": 7450000,
+                "id": "6f4b3fa6-345b-4b5b-975f-6a72eb1ada97",
+                "disambiguation": "",
+                "video": false,
+                "title": "1999-01-01: BBC Radio One Essential Selection, “Daft Punk Special Edition Hotmix”"
+            },
+            "begin": null,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "28338ee6-d578-485a-bb53-61dbfd7c6545",
+            "type": "mix-DJ",
+            "direction": "forward",
+            "ended": false,
+            "recording": {
+                "length": 127000,
+                "id": "34d9e61f-c881-4409-8cef-8e59f2f16b35",
+                "disambiguation": "live, 1995-11-04: Planet Rose, Nijmegen, Netherlands",
+                "video": false,
+                "title": "Big Fun"
+            },
+            "end": null,
+            "target-type": "recording",
+            "attributes": [],
+            "begin": null
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c"
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "recording": {
+                "title": "Gust of Wind",
+                "video": false,
+                "disambiguation": "",
+                "length": 285000,
+                "id": "d3177d1e-76a5-4e57-a2f4-b3a9ba298d19"
+            },
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "guest"
+            ],
+            "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+            "type": "performer"
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "recording": {
+                "disambiguation": "",
+                "id": "911e4813-56ea-4490-8fcd-cc3dcd0ae7ca",
+                "length": 269173,
+                "title": "I Feel It Coming",
+                "video": false
+            },
+            "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+            "type": "performer"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+            "type": "performer",
+            "direction": "forward",
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "recording": {
+                "length": 361000,
+                "id": "986d463a-427b-450e-88bd-eb7a7035916e",
+                "disambiguation": "",
+                "video": false,
+                "title": "Rock With You (White Label)"
+            }
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "recording": {
+                "title": "Alive",
+                "video": false,
+                "disambiguation": "",
+                "id": "a08473a1-e622-49cc-bb97-65f813429025",
+                "length": 315266
+            },
+            "ended": false,
+            "begin": null,
+            "attributes": [],
+            "target-type": "recording",
+            "end": null,
+            "direction": "forward",
+            "type": "producer",
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+            "type": "producer",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "recording": {
+                "disambiguation": "live, 1997-11-08: Que Club, Birmingham, UK",
+                "length": 2733733,
+                "id": "2bf44ad4-4c09-4c40-bb85-098dad5abe5b",
+                "title": "Alive 1997",
+                "video": false
+            },
+            "ended": false
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "producer",
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "recording": {
+                "video": false,
+                "title": "Alive 1997 (Part 1)",
+                "id": "24a06329-b3ce-4c93-a9d6-d238a249c9cb",
+                "length": 1297000,
+                "disambiguation": ""
+            },
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+            "type": "recording",
+            "direction": "forward",
+            "recording": {
+                "id": "10cdacde-e54a-412a-863b-81d9ea6b3df2",
+                "length": 164560,
+                "disambiguation": "",
+                "video": false,
+                "title": "Daftendirekt"
+            },
+            "ended": false,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "remixer",
+            "type-id": "7950be4d-13a3-48e7-906b-5af562e39544",
+            "recording": {
+                "disambiguation": "",
+                "length": 370986,
+                "id": "08e81a60-6788-4682-be49-52b8e2a55e1b",
+                "title": "Aerodynamic (Daft Punk remix)",
+                "video": false
+            },
+            "ended": false,
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "direction": "forward"
+        },
+        {
+            "type": "remixer",
+            "type-id": "7950be4d-13a3-48e7-906b-5af562e39544",
+            "ended": false,
+            "recording": {
+                "video": false,
+                "title": "Another One Bites the Dust vs. Brass Monkey (Alt. version) (Queen vs. Beastie Boys)",
+                "length": null,
+                "id": "b9952988-94f6-49af-beee-e357e5c4ae45",
+                "disambiguation": ""
+            },
+            "begin": null,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "7950be4d-13a3-48e7-906b-5af562e39544",
+            "type": "remixer",
+            "direction": "forward",
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "recording": {
+                "disambiguation": "",
+                "length": null,
+                "id": "d274b4ee-a1e4-4c23-a538-909d58f87e50",
+                "title": "Another One Bites the Dust vs. Da Funk (Queen vs. Daft Punk)",
+                "video": false
+            },
+            "ended": false
+        },
+        {
+            "type-id": "83f72956-2007-4bca-8a97-0ae539cca99d",
+            "type": "samples from artist",
+            "direction": "forward",
+            "ended": true,
+            "recording": {
+                "title": "Fantastic Beats and Where to Find Them",
+                "video": false,
+                "disambiguation": "",
+                "length": 1752000,
+                "id": "6a6834e2-bbc5-4427-8f13-1ec50f77d2fb"
+            },
+            "target-type": "recording",
+            "attributes": [],
+            "end": "2016-10-10",
+            "begin": "2016-10-10",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "direction": "forward",
+            "recording": {
+                "length": 214337,
+                "id": "c0f70fa4-cf0c-40dd-b72c-89dce1f87b0d",
+                "disambiguation": "Mashup",
+                "video": false,
+                "title": "Daft Punk vs Outkast - Punk Roses"
+            },
+            "ended": false,
+            "begin": null,
+            "attributes": [],
+            "target-type": "recording",
+            "end": null,
+            "type-id": "83f72956-2007-4bca-8a97-0ae539cca99d",
+            "type": "samples from artist",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "83f72956-2007-4bca-8a97-0ae539cca99d",
+            "type": "samples from artist",
+            "direction": "forward",
+            "recording": {
+                "disambiguation": "",
+                "length": 260000,
+                "id": "eb10e63f-60d7-4c2e-9424-9ec6b7a5fbe9",
+                "title": "Superstition",
+                "video": false
+            },
+            "ended": false,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "video appearance",
+            "type-id": "601fc03e-1058-4ee6-a546-b914d55aa6ba",
+            "ended": false,
+            "recording": {
+                "length": 2424000,
+                "id": "655360ae-07eb-4db1-a1cc-b020c538a17e",
+                "disambiguation": "",
+                "video": true,
+                "title": "I've Been 12 Forever (Part 1 Age 12-12)"
+            },
+            "begin": null,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "direction": "forward"
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "recording": {
+                "title": "I've Been 12 Forever (Part 2 Age 12-12)",
+                "video": true,
+                "disambiguation": "",
+                "id": "e85ef9a5-2c71-4a32-b407-90d071b9c0f0",
+                "length": 2158000
+            },
+            "ended": false,
+            "type-id": "601fc03e-1058-4ee6-a546-b914d55aa6ba",
+            "type": "video appearance"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "578ee04d-3227-4335-ba2c-11e8ba420e0b",
+            "type": "video director",
+            "direction": "forward",
+            "recording": {
+                "disambiguation": "",
+                "id": "b9d8441f-bc4e-4089-9fe1-fb7b50184222",
+                "length": 358000,
+                "title": "Robot Rock (Maximum Overdrive)",
+                "video": true
+            },
+            "ended": false,
+            "attributes": [],
+            "target-type": "recording",
+            "end": null,
+            "begin": null
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "recording": {
+                "length": 290000,
+                "id": "ce495790-b2f7-4ff0-858c-8df38c2025ab",
+                "disambiguation": "",
+                "video": false,
+                "title": "Beyond"
+            },
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "target-type": "recording",
+            "end": null,
+            "begin": null,
+            "recording": {
+                "title": "Digital Love",
+                "video": false,
+                "disambiguation": "starts with a carry over",
+                "length": 298333,
+                "id": "15f16efc-8762-4151-95ab-c12d06268640"
+            },
+            "ended": false,
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal"
+        },
+        {
+            "direction": "forward",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "recording": {
+                "length": 251000,
+                "id": "4e4a5947-a6e5-4091-9b42-f7e9ba387c1b",
+                "disambiguation": "",
+                "video": false,
+                "title": "Doin’ It Right"
+            },
+            "ended": false,
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "direction": "forward",
+            "target-type": "recording",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "end": null,
+            "begin": null,
+            "recording": {
+                "title": "The R.A.M. Interview, Part 1",
+                "video": false,
+                "disambiguation": "",
+                "length": 779000,
+                "id": "5fd5e2e1-2121-4828-a0bf-90e749192569"
+            },
+            "ended": false,
+            "attribute-credits": {
+                "spoken vocals": "interviewed by"
+            },
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "attribute-values": []
+        },
+        {
+            "direction": "forward",
+            "attribute-credits": {
+                "spoken vocals": "interviewed by"
+            },
+            "recording": {
+                "id": "45f22b6e-e94c-4c80-86b6-c27e2769da7c",
+                "length": 803000,
+                "disambiguation": "",
+                "video": false,
+                "title": "The R.A.M. Interview, Part 2"
+            },
+            "ended": false,
+            "end": null,
+            "target-type": "recording",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "begin": null,
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "target-credit": "",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "ended": false,
+            "attribute-credits": [],
+            "target-type": "release",
+            "attributes": [
+                "guitar family"
+            ],
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "instrument",
+            "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+            "attribute-ids": {
+                "guitar family": "f68936f2-194c-4bcd-94a9-81e1dd947b8d"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "release": {
+                "id": "abbc40a0-2bcc-449e-bdd0-2dbae3213517",
+                "quality": "normal",
+                "date": "2005-03-15",
+                "status-id": null,
+                "barcode": "724356356221",
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null,
+                "release-events": [
+                    {
+                        "date": "2005-03-15",
+                        "area": {
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "sort-name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "name": "United States",
+                            "type-id": null,
+                            "disambiguation": ""
+                        }
+                    }
+                ],
+                "country": "US",
+                "packaging": null,
+                "title": "Human After All"
+            },
+            "source-credit": ""
+        },
+        {
+            "release": {
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null,
+                "release-events": [
+                    {
+                        "date": "2005-03-14",
+                        "area": {
+                            "name": "United Kingdom",
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "sort-name": "United Kingdom",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type": null
+                        }
+                    }
+                ],
+                "packaging": null,
+                "country": "GB",
+                "title": "Human After All",
+                "quality": "normal",
+                "id": "fd07d0fc-a68a-3b77-95c9-fd7ec7fea013",
+                "date": "2005-03-14",
+                "disambiguation": "",
+                "status-id": null,
+                "barcode": "724356356221",
+                "status": null,
+                "media": [],
+                "packaging-id": null
+            },
+            "source-credit": "",
+            "attribute-ids": {
+                "guitar family": "f68936f2-194c-4bcd-94a9-81e1dd947b8d"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "instrument",
+            "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+            "target-type": "release",
+            "end": null,
+            "attributes": [
+                "guitar family"
+            ],
+            "begin": null,
+            "attribute-credits": [],
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "guitar family": "f68936f2-194c-4bcd-94a9-81e1dd947b8d"
+            },
+            "source-credit": "",
+            "release": {
+                "packaging-id": null,
+                "media": [],
+                "status": null,
+                "barcode": "724356356207",
+                "status-id": null,
+                "disambiguation": "",
+                "date": "2005-03-14",
+                "id": "0443ddba-cc5d-347c-9859-d72a70eab674",
+                "quality": "normal",
+                "title": "Human After All",
+                "country": "FR",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "sort-name": "France",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "name": "France"
+                        },
+                        "date": "2005-03-14"
+                    }
+                ],
+                "release-group": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                }
+            },
+            "direction": "forward",
+            "attribute-credits": [],
+            "ended": false,
+            "begin": null,
+            "target-type": "release",
+            "end": null,
+            "attributes": [
+                "guitar family"
+            ],
+            "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+            "type": "instrument"
+        },
+        {
+            "target-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "attribute-values": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "type-id": "9162dedd-790c-446c-838e-240f877dbfe2",
+            "release": {
+                "media": [],
+                "status": null,
+                "barcode": "",
+                "status-id": null,
+                "disambiguation": "",
+                "packaging-id": null,
+                "id": "0e3ec8fc-8157-426f-bd6f-5d9f5528852c",
+                "quality": "normal",
+                "date": "1997-03-02",
+                "country": "GB",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "United Kingdom",
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "sort-name": "United Kingdom",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type": null
+                        },
+                        "date": "1997-03-02"
+                    }
+                ],
+                "title": "1997-03-02: BBC Radio 1 Essential Mix",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-group": null
+            },
+            "type": "mix-DJ"
+        },
+        {
+            "type": "mix-DJ",
+            "release": {
+                "date": "2002",
+                "id": "6fd1ed45-d3c6-4d8d-897e-22f6e89c0ff3",
+                "quality": "normal",
+                "packaging-id": null,
+                "barcode": "6002140967728",
+                "status-id": null,
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "release-group": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "title": "Decks n' Drums n' 909",
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "name": "France",
+                            "type": null,
+                            "sort-name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ]
+                        },
+                        "date": "2002"
+                    }
+                ],
+                "country": "FR",
+                "packaging": null
+            },
+            "source-credit": "",
+            "type-id": "9162dedd-790c-446c-838e-240f877dbfe2",
+            "attribute-ids": [],
+            "target-type": "release",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "attribute-values": [],
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward"
+        },
+        {
+            "type": "mix-DJ",
+            "release": {
+                "disambiguation": "",
+                "barcode": "653397230323",
+                "status-id": null,
+                "status": null,
+                "media": [],
+                "packaging-id": null,
+                "quality": "normal",
+                "id": "62b60f24-ea46-4114-941d-8971ea5d6f5c",
+                "date": "2009-03-14",
+                "release-events": [
+                    {
+                        "date": "2009-03-14",
+                        "area": {
+                            "type": null,
+                            "sort-name": "Japan",
+                            "iso-3166-1-codes": [
+                                "JP"
+                            ],
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                            "name": "Japan"
+                        }
+                    }
+                ],
+                "packaging": null,
+                "country": "JP",
+                "title": "Digital Decks",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-group": null
+            },
+            "type-id": "9162dedd-790c-446c-838e-240f877dbfe2",
+            "source-credit": "",
+            "ended": false,
+            "target-type": "release",
+            "attribute-ids": [],
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "attribute-values": [],
+            "direction": "forward",
+            "target-credit": ""
+        },
+        {
+            "begin": null,
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward",
+            "release": {
+                "disambiguation": "",
+                "barcode": null,
+                "status-id": null,
+                "status": null,
+                "media": [],
+                "packaging-id": null,
+                "quality": "normal",
+                "id": "1c9cb764-c738-482f-9d2a-00201fbaf03e",
+                "date": "2010",
+                "release-events": [
+                    {
+                        "date": "2010",
+                        "area": {
+                            "name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "sort-name": "United States",
+                            "type": null
+                        }
+                    }
+                ],
+                "packaging": null,
+                "country": "US",
+                "title": "Derezzed",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-group": null
+            },
+            "type": "producer",
+            "source-credit": "",
+            "type-id": "8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f"
+        },
+        {
+            "type": "producer",
+            "release": {
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null,
+                "release-events": [
+                    {
+                        "date": "2010",
+                        "area": {
+                            "name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "sort-name": "United States",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type": null
+                        }
+                    }
+                ],
+                "country": "US",
+                "packaging": null,
+                "title": "Derezzed",
+                "id": "1c9cb764-c738-482f-9d2a-00201fbaf03e",
+                "quality": "normal",
+                "date": "2010",
+                "status-id": null,
+                "barcode": null,
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "packaging-id": null
+            },
+            "source-credit": "",
+            "type-id": "8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f",
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "target-type": "release",
+            "end": null,
+            "attributes": [
+                "task"
+            ],
+            "attribute-values": {
+                "task": "soundtrack album"
+            },
+            "begin": null,
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward"
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "attribute-values": [],
+            "attributes": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "end": null,
+            "direction": "forward",
+            "target-credit": "",
+            "release": {
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-group": null,
+                "country": "FR",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type": null,
+                            "sort-name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "name": "France",
+                            "type-id": null,
+                            "disambiguation": ""
+                        },
+                        "date": "2001"
+                    }
+                ],
+                "title": "Digital Love",
+                "id": "70b08b7b-9d5e-4e35-813a-7d3549b28e5f",
+                "quality": "normal",
+                "date": "2001",
+                "media": [],
+                "status": null,
+                "barcode": "",
+                "status-id": null,
+                "disambiguation": "",
+                "packaging-id": null
+            },
+            "type": "producer",
+            "type-id": "8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f",
+            "source-credit": ""
+        },
+        {
+            "ended": true,
+            "target-type": "release",
+            "attribute-ids": [],
+            "attributes": [],
+            "end": "2004-11-09",
+            "attribute-values": [],
+            "begin": "2004-09-13",
+            "direction": "forward",
+            "target-credit": "",
+            "type": "recording",
+            "release": {
+                "disambiguation": "",
+                "barcode": "724356356221",
+                "status-id": null,
+                "status": null,
+                "media": [],
+                "packaging-id": null,
+                "quality": "normal",
+                "id": "abbc40a0-2bcc-449e-bdd0-2dbae3213517",
+                "date": "2005-03-15",
+                "release-events": [
+                    {
+                        "date": "2005-03-15",
+                        "area": {
+                            "sort-name": "United States",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type": null,
+                            "name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "disambiguation": "",
+                            "type-id": null
+                        }
+                    }
+                ],
+                "packaging": null,
+                "country": "US",
+                "title": "Human After All",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null
+            },
+            "type-id": "023a6c6d-80af-4f88-ae69-f5f6213f9bf4",
+            "source-credit": ""
+        },
+        {
+            "direction": "forward",
+            "target-credit": "",
+            "ended": true,
+            "end": "2004-11-09",
+            "target-type": "release",
+            "attribute-ids": [],
+            "attributes": [],
+            "attribute-values": [],
+            "begin": "2004-09-13",
+            "type-id": "023a6c6d-80af-4f88-ae69-f5f6213f9bf4",
+            "source-credit": "",
+            "type": "recording",
+            "release": {
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "United Kingdom",
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "sort-name": "United Kingdom",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type": null
+                        },
+                        "date": "2005-03-14"
+                    }
+                ],
+                "country": "GB",
+                "packaging": null,
+                "title": "Human After All",
+                "id": "fd07d0fc-a68a-3b77-95c9-fd7ec7fea013",
+                "quality": "normal",
+                "date": "2005-03-14",
+                "barcode": "724356356221",
+                "status-id": null,
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "packaging-id": null
+            }
+        },
+        {
+            "attribute-values": [],
+            "begin": "2004-09-13",
+            "attributes": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "end": "2004-11-09",
+            "ended": true,
+            "target-credit": "",
+            "direction": "forward",
+            "release": {
+                "media": [],
+                "status": null,
+                "status-id": null,
+                "barcode": "724356356207",
+                "disambiguation": "",
+                "packaging-id": null,
+                "id": "0443ddba-cc5d-347c-9859-d72a70eab674",
+                "quality": "normal",
+                "date": "2005-03-14",
+                "country": "FR",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "sort-name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "type": null,
+                            "name": "France",
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "date": "2005-03-14"
+                    }
+                ],
+                "title": "Human After All",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-group": null
+            },
+            "type": "recording",
+            "source-credit": "",
+            "type-id": "023a6c6d-80af-4f88-ae69-f5f6213f9bf4"
+        },
+        {
+            "type-id": "eb10f8a0-0f4c-4dce-aa47-87bcb2bc42f3",
+            "type": "vocal",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "release",
+            "attributes": [
+                "vocal"
+            ],
+            "end": null,
+            "attribute-credits": [],
+            "ended": false,
+            "source-credit": "",
+            "release": {
+                "status-id": null,
+                "barcode": "",
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "packaging-id": null,
+                "id": "70b08b7b-9d5e-4e35-813a-7d3549b28e5f",
+                "quality": "normal",
+                "date": "2001",
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "France",
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "sort-name": "France",
+                            "type": null
+                        },
+                        "date": "2001"
+                    }
+                ],
+                "country": "FR",
+                "packaging": null,
+                "title": "Digital Love",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "vocal": "d92884b7-ee0c-46d5-96f3-918196ba8c5b"
+            }
+        },
+        {
+            "source-credit": "",
+            "release": {
+                "title": "Harder, Better, Faster, Stronger",
+                "country": "FR",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "name": "France",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "sort-name": "France"
+                        },
+                        "date": "2001"
+                    }
+                ],
+                "release-group": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "packaging-id": null,
+                "media": [],
+                "status": null,
+                "barcode": null,
+                "status-id": null,
+                "disambiguation": "",
+                "date": "2001",
+                "id": "4cc688c7-4080-4924-b138-45bd9cf223ac",
+                "quality": "normal"
+            },
+            "target-credit": "",
+            "attribute-ids": {
+                "vocal": "d92884b7-ee0c-46d5-96f3-918196ba8c5b"
+            },
+            "attribute-values": [],
+            "type-id": "eb10f8a0-0f4c-4dce-aa47-87bcb2bc42f3",
+            "type": "vocal",
+            "direction": "forward",
+            "target-type": "release",
+            "attributes": [
+                "vocal"
+            ],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "attribute-credits": []
+        },
+        {
+            "source-credit": "",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "type": "tribute",
+            "target-credit": "",
+            "release_group": {
+                "first-release-date": "2015-12-17",
+                "id": "01dd473c-e2bb-4533-a786-27ac2803bc52",
+                "primary-type-id": null,
+                "primary-type": null,
+                "title": "Alive 2007 (LeBlanc's Remake)",
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": ""
+            },
+            "direction": "forward",
+            "begin": null,
+            "attribute-values": [],
+            "end": null,
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "attributes": [],
+            "ended": false
+        },
+        {
+            "release_group": {
+                "title": "Brassft Punk",
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": "",
+                "first-release-date": "2013-03-18",
+                "id": "176a5867-deba-499e-9954-58168f392e8f",
+                "primary-type-id": null,
+                "primary-type": null
+            },
+            "direction": "forward",
+            "target-credit": "",
+            "ended": false,
+            "begin": null,
+            "attribute-values": [],
+            "attributes": [],
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "end": null,
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "source-credit": "",
+            "type": "tribute"
+        },
+        {
+            "source-credit": "",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "type": "tribute",
+            "target-credit": "",
+            "direction": "forward",
+            "release_group": {
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": "",
+                "title": "Daft Pomp",
+                "secondary-type-ids": [],
+                "id": "dbe56319-6490-4f88-9c60-75fa494c7c4c",
+                "primary-type-id": null,
+                "primary-type": null,
+                "first-release-date": "2022-11-10"
+            },
+            "attributes": [],
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "end": null,
+            "attribute-values": [],
+            "begin": null,
+            "ended": false
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "attributes": [
+                "number"
+            ],
+            "target-type": "series",
+            "end": null,
+            "direction": "forward",
+            "type": "part of",
+            "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0",
+            "attribute-values": {
+                "number": "2"
+            },
+            "ordering-key": 2,
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-credit": "",
+            "series": {
+                "type": "Artist award",
+                "disambiguation": "",
+                "type-id": "dca73eca-a855-3408-9094-f7d5d073cef0",
+                "name": "Gummy Awards 2007: Best Live Act",
+                "id": "1d46bc52-4c33-4dc6-8190-6580262d628f"
+            },
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": {
+                "number": "33"
+            },
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "ordering-key": 33,
+            "source-credit": "",
+            "series": {
+                "type": "Artist series",
+                "disambiguation": "",
+                "type-id": "c5358f01-618a-396d-8c78-9e76e6a52d7d",
+                "name": "Gummy Awards 2007: Most Overblogged",
+                "id": "f92ada38-e011-48fb-a011-ff2eadd97625"
+            },
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "series",
+            "attributes": [
+                "number"
+            ],
+            "end": null,
+            "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0",
+            "type": "part of"
+        },
+        {
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "direction": "forward",
+            "url": {
+                "resource": "https://www.allmusic.com/artist/mn0000667669",
+                "id": "95b51286-5245-4830-a437-98e91915926d"
+            },
+            "type": "allmusic",
+            "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "type-id": "ea45ed3d-2d5e-456e-8c32-94b6f51426e2",
+            "type": "bandsintown",
+            "url": {
+                "resource": "https://www.bandsintown.com/a/263",
+                "id": "d984967f-34bc-402f-b6b5-9e3b1f37bd2c"
+            }
+        },
+        {
+            "type": "BBC Music page",
+            "url": {
+                "resource": "https://www.bbc.co.uk/music/artists/056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+                "id": "e4b6210e-cbcf-4dc9-977d-53cf33b555ac"
+            },
+            "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+            "begin": null,
+            "target-type": "url",
+            "end": "2020-11-19",
+            "attributes": [],
+            "ended": true,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+            "url": {
+                "resource": "http://emimusic.jp/daftpunk",
+                "id": "12c720d8-04cf-4be1-b17b-fc92b10c73c4"
+            },
+            "type": "discography page",
+            "direction": "forward",
+            "ended": true,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": "2013-10-23",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+            "url": {
+                "resource": "https://daft.fm/artists/daft-punk/",
+                "id": "124f5970-5283-4d83-9afe-dd33f4859da9"
+            },
+            "type": "discography page",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "url": {
+                "resource": "http://sonymusic.co.jp/daftpunk",
+                "id": "b242845a-b3e5-475c-80ac-33caf1081abf"
+            },
+            "type": "discography page",
+            "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "discogs",
+            "url": {
+                "resource": "https://www.discogs.com/artist/1289",
+                "id": "7ec0dfeb-5c20-4639-9f27-ec0cf2399403"
+            },
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "type": "discogs",
+            "url": {
+                "id": "d20f1be8-2d3f-4cf7-984c-d9b9058f1cd7",
+                "resource": "https://www.discogs.com/artist/7618671"
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "Indo Silver Club"
+        },
+        {
+            "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+            "type": "fanpage",
+            "url": {
+                "resource": "https://www.theaudiodb.com/artist/111492-Daft-Punk",
+                "id": "dd4722bd-bc78-46b1-a2c6-0609ebbd4642"
+            },
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "type": "free streaming",
+            "url": {
+                "resource": "https://audiomack.com/daftpunk",
+                "id": "0446cf58-21d0-4e92-8227-1af07562e398"
+            },
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "url": {
+                "id": "21e8faa6-a475-4437-9860-c58dfdb9520f",
+                "resource": "https://music.yandex.com/artist/13905"
+            },
+            "type": "free streaming"
+        },
+        {
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "type": "free streaming",
+            "url": {
+                "id": "fa1527d7-0849-437f-8bcc-364fbf56871f",
+                "resource": "https://open.spotify.com/artist/4tZwfgrHOc3mvqYlEYSvVi"
+            },
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "image",
+            "url": {
+                "resource": "https://commons.wikimedia.org/wiki/File:Daftpunklapremiere2010.jpg",
+                "id": "7221d011-ab2a-4555-ad7f-db9ea00e3155"
+            },
+            "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+            "url": {
+                "resource": "https://www.imdb.com/name/nm1386916/",
+                "id": "062e523e-6e8e-4d8e-a955-2c945c65642f"
+            },
+            "type": "IMDb",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+            "url": {
+                "id": "7bf6ad6b-ea62-4e6f-af0c-0da8193d9901",
+                "resource": "https://www.last.fm/music/Daft+Punk"
+            },
+            "type": "last.fm",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+            "url": {
+                "resource": "https://genius.com/artists/Daft-punk",
+                "id": "cfb96d55-ab0f-4149-a2ef-9734562f170e"
+            },
+            "type": "lyrics"
+        },
+        {
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+            "url": {
+                "id": "84ac0ec0-e956-494a-9d1b-7c7c05470378",
+                "resource": "https://muzikum.eu/en/daft-punk/lyrics"
+            },
+            "type": "lyrics",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "type": "lyrics",
+            "url": {
+                "resource": "https://www.musixmatch.com/artist/Daft-Punk",
+                "id": "48b68a0e-026d-468c-8730-411c4be6d4a6"
+            },
+            "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+            "url": {
+                "id": "b4740227-8d56-4fbb-855a-64072e21dfbd",
+                "resource": "https://myspace.com/daftpunk"
+            },
+            "type": "myspace"
+        },
+        {
+            "direction": "forward",
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+            "url": {
+                "id": "2983c881-0cbe-4b53-9242-c4e5dee7a208",
+                "resource": "https://daftpunk.com/"
+            },
+            "type": "official homepage",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "official homepage",
+            "url": {
+                "id": "39b134e8-1e76-45c4-9ffb-d86a49e85048",
+                "resource": "http://mouskni.com/artists/daft-punk/"
+            },
+            "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": true,
+            "direction": "forward"
+        },
+        {
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": "2025-12-17",
+            "ended": true,
+            "direction": "forward",
+            "type": "other databases",
+            "url": {
+                "resource": "https://jaxsta.com/profile/0c43a427-4e1e-4986-8079-4b7a7359702e",
+                "id": "2340ea9a-0597-4b5d-a962-377c68d5c8ef"
+            },
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "type": "other databases",
+            "url": {
+                "resource": "http://id.loc.gov/authorities/names/no97063566",
+                "id": "160a6d0c-e892-4593-b360-d13128593735"
+            }
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "other databases",
+            "url": {
+                "id": "c1c57586-16e4-49fc-900c-1441d4a98f23",
+                "resource": "http://musicmoz.org/Bands_and_Artists/D/Daft_Punk/"
+            },
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "ended": false,
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "begin": null,
+            "direction": "forward"
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "type": "purchase for download",
+            "url": {
+                "resource": "https://mora.jp/artist/332271/",
+                "id": "c07d47db-ff08-4eba-8d16-d7798755fdba"
+            }
+        },
+        {
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "url": {
+                "resource": "https://music.apple.com/fr/artist/5468295",
+                "id": "478f3f6e-0e74-4e81-a184-4245a1a8975a"
+            },
+            "type": "purchase for download",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "url": {
+                "resource": "https://open.qobuz.com/artist/36819",
+                "id": "57707e49-3bf5-4686-92ab-007aedff506b"
+            },
+            "type": "purchase for download",
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "url": {
+                "resource": "https://www.cdjapan.co.jp/person/700202980",
+                "id": "5b96757b-4e01-455e-b720-07f39dc345ef"
+            },
+            "type": "purchase for mail-order",
+            "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "secondhandsongs",
+            "url": {
+                "resource": "https://secondhandsongs.com/artist/2933",
+                "id": "a30e2982-f0dd-4670-92ac-2a5f421c23ef"
+            },
+            "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+            "url": {
+                "resource": "https://www.setlist.fm/setlists/daft-punk-bd6d5a2.html",
+                "id": "708e0caf-567c-4329-8c7c-5701f725d61d"
+            },
+            "type": "setlistfm",
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "url": {
+                "id": "4c5a0a77-9ea7-48f0-a4e1-13406aa315b8",
+                "resource": "https://twitter.com/daftpunk"
+            },
+            "type": "social network",
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "type": "social network",
+            "url": {
+                "id": "2b4a01d8-30e2-4e6f-a502-e9f4d5cc2bb3",
+                "resource": "https://www.facebook.com/daftpunk"
+            },
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "url": {
+                "resource": "https://www.instagram.com/daftpunk/",
+                "id": "b0b2b051-00b9-40a3-94c0-f479c8c43dd9"
+            },
+            "type": "social network",
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+            "url": {
+                "id": "ed5dcc18-d26b-476f-8dcc-8b0406e352f8",
+                "resource": "https://www.songkick.com/artists/368193"
+            },
+            "type": "songkick",
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "url": {
+                "id": "21c8090f-21d1-4937-9c13-e6350cfdf927",
+                "resource": "https://soundcloud.com/daftpunkofficialmusic"
+            },
+            "type": "soundcloud",
+            "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "target-type": "url",
+            "end": "2022-06-08",
+            "attributes": [],
+            "begin": null,
+            "ended": true,
+            "direction": "forward",
+            "type": "streaming",
+            "url": {
+                "resource": "https://us.napster.com/artist/daft-punk",
+                "id": "447e0eec-55a3-4bf7-8924-097aa109afcc"
+            },
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "direction": "forward",
+            "begin": null,
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "ended": false,
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "type": "streaming",
+            "url": {
+                "resource": "https://music.amazon.fr/artists/B001E8WS3O",
+                "id": "bc54aa93-1a44-4f53-b5c5-4ca58824db63"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "type": "streaming",
+            "url": {
+                "resource": "https://music.apple.com/fr/artist/5468295",
+                "id": "478f3f6e-0e74-4e81-a184-4245a1a8975a"
+            },
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+        },
+        {
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "url": {
+                "resource": "https://vgmdb.net/artist/13389",
+                "id": "e4f09805-84f9-4e43-aebf-3de94d738aee"
+            },
+            "type": "vgmdb",
+            "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "url": {
+                "id": "246bb519-bfb9-4945-ae9c-5a3ef6b1a9d7",
+                "resource": "http://viaf.org/viaf/131208258"
+            },
+            "type": "VIAF",
+            "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "type": "video channel",
+            "url": {
+                "id": "260b7076-7804-4034-aae9-9a0ab5f5de4b",
+                "resource": "https://www.dailymotion.com/daftpunk"
+            },
+            "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "type-id": "d86c9450-b6d0-4760-a275-e7547495b48b",
+            "url": {
+                "id": "f4f04b7a-2155-4fe4-9344-7d97fe0babb1",
+                "resource": "https://www.twitch.tv/daftpunk"
+            },
+            "type": "video channel",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "url": {
+                "resource": "https://www.wikidata.org/wiki/Q185828",
+                "id": "ea4d1683-896f-4bb7-8332-9d71b9564695"
+            },
+            "type": "wikidata",
+            "type-id": "689870a4-a1e4-4912-b17f-7b2664215698"
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "youtube",
+            "url": {
+                "resource": "https://www.youtube.com/channel/UC_kRDKYrUlrbtrSiyu5Tflg",
+                "id": "4b707c72-c02f-426b-8cc9-35f5e9209ad5"
+            },
+            "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+            "ended": false,
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+            "type": "youtube music",
+            "url": {
+                "id": "4b9cc83a-43a5-40c8-9e57-335de2df28e2",
+                "resource": "https://music.youtube.com/channel/UCRr1xG_2WIDs18a6cIiCxeA"
+            },
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "begin": null,
+            "attributes": [],
+            "target-type": "work",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "work": {
+                "iswcs": [],
+                "type": null,
+                "type-id": null,
+                "language": null,
+                "id": "ac2df7c6-0353-3253-bac7-910cebfc0287",
+                "title": "Alive 1997",
+                "attributes": [],
+                "languages": [],
+                "disambiguation": ""
+            },
+            "target-credit": ""
+        },
+        {
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "ended": false,
+            "begin": null,
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "work": {
+                "id": "fcf527cd-9b8d-4a82-82b8-2e7606c4a53d",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "jpn",
+                "type": "Song",
+                "iswcs": [],
+                "disambiguation": "",
+                "attributes": [],
+                "languages": [
+                    "jpn"
+                ],
+                "title": "HeartBreaker"
+            },
+            "target-credit": ""
+        },
+        {
+            "work": {
+                "disambiguation": "",
+                "title": "Beyond",
+                "attributes": [],
+                "languages": [
+                    "eng"
+                ],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "eng",
+                "id": "b3de986e-a787-4c0b-9caa-aa0288696594",
+                "iswcs": [],
+                "type": "Song"
+            },
+            "target-credit": "",
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "attribute-credits": [],
+            "ended": false,
+            "target-type": "work",
+            "end": null,
+            "attributes": [
+                "lead vocals"
+            ],
+            "begin": null,
+            "type-id": "6a88b92b-8fb5-41b3-aa1f-169ee7e05ed6",
+            "type": "vocal arranger"
+        },
+        {
+            "source-credit": "",
+            "work": {
+                "iswcs": [],
+                "type": "Song",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "eng",
+                "id": "d0f702f5-2aaa-4a89-ad31-e28114c251ac",
+                "title": "Give Life Back to Music",
+                "attributes": [],
+                "languages": [
+                    "eng"
+                ],
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "type-id": "6a88b92b-8fb5-41b3-aa1f-169ee7e05ed6",
+            "type": "vocal arranger",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "work",
+            "attributes": [
+                "lead vocals"
+            ],
+            "end": null,
+            "attribute-credits": [],
+            "ended": false
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": {
+                "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f",
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "work": {
+                "iswcs": [],
+                "type": "Song",
+                "language": "eng",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "id": "ce5b67ec-d4df-4850-aaf7-81464dd49814",
+                "title": "Lose Yourself to Dance",
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "disambiguation": ""
+            },
+            "type": "vocal arranger",
+            "type-id": "6a88b92b-8fb5-41b3-aa1f-169ee7e05ed6",
+            "ended": false,
+            "attribute-credits": [],
+            "target-type": "work",
+            "attributes": [
+                "additional",
+                "background vocals"
+            ],
+            "end": null,
+            "begin": null,
+            "direction": "forward"
+        }
+    ],
+    "genres": [
+        {
+            "id": "bab69b07-8bb9-4415-b666-c37609cef80b",
+            "name": "club",
+            "disambiguation": "",
+            "count": 2
+        },
+        {
+            "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33",
+            "name": "dance",
+            "count": 6,
+            "disambiguation": ""
+        },
+        {
+            "id": "a04d680b-b5c5-4f6a-87a3-f9f1ff98e3ea",
+            "name": "disco",
+            "disambiguation": "",
+            "count": 4
+        }
+    ],
+    "release-groups": [
+        {
+            "tags": [
+                {
+                    "name": "club",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "deep house"
+                },
+                {
+                    "count": 1,
+                    "name": "disco"
+                }
+            ],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "primary-type": "Album",
+            "title": "Homework",
+            "first-release-date": "1997-01-20",
+            "id": "00054665-89fa-33d5-a8f0-1728ea8c32c3",
+            "genres": [
+                {
+                    "id": "bab69b07-8bb9-4415-b666-c37609cef80b",
+                    "name": "club",
+                    "count": 1,
+                    "disambiguation": ""
+                },
+                {
+                    "disambiguation": "",
+                    "count": 1,
+                    "id": "7fa479e7-3d35-40d1-96f7-b619a5ca9d9f",
+                    "name": "deep house"
+                },
+                {
+                    "disambiguation": "",
+                    "count": 1,
+                    "name": "disco",
+                    "id": "a04d680b-b5c5-4f6a-87a3-f9f1ff98e3ea"
+                }
+            ],
+            "aliases": [],
+            "secondary-type-ids": [],
+            "secondary-types": [],
+            "disambiguation": "",
+            "releases": []
+        },
+        {
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "tags": [
+                {
+                    "name": "boogie",
+                    "count": 1
+                },
+                {
+                    "name": "club",
+                    "count": 1
+                },
+                {
+                    "count": 4,
+                    "name": "club/dance"
+                }
+            ],
+            "title": "Discovery",
+            "genres": [
+                {
+                    "disambiguation": "",
+                    "count": 1,
+                    "name": "boogie",
+                    "id": "10fd28e3-51aa-4110-a3dd-032d8a141f99"
+                },
+                {
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "club",
+                    "id": "bab69b07-8bb9-4415-b666-c37609cef80b"
+                },
+                {
+                    "disambiguation": "",
+                    "count": 3,
+                    "name": "dance",
+                    "id": "e5bba957-8c91-496a-a675-c6d0c6b51c33"
+                }
+            ],
+            "id": "48117b90-a16e-34ca-a514-19c702df1158",
+            "first-release-date": "2001-02-26",
+            "disambiguation": "",
+            "releases": [],
+            "secondary-types": [],
+            "secondary-type-ids": [],
+            "aliases": []
+        },
+        {
+            "first-release-date": "2005-03-01",
+            "id": "f9e8042a-674e-3f01-80ec-7f0ab1c537df",
+            "genres": [
+                {
+                    "id": "bab69b07-8bb9-4415-b666-c37609cef80b",
+                    "name": "club",
+                    "count": 1,
+                    "disambiguation": ""
+                },
+                {
+                    "name": "electro",
+                    "id": "60f00d05-df4d-496e-8f5a-c45c03a56ad4",
+                    "count": 5,
+                    "disambiguation": ""
+                },
+                {
+                    "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+                    "name": "electronic",
+                    "count": 12,
+                    "disambiguation": ""
+                },
+                {
+                    "name": "electronica",
+                    "id": "53a3cea3-17af-4421-a07a-5824b540aeb5",
+                    "disambiguation": "",
+                    "count": 1
+                },
+                {
+                    "disambiguation": "",
+                    "count": 2,
+                    "name": "experimental",
+                    "id": "68c81274-5770-4e7b-a4bf-ab0d7d425d99"
+                },
+                {
+                    "disambiguation": "",
+                    "count": 3,
+                    "id": "5acda04e-995d-4f79-9a66-5fe6a977ce15",
+                    "name": "french house"
+                },
+                {
+                    "disambiguation": "",
+                    "count": 12,
+                    "id": "a2782cb6-1cd0-477c-a61d-b3f8b42dd1b3",
+                    "name": "house"
+                },
+                {
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "progressive house",
+                    "id": "70adb285-e1f7-458a-823f-5cbda5e291c4"
+                }
+            ],
+            "aliases": [],
+            "secondary-type-ids": [],
+            "secondary-types": [],
+            "releases": [],
+            "disambiguation": "",
+            "tags": [
+                {
+                    "name": "abstract",
+                    "count": 6
+                },
+                {
+                    "count": 1,
+                    "name": "bass"
+                },
+                {
+                    "name": "club",
+                    "count": 1
+                }
+            ],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "primary-type": "Album",
+            "title": "Human After All"
+        }
+    ],
+    "id": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+    "name": "Daft Punk",
+    "isnis": [
+        "0000000123531208"
+    ],
+    "ipis": [
+        "00711797335"
+    ],
+    "rating": {
+        "value": 4.65,
+        "votes-count": 27
+    },
+    "sort-name": "Daft Punk",
+    "releases": [
+        {
+            "media": [
+                {
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "id": "b880ea90-7aef-35e9-a0a3-2e139502c6ee",
+                    "track-count": 12,
+                    "format": "CD",
+                    "position": 1,
+                    "discs": [
+                        {
+                            "offset-count": 12,
+                            "id": "a5DEfBoCTYUjp7LydRXzDRc4P0E-",
+                            "sectors": 346437,
+                            "offsets": [
+                                150,
+                                28330,
+                                55495,
+                                91187,
+                                115730,
+                                144575,
+                                176410,
+                                207880,
+                                238920,
+                                268775,
+                                295682,
+                                322765
+                            ]
+                        }
+                    ],
+                    "title": ""
+                }
+            ],
+            "status": "Official",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "5024856600011",
+            "disambiguation": "",
+            "aliases": [],
+            "packaging-id": null,
+            "id": "bf41c87e-2508-4b1b-9fbb-e0f3dbb0b703",
+            "quality": "normal",
+            "genres": [],
+            "date": "1994-11-21",
+            "country": "GB",
+            "packaging": null,
+            "release-events": [
+                {
+                    "date": "1994-11-21",
+                    "area": {
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "type": null,
+                        "disambiguation": "",
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+                    }
+                }
+            ],
+            "title": "Soma Quality Recordings",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "release-group": null,
+            "tags": []
+        },
+        {
+            "title": "Techno Rave Party 4",
+            "packaging": null,
+            "country": "FR",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "disambiguation": "",
+                        "id": "08310658-51eb-3801-80de-5a0739207115",
+                        "name": "France",
+                        "type": null,
+                        "iso-3166-1-codes": [
+                            "FR"
+                        ],
+                        "sort-name": "France"
+                    },
+                    "date": "1994"
+                }
+            ],
+            "release-group": null,
+            "tags": [],
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "aliases": [],
+            "packaging-id": null,
+            "status": "Official",
+            "media": [
+                {
+                    "position": 1,
+                    "track-count": 19,
+                    "format": "CD",
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "id": "59affc13-4a1a-3a33-8d11-df5efe8a2ac6",
+                    "title": "",
+                    "discs": [
+                        {
+                            "offset-count": 19,
+                            "id": "oWfGdiWhhHiU_MmROu2.YAHoSbE-",
+                            "sectors": 348932,
+                            "offsets": [
+                                182,
+                                20230,
+                                40145,
+                                54107,
+                                75610,
+                                91825,
+                                113027,
+                                131897,
+                                149725,
+                                168492,
+                                185117,
+                                202255,
+                                220110,
+                                238322,
+                                253672,
+                                268850,
+                                289567,
+                                306340,
+                                324360
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "discs": [
+                        {
+                            "offset-count": 18,
+                            "id": "D6NqpN8jRYIYlyat8QjpGNv4v58-",
+                            "sectors": 341020,
+                            "offsets": [
+                                182,
+                                18707,
+                                36725,
+                                59100,
+                                77982,
+                                94900,
+                                112272,
+                                123795,
+                                141987,
+                                154510,
+                                166052,
+                                179540,
+                                199100,
+                                218080,
+                                240945,
+                                263292,
+                                287097,
+                                306022
+                            ]
+                        }
+                    ],
+                    "title": "",
+                    "id": "a6c5c7c5-6837-3ba5-9184-b490d847e0e8",
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "track-count": 18,
+                    "format": "CD",
+                    "position": 2
+                }
+            ],
+            "disambiguation": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "3218030505137",
+            "date": "1994",
+            "quality": "normal",
+            "id": "9e5a4385-93b7-43a0-9d51-9e96b42512d7",
+            "genres": []
+        },
+        {
+            "release-group": null,
+            "tags": [],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "title": "XXL Dance 3",
+            "packaging": "Jewel Case",
+            "country": "BE",
+            "release-events": [
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "BE"
+                        ],
+                        "sort-name": "Belgium",
+                        "type": null,
+                        "name": "Belgium",
+                        "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+                        "disambiguation": "",
+                        "type-id": null
+                    },
+                    "date": "1994"
+                }
+            ],
+            "date": "1994",
+            "quality": "normal",
+            "id": "d841126d-8b90-4644-a7b6-a5f225b1e314",
+            "genres": [],
+            "aliases": [],
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "status": "Official",
+            "media": [
+                {
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "id": "b51c6ea9-64b2-4969-acee-bdd2a50d3e6a",
+                    "track-count": 19,
+                    "format": "CD",
+                    "position": 1,
+                    "discs": [
+                        {
+                            "offset-count": 19,
+                            "id": "w5krztinwEijw8wU83vPz2nxjco-",
+                            "sectors": 344165,
+                            "offsets": [
+                                182,
+                                18847,
+                                37440,
+                                55060,
+                                72180,
+                                89900,
+                                114862,
+                                130490,
+                                148822,
+                                166567,
+                                184900,
+                                201972,
+                                216632,
+                                234495,
+                                251695,
+                                266985,
+                                288787,
+                                307770,
+                                325955
+                            ]
+                        }
+                    ],
+                    "title": ""
+                },
+                {
+                    "title": "",
+                    "discs": [
+                        {
+                            "sectors": 341082,
+                            "id": "QR9c.ltFEYrRGpplalJtd_AIM0I-",
+                            "offset-count": 19,
+                            "offsets": [
+                                182,
+                                20115,
+                                36267,
+                                54850,
+                                70070,
+                                86935,
+                                103210,
+                                120700,
+                                138867,
+                                159305,
+                                176537,
+                                194777,
+                                213390,
+                                233290,
+                                251137,
+                                269427,
+                                287402,
+                                305180,
+                                322275
+                            ]
+                        }
+                    ],
+                    "position": 2,
+                    "track-count": 19,
+                    "format": "CD",
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "id": "025b2949-225e-41c2-84c7-0df3eafc2aa8"
+                }
+            ],
+            "disambiguation": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "5099747729324"
+        }
+    ],
+    "disambiguation": "French electronic duo",
+    "works": [
+        {
+            "id": "a6f0eb71-c6ac-31ad-bf98-6fab7457843c",
+            "type-id": null,
+            "language": "zxx",
+            "genres": [],
+            "type": null,
+            "tags": [],
+            "iswcs": [],
+            "disambiguation": "",
+            "attributes": [],
+            "aliases": [],
+            "languages": [
+                "zxx"
+            ],
+            "title": "Adagio for TRON"
+        },
+        {
+            "iswcs": [
+                "T-004.219.209-5",
+                "T-010.489.787-1"
+            ],
+            "tags": [],
+            "type": null,
+            "language": "zxx",
+            "genres": [],
+            "type-id": null,
+            "id": "861b67a5-e99f-3646-aaac-f29fbb01525b",
+            "title": "Aerodynamic",
+            "languages": [
+                "zxx"
+            ],
+            "aliases": [],
+            "attributes": [],
+            "disambiguation": ""
+        },
+        {
+            "tags": [],
+            "iswcs": [],
+            "type": null,
+            "type-id": null,
+            "language": "zxx",
+            "genres": [],
+            "id": "540f4f75-73cc-43dd-b04d-3c02d2b89531",
+            "title": "Aerodynamite",
+            "attributes": [],
+            "languages": [
+                "zxx"
+            ],
+            "aliases": [],
+            "disambiguation": ""
+        }
+    ],
+    "begin-area": {
+        "disambiguation": "",
+        "name": "Paris",
+        "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+        "type-id": null,
+        "sort-name": "Paris",
+        "iso-3166-2-codes": [
+            "FR-75"
+        ],
+        "type": null
+    },
+    "aliases": [
+        {
+            "name": "Da Funk",
+            "primary": null,
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "sort-name": "Da Funk",
+            "locale": null,
+            "type": "Search hint",
+            "begin": null,
+            "end": null,
+            "ended": false
+        },
+        {
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "name": "Daft Punk",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "primary": true,
+            "type": "Artist name",
+            "locale": "en",
+            "sort-name": "Daft Punk"
+        },
+        {
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "locale": null,
+            "type": "Search hint",
+            "sort-name": "DaftPunk",
+            "name": "DaftPunk",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "primary": null
+        },
+        {
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type": "Search hint",
+            "locale": null,
+            "sort-name": "Duft Punk",
+            "name": "Duft Punk",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "primary": null
+        },
+        {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "sort-name": "Daft Punk",
+            "locale": null,
+            "type": "Artist name",
+            "name": "daft punk",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "primary": null
+        },
+        {
+            "type": "Artist name",
+            "locale": "ja",
+            "sort-name": "ダフト パンク",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "primary": true,
+            "name": "ダフト・パンク",
+            "ended": false,
+            "end": null,
+            "begin": null
+        }
+    ]
+}

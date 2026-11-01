@@ -1,0 +1,281 @@
+{
+    "genres": [],
+    "type": "Release series",
+    "type-id": "52b90f1e-ff62-3bd0-b254-5d91ced5d757",
+    "disambiguation": "Stradivari Series",
+    "name": "Beethoven: Symphonies",
+    "tags": [],
+    "id": "c91a484c-b9f5-4842-a39f-906c4bfc9c7e",
+    "relations": [
+        {
+            "end": null,
+            "direction": "backward",
+            "ordering-key": 4,
+            "release": {
+                "date": "1991",
+                "disambiguation": "",
+                "status": null,
+                "barcode": "5016022611129",
+                "quality": "normal",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "id": "d18f3df2-d855-49f1-aa1c-f2d89888220e",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "1991",
+                        "area": {
+                            "disambiguation": "",
+                            "sort-name": "Netherlands",
+                            "type-id": null,
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "NL"
+                            ],
+                            "name": "Netherlands",
+                            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7"
+                        }
+                    }
+                ],
+                "country": "NL",
+                "packaging-id": null,
+                "title": "Symphonie No. 5 & No. 7",
+                "packaging": null
+            },
+            "attribute-values": {
+                "number": "4"
+            },
+            "target-type": "release",
+            "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d",
+            "type": "part of",
+            "attributes": [
+                "number"
+            ],
+            "ended": false,
+            "source-credit": "",
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-credit": "",
+            "begin": null
+        },
+        {
+            "attributes": [
+                "number"
+            ],
+            "type": "part of",
+            "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d",
+            "target-type": "release",
+            "target-credit": "",
+            "begin": null,
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "source-credit": "",
+            "ended": false,
+            "direction": "backward",
+            "end": null,
+            "attribute-values": {
+                "number": "1"
+            },
+            "release": {
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "quality": "normal",
+                "id": "b56ce68b-0a85-4b67-8c84-f1c8c18d5a11",
+                "status-id": null,
+                "date": "1991",
+                "disambiguation": "",
+                "status": null,
+                "barcode": "5016022610726",
+                "title": "Symphony no. 1 / Symphony no. 3 “Eroica”",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "date": "1991",
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "name": "United Kingdom",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "disambiguation": "",
+                            "type-id": null,
+                            "type": null,
+                            "sort-name": "United Kingdom"
+                        }
+                    }
+                ],
+                "country": "GB",
+                "packaging-id": null
+            },
+            "ordering-key": 1
+        },
+        {
+            "begin": null,
+            "target-credit": "",
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "source-credit": "",
+            "ended": false,
+            "attributes": [
+                "number"
+            ],
+            "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d",
+            "type": "part of",
+            "target-type": "release",
+            "attribute-values": {
+                "number": "3"
+            },
+            "release": {
+                "quality": "normal",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "status-id": null,
+                "id": "3205229f-b153-4136-99f5-776a0fb53e3b",
+                "disambiguation": "",
+                "date": "1991",
+                "status": null,
+                "barcode": "501602261924",
+                "packaging": null,
+                "title": "Symphony No. 2 & No. 4",
+                "release-events": [
+                    {
+                        "date": "1991",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "name": "[Worldwide]",
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "sort-name": "[Worldwide]",
+                            "type-id": null,
+                            "type": null,
+                            "disambiguation": ""
+                        }
+                    }
+                ],
+                "packaging-id": null,
+                "country": "XW"
+            },
+            "ordering-key": 3,
+            "direction": "backward",
+            "end": null
+        },
+        {
+            "type": "part of",
+            "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d",
+            "attributes": [
+                "number"
+            ],
+            "target-type": "release",
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-credit": "",
+            "begin": null,
+            "source-credit": "",
+            "ended": false,
+            "direction": "backward",
+            "end": null,
+            "release": {
+                "disambiguation": "",
+                "date": "1991",
+                "barcode": "516022610825",
+                "status": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "quality": "normal",
+                "status-id": null,
+                "id": "012740e3-d713-48a1-bd96-2ded28ed1b0a",
+                "release-events": [
+                    {
+                        "date": "1991",
+                        "area": {
+                            "name": "United Kingdom",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "disambiguation": "",
+                            "sort-name": "United Kingdom",
+                            "type-id": null,
+                            "type": null
+                        }
+                    }
+                ],
+                "packaging-id": null,
+                "country": "GB",
+                "packaging": null,
+                "title": "Symphony No. 6 \"Pastorale\" / Symphony No. 8"
+            },
+            "attribute-values": {
+                "number": "2"
+            },
+            "ordering-key": 2
+        },
+        {
+            "direction": "backward",
+            "end": null,
+            "attribute-values": {
+                "number": "5"
+            },
+            "release": {
+                "disambiguation": "",
+                "date": "1991",
+                "barcode": "5016022611020",
+                "status": null,
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "status-id": null,
+                "id": "d7a9a5e0-ea51-4d6b-a6a3-ed0076c0ed0f",
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "name": "United Kingdom",
+                            "type-id": null,
+                            "type": null,
+                            "sort-name": "United Kingdom",
+                            "disambiguation": ""
+                        },
+                        "date": "1991"
+                    }
+                ],
+                "packaging-id": null,
+                "country": "GB",
+                "packaging": null,
+                "title": "Symphony no. 9 \"Choral\""
+            },
+            "ordering-key": 5,
+            "attributes": [
+                "number"
+            ],
+            "type-id": "3fa29f01-8e13-3e49-9b0a-ad212aa2f81d",
+            "type": "part of",
+            "target-type": "release",
+            "target-credit": "",
+            "begin": null,
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "source-credit": "",
+            "ended": false
+        }
+    ]
+}

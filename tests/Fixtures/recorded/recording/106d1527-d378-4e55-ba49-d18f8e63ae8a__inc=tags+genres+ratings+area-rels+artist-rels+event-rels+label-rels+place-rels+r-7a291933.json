@@ -1,0 +1,363 @@
+{
+    "tags": [],
+    "disambiguation": "live, 1985-07-13: Wembley Stadium, London, UK",
+    "relations": [
+        {
+            "attribute-credits": [],
+            "target-type": "artist",
+            "attribute-ids": {
+                "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+            },
+            "attribute-values": [],
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "type": "instrument",
+            "target-credit": "",
+            "end": "1985-07-13",
+            "attributes": [
+                "electric bass guitar"
+            ],
+            "direction": "backward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1985-07-13",
+            "artist": {
+                "id": "a0b77a10-ecff-4b84-b1f3-008391038d67",
+                "sort-name": "Deacon, John",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "name": "John Deacon",
+                "country": "GB"
+            }
+        },
+        {
+            "direction": "backward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1985-07-13",
+            "artist": {
+                "country": "GB",
+                "name": "Brian May",
+                "disambiguation": "Queen guitarist",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "type": "Person",
+                "sort-name": "May, Brian",
+                "id": "6d24f102-5c43-453a-8664-4ee092f441cf"
+            },
+            "type": "instrument",
+            "target-credit": "",
+            "end": "1985-07-13",
+            "attributes": [
+                "electric guitar"
+            ],
+            "target-type": "artist",
+            "attribute-credits": [],
+            "attribute-ids": {
+                "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+            },
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "attribute-credits": [],
+            "target-type": "artist",
+            "attribute-ids": {
+                "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+            },
+            "ended": true,
+            "begin": "1985-07-13",
+            "artist": {
+                "sort-name": "Mercury, Freddie",
+                "type": "Person",
+                "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                "name": "Freddie Mercury",
+                "country": "GB",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": ""
+            },
+            "direction": "backward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": "1985-07-13",
+            "attributes": [
+                "piano"
+            ],
+            "type": "instrument"
+        },
+        {
+            "attribute-values": [],
+            "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+            "attribute-ids": [],
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "mix",
+            "begin": null,
+            "artist": {
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "country": "GB",
+                "name": "Justin Shirley‐Smith",
+                "id": "4e19a8c9-2be0-4ade-8e64-aae9f48dc55b",
+                "type": "Person",
+                "sort-name": "Shirley‐Smith, Justin"
+            },
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward"
+        },
+        {
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+            "attribute-values": {
+                "task": "5.1 audio production"
+            },
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "target-type": "artist",
+            "attributes": [
+                "task"
+            ],
+            "end": null,
+            "target-credit": "",
+            "type": "producer",
+            "artist": {
+                "id": "1a8343e6-d54d-4536-95d1-d26821c7b48f",
+                "type": "Person",
+                "sort-name": "Griffin, Jeff",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "UK producer",
+                "country": "GB",
+                "name": "Jeff Griffin"
+            },
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward"
+        },
+        {
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "target-type": "artist",
+            "attribute-values": {
+                "task": "5.1 audio production"
+            },
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+            "source-credit": "",
+            "direction": "backward",
+            "begin": null,
+            "artist": {
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "country": "GB",
+                "name": "William Shapland",
+                "id": "3e6a429c-9ab3-4264-9a53-9a5008459d7e",
+                "type": "Person",
+                "sort-name": "Shapland, William"
+            },
+            "ended": false,
+            "type": "producer",
+            "end": null,
+            "attributes": [
+                "task"
+            ],
+            "target-credit": "Will Shapland"
+        },
+        {
+            "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "recording",
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "UK producer",
+                "name": "Jeff Griffin",
+                "country": "GB",
+                "id": "1a8343e6-d54d-4536-95d1-d26821c7b48f",
+                "sort-name": "Griffin, Jeff",
+                "type": "Person"
+            },
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward"
+        },
+        {
+            "target-type": "artist",
+            "attribute-ids": [],
+            "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+            "attribute-values": [],
+            "direction": "backward",
+            "source-credit": "",
+            "ended": false,
+            "artist": {
+                "name": "Mike Robinson",
+                "country": null,
+                "disambiguation": "engineer",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Robinson, Mike",
+                "type": "Person",
+                "id": "dc592172-6437-4752-846a-a7396d5b04cd"
+            },
+            "begin": null,
+            "type": "recording",
+            "target-credit": "",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "type-id": "578ee04d-3227-4335-ba2c-11e8ba420e0b",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "type": "video director",
+            "artist": {
+                "type": "Person",
+                "sort-name": "Smith, John G",
+                "id": "c1fcac0e-c940-4d47-88c1-1ba832be3df5",
+                "country": null,
+                "name": "John G Smith",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "director"
+            },
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward"
+        },
+        {
+            "artist": {
+                "sort-name": "Mercury, Freddie",
+                "type": "Person",
+                "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                "name": "Freddie Mercury",
+                "country": "GB",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "begin": "1985-07-13",
+            "ended": true,
+            "source-credit": "",
+            "direction": "backward",
+            "attributes": [
+                "lead vocals"
+            ],
+            "end": "1985-07-13",
+            "target-credit": "",
+            "type": "vocal",
+            "attribute-values": [],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "attribute-credits": [],
+            "target-type": "artist"
+        },
+        {
+            "target-type": "event",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "b06e6732-2603-47d3-8a49-9f589b430483",
+            "event": {
+                "time": "12:00",
+                "id": "08657c50-71c6-4a3d-b7c4-3db6efbf07fd",
+                "cancelled": false,
+                "life-span": {
+                    "end": "1985-07-13",
+                    "begin": "1985-07-13",
+                    "ended": true
+                },
+                "setlist": "",
+                "type": "Concert",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                "disambiguation": "Wembley Stadium",
+                "name": "Live Aid"
+            },
+            "direction": "backward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "recorded at",
+            "target-credit": "",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "attribute-values": [],
+            "type-id": "ce3de655-7451-44d1-9224-87eb948c205d",
+            "recording": {
+                "length": 167000,
+                "disambiguation": "live, 1985-07-13: Wembley Stadium, London, UK",
+                "id": "5c5e6e29-a48c-4050-a0f8-898e0a92ef0b",
+                "video": false,
+                "title": "Bohemian Rhapsody"
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "type": "music video"
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": {
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+            },
+            "target-type": "work",
+            "direction": "forward",
+            "begin": "1985-07-13",
+            "ended": true,
+            "attribute-values": [],
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "work": {
+                "language": "eng",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "disambiguation": "",
+                "iswcs": [
+                    "T-010.154.505-4",
+                    "T-304.031.869-8",
+                    "T-900.313.996-6"
+                ],
+                "type": "Song",
+                "languages": [
+                    "eng"
+                ],
+                "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
+                "title": "Bohemian Rhapsody",
+                "attributes": []
+            },
+            "type": "performance",
+            "attributes": [
+                "live"
+            ],
+            "end": "1985-07-13",
+            "target-credit": ""
+        }
+    ],
+    "title": "Bohemian Rhapsody",
+    "genres": [],
+    "video": true,
+    "id": "106d1527-d378-4e55-ba49-d18f8e63ae8a",
+    "length": 124633,
+    "first-release-date": "2007-10-30",
+    "rating": {
+        "value": 1,
+        "votes-count": 1
+    }
+}

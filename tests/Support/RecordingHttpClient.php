@@ -18,6 +18,9 @@ final class RecordingHttpClient implements ClientInterface
 {
     public int $networkRequests = 0;
 
+    /** @var array<string,true> Names of all fixtures requested so far */
+    public array $used = [];
+
     public function __construct(
         private readonly ClientInterface $inner,
         private readonly FixtureStore $store,
@@ -27,6 +30,7 @@ final class RecordingHttpClient implements ClientInterface
     public function sendRequest(RequestInterface $request): ResponseInterface
     {
         $name = $this->store->nameFor($request);
+        $this->used[$name] = true;
 
         if (!$this->refresh && $this->store->has($name)) {
             return (new ReplayHttpClient($this->store))->sendRequest($request);
@@ -35,7 +39,10 @@ final class RecordingHttpClient implements ClientInterface
         ++$this->networkRequests;
         $response = $this->inner->sendRequest($request);
         $body = (string) $response->getBody();
-        $this->store->save($name, $request, $response->getStatusCode(), $body);
+        // A server error says nothing about the API's data; only 2xx and 4xx responses are fixtures
+        if ($response->getStatusCode() < 500) {
+            $this->store->save($name, $request, $response->getStatusCode(), $body);
+        }
 
         return $response->withBody((new \Nyholm\Psr7\Factory\Psr17Factory())->createStream($body));
     }

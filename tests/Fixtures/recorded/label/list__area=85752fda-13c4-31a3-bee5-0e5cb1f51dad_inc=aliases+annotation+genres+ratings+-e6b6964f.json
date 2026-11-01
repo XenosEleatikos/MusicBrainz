@@ -1,0 +1,397 @@
+{
+    "label-count": 13862,
+    "labels": [
+        {
+            "genres": [],
+            "id": "4e3c9b9b-dc82-421c-a0da-6743bee0b4cb",
+            "isnis": [],
+            "name": ":Ikonen: Media",
+            "ipis": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "sort-name": ":Ikonen: Media",
+            "disambiguation": "",
+            "aliases": [],
+            "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+            "tags": [],
+            "label-code": null,
+            "type": "Production",
+            "area": {
+                "sort-name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "type": null,
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "disambiguation": "",
+                "type-id": null
+            },
+            "country": "DE",
+            "annotation": null,
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            }
+        },
+        {
+            "disambiguation": "whatdoisee",
+            "aliases": [],
+            "genres": [],
+            "name": "_wdis",
+            "isnis": [],
+            "id": "844fe0de-edd2-4889-8d07-8fd2854e5075",
+            "ipis": [],
+            "sort-name": "_wdis",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "area": {
+                "disambiguation": "",
+                "sort-name": "Berlin",
+                "type": null,
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "type-id": null,
+                "name": "Berlin",
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105"
+            },
+            "annotation": null,
+            "country": null,
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034",
+            "label-code": null,
+            "tags": [],
+            "type": "Distributor"
+        },
+        {
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "sort-name": "!Hype",
+            "ipis": [],
+            "id": "87e20f79-4084-4c2b-8176-49db7136d7c2",
+            "isnis": [],
+            "name": "!Hype",
+            "genres": [],
+            "aliases": [],
+            "disambiguation": "",
+            "type": "Original Production",
+            "tags": [],
+            "label-code": 6708,
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "country": "DE",
+            "annotation": null,
+            "area": {
+                "type": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "type-id": null,
+                "disambiguation": ""
+            }
+        },
+        {
+            "genres": [],
+            "isnis": [],
+            "name": "!K7",
+            "id": "893364ff-1830-4694-833d-93751f14f984",
+            "ipis": [],
+            "sort-name": "!K7",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "disambiguation": "German label",
+            "aliases": [
+                {
+                    "name": "!K7 Records",
+                    "type-id": null,
+                    "primary": null,
+                    "sort-name": "!K7 Records",
+                    "type": null,
+                    "locale": null,
+                    "begin": null,
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "begin": null,
+                    "end": null,
+                    "ended": false,
+                    "sort-name": "!K7R",
+                    "locale": null,
+                    "type": null,
+                    "name": "!K7R",
+                    "type-id": null,
+                    "primary": null
+                },
+                {
+                    "begin": null,
+                    "end": null,
+                    "ended": false,
+                    "name": "IK7",
+                    "primary": null,
+                    "type-id": null,
+                    "sort-name": "IK7",
+                    "type": null,
+                    "locale": null
+                }
+            ],
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "tags": [
+                {
+                    "name": "distributor",
+                    "count": 1
+                },
+                {
+                    "name": "european",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "fixme"
+                },
+                {
+                    "count": 1,
+                    "name": "german"
+                },
+                {
+                    "count": 1,
+                    "name": "independent"
+                }
+            ],
+            "label-code": 7306,
+            "type": "Original Production",
+            "area": {
+                "type-id": null,
+                "disambiguation": "",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "type": null,
+                "sort-name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "annotation": "Electronic music label founded in Berlin in 1996. Now has offices and distribution in several countries. Company name is '''Stud!o K7''', but the current logo/imprint is simply '''!K7'''.",
+            "country": "DE",
+            "life-span": {
+                "begin": "1996",
+                "end": null,
+                "ended": false
+            }
+        },
+        {
+            "type": "Original Production",
+            "tags": [],
+            "label-code": 8442,
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "life-span": {
+                "end": null,
+                "begin": "1994",
+                "ended": false
+            },
+            "country": "DE",
+            "annotation": null,
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "sort-name": "Germany",
+                "type": null,
+                "disambiguation": "",
+                "type-id": null,
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+            },
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "sort-name": ":chlodwig",
+            "ipis": [],
+            "id": "ad8fb57c-7695-427b-8753-3b4883c8e9fd",
+            "isnis": [],
+            "name": ":chlodwig",
+            "genres": [],
+            "aliases": [],
+            "disambiguation": "\":C\" or \":chlodwig\" logo since 1994"
+        },
+        {
+            "type": null,
+            "label-code": null,
+            "tags": [],
+            "type-id": null,
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "country": "DE",
+            "annotation": null,
+            "area": {
+                "sort-name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "type": null,
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "disambiguation": "",
+                "type-id": null
+            },
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "sort-name": "_rohformat",
+            "ipis": [],
+            "id": "c060dc46-0c69-4da4-aab7-454f99edfd04",
+            "isnis": [],
+            "name": "_rohformat",
+            "genres": [],
+            "aliases": [],
+            "disambiguation": ""
+        },
+        {
+            "id": "ce49732b-7e5c-4d3f-bddc-2e907abd8734",
+            "name": "!K7Records",
+            "isnis": [],
+            "genres": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "sort-name": "!K7Records",
+            "ipis": [],
+            "disambiguation": "",
+            "aliases": [
+                {
+                    "name": "!K7Records",
+                    "type-id": null,
+                    "primary": null,
+                    "locale": null,
+                    "type": null,
+                    "sort-name": "K7Records",
+                    "end": null,
+                    "begin": null,
+                    "ended": false
+                }
+            ],
+            "type-id": null,
+            "type": null,
+            "label-code": 7306,
+            "tags": [],
+            "country": "DE",
+            "annotation": null,
+            "area": {
+                "type-id": null,
+                "disambiguation": "",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "type": null,
+                "sort-name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            }
+        },
+        {
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            "area": {
+                "disambiguation": "",
+                "type-id": null,
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+                "name": "Berlin",
+                "type": null,
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "sort-name": "Berlin"
+            },
+            "annotation": null,
+            "country": null,
+            "label-code": null,
+            "tags": [],
+            "type": null,
+            "type-id": null,
+            "aliases": [],
+            "disambiguation": "",
+            "ipis": [],
+            "sort-name": "://about blank",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "genres": [],
+            "isnis": [],
+            "name": "://about blank",
+            "id": "e97aff86-f929-4429-b8f7-ff443aef4daa"
+        },
+        {
+            "sort-name": "!K7 Label Group",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "ipis": [],
+            "isnis": [],
+            "name": "!K7 Label Group",
+            "id": "fd5a6b66-a335-4a5e-8c99-6f156621c093",
+            "genres": [],
+            "aliases": [],
+            "disambiguation": "",
+            "type": "Holding",
+            "label-code": null,
+            "tags": [],
+            "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "annotation": null,
+            "country": "DE",
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "sort-name": "Germany",
+                "type": null,
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "disambiguation": "",
+                "type-id": null
+            }
+        }
+    ],
+    "label-offset": 0
+}

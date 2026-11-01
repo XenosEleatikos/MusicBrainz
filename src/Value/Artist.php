@@ -14,6 +14,7 @@ use MusicBrainz\Value;
  */
 class Artist implements Value
 {
+    use Property\GenresTrait;
     use ArtistRelationListTrait;
     use Property\AliasesTrait;
     use Property\AreaTrait;
@@ -41,6 +42,7 @@ class Artist implements Value
      */
     public function __construct(array $artist = [])
     {
+        $this->setGenresFromArray($artist);
         $this->setRelationsFromArray($artist);
         $this->setAliasesFromArray($artist);
         $this->setAreaFromArray($artist);

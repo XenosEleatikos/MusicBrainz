@@ -1,0 +1,2371 @@
+{
+    "disambiguation": "Greater London",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "tags": [
+        {
+            "name": "capital city",
+            "count": 3
+        },
+        {
+            "count": 1,
+            "name": "city"
+        },
+        {
+            "count": 1,
+            "name": "place"
+        }
+    ],
+    "name": "London",
+    "relations": [
+        {
+            "target-type": "area",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+            "type": "part of",
+            "area": {
+                "name": "England",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "disambiguation": "",
+                "type": "Subdivision",
+                "iso-3166-2-codes": [
+                    "GB-ENG"
+                ],
+                "sort-name": "England",
+                "id": "9d5dd675-3cf4-4296-9e39-67865ebee758"
+            },
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "direction": "backward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null
+        },
+        {
+            "type": "part of",
+            "area": {
+                "id": "817a3404-240e-49c0-b799-21bf578b3991",
+                "iso-3166-2-codes": [
+                    "GB-LND"
+                ],
+                "sort-name": "City of London",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "disambiguation": "",
+                "name": "City of London"
+            },
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "attribute-ids": [],
+            "target-type": "area",
+            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+            "attribute-values": []
+        },
+        {
+            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+            "attribute-values": [],
+            "target-type": "area",
+            "attribute-ids": [],
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "type": "part of",
+            "area": {
+                "iso-3166-2-codes": [
+                    "GB-BDG"
+                ],
+                "sort-name": "Barking and Dagenham",
+                "type": "Subdivision",
+                "id": "b5f9b558-9f45-4710-a3cf-0366e92800f8",
+                "name": "Barking and Dagenham",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "disambiguation": ""
+            },
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "type": "held in",
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "event": {
+                "setlist": "* [854741e2-c4b5-4bf0-b5a7-c34769fe3411|Percussion Concerto \"Incantations\"] (Einojuhani Rautavaara) (world premiere)",
+                "type": "Concert",
+                "cancelled": false,
+                "id": "a995e928-27a0-446f-80e7-a480a770fa0e",
+                "time": "",
+                "life-span": {
+                    "begin": "2009-10",
+                    "end": "2009-10",
+                    "ended": true
+                },
+                "name": "[concert]",
+                "disambiguation": "",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+            },
+            "attribute-values": [],
+            "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+            "target-type": "event",
+            "attribute-ids": []
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "event",
+            "attribute-values": [],
+            "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+            "event": {
+                "type": "Concert",
+                "setlist": "* [c8eb72ee-218f-46cb-a288-61e1e0b93fc6|Marea] (Magnus Lindberg) (world premiere)",
+                "life-span": {
+                    "begin": "1990-04-26",
+                    "end": "1990-04-26",
+                    "ended": true
+                },
+                "id": "cb84765f-abb9-44c5-91af-6a1679853a65",
+                "time": "",
+                "cancelled": false,
+                "name": "[concert]",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                "disambiguation": ""
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "held in",
+            "end": null,
+            "attributes": [],
+            "target-credit": ""
+        },
+        {
+            "target-type": "event",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+            "event": {
+                "name": "[concert]",
+                "disambiguation": "",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                "type": "Concert",
+                "setlist": "* [44e6cd30-3b88-4dbc-ba0a-355884d0cca1|Corrente II] (Magnus Lindberg) (world premiere)",
+                "life-span": {
+                    "ended": true,
+                    "end": "1992-11-27",
+                    "begin": "1992-11-27"
+                },
+                "cancelled": false,
+                "time": "",
+                "id": "6272a5b3-85ac-412b-a508-9c8d92ebb527"
+            },
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "held in",
+            "target-credit": "",
+            "attributes": [],
+            "end": null
+        },
+        {
+            "type-id": "4f4aa317-c3c4-4001-ac23-fb8cf0bc543c",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "recording": {
+                "id": "32ff978f-e6cb-44a0-9c8a-0102b08bed43",
+                "length": 363000,
+                "disambiguation": "",
+                "video": false,
+                "title": "Ave Maria"
+            },
+            "target-type": "recording",
+            "begin": "1981-05",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward",
+            "end": "1981-05",
+            "attributes": [],
+            "target-credit": "",
+            "type": "arranged in"
+        },
+        {
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "type": "arranged in",
+            "begin": "2016-07-01",
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "attribute-values": [],
+            "type-id": "4f4aa317-c3c4-4001-ac23-fb8cf0bc543c",
+            "recording": {
+                "length": 480000,
+                "disambiguation": "",
+                "id": "899bdd2b-ba4b-48e9-a19e-2887fe6b7c1b",
+                "title": "Epk1",
+                "video": false
+            },
+            "attribute-ids": [],
+            "target-type": "recording"
+        },
+        {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "arranged in",
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "target-type": "recording",
+            "recording": {
+                "title": "三個人的探戈",
+                "video": false,
+                "id": "d56de4e4-6eb9-4d8e-971a-a3a40c5c3663",
+                "length": 200000,
+                "disambiguation": ""
+            },
+            "attribute-ids": [],
+            "type-id": "4f4aa317-c3c4-4001-ac23-fb8cf0bc543c",
+            "attribute-values": []
+        },
+        {
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "title": "Access to Rude",
+                "id": "5ae4babd-9ab4-4269-9b2a-aeb4b1125c76",
+                "disambiguation": "",
+                "length": 309000
+            },
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "e24482da-f568-46ba-a428-9fa56615c7b2",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "2003-10",
+            "ended": true,
+            "type": "edited in",
+            "end": "2005-02",
+            "attributes": [],
+            "target-credit": ""
+        },
+        {
+            "type-id": "e24482da-f568-46ba-a428-9fa56615c7b2",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "recording": {
+                "id": "034cb467-a016-4d18-b9f0-ff8acb1e38f4",
+                "disambiguation": "",
+                "length": 191000,
+                "video": false,
+                "title": "Backwards Again"
+            },
+            "target-type": "recording",
+            "begin": "2003-10",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward",
+            "end": "2005-02",
+            "attributes": [],
+            "target-credit": "",
+            "type": "edited in"
+        },
+        {
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "title": "Deadheading",
+                "length": 325000,
+                "disambiguation": "",
+                "id": "10b5e249-4b68-44a4-9154-056b7a1972df"
+            },
+            "attribute-values": [],
+            "type-id": "e24482da-f568-46ba-a428-9fa56615c7b2",
+            "direction": "forward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "2003-10",
+            "type": "edited in",
+            "target-credit": "",
+            "end": "2005-02",
+            "attributes": []
+        },
+        {
+            "attribute-ids": [],
+            "recording": {
+                "id": "250e1c1e-91b0-49b3-84e9-c11a4dc5db0a",
+                "disambiguation": "",
+                "length": 186000,
+                "title": "Intuition",
+                "video": false
+            },
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "type": "engineered in",
+            "end": "2019-06-20",
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "0020-01-20",
+            "ended": true
+        },
+        {
+            "type": "engineered in",
+            "target-credit": "",
+            "attributes": [],
+            "end": "1940-11-29",
+            "direction": "forward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1940-11-29",
+            "target-type": "recording",
+            "recording": {
+                "disambiguation": "",
+                "length": 283266,
+                "id": "3ddc49bc-5ae0-48a4-82f8-c521ae796787",
+                "video": false,
+                "title": "Hebräische Melodie, op. 33"
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5"
+        },
+        {
+            "attribute-values": [],
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "disambiguation": "",
+                "length": 416120,
+                "id": "f5cc51e8-6b8c-4564-a110-c3a407a948cd",
+                "video": false,
+                "title": "La Traviata: Act 1, Violetta's Aria 'Ah fors E lui...sempre libera'"
+            },
+            "ended": true,
+            "begin": "1948-04-12",
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": "1948-04-12",
+            "attributes": [],
+            "type": "engineered in"
+        },
+        {
+            "attribute-values": [],
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "attribute-ids": {
+                "electronic instruments": "a51219e5-fc36-4427-93a9-743e616c6f0c"
+            },
+            "recording": {
+                "title": "By the Boats",
+                "video": false,
+                "id": "7c2e62c7-0a0d-483e-9ae3-bfc43b068caf",
+                "disambiguation": "",
+                "length": 232000
+            },
+            "target-type": "recording",
+            "attribute-credits": [],
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "end": null,
+            "attributes": [
+                "electronic instruments"
+            ],
+            "target-credit": "",
+            "type": "engineered in"
+        },
+        {
+            "type": "engineered in",
+            "attributes": [
+                "lead vocals"
+            ],
+            "end": null,
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "recording": {
+                "video": false,
+                "title": "By the Boats",
+                "disambiguation": "",
+                "length": 232000,
+                "id": "7c2e62c7-0a0d-483e-9ae3-bfc43b068caf"
+            },
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "attribute-credits": [],
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5"
+        },
+        {
+            "target-credit": "",
+            "end": null,
+            "attributes": [
+                "electronic instruments"
+            ],
+            "type": "engineered in",
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "attribute-credits": [],
+            "target-type": "recording",
+            "attribute-ids": {
+                "electronic instruments": "a51219e5-fc36-4427-93a9-743e616c6f0c"
+            },
+            "recording": {
+                "disambiguation": "",
+                "length": 210000,
+                "id": "7dcf9b0d-9096-4133-815a-e4648bf1795b",
+                "video": false,
+                "title": "Melody"
+            }
+        },
+        {
+            "type": "mixed in",
+            "attributes": [],
+            "end": "1979-01-25",
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1979-01-25",
+            "ended": true,
+            "recording": {
+                "title": "Are You Ready for Love",
+                "video": false,
+                "id": "98c42d30-b92d-45ca-93d0-749d116881e8",
+                "length": 497626,
+                "disambiguation": ""
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "eef56d04-852a-4ce6-bfc9-678c19392a16"
+        },
+        {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1979-01-25",
+            "type": "mixed in",
+            "target-credit": "",
+            "end": "1979-01-25",
+            "attributes": [],
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "title": "Country Love Song",
+                "disambiguation": "",
+                "length": 305840,
+                "id": "a2155536-208a-46b0-afdd-72acabe38fbd"
+            },
+            "type-id": "eef56d04-852a-4ce6-bfc9-678c19392a16",
+            "attribute-values": []
+        },
+        {
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "title": "Mama Can’t Buy You Love",
+                "video": false,
+                "disambiguation": "",
+                "length": 244733,
+                "id": "c797ad86-dfd6-4bdd-a712-a8ea7204dba7"
+            },
+            "type-id": "eef56d04-852a-4ce6-bfc9-678c19392a16",
+            "attribute-values": [],
+            "direction": "forward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1979-01-25",
+            "type": "mixed in",
+            "target-credit": "",
+            "end": "1979-01-25",
+            "attributes": []
+        },
+        {
+            "type": "produced in",
+            "attributes": [],
+            "end": "1984-03",
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1984-03",
+            "ended": true,
+            "recording": {
+                "video": false,
+                "title": "One February Friday (\"Doctors and Nurses\")",
+                "id": "9199857d-70a1-4106-94df-054b75c241cf",
+                "disambiguation": "",
+                "length": 297000
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "93078fc7-6585-40a7-ab7f-6acb9da65b84"
+        },
+        {
+            "type": "produced in",
+            "target-credit": "",
+            "end": "1984-03",
+            "attributes": [],
+            "direction": "forward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1984-03",
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "length": 235906,
+                "disambiguation": "7\" single, aka Cowboys and Indians mix",
+                "id": "75f9a45a-c76c-45dd-a155-dcc96e98383c",
+                "title": "Two Tribes",
+                "video": false
+            },
+            "attribute-values": [],
+            "type-id": "93078fc7-6585-40a7-ab7f-6acb9da65b84"
+        },
+        {
+            "recording": {
+                "id": "e23ac20c-8572-4433-9662-a5699265f0f4",
+                "length": 501026,
+                "disambiguation": "",
+                "video": false,
+                "title": "Black Arrow"
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "93078fc7-6585-40a7-ab7f-6acb9da65b84",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1994",
+            "ended": true,
+            "type": "produced in",
+            "attributes": [],
+            "end": "1995",
+            "target-credit": ""
+        },
+        {
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attribute-values": [],
+            "recording": {
+                "id": "0d8b2603-e3fe-43d3-999d-0afeca3c5936",
+                "disambiguation": "",
+                "length": 88000,
+                "title": "Manon Lescaut: I. C’est l’histoire amoureuse",
+                "video": false
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "attributes": [],
+            "end": "1899-03-11",
+            "target-credit": "",
+            "type": "recorded in",
+            "begin": "1899-03-11",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "recording": {
+                "id": "d305aa7c-226c-4556-ab12-b319ab14728a",
+                "disambiguation": "",
+                "length": 166826,
+                "video": false,
+                "title": "La Lisonjera, op. 50"
+            },
+            "target-type": "recording",
+            "begin": "1901-11-28",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward",
+            "end": "1901-11-28",
+            "attributes": [],
+            "target-credit": "",
+            "type": "recorded in"
+        },
+        {
+            "end": "1902-08",
+            "attributes": [],
+            "target-credit": "",
+            "type": "recorded in",
+            "begin": "1902-08",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward",
+            "attribute-values": [],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attribute-ids": [],
+            "recording": {
+                "disambiguation": "",
+                "length": 147000,
+                "id": "2aa58f13-66e4-4e1e-b525-55dc20acab7d",
+                "title": "Embarquez-vous¿",
+                "video": false
+            },
+            "target-type": "recording"
+        },
+        {
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attribute-values": [],
+            "recording": {
+                "title": "Wilhelm Furtwängler - A Memoir: Conducting Technique",
+                "video": false,
+                "length": 247746,
+                "disambiguation": "",
+                "id": "bf6aebe2-31ed-4af5-9dbc-0162e71dab93"
+            },
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "attribute-credits": [],
+            "target-type": "recording",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "end": "1993",
+            "target-credit": "",
+            "type": "recorded in",
+            "begin": "1993",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "recording": {
+                "title": "Wilhelm Furtwängler - A Memoir: Europe, 1940s",
+                "video": false,
+                "id": "c049ec0c-fec7-4e3d-b396-10219ce8703f",
+                "length": 388106,
+                "disambiguation": ""
+            },
+            "attribute-credits": [],
+            "target-type": "recording",
+            "attribute-values": [],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1993",
+            "ended": true,
+            "type": "recorded in",
+            "end": "1993",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "target-credit": ""
+        },
+        {
+            "type": "recorded in",
+            "end": "1993",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1993",
+            "ended": true,
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "recording": {
+                "video": false,
+                "title": "Wilhelm Furtwängler - A Memoir: Philharmonia Orchestra - Methods, Impact and Results",
+                "disambiguation": "",
+                "length": 826413,
+                "id": "221d8c77-b5d7-4a8e-8099-1a1b71acd9eb"
+            },
+            "target-type": "recording",
+            "attribute-credits": [],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attribute-values": []
+        },
+        {
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "id": "b0ed4613-00c2-41b0-a841-0017d7a7f3b4",
+                "length": 179000,
+                "disambiguation": "",
+                "video": false,
+                "title": "A World Is Born (Rozi Plain Remix)"
+            },
+            "attribute-values": [],
+            "type-id": "582f6452-ff89-4f3b-9e78-eff5b842e208",
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "remixed in",
+            "target-credit": "",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "type": "remixed in",
+            "type-id": "582f6452-ff89-4f3b-9e78-eff5b842e208",
+            "attribute-values": [],
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "title": "All Along the Watchtower",
+                "video": false,
+                "disambiguation": "live, 1970‐08‐30: Afton Down, Freshwater, UK",
+                "length": 268333,
+                "id": "99471a85-69c2-4bf1-8e14-2c62a680d2a0"
+            }
+        },
+        {
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "title": "All Along the Watchtower",
+                "length": 255000,
+                "disambiguation": "",
+                "id": "933644d4-6e9a-4911-82da-c16fbbfeeb89"
+            },
+            "type-id": "582f6452-ff89-4f3b-9e78-eff5b842e208",
+            "attribute-values": [],
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "remixed in",
+            "target-credit": "",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "title": "The Ballad of John and Yoko",
+                "video": true,
+                "disambiguation": "",
+                "length": 179000,
+                "id": "e9e05d00-3b26-48ce-ab9e-93d8c2f3d8c1"
+            },
+            "attribute-values": [],
+            "type-id": "d92ee325-0d37-4d1c-aea1-436f36e13565",
+            "direction": "forward",
+            "source-credit": "",
+            "ended": true,
+            "begin": "1969-01",
+            "type": "video shot in",
+            "target-credit": "",
+            "end": "1969-04",
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1979-07-10",
+            "ended": true,
+            "type": "video shot in",
+            "attributes": [],
+            "end": "1979-07-10",
+            "target-credit": "",
+            "recording": {
+                "title": "Making Plans for Nigel",
+                "video": true,
+                "id": "87a02961-08a7-4f5b-b33c-b1b92cb80902",
+                "disambiguation": "",
+                "length": 258000
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "type-id": "d92ee325-0d37-4d1c-aea1-436f36e13565",
+            "attribute-values": []
+        },
+        {
+            "type-id": "d92ee325-0d37-4d1c-aea1-436f36e13565",
+            "attribute-values": [],
+            "target-type": "recording",
+            "recording": {
+                "title": "1988: Stage by Stage: The Making of Les Misérables",
+                "video": true,
+                "length": 3429000,
+                "disambiguation": "",
+                "id": "4314bfef-042f-4371-b890-151fa9d6e2c2"
+            },
+            "attribute-ids": [],
+            "ended": true,
+            "begin": "1985-10-08",
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "end": "1985-10-08",
+            "type": "video shot in"
+        },
+        {
+            "type-id": "e42af9dd-4203-480c-9178-ee4f67ba2609",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release",
+            "end": null,
+            "release": {
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null,
+                "title": "Abbey Road Duos",
+                "country": "GB",
+                "quality": "normal",
+                "barcode": null,
+                "disambiguation": "",
+                "date": "2007",
+                "release-events": [
+                    {
+                        "date": "2007",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type-id": null,
+                            "disambiguation": "",
+                            "name": "United Kingdom",
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "sort-name": "United Kingdom",
+                            "type": null
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "status": null,
+                "id": "5cbbba1b-41f5-4318-8c45-d44a25028a17"
+            },
+            "attributes": [],
+            "target-credit": "",
+            "type": "edited in",
+            "begin": null,
+            "ended": false,
+            "source-credit": "Mountview Road",
+            "direction": "forward"
+        },
+        {
+            "end": null,
+            "attributes": [],
+            "release": {
+                "country": "US",
+                "quality": "normal",
+                "barcode": "075678997242",
+                "disambiguation": "",
+                "date": "2007-09-18",
+                "release-events": [
+                    {
+                        "area": {
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type-id": null,
+                            "name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "type": null,
+                            "sort-name": "United States"
+                        },
+                        "date": "2007-09-18"
+                    }
+                ],
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "status": null,
+                "id": "d0b53b84-789d-31a5-abf1-1765f9187046",
+                "packaging": null,
+                "status-id": null,
+                "packaging-id": null,
+                "title": "All the Lost Souls"
+            },
+            "target-credit": "",
+            "type": "engineered in",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "type-id": "3a24272b-3273-456a-9be8-421580513d4b",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release"
+        },
+        {
+            "target-type": "release",
+            "attribute-ids": [],
+            "type-id": "3a24272b-3273-456a-9be8-421580513d4b",
+            "attribute-values": [],
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "engineered in",
+            "target-credit": "",
+            "attributes": [],
+            "release": {
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null,
+                "title": "Axis: Bold as Love",
+                "country": "XE",
+                "quality": "normal",
+                "barcode": "042281357220",
+                "disambiguation": "",
+                "date": "1987-10-05",
+                "release-events": [
+                    {
+                        "date": "1987-10-05",
+                        "area": {
+                            "name": "Europe",
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "XE"
+                            ],
+                            "type-id": null,
+                            "sort-name": "Europe",
+                            "type": null,
+                            "id": "89a675c2-3e37-3518-b83c-418bad59a85a"
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "id": "d0eb220f-bc99-3297-b396-84125f12698f",
+                "status": null
+            },
+            "end": null
+        },
+        {
+            "type": "engineered in",
+            "target-credit": "",
+            "end": null,
+            "release": {
+                "disambiguation": "",
+                "barcode": "042284724326",
+                "country": null,
+                "quality": "normal",
+                "id": "98e5eb29-ed40-477e-bfc5-b2a392fd189a",
+                "status": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-events": [
+                    {
+                        "area": null,
+                        "date": "1993"
+                    },
+                    {
+                        "date": "",
+                        "area": {
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type": null,
+                            "sort-name": "Germany",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "disambiguation": "",
+                            "name": "Germany"
+                        }
+                    }
+                ],
+                "date": "1993",
+                "packaging-id": null,
+                "status-id": null,
+                "packaging": null,
+                "title": "Axis: Bold as Love"
+            },
+            "attributes": [],
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "target-type": "release",
+            "attribute-ids": [],
+            "type-id": "3a24272b-3273-456a-9be8-421580513d4b",
+            "attribute-values": []
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "release": {
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "United Kingdom",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "disambiguation": "",
+                            "sort-name": "United Kingdom",
+                            "type": null,
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+                        },
+                        "date": "1964-03"
+                    }
+                ],
+                "date": "1964-03",
+                "status": null,
+                "id": "ecdbc3cf-45b7-4154-9980-96e3c66bab7f",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "country": "GB",
+                "quality": "normal",
+                "disambiguation": "",
+                "barcode": "",
+                "title": "Dance Album of Carl Perkins",
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null
+            },
+            "attributes": [],
+            "type": "manufactured in",
+            "attribute-values": [],
+            "type-id": "c0998b44-aa21-4d27-be79-2ff64205cecd",
+            "target-type": "release",
+            "attribute-ids": []
+        },
+        {
+            "attributes": [],
+            "release": {
+                "title": "La Máquina",
+                "packaging": null,
+                "status-id": null,
+                "packaging-id": null,
+                "date": "2026-04-15",
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "disambiguation": "",
+                            "name": "[Worldwide]",
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "type": null,
+                            "sort-name": "[Worldwide]"
+                        },
+                        "date": "2026-04-15"
+                    }
+                ],
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "mul"
+                },
+                "id": "b16cb6ad-c9ce-4ce2-8ade-72dabcd4cd0d",
+                "status": null,
+                "quality": "normal",
+                "country": "XW",
+                "barcode": "5063933124934",
+                "disambiguation": ""
+            },
+            "end": null,
+            "target-credit": "",
+            "type": "manufactured in",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "type-id": "c0998b44-aa21-4d27-be79-2ff64205cecd",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release"
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "release",
+            "attribute-values": [],
+            "type-id": "c0998b44-aa21-4d27-be79-2ff64205cecd",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "manufactured in",
+            "attributes": [],
+            "release": {
+                "title": "Ticket to Ride",
+                "packaging-id": null,
+                "status-id": null,
+                "packaging": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "status": null,
+                "id": "743adc09-b419-40a0-8e44-cbd8ec1378d1",
+                "date": "1970",
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "sort-name": "United Kingdom",
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type-id": null,
+                            "disambiguation": "",
+                            "name": "United Kingdom"
+                        },
+                        "date": "1970"
+                    }
+                ],
+                "barcode": "",
+                "disambiguation": "",
+                "quality": "normal",
+                "country": "GB"
+            },
+            "end": null,
+            "target-credit": ""
+        },
+        {
+            "type": "mastered in",
+            "attributes": [
+                "re"
+            ],
+            "release": {
+                "title": "Neu! '75",
+                "packaging-id": null,
+                "status-id": null,
+                "packaging": null,
+                "id": "bbf728dd-5d11-493d-b15a-5ff13b7f3c1f",
+                "status": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": null
+                },
+                "release-events": [
+                    {
+                        "date": "2001",
+                        "area": null
+                    }
+                ],
+                "date": "2001",
+                "disambiguation": "Matrix / Runout: 724353078225 2-1-1, Mastering SID Code: IFPI L043",
+                "barcode": "724353078225",
+                "quality": "normal",
+                "country": null
+            },
+            "end": "2001",
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "2001",
+            "ended": true,
+            "attribute-ids": {
+                "re": "9b72452f-550e-4ace-93ed-fb8789cdc245"
+            },
+            "target-type": "release",
+            "attribute-values": [],
+            "type-id": "ee380877-3636-462b-b407-ab39370a787e"
+        },
+        {
+            "type-id": "ee380877-3636-462b-b407-ab39370a787e",
+            "attribute-values": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "ended": true,
+            "begin": "2002-03",
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": "2002-03",
+            "attributes": [],
+            "release": {
+                "quality": "normal",
+                "country": "XE",
+                "barcode": null,
+                "disambiguation": "",
+                "date": "2002",
+                "release-events": [
+                    {
+                        "date": "2002",
+                        "area": {
+                            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                            "sort-name": "Europe",
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "XE"
+                            ],
+                            "type-id": null,
+                            "disambiguation": "",
+                            "name": "Europe"
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "language": "tyv",
+                    "script": "Latn"
+                },
+                "status": null,
+                "id": "5e6accda-005f-47b7-9688-4441c360ff3b",
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null,
+                "title": "In Europe Live 2001 Bootleg"
+            },
+            "type": "mastered in"
+        },
+        {
+            "target-credit": "",
+            "end": "2009-09",
+            "attributes": [],
+            "release": {
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "id": "e24fdbf3-fb6b-4d10-97e3-ecaaac2eb8bb",
+                "status": null,
+                "date": "2015-04-17",
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "Germany",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "disambiguation": "",
+                            "sort-name": "Germany",
+                            "type": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+                        },
+                        "date": "2015-04-17"
+                    }
+                ],
+                "barcode": null,
+                "disambiguation": "",
+                "quality": "normal",
+                "country": "DE",
+                "title": "Kimidanzeigen",
+                "status-id": null,
+                "packaging-id": null,
+                "packaging": null
+            },
+            "type": "mastered in",
+            "ended": true,
+            "begin": "2009-09",
+            "direction": "forward",
+            "source-credit": "",
+            "type-id": "ee380877-3636-462b-b407-ab39370a787e",
+            "attribute-values": [],
+            "target-type": "release",
+            "attribute-ids": []
+        },
+        {
+            "attribute-values": [],
+            "type-id": "653b7420-c418-4bdc-83a5-6b2f44a65915",
+            "attribute-ids": [],
+            "target-type": "release",
+            "end": null,
+            "release": {
+                "id": "ea830ae9-1ff1-3ed2-a023-4c1eeb03ea56",
+                "status": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-events": [
+                    {
+                        "date": "1994-09-06",
+                        "area": {
+                            "name": "United States",
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type-id": null,
+                            "sort-name": "United States",
+                            "type": null,
+                            "id": "489ce91b-6658-3307-9877-795b68554c98"
+                        }
+                    }
+                ],
+                "date": "1994-09-06",
+                "disambiguation": "",
+                "barcode": "074646641927",
+                "country": "US",
+                "quality": "normal",
+                "title": "Cut the Crap",
+                "packaging-id": null,
+                "status-id": null,
+                "packaging": null
+            },
+            "attributes": [],
+            "target-credit": "",
+            "type": "mixed in",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "release",
+            "type-id": "653b7420-c418-4bdc-83a5-6b2f44a65915",
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "mixed in",
+            "attributes": [],
+            "release": {
+                "title": "Moon Sign",
+                "packaging": null,
+                "status-id": null,
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "type": null,
+                            "sort-name": "United Kingdom",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type-id": null,
+                            "disambiguation": "",
+                            "name": "United Kingdom"
+                        },
+                        "date": "2021-09-10"
+                    }
+                ],
+                "date": "2021-09-10",
+                "id": "ecf408fd-f3d4-44f4-ba28-590e82edc447",
+                "status": null,
+                "text-representation": {
+                    "script": null,
+                    "language": "eng"
+                },
+                "quality": "normal",
+                "country": "GB",
+                "disambiguation": "",
+                "barcode": null
+            },
+            "end": null,
+            "target-credit": ""
+        },
+        {
+            "type": "printed in",
+            "end": null,
+            "attributes": [],
+            "release": {
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null,
+                "title": "Magical Melodies",
+                "quality": "normal",
+                "country": "GB",
+                "barcode": "",
+                "disambiguation": "stereo",
+                "date": "1968",
+                "release-events": [
+                    {
+                        "area": {
+                            "sort-name": "United Kingdom",
+                            "type": null,
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "name": "United Kingdom",
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type-id": null
+                        },
+                        "date": "1968"
+                    }
+                ],
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "id": "9fbac44d-78ff-4086-b81b-3070bf961619",
+                "status": null
+            },
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "attribute-ids": [],
+            "target-type": "release",
+            "attribute-values": [],
+            "type-id": "0123b87a-5b31-4cd7-9df7-03f885bfd90c"
+        },
+        {
+            "type-id": "0123b87a-5b31-4cd7-9df7-03f885bfd90c",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release",
+            "end": null,
+            "release": {
+                "date": "1974",
+                "release-events": [
+                    {
+                        "date": "1974",
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "type": null,
+                            "sort-name": "United Kingdom",
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type-id": null,
+                            "name": "United Kingdom"
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "status": null,
+                "id": "09c3c6e0-0987-4859-b920-76577960bac9",
+                "country": "GB",
+                "quality": "normal",
+                "barcode": "",
+                "disambiguation": "",
+                "title": "The Romantic Magic of Hawaii",
+                "packaging": null,
+                "status-id": null,
+                "packaging-id": null
+            },
+            "attributes": [],
+            "target-credit": "",
+            "type": "printed in",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "attribute-values": [],
+            "type-id": "0123b87a-5b31-4cd7-9df7-03f885bfd90c",
+            "target-type": "release",
+            "attribute-ids": [],
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "release": {
+                "title": "Ticket to Ride",
+                "status-id": null,
+                "packaging-id": null,
+                "packaging": null,
+                "id": "743adc09-b419-40a0-8e44-cbd8ec1378d1",
+                "status": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "disambiguation": "",
+                            "name": "United Kingdom",
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "type": null,
+                            "sort-name": "United Kingdom"
+                        },
+                        "date": "1970"
+                    }
+                ],
+                "date": "1970",
+                "disambiguation": "",
+                "barcode": "",
+                "quality": "normal",
+                "country": "GB"
+            },
+            "type": "printed in"
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "release",
+            "type-id": "8d60be20-959c-4f5b-85f6-2b1f44321d11",
+            "attribute-values": [],
+            "type": "produced in",
+            "attributes": [],
+            "release": {
+                "release-events": [
+                    {
+                        "date": "2022-09-02",
+                        "area": {
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "type": null,
+                            "sort-name": "[Worldwide]",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "name": "[Worldwide]"
+                        }
+                    }
+                ],
+                "date": "2022-09-02",
+                "id": "bbe08c54-9ef6-4092-abc2-bc2f36cb8fdf",
+                "status": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "country": "XW",
+                "quality": "normal",
+                "disambiguation": "",
+                "barcode": "",
+                "title": "Lamb of God",
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null
+            },
+            "end": null,
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false
+        },
+        {
+            "target-type": "release",
+            "attribute-ids": [],
+            "type-id": "8d60be20-959c-4f5b-85f6-2b1f44321d11",
+            "attribute-values": [],
+            "type": "produced in",
+            "target-credit": "",
+            "attributes": [],
+            "release": {
+                "disambiguation": "",
+                "barcode": "",
+                "quality": "normal",
+                "country": "XW",
+                "id": "91d5fab3-2434-4298-b8d0-7b60cb971e75",
+                "status": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-events": [
+                    {
+                        "area": {
+                            "sort-name": "[Worldwide]",
+                            "type": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "name": "[Worldwide]",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "disambiguation": ""
+                        },
+                        "date": "2023-07-28"
+                    }
+                ],
+                "date": "2023-07-28",
+                "status-id": null,
+                "packaging-id": null,
+                "packaging": null,
+                "title": "Mango"
+            },
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "release",
+            "attribute-values": [],
+            "type-id": "8d60be20-959c-4f5b-85f6-2b1f44321d11",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "produced in",
+            "end": null,
+            "attributes": [],
+            "release": {
+                "packaging-id": null,
+                "status-id": null,
+                "packaging": null,
+                "title": "Mike Mulligan and His Steam Shovel",
+                "disambiguation": "",
+                "barcode": "880626100021",
+                "country": "US",
+                "quality": "normal",
+                "id": "1f14b707-d264-44a6-8c13-ded2564fc350",
+                "status": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-events": [
+                    {
+                        "date": "2004",
+                        "area": {
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type-id": null,
+                            "name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "sort-name": "United States",
+                            "type": null
+                        }
+                    }
+                ],
+                "date": "2004"
+            },
+            "target-credit": ""
+        },
+        {
+            "ended": true,
+            "begin": "1953-01-23",
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "release": {
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null,
+                "title": "First Lady of the Piano",
+                "country": "US",
+                "quality": "normal",
+                "barcode": "077712770064",
+                "disambiguation": "",
+                "date": "2009",
+                "release-events": [
+                    {
+                        "date": "2009",
+                        "area": {
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "sort-name": "United States",
+                            "type": null,
+                            "disambiguation": "",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "name": "United States"
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "id": "e76cd961-5e2f-4394-a6b0-2449a7a339d1",
+                "status": null
+            },
+            "attributes": [],
+            "end": "1953-01-23",
+            "type": "recorded in",
+            "attribute-values": [],
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "target-type": "release",
+            "attribute-ids": []
+        },
+        {
+            "attributes": [],
+            "release": {
+                "status-id": null,
+                "packaging-id": null,
+                "packaging": null,
+                "title": "The Larry Williams Show",
+                "disambiguation": "",
+                "barcode": "",
+                "quality": "normal",
+                "country": "GB",
+                "status": null,
+                "id": "9d821f05-01f1-4d33-aea3-6e89935e10dc",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-events": [
+                    {
+                        "date": "1965",
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "type": null,
+                            "sort-name": "United Kingdom",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "disambiguation": "",
+                            "name": "United Kingdom"
+                        }
+                    }
+                ],
+                "date": "1965"
+            },
+            "end": "1965-04-05",
+            "target-credit": "",
+            "type": "recorded in",
+            "begin": "1965-04-05",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward",
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release"
+        },
+        {
+            "type": "recorded in",
+            "end": "1965-04-06",
+            "release": {
+                "title": "Larry Williams on Stage: Recorded Live!",
+                "packaging": null,
+                "packaging-id": null,
+                "status-id": null,
+                "date": "1965",
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "United Kingdom",
+                            "disambiguation": "",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type-id": null,
+                            "type": null,
+                            "sort-name": "United Kingdom",
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+                        },
+                        "date": "1965"
+                    }
+                ],
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "id": "69cd244f-8257-4369-9845-f6c95405fb24",
+                "status": null,
+                "quality": "normal",
+                "country": "GB",
+                "barcode": "",
+                "disambiguation": ""
+            },
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1965-04-06",
+            "ended": true,
+            "attribute-ids": [],
+            "target-type": "release",
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "attribute-credits": [],
+            "target-type": "release",
+            "end": "2025-03-11",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "release": {
+                "title": "The Adam Buxton Podcast #243, “Kate Mossman”",
+                "status-id": null,
+                "packaging-id": null,
+                "packaging": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "status": null,
+                "id": "6289ff3d-aa50-474c-99b6-c8528eb3b7ae",
+                "date": "2025-04-19",
+                "release-events": [
+                    {
+                        "date": "2025-04-19",
+                        "area": {
+                            "name": "[Worldwide]",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "disambiguation": "",
+                            "sort-name": "[Worldwide]",
+                            "type": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+                        }
+                    }
+                ],
+                "barcode": "",
+                "disambiguation": "",
+                "country": "XW",
+                "quality": "normal"
+            },
+            "target-credit": "",
+            "type": "recorded in",
+            "begin": "2025-03-11",
+            "ended": true,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "attribute-values": [],
+            "target-type": "release",
+            "attribute-credits": [],
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "ended": true,
+            "begin": "2025-03-19",
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "release": {
+                "status-id": null,
+                "packaging-id": null,
+                "packaging": null,
+                "title": "The Adam Buxton Podcast #242, “Richard Ayoade”",
+                "barcode": "",
+                "disambiguation": "",
+                "quality": "normal",
+                "country": "XW",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "status": null,
+                "id": "fc7c436e-09d4-4435-88eb-10a0c5186757",
+                "date": "2025-04-11",
+                "release-events": [
+                    {
+                        "date": "2025-04-11",
+                        "area": {
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "type": null,
+                            "sort-name": "[Worldwide]",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "disambiguation": "",
+                            "name": "[Worldwide]"
+                        }
+                    }
+                ]
+            },
+            "end": "2025-03-19",
+            "type": "recorded in"
+        },
+        {
+            "target-type": "release",
+            "attribute-credits": [],
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "attribute-values": [],
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "recorded in",
+            "target-credit": "",
+            "attributes": [
+                "lead vocals"
+            ],
+            "release": {
+                "title": "Omni",
+                "packaging": null,
+                "status-id": null,
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "[Worldwide]",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "sort-name": "[Worldwide]",
+                            "type": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+                        },
+                        "date": "2024-05-10"
+                    }
+                ],
+                "date": "2024-05-10",
+                "status": null,
+                "id": "1aa1f8e3-10b3-4764-9c67-d46d623c24eb",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "country": "XW",
+                "disambiguation": "",
+                "barcode": "3663729293749"
+            },
+            "end": null
+        },
+        {
+            "target-type": "url",
+            "attribute-ids": [],
+            "type-id": "c52f14c0-e9ac-4a8a-8f7a-c47328de168f",
+            "attribute-values": [],
+            "url": {
+                "id": "e4122e9f-3e37-4211-ac76-f1ee4a95426b",
+                "resource": "http://sws.geonames.org/2643743/"
+            },
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "geonames",
+            "target-credit": "",
+            "attributes": [],
+            "end": null
+        },
+        {
+            "url": {
+                "id": "4c439c02-7cbd-4c84-a578-b11196a767f4",
+                "resource": "http://sws.geonames.org/2648110/"
+            },
+            "type-id": "c52f14c0-e9ac-4a8a-8f7a-c47328de168f",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "geonames",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "type": "wikidata",
+            "attribute-values": [],
+            "type-id": "85c5256f-aef1-484f-979a-42007218a1c2",
+            "target-type": "url",
+            "attribute-ids": [],
+            "url": {
+                "id": "0936e6ac-cf60-419b-b1a5-b1ff454f9cb4",
+                "resource": "https://www.wikidata.org/wiki/Q84"
+            }
+        },
+        {
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "work",
+            "begin": "1736-01",
+            "type-id": "5293c7f7-7950-4fef-b367-b0062b99c4e7",
+            "attribute-values": [],
+            "ended": true,
+            "work": {
+                "language": "ita",
+                "disambiguation": "",
+                "type-id": "0db2f555-15f9-393f-af4c-739db5711146",
+                "iswcs": [],
+                "type": "Cantata",
+                "id": "602ba8bf-4109-4840-9331-ed804a70862e",
+                "languages": [
+                    "ita"
+                ],
+                "attributes": [],
+                "title": "Cecilia, volgi un sguardo, HWV 89"
+            },
+            "type": "composed in",
+            "end": "1736-01",
+            "attributes": [],
+            "target-credit": ""
+        },
+        {
+            "begin": "1741-08-22",
+            "attribute-values": [],
+            "type-id": "5293c7f7-7950-4fef-b367-b0062b99c4e7",
+            "ended": true,
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "work",
+            "end": "1741-09-14",
+            "attributes": [],
+            "target-credit": "",
+            "work": {
+                "iswcs": [],
+                "type-id": "308d1000-e97c-3629-b954-68505cf0aa30",
+                "disambiguation": "",
+                "language": "eng",
+                "title": "Messiah, HWV 56",
+                "attributes": [],
+                "id": "426b7e1c-68e7-42cf-9cae-4ba34feddf67",
+                "languages": [
+                    "eng"
+                ],
+                "type": "Oratorio"
+            },
+            "type": "composed in"
+        },
+        {
+            "begin": "1764-04-22",
+            "ended": true,
+            "attribute-values": [],
+            "type-id": "5293c7f7-7950-4fef-b367-b0062b99c4e7",
+            "source-credit": "",
+            "attribute-ids": [],
+            "target-type": "work",
+            "direction": "forward",
+            "attributes": [],
+            "end": "1764-12",
+            "target-credit": "",
+            "work": {
+                "language": "zxx",
+                "disambiguation": "",
+                "type-id": "294ff9f2-3d64-3483-96fb-f362b5fce2a0",
+                "iswcs": [],
+                "type": "Sonata",
+                "id": "9a6850f8-9b98-4c1d-986a-1dbca41b208f",
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "Violin Sonata in B-flat major, K. 10"
+            },
+            "type": "composed in"
+        },
+        {
+            "ended": true,
+            "type-id": "43ba113b-968f-4fa9-93b2-73e60f954c90",
+            "attribute-values": [],
+            "begin": "1970",
+            "direction": "forward",
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": [],
+            "target-credit": "",
+            "attributes": [],
+            "end": "1970",
+            "type": "lyrics written in",
+            "work": {
+                "language": "eng",
+                "iswcs": [
+                    "T-070.014.274-0"
+                ],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "disambiguation": "",
+                "type": "Song",
+                "title": "Brokedown Palace",
+                "attributes": [],
+                "id": "28197259-453f-4695-9946-4f406155b37c",
+                "languages": [
+                    "eng"
+                ]
+            }
+        },
+        {
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "work",
+            "direction": "forward",
+            "begin": null,
+            "type-id": "43ba113b-968f-4fa9-93b2-73e60f954c90",
+            "attribute-values": [],
+            "ended": false,
+            "work": {
+                "language": "mul",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "disambiguation": "",
+                "iswcs": [],
+                "type": "Song",
+                "languages": [
+                    "mul"
+                ],
+                "id": "db8ddc69-6626-489f-83e4-8fc009b7814d",
+                "title": "Daughters Of The Sky",
+                "attributes": []
+            },
+            "type": "lyrics written in",
+            "end": null,
+            "attributes": [],
+            "target-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "type": "lyrics written in",
+            "work": {
+                "title": "for matt (forever ago)",
+                "attributes": [],
+                "id": "b6e9d692-00e1-4e98-9a5e-565d25094c53",
+                "languages": [
+                    "eng"
+                ],
+                "type": "Song",
+                "iswcs": [],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "disambiguation": "",
+                "language": "eng"
+            },
+            "ended": false,
+            "type-id": "43ba113b-968f-4fa9-93b2-73e60f954c90",
+            "attribute-values": [],
+            "begin": null,
+            "direction": "forward",
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": []
+        },
+        {
+            "type": "premiere",
+            "work": {
+                "languages": [
+                    "ita"
+                ],
+                "id": "cd2f93de-906a-4969-b9fb-61634212707a",
+                "title": "Carco sempre di gloria, HWV 87",
+                "attributes": [],
+                "type": "Cantata",
+                "type-id": "0db2f555-15f9-393f-af4c-739db5711146",
+                "disambiguation": "",
+                "iswcs": [],
+                "language": "ita"
+            },
+            "target-credit": "",
+            "end": "1737-03-16",
+            "attributes": [],
+            "direction": "forward",
+            "target-type": "work",
+            "attribute-ids": [],
+            "source-credit": "",
+            "attribute-values": [],
+            "type-id": "c6bd908f-41f1-4ff3-83f3-df514278d994",
+            "ended": true,
+            "begin": "1737-03-16"
+        },
+        {
+            "target-credit": "",
+            "attributes": [],
+            "end": "1815-05-01",
+            "type": "premiere",
+            "work": {
+                "attributes": [],
+                "title": "Symphony in D major: I. Largo – Allegro",
+                "languages": [],
+                "id": "a54df138-4a57-44ba-861e-817726f4ce07",
+                "type": null,
+                "iswcs": [],
+                "disambiguation": "",
+                "type-id": null,
+                "language": null
+            },
+            "ended": true,
+            "attribute-values": [],
+            "type-id": "c6bd908f-41f1-4ff3-83f3-df514278d994",
+            "begin": "1815-05-01",
+            "direction": "forward",
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": []
+        },
+        {
+            "target-type": "work",
+            "direction": "forward",
+            "attribute-ids": [],
+            "source-credit": "",
+            "attribute-values": [],
+            "type-id": "c6bd908f-41f1-4ff3-83f3-df514278d994",
+            "ended": true,
+            "begin": "1815-05-01",
+            "type": "premiere",
+            "work": {
+                "id": "8354d308-9fb1-4a5f-8496-7607adb49ff0",
+                "languages": [],
+                "title": "Symphony in D major: II. Larghetto cantabile",
+                "attributes": [],
+                "type": null,
+                "type-id": null,
+                "disambiguation": "",
+                "iswcs": [],
+                "language": null
+            },
+            "target-credit": "",
+            "end": "1815-05-01",
+            "attributes": []
+        },
+        {
+            "begin": "1605",
+            "ended": true,
+            "type-id": "e02f372b-33c3-41fc-88ba-6b3e95f50d77",
+            "attribute-values": [],
+            "source-credit": "",
+            "attribute-ids": [],
+            "target-type": "work",
+            "direction": "forward",
+            "attributes": [],
+            "end": "1605",
+            "target-credit": "",
+            "work": {
+                "type": null,
+                "languages": [
+                    "zxx"
+                ],
+                "id": "291f86fc-d343-4fcf-97e8-265db15d21a3",
+                "title": "Musicall Humors",
+                "attributes": [],
+                "language": "zxx",
+                "type-id": null,
+                "disambiguation": "",
+                "iswcs": []
+            },
+            "type": "written in"
+        },
+        {
+            "work": {
+                "title": "אמי, זכרונה לברכה",
+                "attributes": [],
+                "languages": [
+                    "heb"
+                ],
+                "id": "ce837c42-a604-4068-92fe-305264dbb8f8",
+                "type": "Poem",
+                "iswcs": [],
+                "type-id": "66b8026e-7ce8-36f8-a8d5-7c346c7b9a88",
+                "disambiguation": "",
+                "language": "heb"
+            },
+            "type": "written in",
+            "attributes": [],
+            "end": "1931",
+            "target-credit": "",
+            "source-credit": "",
+            "attribute-ids": [],
+            "direction": "forward",
+            "target-type": "work",
+            "begin": "1931",
+            "ended": true,
+            "attribute-values": [],
+            "type-id": "e02f372b-33c3-41fc-88ba-6b3e95f50d77"
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "direction": "forward",
+            "target-type": "work",
+            "begin": "1965",
+            "ended": true,
+            "attribute-values": [],
+            "type-id": "e02f372b-33c3-41fc-88ba-6b3e95f50d77",
+            "work": {
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "disambiguation": "",
+                "iswcs": [
+                    "T-900.008.832-4"
+                ],
+                "language": "eng",
+                "languages": [
+                    "eng"
+                ],
+                "id": "388613bc-d5f1-366e-896d-e50df985b796",
+                "title": "Eleanor Rigby",
+                "attributes": [],
+                "type": "Song"
+            },
+            "type": "written in",
+            "attributes": [],
+            "end": "1965",
+            "target-credit": ""
+        }
+    ],
+    "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+    "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+    },
+    "genres": [],
+    "type": "City",
+    "sort-name": "London"
+}

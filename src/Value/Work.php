@@ -16,6 +16,9 @@ use MusicBrainz\Value;
  */
 class Work implements Value
 {
+    use Property\TagsTrait;
+    use Property\GenresTrait;
+    use Property\RatingTrait;
     use Property\AttributesTrait;
     use Property\DisambiguationTrait;
     use Property\IswcsTrait;
@@ -31,6 +34,9 @@ class Work implements Value
      */
     public function __construct(array $work = [])
     {
+        $this->setTagsFromArray($work);
+        $this->setGenresFromArray($work);
+        $this->setRatingFromArray($work);
         $this->setAttributesFromArray($work);
         $this->setDisambiguationFromArray($work);
         $this->setDisambiguationFromArray($work);

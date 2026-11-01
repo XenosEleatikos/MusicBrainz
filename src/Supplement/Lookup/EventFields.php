@@ -8,6 +8,12 @@ use MusicBrainz\Supplement\Fields;
 
 class EventFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\TagsTrait;
+    use \MusicBrainz\Supplement\Field\GenresTrait;
+    use \MusicBrainz\Supplement\Field\UserTagsTrait;
+    use \MusicBrainz\Supplement\Field\UserGenresTrait;
+    use \MusicBrainz\Supplement\Field\RatingsTrait;
+    use \MusicBrainz\Supplement\Field\UserRatingsTrait;
     use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\EventRelationsTrait;

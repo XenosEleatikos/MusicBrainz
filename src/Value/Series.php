@@ -17,6 +17,8 @@ use MusicBrainz\Value;
  */
 class Series implements Value
 {
+    use Property\TagsTrait;
+    use Property\GenresTrait;
     use SeriesRelationListTrait;
     use Property\AliasesTrait;
     use Property\DisambiguationTrait;
@@ -31,6 +33,8 @@ class Series implements Value
      */
     public function __construct(array $series = [])
     {
+        $this->setTagsFromArray($series);
+        $this->setGenresFromArray($series);
         $this->setAliasesFromArray($series);
         $this->setDisambiguationFromArray($series);
         $this->setMbidFromArray($series);

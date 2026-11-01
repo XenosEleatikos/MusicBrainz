@@ -8,6 +8,12 @@ use MusicBrainz\Supplement\Fields;
 
 class ReleaseFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\TagsTrait;
+    use \MusicBrainz\Supplement\Field\GenresTrait;
+    use \MusicBrainz\Supplement\Field\UserTagsTrait;
+    use \MusicBrainz\Supplement\Field\UserGenresTrait;
+    use \MusicBrainz\Supplement\Field\RatingsTrait;
+    use \MusicBrainz\Supplement\Field\UserRatingsTrait;
     use \MusicBrainz\Supplement\Field\ArtistsTrait;
     use \MusicBrainz\Supplement\Field\CollectionsTrait;
     use \MusicBrainz\Supplement\Field\LabelsTrait;

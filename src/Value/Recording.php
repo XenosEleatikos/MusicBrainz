@@ -8,6 +8,10 @@ use MusicBrainz\Relation\RelationList\Property\RecordingRelationListTrait;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value;
 
+use function array_filter;
+use function array_values;
+use function is_string;
+
 /**
  * A recording
  * A recording is an entity in MusicBrainz which can be linked to tracks on releases. Each track must always be
@@ -21,6 +25,7 @@ use MusicBrainz\Value;
  */
 class Recording implements Value
 {
+    use Property\GenresTrait;
     use Property\MBIDTrait;
     use Property\LengthTrait;
     use Property\TitleTrait;
@@ -43,6 +48,19 @@ class Recording implements Value
     use Property\ScoreTrait;
     use RecordingRelationListTrait;
 
+    /** @var list<string> */
+    private array $isrcs;
+
+    /**
+     * Returns the International Standard Recording Codes (ISRC) of the recording.
+     *
+     * @return list<string>
+     */
+    public function getIsrcs(): array
+    {
+        return $this->isrcs;
+    }
+
     private ?MBID $artistCreditId;
 
     /**
@@ -60,7 +78,9 @@ class Recording implements Value
      */
     public function __construct(array $recording = [])
     {
+        $this->setGenresFromArray($recording);
         $this->setMbidFromArray($recording);
+        $this->isrcs = array_values(array_filter(ArrayAccess::getArray($recording, 'isrcs') ?? [], is_string(...)));
         $artistCreditId = ArrayAccess::getString($recording, 'artist-credit-id');
         $this->artistCreditId = null === $artistCreditId ? null : new MBID($artistCreditId);
         $this->setLengthFromArray($recording);

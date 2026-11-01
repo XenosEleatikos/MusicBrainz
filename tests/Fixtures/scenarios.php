@@ -88,14 +88,14 @@ $beatles = 'b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d';
 $radiohead = 'a74b1b7f-71a5-4011-9441-d0b5e4122711';
 $bach = '24f1766e-9635-4d58-a4d4-9413f9f98a4c';
 
-$scenarios['browse/release/by-artist-beatles']        = static fn(MusicBrainz $mb) => $mb->api()->browse()->release($relation(ReleaseRelation::class, 'artist', $beatles), new Browse\ReleaseFields(), $page(25));
-$scenarios['browse/release/by-artist-beatles/page-2'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->release($relation(ReleaseRelation::class, 'artist', $beatles), new Browse\ReleaseFields(), $page(25, 25));
-$scenarios['browse/release/by-label-parlophone']      = static fn(MusicBrainz $mb) => $mb->api()->browse()->release($relation(ReleaseRelation::class, 'label', 'df7d1c7f-ef95-425f-8eef-445b3d7bcbd9'), new Browse\ReleaseFields(), $page(10));
-$scenarios['browse/recording/by-artist-radiohead']    = static fn(MusicBrainz $mb) => $mb->api()->browse()->recording($relation(RecordingRelation::class, 'artist', $radiohead), new Browse\RecordingFields(), $page(25));
-$scenarios['browse/work/by-artist-bach']              = static fn(MusicBrainz $mb) => $mb->api()->browse()->work($relation(WorkRelation::class, 'artist', $bach), new Browse\WorkFields(), $page(25));
-$scenarios['browse/event/by-artist-radiohead']        = static fn(MusicBrainz $mb) => $mb->api()->browse()->event($relation(EventRelation::class, 'artist', $radiohead), new Browse\EventFields(), $page(10));
-$scenarios['browse/artist/by-area-germany']           = static fn(MusicBrainz $mb) => $mb->api()->browse()->artist($relation(ArtistRelation::class, 'area', '85752fda-13c4-31a3-bee5-0e5cb1f51dad'), new Browse\ArtistFields(), $page(10));
-$scenarios['browse/label/by-area-germany']            = static fn(MusicBrainz $mb) => $mb->api()->browse()->label($relation(LabelRelation::class, 'area', '85752fda-13c4-31a3-bee5-0e5cb1f51dad'), new Browse\LabelFields(), $page(10));
+$scenarios['browse/release/by-artist-beatles']        = static fn(MusicBrainz $mb) => $mb->api()->browse()->release($relation(ReleaseRelation::class, 'artist', $beatles), $full(new Browse\ReleaseFields()), $page(25));
+$scenarios['browse/release/by-artist-beatles/page-2'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->release($relation(ReleaseRelation::class, 'artist', $beatles), $full(new Browse\ReleaseFields()), $page(25, 25));
+$scenarios['browse/release/by-label-parlophone']      = static fn(MusicBrainz $mb) => $mb->api()->browse()->release($relation(ReleaseRelation::class, 'label', 'df7d1c7f-ef95-425f-8eef-445b3d7bcbd9'), $full(new Browse\ReleaseFields()), $page(10));
+$scenarios['browse/recording/by-artist-radiohead']    = static fn(MusicBrainz $mb) => $mb->api()->browse()->recording($relation(RecordingRelation::class, 'artist', $radiohead), $full(new Browse\RecordingFields()), $page(25));
+$scenarios['browse/work/by-artist-bach']              = static fn(MusicBrainz $mb) => $mb->api()->browse()->work($relation(WorkRelation::class, 'artist', $bach), $full(new Browse\WorkFields()), $page(25));
+$scenarios['browse/event/by-artist-radiohead']        = static fn(MusicBrainz $mb) => $mb->api()->browse()->event($relation(EventRelation::class, 'artist', $radiohead), $full(new Browse\EventFields()), $page(10));
+$scenarios['browse/artist/by-area-germany']           = static fn(MusicBrainz $mb) => $mb->api()->browse()->artist($relation(ArtistRelation::class, 'area', '85752fda-13c4-31a3-bee5-0e5cb1f51dad'), $full(new Browse\ArtistFields()), $page(10));
+$scenarios['browse/label/by-area-germany']            = static fn(MusicBrainz $mb) => $mb->api()->browse()->label($relation(LabelRelation::class, 'area', '85752fda-13c4-31a3-bee5-0e5cb1f51dad'), $full(new Browse\LabelFields()), $page(10));
 
 // ---------------------------------------------------------------------------------------------------- search
 $scenarios['search/artist/beatles'] = static function (MusicBrainz $mb) use ($page) {

@@ -8,6 +8,8 @@ use MusicBrainz\Supplement\Fields;
 
 class LabelFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\GenresTrait;
+    use \MusicBrainz\Supplement\Field\UserGenresTrait;
     use \MusicBrainz\Supplement\Field\ReleasesTrait;
     use \MusicBrainz\Supplement\Field\DiscIdsTrait;
     use \MusicBrainz\Supplement\Field\MediaTrait;

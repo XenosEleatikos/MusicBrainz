@@ -17,6 +17,9 @@ use MusicBrainz\Value;
  */
 class Event implements Value
 {
+    use Property\TagsTrait;
+    use Property\GenresTrait;
+    use Property\RatingTrait;
     use EventRelationListTrait;
     use Property\CancelledTrait;
     use Property\DisambiguationTrait;
@@ -43,6 +46,9 @@ class Event implements Value
      */
     public function __construct(array $event = [])
     {
+        $this->setTagsFromArray($event);
+        $this->setGenresFromArray($event);
+        $this->setRatingFromArray($event);
         $this->setlist = ArrayAccess::getString($event, 'setlist') ?? '';
         $this->setCancelledFromArray($event);
         $this->setDisambiguationFromArray($event);

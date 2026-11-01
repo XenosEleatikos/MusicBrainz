@@ -8,6 +8,8 @@ use MusicBrainz\Supplement\Fields;
 
 class ReleaseFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\RatingsTrait;
+    use \MusicBrainz\Supplement\Field\UserRatingsTrait;
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
     use \MusicBrainz\Supplement\Field\ArtistCreditsTrait;
     use \MusicBrainz\Supplement\Field\DiscIdsTrait;

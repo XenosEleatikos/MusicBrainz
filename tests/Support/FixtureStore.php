@@ -178,6 +178,33 @@ final class FixtureStore
     }
 
     /**
+     * Deletes all fixtures except the given ones (names as returned by {@see nameFor()}) and returns the deleted names.
+     *
+     * @param array<string,true> $keep
+     *
+     * @return list<string>
+     */
+    public function prune(array $keep): array
+    {
+        $index = $this->index();
+        $deleted = [];
+        foreach ($index as $name => $_) {
+            if (!isset($keep[$name])) {
+                @unlink($this->directory . '/' . $name);
+                unset($index[$name]);
+                $deleted[] = $name;
+            }
+        }
+        file_put_contents(
+            $this->directory . '/' . self::INDEX,
+            json_encode($index, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n",
+            LOCK_EX
+        );
+
+        return $deleted;
+    }
+
+    /**
      * @return array<string, array{url: string, status: int, recorded: string, slimmed?: bool}>
      */
     public function index(): array

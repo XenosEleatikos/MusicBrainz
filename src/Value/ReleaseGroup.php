@@ -25,6 +25,9 @@ use MusicBrainz\Value;
  */
 class ReleaseGroup implements Value
 {
+    use Property\TagsTrait;
+    use Property\GenresTrait;
+    use Property\RatingTrait;
     use Property\TitleTrait;
     use Property\MBIDTrait;
     use Property\DisambiguationTrait;
@@ -39,6 +42,9 @@ class ReleaseGroup implements Value
      */
     public function __construct(array $releaseGroup = [])
     {
+        $this->setTagsFromArray($releaseGroup);
+        $this->setGenresFromArray($releaseGroup);
+        $this->setRatingFromArray($releaseGroup);
         $this->setTitleFromArray($releaseGroup);
         $this->setMbidFromArray($releaseGroup);
         $this->setDisambiguationFromArray($releaseGroup);

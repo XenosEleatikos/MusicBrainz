@@ -13,6 +13,9 @@ use MusicBrainz\Value;
  */
 class Release implements Value
 {
+    use Property\TagsTrait;
+    use Property\GenresTrait;
+    use Property\RatingTrait;
     use Property\AliasesTrait;
     use Property\AnnotationTextTrait;
     use Property\ArtistCreditsTrait;
@@ -51,6 +54,9 @@ class Release implements Value
      */
     public function __construct(array $release = [])
     {
+        $this->setTagsFromArray($release);
+        $this->setGenresFromArray($release);
+        $this->setRatingFromArray($release);
         $this->coverArtArchive = CoverArtArchive::fromArray(ArrayAccess::getArray($release, 'cover-art-archive') ?? []);
         $this->setAliasesFromArray($release);
         $this->setAnnotationTextFromArray($release);

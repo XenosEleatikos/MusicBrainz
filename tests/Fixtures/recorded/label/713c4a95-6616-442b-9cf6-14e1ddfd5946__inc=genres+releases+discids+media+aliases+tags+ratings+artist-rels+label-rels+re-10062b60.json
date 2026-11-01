@@ -1,0 +1,1271 @@
+{
+    "id": "713c4a95-6616-442b-9cf6-14e1ddfd5946",
+    "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded",
+    "relations": [
+        {
+            "attribute-ids": [],
+            "target-type": "artist",
+            "begin": "1947",
+            "source-credit": "",
+            "type": "recording contract",
+            "target-credit": "",
+            "attribute-values": [],
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "direction": "backward",
+            "end": "1952",
+            "ended": true,
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "8e8c7417-c905-46b1-b42a-5260b4274ed4",
+                "type": "Person",
+                "sort-name": "Monk, Thelonious",
+                "disambiguation": "",
+                "country": "US",
+                "name": "Thelonious Monk"
+            },
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "artist": {
+                "disambiguation": "US jazz saxophonist",
+                "country": "US",
+                "sort-name": "Lloyd, Charles",
+                "type": "Person",
+                "name": "Charles Lloyd",
+                "id": "b9b579ad-e499-4e3e-9d09-06bc8e504135",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "end": null,
+            "direction": "backward",
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "recording contract",
+            "begin": null,
+            "target-type": "artist",
+            "attribute-ids": []
+        },
+        {
+            "attribute-values": [],
+            "label": {
+                "disambiguation": "not for release label use; US company behind the “Capitol Records” imprint",
+                "type": "Holding",
+                "sort-name": "Capitol Records, Inc.",
+                "name": "Capitol Records, Inc.",
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "id": "e63fbdc9-1547-4ffa-96d1-c4e887b6af28",
+                "label-code": null
+            },
+            "ended": false,
+            "type-id": "23f8c592-006d-4214-9080-c4e5000c05d7",
+            "end": null,
+            "direction": "backward",
+            "begin": "1984",
+            "target-type": "label",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "imprint",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "source-credit": "",
+            "type": "imprint",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "label",
+            "begin": null,
+            "ended": false,
+            "end": null,
+            "type-id": "23f8c592-006d-4214-9080-c4e5000c05d7",
+            "direction": "backward",
+            "label": {
+                "type": "Holding",
+                "sort-name": "Blue Note Records",
+                "disambiguation": "this is the record company; for release labels use its imprint “Blue Note”",
+                "name": "Blue Note Records",
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "id": "d3865f1e-ae0c-4a97-99b9-016966d49cb5",
+                "label-code": null
+            },
+            "attribute-values": []
+        },
+        {
+            "attributes": [],
+            "label": {
+                "label-code": 148,
+                "id": "abea2d3e-eabf-4480-ab24-9382dd642c73",
+                "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded",
+                "name": "Capitol Records",
+                "disambiguation": "imprint of Capitol Records, Inc.",
+                "sort-name": "Capitol Records",
+                "type": "Imprint"
+            },
+            "type-id": "e0636054-32b7-4dd5-97a9-6e5664d443bc",
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "label distribution",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "label",
+            "attribute-ids": []
+        },
+        {
+            "attribute-values": [],
+            "ended": false,
+            "type-id": "e0636054-32b7-4dd5-97a9-6e5664d443bc",
+            "direction": "backward",
+            "end": null,
+            "label": {
+                "disambiguation": "EMI Records, or EMI Music only if there is no other imprint",
+                "type": "Original Production",
+                "sort-name": "EMI",
+                "name": "EMI",
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                "id": "c029628b-6633-439e-bcee-ed02e8a338f7",
+                "label-code": 542
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "label",
+            "type": "label distribution",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": []
+        },
+        {
+            "label": {
+                "name": "Liberty",
+                "sort-name": "Liberty",
+                "type": "Original Production",
+                "disambiguation": "a division of UMG Recordings, Inc.",
+                "label-code": 249,
+                "id": "f1452309-a828-4665-a70c-aacdf94d154b",
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+            },
+            "ended": true,
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "end": "1969",
+            "direction": "backward",
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "label ownership",
+            "source-credit": "",
+            "begin": "1965",
+            "target-type": "label",
+            "attribute-ids": [],
+            "attributes": []
+        },
+        {
+            "attribute-ids": [],
+            "begin": "1979",
+            "target-type": "label",
+            "source-credit": "",
+            "type": "label ownership",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": false,
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "direction": "backward",
+            "end": null,
+            "label": {
+                "type": "Holding",
+                "sort-name": "EMI Group",
+                "disambiguation": "aka “Music from EMI” – this is a company, not an imprint! and neither are its regional subsidiaries",
+                "name": "EMI Group",
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "id": "a8f3eb19-05db-4895-b1d2-7ec911022a5e",
+                "label-code": null
+            },
+            "attributes": []
+        },
+        {
+            "begin": null,
+            "target-type": "label",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "label ownership",
+            "attribute-values": [],
+            "label": {
+                "name": "Roulette Jazz",
+                "type": null,
+                "sort-name": "Roulette Jazz",
+                "disambiguation": "",
+                "label-code": null,
+                "type-id": null,
+                "id": "13d2d5b1-b0e9-4aa5-9856-8aa33fd86f54"
+            },
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "attributes": []
+        },
+        {
+            "direction": "backward",
+            "type-id": "1a502d1c-2c30-4efa-8cd7-39af664e3af8",
+            "end": null,
+            "ended": false,
+            "label": {
+                "id": "0336db13-6042-4b59-85f3-b1ad02cbab9a",
+                "type-id": "88ee6ae7-f413-3490-a1d2-54f6a9f0838c",
+                "label-code": null,
+                "sort-name": "The Jazz Labels",
+                "type": "Reissue Production",
+                "disambiguation": "jazz reissue label by UMG, features cover artwork of original albums",
+                "name": "The Jazz Labels"
+            },
+            "attribute-values": [],
+            "type": "label reissue",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "label",
+            "attributes": []
+        },
+        {
+            "ended": true,
+            "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+            "end": "1945",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "phonographic copyright",
+            "target-type": "recording",
+            "begin": "1945",
+            "attribute-ids": [],
+            "recording": {
+                "id": "38f61823-b188-4647-92be-4739215185f7",
+                "length": 272800,
+                "disambiguation": "",
+                "title": "Caravan",
+                "video": false
+            },
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "recording": {
+                "title": "Ornithology",
+                "video": false,
+                "disambiguation": "",
+                "length": 265800,
+                "id": "3a2855b0-7ac5-4680-8b8f-db6e4947cf20"
+            },
+            "attribute-ids": [],
+            "begin": "1953",
+            "target-type": "recording",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": true,
+            "end": "1953",
+            "direction": "forward",
+            "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff"
+        },
+        {
+            "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+            "direction": "forward",
+            "end": "1958",
+            "ended": true,
+            "attribute-values": [],
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "recording",
+            "begin": "1958",
+            "recording": {
+                "title": "Moanin’",
+                "video": false,
+                "disambiguation": "",
+                "length": 241640,
+                "id": "22726a76-7c7c-40ed-9068-40bce50e6547"
+            },
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "ended": true,
+            "direction": "forward",
+            "end": "1960",
+            "type-id": "7fcc7ea2-968b-4e88-84bb-98700f09c116",
+            "attribute-values": [],
+            "type": "artwork",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "media": [],
+                "id": "247cc3d1-ac1d-42d1-9177-29eab2dc81c3",
+                "packaging": null,
+                "status": null,
+                "disambiguation": "XRCD, Album, Reissue, Remastered, Stereo",
+                "country": "US",
+                "quality": "normal",
+                "barcode": "693692200010",
+                "date": "2010-01-19",
+                "title": "Soul Station",
+                "release-events": [
+                    {
+                        "date": "2010-01-19",
+                        "area": {
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "sort-name": "United States",
+                            "type": null,
+                            "disambiguation": "",
+                            "name": "United States"
+                        }
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                }
+            },
+            "begin": "1960",
+            "target-type": "release"
+        },
+        {
+            "attributes": [],
+            "end": "1965",
+            "direction": "forward",
+            "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+            "ended": true,
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "copyright",
+            "target-type": "release",
+            "begin": "1965",
+            "release": {
+                "packaging": null,
+                "status": null,
+                "country": "JP",
+                "disambiguation": "",
+                "id": "eddad256-1545-4530-bf19-85b7c7c12f9c",
+                "media": [],
+                "title": "All That's Good",
+                "date": "2014-11-19",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                            "iso-3166-1-codes": [
+                                "JP"
+                            ],
+                            "type": null,
+                            "sort-name": "Japan",
+                            "disambiguation": "",
+                            "name": "Japan"
+                        },
+                        "date": "2014-11-19"
+                    }
+                ],
+                "barcode": "4988005851031",
+                "quality": "normal"
+            },
+            "attribute-ids": []
+        },
+        {
+            "source-credit": "",
+            "type": "copyright",
+            "target-credit": "",
+            "release": {
+                "title": "Born to Be Blue",
+                "date": "1989",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "type-id": null,
+                            "name": "United States",
+                            "disambiguation": "",
+                            "sort-name": "United States",
+                            "type": null
+                        },
+                        "date": "1989"
+                    }
+                ],
+                "status-id": null,
+                "barcode": "077778443223",
+                "quality": "normal",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "",
+                "country": "US",
+                "id": "575fc65e-8fc6-4c61-9d47-43627a235e21",
+                "media": []
+            },
+            "attribute-ids": [],
+            "target-type": "release",
+            "begin": "1989",
+            "ended": true,
+            "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+            "end": "1989",
+            "direction": "forward",
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "target-credit": "",
+            "type": "copyright",
+            "source-credit": "",
+            "begin": "1993",
+            "target-type": "release",
+            "release": {
+                "quality": "normal",
+                "barcode": "00724382958550",
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "aa95182f-df0a-3ad6-8bfb-4b63482cd276",
+                            "iso-3166-1-codes": [
+                                "AF"
+                            ],
+                            "name": "Afghanistan",
+                            "type": null,
+                            "sort-name": "Afghanistan",
+                            "disambiguation": ""
+                        },
+                        "date": "2003-03-03"
+                    },
+                    {
+                        "area": {
+                            "disambiguation": "",
+                            "sort-name": "Albania",
+                            "type": null,
+                            "name": "Albania",
+                            "iso-3166-1-codes": [
+                                "AL"
+                            ],
+                            "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc",
+                            "type-id": null
+                        },
+                        "date": "2003-03-03"
+                    },
+                    {
+                        "date": "2003-03-03",
+                        "area": {
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "Algeria",
+                            "name": "Algeria",
+                            "iso-3166-1-codes": [
+                                "DZ"
+                            ],
+                            "type-id": null,
+                            "id": "28242750-534a-326b-8ed6-1b03dfb88cd0"
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "date": "2003-03-03",
+                "title": "Hand on the Torch",
+                "media": [],
+                "id": "61979c6c-1eb0-4502-a7a5-8d0a69078754",
+                "country": "AF",
+                "disambiguation": "",
+                "status": null,
+                "packaging": null
+            },
+            "attribute-ids": [],
+            "ended": true,
+            "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+            "end": "1993",
+            "direction": "forward",
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "type": "phonographic copyright",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "media": [],
+                "id": "eddad256-1545-4530-bf19-85b7c7c12f9c",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "",
+                "country": "JP",
+                "barcode": "4988005851031",
+                "quality": "normal",
+                "title": "All That's Good",
+                "date": "2014-11-19",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-events": [
+                    {
+                        "date": "2014-11-19",
+                        "area": {
+                            "type-id": null,
+                            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                            "iso-3166-1-codes": [
+                                "JP"
+                            ],
+                            "name": "Japan",
+                            "type": null,
+                            "sort-name": "Japan",
+                            "disambiguation": ""
+                        }
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null
+            },
+            "begin": "1965",
+            "target-type": "release",
+            "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+            "end": "1965",
+            "direction": "forward",
+            "ended": true,
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "attribute-values": [],
+            "ended": true,
+            "end": "1989",
+            "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+            "direction": "forward",
+            "begin": "1989",
+            "target-type": "release",
+            "release": {
+                "country": "US",
+                "disambiguation": "",
+                "status": null,
+                "packaging": null,
+                "media": [],
+                "id": "575fc65e-8fc6-4c61-9d47-43627a235e21",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type-id": null,
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "name": "United States",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "United States"
+                        },
+                        "date": "1989"
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "date": "1989",
+                "title": "Born to Be Blue",
+                "quality": "normal",
+                "barcode": "077778443223"
+            },
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "attribute-values": [],
+            "ended": true,
+            "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+            "end": "1993",
+            "direction": "forward",
+            "attribute-ids": [],
+            "release": {
+                "barcode": "00724382958550",
+                "quality": "normal",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "Afghanistan",
+                            "sort-name": "Afghanistan",
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "aa95182f-df0a-3ad6-8bfb-4b63482cd276",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "AF"
+                            ]
+                        },
+                        "date": "2003-03-03"
+                    },
+                    {
+                        "area": {
+                            "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "AL"
+                            ],
+                            "name": "Albania",
+                            "sort-name": "Albania",
+                            "type": null,
+                            "disambiguation": ""
+                        },
+                        "date": "2003-03-03"
+                    },
+                    {
+                        "date": "2003-03-03",
+                        "area": {
+                            "name": "Algeria",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "Algeria",
+                            "iso-3166-1-codes": [
+                                "DZ"
+                            ],
+                            "type-id": null,
+                            "id": "28242750-534a-326b-8ed6-1b03dfb88cd0"
+                        }
+                    }
+                ],
+                "title": "Hand on the Torch",
+                "date": "2003-03-03",
+                "id": "61979c6c-1eb0-4502-a7a5-8d0a69078754",
+                "media": [],
+                "country": "AF",
+                "disambiguation": "",
+                "status": null,
+                "packaging": null
+            },
+            "target-type": "release",
+            "begin": "1993",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "target-credit": ""
+        },
+        {
+            "attributes": [],
+            "type-id": "a55095e6-5fd1-4a92-963e-75078a3c28b7",
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "source-credit": "",
+            "type": "tribute",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release_group": {
+                "secondary-types": [],
+                "secondary-type-ids": [],
+                "title": "Blue Note Re:imagined",
+                "first-release-date": "2020-10-16",
+                "releases": [],
+                "disambiguation": "",
+                "primary-type-id": null,
+                "primary-type": null,
+                "id": "367fd4e9-b698-4ca6-8477-aed4f0888d0c"
+            },
+            "begin": null,
+            "target-type": "release_group"
+        },
+        {
+            "attributes": [],
+            "ended": false,
+            "end": null,
+            "type-id": "a55095e6-5fd1-4a92-963e-75078a3c28b7",
+            "direction": "forward",
+            "attribute-values": [],
+            "type": "tribute",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "begin": null,
+            "release_group": {
+                "primary-type-id": null,
+                "primary-type": null,
+                "id": "406637a9-5fc5-498e-acbe-9dc0f495601c",
+                "releases": [],
+                "disambiguation": "",
+                "first-release-date": "2007-11-21",
+                "secondary-types": [],
+                "secondary-type-ids": [],
+                "title": "Blue Note Street"
+            }
+        },
+        {
+            "url": {
+                "resource": "http://www.jazzdisco.org/bluenote/",
+                "id": "ccacb226-b87c-418a-a86d-1dc8e6871dac"
+            },
+            "attributes": [],
+            "ended": false,
+            "end": null,
+            "direction": "forward",
+            "type-id": "5ac35a29-d29b-4390-b279-587bcd42fc73",
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "catalog site",
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": []
+        },
+        {
+            "url": {
+                "resource": "http://www.plosin.com/milesahead/bluenoteLabel.html",
+                "id": "8ebf74e1-661f-46e6-91f8-b453cb7a8bc1"
+            },
+            "attributes": [],
+            "ended": false,
+            "type-id": "5ac35a29-d29b-4390-b279-587bcd42fc73",
+            "end": null,
+            "direction": "forward",
+            "attribute-values": [],
+            "type": "catalog site",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null
+        },
+        {
+            "type": "discogs",
+            "source-credit": "CM Blue Note (A92)",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+            "ended": false,
+            "attribute-values": [],
+            "url": {
+                "resource": "https://www.discogs.com/label/1634296",
+                "id": "8ba0697d-48df-4345-94ba-0a521a2b5a0f"
+            },
+            "attributes": []
+        },
+        {
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "discogs",
+            "source-credit": "",
+            "attribute-values": [],
+            "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+            "end": null,
+            "direction": "forward",
+            "ended": false,
+            "attributes": [],
+            "url": {
+                "resource": "https://www.discogs.com/label/281",
+                "id": "17e18888-f071-4a2a-8d17-db7599555a66"
+            }
+        },
+        {
+            "ended": true,
+            "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+            "direction": "forward",
+            "end": "2013-10-23",
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "official site",
+            "source-credit": "",
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "url": {
+                "id": "b9082d0f-86f6-421d-958e-02759c64e801",
+                "resource": "http://www.emimusic.jp/jazz/bluenote/"
+            },
+            "attributes": []
+        },
+        {
+            "url": {
+                "id": "d643a429-4fcc-418a-8d31-a25bbaeb1e7c",
+                "resource": "http://www.bluenote.com/"
+            },
+            "attributes": [],
+            "end": null,
+            "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+            "direction": "forward",
+            "ended": false,
+            "attribute-values": [],
+            "type": "official site",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null
+        },
+        {
+            "attributes": [],
+            "url": {
+                "resource": "https://d-nb.info/dnbn/390040207",
+                "id": "35b6b041-8c68-436c-ba8b-5e6e4d87feca"
+            },
+            "attribute-values": [],
+            "direction": "forward",
+            "end": null,
+            "type-id": "83eca2b3-5ae1-43f5-a732-56fa9a8591b1",
+            "ended": false,
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "type": "other databases",
+            "source-credit": "",
+            "target-credit": ""
+        },
+        {
+            "url": {
+                "id": "0d28e3c7-b30e-447b-bad3-932e51b1083f",
+                "resource": "https://rateyourmusic.com/label/blue_note_records/"
+            },
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "type-id": "83eca2b3-5ae1-43f5-a732-56fa9a8591b1",
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "other databases",
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": []
+        },
+        {
+            "url": {
+                "resource": "https://music.apple.com/us/label/1556734421",
+                "id": "d22157a6-45c3-48e3-8032-c2776fa4c58e"
+            },
+            "attributes": [],
+            "target-credit": "",
+            "type": "purchase for download",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "ended": false,
+            "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+            "end": null,
+            "direction": "forward",
+            "attribute-values": []
+        },
+        {
+            "attributes": [],
+            "url": {
+                "resource": "https://www.qobuz.com/us-en/label/blue-note-1/download-streaming-albums/47868",
+                "id": "b5be5e59-f44f-45b7-89a3-36a537932198"
+            },
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "purchase for download",
+            "source-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+            "end": null,
+            "ended": false
+        },
+        {
+            "attributes": [],
+            "url": {
+                "id": "39a85345-942b-4d1f-aa88-06b6708d49fb",
+                "resource": "https://store.bluenote.com/"
+            },
+            "attribute-values": [],
+            "end": null,
+            "type-id": "607deff9-31a8-4b8c-a971-d873cf59ef16",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "purchase for mail-order",
+            "source-credit": ""
+        },
+        {
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "social network",
+            "source-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "direction": "forward",
+            "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+            "ended": false,
+            "attributes": [],
+            "url": {
+                "resource": "https://www.facebook.com/bluenote",
+                "id": "4efb2d8a-2117-4d17-b578-60092ac5f260"
+            }
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "type": "streaming",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "cbe05bdd-a877-4cc6-8060-7ba43a2516ef",
+            "end": null,
+            "ended": false,
+            "attributes": [],
+            "url": {
+                "resource": "https://music.apple.com/us/label/1556734421",
+                "id": "d22157a6-45c3-48e3-8032-c2776fa4c58e"
+            }
+        },
+        {
+            "attributes": [],
+            "url": {
+                "resource": "https://www.wikidata.org/wiki/Q885833",
+                "id": "238984e6-b9fc-421b-b250-0661cfa2952b"
+            },
+            "attribute-values": [],
+            "end": null,
+            "type-id": "75d87e83-d927-4580-ba63-44dc76256f98",
+            "direction": "forward",
+            "ended": false,
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "source-credit": "",
+            "type": "wikidata",
+            "target-credit": ""
+        }
+    ],
+    "country": null,
+    "disambiguation": "",
+    "isnis": [],
+    "rating": {
+        "value": null,
+        "votes-count": 0
+    },
+    "sort-name": "Blue Note",
+    "type": "Imprint",
+    "ipis": [],
+    "genres": [
+        {
+            "disambiguation": "",
+            "id": "8d901306-d4a3-436c-a1c3-75550e5b6eaf",
+            "count": 1,
+            "name": "avant-garde jazz"
+        },
+        {
+            "disambiguation": "",
+            "count": 1,
+            "id": "ac30756b-55a7-4dc3-8908-8f94c93318d0",
+            "name": "bebop"
+        },
+        {
+            "disambiguation": "",
+            "count": 2,
+            "id": "a91eed3a-fdd0-494e-ade0-95ea4117f6eb",
+            "name": "folk"
+        },
+        {
+            "name": "hard bop",
+            "disambiguation": "",
+            "count": 1,
+            "id": "8c083468-2dce-4a31-ae77-433af3deafd3"
+        },
+        {
+            "disambiguation": "",
+            "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+            "count": 7,
+            "name": "jazz"
+        },
+        {
+            "disambiguation": "",
+            "id": "94ce0ba0-9043-4b5b-87d6-3c1a8458f75d",
+            "count": 1,
+            "name": "post-bop"
+        }
+    ],
+    "tags": [
+        {
+            "count": 1,
+            "name": "american"
+        },
+        {
+            "name": "américain",
+            "count": 1
+        },
+        {
+            "count": 1,
+            "name": "avant-garde jazz"
+        }
+    ],
+    "label-code": 133,
+    "annotation": "One of the most important jazz label of the 50s/60s. Actual production also stretches toward various electro/remix stuff.\r\n\r\n'''Activity:''' 1939-1965 (independent) 1965-1979 (as a subsidiary), then revived 1985-today (as a subsidiary)\r\n'''Production type:''' original (plus a few recent reissues of subsidiary labels)\r\n'''Founded by:''' Alfred Lion & Francis Wolff\r\n'''Has/had subsidiaries:''' Capitol Jazz, Pacific Jazz and Roulette Jazz (as Blue Note is now the flagship EMI Group's jazz label)\r\n'''Current Status:'''\r\n    * Sold to: Liberty Records (1965), which was bought by United Artists (1969), which was bought by EMI Group (1979)\r\n    * Top parent company: EMI Group\r\n    * Distributed by: Capitol/EMI\r\n'''Catalog reissued by:''' Some things appear on Mosaic Records\r\n'''Additional:'''\r\nThe following detailed explanations are copied from [http://www.plosin.com/milesahead/bluenoteLabel.html|Plosin]:\r\n\"The Blue Note Modern Jazz Series began in late 1951 with the following 10\" monaural LPs. Some of these LPs were later reissued as part of the Blue Note 1500 Series of 12\" LPs. At first, recordings were made in various studios in New York (Reeves Sound Studio, WOR Studios, Apex Studios, Audio Video Studios). Beginning in October 1953, however, most Blue Note sessions took place in Rudy van Gelder's home studio in Hackensack, New Jersey. (Van Gelder moved the studio to Englewood Cliffs in early July 1959.) The sessions were produced by Alfred Lion and engineered by Van Gelder, and many LP covers featured photographs by Lion's childhood friend Francis Wolff.\r\nBlue Note made the change to 12\" LPs late in 1955. The Modern Jazz Series continued with the following 12\" LPs. Most of these were issued in both monaural versions (BLP series) and artificial stereo versions (BST 81000 series). Beginning in 1956 with BLP 1509, Reid Miles designed most of the Blue Note LP covers. Together with Alfred Lion's production, Rudy van Gelder's engineering, and Frank Wolff's photography, Miles' designs defined the Blue Note look and sound. The Blue Note 4000 series began in the mid-1950s with many of the same artists. The 1500 series has been systematically reissued by Toshiba in Japan (\"Blue Note Works 1500\" series, 20-bit K2 CDs); the catalog numbers are TOCJ-1501, etc. In addition, originally unissued material from these late 50s dates was made available on Toshiba's 1600 series (20-bit K2 CDs).\r\n\r\nToshiba/Blue Note 1600 series\r\nThese CDs make available originally unissued material from the sessions which gave us the 1500 series of Blue Note LPs. They are manufactured by Toshiba and employ 20-bit, 88.2 KHz recording technology.\"\r\n\r\nCatalog attempt at the remainder of http://wiki.musicbrainz.org/Jazz/Labels/BlueNote\r\n\r\nThe label was founded as Blue Note Records and is still called Blue Note Records.",
+    "aliases": [
+        {
+            "sort-name": "Blue Note",
+            "type": "Label name",
+            "locale": "en",
+            "name": "Blue Note",
+            "begin": null,
+            "ended": false,
+            "end": null,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "primary": false
+        },
+        {
+            "type": "Label name",
+            "sort-name": "Blue Note Records",
+            "locale": "en",
+            "begin": null,
+            "name": "Blue Note Records",
+            "end": null,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "ended": false,
+            "primary": false
+        },
+        {
+            "primary": null,
+            "ended": false,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "end": null,
+            "name": "CM Blue Note (A92)",
+            "begin": null,
+            "sort-name": "CM Blue Note (A92)",
+            "type": "Label name",
+            "locale": null
+        },
+        {
+            "begin": null,
+            "name": "蓝调之音",
+            "locale": null,
+            "type": null,
+            "sort-name": "蓝调之音",
+            "primary": null,
+            "type-id": null,
+            "end": null,
+            "ended": false
+        },
+        {
+            "ended": false,
+            "end": null,
+            "type-id": null,
+            "primary": null,
+            "locale": null,
+            "sort-name": "藍調之音",
+            "type": null,
+            "name": "藍調之音",
+            "begin": null
+        }
+    ],
+    "releases": [
+        {
+            "title": "Port of Harlem Blues / After Hour Blues",
+            "date": "1939",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "packaging-id": null,
+            "release-events": [
+                {
+                    "area": {
+                        "disambiguation": "",
+                        "sort-name": "United States",
+                        "type": null,
+                        "name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "type-id": null
+                    },
+                    "date": "1939"
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "aliases": [],
+            "barcode": "",
+            "tags": [],
+            "genres": [],
+            "quality": "normal",
+            "status": "Official",
+            "packaging": null,
+            "country": "US",
+            "disambiguation": "",
+            "media": [
+                {
+                    "title": "",
+                    "format": "12\" Shellac",
+                    "format-id": "af174b17-9469-3771-9555-115ae415e587",
+                    "position": 1,
+                    "discs": [],
+                    "track-count": 2,
+                    "id": "01c0c33d-791b-3494-87e4-eb2637390900"
+                }
+            ],
+            "id": "1d0356e5-45dd-4491-854a-ccf342a3a564"
+        },
+        {
+            "title": "Boogie Woogie Stomp / Boogie Woogie Blues",
+            "date": "1939",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "date": "1939",
+                    "area": {
+                        "name": "United States",
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type-id": null,
+                        "id": "489ce91b-6658-3307-9877-795b68554c98"
+                    }
+                }
+            ],
+            "packaging-id": null,
+            "aliases": [],
+            "genres": [],
+            "barcode": "",
+            "tags": [],
+            "quality": "normal",
+            "status": "Official",
+            "packaging": null,
+            "disambiguation": "",
+            "country": "US",
+            "id": "c18901c4-9042-4f7e-a785-0e9f3bf7ad2c",
+            "media": [
+                {
+                    "format": "12\" Shellac",
+                    "title": "",
+                    "format-id": "af174b17-9469-3771-9555-115ae415e587",
+                    "discs": [],
+                    "track-count": 2,
+                    "position": 1,
+                    "id": "63830da5-42ba-3916-863e-fbf52563eb56"
+                }
+            ]
+        },
+        {
+            "quality": "normal",
+            "genres": [],
+            "barcode": "",
+            "tags": [],
+            "aliases": [],
+            "release-events": [
+                {
+                    "area": {
+                        "name": "United States",
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type-id": null,
+                        "id": "489ce91b-6658-3307-9877-795b68554c98"
+                    },
+                    "date": "1939"
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": null,
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "date": "1939",
+            "title": "Mighty Blues / Rocking the Blues",
+            "media": [
+                {
+                    "format": "12\" Shellac",
+                    "title": "",
+                    "format-id": "af174b17-9469-3771-9555-115ae415e587",
+                    "discs": [],
+                    "track-count": 2,
+                    "position": 1,
+                    "id": "4fbbb4f9-ef98-3d76-a3f9-37b50df188a8"
+                }
+            ],
+            "id": "d0ae64e4-54f5-4f31-bb60-55f64b6852e6",
+            "disambiguation": "",
+            "country": "US",
+            "status": "Official",
+            "packaging": null
+        }
+    ],
+    "name": "Blue Note",
+    "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1939"
+    },
+    "area": {
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "type-id": null,
+        "disambiguation": "",
+        "sort-name": "New York",
+        "type": null,
+        "name": "New York"
+    }
+}

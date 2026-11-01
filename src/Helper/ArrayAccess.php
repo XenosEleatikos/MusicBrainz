@@ -87,6 +87,11 @@ class ArrayAccess
             return $array[$key];
         }
 
+        // JSON does not distinguish 4 from 4.0
+        if (is_int($array[$key])) {
+            return (float) $array[$key];
+        }
+
         MusicBrainz::log()
             ->error('Unexpected API behavior: Expected "' . $key . '" to be of type float, but got ' . gettype($array[$key]));
 

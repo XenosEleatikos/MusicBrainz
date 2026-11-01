@@ -105,6 +105,26 @@ final class EntityFields
             }
         }
 
+        if ($entity instanceof \MusicBrainz\Value\Recording) {
+            Assert::assertSame($json['isrcs'] ?? [], $entity->getIsrcs());
+        }
+
+        if (method_exists($entity, 'getGenres') && isset($json['genres'])) {
+            Assert::assertCount(count($json['genres']), $entity->getGenres());
+            foreach ($json['genres'] as $index => $genreJson) {
+                $genre = $entity->getGenres()[$index];
+                Assert::assertSame($genreJson['name'], (string) $genre->getName());
+                Assert::assertSame($genreJson['id'], (string) $genre->getMBID());
+                Assert::assertSame($genreJson['count'], $genre->getCount()->getNumber());
+                Assert::assertSame($genreJson['disambiguation'] ?? '', (string) $genre->getDisambiguation());
+            }
+        }
+
+        if (method_exists($entity, 'getRating') && isset($json['rating'])) {
+            Assert::assertSame((float) $json['rating']['value'], (float) (string) $entity->getRating()->getRatingValue());
+            Assert::assertSame($json['rating']['votes-count'], (int) (string) $entity->getRating()->getRatingVotes());
+        }
+
         if (method_exists($entity, 'getTags') && isset($json['tags'])) {
             foreach ($json['tags'] as $index => $tagJson) {
                 Assert::assertSame($tagJson['name'], (string) $entity->getTags()[$index]->getName());
