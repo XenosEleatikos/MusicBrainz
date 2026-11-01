@@ -78,11 +78,22 @@ $http = new RecordingHttpClient(
 $config = (new Config())
     ->setUserAgent('XenosMusicBrainz/2-dev ( https://github.com/XenosEleatikos/MusicBrainz )')
     ->setMaxRetries(3);
+// Scenarios named "auth/..." need an OAuth2 access token, taken from the environment (never printed)
+$token = (string) getenv('MB_ACCESS_TOKEN');
+if ('' !== $token) {
+    $config->setAccessToken($token);
+}
 $musicBrainz = new MusicBrainz($http, new Psr17Factory(), $logger, $config);
 
 $failed = 0;
 $noisy = 0;
+$skipped = 0;
 foreach ($scenarios as $name => $scenario) {
+    if ('' === $token && str_starts_with($name, 'auth/')) {
+        printf("%-60s skipped (needs MB_ACCESS_TOKEN)\n", $name);
+        ++$skipped;
+        continue;
+    }
     $logger->messages = [];
     $before = $http->networkRequests;
     try {
@@ -104,7 +115,7 @@ foreach ($scenarios as $name => $scenario) {
     $noisy += $messages ? 1 : 0;
 }
 
-printf("\n%d scenarios, %d failed, %d with log messages, %d requests to the web service\n", count($scenarios), $failed, $noisy, $http->networkRequests);
+printf("\n%d scenarios, %d failed, %d skipped, %d with log messages, %d requests to the web service\n", count($scenarios), $failed, $skipped, $noisy, $http->networkRequests);
 if ($prune) {
     if ($patterns || $failed) {
         echo "Not pruning: only possible for a complete, successful run.\n";
