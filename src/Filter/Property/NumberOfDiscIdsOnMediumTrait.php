@@ -18,11 +18,11 @@ trait NumberOfDiscIdsOnMediumTrait
      */
     public static function numberOfDiscIdsOnMedium(): string
     {
-        return 'discids';
+        return 'discidsmedium';
     }
 
     /**
-     * Adds the number of cd ids for the release on a medium in the release .
+     * Adds the number of cd ids for the release on a medium in the release.
      *
      * @param Count $numberOfDiscIdsOnMedium The number of cd ids for the release on a medium in the release
      *

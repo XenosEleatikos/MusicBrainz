@@ -4,14 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Filter;
 
+use MusicBrainz\Filter\Search\AreaFilter;
+use MusicBrainz\Filter\Search\ArtistFilter;
+use MusicBrainz\Filter\Search\PlaceFilter;
 use MusicBrainz\Filter\Search\ReleaseFilter;
 use MusicBrainz\Filter\Search\ReleaseGroupFilter;
 use MusicBrainz\Filter\Search\WorkFilter;
 use MusicBrainz\Value\ASIN;
 use MusicBrainz\Value\CatalogNumber;
 use MusicBrainz\Value\Count;
+use MusicBrainz\Value\ISO31661Code;
 use MusicBrainz\Value\ISWC;
+use MusicBrainz\Value\Latitude;
+use MusicBrainz\Value\Longitude;
 use MusicBrainz\Value\MBID;
+use MusicBrainz\Value\Name;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -43,5 +50,21 @@ final class SearchFilterTest extends TestCase
         $filter->addNumberOfReleases(new Count(3));
 
         self::assertSame('releases:3', (string) $filter);
+    }
+
+    public function testFieldNamesThatDifferFromTheEntityName(): void
+    {
+        $place = new PlaceFilter();
+        $place->addLatitude(new Latitude(58.388226));
+        $place->addLongitude(new Longitude(26.702817));
+        self::assertSame('lat:58.388226 long:26.702817', (string) $place);
+
+        $area = new AreaFilter();
+        $area->addIso31661Code(new ISO31661Code('DE'));
+        self::assertSame('iso1:DE', (string) $area);
+
+        $artist = new ArtistFilter();
+        $artist->addEndAreaName(new Name('Berlin'));
+        self::assertSame('endarea:"Berlin"', (string) $artist);
     }
 }

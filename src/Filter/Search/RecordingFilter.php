@@ -7,7 +7,7 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching recordings
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Place
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Place
  */
 class RecordingFilter extends AbstractFilter
 {
@@ -21,7 +21,6 @@ class RecordingFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\IsrcTrait;
     use \MusicBrainz\Filter\Property\LengthTrait;
     use \MusicBrainz\Filter\Property\MediumNumberTrait;
-    use \MusicBrainz\Filter\Property\NumberOfTracksOnMediumTrait;
     use \MusicBrainz\Filter\Property\NumberOfTracksOnReleaseTrait;
     use \MusicBrainz\Filter\Property\PrimaryTypeTrait;
     use \MusicBrainz\Filter\Property\QuantizedLengthTrait;

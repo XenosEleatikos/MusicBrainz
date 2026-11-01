@@ -7,7 +7,7 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching tags
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Tag
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Tag
  */
 class TagFilter extends AbstractFilter
 {

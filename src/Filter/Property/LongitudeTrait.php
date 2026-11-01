@@ -18,7 +18,7 @@ trait LongitudeTrait
      */
     public static function longitude(): string
     {
-        return 'longitude';
+        return 'long';
     }
 
     /**

@@ -7,7 +7,7 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching releases
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Release
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Release
  */
 class ReleaseFilter extends AbstractFilter
 {

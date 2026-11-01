@@ -18,7 +18,7 @@ trait Iso31663CodeTrait
      */
     public static function iso31663Code(): string
     {
-        return 'iso';
+        return 'iso3';
     }
 
     /**

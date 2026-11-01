@@ -16,14 +16,14 @@ class PageFilter
      *
      * @var int
      */
-    private $offset;
+    private int $offset;
 
     /**
      * The maximum number of items
      *
      * @var int
      */
-    private $limit;
+    private int $limit;
 
     /**
      * Constructs a page filter.

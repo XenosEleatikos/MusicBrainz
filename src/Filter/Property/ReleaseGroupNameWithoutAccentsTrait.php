@@ -12,7 +12,7 @@ trait ReleaseGroupNameWithoutAccentsTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the name of the release group (with accents).
+     * Returns the field name for the name of the release group (without accents).
      *
      * @return string
      */

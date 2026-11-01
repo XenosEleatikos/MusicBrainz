@@ -7,7 +7,7 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching release groups
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Release_Group
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Release_Group
  */
 class ReleaseGroupFilter extends AbstractFilter
 {

@@ -12,7 +12,7 @@ trait ReleaseIdTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the language.
+     * Returns the field name for the release ID.
      *
      * @return string
      */

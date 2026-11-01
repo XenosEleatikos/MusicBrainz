@@ -12,7 +12,7 @@ trait ReleaseNameWithoutAccentsTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the label name (without accents).
+     * Returns the field name for the release name (without accents).
      *
      * @return string
      */

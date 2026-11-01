@@ -17,7 +17,7 @@ use MusicBrainz\Value\MBID;
  * may only be related to entities of certain types. For this reason there are derived relation classes for each entity
  * type providing public setters for the possible types of related entities.
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2#Browse
+ * @link https://musicbrainz.org/doc/MusicBrainz_API#Browse
  */
 abstract class AbstractRelation
 {

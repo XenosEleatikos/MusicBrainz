@@ -7,7 +7,7 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching CD stubs
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#CDStubs
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#CDStubs
  */
 class CdStubFilter extends AbstractFilter
 {
@@ -16,5 +16,5 @@ class CdStubFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\DisambiguationTrait;
     use \MusicBrainz\Filter\Property\DiscIdTrait;
     use \MusicBrainz\Filter\Property\TitleTrait;
-    use \MusicBrainz\Filter\Property\NumberOfTracksOnMediumTrait;
+    use \MusicBrainz\Filter\Property\NumberOfTracksOnReleaseTrait;
 }

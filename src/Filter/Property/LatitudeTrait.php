@@ -18,7 +18,7 @@ trait LatitudeTrait
      */
     public static function latitude(): string
     {
-        return 'latitude';
+        return 'lat';
     }
 
     /**

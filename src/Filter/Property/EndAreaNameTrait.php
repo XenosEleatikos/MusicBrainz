@@ -12,19 +12,19 @@ trait EndAreaNameTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the name of the beginning area.
+     * Returns the field name for the name of the ending area.
      *
      * @return string
      */
     public static function endAreaName(): string
     {
-        return 'area';
+        return 'endarea';
     }
 
     /**
-     * Adds the name of the beginning area.
+     * Adds the name of the ending area.
      *
-     * @param Name $endAreaName The name of the beginning area
+     * @param Name $endAreaName The name of the ending area
      *
      * @return Phrase
      */
