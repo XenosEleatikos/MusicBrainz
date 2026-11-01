@@ -264,3 +264,17 @@ Version 2 contains breaking changes, the full list is in the [changelog](CHANGEL
 
 ## Development
 See [CONTRIBUTING.md](CONTRIBUTING.md). The unit tests run offline against real, recorded responses of the web service.
+
+## History and acknowledgements
+This library stands on the shoulders of others, and I am grateful for their work:
+
+- **Jeff Sherlock** started it in 2010, as one of the first PHP clients for the MusicBrainz web service.
+- **Mike Almond** took it over in 2013 and maintained and extended it for years. Without that foundation, this project
+  would not exist.
+- **Chris Dawson**, **Chris Boden**, **Chris Roberts**, **Jbekker**, **shrddr**, **Afterster**, **Daniel Maly**, **Nic**
+  and **papposilene** contributed fixes and features between 2012 and 2019.
+- **Roland Dalmulder** added relationship types and fixes in 2023.
+
+Since 2017 the library is maintained by **Christoph Hochholzer**. Version 2.0 is a complete rewrite, but it builds on what
+the people above made, and the history of this repository keeps their contributions (and their copyright notice, see
+[LICENSE.md](LICENSE.md)).

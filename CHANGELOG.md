@@ -46,6 +46,7 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- A section in the README that thanks the authors the library builds on.
 - Input is validated: an invalid MBID or date, an empty text value, a bad page filter or an empty search filter throw a
   `MusicBrainz\InvalidArgumentException`. What the web service delivers is read tolerantly: an invalid id or date, a
   wrongly typed element, or a missing list or count is logged and skipped instead of crashing the response or vanishing
