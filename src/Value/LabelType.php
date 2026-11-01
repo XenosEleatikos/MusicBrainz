@@ -91,7 +91,7 @@ class LabelType implements Value
         self::HOLDING,
         self::RIGTHS_SOCIETY,
         self::UNDEFINED,
-        ];
+    ];
 
     /**
      * The label type code

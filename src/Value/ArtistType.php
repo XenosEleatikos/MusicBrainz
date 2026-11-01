@@ -78,7 +78,7 @@ class ArtistType implements Value
         self::CHARACTER,
         self::OTHER,
         self::UNDEFINED,
-        ];
+    ];
 
     /**
      * The artist type code

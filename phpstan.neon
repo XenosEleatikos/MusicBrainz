@@ -2,7 +2,11 @@ parameters:
     level: 9
     paths:
         - src
-    checkGenericClassInNonGenericObjectType: false
     ignoreErrors:
-        - '#Call to function is_null\(\) with array\|null will always evaluate to false.#'
-        - '#no value type specified in iterable type array#'
+        -
+            identifier: missingType.iterableValue
+        -
+            identifier: missingType.generics
+        # Unfinished/unused traits, to be resolved in the API gap analysis
+        -
+            identifier: trait.unused
