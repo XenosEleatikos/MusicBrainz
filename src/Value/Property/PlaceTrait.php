@@ -38,9 +38,15 @@ trait PlaceTrait
      *
      * @return void
      */
-    private function setPlaceFromArray(array $input): void
+    private function setPlaceFromArray(array $input, ?string $key = 'place'): void
     {
-        $this->place = is_null($place = ArrayAccess::getArray($input, 'place'))
+        if (is_null($key)) {
+            $this->place = new Place($input);
+
+            return;
+        }
+
+        $this->place = is_null($place = ArrayAccess::getArray($input, $key))
             ? new Place()
             : new Place($place);
     }

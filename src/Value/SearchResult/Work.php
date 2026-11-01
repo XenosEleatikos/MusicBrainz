@@ -21,7 +21,7 @@ class Work extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setWorkFromArray($searchResult);
+        $this->setWorkFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 

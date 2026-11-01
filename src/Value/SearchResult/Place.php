@@ -21,7 +21,7 @@ class Place extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setPlaceFromArray($searchResult);
+        $this->setPlaceFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 

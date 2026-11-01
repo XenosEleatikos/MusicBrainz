@@ -38,9 +38,15 @@ trait ReleaseGroupTrait
      *
      * @return void
      */
-    private function setReleaseGroupFromArray(array $input): void
+    private function setReleaseGroupFromArray(array $input, ?string $key = 'release-group'): void
     {
-        $this->releaseGroup = is_null($releaseGroup = ArrayAccess::getArray($input, 'release-group'))
+        if (is_null($key)) {
+            $this->releaseGroup = new ReleaseGroup($input);
+
+            return;
+        }
+
+        $this->releaseGroup = is_null($releaseGroup = ArrayAccess::getArray($input, $key))
             ? new ReleaseGroup()
             : new ReleaseGroup($releaseGroup);
     }

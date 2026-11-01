@@ -38,9 +38,15 @@ trait WorkTrait
      *
      * @return void
      */
-    private function setWorkFromArray(array $input): void
+    private function setWorkFromArray(array $input, ?string $key = 'work'): void
     {
-        $this->work = is_null($work = ArrayAccess::getArray($input, 'work'))
+        if (is_null($key)) {
+            $this->work = new Work($input);
+
+            return;
+        }
+
+        $this->work = is_null($work = ArrayAccess::getArray($input, $key))
             ? new Work()
             : new Work($work);
     }

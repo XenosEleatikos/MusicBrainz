@@ -11,6 +11,7 @@ use MusicBrainz\Helper\RelationFactory;
  */
 class LabelRelationList
 {
+    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToArtistTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToLabelTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToRecordingTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToReleaseGroupTrait;
@@ -28,6 +29,7 @@ class LabelRelationList
     {
         $relationList = RelationFactory::makeRelations($relations);
 
+        $this->setArtistRelationsFromArray($relationList);
         $this->setLabelRelationsFromArray($relationList);
         $this->setRecordingRelationsFromArray($relationList);
         $this->setReleaseGroupRelationsFromArray($relationList);

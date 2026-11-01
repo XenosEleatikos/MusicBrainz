@@ -21,7 +21,7 @@ class Label extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setLabelFromArray($searchResult);
+        $this->setLabelFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 

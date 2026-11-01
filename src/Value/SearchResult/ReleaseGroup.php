@@ -21,7 +21,7 @@ class ReleaseGroup extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setReleaseGroupFromArray($searchResult);
+        $this->setReleaseGroupFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 
