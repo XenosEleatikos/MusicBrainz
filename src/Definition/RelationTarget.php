@@ -8,6 +8,7 @@ use MusicBrainz\Relation;
 use MusicBrainz\Relation\Target\RelationToArea;
 use MusicBrainz\Relation\Target\RelationToArtist;
 use MusicBrainz\Relation\Target\RelationToEvent;
+use MusicBrainz\Relation\Target\RelationToGenre;
 use MusicBrainz\Relation\Target\RelationToInstrument;
 use MusicBrainz\Relation\Target\RelationToLabel;
 use MusicBrainz\Relation\Target\RelationToPlace;
@@ -32,6 +33,7 @@ class RelationTarget
             EntityType::Area->value          => RelationToArea::class,
             EntityType::Artist->value        => RelationToArtist::class,
             EntityType::Event->value         => RelationToEvent::class,
+            EntityType::Genre->value         => RelationToGenre::class,
             EntityType::Instrument->value    => RelationToInstrument::class,
             EntityType::Label->value         => RelationToLabel::class,
             EntityType::Place->value         => RelationToPlace::class,

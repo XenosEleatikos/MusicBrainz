@@ -11,6 +11,7 @@ use function is_array;
 use function is_bool;
 use function is_float;
 use function is_int;
+use function is_numeric;
 use function is_string;
 
 /**
@@ -89,6 +90,11 @@ class ArrayAccess
 
         // JSON does not distinguish 4 from 4.0
         if (is_int($array[$key])) {
+            return (float) $array[$key];
+        }
+
+        // The search API delivers numbers (e.g. coordinates of places) as strings
+        if (is_string($array[$key]) && is_numeric($array[$key])) {
             return (float) $array[$key];
         }
 

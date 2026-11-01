@@ -21,7 +21,7 @@ class Tag extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setTagFromArray($searchResult);
+        $this->setTagFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 

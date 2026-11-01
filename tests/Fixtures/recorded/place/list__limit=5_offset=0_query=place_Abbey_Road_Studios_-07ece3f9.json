@@ -1,0 +1,208 @@
+{
+    "created": "2026-11-01T14:40:00.744Z",
+    "count": 9,
+    "offset": 0,
+    "places": [
+        {
+            "id": "bd55aeb7-19d1-4607-a500-14b8479d3fed",
+            "type": "Studio",
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "score": 100,
+            "name": "Abbey Road Studios",
+            "address": "3 Abbey Road, St John’s Wood, London",
+            "coordinates": {
+                "latitude": "51.53192",
+                "longitude": "-0.17835"
+            },
+            "area": {
+                "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                "type": "District",
+                "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                "name": "St John's Wood",
+                "sort-name": "St John's Wood",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1931-11-12",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Abbey Rd Studios",
+                    "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                    "name": "Abbey Rd Studios",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "EMI Abbey Road Studios",
+                    "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                    "name": "EMI Abbey Road Studios",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Abbey Road Studios",
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "name": "Abbey Road Studios",
+                    "locale": "en",
+                    "type": "Place name",
+                    "primary": null,
+                    "begin-date": "1970",
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Anvil Studios, Abbey Road",
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "name": "Anvil Studios, Abbey Road",
+                    "locale": null,
+                    "type": "Place name",
+                    "primary": null,
+                    "begin-date": "1980",
+                    "end-date": "1984"
+                },
+                {
+                    "sort-name": "EMI Studios",
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "name": "EMI Studios",
+                    "locale": "en",
+                    "type": "Place name",
+                    "primary": null,
+                    "begin-date": "1931",
+                    "end-date": "1970"
+                }
+            ]
+        },
+        {
+            "id": "c56fdea4-e81e-439a-a183-a52eb1141409",
+            "type": "Studio",
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "score": 77,
+            "name": "Abbey Road Studios: Studio 1",
+            "address": "3 Abbey Road, St John’s Wood, London",
+            "coordinates": {
+                "latitude": "51.53192",
+                "longitude": "-0.17835"
+            },
+            "area": {
+                "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                "type": "District",
+                "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                "name": "St John's Wood",
+                "sort-name": "St John's Wood",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1931",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "№.1 Studio",
+                    "name": "№.1 Studio",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Abbey Road Studios, Studio One, London",
+                    "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                    "name": "Abbey Road Studios, Studio One, London",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "EMI Studio One",
+                    "name": "EMI Studio One",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": "1970"
+                }
+            ]
+        },
+        {
+            "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94",
+            "type": "Studio",
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "score": 77,
+            "name": "Abbey Road Studios: Studio 2",
+            "address": "3 Abbey Road, St John’s Wood, London",
+            "coordinates": {
+                "latitude": "51.53192",
+                "longitude": "-0.17835"
+            },
+            "area": {
+                "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                "type": "District",
+                "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                "name": "St John's Wood",
+                "sort-name": "St John's Wood",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1931",
+                "ended": null
+            }
+        },
+        {
+            "id": "c1fdd410-7088-412a-90f7-0cc0b52b6a33",
+            "type": "Studio",
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "score": 77,
+            "name": "Abbey Road Studios: Room 2A",
+            "area": {
+                "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                "type": "District",
+                "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                "name": "St John's Wood",
+                "sort-name": "St John's Wood",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "fb16ad19-b40c-4d38-8701-adf2fd47f65b",
+            "type": "Studio",
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "score": 77,
+            "name": "Abbey Road Studios: Room 4",
+            "address": "3 Abbey Rd",
+            "area": {
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "London",
+                "sort-name": "London",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            }
+        }
+    ]
+}

@@ -34,6 +34,8 @@ final class DriftTest extends TestCase
      * @var list<string>
      */
     private const KNOWN_GAPS = [
+        'annotations',        // search result lists, keyed by the kind of result
+        'cdstubs',
         'target',             // relation: MBID of the target, redundant with the target entity (search results)
         'target-type',        // relation: entity type of the target, derived from the relation type and direction
     ];

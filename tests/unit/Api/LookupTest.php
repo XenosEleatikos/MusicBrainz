@@ -89,7 +89,7 @@ final class LookupTest extends TestCase
         }
         $relations = $entity->getRelations();
         $actual = [];
-        foreach (['area', 'artist', 'event', 'instrument', 'label', 'place', 'recording', 'release', 'release-group', 'series', 'url', 'work'] as $type) {
+        foreach (['area', 'artist', 'event', 'genre', 'instrument', 'label', 'place', 'recording', 'release', 'release-group', 'series', 'url', 'work'] as $type) {
             $getter = 'get' . str_replace('-', '', ucwords($type, '-')) . 'Relations';
             if (method_exists($relations, $getter) && count($relations->$getter()) > 0) {
                 $actual[$type] = count($relations->$getter());

@@ -13,6 +13,7 @@ class AreaRelationList
 {
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToAreaTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToEventTrait;
+    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToGenreTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToInstrumentTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToRecordingTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToReleaseTrait;
@@ -37,5 +38,6 @@ class AreaRelationList
         $this->setSeriesRelationsFromArray($relationList);
         $this->setUrlRelationsFromArray($relationList);
         $this->setWorkRelationsFromArray($relationList);
+        $this->setGenreRelationsFromArray($relationList);
     }
 }

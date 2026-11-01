@@ -1,0 +1,29 @@
+{
+    "relations": [
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "artist",
+            "source-credit": "",
+            "end": null,
+            "ended": false,
+            "direction": "backward",
+            "target-credit": "",
+            "attribute-values": [],
+            "attributes": [],
+            "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+            "artist": {
+                "type": "Group",
+                "disambiguation": "UK rock band, “The Fab Four”",
+                "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                "country": "GB",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Beatles, The",
+                "name": "The Beatles"
+            },
+            "type": "wikidata"
+        }
+    ],
+    "resource": "https://www.wikidata.org/wiki/Q1299",
+    "id": "7a14a19d-17d6-452e-8741-6ace4eea275c"
+}

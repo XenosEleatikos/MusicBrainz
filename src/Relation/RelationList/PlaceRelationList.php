@@ -17,6 +17,7 @@ class PlaceRelationList
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToReleaseTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToUrlTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToWorkTrait;
+    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToGenreTrait;
 
     /**
      * Constructs a sorted list of relations an place stands in.
@@ -33,5 +34,6 @@ class PlaceRelationList
         $this->setReleaseRelationsFromArray($relationList);
         $this->setUrlRelationsFromArray($relationList);
         $this->setWorkRelationsFromArray($relationList);
+        $this->setGenreRelationsFromArray($relationList);
     }
 }

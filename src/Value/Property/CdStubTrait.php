@@ -38,8 +38,14 @@ trait CdStubTrait
      *
      * @return void
      */
-    private function setCdStubFromArray(array $input): void
+    private function setCdStubFromArray(array $input, ?string $key = 'cdstub'): void
     {
+        if (is_null($key)) {
+            $this->cdStub = new CdStub($input);
+
+            return;
+        }
+
         $this->cdStub = is_null($cdStub = ArrayAccess::getArray($input, 'cdStub'))
             ? new CdStub()
             : new CdStub($cdStub);

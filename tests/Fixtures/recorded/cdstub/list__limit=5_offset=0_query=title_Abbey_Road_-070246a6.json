@@ -1,0 +1,48 @@
+{
+    "created": "2026-11-01T14:39:05.502Z",
+    "count": 10,
+    "offset": 0,
+    "cdstubs": [
+        {
+            "id": "hNEd_qvcKvZl9U4TP6_1Tx6rvmg-",
+            "score": 100,
+            "count": 1,
+            "title": "abbey road",
+            "artist": "the beatles",
+            "barcode": ""
+        },
+        {
+            "id": "HmxuMKOHw4uRstwY4bIIwROrbPU-",
+            "score": 100,
+            "count": 18,
+            "title": "Abbey Road",
+            "artist": "The Beatles",
+            "barcode": "9463824682",
+            "disambiguation": "There's no 18 song"
+        },
+        {
+            "id": "K8zQOUWiP_XDJiVpDJbc748Qwis-",
+            "score": 100,
+            "count": 16,
+            "title": "Abbey Road",
+            "artist": "Beatles"
+        },
+        {
+            "id": "xSVDNQI6ynZo.tbWpLnjtFVUytY-",
+            "score": 100,
+            "count": 12,
+            "title": "Abbey Road",
+            "artist": "The Beatles",
+            "barcode": "5908250411155"
+        },
+        {
+            "id": ".RVLyXpVowQkT7Pq01U0bMvpbwQ-",
+            "score": 87,
+            "count": 9,
+            "title": "Abbey Road Live",
+            "artist": "Colin Vearncombe",
+            "barcode": "5019148625803",
+            "disambiguation": "CD Baby id:colinvearncombe1"
+        }
+    ]
+}

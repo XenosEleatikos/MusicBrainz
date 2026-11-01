@@ -19,7 +19,7 @@ trait ReleaseTrait
      *
      * @return void
      */
-    public function setEntityTypeRelease(MBID $mbid): void
+    public function release(MBID $mbid): void
     {
         $this->setEntityId($mbid);
         $this->setEntityType(EntityType::Release);

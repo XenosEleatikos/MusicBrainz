@@ -16,18 +16,26 @@ use MusicBrainz\Filter\Browse\Relation\Entity\RecordingRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\ReleaseRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\WorkRelation;
 use MusicBrainz\Filter\PageFilter;
+use MusicBrainz\Filter\Browse\Relation\Entity\PlaceRelation;
+use MusicBrainz\Filter\Browse\Relation\Entity\ReleaseGroupRelation;
+use MusicBrainz\Filter\Search\AnnotationFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
+use MusicBrainz\Filter\Search\CdStubFilter;
 use MusicBrainz\Filter\Search\LabelFilter;
+use MusicBrainz\Filter\Search\PlaceFilter;
 use MusicBrainz\Filter\Search\RecordingFilter;
 use MusicBrainz\Filter\Search\ReleaseFilter;
 use MusicBrainz\Filter\Search\ReleaseGroupFilter;
+use MusicBrainz\Filter\Search\TagFilter;
 use MusicBrainz\Filter\Search\WorkFilter;
 use MusicBrainz\MusicBrainz;
 use MusicBrainz\Supplement\Browse;
 use MusicBrainz\Supplement\Fields;
+use MusicBrainz\Supplement\Lookup;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
+use MusicBrainz\Value\Title;
 
 /** Enables every include flag except the ones requiring authentication (user-*). */
 $full = static function (Fields $fields): Fields {
@@ -74,6 +82,8 @@ $lookups = [
     'series'       => ['beethoven-symphonies' => 'c91a484c-b9f5-4842-a39f-906c4bfc9c7e'],
     'work'         => ['bohemian-rhapsody' => '41c94a08-a551-3c86-bb17-d9a52e3a618b'],
 ];
+
+$lookups['url'] = ['wikidata-beatles' => '7a14a19d-17d6-452e-8741-6ace4eea275c', 'discogs-beatles' => '4327d342-5545-4168-a4c9-f8a740099d5d'];
 
 foreach ($lookups as $entity => $entities) {
     $fieldsClass = 'MusicBrainz\\Supplement\\Lookup\\' . ucfirst($entity) . 'Fields';
@@ -146,5 +156,54 @@ $scenarios['search/work/bohemian-rhapsody'] = static function (MusicBrainz $mb) 
 
     return $mb->api()->search()->work($filter, $page(5));
 };
+
+// ---------------------------------------------------------------------------------------------------- more browse
+$london = 'f03d09b3-39dc-4083-afd6-159e3f0d462f';
+$scenarios['browse/place/by-area-london']                = static fn(MusicBrainz $mb) => $mb->api()->browse()->place($relation(PlaceRelation::class, 'area', $london), $full(new Browse\PlaceFields()), $page(10));
+$scenarios['browse/release-group/by-artist-beatles']     = static fn(MusicBrainz $mb) => $mb->api()->browse()->releaseGroup($relation(ReleaseGroupRelation::class, 'artist', $beatles), $full(new Browse\ReleaseGroupFields()), $page(10));
+$scenarios['browse/release-group/by-artist-radiohead']   = static fn(MusicBrainz $mb) => $mb->api()->browse()->releaseGroup($relation(ReleaseGroupRelation::class, 'artist', $radiohead), $full(new Browse\ReleaseGroupFields()), $page(10));
+$scenarios['browse/recording/by-release-abbey-road']     = static fn(MusicBrainz $mb) => $mb->api()->browse()->recording($relation(RecordingRelation::class, 'release', '31765b9f-e969-4257-855f-c7ea1f657b2a'), $full(new Browse\RecordingFields()), $page(25));
+$scenarios['browse/event/by-area-london']                = static fn(MusicBrainz $mb) => $mb->api()->browse()->event($relation(EventRelation::class, 'area', $london), $full(new Browse\EventFields()), $page(10));
+$scenarios['browse/artist/by-release-group-abbey-road']  = static fn(MusicBrainz $mb) => $mb->api()->browse()->artist($relation(ArtistRelation::class, 'releaseGroup', '9162580e-5df4-32de-80cc-f45a8d8a9b1d'), $full(new Browse\ArtistFields()), $page(10));
+$scenarios['browse/label/by-release-abbey-road']         = static fn(MusicBrainz $mb) => $mb->api()->browse()->label($relation(LabelRelation::class, 'release', '31765b9f-e969-4257-855f-c7ea1f657b2a'), $full(new Browse\LabelFields()), $page(10));
+
+// ---------------------------------------------------------------------------------------------------- more search
+$scenarios['search/place/abbey-road'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new PlaceFilter();
+    $filter->addPlaceName(new Name('Abbey Road Studios'));
+
+    return $mb->api()->search()->place($filter, $page(5));
+};
+$scenarios['search/tag/rock'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new TagFilter();
+    $filter->addTagName(new Name('rock'));
+
+    return $mb->api()->search()->tag($filter, $page(5));
+};
+$scenarios['search/annotation/beatles'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new AnnotationFilter();
+    $filter->addEntityName(new Name('The Beatles'));
+
+    return $mb->api()->search()->annotation($filter, $page(5));
+};
+$scenarios['search/cdstub/abbey-road'] = static function (MusicBrainz $mb) use ($page) {
+    $filter = new CdStubFilter();
+    $filter->addTitleComment(new Title('Abbey Road'));
+
+    return $mb->api()->search()->cdStub($filter, $page(5));
+};
+
+// ---------------------------------------------------------------------------------------------------- errors
+// The library throws for 4xx responses; these scenarios return the exception, so that the contract can be asserted.
+$catch = static function (callable $call): Throwable {
+    try {
+        $call();
+    } catch (\MusicBrainz\Exception $exception) {
+        return $exception;
+    }
+    throw new LogicException('The web service was expected to answer with an error');
+};
+$scenarios['error/lookup/artist-not-found'] = static fn(MusicBrainz $mb) => $catch(static fn() => $mb->api()->lookup()->artist($mbid('00000000-0000-4000-8000-000000000000'), new Lookup\ArtistFields()));
+$scenarios['error/lookup/release-not-found'] = static fn(MusicBrainz $mb) => $catch(static fn() => $mb->api()->lookup()->release($mbid('00000000-0000-4000-8000-000000000000'), new Lookup\ReleaseFields()));
 
 return $scenarios;

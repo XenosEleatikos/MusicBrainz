@@ -1,0 +1,121 @@
+{
+    "event-count": 4106,
+    "event-offset": 0,
+    "events": [
+        {
+            "id": "22d23b9e-3536-4a05-9e15-752e138ebdea",
+            "name": "Anjunadeep Open Air London",
+            "genres": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "time": "",
+            "disambiguation": "2027",
+            "aliases": [],
+            "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+            "type": "Concert",
+            "tags": [],
+            "annotation": null,
+            "cancelled": false,
+            "setlist": "",
+            "life-span": {
+                "end": null,
+                "begin": "2027-08-15",
+                "ended": false
+            }
+        },
+        {
+            "annotation": null,
+            "cancelled": false,
+            "setlist": "",
+            "life-span": {
+                "ended": true,
+                "begin": "2027-07-31",
+                "end": "2027-07-31"
+            },
+            "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+            "type": "Concert",
+            "tags": [],
+            "disambiguation": "Saturday",
+            "time": "14:00",
+            "aliases": [],
+            "name": "BICEP Live on the Thames",
+            "id": "263b7b12-86ae-48f5-b783-2b7622b3fc80",
+            "genres": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            }
+        },
+        {
+            "time": "14:00",
+            "disambiguation": "Sunday",
+            "aliases": [],
+            "genres": [],
+            "id": "277c6839-4788-43f6-8734-08be427a38d5",
+            "name": "BICEP Live on the Thames",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "cancelled": false,
+            "annotation": null,
+            "life-span": {
+                "end": "2027-08-01",
+                "begin": "2027-08-01",
+                "ended": true
+            },
+            "setlist": "",
+            "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+            "tags": [],
+            "type": "Concert"
+        },
+        {
+            "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+            "tags": [],
+            "type": "Festival",
+            "cancelled": false,
+            "annotation": null,
+            "life-span": {
+                "begin": "2027-04-17",
+                "end": "2027-04-18",
+                "ended": true
+            },
+            "setlist": "",
+            "genres": [],
+            "name": "Winds of Agony",
+            "id": "3e5cace0-f58a-4149-aec0-c0916444777e",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "disambiguation": "",
+            "time": "",
+            "aliases": []
+        },
+        {
+            "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+            "type": "Festival",
+            "tags": [],
+            "annotation": null,
+            "cancelled": false,
+            "setlist": "",
+            "life-span": {
+                "ended": false,
+                "begin": "2027-08-15",
+                "end": null
+            },
+            "name": "Anjunadeep Open Air London",
+            "id": "94b465bf-739d-42ce-80b8-03b11474d45c",
+            "genres": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "disambiguation": "",
+            "time": "",
+            "aliases": []
+        }
+    ]
+}

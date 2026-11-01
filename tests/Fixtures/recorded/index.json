@@ -1,4 +1,9 @@
 {
+    "annotation/list__limit=5_offset=0_query=name_The_Beatles_-33c2ac5f.json": {
+        "url": "https://musicbrainz.org/ws/2/annotation/?limit=5&offset=0&fmt=json&query=name%3A%22The%20Beatles%22",
+        "status": 200,
+        "recorded": "2026-11-01T14:39:04+00:00"
+    },
     "area/85752fda-13c4-31a3-bee5-0e5cb1f51dad__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/area/85752fda-13c4-31a3-bee5-0e5cb1f51dad?inc=&fmt=json",
         "status": 200,
@@ -26,6 +31,11 @@
         "status": 200,
         "recorded": "2026-11-01T12:54:02+00:00",
         "slimmed": true
+    },
+    "artist/00000000-0000-4000-8000-000000000000__inc=-339bf5ca.json": {
+        "url": "https://musicbrainz.org/ws/2/artist/00000000-0000-4000-8000-000000000000?inc=&fmt=json",
+        "status": 404,
+        "recorded": "2026-11-01T14:39:15+00:00"
     },
     "artist/056e4f3e-d505-4dad-8ec1-d04f521cbb56__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/artist/056e4f3e-d505-4dad-8ec1-d04f521cbb56?inc=&fmt=json",
@@ -110,6 +120,17 @@
         "recorded": "2026-11-01T14:24:25+00:00",
         "slimmed": true
     },
+    "artist/list__inc=aliases+annotation+genres+ratings+tags+artist-rels+event-rels+instrument-rel-2fa9db67.json": {
+        "url": "https://musicbrainz.org/ws/2/artist?release_group=9162580e-5df4-32de-80cc-f45a8d8a9b1d&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags%2Bartist-rels%2Bevent-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
+        "status": 400,
+        "recorded": "2026-11-01T14:39:00+00:00"
+    },
+    "artist/list__inc=aliases+annotation+genres+ratings+tags+artist-rels+event-rels+instrument-rel-41225c91.json": {
+        "url": "https://musicbrainz.org/ws/2/artist?release-group=9162580e-5df4-32de-80cc-f45a8d8a9b1d&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags%2Bartist-rels%2Bevent-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
+        "status": 200,
+        "recorded": "2026-11-01T14:39:57+00:00",
+        "slimmed": true
+    },
     "artist/list__limit=5_offset=0_query=artist_Bj_rk_-c46c8e7d.json": {
         "url": "https://musicbrainz.org/ws/2/artist/?limit=5&offset=0&fmt=json&query=artist%3A%22Bj%C3%B6rk%22",
         "status": 200,
@@ -121,6 +142,11 @@
         "status": 200,
         "recorded": "2026-11-01T12:54:00+00:00",
         "slimmed": true
+    },
+    "cdstub/list__limit=5_offset=0_query=title_Abbey_Road_-070246a6.json": {
+        "url": "https://musicbrainz.org/ws/2/cdstub/?limit=5&offset=0&fmt=json&query=title%3A%22Abbey%20Road%22",
+        "status": 200,
+        "recorded": "2026-11-01T14:39:05+00:00"
     },
     "event/8e0ff16a-757f-4e16-9877-4c4131621a8b__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/event/8e0ff16a-757f-4e16-9877-4c4131621a8b?inc=&fmt=json",
@@ -141,6 +167,12 @@
         "url": "https://musicbrainz.org/ws/2/event/e4ea9ddd-3fbb-47d0-b570-add507bf0c27?inc=tags%2Bgenres%2Bratings%2Barea-rels%2Bartist-rels%2Bevent-rels%2Bplace-rels%2Brecording-rels%2Brelease-group-rels%2Brelease-rels%2Bseries-rels%2Burl-rels%2Bwork-rels&fmt=json",
         "status": 200,
         "recorded": "2026-11-01T14:23:24+00:00",
+        "slimmed": true
+    },
+    "event/list__area=f03d09b3-39dc-4083-afd6-159e3f0d462f_inc=aliases+annotation+genres+ratings+-826c2ba7.json": {
+        "url": "https://musicbrainz.org/ws/2/event?area=f03d09b3-39dc-4083-afd6-159e3f0d462f&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:59+00:00",
         "slimmed": true
     },
     "event/list__artist=a74b1b7f-71a5-4011-9441-d0b5e4122711_inc=aliases+annotation+genres+rating-64b9b11c.json": {
@@ -188,6 +220,11 @@
         "recorded": "2026-11-01T14:24:26+00:00",
         "slimmed": true
     },
+    "label/list__inc=aliases+annotation+genres+ratings+tags_limit=10_offset=0_release=31765b9f-e9-cdd234d2.json": {
+        "url": "https://musicbrainz.org/ws/2/label?release=31765b9f-e969-4257-855f-c7ea1f657b2a&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags",
+        "status": 200,
+        "recorded": "2026-11-01T14:39:01+00:00"
+    },
     "label/list__limit=5_offset=0_query=label_Parlophone_-8426a535.json": {
         "url": "https://musicbrainz.org/ws/2/label/?limit=5&offset=0&fmt=json&query=label%3A%22Parlophone%22",
         "status": 200,
@@ -205,6 +242,17 @@
         "recorded": "2026-11-01T14:23:43+00:00",
         "slimmed": true
     },
+    "place/list__area=f03d09b3-39dc-4083-afd6-159e3f0d462f_inc=aliases+annotation+genres+ratings+-826c2ba7.json": {
+        "url": "https://musicbrainz.org/ws/2/place?area=f03d09b3-39dc-4083-afd6-159e3f0d462f&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Bratings%2Btags",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:46+00:00",
+        "slimmed": true
+    },
+    "place/list__limit=5_offset=0_query=place_Abbey_Road_Studios_-07ece3f9.json": {
+        "url": "https://musicbrainz.org/ws/2/place/?limit=5&offset=0&fmt=json&query=place%3A%22Abbey%20Road%20Studios%22",
+        "status": 200,
+        "recorded": "2026-11-01T14:40:00+00:00"
+    },
     "recording/106d1527-d378-4e55-ba49-d18f8e63ae8a__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/recording/106d1527-d378-4e55-ba49-d18f8e63ae8a?inc=&fmt=json",
         "status": 200,
@@ -220,6 +268,12 @@
         "url": "https://musicbrainz.org/ws/2/recording?artist=a74b1b7f-71a5-4011-9441-d0b5e4122711&limit=25&offset=0&fmt=json&inc=annotation%2Bartist-credits%2Bisrcs%2Bgenres%2Bratings%2Btags",
         "status": 200,
         "recorded": "2026-11-01T14:24:21+00:00",
+        "slimmed": true
+    },
+    "recording/list__inc=annotation+artist-credits+isrcs+genres+ratings+tags_limit=25_offset=0_releas-52d9d53b.json": {
+        "url": "https://musicbrainz.org/ws/2/recording?release=31765b9f-e969-4257-855f-c7ea1f657b2a&limit=25&offset=0&fmt=json&inc=annotation%2Bartist-credits%2Bisrcs%2Bgenres%2Bratings%2Btags",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:49+00:00",
         "slimmed": true
     },
     "recording/list__limit=5_offset=0_query=recording_Bohemian_Rhapsody_-221a3798.json": {
@@ -249,11 +303,28 @@
         "recorded": "2026-11-01T14:23:59+00:00",
         "slimmed": true
     },
+    "release-group/list__artist=a74b1b7f-71a5-4011-9441-d0b5e4122711_inc=annotation+artist-credits+genres-cb13d53c.json": {
+        "url": "https://musicbrainz.org/ws/2/release-group?artist=a74b1b7f-71a5-4011-9441-d0b5e4122711&limit=10&offset=0&fmt=json&inc=annotation%2Bartist-credits%2Bgenres%2Bratings%2Btags",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:48+00:00",
+        "slimmed": true
+    },
+    "release-group/list__artist=b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d_inc=annotation+artist-credits+genres-26085e9f.json": {
+        "url": "https://musicbrainz.org/ws/2/release-group?artist=b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d&limit=10&offset=0&fmt=json&inc=annotation%2Bartist-credits%2Bgenres%2Bratings%2Btags",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:47+00:00",
+        "slimmed": true
+    },
     "release-group/list__limit=5_offset=0_query=releasegroup_OK_Computer_-f031f038.json": {
         "url": "https://musicbrainz.org/ws/2/release-group/?limit=5&offset=0&fmt=json&query=releasegroup%3A%22OK%20Computer%22",
         "status": 200,
         "recorded": "2026-11-01T12:54:05+00:00",
         "slimmed": true
+    },
+    "release/00000000-0000-4000-8000-000000000000__inc=-339bf5ca.json": {
+        "url": "https://musicbrainz.org/ws/2/release/00000000-0000-4000-8000-000000000000?inc=&fmt=json",
+        "status": 404,
+        "recorded": "2026-11-01T14:39:24+00:00"
     },
     "release/31765b9f-e969-4257-855f-c7ea1f657b2a__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/release/31765b9f-e969-4257-855f-c7ea1f657b2a?inc=&fmt=json",
@@ -309,6 +380,31 @@
         "url": "https://musicbrainz.org/ws/2/series/c91a484c-b9f5-4842-a39f-906c4bfc9c7e?inc=tags%2Bgenres%2Bartist-rels%2Bevent-rels%2Blabel-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels&fmt=json",
         "status": 200,
         "recorded": "2026-11-01T14:24:07+00:00"
+    },
+    "tag/list__limit=5_offset=0_query=tag_rock_-0965d6fe.json": {
+        "url": "https://musicbrainz.org/ws/2/tag/?limit=5&offset=0&fmt=json&query=tag%3A%22rock%22",
+        "status": 200,
+        "recorded": "2026-11-01T14:39:03+00:00"
+    },
+    "url/4327d342-5545-4168-a4c9-f8a740099d5d__inc=-339bf5ca.json": {
+        "url": "https://musicbrainz.org/ws/2/url/4327d342-5545-4168-a4c9-f8a740099d5d?inc=&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:27+00:00"
+    },
+    "url/4327d342-5545-4168-a4c9-f8a740099d5d__inc=area-rels+artist-rels+event-rels+instrument-rels+label-rels+place-rels+recor-b3d326df.json": {
+        "url": "https://musicbrainz.org/ws/2/url/4327d342-5545-4168-a4c9-f8a740099d5d?inc=area-rels%2Bartist-rels%2Bevent-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:28+00:00"
+    },
+    "url/7a14a19d-17d6-452e-8741-6ace4eea275c__inc=-339bf5ca.json": {
+        "url": "https://musicbrainz.org/ws/2/url/7a14a19d-17d6-452e-8741-6ace4eea275c?inc=&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:25+00:00"
+    },
+    "url/7a14a19d-17d6-452e-8741-6ace4eea275c__inc=area-rels+artist-rels+event-rels+instrument-rels+label-rels+place-rels+recor-b3d326df.json": {
+        "url": "https://musicbrainz.org/ws/2/url/7a14a19d-17d6-452e-8741-6ace4eea275c?inc=area-rels%2Bartist-rels%2Bevent-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels&fmt=json",
+        "status": 200,
+        "recorded": "2026-11-01T14:38:26+00:00"
     },
     "work/41c94a08-a551-3c86-bb17-d9a52e3a618b__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/work/41c94a08-a551-3c86-bb17-d9a52e3a618b?inc=&fmt=json",

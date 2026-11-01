@@ -1,0 +1,308 @@
+{
+    "places": [
+        {
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "name": "3 Mills Studios",
+            "id": "0d40919c-d658-4426-b606-762030fbfe85",
+            "genres": [],
+            "type": "Studio",
+            "aliases": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "annotation": null,
+            "disambiguation": "",
+            "area": {
+                "type-id": null,
+                "id": "a17b36e3-ad5c-4f6d-bb51-77c99ef25ae6",
+                "sort-name": "Stratford",
+                "type": null,
+                "name": "Stratford",
+                "disambiguation": ""
+            },
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "tags": [],
+            "coordinates": {
+                "longitude": -0.005833,
+                "latitude": 51.527222
+            },
+            "address": ""
+        },
+        {
+            "aliases": [
+                {
+                    "ended": false,
+                    "primary": null,
+                    "begin": null,
+                    "type-id": null,
+                    "sort-name": "mu",
+                    "locale": null,
+                    "type": null,
+                    "end": null,
+                    "name": "mu"
+                }
+            ],
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "name": "“mu”",
+            "id": "0edcb947-7bb2-4d1f-b0c2-30190c53f2dc",
+            "type": "Club",
+            "genres": [],
+            "coordinates": {
+                "longitude": -0.075945,
+                "latitude": 51.542181
+            },
+            "address": "432-434 Kingsland Rd, London E8 4AA, United Kingdom",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "annotation": null,
+            "disambiguation": "",
+            "type-id": "d7a75895-e1a4-44e7-b76e-80a3913b13c8",
+            "area": {
+                "sort-name": "London",
+                "type": null,
+                "type-id": null,
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "name": "London",
+                "disambiguation": "Greater London"
+            },
+            "tags": []
+        },
+        {
+            "aliases": [],
+            "type": "Venue",
+            "genres": [],
+            "id": "108f9a44-b62b-4cb1-bffe-73389b1865a5",
+            "name": "5 Torren St",
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "address": "",
+            "coordinates": null,
+            "tags": [],
+            "area": {
+                "name": "Islington",
+                "disambiguation": "",
+                "iso-3166-2-codes": [
+                    "GB-ISL"
+                ],
+                "sort-name": "Islington",
+                "type": null,
+                "type-id": null,
+                "id": "e3b25e1c-0adf-4773-820e-533b4f245d01"
+            },
+            "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+            "disambiguation": "",
+            "annotation": null,
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            }
+        },
+        {
+            "address": "97 Scrubs Ln",
+            "coordinates": {
+                "longitude": -0.123327,
+                "latitude": 51.577274
+            },
+            "tags": [],
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "area": {
+                "sort-name": "Crouch End",
+                "type": null,
+                "id": "1f2f8902-d8ed-41b5-b013-bd8d707851b2",
+                "type-id": null,
+                "name": "Crouch End",
+                "disambiguation": ""
+            },
+            "annotation": null,
+            "disambiguation": "",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "aliases": [],
+            "genres": [],
+            "type": "Studio",
+            "id": "1f017fac-536c-48de-ba75-34799fa4a646",
+            "name": "2khz Studio",
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            }
+        },
+        {
+            "coordinates": null,
+            "address": "",
+            "tags": [],
+            "area": {
+                "sort-name": "London",
+                "type": null,
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "type-id": null,
+                "disambiguation": "Greater London",
+                "name": "London"
+            },
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "annotation": null,
+            "disambiguation": "",
+            "aliases": [],
+            "id": "2fdaefb7-bbaf-4230-8996-549cf45b658e",
+            "type": "Studio",
+            "genres": [],
+            "name": "4AD Studios",
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            }
+        },
+        {
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            "name": "“Little Menlo”, Beulah Hill, London",
+            "genres": [],
+            "type": "Other",
+            "id": "43e5aba1-0486-4238-8893-b4dc109bb986",
+            "aliases": [
+                {
+                    "locale": null,
+                    "type": "Search hint",
+                    "sort-name": "“Electric House”, Beulah Hill, London",
+                    "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                    "name": "“Electric House”, Beulah Hill, London",
+                    "end": null,
+                    "ended": false,
+                    "primary": null,
+                    "begin": null
+                }
+            ],
+            "disambiguation": "",
+            "annotation": null,
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "area": {
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "type-id": null,
+                "type": null,
+                "sort-name": "London",
+                "disambiguation": "Greater London",
+                "name": "London"
+            },
+            "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+            "tags": [],
+            "address": "“Little Menlo”, Beulah Hill, Upper Norwood, London SE19 3, UK",
+            "coordinates": null
+        },
+        {
+            "aliases": [
+                {
+                    "ended": true,
+                    "primary": null,
+                    "begin": "1968-06-22",
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "locale": null,
+                    "sort-name": "Apple Building",
+                    "type": "Place name",
+                    "end": null,
+                    "name": "Apple Building"
+                },
+                {
+                    "type": "Place name",
+                    "sort-name": "Apple Building, The",
+                    "locale": null,
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "name": "The Apple Building",
+                    "end": null,
+                    "primary": null,
+                    "ended": true,
+                    "begin": "1968-06-22"
+                }
+            ],
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "name": "3 Savile Row",
+            "id": "4c0f6677-e72c-4ab5-afc3-a48d334b8a13",
+            "type": null,
+            "genres": [],
+            "coordinates": {
+                "longitude": -0.139758,
+                "latitude": 51.510411
+            },
+            "address": "3 Savile Row, London W1S 3PB, UK",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "annotation": null,
+            "disambiguation": "part of terrace",
+            "type-id": null,
+            "area": {
+                "id": "995a7fc8-612e-4743-8d95-2244757ba159",
+                "type-id": null,
+                "sort-name": "Mayfair",
+                "type": null,
+                "disambiguation": "",
+                "name": "Mayfair"
+            },
+            "tags": []
+        },
+        {
+            "address": "",
+            "coordinates": null,
+            "tags": [],
+            "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+            "area": {
+                "type-id": null,
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "sort-name": "London",
+                "type": null,
+                "disambiguation": "Greater London",
+                "name": "London"
+            },
+            "annotation": null,
+            "disambiguation": "",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "aliases": [],
+            "genres": [],
+            "type": "Other",
+            "id": "d604ea5c-f208-4fcf-ba72-e65ba764121c",
+            "name": "2-3 Burlington Street",
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            }
+        }
+    ],
+    "place-offset": 0,
+    "place-count": 2455
+}

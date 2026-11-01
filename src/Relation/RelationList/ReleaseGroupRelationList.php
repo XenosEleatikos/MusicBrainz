@@ -13,6 +13,7 @@ class ReleaseGroupRelationList
 {
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToArtistTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToEventTrait;
+    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToGenreTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToLabelTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToReleaseGroupTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToSeriesTrait;
@@ -33,5 +34,6 @@ class ReleaseGroupRelationList
         $this->setReleaseGroupRelationsFromArray($relationList);
         $this->setSeriesRelationsFromArray($relationList);
         $this->setUrlRelationsFromArray($relationList);
+        $this->setGenreRelationsFromArray($relationList);
     }
 }

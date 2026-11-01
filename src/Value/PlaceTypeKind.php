@@ -15,4 +15,5 @@ enum PlaceTypeKind: string
     case Stadium = 'Stadium';
     case IndoorArena = 'Indoor arena';
     case ReligiousBuilding = 'Religious building';
+    case Club = 'Club';
 }

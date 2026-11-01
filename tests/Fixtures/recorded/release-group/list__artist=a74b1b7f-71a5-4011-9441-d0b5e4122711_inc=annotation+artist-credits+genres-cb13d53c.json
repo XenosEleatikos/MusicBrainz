@@ -1,0 +1,346 @@
+{
+    "release-group-count": 587,
+    "release-groups": [
+        {
+            "first-release-date": "2003-05-26",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "rating": {
+                "value": 3.85,
+                "votes-count": 53
+            },
+            "disambiguation": "",
+            "annotation": null,
+            "artist-credit": [
+                {
+                    "name": "Radiohead",
+                    "artist": {
+                        "disambiguation": "",
+                        "type": "Group",
+                        "country": "GB",
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                        "genres": [
+                            {
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                                "count": 43,
+                                "disambiguation": "",
+                                "name": "alternative rock"
+                            },
+                            {
+                                "id": "2cdcecfe-3e7c-4055-ab34-78eceabe4d9b",
+                                "disambiguation": "",
+                                "count": 1,
+                                "name": "ambient pop"
+                            },
+                            {
+                                "id": "930ef127-3653-4677-9b95-ecc90c7c1a14",
+                                "count": 3,
+                                "disambiguation": "",
+                                "name": "art pop"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "tags": [
+                            {
+                                "name": "alternative",
+                                "count": 2
+                            },
+                            {
+                                "name": "alternative rock",
+                                "count": 43
+                            },
+                            {
+                                "name": "alternative rock music",
+                                "count": 2
+                            }
+                        ],
+                        "name": "Radiohead",
+                        "sort-name": "Radiohead"
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "tags": [
+                {
+                    "name": "5+ wochen",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "alienation"
+                },
+                {
+                    "count": 1,
+                    "name": "alt rock"
+                }
+            ],
+            "id": "5c14fd50-a2f1-3672-9537-b0dad91bea2f",
+            "primary-type": "Album",
+            "title": "Hail to the Thief",
+            "secondary-type-ids": [],
+            "genres": [
+                {
+                    "name": "alternative rock",
+                    "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                    "count": 13,
+                    "disambiguation": ""
+                },
+                {
+                    "count": 10,
+                    "disambiguation": "",
+                    "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                    "name": "art rock"
+                },
+                {
+                    "count": 4,
+                    "disambiguation": "",
+                    "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+                    "name": "electronic"
+                },
+                {
+                    "count": 8,
+                    "disambiguation": "",
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                    "name": "rock"
+                }
+            ],
+            "secondary-types": []
+        },
+        {
+            "disambiguation": "",
+            "first-release-date": "2007-10-10",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "rating": {
+                "votes-count": 65,
+                "value": 4.4
+            },
+            "secondary-type-ids": [],
+            "genres": [
+                {
+                    "name": "alternative pop",
+                    "disambiguation": "",
+                    "count": 2,
+                    "id": "d3ebe947-7c03-43f5-b333-09379881b0f6"
+                },
+                {
+                    "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                    "disambiguation": "",
+                    "count": 21,
+                    "name": "alternative rock"
+                },
+                {
+                    "id": "930ef127-3653-4677-9b95-ecc90c7c1a14",
+                    "disambiguation": "",
+                    "count": 2,
+                    "name": "art pop"
+                }
+            ],
+            "secondary-types": [],
+            "id": "6e335887-60ba-38f0-95af-fae7774336bf",
+            "primary-type": "Album",
+            "title": "In Rainbows",
+            "tags": [
+                {
+                    "name": "alt rock",
+                    "count": 3
+                },
+                {
+                    "count": 2,
+                    "name": "alternative pop"
+                },
+                {
+                    "count": 1,
+                    "name": "alternative pop/rock"
+                }
+            ],
+            "artist-credit": [
+                {
+                    "name": "Radiohead",
+                    "artist": {
+                        "tags": [
+                            {
+                                "count": 2,
+                                "name": "alternative"
+                            },
+                            {
+                                "count": 43,
+                                "name": "alternative rock"
+                            },
+                            {
+                                "name": "alternative rock music",
+                                "count": 2
+                            }
+                        ],
+                        "sort-name": "Radiohead",
+                        "name": "Radiohead",
+                        "genres": [
+                            {
+                                "count": 43,
+                                "disambiguation": "",
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                                "name": "alternative rock"
+                            },
+                            {
+                                "name": "ambient pop",
+                                "disambiguation": "",
+                                "count": 1,
+                                "id": "2cdcecfe-3e7c-4055-ab34-78eceabe4d9b"
+                            },
+                            {
+                                "name": "art pop",
+                                "id": "930ef127-3653-4677-9b95-ecc90c7c1a14",
+                                "disambiguation": "",
+                                "count": 3
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "disambiguation": "",
+                        "type": "Group",
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                        "country": "GB"
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "annotation": null
+        },
+        {
+            "disambiguation": "",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "rating": {
+                "value": 3.65,
+                "votes-count": 40
+            },
+            "first-release-date": "2011-02-18",
+            "title": "The King of Limbs",
+            "id": "899b6d09-807e-4c18-a6d4-3642e00d6a3d",
+            "primary-type": "Album",
+            "secondary-types": [],
+            "secondary-type-ids": [],
+            "genres": [
+                {
+                    "name": "alternative rock",
+                    "count": 4,
+                    "disambiguation": "",
+                    "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18"
+                },
+                {
+                    "id": "2cdcecfe-3e7c-4055-ab34-78eceabe4d9b",
+                    "disambiguation": "",
+                    "count": 1,
+                    "name": "ambient pop"
+                },
+                {
+                    "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "art rock"
+                },
+                {
+                    "name": "electronic",
+                    "id": "89255676-1f14-4dd8-bbad-fca839d6aff4",
+                    "count": 4,
+                    "disambiguation": ""
+                },
+                {
+                    "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+                    "disambiguation": "",
+                    "count": 3,
+                    "name": "experimental rock"
+                },
+                {
+                    "id": "ccd19ebf-052c-4afe-8ad9-fbb0a73f94a7",
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "indie rock"
+                },
+                {
+                    "name": "rock",
+                    "count": 5,
+                    "disambiguation": "",
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798"
+                }
+            ],
+            "annotation": null,
+            "artist-credit": [
+                {
+                    "name": "Radiohead",
+                    "artist": {
+                        "tags": [
+                            {
+                                "name": "alternative",
+                                "count": 2
+                            },
+                            {
+                                "name": "alternative rock",
+                                "count": 43
+                            },
+                            {
+                                "count": 2,
+                                "name": "alternative rock music"
+                            }
+                        ],
+                        "sort-name": "Radiohead",
+                        "name": "Radiohead",
+                        "genres": [
+                            {
+                                "name": "alternative rock",
+                                "disambiguation": "",
+                                "count": 43,
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18"
+                            },
+                            {
+                                "name": "ambient pop",
+                                "disambiguation": "",
+                                "count": 1,
+                                "id": "2cdcecfe-3e7c-4055-ab34-78eceabe4d9b"
+                            },
+                            {
+                                "name": "art pop",
+                                "disambiguation": "",
+                                "count": 3,
+                                "id": "930ef127-3653-4677-9b95-ecc90c7c1a14"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "disambiguation": "",
+                        "type": "Group",
+                        "country": "GB",
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "tags": [
+                {
+                    "count": 4,
+                    "name": "alternative rock"
+                },
+                {
+                    "name": "ambient pop",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "art rock"
+                },
+                {
+                    "count": 4,
+                    "name": "electronic"
+                },
+                {
+                    "name": "experimental rock",
+                    "count": 3
+                },
+                {
+                    "name": "indie rock",
+                    "count": 1
+                },
+                {
+                    "count": 5,
+                    "name": "rock"
+                }
+            ]
+        }
+    ],
+    "release-group-offset": 0
+}

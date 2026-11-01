@@ -38,9 +38,15 @@ trait TagTrait
      *
      * @return void
      */
-    private function setTagFromArray(array $input): void
+    private function setTagFromArray(array $input, ?string $key = 'tag'): void
     {
-        $this->tag = is_null($tag = ArrayAccess::getArray($input, 'tag'))
+        if (is_null($key)) {
+            $this->tag = new Tag($input);
+
+            return;
+        }
+
+        $this->tag = is_null($tag = ArrayAccess::getArray($input, $key))
             ? new Tag()
             : new Tag($tag);
     }

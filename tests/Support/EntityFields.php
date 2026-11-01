@@ -27,6 +27,7 @@ final class EntityFields
         'recording'    => ['artist-credit-id' => 'getArtistCreditId', 'id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
         'release'      => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation', 'country' => 'getCountry', 'date' => 'getDate', 'barcode' => 'getBarcode', 'asin' => 'getAsin'],
         'release-group' => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
+        'url'          => ['id' => 'getMBID', 'resource' => 'getResource'],
         'series'       => ['id' => 'getMBID', 'name' => 'getName', 'disambiguation' => 'getDisambiguation'],
         'work'         => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
     ];

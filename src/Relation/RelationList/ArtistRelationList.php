@@ -13,6 +13,7 @@ class ArtistRelationList
 {
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToArtistTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToEventTrait;
+    use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToGenreTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToInstrumentTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToLabelTrait;
     use \MusicBrainz\Relation\Target\RelationList\Property\RelationsToPlaceTrait;
@@ -43,5 +44,6 @@ class ArtistRelationList
         $this->setSeriesRelationsFromArray($relationList);
         $this->setUrlRelationsFromArray($relationList);
         $this->setWorkRelationsFromArray($relationList);
+        $this->setGenreRelationsFromArray($relationList);
     }
 }

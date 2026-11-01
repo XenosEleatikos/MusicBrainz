@@ -21,5 +21,6 @@ class PlaceFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\LatitudeTrait;
     use \MusicBrainz\Filter\Property\LongitudeTrait;
     use \MusicBrainz\Filter\Property\PlaceIdTrait;
+    use \MusicBrainz\Filter\Property\PlaceNameTrait;
     use \MusicBrainz\Filter\Property\PlaceTypeTrait;
 }

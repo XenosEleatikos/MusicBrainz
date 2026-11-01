@@ -1,0 +1,336 @@
+{
+    "release-groups": [
+        {
+            "first-release-date": "1964-12-15",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "rating": {
+                "value": 4.4,
+                "votes-count": 5
+            },
+            "disambiguation": "",
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "joinphrase": "",
+                    "artist": {
+                        "sort-name": "Beatles, The",
+                        "name": "The Beatles",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "1960s"
+                            },
+                            {
+                                "name": "60s",
+                                "count": 7
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "genres": [
+                            {
+                                "name": "britpop",
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30",
+                                "count": 2,
+                                "disambiguation": ""
+                            },
+                            {
+                                "name": "classic rock",
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "disambiguation": "",
+                                "count": 4
+                            },
+                            {
+                                "count": 2,
+                                "disambiguation": "",
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+                                "name": "experimental rock"
+                            }
+                        ],
+                        "country": "GB",
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "type": "Group"
+                    }
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "autumn"
+                },
+                {
+                    "name": "bittersweet",
+                    "count": 1
+                },
+                {
+                    "name": "breakup",
+                    "count": 1
+                }
+            ],
+            "annotation": null,
+            "genres": [
+                {
+                    "id": "c979d6c8-fa9e-47c3-86d6-754a7f89ea18",
+                    "count": 2,
+                    "disambiguation": "",
+                    "name": "merseybeat"
+                },
+                {
+                    "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                    "disambiguation": "",
+                    "count": 2,
+                    "name": "pop"
+                },
+                {
+                    "name": "pop rock",
+                    "count": 2,
+                    "disambiguation": "",
+                    "id": "797e2e85-5ffd-495c-a757-8b4079052f0e"
+                },
+                {
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                    "disambiguation": "",
+                    "count": 4,
+                    "name": "rock"
+                },
+                {
+                    "name": "rock and roll",
+                    "id": "e4581b76-a842-440b-9b0f-1aa7a00a5c57",
+                    "disambiguation": "",
+                    "count": 1
+                }
+            ],
+            "secondary-type-ids": [],
+            "secondary-types": [],
+            "id": "2d111aea-50f8-33cc-ab63-780bc57068c0",
+            "primary-type": "Album",
+            "title": "Beatles ’65"
+        },
+        {
+            "annotation": null,
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "1960s"
+                },
+                {
+                    "name": "1964",
+                    "count": 1
+                },
+                {
+                    "name": "beat",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "pop"
+                },
+                {
+                    "name": "pop rock",
+                    "count": 1
+                },
+                {
+                    "count": 2,
+                    "name": "rock"
+                }
+            ],
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "joinphrase": "",
+                    "artist": {
+                        "tags": [
+                            {
+                                "name": "1960s",
+                                "count": 1
+                            },
+                            {
+                                "count": 7,
+                                "name": "60s"
+                            },
+                            {
+                                "name": "abbey road",
+                                "count": 1
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "name": "The Beatles",
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "type": "Group",
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "country": "GB",
+                        "genres": [
+                            {
+                                "name": "britpop",
+                                "count": 2,
+                                "disambiguation": "",
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30"
+                            },
+                            {
+                                "name": "classic rock",
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "disambiguation": "",
+                                "count": 4
+                            },
+                            {
+                                "name": "experimental rock",
+                                "count": 2,
+                                "disambiguation": "",
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                    }
+                }
+            ],
+            "title": "Twist and Shout",
+            "id": "31770e0a-e537-376d-a7c0-48e507f3105e",
+            "primary-type": "Album",
+            "secondary-types": [],
+            "secondary-type-ids": [],
+            "genres": [
+                {
+                    "name": "pop",
+                    "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                    "count": 1,
+                    "disambiguation": ""
+                },
+                {
+                    "id": "797e2e85-5ffd-495c-a757-8b4079052f0e",
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "pop rock"
+                },
+                {
+                    "name": "rock",
+                    "count": 2,
+                    "disambiguation": "",
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798"
+                }
+            ],
+            "rating": {
+                "votes-count": 8,
+                "value": 4.9
+            },
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "first-release-date": "1964-02-03",
+            "disambiguation": ""
+        },
+        {
+            "disambiguation": "",
+            "first-release-date": "1964-04-10",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "rating": {
+                "votes-count": 7,
+                "value": 4
+            },
+            "id": "387bc6cc-ac60-365f-819b-fbc78c486065",
+            "primary-type": "Album",
+            "title": "The Beatles’ Second Album",
+            "secondary-type-ids": [],
+            "genres": [
+                {
+                    "name": "classic rock",
+                    "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                    "count": 1,
+                    "disambiguation": ""
+                },
+                {
+                    "disambiguation": "",
+                    "count": 2,
+                    "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                    "name": "pop"
+                },
+                {
+                    "name": "pop rock",
+                    "count": 3,
+                    "disambiguation": "",
+                    "id": "797e2e85-5ffd-495c-a757-8b4079052f0e"
+                },
+                {
+                    "count": 6,
+                    "disambiguation": "",
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                    "name": "rock"
+                },
+                {
+                    "id": "e4581b76-a842-440b-9b0f-1aa7a00a5c57",
+                    "disambiguation": "",
+                    "count": 1,
+                    "name": "rock and roll"
+                }
+            ],
+            "secondary-types": [],
+            "annotation": null,
+            "tags": [
+                {
+                    "name": "1960s",
+                    "count": 1
+                },
+                {
+                    "name": "1964",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "artist on cover"
+                }
+            ],
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "artist": {
+                        "genres": [
+                            {
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30",
+                                "count": 2,
+                                "disambiguation": "",
+                                "name": "britpop"
+                            },
+                            {
+                                "name": "classic rock",
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "disambiguation": "",
+                                "count": 4
+                            },
+                            {
+                                "name": "experimental rock",
+                                "disambiguation": "",
+                                "count": 2,
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "type": "Group",
+                        "country": "GB",
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "tags": [
+                            {
+                                "name": "1960s",
+                                "count": 1
+                            },
+                            {
+                                "count": 7,
+                                "name": "60s"
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "name": "The Beatles"
+                    },
+                    "joinphrase": ""
+                }
+            ]
+        }
+    ],
+    "release-group-count": 1053,
+    "release-group-offset": 0
+}

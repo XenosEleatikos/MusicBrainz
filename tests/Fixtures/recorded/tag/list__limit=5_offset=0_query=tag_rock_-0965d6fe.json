@@ -1,0 +1,27 @@
+{
+    "created": "2026-11-01T14:39:03.174Z",
+    "count": 5447,
+    "offset": 0,
+    "tags": [
+        {
+            "score": 100,
+            "name": "rock rock rock"
+        },
+        {
+            "score": 96,
+            "name": "rock-rock"
+        },
+        {
+            "score": 96,
+            "name": "rock rock"
+        },
+        {
+            "score": 96,
+            "name": "rock/rock"
+        },
+        {
+            "score": 92,
+            "name": "rock_pop rock_rock_pop rock_rock_pop rock_rock"
+        }
+    ]
+}

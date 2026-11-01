@@ -21,7 +21,7 @@ class CdStub extends SearchResult
      */
     public function __construct(array $searchResult = [])
     {
-        $this->setCdStubFromArray($searchResult);
+        $this->setCdStubFromArray($searchResult, null);
         parent::__construct($searchResult);
     }
 
