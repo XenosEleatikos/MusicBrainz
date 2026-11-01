@@ -7,7 +7,7 @@ namespace MusicBrainz\Value;
 /**
  * The data quality of an entity.
  *
- * @link https://musicbrainz.org/doc/Data_Quality
+ * @link https://musicbrainz.org/doc/Release#Data_quality
  */
 enum DataQuality: string
 {

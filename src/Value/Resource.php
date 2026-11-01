@@ -16,7 +16,7 @@ class Resource implements Value
      *
      * @var string
      */
-    private $resource;
+    private string $resource;
 
     /**
      * Constructs a resource.

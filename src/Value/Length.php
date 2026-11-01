@@ -16,7 +16,7 @@ class Length implements Value
      *
      * @var int
      */
-    private $length;
+    private int $length;
 
     /**
      * Constructs a length.

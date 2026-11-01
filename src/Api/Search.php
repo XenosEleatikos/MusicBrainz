@@ -37,16 +37,16 @@ use MusicBrainz\Value\SearchResult;
 /**
  * The search API provides methods for searching entities based on the parameters supplied in the filter objects.
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search
  */
 class Search
 {
     /**
-     * An HTTP adapter
+     * The API client
      *
      * @var ApiClient
      */
-    private ApiClient $httpAdapter;
+    private ApiClient $apiClient;
 
     /**
      * The API client configuration
@@ -58,13 +58,13 @@ class Search
     /**
      * Constructs the search API.
      *
-     * @param ApiClient $httpAdapter An HTTP adapter
-     * @param Config              $config      The API client configuration
+     * @param ApiClient $apiClient The API client
+     * @param Config    $config    The API client configuration
      */
-    public function __construct(ApiClient $httpAdapter, Config $config)
+    public function __construct(ApiClient $apiClient, Config $config)
     {
-        $this->httpAdapter = $httpAdapter;
-        $this->config      = $config;
+        $this->apiClient = $apiClient;
+        $this->config = $config;
     }
 
     /**
@@ -80,7 +80,7 @@ class Search
     public function annotation(AnnotationFilter $annotationFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($annotationFilter, $pageFilter);
-        $response = $this->httpAdapter->call('annotation' . '/', $this->config, $params, false);
+        $response = $this->apiClient->call('annotation/', $this->config, $params, false);
 
         return Page::search($response, 'annotation', Annotation::class);
     }
@@ -98,7 +98,7 @@ class Search
     public function area(AreaFilter $areaFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($areaFilter, $pageFilter);
-        $response = $this->httpAdapter->call('area' . '/', $this->config, $params, false);
+        $response = $this->apiClient->call('area/', $this->config, $params, false);
 
         return Page::search($response, 'area', Area::class);
     }
@@ -116,7 +116,7 @@ class Search
     public function artist(ArtistFilter $artistFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($artistFilter, $pageFilter);
-        $response = $this->httpAdapter->call('artist' . '/', $this->config, $params);
+        $response = $this->apiClient->call('artist/', $this->config, $params);
 
         return Page::search($response, 'artist', Artist::class);
     }
@@ -134,7 +134,7 @@ class Search
     public function cdStub(CdStubFilter $cdStubFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($cdStubFilter, $pageFilter);
-        $response = $this->httpAdapter->call('cdstub' . '/', $this->config, $params);
+        $response = $this->apiClient->call('cdstub/', $this->config, $params);
 
         return Page::search($response, 'cdstub', CdStub::class);
     }
@@ -152,7 +152,7 @@ class Search
     public function label(LabelFilter $labelFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($labelFilter, $pageFilter);
-        $response = $this->httpAdapter->call('label' . '/', $this->config, $params);
+        $response = $this->apiClient->call('label/', $this->config, $params);
 
         return Page::search($response, 'label', Label::class);
     }
@@ -170,7 +170,7 @@ class Search
     public function place(PlaceFilter $placeFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($placeFilter, $pageFilter);
-        $response = $this->httpAdapter->call('place' . '/', $this->config, $params);
+        $response = $this->apiClient->call('place/', $this->config, $params);
 
         return Page::search($response, 'place', Place::class);
     }
@@ -188,7 +188,7 @@ class Search
     public function recording(RecordingFilter $recordingFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($recordingFilter, $pageFilter);
-        $response = $this->httpAdapter->call('recording' . '/', $this->config, $params);
+        $response = $this->apiClient->call('recording/', $this->config, $params);
 
         return Page::search($response, 'recording', Recording::class);
     }
@@ -206,7 +206,7 @@ class Search
     public function release(ReleaseFilter $releaseFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($releaseFilter, $pageFilter);
-        $response = $this->httpAdapter->call('release' . '/', $this->config, $params);
+        $response = $this->apiClient->call('release/', $this->config, $params);
 
         return Page::search($response, 'release', Release::class);
     }
@@ -224,7 +224,7 @@ class Search
     public function releaseGroup(ReleaseGroupFilter $releaseGroupFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($releaseGroupFilter, $pageFilter);
-        $response = $this->httpAdapter->call('release-group' . '/', $this->config, $params);
+        $response = $this->apiClient->call('release-group/', $this->config, $params);
 
         return Page::search($response, 'release-group', ReleaseGroup::class);
     }
@@ -242,7 +242,7 @@ class Search
     public function tag(TagFilter $tagFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($tagFilter, $pageFilter);
-        $response = $this->httpAdapter->call('tag' . '/', $this->config, $params);
+        $response = $this->apiClient->call('tag/', $this->config, $params);
 
         return Page::search($response, 'tag', Tag::class);
     }
@@ -260,7 +260,7 @@ class Search
     public function work(WorkFilter $workFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($workFilter, $pageFilter);
-        $response = $this->httpAdapter->call('work' . '/', $this->config, $params, false);
+        $response = $this->apiClient->call('work/', $this->config, $params, false);
 
         return Page::search($response, 'work', Work::class);
     }
@@ -271,13 +271,13 @@ class Search
      * @param AbstractFilter $searchFilter A search filter
      * @param PageFilter     $pageFilter   A page filter
      *
-     * @return array
+     * @return array<string, mixed>
      *
      * @throws Exception
      */
     private function getParameters(AbstractFilter $searchFilter, PageFilter $pageFilter): array
     {
-        if (empty((string) $searchFilter)) {
+        if ('' === (string) $searchFilter) {
             throw new Exception('The filter needs at least one argument to create a query.');
         }
 

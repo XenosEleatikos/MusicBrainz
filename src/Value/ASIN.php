@@ -18,7 +18,7 @@ class ASIN implements Value
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs an Amazon Standard Identification Number (ASIN).

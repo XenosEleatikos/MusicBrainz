@@ -16,7 +16,7 @@ class Language implements Value
      *
      * @var string
      */
-    private $languageCode;
+    private string $languageCode;
 
     /**
      * Constructs a language.

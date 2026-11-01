@@ -16,7 +16,7 @@ class TrackDisplayNumber implements Value
      *
      * @var null|string
      */
-    private $trackNumber;
+    private ?string $trackNumber = null;
 
     /**
      * Constructs a barcode.

@@ -12,7 +12,7 @@ use MusicBrainz\Value;
  * There may be more than one, especially when multiple labels are involved. This is not the ASIN — there is a
  * relationship for that — nor the label code.
  *
- * @see https://musicbrainz.org/doc/Release#Catalogue_number
+ * @see https://musicbrainz.org/doc/Release#Catalog_number
  */
 class CatalogNumber implements Value
 {
@@ -21,7 +21,7 @@ class CatalogNumber implements Value
      *
      * @var string
      */
-    private $catalogNumber;
+    private string $catalogNumber;
 
     /**
      * Constructs a catalog number.

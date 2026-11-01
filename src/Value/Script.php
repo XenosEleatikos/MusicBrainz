@@ -16,7 +16,7 @@ class Script implements Value
      *
      * @var string
      */
-    private $scriptCode;
+    private string $scriptCode;
 
     /**
      * Constructs a script.

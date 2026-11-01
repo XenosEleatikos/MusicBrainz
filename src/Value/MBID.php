@@ -19,7 +19,7 @@ class MBID implements Value
      *
      * @var string
      */
-    private $mbid;
+    private string $mbid;
 
     /**
      * Constructs a MusicBrainz Identifier (MBID).

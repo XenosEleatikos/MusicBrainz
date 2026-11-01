@@ -22,7 +22,7 @@ class Name implements Value
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Constructs a name.

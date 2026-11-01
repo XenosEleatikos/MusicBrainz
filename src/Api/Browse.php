@@ -52,16 +52,16 @@ use MusicBrainz\Value\Page;
 /**
  * Browse requests are a direct lookup of all the entities directly linked to another entity.
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2#Browse
+ * @link https://musicbrainz.org/doc/MusicBrainz_API#Browse
  */
 class Browse
 {
     /**
-     * An HTTP adapter
+     * The API client
      *
      * @var ApiClient
      */
-    private ApiClient $httpAdapter;
+    private ApiClient $apiClient;
 
     /**
      * The API client configuration
@@ -73,13 +73,13 @@ class Browse
     /**
      * Constructs the browse API.
      *
-     * @param ApiClient $httpAdapter An HTTP adapter
-     * @param Config              $config      The API client configuration
+     * @param ApiClient $apiClient The API client
+     * @param Config    $config    The API client configuration
      */
-    public function __construct(ApiClient $httpAdapter, Config $config)
+    public function __construct(ApiClient $apiClient, Config $config)
     {
-        $this->httpAdapter = $httpAdapter;
-        $this->config      = $config;
+        $this->apiClient = $apiClient;
+        $this->config = $config;
     }
 
     /**
@@ -346,34 +346,32 @@ class Browse
     /**
      * Looks up for entities standing in a certain relation.
      *
-     * @param EntityType       $entity       The type of the requested entities
-     * @param AbstractRelation $relation     The type of the related entity
-     * @param Fields           $includes     A list of properties of the requested entities to be included in the response
-     * @param PageFilter       $pageFilter   A page filter
+     * @param EntityType       $entity     The type of the requested entities
+     * @param AbstractRelation $relation   The type of the related entity
+     * @param Fields           $includes   A list of properties of the requested entities to be included in the response
+     * @param PageFilter       $pageFilter A page filter
      *
-     * @return array
+     * @return array<mixed, mixed>
      */
     private function browse(
         EntityType $entity,
         AbstractRelation $relation,
         Fields $includes,
         PageFilter $pageFilter,
-    ) {
+    ): array {
         $includes = (string) $includes;
 
         $params = [
             $relation->getEntityType()->browseParameter() => (string) $relation->getEntityId(),
-            'limit'                              => $pageFilter->getLimit(),
-            'offset'                             => $pageFilter->getOffset(),
-            'fmt'                                => 'json',
+            'limit' => $pageFilter->getLimit(),
+            'offset' => $pageFilter->getOffset(),
+            'fmt' => 'json',
         ];
 
         if (!empty($includes)) {
             $params['inc'] = $includes;
         }
 
-        $response = $this->httpAdapter->call($entity->path(), $this->config, $params, str_contains($includes, 'user-'));
-
-        return $response;
+        return $this->apiClient->call($entity->path(), $this->config, $params, str_contains($includes, 'user-'));
     }
 }

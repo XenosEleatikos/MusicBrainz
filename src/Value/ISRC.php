@@ -9,7 +9,7 @@ use MusicBrainz\Value;
 /**
  * The International Standard Recording Code (ISRC)
  * The International Standard Recording Code, abbreviated to ISRC, is an identification system for audio and music video
- * recordings. It is standarized by the IFPI in ISO 3901:2001 and used by IFPI members to assign a unique identifier to
+ * recordings. It is standardized by the IFPI in ISO 3901:2001 and used by IFPI members to assign a unique identifier to
  * every distinct sound recording they release. An ISRC identifies a particular sound recording, not the song itself.
  * Therefore, different recordings, edits, remixes and remasters of the same song will each be assigned their own ISRC.
  * However, note that same Recording should carry the same ISRC in all countries/territories. Songs are identified by
@@ -27,7 +27,7 @@ class ISRC implements Value
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs an ISRC.

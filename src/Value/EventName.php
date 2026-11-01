@@ -16,7 +16,7 @@ class EventName implements Value
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Constructs an event name.

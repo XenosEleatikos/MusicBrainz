@@ -18,7 +18,7 @@ class Latitude implements Value
      *
      * @var null|float
      */
-    private $latitude;
+    private ?float $latitude = null;
 
     /**
      * Constructs a latitude.

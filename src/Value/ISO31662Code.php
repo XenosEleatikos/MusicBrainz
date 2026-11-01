@@ -16,7 +16,7 @@ class ISO31662Code implements ISO3166Code
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs an ISO 3166-2 code.

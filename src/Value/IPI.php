@@ -21,7 +21,7 @@ class IPI implements Value
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs an IPI code.

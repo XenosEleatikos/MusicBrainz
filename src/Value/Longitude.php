@@ -18,7 +18,7 @@ class Longitude implements Value
      *
      * @var null|float
      */
-    private $longitude;
+    private ?float $longitude = null;
 
     /**
      * Constructs a longitude.

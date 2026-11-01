@@ -20,7 +20,7 @@ class Barcode implements Value
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs a barcode.

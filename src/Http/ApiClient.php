@@ -58,6 +58,7 @@ final class ApiClient
      * Performs a GET request and returns the decoded JSON response.
      *
      * @param string               $path           Path relative to the API URL, e.g. "artist/<mbid>"
+     * @param Config               $config         The configuration (API URL, user agent, access token)
      * @param array<string, mixed> $params         Query parameters
      * @param bool                 $isAuthRequired Whether the request cannot be answered without an access token
      *

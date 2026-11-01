@@ -18,7 +18,7 @@ class Disambiguation implements Value
      *
      * @var string
      */
-    private $disambiguation;
+    private string $disambiguation;
 
     /**
      * Constructs a disambiguation.

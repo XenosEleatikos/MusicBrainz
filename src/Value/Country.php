@@ -20,7 +20,7 @@ class Country implements Value
      *
      * @var string
      */
-    private $countryCode;
+    private string $countryCode;
 
     /**
      * Constructs a country.

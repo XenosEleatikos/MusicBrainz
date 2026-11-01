@@ -20,14 +20,14 @@ class Date implements Value
      *
      * @var null|string
      */
-    private $originalFormat;
+    private ?string $originalFormat = null;
 
     /**
      * Date and time
      *
      * @var null|DateTime
      */
-    private $dateTime;
+    private ?DateTime $dateTime = null;
 
     /**
      * Constructs a date

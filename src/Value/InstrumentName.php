@@ -16,7 +16,7 @@ class InstrumentName implements Value
      *
      * @var string
      */
-    private $name;
+    private string $name;
 
     /**
      * Constructs an instrument name.

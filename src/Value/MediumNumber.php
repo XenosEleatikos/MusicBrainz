@@ -16,7 +16,7 @@ class MediumNumber implements Value
      *
      * @var null|int
      */
-    private $number;
+    private ?int $number = null;
 
     /**
      * Constructs a medium number.

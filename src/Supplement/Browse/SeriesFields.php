@@ -6,6 +6,13 @@ namespace MusicBrainz\Supplement\Browse;
 
 use MusicBrainz\Supplement\Fields;
 
+/**
+ * The inc parameters a browse request for series entities accepts. The list is derived from the web service itself
+ * (see tests/Fixtures/accepted-includes.json); flags for data that needs authentication (user-tags, user-genres,
+ * user-ratings) require an access token.
+ *
+ * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
+ */
 class SeriesFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\AliasesTrait;

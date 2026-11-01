@@ -16,7 +16,7 @@ class Cancelled implements Value
      *
      * @var bool
      */
-    private $cancelled;
+    private bool $cancelled;
 
     /**
      * Constructs a "cancelled" flag.

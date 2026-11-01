@@ -24,7 +24,7 @@ class LabelCode implements Value
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs a Label Code.
@@ -77,7 +77,7 @@ class LabelCode implements Value
      *
      * @return string
      */
-    public function getLabelCodeWithoutLcPrefix()
+    public function getLabelCodeWithoutLcPrefix(): string
     {
         return substr($this->code, 3);
     }

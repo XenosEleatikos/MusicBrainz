@@ -16,7 +16,7 @@ class Title implements Value
      *
      * @var string
      */
-    private $title;
+    private string $title;
 
     /**
      * Constructs a title.

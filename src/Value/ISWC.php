@@ -20,7 +20,7 @@ class ISWC implements Value
      *
      * @var string
      */
-    private $code;
+    private string $code;
 
     /**
      * Constructs an ISWC.
