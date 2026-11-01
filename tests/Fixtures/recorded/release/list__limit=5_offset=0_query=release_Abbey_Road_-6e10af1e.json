@@ -1,0 +1,365 @@
+{
+    "created": "2026-11-01T12:54:04.854Z",
+    "count": 322,
+    "offset": 0,
+    "releases": [
+        {
+            "id": "70516629-7715-41bf-97e1-b7bf11254cb8",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "artist-credit-id": "c2fcdeae-ef6f-35ee-a42f-1c0257513754",
+            "count": 1,
+            "title": "Abbey's Road",
+            "status": "Official",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "joinphrase": " feat. ",
+                    "name": "Ada Montellanico",
+                    "artist": {
+                        "id": "1aa00b34-ccfc-468d-aa4c-425e1b8eb7f8",
+                        "name": "Ada Montellanico",
+                        "sort-name": "Montellanico, Ada"
+                    }
+                },
+                {
+                    "name": "Giovanni Falzone",
+                    "artist": {
+                        "id": "e3fe8224-eb5f-4411-a922-26da0ebdc912",
+                        "name": "Giovanni Falzone",
+                        "sort-name": "Falzone, Giovanni"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "c0b2899c-41ab-4907-abf0-ff1962477ff2",
+                "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Abbey's Road",
+                "primary-type": "Album"
+            },
+            "date": "2016",
+            "country": "IT",
+            "release-events": [
+                {
+                    "date": "2016",
+                    "area": {
+                        "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                        "name": "Italy",
+                        "sort-name": "Italy",
+                        "iso-3166-1-codes": [
+                            "IT"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "8058333571324",
+            "label-info": [
+                {
+                    "catalog-number": "INC225",
+                    "label": {
+                        "id": "1a649f65-61c3-4e7d-8214-ff7e73837661",
+                        "name": "Incipit Records"
+                    }
+                }
+            ],
+            "track-count": 11,
+            "media": [
+                {
+                    "id": "9606aabc-ea44-3232-81fd-b3715ccf0ea4",
+                    "format": "CD",
+                    "disc-count": 0,
+                    "track-count": 11
+                }
+            ]
+        },
+        {
+            "id": "af6b1277-c76d-4dcd-bdd2-e38584bd27c4",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "artist-credit-id": "c2fcdeae-ef6f-35ee-a42f-1c0257513754",
+            "count": 1,
+            "title": "Abbey's Road",
+            "status": "Official",
+            "packaging": "None",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "joinphrase": " feat. ",
+                    "name": "Ada Montellanico",
+                    "artist": {
+                        "id": "1aa00b34-ccfc-468d-aa4c-425e1b8eb7f8",
+                        "name": "Ada Montellanico",
+                        "sort-name": "Montellanico, Ada"
+                    }
+                },
+                {
+                    "name": "Giovanni Falzone",
+                    "artist": {
+                        "id": "e3fe8224-eb5f-4411-a922-26da0ebdc912",
+                        "name": "Giovanni Falzone",
+                        "sort-name": "Falzone, Giovanni"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "c0b2899c-41ab-4907-abf0-ff1962477ff2",
+                "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Abbey's Road",
+                "primary-type": "Album"
+            },
+            "asin": "B01N5M150Q",
+            "label-info": [
+                {
+                    "label": {
+                        "id": "1a649f65-61c3-4e7d-8214-ff7e73837661",
+                        "name": "Incipit Records"
+                    }
+                }
+            ],
+            "track-count": 12,
+            "media": [
+                {
+                    "id": "32a796c2-b346-3e17-95e2-10173ad84e27",
+                    "format": "Digital Media",
+                    "disc-count": 0,
+                    "track-count": 12
+                }
+            ]
+        },
+        {
+            "id": "0c07aa43-98fa-4f30-9cab-c1fab740f5b5",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "artist-credit-id": "68c940e8-bd63-4a9f-9c03-db289b42c1fc",
+            "count": 1,
+            "title": "Abbey Road",
+            "status": "Official",
+            "packaging": "None",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "name": "Diana Herrera",
+                    "artist": {
+                        "id": "b1609980-fe3c-45fa-8892-03f2f4864e4a",
+                        "name": "Diana Herrera",
+                        "sort-name": "Herrera, Diana"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "284326a7-edbb-4b9b-82cf-dc53863759ef",
+                "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+                "title": "Abbey Road",
+                "primary-type": "Single"
+            },
+            "date": "2026-01-02",
+            "country": "XW",
+            "release-events": [
+                {
+                    "date": "2026-01-02",
+                    "area": {
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "name": "[Worldwide]",
+                        "sort-name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "4062851232807",
+            "label-info": [
+                {
+                    "label": {
+                        "id": "157afde4-4bf5-4039-8ad2-5a15acc85176",
+                        "name": "[no label]"
+                    }
+                }
+            ],
+            "track-count": 1,
+            "media": [
+                {
+                    "id": "73c57abc-1c91-41a5-bf9f-287dc2da4714",
+                    "format": "Digital Media",
+                    "disc-count": 0,
+                    "track-count": 1
+                }
+            ]
+        },
+        {
+            "id": "c11a8842-ec04-4e64-8b38-8016c5bdd960",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "artist-credit-id": "949a7fd5-fe73-3e8f-922e-01ff4ca958f7",
+            "count": 1,
+            "title": "Abbey Road",
+            "status": "Official",
+            "packaging": "None",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "name": "Various Artists",
+                    "artist": {
+                        "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                        "name": "Various Artists",
+                        "sort-name": "Various Artists",
+                        "disambiguation": "add compilations to this artist"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "004a4e79-ac6c-448a-9d7f-b1b1714aa22a",
+                "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Abbey Road",
+                "primary-type": "Album"
+            },
+            "date": "2012-08-14",
+            "country": "XW",
+            "release-events": [
+                {
+                    "date": "2012-08-14",
+                    "area": {
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "name": "[Worldwide]",
+                        "sort-name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "",
+            "track-count": 17,
+            "media": [
+                {
+                    "id": "cec43af6-2efe-39b9-a591-49129a9cfe9b",
+                    "format": "Digital Media",
+                    "disc-count": 0,
+                    "track-count": 17
+                }
+            ],
+            "tags": [
+                {
+                    "count": 2,
+                    "name": "rock"
+                },
+                {
+                    "count": 2,
+                    "name": "pop"
+                },
+                {
+                    "count": 1,
+                    "name": "ukulele"
+                },
+                {
+                    "count": 1,
+                    "name": "new york"
+                },
+                {
+                    "count": 1,
+                    "name": "the beatles"
+                },
+                {
+                    "count": 1,
+                    "name": "genius"
+                },
+                {
+                    "count": 1,
+                    "name": "cover songs"
+                }
+            ]
+        },
+        {
+            "id": "b25a1e5d-3247-41ea-9920-f93c58a6e479",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "artist-credit-id": "c81491ca-a4b0-3bd7-92c0-8467809c8500",
+            "count": 2,
+            "title": "Abbey Road",
+            "status": "Official",
+            "disambiguation": "2CD anniversary edition",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "artist": {
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "name": "The Beatles",
+                        "sort-name": "Beatles, The",
+                        "disambiguation": "UK rock band, “The Fab Four”"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "9162580e-5df4-32de-80cc-f45a8d8a9b1d",
+                "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Abbey Road",
+                "primary-type": "Album"
+            },
+            "date": "2019-09-27",
+            "country": "JP",
+            "release-events": [
+                {
+                    "date": "2019-09-27",
+                    "area": {
+                        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                        "name": "Japan",
+                        "sort-name": "Japan",
+                        "iso-3166-1-codes": [
+                            "JP"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "4988031353004",
+            "asin": "B07W93DCNH",
+            "label-info": [
+                {
+                    "catalog-number": "UICY-79051/2",
+                    "label": {
+                        "id": "cf7fc5cf-e011-4ef4-b511-cd0188537910",
+                        "name": "Apple Records"
+                    }
+                }
+            ],
+            "track-count": 33,
+            "media": [
+                {
+                    "id": "ec3130ce-57df-3c79-960c-9e4d9a71a837",
+                    "format": "SHM-CD",
+                    "disc-count": 1,
+                    "track-count": 17
+                },
+                {
+                    "id": "2609e598-5da5-3bf8-80c9-8b1ed20bb0fc",
+                    "format": "SHM-CD",
+                    "disc-count": 1,
+                    "track-count": 16
+                }
+            ]
+        }
+    ]
+}

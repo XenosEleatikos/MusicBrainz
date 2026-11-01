@@ -1,0 +1,1515 @@
+{
+    "first-release-date": "1997-05-21",
+    "rating": {
+        "value": 4.55,
+        "votes-count": 89
+    },
+    "title": "OK Computer",
+    "aliases": [
+        {
+            "begin": null,
+            "type-id": null,
+            "ended": false,
+            "name": "OK Computer (remastered 2017)",
+            "primary": null,
+            "end": null,
+            "locale": null,
+            "sort-name": "OK Computer (remastered 2017)",
+            "type": null
+        },
+        {
+            "ended": false,
+            "type-id": null,
+            "begin": null,
+            "name": "OK Computer: OKNOTOK 1997 2017",
+            "primary": null,
+            "end": null,
+            "locale": null,
+            "type": null,
+            "sort-name": "OK Computer: OKNOTOK 1997 2017"
+        }
+    ],
+    "artist-credit": [
+        {
+            "name": "Radiohead",
+            "joinphrase": "",
+            "artist": {
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "type": "Group",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "",
+                "tags": [
+                    {
+                        "count": 2,
+                        "name": "alternative"
+                    },
+                    {
+                        "name": "alternative rock",
+                        "count": 43
+                    },
+                    {
+                        "count": 2,
+                        "name": "alternative rock music"
+                    },
+                    {
+                        "name": "british",
+                        "count": 14
+                    }
+                ],
+                "country": "GB",
+                "aliases": [
+                    {
+                        "begin": null,
+                        "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                        "ended": false,
+                        "name": "Radio Head",
+                        "locale": null,
+                        "end": null,
+                        "primary": null,
+                        "sort-name": "Radio Head",
+                        "type": "Search hint"
+                    },
+                    {
+                        "begin": null,
+                        "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                        "ended": false,
+                        "name": "Radiohead",
+                        "primary": true,
+                        "end": null,
+                        "locale": "en",
+                        "sort-name": "Radiohead",
+                        "type": "Artist name"
+                    },
+                    {
+                        "begin": null,
+                        "ended": false,
+                        "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                        "name": "Radiohead & Thom Yorke",
+                        "locale": null,
+                        "end": null,
+                        "primary": null,
+                        "sort-name": "Radiohead & Thom Yorke",
+                        "type": "Search hint"
+                    },
+                    {
+                        "name": "r/head",
+                        "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                        "ended": false,
+                        "begin": null,
+                        "type": "Search hint",
+                        "sort-name": "r/head",
+                        "primary": null,
+                        "end": null,
+                        "locale": null
+                    },
+                    {
+                        "locale": "ja",
+                        "end": null,
+                        "primary": true,
+                        "sort-name": "れでぃおへっど",
+                        "type": "Artist name",
+                        "begin": null,
+                        "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                        "ended": false,
+                        "name": "レディオヘッド"
+                    },
+                    {
+                        "name": "电台司令",
+                        "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                        "ended": false,
+                        "begin": null,
+                        "type": "Artist name",
+                        "sort-name": "电台司令",
+                        "end": null,
+                        "locale": "zh",
+                        "primary": true
+                    }
+                ],
+                "name": "Radiohead"
+            }
+        }
+    ],
+    "primary-type": "Album",
+    "secondary-type-ids": [],
+    "secondary-types": [],
+    "releases": [
+        {
+            "date": "1997-05-21",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "JP"
+                        ],
+                        "disambiguation": "",
+                        "name": "Japan",
+                        "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                        "type": null,
+                        "sort-name": "Japan"
+                    },
+                    "date": "1997-05-21"
+                }
+            ],
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status": "Official",
+            "id": "1834eae1-741b-3c03-9ca5-0df3decb43ea",
+            "quality": "normal",
+            "country": "JP",
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "rock"
+                }
+            ],
+            "barcode": "4988006729254",
+            "disambiguation": "",
+            "title": "OK Computer",
+            "media": [
+                {
+                    "id": "060959f3-0d81-38b3-be26-c32f80ca68e9",
+                    "title": "",
+                    "position": 1,
+                    "format": "CD",
+                    "track-count": 12,
+                    "discs": [
+                        {
+                            "sectors": 242487,
+                            "offset-count": 12,
+                            "id": "1VrPRtBVKyC8IMdac0OI.YXAMFQ-",
+                            "offsets": [
+                                300,
+                                21780,
+                                50692,
+                                70920,
+                                90930,
+                                113525,
+                                133297,
+                                142247,
+                                159695,
+                                181235,
+                                198525,
+                                218147
+                            ]
+                        },
+                        {
+                            "sectors": 242041,
+                            "offsets": [
+                                150,
+                                21632,
+                                50476,
+                                70697,
+                                90709,
+                                113245,
+                                133019,
+                                141971,
+                                159413,
+                                180955,
+                                198196,
+                                217701
+                            ],
+                            "id": "1zOfzhFgYPD05pEMZa8j5o.dR.g-",
+                            "offset-count": 12
+                        },
+                        {
+                            "sectors": 240791,
+                            "offsets": [
+                                150,
+                                21482,
+                                50264,
+                                70319,
+                                90180,
+                                112624,
+                                132248,
+                                141049,
+                                158346,
+                                179733,
+                                196865,
+                                216370
+                            ],
+                            "offset-count": 12,
+                            "id": "3xTotO45b24DM2BjEPnoMVN7crI-"
+                        }
+                    ],
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+                }
+            ],
+            "artist-credit": [
+                {
+                    "name": "Radiohead",
+                    "joinphrase": "",
+                    "artist": {
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                        "sort-name": "Radiohead",
+                        "type": "Group",
+                        "tags": [
+                            {
+                                "count": 2,
+                                "name": "alternative"
+                            },
+                            {
+                                "count": 43,
+                                "name": "alternative rock"
+                            },
+                            {
+                                "name": "ambient pop",
+                                "count": 1
+                            },
+                            {
+                                "name": "british",
+                                "count": 14
+                            }
+                        ],
+                        "disambiguation": "",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "name": "Radiohead",
+                        "aliases": [
+                            {
+                                "ended": false,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "name": "Radio Head",
+                                "end": null,
+                                "locale": null,
+                                "primary": null,
+                                "type": "Search hint",
+                                "sort-name": "Radio Head"
+                            },
+                            {
+                                "sort-name": "Radiohead",
+                                "type": "Artist name",
+                                "locale": "en",
+                                "end": null,
+                                "primary": true,
+                                "name": "Radiohead",
+                                "begin": null,
+                                "ended": false,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                            },
+                            {
+                                "name": "Radiohead & Thom Yorke",
+                                "ended": false,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "type": "Search hint",
+                                "sort-name": "Radiohead & Thom Yorke",
+                                "end": null,
+                                "primary": null,
+                                "locale": null
+                            },
+                            {
+                                "locale": null,
+                                "end": null,
+                                "primary": null,
+                                "type": "Search hint",
+                                "sort-name": "r/head",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "ended": false,
+                                "begin": null,
+                                "name": "r/head"
+                            },
+                            {
+                                "begin": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "ended": false,
+                                "name": "レディオヘッド",
+                                "locale": "ja",
+                                "end": null,
+                                "primary": true,
+                                "sort-name": "れでぃおへっど",
+                                "type": "Artist name"
+                            },
+                            {
+                                "ended": false,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null,
+                                "name": "电台司令",
+                                "locale": "zh",
+                                "end": null,
+                                "primary": true,
+                                "type": "Artist name",
+                                "sort-name": "电台司令"
+                            }
+                        ],
+                        "country": "GB"
+                    }
+                }
+            ],
+            "packaging": null,
+            "aliases": [],
+            "packaging-id": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+        },
+        {
+            "title": "OK Computer",
+            "media": [
+                {
+                    "position": 1,
+                    "format": "CD",
+                    "track-count": 12,
+                    "title": "",
+                    "id": "4a2a764a-fd63-3cdf-a2bb-f0e41c97a9e4",
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "discs": [
+                        {
+                            "sectors": 240791,
+                            "offsets": [
+                                150,
+                                21482,
+                                50264,
+                                70319,
+                                90180,
+                                112624,
+                                132248,
+                                141049,
+                                158346,
+                                179733,
+                                196865,
+                                216370
+                            ],
+                            "offset-count": 12,
+                            "id": "3xTotO45b24DM2BjEPnoMVN7crI-"
+                        },
+                        {
+                            "id": "43gi3ZI1_3pUsRH6WzuFvnm6qAU-",
+                            "offset-count": 12,
+                            "offsets": [
+                                150,
+                                21472,
+                                50242,
+                                70310,
+                                90170,
+                                112612,
+                                132237,
+                                141040,
+                                158337,
+                                179722,
+                                196865,
+                                216347
+                            ],
+                            "sectors": 240687
+                        },
+                        {
+                            "offset-count": 12,
+                            "id": "5pbzeRMkZylH3IcH5.pXGiECx.g-",
+                            "offsets": [
+                                150,
+                                21478,
+                                50237,
+                                70315,
+                                90087,
+                                112531,
+                                132155,
+                                140956,
+                                158260,
+                                179651,
+                                196790,
+                                216267
+                            ],
+                            "sectors": 240602
+                        }
+                    ]
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "aliases": [],
+            "packaging": "Jewel Case",
+            "artist-credit": [
+                {
+                    "artist": {
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "disambiguation": "",
+                        "tags": [
+                            {
+                                "count": 2,
+                                "name": "alternative"
+                            },
+                            {
+                                "count": 43,
+                                "name": "alternative rock"
+                            },
+                            {
+                                "name": "ambient pop",
+                                "count": 1
+                            },
+                            {
+                                "name": "art pop",
+                                "count": 3
+                            }
+                        ],
+                        "country": "GB",
+                        "aliases": [
+                            {
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "ended": false,
+                                "begin": null,
+                                "name": "Radio Head",
+                                "end": null,
+                                "locale": null,
+                                "primary": null,
+                                "type": "Search hint",
+                                "sort-name": "Radio Head"
+                            },
+                            {
+                                "end": null,
+                                "primary": true,
+                                "locale": "en",
+                                "type": "Artist name",
+                                "sort-name": "Radiohead",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "ended": false,
+                                "begin": null,
+                                "name": "Radiohead"
+                            },
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Radiohead & Thom Yorke",
+                                "locale": null,
+                                "end": null,
+                                "primary": null,
+                                "sort-name": "Radiohead & Thom Yorke",
+                                "type": "Search hint"
+                            },
+                            {
+                                "begin": null,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "ended": false,
+                                "name": "r/head",
+                                "end": null,
+                                "locale": null,
+                                "primary": null,
+                                "sort-name": "r/head",
+                                "type": "Search hint"
+                            },
+                            {
+                                "sort-name": "れでぃおへっど",
+                                "type": "Artist name",
+                                "locale": "ja",
+                                "end": null,
+                                "primary": true,
+                                "name": "レディオヘッド",
+                                "begin": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "ended": false
+                            },
+                            {
+                                "name": "电台司令",
+                                "ended": false,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null,
+                                "type": "Artist name",
+                                "sort-name": "电台司令",
+                                "end": null,
+                                "primary": true,
+                                "locale": "zh"
+                            }
+                        ],
+                        "name": "Radiohead",
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                        "type": "Group",
+                        "sort-name": "Radiohead"
+                    },
+                    "name": "Radiohead",
+                    "joinphrase": ""
+                }
+            ],
+            "id": "425d8db9-88a3-31e2-bd23-b1a967626dd5",
+            "status": "Official",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "release-events": [
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "XE"
+                        ],
+                        "type-id": null,
+                        "disambiguation": "",
+                        "name": "Europe",
+                        "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                        "sort-name": "Europe",
+                        "type": null
+                    },
+                    "date": "1997-06-16"
+                },
+                {
+                    "date": "1997-06-16",
+                    "area": {
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "FR"
+                        ],
+                        "type-id": null,
+                        "name": "France",
+                        "id": "08310658-51eb-3801-80de-5a0739207115",
+                        "type": null,
+                        "sort-name": "France"
+                    }
+                },
+                {
+                    "date": "1997-06-16",
+                    "area": {
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "DE"
+                        ],
+                        "type-id": null,
+                        "name": "Germany",
+                        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                        "sort-name": "Germany",
+                        "type": null
+                    }
+                },
+                {
+                    "date": "1997-06-16",
+                    "area": {
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "IT"
+                        ],
+                        "type-id": null,
+                        "name": "Italy",
+                        "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                        "type": null,
+                        "sort-name": "Italy"
+                    }
+                },
+                {
+                    "area": {
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "type-id": null,
+                        "name": "United Kingdom",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "sort-name": "United Kingdom",
+                        "type": null
+                    },
+                    "date": "1997-06-16"
+                }
+            ],
+            "date": "1997-06-16",
+            "disambiguation": "UDEN",
+            "tags": [
+                {
+                    "name": "1997",
+                    "count": 1
+                },
+                {
+                    "count": 4,
+                    "name": "alternative rock"
+                },
+                {
+                    "count": 1,
+                    "name": "art rock"
+                }
+            ],
+            "barcode": "724385522925",
+            "quality": "normal",
+            "country": "XE"
+        },
+        {
+            "barcode": "724385522925",
+            "tags": [],
+            "disambiguation": "EMI UDEN, made in Italy, printed in Italy",
+            "country": "XE",
+            "quality": "normal",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "id": "52709206-8816-3c12-9ff6-f957f2f1eecf",
+            "status": "Official",
+            "date": "1997-06-16",
+            "release-events": [
+                {
+                    "area": {
+                        "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                        "type": null,
+                        "sort-name": "Europe",
+                        "disambiguation": "",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "XE"
+                        ],
+                        "name": "Europe"
+                    },
+                    "date": "1997-06-16"
+                }
+            ],
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "artist-credit": [
+                {
+                    "artist": {
+                        "name": "Radiohead",
+                        "country": "GB",
+                        "aliases": [
+                            {
+                                "locale": null,
+                                "end": null,
+                                "primary": null,
+                                "type": "Search hint",
+                                "sort-name": "Radio Head",
+                                "ended": false,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "name": "Radio Head"
+                            },
+                            {
+                                "primary": true,
+                                "end": null,
+                                "locale": "en",
+                                "type": "Artist name",
+                                "sort-name": "Radiohead",
+                                "ended": false,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null,
+                                "name": "Radiohead"
+                            },
+                            {
+                                "begin": null,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "ended": false,
+                                "name": "Radiohead & Thom Yorke",
+                                "primary": null,
+                                "end": null,
+                                "locale": null,
+                                "sort-name": "Radiohead & Thom Yorke",
+                                "type": "Search hint"
+                            },
+                            {
+                                "ended": false,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "name": "r/head",
+                                "locale": null,
+                                "end": null,
+                                "primary": null,
+                                "type": "Search hint",
+                                "sort-name": "r/head"
+                            },
+                            {
+                                "type": "Artist name",
+                                "sort-name": "れでぃおへっど",
+                                "locale": "ja",
+                                "end": null,
+                                "primary": true,
+                                "name": "レディオヘッド",
+                                "ended": false,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null
+                            },
+                            {
+                                "ended": false,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null,
+                                "name": "电台司令",
+                                "end": null,
+                                "locale": "zh",
+                                "primary": true,
+                                "type": "Artist name",
+                                "sort-name": "电台司令"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "count": 2,
+                                "name": "alternative"
+                            },
+                            {
+                                "name": "alternative rock",
+                                "count": 43
+                            },
+                            {
+                                "count": 2,
+                                "name": "alternative rock music"
+                            },
+                            {
+                                "name": "british",
+                                "count": 14
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "disambiguation": "",
+                        "sort-name": "Radiohead",
+                        "type": "Group",
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+                    },
+                    "joinphrase": "",
+                    "name": "Radiohead"
+                }
+            ],
+            "packaging": "Jewel Case",
+            "aliases": [],
+            "media": [
+                {
+                    "position": 1,
+                    "format": "CD",
+                    "track-count": 12,
+                    "id": "7b8296aa-96c5-3817-8ab4-cb28bddf6932",
+                    "title": "",
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "discs": [
+                        {
+                            "sectors": 240791,
+                            "offsets": [
+                                150,
+                                21482,
+                                50264,
+                                70319,
+                                90180,
+                                112624,
+                                132248,
+                                141049,
+                                158346,
+                                179733,
+                                196865,
+                                216370
+                            ],
+                            "id": "3xTotO45b24DM2BjEPnoMVN7crI-",
+                            "offset-count": 12
+                        },
+                        {
+                            "offsets": [
+                                150,
+                                21472,
+                                50242,
+                                70310,
+                                90170,
+                                112612,
+                                132237,
+                                141040,
+                                158337,
+                                179722,
+                                196865,
+                                216347
+                            ],
+                            "offset-count": 12,
+                            "id": "43gi3ZI1_3pUsRH6WzuFvnm6qAU-",
+                            "sectors": 240687
+                        },
+                        {
+                            "sectors": 240602,
+                            "offset-count": 12,
+                            "id": "5pbzeRMkZylH3IcH5.pXGiECx.g-",
+                            "offsets": [
+                                150,
+                                21478,
+                                50237,
+                                70315,
+                                90087,
+                                112531,
+                                132155,
+                                140956,
+                                158260,
+                                179651,
+                                196790,
+                                216267
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "title": "OK Computer"
+        }
+    ],
+    "id": "b1392450-e666-3926-a536-22c65f834433",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+    "relations": [
+        {
+            "attribute-values": [],
+            "type-id": "b41e7530-cde4-459c-b8c5-dfef08fc8295",
+            "attribute-ids": [],
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "dedicated to",
+            "begin": null,
+            "artist": {
+                "sort-name": "Owen, Rachel",
+                "type": "Person",
+                "id": "aba55cf7-28ae-4030-976b-f98ca24a7074",
+                "name": "Rachel Owen",
+                "country": "GB",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward"
+        },
+        {
+            "type": "cover",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "backward",
+            "begin": null,
+            "ended": false,
+            "release_group": {
+                "disambiguation": "",
+                "primary-type-id": null,
+                "artist-credit": [
+                    {
+                        "name": "Various Artists",
+                        "joinphrase": "",
+                        "artist": {
+                            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                            "sort-name": "Various Artists",
+                            "type": null,
+                            "disambiguation": "add compilations to this artist",
+                            "type-id": null,
+                            "name": "Various Artists",
+                            "country": null
+                        }
+                    }
+                ],
+                "primary-type": null,
+                "id": "88f1660c-3b8d-4806-9318-cccb052f6bb7",
+                "title": "A Tribute to OK Computer",
+                "secondary-type-ids": [],
+                "first-release-date": "2012-06-14",
+                "releases": [],
+                "secondary-types": []
+            },
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "type-id": "cf02e524-9d5b-46b7-a88e-329737395818",
+            "attribute-values": []
+        },
+        {
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "cover",
+            "attribute-values": [],
+            "type-id": "cf02e524-9d5b-46b7-a88e-329737395818",
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "release_group": {
+                "primary-type": null,
+                "artist-credit": [
+                    {
+                        "name": "Various Artists",
+                        "joinphrase": "",
+                        "artist": {
+                            "sort-name": "Various Artists",
+                            "type": null,
+                            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+                            "name": "Various Artists",
+                            "country": null,
+                            "type-id": null,
+                            "disambiguation": "add compilations to this artist"
+                        }
+                    }
+                ],
+                "primary-type-id": null,
+                "disambiguation": "",
+                "secondary-types": [],
+                "releases": [],
+                "first-release-date": "2017-06-16",
+                "secondary-type-ids": [],
+                "title": "KO Computer",
+                "id": "a0ba3996-ec80-4716-bfe3-799da94e34ce"
+            }
+        },
+        {
+            "type-id": "cf02e524-9d5b-46b7-a88e-329737395818",
+            "attribute-values": [],
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "release_group": {
+                "title": "OK Computer (8-bit)",
+                "id": "3b55129d-276c-4c42-8327-e47ba94f2ddf",
+                "secondary-types": [],
+                "releases": [],
+                "first-release-date": "2012-04-11",
+                "secondary-type-ids": [],
+                "disambiguation": "",
+                "primary-type": null,
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "country": "HK",
+                            "name": "Quinton Sung",
+                            "id": "318d1a3b-7323-4b59-8e7f-e16ddf8acacc",
+                            "type": null,
+                            "sort-name": "Sung, Quinton"
+                        },
+                        "name": "Quinton Sung",
+                        "joinphrase": ""
+                    }
+                ],
+                "primary-type-id": null
+            },
+            "ended": false,
+            "begin": null,
+            "direction": "backward",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "type": "cover"
+        },
+        {
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "included in",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+            "attribute-values": [],
+            "release_group": {
+                "secondary-types": [],
+                "releases": [],
+                "first-release-date": "2012-10-12",
+                "secondary-type-ids": [],
+                "title": "5 Album Set",
+                "id": "30f765ef-d7f0-4cce-8a3b-d6e1069f1dda",
+                "primary-type": null,
+                "artist-credit": [
+                    {
+                        "name": "Radiohead",
+                        "joinphrase": "",
+                        "artist": {
+                            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                            "type": null,
+                            "sort-name": "Radiohead",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "country": "GB",
+                            "name": "Radiohead"
+                        }
+                    }
+                ],
+                "primary-type-id": null,
+                "disambiguation": "Pablo Honey / The Bends / OK Computer / Kid A / Amnesiac"
+            }
+        },
+        {
+            "release_group": {
+                "disambiguation": "",
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "sort-name": "Radiohead",
+                            "type": null,
+                            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                            "name": "Radiohead",
+                            "country": "GB",
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "joinphrase": "",
+                        "name": "Radiohead"
+                    }
+                ],
+                "primary-type": null,
+                "primary-type-id": null,
+                "title": "Album Box Set",
+                "id": "b7db08f4-835a-4a69-970b-5321e6305032",
+                "first-release-date": "2007-12-10",
+                "releases": [],
+                "secondary-types": [],
+                "secondary-type-ids": []
+            },
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+            "attribute-values": [],
+            "type": "included in",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false
+        },
+        {
+            "release_group": {
+                "secondary-types": [],
+                "releases": [],
+                "first-release-date": "2008-01-01",
+                "secondary-type-ids": [],
+                "title": "Radiohead Box",
+                "id": "d8dd81ab-d840-4663-8da3-d8c27c2eaf91",
+                "primary-type": null,
+                "artist-credit": [
+                    {
+                        "joinphrase": "",
+                        "name": "Radiohead",
+                        "artist": {
+                            "type": null,
+                            "sort-name": "Radiohead",
+                            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                            "country": "GB",
+                            "name": "Radiohead",
+                            "type-id": null,
+                            "disambiguation": ""
+                        }
+                    }
+                ],
+                "primary-type-id": null,
+                "disambiguation": ""
+            },
+            "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+            "attribute-values": [],
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "type": "included in",
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": ""
+        },
+        {
+            "attribute-values": [],
+            "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "release_group": {
+                "id": "db3d9e25-a1c9-4c2f-9c40-0fda86f26139",
+                "title": "I Promise",
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "releases": [],
+                "first-release-date": "2017-06-02",
+                "disambiguation": "",
+                "primary-type-id": null,
+                "primary-type": null,
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "name": "Radiohead",
+                            "country": "GB",
+                            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                            "sort-name": "Radiohead",
+                            "type": null
+                        },
+                        "joinphrase": "",
+                        "name": "Radiohead"
+                    }
+                ]
+            },
+            "ended": false,
+            "begin": null,
+            "direction": "backward",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "type": "single from"
+        },
+        {
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "single from",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "release_group": {
+                "primary-type": null,
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "disambiguation": "",
+                            "type-id": null,
+                            "country": "GB",
+                            "name": "Radiohead",
+                            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                            "type": null,
+                            "sort-name": "Radiohead"
+                        },
+                        "joinphrase": "",
+                        "name": "Radiohead"
+                    }
+                ],
+                "primary-type-id": null,
+                "disambiguation": "",
+                "secondary-types": [],
+                "releases": [],
+                "first-release-date": "1997-07",
+                "secondary-type-ids": [],
+                "title": "Karma Police",
+                "id": "d8758f15-65c9-3f34-baf9-475b30755e2b"
+            },
+            "attribute-values": [],
+            "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+            "attribute-ids": [],
+            "target-type": "release_group"
+        },
+        {
+            "type-id": "fcf680a9-6871-4519-8c4b-8c6549575b35",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "release_group": {
+                "first-release-date": "1997",
+                "releases": [],
+                "secondary-types": [],
+                "secondary-type-ids": [],
+                "title": "Let Down",
+                "id": "979a28b1-bfc9-4c24-bbe2-5a01dc8cc482",
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "type": null,
+                            "sort-name": "Radiohead",
+                            "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                            "country": "GB",
+                            "name": "Radiohead",
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "name": "Radiohead",
+                        "joinphrase": ""
+                    }
+                ],
+                "primary-type": null,
+                "primary-type-id": null,
+                "disambiguation": ""
+            },
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "type": "single from"
+        },
+        {
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-type": "series",
+            "attribute-values": {
+                "number": "15"
+            },
+            "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+            "series": {
+                "disambiguation": "",
+                "id": "e544d491-9fce-43dc-9080-2c2a9d830548",
+                "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                "name": "33⅓",
+                "type": "Release group series"
+            },
+            "source-credit": "",
+            "ordering-key": 15,
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "part of",
+            "end": null,
+            "attributes": [
+                "number"
+            ],
+            "target-credit": ""
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "ordering-key": 838,
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "attributes": [
+                "number"
+            ],
+            "type": "part of",
+            "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+            "attribute-values": {
+                "number": "837"
+            },
+            "target-type": "series",
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "series": {
+                "disambiguation": "2005 edition",
+                "id": "4bc2a338-e1d8-4546-8a61-640da8aaf888",
+                "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                "type": "Release group series",
+                "name": "1001 Albums You Must Hear Before You Die"
+            }
+        },
+        {
+            "source-credit": "",
+            "ordering-key": 39,
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "part of",
+            "end": null,
+            "attributes": [
+                "number"
+            ],
+            "target-credit": "",
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-type": "series",
+            "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+            "attribute-values": {
+                "number": "39"
+            },
+            "series": {
+                "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                "id": "4bf41050-6fa9-41a6-8398-15bdab4b0352",
+                "disambiguation": "",
+                "type": "Release group series",
+                "name": "Absolute Radio’s The 100 Collection"
+            }
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "type": "allmusic",
+            "type-id": "a50a1d20-2b20-4d2c-9a29-eb771dd78386",
+            "attribute-values": [],
+            "target-type": "url",
+            "attribute-ids": [],
+            "url": {
+                "resource": "https://www.allmusic.com/album/mw0000024289",
+                "id": "11137828-3d75-4801-9753-6e213d8f4c67"
+            }
+        },
+        {
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "discography entry",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "url": {
+                "id": "c0bccb62-988a-46a7-b0ee-54354088467f",
+                "resource": "https://www.last.fm/music/Radiohead/OK+Computer"
+            },
+            "type-id": "5849de4a-78ae-4876-975d-2181107e70b7",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "url"
+        },
+        {
+            "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-type": "url",
+            "url": {
+                "id": "56db613c-e663-4f15-bc41-d00f47ebff73",
+                "resource": "https://www.discogs.com/master/21491"
+            },
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "type": "discogs"
+        },
+        {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "lyrics",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "target-type": "url",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "156344d3-da8b-40c6-8b10-7b1c22727124",
+            "url": {
+                "id": "a4dfc85f-c718-412e-8598-a1f14392b7b8",
+                "resource": "https://genius.com/albums/Radiohead/Ok-computer"
+            }
+        },
+        {
+            "type": "other databases",
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "url": {
+                "resource": "http://musicmoz.org/Bands_and_Artists/R/Radiohead/Discography/OK_Computer/",
+                "id": "c549a010-8991-41b7-8b65-beb948fa9e2f"
+            },
+            "target-type": "url",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d"
+        },
+        {
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "other databases",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d",
+            "attribute-values": [],
+            "url": {
+                "resource": "https://rateyourmusic.com/release/album/radiohead/ok_computer/",
+                "id": "826b133b-5bec-4d59-bf68-a0e77982c6a0"
+            }
+        },
+        {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "other databases",
+            "target-credit": "",
+            "attributes": [],
+            "end": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "38320e40-9f4a-3ae7-8cb2-3f3c9c5d856d",
+            "url": {
+                "resource": "https://www.offiziellecharts.de/charts/album-details-2562",
+                "id": "96b97a44-0615-4afa-9330-1ef5282927c0"
+            }
+        },
+        {
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "review",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "attribute-values": [],
+            "type-id": "c3ac9c3b-f546-4d15-873f-b294d2c1b708",
+            "url": {
+                "id": "12fc103b-e397-4370-9d3c-1cf290d2c4fa",
+                "resource": "http://articles.chicagotribune.com/1997-07-04/entertainment/9707040186_1_ambition-ugly-star"
+            }
+        },
+        {
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "type": "review",
+            "attribute-values": [],
+            "type-id": "c3ac9c3b-f546-4d15-873f-b294d2c1b708",
+            "attribute-ids": [],
+            "target-type": "url",
+            "url": {
+                "resource": "http://content.time.com/time/magazine/article/0,9171,986902,00.html",
+                "id": "2654ebf2-896e-4a24-ae85-3c7eee906f83"
+            }
+        },
+        {
+            "url": {
+                "id": "cd7038be-dfe8-4260-bab4-71011d50f8dd",
+                "resource": "https://www.bbc.co.uk/music/reviews/wcp2"
+            },
+            "attribute-ids": [],
+            "target-type": "url",
+            "type-id": "c3ac9c3b-f546-4d15-873f-b294d2c1b708",
+            "attribute-values": [],
+            "type": "review",
+            "end": null,
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false
+        },
+        {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "wikidata",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "target-type": "url",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
+            "url": {
+                "id": "d27dd960-9b18-44a0-9bb4-1fa53f58e33e",
+                "resource": "https://www.wikidata.org/wiki/Q202996"
+            }
+        }
+    ],
+    "disambiguation": "",
+    "tags": [
+        {
+            "name": "1997",
+            "count": 1
+        },
+        {
+            "name": "5+ wochen",
+            "count": 2
+        },
+        {
+            "count": 2,
+            "name": "alternative and punk"
+        },
+        {
+            "count": 1,
+            "name": "alternative pop/rock"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+    },
+    "cover-art-archive": {
+        "count": 1,
+        "back": false,
+        "front": true,
+        "darkened": false,
+        "artwork": true
+    },
+    "title": "Abbey Road",
+    "country": "XW",
+    "packaging": "None",
+    "release-events": [
+        {
+            "date": "2015-12-24",
+            "area": {
+                "name": "[Worldwide]",
+                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                "disambiguation": "",
+                "type-id": null,
+                "sort-name": "[Worldwide]",
+                "iso-3166-1-codes": [
+                    "XW"
+                ],
+                "type": null
+            }
+        }
+    ],
+    "date": "2015-12-24",
+    "id": "31765b9f-e969-4257-855f-c7ea1f657b2a",
+    "quality": "normal",
+    "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+    "asin": null,
+    "status": "Official",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "barcode": "00602547670342",
+    "disambiguation": ""
+}

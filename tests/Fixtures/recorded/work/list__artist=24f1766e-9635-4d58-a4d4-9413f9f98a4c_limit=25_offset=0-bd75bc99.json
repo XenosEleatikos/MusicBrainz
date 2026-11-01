@@ -1,0 +1,56 @@
+{
+    "work-offset": 0,
+    "works": [
+        {
+            "iswcs": [],
+            "disambiguation": "",
+            "type-id": null,
+            "language": null,
+            "attributes": [],
+            "title": "3 Part Investigation",
+            "id": "00c00028-48e1-35c7-803d-eb50c5df46c6",
+            "languages": [],
+            "type": null
+        },
+        {
+            "type": null,
+            "attributes": [],
+            "title": "\"Schmücke dich, o liebe Seele\", BWV Anh. 74",
+            "id": "0ff01b4a-081e-4840-a98a-ab0e3818d83d",
+            "languages": [
+                "zxx"
+            ],
+            "language": "zxx",
+            "iswcs": [],
+            "disambiguation": "",
+            "type-id": null
+        },
+        {
+            "type": null,
+            "id": "3642fe74-dc2e-4d0d-a84a-b2742fbc9514",
+            "languages": [
+                "zxx"
+            ],
+            "title": "3 Corali, P. 167: Meine Seele erhebet den Herren, BWV 648",
+            "attributes": [],
+            "language": "zxx",
+            "type-id": null,
+            "disambiguation": "orch. Respighi",
+            "iswcs": []
+        },
+        {
+            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+            "disambiguation": "",
+            "iswcs": [],
+            "language": "deu",
+            "id": "f981c5c2-62ae-4c67-a539-f633996963b6",
+            "languages": [
+                "deu"
+            ],
+            "title": "\"So oft ich meine TobacksPfeife\" BWV 515b",
+            "attributes": [],
+            "type": "Song"
+        }
+    ],
+    "work-count": 8431
+}

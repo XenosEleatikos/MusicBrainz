@@ -1,0 +1,129 @@
+{
+    "release-offset": 0,
+    "release-count": 3340,
+    "releases": [
+        {
+            "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+            "disambiguation": "",
+            "title": "Love Me Do",
+            "barcode": "",
+            "packaging": "Cardboard/Paper Sleeve",
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "release-events": [
+                {
+                    "date": "1962-10-05",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ],
+                        "type": null,
+                        "sort-name": "United Kingdom",
+                        "type-id": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "disambiguation": "",
+                        "name": "United Kingdom"
+                    }
+                }
+            ],
+            "id": "0805a5cf-d036-41c3-bc9b-af52aa01b21b",
+            "quality": "normal",
+            "cover-art-archive": {
+                "front": true,
+                "darkened": false,
+                "back": true,
+                "count": 2,
+                "artwork": true
+            },
+            "country": "GB",
+            "date": "1962-10-05",
+            "asin": null,
+            "status": "Promotion",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            }
+        },
+        {
+            "title": "Please Please Me / Ask My Why",
+            "barcode": "",
+            "disambiguation": "BEATTLES, # 498",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "date": "1963-02-07",
+                    "area": {
+                        "disambiguation": "",
+                        "name": "United States",
+                        "type": null,
+                        "sort-name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ]
+                    }
+                }
+            ],
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "cover-art-archive": {
+                "back": false,
+                "darkened": false,
+                "front": true,
+                "artwork": true,
+                "count": 2
+            },
+            "id": "08a76e48-4d6a-3d9f-a25b-5d96166a05ae",
+            "quality": "normal",
+            "status": "Official",
+            "asin": null,
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "date": "1963-02-07",
+            "country": "US"
+        },
+        {
+            "country": "GB",
+            "date": "1962-10-05",
+            "asin": null,
+            "status": "Official",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "id": "20e0bad7-bfbf-4f18-b0b3-8549dfcef6f3",
+            "quality": "normal",
+            "cover-art-archive": {
+                "count": 4,
+                "artwork": true,
+                "darkened": false,
+                "front": true,
+                "back": false
+            },
+            "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+            "packaging": "Cardboard/Paper Sleeve",
+            "release-events": [
+                {
+                    "date": "1962-10-05",
+                    "area": {
+                        "name": "United Kingdom",
+                        "disambiguation": "",
+                        "type-id": null,
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type": null,
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    }
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "",
+            "title": "Love Me Do / P.S. I Love You",
+            "disambiguation": "red labels, w/o \"Made in Gt. Britain\""
+        }
+    ]
+}

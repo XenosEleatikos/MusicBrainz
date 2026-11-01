@@ -1,0 +1,240 @@
+{
+    "created": "2026-11-01T12:54:02.475Z",
+    "count": 17,
+    "offset": 0,
+    "areas": [
+        {
+            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "score": 100,
+            "name": "London",
+            "sort-name": "London",
+            "disambiguation": "Greater London",
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Londres",
+                    "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29",
+                    "name": "Londres",
+                    "locale": "fr",
+                    "type": "Area name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "relation-list": [
+                {
+                    "relations": [
+                        {
+                            "type": "part of",
+                            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+                            "target": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+                            "direction": "backward",
+                            "area": {
+                                "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+                                "type": "Subdivision",
+                                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                                "name": "England",
+                                "sort-name": "England",
+                                "life-span": {
+                                    "ended": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "city"
+                },
+                {
+                    "count": 1,
+                    "name": "place"
+                },
+                {
+                    "count": 3,
+                    "name": "capital city"
+                },
+                {
+                    "count": 0,
+                    "name": "visited-places"
+                }
+            ]
+        },
+        {
+            "id": "db3634e7-5414-41dd-be0b-68ae71798dcd",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "score": 64,
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+                "ended": null
+            },
+            "relation-list": [
+                {
+                    "relations": [
+                        {
+                            "type": "part of",
+                            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+                            "target": "8f657429-41b4-41e6-b885-4a8586bf96a7",
+                            "direction": "backward",
+                            "area": {
+                                "id": "8f657429-41b4-41e6-b885-4a8586bf96a7",
+                                "type": "County",
+                                "type-id": "bcecec27-8bdb-3e00-8254-d948dda502fa",
+                                "name": "Middlesex County",
+                                "sort-name": "Middlesex County",
+                                "life-span": {
+                                    "ended": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "817a3404-240e-49c0-b799-21bf578b3991",
+            "type": "Subdivision",
+            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+            "score": 47,
+            "name": "City of London",
+            "sort-name": "City of London",
+            "iso-3166-2-codes": [
+                "GB-LND"
+            ],
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "City of London",
+                    "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29",
+                    "name": "City of London",
+                    "locale": "de",
+                    "type": "Area name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "City of London",
+                    "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29",
+                    "name": "City of London",
+                    "locale": "en",
+                    "type": "Area name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "relation-list": [
+                {
+                    "relations": [
+                        {
+                            "type": "part of",
+                            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+                            "target": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                            "direction": "backward",
+                            "area": {
+                                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                                "type": "City",
+                                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                                "name": "London",
+                                "sort-name": "London",
+                                "life-span": {
+                                    "ended": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tags": [
+                {
+                    "count": 2,
+                    "name": "gb:2:city corporation"
+                }
+            ]
+        },
+        {
+            "id": "00b4796b-94a7-4f3c-946d-6301cb985000",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "score": 44,
+            "name": "New London",
+            "sort-name": "New London",
+            "life-span": {
+                "ended": null
+            },
+            "relation-list": [
+                {
+                    "relations": [
+                        {
+                            "type": "part of",
+                            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+                            "target": "403fb147-51bd-4771-a6ea-7311404a37c7",
+                            "direction": "backward",
+                            "area": {
+                                "id": "403fb147-51bd-4771-a6ea-7311404a37c7",
+                                "type": "County",
+                                "type-id": "bcecec27-8bdb-3e00-8254-d948dda502fa",
+                                "name": "New London County",
+                                "sort-name": "New London County",
+                                "life-span": {
+                                    "ended": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7bfa293f-d942-46f4-8f95-0a205faa5d2d",
+            "type": "City",
+            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+            "score": 38,
+            "name": "London",
+            "sort-name": "London",
+            "life-span": {
+                "ended": null
+            },
+            "relation-list": [
+                {
+                    "relations": [
+                        {
+                            "type": "part of",
+                            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+                            "target": "757d1748-0728-4a9a-a3ad-7e8fb31a51c5",
+                            "direction": "backward",
+                            "area": {
+                                "id": "757d1748-0728-4a9a-a3ad-7e8fb31a51c5",
+                                "type": "County",
+                                "type-id": "bcecec27-8bdb-3e00-8254-d948dda502fa",
+                                "name": "Laurel County",
+                                "sort-name": "Laurel County",
+                                "life-span": {
+                                    "ended": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "wrong london!"
+                }
+            ]
+        }
+    ]
+}

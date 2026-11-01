@@ -1,0 +1,30 @@
+{
+    "recordings": [
+        {
+            "video": false,
+            "title": "“Track #8 The Gloaming is next. That’s the time just before night falls, isn’t it? And this sounds to me like the listener is being eaten by a big technological machine…”",
+            "first-release-date": "2003-05",
+            "id": "0f1d6082-f392-44d4-87a8-253cfb592c44",
+            "length": 236866,
+            "disambiguation": ""
+        },
+        {
+            "disambiguation": "",
+            "id": "21ea2de4-9661-4116-9d16-ef0c0586969d",
+            "length": 48520,
+            "title": "“And what was the mindset in recording? After all, there’s a single release!”",
+            "first-release-date": "2003-05",
+            "video": false
+        },
+        {
+            "video": false,
+            "title": "“Track #9 There There is next; and it’s a single, unusual indeed for Radiohead…”",
+            "first-release-date": "2003-05",
+            "id": "37d5c117-d0ac-4323-a4a5-ece492b6584c",
+            "length": 223960,
+            "disambiguation": ""
+        }
+    ],
+    "recording-offset": 0,
+    "recording-count": 12565
+}

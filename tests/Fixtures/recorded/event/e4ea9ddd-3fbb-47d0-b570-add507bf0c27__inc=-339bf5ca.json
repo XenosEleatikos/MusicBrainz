@@ -1,0 +1,15 @@
+{
+    "name": "Live Aid",
+    "time": "08:51",
+    "id": "e4ea9ddd-3fbb-47d0-b570-add507bf0c27",
+    "life-span": {
+        "begin": "1985-07-13",
+        "ended": true,
+        "end": "1985-07-13"
+    },
+    "cancelled": false,
+    "setlist": "",
+    "type": "Concert",
+    "disambiguation": "JFK Stadium",
+    "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+}

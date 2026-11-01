@@ -1,0 +1,271 @@
+{
+    "artist-offset": 0,
+    "artists": [
+        {
+            "end-area": null,
+            "gender": null,
+            "ipis": [],
+            "isnis": [],
+            "sort-name": "-Selektor",
+            "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "sort-name": "Germany",
+                "type": null,
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "type-id": null,
+                "name": "Germany"
+            },
+            "type": null,
+            "gender-id": null,
+            "type-id": null,
+            "disambiguation": "",
+            "name": "-Selektor",
+            "country": "DE",
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "id": "0575c40d-dbcf-4058-bc45-9db9f7d200bd",
+            "begin-area": {
+                "type": null,
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "sort-name": "Berlin",
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+                "name": "Berlin",
+                "type-id": null,
+                "disambiguation": ""
+            }
+        },
+        {
+            "name": "-T-",
+            "country": "DE",
+            "disambiguation": "drums->Arroganz",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "gender-id": null,
+            "begin-area": null,
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "id": "46ad7c26-f884-43a2-bfba-8bdce25083eb",
+            "end-area": null,
+            "sort-name": "-T-",
+            "area": {
+                "name": "Germany",
+                "type-id": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "disambiguation": "",
+                "type": null,
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+            },
+            "type": "Person",
+            "ipis": [],
+            "gender": null,
+            "isnis": []
+        },
+        {
+            "country": "DE",
+            "name": "-Z- (alpha & antagon)",
+            "gender-id": null,
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "disambiguation": "Psychedelic trance project by Alpha & Antagon",
+            "begin-area": null,
+            "id": "549b9093-5ae0-49aa-8b44-a0fc64c0e3fe",
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            "end-area": null,
+            "type": "Group",
+            "area": {
+                "sort-name": "Germany",
+                "type": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "type-id": null
+            },
+            "sort-name": "-Z- (alpha & antagon)",
+            "isnis": [],
+            "ipis": [],
+            "gender": null
+        },
+        {
+            "name": "_preen",
+            "country": "DE",
+            "gender-id": null,
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "disambiguation": "",
+            "begin-area": {
+                "name": "Dresden",
+                "disambiguation": "",
+                "type-id": null,
+                "type": null,
+                "sort-name": "Dresden",
+                "id": "624f2956-bfdb-43a9-8924-9aadb812ee04"
+            },
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            "id": "6a1d7925-ba81-4d21-9206-0271a8a91344",
+            "end-area": null,
+            "sort-name": "_preen",
+            "type": "Group",
+            "area": {
+                "type": null,
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "disambiguation": "",
+                "type-id": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "gender": null,
+            "ipis": [],
+            "isnis": []
+        },
+        {
+            "end-area": null,
+            "gender": null,
+            "ipis": [],
+            "isnis": [],
+            "sort-name": "-nCor-",
+            "type": "Group",
+            "area": {
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "type-id": null,
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "sort-name": "Germany",
+                "type": null
+            },
+            "gender-id": null,
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "disambiguation": "",
+            "name": "-nCor-",
+            "country": "DE",
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "id": "8760bcb1-6dd1-42a6-a674-7edc6830f002",
+            "begin-area": null
+        },
+        {
+            "isnis": [],
+            "ipis": [],
+            "gender": "Male",
+            "area": {
+                "sort-name": "Germany",
+                "type": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "type-id": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "disambiguation": ""
+            },
+            "type": "Person",
+            "sort-name": "-soundso-",
+            "end-area": null,
+            "id": "8959f9ef-e016-41a8-8639-d590acd9352c",
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            "begin-area": null,
+            "disambiguation": "",
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "country": "DE",
+            "name": "-soundso-"
+        },
+        {
+            "isnis": [],
+            "ipis": [],
+            "gender": null,
+            "area": {
+                "name": "Germany",
+                "type-id": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "disambiguation": "",
+                "type": null,
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+            },
+            "type": "Person",
+            "sort-name": "-L-",
+            "end-area": null,
+            "id": "a20b27f1-51d1-4cd1-a367-5ce6a2700edc",
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "begin-area": null,
+            "gender-id": null,
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "disambiguation": "drums",
+            "country": "DE",
+            "name": "-L-"
+        },
+        {
+            "gender": null,
+            "ipis": [],
+            "isnis": [],
+            "sort-name": "-Prey",
+            "type": null,
+            "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type": null,
+                "sort-name": "Germany",
+                "disambiguation": "",
+                "type-id": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "name": "Germany"
+            },
+            "end-area": null,
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "id": "e7c8371b-7360-468f-b155-a04ec77d158f",
+            "begin-area": null,
+            "disambiguation": "phonk producer",
+            "type-id": null,
+            "gender-id": null,
+            "name": "-Prey",
+            "country": "DE"
+        }
+    ],
+    "artist-count": 117425
+}

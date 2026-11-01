@@ -1,0 +1,958 @@
+{
+    "tags": [],
+    "languages": [
+        "eng"
+    ],
+    "aliases": [],
+    "attributes": [
+        {
+            "value": "000395 939 39",
+            "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
+            "type": "SUISA ID"
+        },
+        {
+            "type": "SPAC ID",
+            "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46",
+            "value": "2350484"
+        },
+        {
+            "value": "1401",
+            "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
+            "type": "SPA ID"
+        },
+        {
+            "value": "2889811",
+            "type": "SPA ID",
+            "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde"
+        },
+        {
+            "value": "2350484",
+            "type": "SOBODAYCOM ID",
+            "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80"
+        },
+        {
+            "value": "77102027100",
+            "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
+            "type": "SIAE ID"
+        },
+        {
+            "value": "110.953",
+            "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+            "type": "SGAE ID"
+        },
+        {
+            "type": "SGACEDOM ID",
+            "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
+            "value": "2350484"
+        },
+        {
+            "value": "621067",
+            "type": "SAYCO ID",
+            "type-id": "4439b1a5-47da-4774-9caa-8b8589129297"
+        },
+        {
+            "type": "SAYCE ID",
+            "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
+            "value": "621067"
+        },
+        {
+            "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
+            "type": "SADAIC ID",
+            "value": "244682"
+        },
+        {
+            "type-id": "91064561-0c00-4574-ad18-247c7216675f",
+            "type": "SACVEN ID",
+            "value": "1505329"
+        },
+        {
+            "value": "034159693",
+            "type-id": "519f3860-0b48-4532-8752-25984f662360",
+            "type": "SACM ID"
+        },
+        {
+            "value": "2350484",
+            "type-id": "43b74305-291f-4ae3-9e59-0dca457c00fe",
+            "type": "SACIM ID"
+        },
+        {
+            "type": "SACEM ID",
+            "type-id": "d08147e2-d167-3c2b-bbe4-af6643a194f9",
+            "value": "75 086 068 11"
+        },
+        {
+            "value": "004709200",
+            "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+            "type": "SABAM ID"
+        },
+        {
+            "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+            "type": "PRS tune code",
+            "value": "3230143N"
+        },
+        {
+            "type": "PRS tune code",
+            "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
+            "value": "456514AT"
+        },
+        {
+            "value": "2350484",
+            "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
+            "type": "NICAUTOR ID"
+        },
+        {
+            "value": "1340416-001",
+            "type": "GEMA ID",
+            "type-id": "01eeee67-f514-3801-bdce-279e04872f91"
+        },
+        {
+            "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+            "type": "ECAD ID",
+            "value": "1088"
+        },
+        {
+            "value": "16161493",
+            "type": "ECAD ID",
+            "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+        },
+        {
+            "type": "COMPASS ID",
+            "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+            "value": "4830013"
+        },
+        {
+            "value": "9962782",
+            "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+            "type": "COMPASS ID"
+        },
+        {
+            "value": "9951304",
+            "type": "COMPASS ID",
+            "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+        },
+        {
+            "type": "BUMA/STEMRA ID",
+            "type-id": "a6492434-b847-4f1b-9869-9184ade990ed",
+            "value": "W-000288376"
+        },
+        {
+            "type": "ASCAP ID",
+            "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+            "value": "882285781"
+        },
+        {
+            "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
+            "type": "ASCAP ID",
+            "value": "320199817"
+        },
+        {
+            "value": "GW00029355",
+            "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
+            "type": "APRA ID"
+        },
+        {
+            "type": "APDAYC ID",
+            "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
+            "value": "1061208"
+        },
+        {
+            "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+            "type": "APA ID",
+            "value": "2350484"
+        },
+        {
+            "value": "38245901",
+            "type": "AKM ID",
+            "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
+        },
+        {
+            "type": "AGADU ID",
+            "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
+            "value": "6125603"
+        },
+        {
+            "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
+            "type": "AEI ID",
+            "value": "2350484"
+        },
+        {
+            "value": "938428",
+            "type-id": "f3516c3c-28d6-4a11-bfe7-64debfff342e",
+            "type": "ACDAM ID"
+        },
+        {
+            "value": "4045492",
+            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+            "type": "ACAM ID"
+        },
+        {
+            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+            "type": "ACAM ID",
+            "value": "5032949"
+        },
+        {
+            "value": "2350484",
+            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+            "type": "ACAM ID"
+        },
+        {
+            "value": "2350484",
+            "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
+            "type": "AACIMH ID"
+        },
+        {
+            "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c",
+            "type": "JASRAC ID",
+            "value": "0B0-9709-5"
+        }
+    ],
+    "annotation": null,
+    "title": "Bohemian Rhapsody",
+    "language": "eng",
+    "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
+    "iswcs": [
+        "T-010.154.505-4",
+        "T-304.031.869-8",
+        "T-900.313.996-6"
+    ],
+    "relations": [
+        {
+            "attribute-values": [],
+            "artist": {
+                "name": "Freddie Mercury",
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Person",
+                "sort-name": "Mercury, Freddie",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "composer",
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "type": "lyricist",
+            "target-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "artist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+            "end": null,
+            "direction": "backward",
+            "ended": false,
+            "artist": {
+                "name": "Freddie Mercury",
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Person",
+                "sort-name": "Mercury, Freddie",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "022589ac-7177-460d-a178-9976cf70e29f"
+            },
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "attribute-values": [],
+            "ended": false,
+            "end": null,
+            "direction": "backward",
+            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+            "label": {
+                "name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                "disambiguation": "sub‐publisher for non‐Japanese works",
+                "type": "Publisher",
+                "sort-name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                "label-code": null,
+                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                "id": "11b7b1e9-815a-4db3-a27f-ce0a882bcd1e"
+            },
+            "attribute-ids": [],
+            "begin": "2021-07-01",
+            "target-type": "label",
+            "source-credit": "",
+            "type": "publishing",
+            "target-credit": ""
+        },
+        {
+            "attribute-values": [],
+            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+            "direction": "backward",
+            "end": "2021-06-30",
+            "ended": true,
+            "label": {
+                "label-code": null,
+                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                "id": "c06dfcf9-a6b6-4d85-841a-3c6df2c6e9a4",
+                "name": "イーエムアイ音楽出版 ソニー事業部",
+                "disambiguation": "",
+                "type": "Publisher",
+                "sort-name": "イーエムアイ音楽出版 ソニー事業部"
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "label",
+            "source-credit": "",
+            "type": "publishing",
+            "target-credit": "",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "end": null,
+            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+            "direction": "backward",
+            "ended": false,
+            "label": {
+                "disambiguation": "publisher est. 1946",
+                "type": "Publisher",
+                "sort-name": "B. Feldman & Co. Ltd.",
+                "name": "B. Feldman & Co. Ltd.",
+                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                "id": "71e25609-33f3-4c22-b341-708f74a943e0",
+                "label-code": null
+            },
+            "attribute-values": [],
+            "source-credit": "",
+            "type": "publishing",
+            "target-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "label"
+        },
+        {
+            "recording": {
+                "video": false,
+                "title": "Bohemian Rhapsody",
+                "id": "b1a9c0e9-d987-4042-ae91-78d6a3267d69",
+                "length": 355106,
+                "disambiguation": ""
+            },
+            "attributes": [],
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "direction": "backward",
+            "end": "1975-09-14",
+            "ended": true,
+            "attribute-values": [],
+            "source-credit": "",
+            "type": "performance",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "recording",
+            "begin": "1975-08-24"
+        },
+        {
+            "target-credit": "",
+            "type": "performance",
+            "source-credit": "",
+            "begin": "1975-11-26",
+            "target-type": "recording",
+            "attribute-ids": {
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a",
+                "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d"
+            },
+            "ended": true,
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "end": "1975-11-26",
+            "direction": "backward",
+            "attribute-values": [],
+            "recording": {
+                "title": "[A Night at the Opera] / Bohemian Rhapsody (intro)",
+                "video": false,
+                "disambiguation": "live, 1975‐11‐26, evening show: Free Trade Hall, Manchester, UK",
+                "length": 174000,
+                "id": "ab0c5d37-ee99-4cc5-a9b6-13556cf08f72"
+            },
+            "attributes": [
+                "live",
+                "partial"
+            ]
+        },
+        {
+            "attributes": [
+                "live"
+            ],
+            "recording": {
+                "id": "5cf87954-1402-45f0-bbcf-e957eb332da7",
+                "length": 157000,
+                "disambiguation": "live, 1975‐11‐26, evening show: Free Trade Hall, Manchester, UK",
+                "video": false,
+                "title": "Bohemian Rhapsody"
+            },
+            "attribute-values": [],
+            "ended": true,
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "direction": "backward",
+            "end": "1975-11-26",
+            "attribute-ids": {
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+            },
+            "begin": "1975-11-26",
+            "target-type": "recording",
+            "source-credit": "",
+            "type": "performance",
+            "target-credit": ""
+        },
+        {
+            "ordering-key": 1,
+            "type": "performance",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": {
+                "medley": "37da3398-5d1b-4acb-be25-df95e33e423c",
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+            },
+            "target-type": "recording",
+            "begin": "1975-12-24",
+            "ended": true,
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "direction": "backward",
+            "end": "1975-12-24",
+            "attribute-values": [],
+            "recording": {
+                "disambiguation": "live, 1975-12-24: Hammersmith Odeon, London, UK",
+                "length": 426000,
+                "id": "901aa230-e85e-4305-b922-d78a9d62643f",
+                "title": "Medley: Bohemian Rhapsody / Killer Queen / The March of Black Queen",
+                "video": false
+            },
+            "attributes": [
+                "live",
+                "medley"
+            ]
+        },
+        {
+            "recording": {
+                "length": 543693,
+                "id": "ed54fef1-5021-4f32-9ab1-b01459bb4237",
+                "disambiguation": "live FM broadcast recorded at Hyde Park, London, England, 18th September 1976",
+                "video": false,
+                "title": "Best Friend / Bohemian Rhapsody / Killer Queen / Black Queen / Bohemian Rhapsody"
+            },
+            "attributes": [
+                "live",
+                "medley",
+                "partial"
+            ],
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "end": "1976-09-18",
+            "direction": "backward",
+            "ended": true,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "performance",
+            "source-credit": "",
+            "ordering-key": 2,
+            "target-type": "recording",
+            "begin": "1976-09-18",
+            "attribute-ids": {
+                "medley": "37da3398-5d1b-4acb-be25-df95e33e423c",
+                "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d",
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+            }
+        },
+        {
+            "recording": {
+                "video": false,
+                "title": "Best Friend / Bohemian Rhapsody / Killer Queen / Black Queen / Bohemian Rhapsody",
+                "disambiguation": "live FM broadcast recorded at Hyde Park, London, England, 18th September 1976",
+                "length": 543693,
+                "id": "ed54fef1-5021-4f32-9ab1-b01459bb4237"
+            },
+            "attributes": [
+                "live",
+                "medley",
+                "partial"
+            ],
+            "type": "performance",
+            "source-credit": "",
+            "ordering-key": 5,
+            "target-credit": "",
+            "attribute-ids": {
+                "medley": "37da3398-5d1b-4acb-be25-df95e33e423c",
+                "partial": "d2b63be6-91ec-426a-987a-30b47f8aae2d",
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+            },
+            "target-type": "recording",
+            "begin": "1976-09-18",
+            "end": "1976-09-18",
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "direction": "backward",
+            "ended": true,
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "ended": false,
+            "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+            "direction": "backward",
+            "end": null,
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "lyrics",
+            "attributes": [],
+            "url": {
+                "id": "1f625f16-0d36-450c-b416-ef6680266cc1",
+                "resource": "https://genius.com/Queen-bohemian-rhapsody-lyrics"
+            }
+        },
+        {
+            "attribute-values": [],
+            "end": null,
+            "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+            "direction": "backward",
+            "ended": false,
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "type": "secondhandsongs",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "url": {
+                "id": "31278d3a-6ed1-4dff-b63d-f95c3879c35c",
+                "resource": "https://secondhandsongs.com/work/817"
+            }
+        },
+        {
+            "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "songfacts",
+            "source-credit": "",
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "url": {
+                "resource": "http://www.songfacts.com/detail.php?id=685",
+                "id": "c31b93a3-7b6a-457f-b234-8da47d549a8d"
+            },
+            "attributes": []
+        },
+        {
+            "ended": false,
+            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+            "direction": "backward",
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "wikidata",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "url": {
+                "resource": "https://www.wikidata.org/wiki/Q187745",
+                "id": "e9e61fc3-f3be-4b8e-88d6-670d664fbd32"
+            },
+            "attributes": []
+        },
+        {
+            "url": {
+                "id": "dac2067f-495a-4716-9001-91b85ea66cee",
+                "resource": "https://www.wikidata.org/wiki/Q6564217"
+            },
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "wikidata",
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "direction": "backward",
+            "end": null,
+            "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+            "ended": false,
+            "attribute-values": []
+        },
+        {
+            "direction": "forward",
+            "end": null,
+            "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+            "ended": false,
+            "attribute-values": [],
+            "source-credit": "",
+            "type": "arrangement",
+            "target-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "work",
+            "work": {
+                "type": null,
+                "disambiguation": "arr. for wind band",
+                "language": null,
+                "title": "Bohemian Rhapsody",
+                "type-id": null,
+                "id": "6c8c1ee3-0c88-42d2-908c-47748c702136",
+                "iswcs": [],
+                "languages": [],
+                "attributes": []
+            },
+            "attributes": []
+        },
+        {
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "end": null,
+            "ended": false,
+            "attribute-ids": [],
+            "target-type": "work",
+            "begin": null,
+            "source-credit": "",
+            "type": "based on",
+            "target-credit": "",
+            "attributes": [],
+            "work": {
+                "title": "The Real Life",
+                "language": "eng",
+                "disambiguation": "",
+                "type": "Song",
+                "attributes": [],
+                "languages": [
+                    "eng"
+                ],
+                "iswcs": [
+                    "T-011.367.777-2",
+                    "T-011.559.013-0"
+                ],
+                "id": "47ea1dd5-b00b-4d0a-a78d-02893ddc15d0",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+        },
+        {
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "end": null,
+            "ended": false,
+            "target-type": "work",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "based on",
+            "attributes": [],
+            "work": {
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "id": "addabf4c-cc29-45fc-b8a0-9f7e22cc3321",
+                "iswcs": [
+                    "T-923.163.251-2"
+                ],
+                "language": "zxx",
+                "title": "Bohemian Rhapsody (Philharmonix version)",
+                "type": "Song",
+                "disambiguation": ""
+            }
+        },
+        {
+            "attributes": [],
+            "work": {
+                "language": null,
+                "title": "The Queen Symphony: V. Andante doloroso – Allegretto – Alla marcia – Moderato risoluto – Pastorale – Maestoso",
+                "disambiguation": "",
+                "type": null,
+                "attributes": [],
+                "languages": [],
+                "type-id": null,
+                "iswcs": [],
+                "id": "48d012fa-3ae1-48a4-8879-c02a66eec2f0"
+            },
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "based on",
+            "source-credit": "",
+            "attribute-values": [],
+            "ended": false,
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "direction": "forward",
+            "end": null
+        },
+        {
+            "type-id": "35d45ac2-74ba-4908-804f-21d138fb3d78",
+            "end": null,
+            "direction": "backward",
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "included works",
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": [],
+            "work": {
+                "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24",
+                "id": "01058179-a28f-4e0d-96be-0678e3d5e053",
+                "iswcs": [],
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "type": "Musical",
+                "disambiguation": "Queen musical",
+                "language": "eng",
+                "title": "We Will Rock You"
+            },
+            "attributes": []
+        },
+        {
+            "attribute-values": [],
+            "ended": false,
+            "type-id": "35d45ac2-74ba-4908-804f-21d138fb3d78",
+            "end": null,
+            "direction": "backward",
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "included works",
+            "source-credit": "",
+            "attributes": [],
+            "work": {
+                "languages": [
+                    "deu"
+                ],
+                "attributes": [],
+                "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24",
+                "id": "3bc30f3c-dd6d-4d20-b368-2253afc050fe",
+                "iswcs": [],
+                "language": "deu",
+                "title": "We Will Rock You",
+                "type": "Musical",
+                "disambiguation": "German version of the Queen musical"
+            }
+        },
+        {
+            "ordering-key": 1,
+            "type": "medley",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "work",
+            "begin": null,
+            "ended": false,
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "direction": "backward",
+            "end": null,
+            "attribute-values": [],
+            "work": {
+                "attributes": [],
+                "languages": [
+                    "eng"
+                ],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "id": "8bdb4eb8-bacf-4b2a-a34d-d0972d7b9780",
+                "iswcs": [],
+                "language": "eng",
+                "title": "Bohemian Polka",
+                "disambiguation": "",
+                "type": "Song"
+            },
+            "attributes": []
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "work",
+            "begin": null,
+            "ordering-key": 1,
+            "source-credit": "",
+            "type": "medley",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": false,
+            "end": null,
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "direction": "backward",
+            "attributes": [],
+            "work": {
+                "title": "Don’t Stop Them Now",
+                "language": "eng",
+                "type": "Song",
+                "disambiguation": "",
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "iswcs": [],
+                "id": "c8e57387-f1b3-466e-98e8-8c9d4c65614b",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+        },
+        {
+            "attributes": [],
+            "work": {
+                "type": null,
+                "disambiguation": "",
+                "title": "Queen I",
+                "language": "zxx",
+                "id": "4b2f4ff7-4228-4cdc-b0b5-85989fbabbe4",
+                "iswcs": [],
+                "type-id": null,
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": []
+            },
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "medley",
+            "attribute-values": [],
+            "end": null,
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "direction": "backward",
+            "ended": false
+        },
+        {
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "medley",
+            "source-credit": "",
+            "ordering-key": 3,
+            "target-type": "work",
+            "begin": null,
+            "attribute-ids": [],
+            "work": {
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "iswcs": [],
+                "id": "4b4c2399-09ec-4e5b-b255-e956fe83f788",
+                "type-id": null,
+                "title": "The Big Medley",
+                "language": "eng",
+                "type": null,
+                "disambiguation": ""
+            },
+            "attributes": []
+        },
+        {
+            "attributes": [
+                "parody"
+            ],
+            "work": {
+                "iswcs": [],
+                "id": "ec8b7b38-06ad-3116-a6c9-3ca97555dda8",
+                "type-id": null,
+                "attributes": [],
+                "languages": [],
+                "disambiguation": "",
+                "type": null,
+                "title": "Bohemian Schnapsidee",
+                "language": null
+            },
+            "attribute-values": [],
+            "ended": false,
+            "direction": "forward",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "end": null,
+            "target-type": "work",
+            "begin": null,
+            "attribute-ids": {
+                "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "target-credit": "",
+            "type": "other version",
+            "source-credit": ""
+        },
+        {
+            "work": {
+                "language": null,
+                "title": "Zero Wing Rhapsody",
+                "disambiguation": "",
+                "type": null,
+                "attributes": [],
+                "languages": [],
+                "type-id": null,
+                "iswcs": [],
+                "id": "1fe90765-96b2-3c48-9ee1-9dca780430f7"
+            },
+            "attributes": [
+                "parody"
+            ],
+            "direction": "forward",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "source-credit": "",
+            "type": "other version",
+            "target-credit": "",
+            "attribute-ids": {
+                "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "begin": null,
+            "target-type": "work"
+        },
+        {
+            "target-credit": "",
+            "source-credit": "",
+            "type": "other version",
+            "target-type": "work",
+            "begin": null,
+            "attribute-ids": {
+                "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1",
+                "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "end": null,
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "direction": "forward",
+            "ended": false,
+            "attribute-values": [],
+            "work": {
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "iswcs": [],
+                "id": "a404ddc8-6511-4255-814a-da58d9a7bb86",
+                "languages": [
+                    "spa"
+                ],
+                "attributes": [],
+                "type": "Song",
+                "disambiguation": "",
+                "language": "spa",
+                "title": "Rap-soda y bohemia"
+            },
+            "attributes": [
+                "parody",
+                "translated"
+            ]
+        }
+    ],
+    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+    "type": "Song",
+    "disambiguation": "",
+    "rating": {
+        "value": 5,
+        "votes-count": 1
+    }
+}

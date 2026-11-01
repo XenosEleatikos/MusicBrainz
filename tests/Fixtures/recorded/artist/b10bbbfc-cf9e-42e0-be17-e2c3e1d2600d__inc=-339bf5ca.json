@@ -1,0 +1,43 @@
+{
+    "begin-area": {
+        "type-id": null,
+        "disambiguation": "",
+        "name": "Liverpool",
+        "id": "c249c30e-88ab-4b2f-a745-96a25bd7afee",
+        "iso-3166-2-codes": [
+            "GB-LIV"
+        ],
+        "sort-name": "Liverpool",
+        "type": null
+    },
+    "life-span": {
+        "ended": true,
+        "end": "1970-04-10",
+        "begin": "1960-03-27"
+    },
+    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "name": "The Beatles",
+    "country": "GB",
+    "disambiguation": "UK rock band, “The Fab Four”",
+    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+    "gender-id": null,
+    "sort-name": "Beatles, The",
+    "area": {
+        "type": null,
+        "sort-name": "United Kingdom",
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "name": "United Kingdom",
+        "disambiguation": "",
+        "type-id": null,
+        "iso-3166-1-codes": [
+            "GB"
+        ]
+    },
+    "type": "Group",
+    "ipis": [],
+    "gender": null,
+    "isnis": [
+        "0000000121707484"
+    ],
+    "end-area": null
+}

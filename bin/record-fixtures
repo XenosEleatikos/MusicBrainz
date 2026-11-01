@@ -1,0 +1,106 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Records responses of the live MusicBrainz web service as test fixtures.
+ *
+ * Usage: bin/record-fixtures [--refresh] [--list] [pattern ...]
+ *
+ *   pattern    Only run scenarios whose name contains one of the patterns (e.g. "lookup/artist")
+ *   --refresh  Ask the web service again, even if a fixture already exists
+ *   --list     List the scenarios and exit
+ *
+ * Requests are throttled to one per second. Fixtures that already exist are never requested again unless --refresh is
+ * given. Warnings and errors the library logs while parsing a response are printed per scenario: they point at
+ * data the library does not know yet.
+ */
+
+use MusicBrainz\Config;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\Test\Support\FixtureStore;
+use MusicBrainz\Test\Support\RecordingHttpClient;
+use Nyholm\Psr7\Factory\Psr17Factory;
+use Psr\Log\AbstractLogger;
+use Symfony\Component\HttpClient\HttpClient;
+use Symfony\Component\HttpClient\Psr18Client;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$arguments = array_slice($argv, 1);
+$refresh = in_array('--refresh', $arguments, true);
+$list = in_array('--list', $arguments, true);
+$patterns = array_values(array_filter($arguments, static fn (string $a): bool => !str_starts_with($a, '--')));
+
+/** @var array<string, callable(MusicBrainz): mixed> $scenarios */
+$scenarios = require __DIR__ . '/../tests/Fixtures/scenarios.php';
+
+if ($patterns) {
+    $scenarios = array_filter(
+        $scenarios,
+        static function (string $name) use ($patterns): bool {
+            foreach ($patterns as $pattern) {
+                if (str_contains($name, $pattern)) {
+                    return true;
+                }
+            }
+
+            return false;
+        },
+        ARRAY_FILTER_USE_KEY
+    );
+}
+
+if ($list) {
+    echo implode("\n", array_keys($scenarios)), "\n";
+    exit(0);
+}
+
+$logger = new class extends AbstractLogger {
+    /** @var list<string> */
+    public array $messages = [];
+
+    public function log($level, string|Stringable $message, array $context = []): void
+    {
+        $this->messages[] = "[$level] $message";
+    }
+};
+
+$store = new FixtureStore(__DIR__ . '/../tests/Fixtures/recorded');
+$http = new RecordingHttpClient(
+    new Psr18Client(HttpClient::create(['timeout' => 30])),
+    $store,
+    $refresh,
+);
+$config = (new Config())
+    ->setUserAgent('XenosMusicBrainz/2-dev ( https://github.com/XenosEleatikos/MusicBrainz )')
+    ->setMaxRetries(3);
+$musicBrainz = new MusicBrainz($http, new Psr17Factory(), $logger, $config);
+
+$failed = 0;
+$noisy = 0;
+foreach ($scenarios as $name => $scenario) {
+    $logger->messages = [];
+    $before = $http->networkRequests;
+    try {
+        $scenario($musicBrainz);
+        $status = 'ok';
+    } catch (Throwable $exception) {
+        $status = 'FAILED: ' . $exception::class . ': ' . $exception->getMessage();
+        ++$failed;
+    }
+    $fetched = $http->networkRequests - $before;
+    printf("%-60s %s%s\n", $name, $status, $fetched ? ' (fetched)' : '');
+    $messages = array_values(array_unique($logger->messages));
+    foreach (array_slice($messages, 0, 10) as $message) {
+        echo '    ', $message, "\n";
+    }
+    if (count($messages) > 10) {
+        echo '    ... and ', count($messages) - 10, " more\n";
+    }
+    $noisy += $messages ? 1 : 0;
+}
+
+printf("\n%d scenarios, %d failed, %d with log messages, %d requests to the web service\n", count($scenarios), $failed, $noisy, $http->networkRequests);
+exit($failed ? 1 : 0);

@@ -1,0 +1,15 @@
+{
+    "name": "Live Aid",
+    "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+    "disambiguation": "",
+    "type": "Concert",
+    "setlist": "",
+    "life-span": {
+        "begin": "1985-07-13",
+        "end": "1985-07-13",
+        "ended": true
+    },
+    "id": "8e0ff16a-757f-4e16-9877-4c4131621a8b",
+    "time": "",
+    "cancelled": false
+}

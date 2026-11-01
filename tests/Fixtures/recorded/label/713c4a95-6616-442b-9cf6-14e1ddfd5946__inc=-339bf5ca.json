@@ -1,0 +1,25 @@
+{
+    "country": null,
+    "disambiguation": "",
+    "area": {
+        "type": null,
+        "sort-name": "New York",
+        "type-id": null,
+        "disambiguation": "",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "name": "New York"
+    },
+    "life-span": {
+        "ended": false,
+        "begin": "1939",
+        "end": null
+    },
+    "id": "713c4a95-6616-442b-9cf6-14e1ddfd5946",
+    "isnis": [],
+    "name": "Blue Note",
+    "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded",
+    "type": "Imprint",
+    "sort-name": "Blue Note",
+    "label-code": 133,
+    "ipis": []
+}

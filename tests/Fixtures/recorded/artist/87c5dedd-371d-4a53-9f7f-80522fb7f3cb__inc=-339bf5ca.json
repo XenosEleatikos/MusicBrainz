@@ -1,0 +1,47 @@
+{
+    "begin-area": {
+        "iso-3166-2-codes": [
+            "IS-0"
+        ],
+        "id": "e498a3ef-704c-462e-b144-6e6fc108a6f2",
+        "type-id": null,
+        "name": "Reykjavík",
+        "disambiguation": "",
+        "sort-name": "Reykjavík",
+        "type": null
+    },
+    "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "1965-11-21"
+    },
+    "name": "Björk",
+    "area": {
+        "disambiguation": "",
+        "type": null,
+        "sort-name": "Iceland",
+        "name": "Iceland",
+        "iso-3166-1-codes": [
+            "IS"
+        ],
+        "type-id": null,
+        "id": "48802a32-075a-3805-a183-277c66047693"
+    },
+    "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+    "end-area": null,
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "id": "87c5dedd-371d-4a53-9f7f-80522fb7f3cb",
+    "ipis": [
+        "00055405100",
+        "00256617158",
+        "00284222376"
+    ],
+    "isnis": [
+        "0000000110013823"
+    ],
+    "disambiguation": "",
+    "gender": "Female",
+    "country": "IS",
+    "type": "Person",
+    "sort-name": "Björk"
+}

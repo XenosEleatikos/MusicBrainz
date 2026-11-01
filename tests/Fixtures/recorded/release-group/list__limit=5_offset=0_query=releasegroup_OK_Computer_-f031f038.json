@@ -1,0 +1,300 @@
+{
+    "created": "2026-11-01T12:54:05.924Z",
+    "count": 12,
+    "offset": 0,
+    "release-groups": [
+        {
+            "id": "a5e4bd1a-63c9-4dfc-9e63-ed0c3dc049be",
+            "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+            "score": 100,
+            "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+            "artist-credit-id": "cafc529d-3603-3705-956c-5926a8e2ad40",
+            "count": 1,
+            "title": "Ok Computer",
+            "first-release-date": "2021-08-20",
+            "primary-type": "Single",
+            "artist-credit": [
+                {
+                    "joinphrase": " & ",
+                    "name": "Lemaitre",
+                    "artist": {
+                        "id": "7bc012a7-c5cc-4e7a-9ca6-15db02bbcde4",
+                        "name": "Lemaitre",
+                        "sort-name": "Lemaitre",
+                        "disambiguation": "Oslo‐based, Norwegian indie‐electronica duo",
+                        "aliases": [
+                            {
+                                "sort-name": "Lemâitre",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Lemâitre",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "RebMoe",
+                    "artist": {
+                        "id": "481ae6c0-d3cc-4ae7-9995-5850fbf15479",
+                        "name": "RebMoe",
+                        "sort-name": "RebMoe",
+                        "aliases": [
+                            {
+                                "sort-name": "Moe, Rebecca Sophia",
+                                "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                                "name": "Rebecca Sophia Moe",
+                                "locale": null,
+                                "type": "Legal name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "de3726da-05b8-4c1a-a19d-1bf53b7889ea",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "title": "Ok Computer",
+                    "status": "Official"
+                }
+            ]
+        },
+        {
+            "id": "b1392450-e666-3926-a536-22c65f834433",
+            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "score": 100,
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "artist-credit-id": "021661c1-84c5-30d7-9bb2-f0766affb734",
+            "count": 39,
+            "title": "OK Computer",
+            "first-release-date": "1997-05-21",
+            "primary-type": "Album",
+            "artist-credit": [
+                {
+                    "name": "Radiohead",
+                    "artist": {
+                        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                        "name": "Radiohead",
+                        "sort-name": "Radiohead",
+                        "aliases": [
+                            {
+                                "sort-name": "Radiohead",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Radiohead",
+                                "locale": "en",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "r/head",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "r/head",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "电台司令",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "电台司令",
+                                "locale": "zh",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "れでぃおへっど",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "レディオヘッド",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "primary": true,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Radiohead & Thom Yorke",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Radiohead & Thom Yorke",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            },
+                            {
+                                "sort-name": "Radio Head",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Radio Head",
+                                "locale": null,
+                                "type": "Search hint",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "d339ba4d-0e44-4d2d-bc7a-b8078c072da9",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "title": "OK Computer",
+                    "status": "Official"
+                },
+                {
+                    "id": "8e2b5322-f9a6-4ab7-b3f4-f65e7ddbc9e4",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "title": "OK Computer: OKNOTOK 1997 2017",
+                    "status": "Official"
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "political"
+                },
+                {
+                    "count": 13,
+                    "name": "rock"
+                }
+            ]
+        },
+        {
+            "id": "3b55129d-276c-4c42-8327-e47ba94f2ddf",
+            "type-id": "0c60f497-ff81-3818-befd-abfc84a4858b",
+            "score": 78,
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "artist-credit-id": "f20e4cc0-06a1-3b48-91a7-7d2e4b140330",
+            "count": 2,
+            "title": "OK Computer (8-bit)",
+            "first-release-date": "2012-04-11",
+            "primary-type": "Album",
+            "secondary-types": [
+                "Remix"
+            ],
+            "secondary-type-ids": [
+                "0c60f497-ff81-3818-befd-abfc84a4858b"
+            ],
+            "artist-credit": [
+                {
+                    "name": "Quinton Sung",
+                    "artist": {
+                        "id": "318d1a3b-7323-4b59-8e7f-e16ddf8acacc",
+                        "name": "Quinton Sung",
+                        "sort-name": "Sung, Quinton"
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "22aef6ea-73c5-4dfb-9471-9500b384a2a2",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "title": "OK Computer (8-bit)",
+                    "status": "Bootleg"
+                },
+                {
+                    "id": "cac23522-f5b8-401a-ada4-134a8ce9d445",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "title": "OK Computer (8-bit)",
+                    "status": "Official"
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "8bit"
+                },
+                {
+                    "count": 1,
+                    "name": "chiptune"
+                }
+            ]
+        },
+        {
+            "id": "8cf63c7f-3d59-4b97-900c-ccd78445a766",
+            "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "score": 78,
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "artist-credit-id": "afc4db78-07ec-3111-b919-3ac9730aab4b",
+            "count": 1,
+            "title": "OK Computer Part 2",
+            "first-release-date": "2018-07-06",
+            "primary-type": "Album",
+            "artist-credit": [
+                {
+                    "name": "ShitLips",
+                    "artist": {
+                        "id": "e2638eb1-1b9b-4e16-8607-e5d934745d4c",
+                        "name": "ShitLips",
+                        "sort-name": "ShitLips"
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "00dc7a3a-2824-4c5e-a951-e4998c651d96",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "title": "OK Computer Part 2",
+                    "status": "Official"
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "noise"
+                },
+                {
+                    "count": 1,
+                    "name": "punk"
+                },
+                {
+                    "count": 1,
+                    "name": "experimental"
+                }
+            ]
+        },
+        {
+            "id": "6c5a2f5b-8959-4e8e-8342-78b3e9ff72ce",
+            "type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+            "score": 78,
+            "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+            "artist-credit-id": "fa1aacb7-cc02-4d7c-b47f-f4c58cea7094",
+            "count": 1,
+            "title": "Alexa Play OK Computer",
+            "first-release-date": "2020-12-18",
+            "primary-type": "Single",
+            "artist-credit": [
+                {
+                    "name": "Us3r",
+                    "artist": {
+                        "id": "89148a39-cb43-4115-b493-b5c1058b6e0e",
+                        "name": "US3R",
+                        "sort-name": "US3R"
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "7c6ebba9-489d-44c4-8c71-7b1c0d4ae344",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "title": "Alexa Play OK Computer",
+                    "status": "Official"
+                }
+            ]
+        }
+    ]
+}

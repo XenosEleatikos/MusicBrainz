@@ -1,0 +1,2611 @@
+{
+    "works": [
+        {
+            "disambiguation": "for two pianos, Anderson & Roe",
+            "attributes": [],
+            "aliases": [],
+            "languages": [
+                "zxx"
+            ],
+            "title": "\"Erbarme Dich\" from the Saint Matthew Passion",
+            "id": "d2f4ada3-7e75-41be-930d-c2da04c01d8a",
+            "type-id": null,
+            "language": "zxx",
+            "type": null,
+            "tags": [],
+            "iswcs": []
+        },
+        {
+            "attributes": [],
+            "languages": [
+                "zxx"
+            ],
+            "aliases": [],
+            "title": "“Jesus bleibet meine Freude” from Cantata, BWV 147",
+            "disambiguation": "for piano, Chuquisengo",
+            "type": null,
+            "tags": [],
+            "iswcs": [],
+            "id": "b32602a9-b122-4188-9321-1098106e49ce",
+            "type-id": null,
+            "language": "zxx"
+        },
+        {
+            "id": "7a1e78f3-0648-4550-9586-df7574bbff86",
+            "type-id": null,
+            "language": "zxx",
+            "type": null,
+            "tags": [],
+            "iswcs": [],
+            "disambiguation": "",
+            "attributes": [],
+            "aliases": [],
+            "languages": [
+                "zxx"
+            ],
+            "title": "„O Lamm Gottes, unschuldig“ (Weimarer Fassung), BWV 656a"
+        }
+    ],
+    "releases": [
+        {
+            "status": "Official",
+            "media": [
+                {
+                    "discs": [],
+                    "title": "",
+                    "id": "fdbafdc9-54fc-4fd1-8e87-6149ccaa5e6c",
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "track-count": 12,
+                    "format": "Digital Media",
+                    "position": 1
+                }
+            ],
+            "disambiguation": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "886449590926",
+            "aliases": [],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "quality": "normal",
+            "id": "55a25210-c5c2-46e9-b7f1-b94e93aa3854",
+            "date": "1941",
+            "packaging": "None",
+            "country": "XW",
+            "release-events": [
+                {
+                    "area": {
+                        "name": "[Worldwide]",
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "disambiguation": "",
+                        "type-id": null,
+                        "sort-name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ],
+                        "type": null
+                    },
+                    "date": "1941"
+                }
+            ],
+            "title": "Mitropoulos Conducts Mozart, Grieg, Bach, Lully, Dvorak, Chabrier and Meyerbeer",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "release-group": null,
+            "tags": [
+                {
+                    "count": 2,
+                    "name": "classical"
+                }
+            ]
+        },
+        {
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "release-group": null,
+            "tags": [],
+            "country": "US",
+            "packaging": null,
+            "release-events": [
+                {
+                    "date": "1944-10",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "sort-name": "United States",
+                        "type": null,
+                        "disambiguation": "",
+                        "type-id": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98"
+                    }
+                }
+            ],
+            "title": "Toccata and Fugue in D minor",
+            "id": "33959c11-4006-47e5-a072-399a9168d384",
+            "quality": "normal",
+            "date": "1944-10",
+            "media": [
+                {
+                    "title": "",
+                    "discs": [],
+                    "position": 1,
+                    "track-count": 2,
+                    "format": "12\" Vinyl",
+                    "id": "9c8cc224-d3fb-3cd8-af42-8ffae143f9a5",
+                    "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64"
+                }
+            ],
+            "status": "Official",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": "",
+            "disambiguation": "",
+            "aliases": [],
+            "packaging-id": null
+        },
+        {
+            "release-events": [
+                {
+                    "date": "1944-11",
+                    "area": {
+                        "disambiguation": "",
+                        "type-id": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "sort-name": "United States",
+                        "type": null
+                    }
+                }
+            ],
+            "packaging": null,
+            "country": "US",
+            "title": "Prelude in E major / Waltz",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "tags": [],
+            "release-group": null,
+            "disambiguation": "",
+            "barcode": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "status": "Official",
+            "media": [
+                {
+                    "position": 1,
+                    "format": "12\" Vinyl",
+                    "track-count": 2,
+                    "id": "5e4f35ee-dca9-334a-aed7-6724cf10645b",
+                    "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+                    "title": "",
+                    "discs": []
+                }
+            ],
+            "packaging-id": null,
+            "aliases": [],
+            "quality": "normal",
+            "id": "b0af2343-e14b-4a16-8e6b-0476b782d2e2",
+            "date": "1944-11"
+        }
+    ],
+    "disambiguation": "German Baroque period composer & musician",
+    "begin-area": {
+        "disambiguation": "",
+        "type-id": null,
+        "name": "Eisenach",
+        "id": "8331b712-99b9-41ef-bf58-0f033f8d926a",
+        "sort-name": "Eisenach",
+        "type": null
+    },
+    "aliases": [
+        {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "sort-name": "Bach",
+            "type": null,
+            "locale": "en",
+            "name": "Bach",
+            "primary": false,
+            "type-id": null
+        },
+        {
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "name": "Bach",
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "primary": null,
+            "locale": null,
+            "type": "Artist name",
+            "sort-name": "Bach"
+        },
+        {
+            "sort-name": "Bach (1685-1750)",
+            "locale": null,
+            "type": "Search hint",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "primary": null,
+            "name": "Bach (1685-1750)",
+            "ended": false,
+            "begin": null,
+            "end": null
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "sort-name": "J S Bach",
+            "locale": null,
+            "type": "Search hint",
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "primary": null,
+            "name": "J S Bach"
+        },
+        {
+            "ended": false,
+            "end": null,
+            "begin": null,
+            "type-id": null,
+            "primary": false,
+            "name": "J. S. Bach",
+            "type": null,
+            "locale": "cs",
+            "sort-name": "Bach, J. S."
+        },
+        {
+            "type": "Search hint",
+            "locale": null,
+            "sort-name": "J. S. Bacj",
+            "name": "J. S. Bacj",
+            "primary": null,
+            "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "locale": "lv",
+            "type": null,
+            "sort-name": "Bahs, J. S.",
+            "name": "J. S. Bahs",
+            "primary": false,
+            "type-id": null
+        },
+        {
+            "begin": null,
+            "end": null,
+            "ended": false,
+            "name": "Jan Sebastian Bach",
+            "primary": true,
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "sort-name": "Bach, Jan Sebastian",
+            "locale": "pl_PL",
+            "type": "Artist name"
+        },
+        {
+            "primary": true,
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Jean‐Sébastien Bach",
+            "sort-name": "Bach, Jean‐Sébastien",
+            "locale": "fr",
+            "type": "Artist name",
+            "ended": false,
+            "begin": null,
+            "end": null
+        }
+    ],
+    "id": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+    "release-groups": [
+        {
+            "title": "Brandenburgische Konzerte Nr. 5 & 6",
+            "primary-type-id": null,
+            "primary-type": null,
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "baroque"
+                },
+                {
+                    "name": "classical",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "concerto"
+                }
+            ],
+            "secondary-types": [],
+            "disambiguation": "",
+            "releases": [],
+            "aliases": [],
+            "secondary-type-ids": [],
+            "id": "cf836801-641f-47ab-9432-45f5ef0b6145",
+            "first-release-date": "1992"
+        },
+        {
+            "first-release-date": "2000",
+            "id": "0ab0f191-7b36-48ea-b776-874b677828c6",
+            "secondary-type-ids": [],
+            "aliases": [],
+            "releases": [],
+            "disambiguation": "",
+            "secondary-types": [],
+            "tags": [],
+            "primary-type": null,
+            "primary-type-id": null,
+            "title": "Super Hits"
+        },
+        {
+            "primary-type-id": null,
+            "primary-type": null,
+            "tags": [
+                {
+                    "name": "baroque",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "classical"
+                },
+                {
+                    "count": 1,
+                    "name": "concerto"
+                },
+                {
+                    "count": 1,
+                    "name": "violin concerto"
+                }
+            ],
+            "title": "Violin Concertos",
+            "id": "cf4574d3-895c-4fa5-b14e-3509ddec3363",
+            "first-release-date": "2005",
+            "secondary-types": [],
+            "disambiguation": "",
+            "releases": [],
+            "aliases": [],
+            "secondary-type-ids": []
+        }
+    ],
+    "isnis": [
+        "0000000122764157"
+    ],
+    "name": "Johann Sebastian Bach",
+    "rating": {
+        "votes-count": 32,
+        "value": 4.9
+    },
+    "sort-name": "Bach, Johann Sebastian",
+    "ipis": [
+        "00001749311"
+    ],
+    "country": "DE",
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "annotation": "For the BWV catalogue of Bach's works, see [series:d977f7fd-96c9-4e3e-83b5-eb484a9e6582|Bach-Werke-Verzeichnis].\r\n\r\n=== Major series / box sets ===\r\n\r\n    * [http://wiki.musicbrainz.org/User:HumHumXX/Bach_on_TELDEC|→ Bach on TELDEC] (wiki) \r\n\r\n    * [release-group:eb9f2982-c203-4f36-a45b-9ea55f5823b8|''Die kompletten Werke von Johann Sebastian Bach''] (Hänssler, 2000/2010; Master Music, 2004)\r\n\r\n    * [release-group:ad263ed1-3e94-3fa6-88bf-63d575611bb2|''Bach Edition''] (Brilliant Classics, 2001/2006/2010)\r\n\r\n    * ''The Masterworks'' (Brilliant Classics, 2004/2008) (ext ref: [http://www.allmusic.com/album/bach-the-masterworks-mw0001387268|1] / [http://www.allmusic.com/album/bach-the-masterworks-mw0001945560|2])\r\n\r\n    * ''Premium Edition'' (Am@do Classics, 2007?) (ext ref: [http://www.allmusic.com/album/johann-sebastian-bach-premium-edition-mw0001867557|1]; [http://www.amazon.com/gp/product/B000XCZC1C|2.1] or [http://www.amazon.com/gp/product/B000IFRXV6|2.2]) ([http://wiki.musicbrainz.org/User:HumHumXX/Bach_-_Premium_Edition|wiki] tracklist dump)\r\n\r\nThere seems to have been another major series (or set) (69xCD; + [http://www.amazon.com/gp/product/B00001NTI2|2xCD sampler]) by \"harmonia mundi\", evidence of which is rare.",
+    "area": {
+        "iso-3166-1-codes": [
+            "DE"
+        ],
+        "sort-name": "Germany",
+        "type": null,
+        "disambiguation": "",
+        "type-id": null,
+        "name": "Germany",
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+    },
+    "gender": "Male",
+    "relations": [
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "principal": "d3362ce5-ea76-4cb4-854b-9540fc716078"
+            },
+            "artist": {
+                "type": "Choir",
+                "sort-name": "Thomanerchor Leipzig",
+                "id": "995a8150-123b-4f04-8c2c-904a262dd607",
+                "country": "DE",
+                "name": "Thomanerchor Leipzig",
+                "type-id": "6124967d-7e3a-3eba-b642-c9a2ffb44d94",
+                "disambiguation": ""
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "begin": "1723",
+            "target-type": "artist",
+            "attributes": [
+                "principal"
+            ],
+            "end": "1750",
+            "type-id": "cac01ac7-4159-42fd-9f2b-c5a7a5624079",
+            "type": "conductor position"
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "id": "7bcb37ed-1d76-4eac-82b0-4c48082efe3b",
+                "country": "DE",
+                "name": "Anna Magdalena Bach",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "type": "Person",
+                "sort-name": "Bach, Anna Magdalena"
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "married",
+            "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+            "end": "1750-07-28",
+            "target-type": "artist",
+            "attributes": [],
+            "begin": "1721-12-03",
+            "ended": true,
+            "direction": "backward"
+        },
+        {
+            "type-id": "1af24726-5b1f-4b07-826e-5351723f504b",
+            "type": "named after artist",
+            "direction": "backward",
+            "begin": null,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "artist": {
+                "disambiguation": "German baroque ensemble led by Helmuth Rilling, aka Bach‐Ensemble",
+                "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+                "name": "Bach‐Collegium Stuttgart",
+                "country": "DE",
+                "id": "8bc4fbd0-f05f-4408-834b-e9540afb3b7f",
+                "sort-name": "Bach‐Collegium Stuttgart",
+                "type": "Orchestra"
+            },
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "source-credit": "Bach",
+            "artist": {
+                "disambiguation": "",
+                "type-id": "a0b36c92-3eb1-3839-a4f9-4799823f54a5",
+                "name": "Bachorchester Würzburg",
+                "id": "f990ce00-afa7-4c4e-9aa9-ed13bc85f55e",
+                "country": "DE",
+                "sort-name": "Bachorchester Würzburg",
+                "type": "Orchestra"
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "named after artist",
+            "type-id": "1af24726-5b1f-4b07-826e-5351723f504b",
+            "ended": false,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "backward"
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "sort-name": "Masana, Johann Sebastian",
+                "type": "Character",
+                "name": "Johann Sebastian Masana",
+                "id": "28291a5e-a2d8-479b-bda5-c4666930668d",
+                "country": "AR",
+                "disambiguation": "",
+                "type-id": "5c1375b0-f18d-3db7-a164-a49d7a63773f"
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "1af24726-5b1f-4b07-826e-5351723f504b",
+            "type": "named after artist",
+            "direction": "backward",
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false
+        },
+        {
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": "1710-11-22",
+            "ended": false,
+            "direction": "forward",
+            "type": "parent",
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "id": "4af324c6-0a7c-4c84-b7ce-c60ffe4a8f33",
+                "country": "DE",
+                "name": "Wilhelm Friedemann Bach",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "German composer",
+                "type": "Person",
+                "sort-name": "Bach, Wilhelm Friedemann"
+            }
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": "1714-03-08",
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "type": "parent",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "artist": {
+                "type": "Person",
+                "sort-name": "Bach, Carl Philipp Emanuel",
+                "id": "f6486fc7-90ef-48ad-8ca3-905af1354afe",
+                "country": "DE",
+                "name": "Carl Philipp Emanuel Bach",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "German classical composer"
+            },
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "artist": {
+                "id": "16d891b8-3367-4ef1-94c9-d4257e271115",
+                "country": "DE",
+                "name": "Johann Christoph Friedrich Bach",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "composer",
+                "type": "Person",
+                "sort-name": "Bach, Johann Christoph Friedrich"
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1732-06-21",
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "type": "parent"
+        },
+        {
+            "artist": {
+                "id": "cc8d07ef-24ec-40d3-9820-659abad380b0",
+                "country": "DE",
+                "name": "Johann Christoph Bach",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "brother of J.S. Bach, 1671-1721",
+                "type": "Person",
+                "sort-name": "Bach, Johann Christoph"
+            },
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "b42b7966-b904-449e-b8f9-8c7297b863d0",
+            "type": "sibling",
+            "direction": "backward",
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "type-id": "b42b7966-b904-449e-b8f9-8c7297b863d0",
+            "type": "sibling",
+            "direction": "backward",
+            "ended": false,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "source-credit": "",
+            "artist": {
+                "type": "Person",
+                "sort-name": "Bach, Johann Jacob",
+                "id": "e9e539d5-25bc-4848-93f9-2f858b2a6d2b",
+                "country": "DE",
+                "name": "Johann Jacob Bach",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "brother of J.S. Bach"
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "artist": {
+                "name": "Johann Gotthilf Ziegler",
+                "country": "DE",
+                "id": "6e6be03f-99a5-4178-af0c-a94dbc79e449",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Ziegler, Johann Gotthilf",
+                "type": "Person"
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1715",
+            "target-type": "artist",
+            "attributes": [],
+            "end": "1715",
+            "ended": true,
+            "type-id": "249fc24f-d573-4290-9d74-0547712d1f1e",
+            "type": "teacher"
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "artist": {
+                "name": "Johann Gottfried Müthel",
+                "id": "7f2988af-7869-4d11-a68d-b7b6cbb69796",
+                "country": "DE",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Müthel, Johann Gottfried",
+                "type": "Person"
+            },
+            "source-credit": "",
+            "begin": "1750",
+            "target-type": "artist",
+            "end": "1750",
+            "attributes": [],
+            "ended": true,
+            "direction": "forward",
+            "type": "teacher",
+            "type-id": "249fc24f-d573-4290-9d74-0547712d1f1e"
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "type": "Person",
+                "sort-name": "Krebs, Johann Ludwig",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "German composer and organist",
+                "country": "DE",
+                "id": "4701e8aa-4222-44ab-b59b-d85c6b92c34d",
+                "name": "Johann Ludwig Krebs"
+            },
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "type": "teacher",
+            "type-id": "249fc24f-d573-4290-9d74-0547712d1f1e"
+        },
+        {
+            "artist": {
+                "type": "Group",
+                "sort-name": "Bach Jazz",
+                "id": "d47b364b-b09a-444c-a963-99d0bb1e0be8",
+                "country": "SE",
+                "name": "Bach Jazz",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": ""
+            },
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "direction": "backward"
+        },
+        {
+            "artist": {
+                "sort-name": "J.S. Bach Experience, The",
+                "type": "Group",
+                "disambiguation": "",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "name": "The J.S. Bach Experience",
+                "country": null,
+                "id": "4ccd5d65-234b-454f-a3b0-c09c63c74d3e"
+            },
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "ended": false,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "backward"
+        },
+        {
+            "source-credit": "",
+            "event": {
+                "name": "[premiere of Bereitet die Wege, bereitet die Bahn, BWV 132]",
+                "id": "1ac32ca6-49e2-468c-9800-1d427b439582",
+                "type-id": null,
+                "type": null,
+                "disambiguation": "",
+                "cancelled": false,
+                "time": "",
+                "setlist": "",
+                "life-span": {
+                    "ended": true,
+                    "begin": "1715-12-22",
+                    "end": "1715-12-22"
+                }
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "conductor",
+            "type-id": "92873f0d-12a7-4fb3-9eac-ff06c38c6a60",
+            "begin": null,
+            "target-type": "event",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "ended": false,
+            "recording": {
+                "disambiguation": "for clavichord",
+                "id": "6c9b111c-329e-455c-8942-4cd584cafd7f",
+                "length": 147000,
+                "title": "Adagio a-Moll nach Johann Adam Reincken, BWV 965/I",
+                "video": false
+            },
+            "attributes": [],
+            "target-type": "recording",
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "arranger",
+            "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "recording": {
+                "disambiguation": "for lautenwerck",
+                "length": 321426,
+                "id": "611c2c64-f12d-441f-9146-fc6e13c46ca8",
+                "title": "Fuge B-Dur nach Johann Adam Reincken, BWV 954",
+                "video": false
+            },
+            "ended": false,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+            "type": "arranger"
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "recording": {
+                "length": 145000,
+                "id": "62f06fe2-643a-4f0f-8747-485333eee365",
+                "disambiguation": "",
+                "video": false,
+                "title": "In Dulci Jubilo"
+            },
+            "direction": "forward",
+            "type": "arranger",
+            "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d"
+        },
+        {
+            "attribute-credits": [],
+            "recording": {
+                "title": "Aria F-Dur nach François Couperin, BWV 587",
+                "video": false,
+                "disambiguation": "",
+                "length": 205666,
+                "id": "745445e6-d6e3-43f0-9f64-452ee6323f7e"
+            },
+            "ended": false,
+            "target-type": "recording",
+            "attributes": [
+                "organ"
+            ],
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "instrument arranger",
+            "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+            "attribute-ids": {
+                "organ": "55a37f4f-39a4-45a7-851d-586569985519"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "direction": "forward",
+            "attribute-credits": [],
+            "recording": {
+                "title": "Concerto C-Dur nach Antonio Vivaldi \"Grosso Mogul\", BWV 594: I. (Allegro)",
+                "video": false,
+                "disambiguation": "",
+                "length": 463533,
+                "id": "b8c5b0e2-053c-4cae-b824-870bb5a310ae"
+            },
+            "ended": false,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "organ"
+            ],
+            "begin": null,
+            "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+            "type": "instrument arranger",
+            "target-credit": "",
+            "attribute-ids": {
+                "organ": "55a37f4f-39a4-45a7-851d-586569985519"
+            },
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "direction": "forward",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "organ"
+            ],
+            "begin": null,
+            "ended": false,
+            "recording": {
+                "video": false,
+                "title": "Concerto C-Dur nach Antonio Vivaldi \"Grosso Mogul\", BWV 594: II. Recitativo Adagio",
+                "length": 189266,
+                "id": "46900de5-e514-4304-a194-83cb7a2cf5ae",
+                "disambiguation": ""
+            },
+            "attribute-credits": [],
+            "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+            "type": "instrument arranger",
+            "target-credit": "",
+            "attribute-ids": {
+                "organ": "55a37f4f-39a4-45a7-851d-586569985519"
+            },
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "direction": "forward",
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "recording": {
+                "id": "db905128-ab8e-4ed4-82a7-6ccf682f8d18",
+                "length": 306573,
+                "disambiguation": "",
+                "video": false,
+                "title": "Agnus Dei"
+            },
+            "type-id": "83f72956-2007-4bca-8a97-0ae539cca99d",
+            "type": "samples from artist",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "recording": {
+                "length": 228066,
+                "id": "19c7872c-0ba8-4b81-8121-c142f0e0d0eb",
+                "disambiguation": "",
+                "video": false,
+                "title": "Bombé/Ruht Wohl, Ihr Heiligen Gebeine (‘Lambarena’)"
+            },
+            "ended": false,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "type-id": "83f72956-2007-4bca-8a97-0ae539cca99d",
+            "type": "samples from artist"
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "recording": {
+                "title": "Cantata BWV 147 No 10 Jesus Bleibet Meine Freude",
+                "video": false,
+                "disambiguation": "",
+                "length": 134226,
+                "id": "373d50ba-d694-4bc2-b275-a3bf22304010"
+            },
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "83f72956-2007-4bca-8a97-0ae539cca99d",
+            "type": "samples from artist"
+        },
+        {
+            "direction": "forward",
+            "target-credit": "",
+            "ended": false,
+            "begin": null,
+            "attribute-values": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "end": null,
+            "attributes": [],
+            "type-id": "01ce32b0-d873-4baa-8025-714b45c0c754",
+            "source-credit": "",
+            "release": {
+                "release-events": [
+                    {
+                        "date": "1996",
+                        "area": {
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "name": "France",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ]
+                        }
+                    }
+                ],
+                "country": "FR",
+                "packaging": null,
+                "title": "18 Préludes Et Fugues",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": null
+                },
+                "release-group": null,
+                "status-id": null,
+                "barcode": null,
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "packaging-id": null,
+                "id": "13fac147-16f2-4624-ac5c-103467f27922",
+                "quality": "normal",
+                "date": "1996"
+            },
+            "type": "composer"
+        },
+        {
+            "source-credit": "J.S. Bach",
+            "type-id": "01ce32b0-d873-4baa-8025-714b45c0c754",
+            "type": "composer",
+            "release": {
+                "title": "Andres Segovia plays J. S. Bach",
+                "country": "IT",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "date": "",
+                        "area": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                            "name": "Italy",
+                            "type": null,
+                            "sort-name": "Italy",
+                            "iso-3166-1-codes": [
+                                "IT"
+                            ]
+                        }
+                    }
+                ],
+                "release-group": null,
+                "text-representation": {
+                    "language": null,
+                    "script": "Latn"
+                },
+                "packaging-id": null,
+                "media": [],
+                "status": null,
+                "barcode": null,
+                "status-id": null,
+                "disambiguation": "",
+                "date": "",
+                "id": "cdf4f58d-3a39-426c-98c5-053704b50e26",
+                "quality": "normal"
+            },
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "end": null,
+            "begin": null,
+            "attribute-values": [],
+            "ended": false
+        },
+        {
+            "source-credit": "",
+            "type-id": "01ce32b0-d873-4baa-8025-714b45c0c754",
+            "release": {
+                "title": "Bach and Beyond",
+                "release-events": [
+                    {
+                        "area": {
+                            "disambiguation": "",
+                            "type-id": null,
+                            "name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "sort-name": "United States",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type": null
+                        },
+                        "date": "2006-09-12"
+                    }
+                ],
+                "country": "US",
+                "packaging": null,
+                "release-group": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "packaging-id": null,
+                "barcode": "094636464725",
+                "status-id": null,
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "date": "2006-09-12",
+                "id": "01be9c89-6bca-44a3-b293-06087b58ed1a",
+                "quality": "normal"
+            },
+            "type": "composer",
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-values": [],
+            "begin": null,
+            "end": null,
+            "target-type": "release",
+            "attribute-ids": [],
+            "attributes": [],
+            "ended": false
+        },
+        {
+            "release": {
+                "disambiguation": "",
+                "barcode": "5099706454229",
+                "status-id": null,
+                "status": null,
+                "media": [],
+                "packaging-id": null,
+                "quality": "normal",
+                "id": "99c549e3-a614-41c7-8741-c4662570d5c8",
+                "date": "1994-01",
+                "release-events": [
+                    {
+                        "area": null,
+                        "date": "1994-01"
+                    },
+                    {
+                        "area": {
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "name": "France",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ]
+                        },
+                        "date": "1995"
+                    }
+                ],
+                "packaging": null,
+                "country": null,
+                "title": "Lambarena: Bach to Africa",
+                "text-representation": {
+                    "language": "mul",
+                    "script": "Latn"
+                },
+                "release-group": null
+            },
+            "type": "samples from artist",
+            "type-id": "7ddb04ae-6c8a-41bd-95c2-392994d663db",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "attribute-values": [],
+            "target-type": "release",
+            "attributes": [],
+            "attribute-ids": [],
+            "end": null,
+            "direction": "forward",
+            "target-credit": ""
+        },
+        {
+            "release": {
+                "packaging-id": null,
+                "disambiguation": "",
+                "barcode": "",
+                "status-id": null,
+                "status": null,
+                "media": [],
+                "date": "2024",
+                "quality": "normal",
+                "id": "1862ca09-7910-4800-9aae-90c9ade0bf16",
+                "title": "Brandenburg Concertos 1-6",
+                "release-events": [
+                    {
+                        "area": {
+                            "sort-name": "[Worldwide]",
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "type": null,
+                            "name": "[Worldwide]",
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "date": "2024"
+                    }
+                ],
+                "packaging": null,
+                "country": "XW",
+                "release-group": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                }
+            },
+            "type": "writer",
+            "type-id": "ca7a474a-a1cd-4431-9230-56a17f553090",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "attribute-values": [],
+            "attributes": [],
+            "target-type": "release",
+            "attribute-ids": [],
+            "end": null,
+            "direction": "forward",
+            "target-credit": ""
+        },
+        {
+            "source-credit": "Composer",
+            "type-id": "25dd0db4-189f-436c-a610-aacb979f13e2",
+            "type": "artists and repertoire",
+            "target-credit": "",
+            "direction": "forward",
+            "release_group": {
+                "title": "Bach: Sei Solo",
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": "",
+                "first-release-date": "",
+                "primary-type-id": null,
+                "id": "cfa67f78-79ed-4961-9f6e-b8b3ff2cdf0d",
+                "primary-type": null
+            },
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "attributes": [],
+            "end": null,
+            "attribute-values": [],
+            "begin": null,
+            "ended": true
+        },
+        {
+            "source-credit": "",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "type": "tribute",
+            "target-credit": "",
+            "release_group": {
+                "disambiguation": "",
+                "releases": [],
+                "secondary-types": [],
+                "secondary-type-ids": [],
+                "title": "A Tribute to Wendy Carlos (...and of course Bach)",
+                "primary-type": null,
+                "primary-type-id": null,
+                "id": "d493a904-3d02-4e45-8370-f48eec0d671f",
+                "first-release-date": "2025-05-07"
+            },
+            "direction": "forward",
+            "attribute-values": [],
+            "begin": null,
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "end": null,
+            "attributes": [],
+            "ended": false
+        },
+        {
+            "type": "tribute",
+            "source-credit": "",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "target-type": "release_group",
+            "attributes": [],
+            "attribute-ids": [],
+            "end": null,
+            "attribute-values": [],
+            "begin": null,
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward",
+            "release_group": {
+                "first-release-date": "1990-10-25",
+                "primary-type-id": null,
+                "id": "d0b4cf2b-3d68-42bd-9569-da901150a41b",
+                "primary-type": null,
+                "secondary-type-ids": [],
+                "title": "Brandenburg Concertos nos. 1, 2 & 3",
+                "secondary-types": [],
+                "disambiguation": "",
+                "releases": []
+            }
+        },
+        {
+            "target-credit": "",
+            "release_group": {
+                "id": "effd94ec-2882-4d4f-85d4-f3407748cefe",
+                "primary-type-id": null,
+                "primary-type": null,
+                "first-release-date": "1990",
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": "",
+                "title": "Die Kunst einer Fuge: Johann Sebastian Bachs \"Contrapunctus I\" in zehn Variationen",
+                "secondary-type-ids": []
+            },
+            "direction": "forward",
+            "attribute-values": [],
+            "begin": null,
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "source-credit": "",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "type": "tribute"
+        },
+        {
+            "ended": false,
+            "attribute-values": [],
+            "begin": null,
+            "target-type": "series",
+            "attribute-ids": [],
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "target-credit": "",
+            "series": {
+                "type": "Catalogue",
+                "name": "Bach Compendium",
+                "id": "c8922484-7390-4332-9664-a84b1dee4036",
+                "disambiguation": "",
+                "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002"
+            },
+            "type": "has catalogue",
+            "type-id": "b792d0a6-a443-4e00-8882-c4f2bef56511",
+            "source-credit": ""
+        },
+        {
+            "type-id": "b792d0a6-a443-4e00-8882-c4f2bef56511",
+            "source-credit": "",
+            "type": "has catalogue",
+            "series": {
+                "type": "Catalogue",
+                "id": "d977f7fd-96c9-4e3e-83b5-eb484a9e6582",
+                "name": "Bach-Werke-Verzeichnis",
+                "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002",
+                "disambiguation": ""
+            },
+            "direction": "forward",
+            "target-credit": "",
+            "ended": false,
+            "target-type": "series",
+            "attribute-ids": [],
+            "attributes": [],
+            "end": null,
+            "attribute-values": [],
+            "begin": null
+        },
+        {
+            "series": {
+                "name": "Bach-Werke-Verzeichnis",
+                "id": "6ade77f7-fb26-41a8-b14d-b679fd890173",
+                "disambiguation": "third edition, 2022, BWV³",
+                "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002",
+                "type": "Catalogue"
+            },
+            "type": "has catalogue",
+            "type-id": "b792d0a6-a443-4e00-8882-c4f2bef56511",
+            "source-credit": "",
+            "ended": false,
+            "attribute-values": [],
+            "begin": null,
+            "target-type": "series",
+            "end": null,
+            "attribute-ids": [],
+            "attributes": [],
+            "direction": "forward",
+            "target-credit": ""
+        },
+        {
+            "type-id": "3673c88b-988b-47c3-a82c-4116fd2b2e1e",
+            "source-credit": "",
+            "type": "named after artist",
+            "series": {
+                "disambiguation": "Tokyo recital concert series",
+                "type-id": "64640a2a-1c31-394d-b7b0-683a32ff9aff",
+                "name": "B→C",
+                "id": "2b5b7ffc-1ace-4eab-b156-f9ae0936eb65",
+                "type": "Event series"
+            },
+            "direction": "forward",
+            "target-credit": "",
+            "ended": false,
+            "attribute-ids": [],
+            "target-type": "series",
+            "attributes": [],
+            "end": null,
+            "attribute-values": [],
+            "begin": null
+        },
+        {
+            "target-type": "series",
+            "attributes": [
+                "number"
+            ],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "type": "part of",
+            "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0",
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "ordering-key": 2,
+            "attribute-values": {
+                "number": "2"
+            },
+            "target-credit": "",
+            "series": {
+                "type": "Artist series",
+                "id": "a87dd8c5-59d3-4727-a3b8-7ae97eb09c20",
+                "name": "Classic 100 Composer",
+                "type-id": "c5358f01-618a-396d-8c78-9e76e6a52d7d",
+                "disambiguation": "2019"
+            },
+            "source-credit": ""
+        },
+        {
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "url": {
+                "resource": "https://www.allmusic.com/artist/mn0000075140",
+                "id": "e552b29f-de3c-4fa2-acf8-83e99e05c98e"
+            },
+            "type": "allmusic",
+            "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846"
+        },
+        {
+            "type": "biography",
+            "url": {
+                "id": "a05cac62-e2c4-4423-a534-da63371d2223",
+                "resource": "https://www.oxfordmusiconline.com/grovemusic/display/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-6002278195"
+            },
+            "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "url": {
+                "resource": "http://www.jsbach.org/",
+                "id": "05d8b764-29ad-4864-97ec-efd89e1248ba"
+            },
+            "type": "biography",
+            "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "type": "biography",
+            "url": {
+                "id": "9a7a54f8-ddf4-404e-9ac5-7281ee6529bb",
+                "resource": "http://www.pbs.org/wnet/gperf/education/bach.html"
+            },
+            "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "url": {
+                "id": "ee03601e-abcf-4c5f-92cf-4a5f51da9e21",
+                "resource": "https://www.discogs.com/artist/95537"
+            },
+            "type": "discogs",
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "direction": "forward",
+            "url": {
+                "id": "4bd96582-9098-4c4b-ab4b-3daa2dba7373",
+                "resource": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+            },
+            "type": "free streaming",
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "Johann Sebastian Bach"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "url": {
+                "resource": "https://www.deezer.com/artist/1900",
+                "id": "8a99a20b-a779-41b5-a6d5-9668718774a5"
+            },
+            "type": "free streaming",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null
+        },
+        {
+            "direction": "forward",
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+            "url": {
+                "id": "19157dd2-d6c5-4bf2-89d8-78fd534bcd27",
+                "resource": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg"
+            },
+            "type": "image",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+            "url": {
+                "id": "8d105ff2-f04f-4b74-b84c-1e1172391947",
+                "resource": "https://www.imdb.com/name/nm0001925/"
+            },
+            "type": "IMDb"
+        },
+        {
+            "type-id": "8147b6a2-ad14-4ce7-8f0a-697f9a31f68f",
+            "type": "IMSLP",
+            "url": {
+                "resource": "https://imslp.org/wiki/Category:Bach,_Johann_Sebastian",
+                "id": "15b55541-8751-453c-9bf5-07f95bf886ff"
+            },
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "last.fm",
+            "url": {
+                "id": "ffcedaae-dc86-492e-8f44-4030ccf3b1fe",
+                "resource": "https://www.last.fm/music/Johann+Sebastian+Bach"
+            },
+            "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+            "url": {
+                "id": "4a28709a-4537-4871-9e5a-00f8c3765bca",
+                "resource": "https://genius.com/artists/Johann-sebastian-bach"
+            },
+            "type": "lyrics",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "type": "other databases",
+            "url": {
+                "resource": "http://id.loc.gov/authorities/names/n79021425",
+                "id": "7010a7c8-0c9d-47ff-851a-53cfd3f0ae39"
+            }
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "url": {
+                "id": "416741ec-8ec3-4119-9dd3-06b1bbcf2e24",
+                "resource": "http://musicmoz.org/Composition/Composers/B/Bach,_Johann_Sebastian/"
+            },
+            "type": "other databases",
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55"
+        },
+        {
+            "type": "other databases",
+            "url": {
+                "id": "357cec67-777d-42a3-a058-94820b731ed2",
+                "resource": "https://adp.library.ucsb.edu/names/102304"
+            },
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "type": "purchase for download",
+            "url": {
+                "id": "7c0bcf30-0aa6-4d02-8f44-f3fa9b52d428",
+                "resource": "https://itunes.apple.com/us/artist/id11862"
+            },
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "type": "purchase for download",
+            "url": {
+                "resource": "https://open.qobuz.com/artist/21",
+                "id": "27bac96e-eb88-4fee-8bcb-6509ed37a9b8"
+            },
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "611b1862-67af-4253-a64f-34adba305d1d",
+            "type": "purchase for mail-order",
+            "url": {
+                "resource": "https://www.amazon.com/-/e/B0017PCMX0",
+                "id": "48728fe7-8613-4028-bb7d-b1edc90f9f18"
+            },
+            "direction": "forward",
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "begin": null,
+            "ended": false
+        },
+        {
+            "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+            "url": {
+                "resource": "https://secondhandsongs.com/artist/4192",
+                "id": "2fbc9648-4e94-469a-b0cc-57392c888c16"
+            },
+            "type": "secondhandsongs",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "type": "setlistfm",
+            "url": {
+                "id": "765a8bb7-042a-4588-a66d-23a47f38aa1f",
+                "resource": "https://www.setlist.fm/setlists/johann-sebastian-bach-3d69187.html"
+            },
+            "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+            "ended": false,
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+            "url": {
+                "id": "1a80bbd1-11ce-4762-aca0-1430416f9aa4",
+                "resource": "https://www.songkick.com/artists/556956"
+            },
+            "type": "songkick",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "type": "streaming",
+            "url": {
+                "resource": "https://open.qobuz.com/artist/21",
+                "id": "27bac96e-eb88-4fee-8bcb-6509ed37a9b8"
+            },
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "direction": "forward",
+            "begin": null,
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "ended": false,
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "url": {
+                "resource": "https://tidal.com/artist/14753",
+                "id": "602cd938-60fc-48ab-bc0c-5e57ce2958bb"
+            },
+            "type": "streaming",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9",
+            "url": {
+                "resource": "https://vgmdb.net/artist/1718",
+                "id": "bfe8dee8-590b-4eec-81fe-93b5cae901ee"
+            },
+            "type": "vgmdb",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "type": "VIAF",
+            "url": {
+                "resource": "http://viaf.org/viaf/12304462",
+                "id": "5e233361-769b-4adf-9915-45760b8010c1"
+            },
+            "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "direction": "forward",
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+            "url": {
+                "resource": "https://www.wikidata.org/wiki/Q1339",
+                "id": "588c093e-03fd-4a7e-850d-e78ef43d1aa8"
+            },
+            "type": "wikidata",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "type": "arranger",
+            "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+            "ended": true,
+            "begin": "1702",
+            "target-type": "work",
+            "attributes": [],
+            "end": "1710",
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "work": {
+                "disambiguation": "",
+                "title": "Sonata a-Moll nach Johann Adam Reincken, BWV 965",
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "language": "zxx",
+                "type-id": "294ff9f2-3d64-3483-96fb-f362b5fce2a0",
+                "id": "e09f290c-73f4-43bd-941e-0cda7857c908",
+                "iswcs": [],
+                "type": "Sonata"
+            },
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "work": {
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "Concerto d-Moll (nach A. Vivaldi, op. 3 Nr. 11), BWV 596",
+                "disambiguation": "",
+                "type": "Concerto",
+                "iswcs": [],
+                "id": "fb47b5c1-65e0-46fd-9b87-3feb23083bca",
+                "type-id": "dad81031-607b-3039-bd5b-80c0f4575272",
+                "language": "zxx"
+            },
+            "type": "arranger",
+            "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+            "ended": true,
+            "end": "1714",
+            "target-type": "work",
+            "attributes": [],
+            "begin": "1713",
+            "direction": "forward"
+        },
+        {
+            "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+            "type": "arranger",
+            "direction": "forward",
+            "begin": "1742",
+            "attributes": [],
+            "target-type": "work",
+            "end": "1743",
+            "ended": true,
+            "source-credit": "",
+            "work": {
+                "language": "deu",
+                "type-id": "0db2f555-15f9-393f-af4c-739db5711146",
+                "id": "c985d8fc-f98a-407d-b65c-557598b0fde1",
+                "iswcs": [],
+                "type": "Cantata",
+                "disambiguation": "",
+                "title": "Kantate (Aria), BWV 200 \"Bekennen will ich seinen Namen\"",
+                "languages": [
+                    "deu"
+                ],
+                "attributes": []
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "ended": true,
+            "target-type": "work",
+            "attributes": [],
+            "end": "1704",
+            "begin": "1700",
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "work": {
+                "id": "f7d6c923-33bb-4b44-96fd-76b21086931b",
+                "type-id": null,
+                "language": "zxx",
+                "type": null,
+                "iswcs": [],
+                "disambiguation": "",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "Präludium et parita del tuono terzo F-Dur, BWV 833"
+            },
+            "target-credit": ""
+        },
+        {
+            "ended": true,
+            "target-type": "work",
+            "attributes": [],
+            "end": "1705",
+            "begin": "1702",
+            "direction": "forward",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "work": {
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "Suite in g-Moll, BWV 822",
+                "disambiguation": "",
+                "type": "Suite",
+                "iswcs": [],
+                "id": "59d5880c-c450-4c39-bfbd-5a770f8a24b2",
+                "language": "zxx",
+                "type-id": "212bf9fb-ce4f-396e-87ca-3db671c085fb"
+            },
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "work": {
+                "disambiguation": "",
+                "title": "Ouverture (Suite) F-Dur, BWV 820",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "type-id": "212bf9fb-ce4f-396e-87ca-3db671c085fb",
+                "language": "zxx",
+                "id": "4967530d-d4d1-4ea8-b43b-36344129775e",
+                "iswcs": [],
+                "type": "Suite"
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "begin": "1702",
+            "target-type": "work",
+            "end": "1707",
+            "attributes": [],
+            "ended": true,
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "type": "composer"
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "work": {
+                "languages": [],
+                "attributes": [],
+                "title": "Bach Portrait",
+                "disambiguation": "",
+                "type": null,
+                "iswcs": [],
+                "id": "9fefbeb1-7902-39a8-884e-e400759ecdd8",
+                "language": null,
+                "type-id": null
+            },
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "direction": "forward",
+            "type": "dedication",
+            "type-id": "26131498-00e8-4136-b937-22a4be01a63d"
+        },
+        {
+            "ended": false,
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "dedication",
+            "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "work": {
+                "type": null,
+                "iswcs": [],
+                "id": "ad71c9f7-47e6-4517-876f-5ea96d35c818",
+                "type-id": null,
+                "language": "zxx",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "Die Kunst einer Fuge: I. Quatuor für Johann Sebastian Bach",
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "work": {
+                "title": "Erste Suite e-Moll, op. 16 \"Den Manen Johann Sebastian Bachs\"",
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "disambiguation": "",
+                "iswcs": [],
+                "type": "Suite",
+                "language": "zxx",
+                "type-id": "212bf9fb-ce4f-396e-87ca-3db671c085fb",
+                "id": "539e75a4-9bd9-430f-a051-cb68a2aa7feb"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+            "type": "dedication",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "work",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "work": {
+                "type": "Concerto",
+                "iswcs": [],
+                "id": "83becdd6-fd30-476b-b08e-27bad05b6dd7",
+                "language": "zxx",
+                "type-id": "dad81031-607b-3039-bd5b-80c0f4575272",
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "Concerto G-Dur (nach Johann Ernst von Sachsen-Weimar), BWV 592",
+                "disambiguation": ""
+            },
+            "attribute-ids": {
+                "pipe organ": "39d85868-3476-45cc-94d0-3d43e3135921"
+            },
+            "attribute-values": [],
+            "type-id": "0084e70a-873e-4f7f-b3ff-635b9e863dae",
+            "type": "instrument arranger",
+            "direction": "forward",
+            "target-type": "work",
+            "attributes": [
+                "pipe organ"
+            ],
+            "end": "1714",
+            "begin": "1713",
+            "ended": true,
+            "attribute-credits": []
+        },
+        {
+            "type": "instrument arranger",
+            "type-id": "0084e70a-873e-4f7f-b3ff-635b9e863dae",
+            "target-type": "work",
+            "end": null,
+            "attributes": [
+                "pipe organ"
+            ],
+            "begin": null,
+            "attribute-credits": [],
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": {
+                "pipe organ": "39d85868-3476-45cc-94d0-3d43e3135921"
+            },
+            "attribute-values": [],
+            "work": {
+                "disambiguation": "Arrangement from Les Nation by Francois Couperin, probably an early version",
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "Aria F-Dur, BWV 587",
+                "id": "528d83bd-44a3-3c58-890c-ff8df95896a5",
+                "language": "zxx",
+                "type-id": "ae801f48-7a7f-3af6-91c7-456f82dae8a9",
+                "type": "Aria",
+                "iswcs": []
+            },
+            "target-credit": ""
+        },
+        {
+            "type-id": "0084e70a-873e-4f7f-b3ff-635b9e863dae",
+            "type": "instrument arranger",
+            "direction": "forward",
+            "begin": null,
+            "end": null,
+            "target-type": "work",
+            "attributes": [
+                "pipe organ"
+            ],
+            "attribute-credits": [],
+            "ended": false,
+            "source-credit": "",
+            "work": {
+                "type": null,
+                "iswcs": [],
+                "id": "f7c42cc5-9ab4-4b22-a1eb-b3dc2b9ade4f",
+                "type-id": null,
+                "language": "zxx",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "Concerto C-Dur (nach A. Vivaldi, RV 208), BWV 594",
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "pipe organ": "39d85868-3476-45cc-94d0-3d43e3135921"
+            }
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "work": {
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "Concerto C-Dur (nach Johann Ernst von Sachsen-Weimar), BWV 595",
+                "disambiguation": "arr. Cyril Scott for piano duo",
+                "type": "Concerto",
+                "iswcs": [],
+                "id": "c260bd72-8f1c-4538-9d2a-0c2b59cb9194",
+                "language": "zxx",
+                "type-id": "dad81031-607b-3039-bd5b-80c0f4575272"
+            },
+            "target-credit": "",
+            "type": "instrument arranger",
+            "type-id": "0084e70a-873e-4f7f-b3ff-635b9e863dae",
+            "begin": null,
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+            "ended": false,
+            "target-type": "work",
+            "end": null,
+            "attributes": [
+                "additional"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": {
+                "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "work": {
+                "language": null,
+                "type-id": null,
+                "id": "bbcf2df4-0507-3241-9502-6138ceb295ab",
+                "iswcs": [],
+                "type": null,
+                "disambiguation": "",
+                "title": "It Is Not Sound",
+                "languages": [],
+                "attributes": []
+            }
+        },
+        {
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+            "type": "lyricist",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "target-type": "work",
+            "attributes": [],
+            "source-credit": "",
+            "work": {
+                "disambiguation": "",
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "title": "Letters from Composers: IV. J. S. Bach to the Town Council",
+                "id": "482cfc9a-03f2-4b68-b7c4-2c08c6e11e3b",
+                "language": "eng",
+                "type-id": null,
+                "type": null,
+                "iswcs": []
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "type-id": "7231dcac-d2dc-4b4a-b218-ecea4123a4cd",
+            "type": "previous attribution",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "source-credit": "",
+            "work": {
+                "type": null,
+                "iswcs": [],
+                "id": "0ff01b4a-081e-4840-a98a-ab0e3818d83d",
+                "type-id": null,
+                "language": "zxx",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "\"Schmücke dich, o liebe Seele\", BWV Anh. 74",
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "attributes": [],
+            "target-type": "work",
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "type": "previous attribution",
+            "type-id": "7231dcac-d2dc-4b4a-b218-ecea4123a4cd",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "work": {
+                "iswcs": [],
+                "type": "Song",
+                "language": "deu",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "id": "f981c5c2-62ae-4c67-a539-f633996963b6",
+                "title": "\"So oft ich meine TobacksPfeife\" BWV 515b",
+                "languages": [
+                    "deu"
+                ],
+                "attributes": [],
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "type": "previous attribution",
+            "type-id": "7231dcac-d2dc-4b4a-b218-ecea4123a4cd",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "work": {
+                "language": null,
+                "type-id": null,
+                "id": "ddcfea7e-30ec-38f2-9ed2-7431614b83b9",
+                "iswcs": [],
+                "type": null,
+                "disambiguation": "",
+                "title": "Ach Gott und Herr, BWV 692",
+                "languages": [],
+                "attributes": []
+            },
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "type": "revised by",
+            "type-id": "eeb9c319-9fde-4313-b76d-29db1576aad8",
+            "ended": true,
+            "begin": "1724",
+            "target-type": "work",
+            "end": "1724",
+            "attributes": [],
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "work": {
+                "title": "Kantate, BWV 4 „Christ lag in Todesbanden“",
+                "languages": [
+                    "deu"
+                ],
+                "attributes": [],
+                "disambiguation": "Leipzig version, commonly recorded",
+                "iswcs": [],
+                "type": "Cantata",
+                "language": "deu",
+                "type-id": "0db2f555-15f9-393f-af4c-739db5711146",
+                "id": "95ee25ab-dd51-4d08-8800-3945264e10ea"
+            },
+            "target-credit": ""
+        },
+        {
+            "type": "revised by",
+            "type-id": "eeb9c319-9fde-4313-b76d-29db1576aad8",
+            "ended": true,
+            "begin": "1725",
+            "attributes": [],
+            "target-type": "work",
+            "end": "1725",
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "work": {
+                "languages": [
+                    "deu"
+                ],
+                "attributes": [],
+                "title": "Kantate, BWV 4 „Christ lag in Todesbanden“",
+                "disambiguation": "Leipzig version, commonly recorded",
+                "type": "Cantata",
+                "iswcs": [],
+                "id": "95ee25ab-dd51-4d08-8800-3945264e10ea",
+                "language": "deu",
+                "type-id": "0db2f555-15f9-393f-af4c-739db5711146"
+            }
+        },
+        {
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "type": "writer",
+            "direction": "forward",
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "work": {
+                "iswcs": [],
+                "type": "Song",
+                "language": null,
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "id": "b559ba62-1bb5-444f-865d-742f660b5291",
+                "title": "Art of the Fugue (source)",
+                "languages": [],
+                "attributes": [],
+                "disambiguation": ""
+            },
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "source-credit": "",
+            "work": {
+                "disambiguation": "catch all for arrangements",
+                "attributes": [],
+                "languages": [],
+                "title": "Canon a 4 perpetuus, BWV 1073",
+                "id": "30f79ecb-fca6-43de-9fc0-6a85deddb9f8",
+                "type-id": null,
+                "language": null,
+                "type": null,
+                "iswcs": []
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "type": "writer",
+            "direction": "forward",
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false
+        },
+        {
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "work": {
+                "disambiguation": "from an unfinished Cantata",
+                "title": "Chorale \"Von Gott will ich nicht lassen\"",
+                "languages": [
+                    "deu"
+                ],
+                "attributes": [],
+                "language": "deu",
+                "type-id": null,
+                "id": "79a70f22-656b-4b30-bd40-74ef7d46f1f0",
+                "iswcs": [],
+                "type": null
+            },
+            "source-credit": "",
+            "ended": false,
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+        }
+    ],
+    "life-span": {
+        "begin": "1685-03-21",
+        "end": "1750-07-28",
+        "ended": true
+    },
+    "recordings": [
+        {
+            "length": 313000,
+            "disambiguation": "",
+            "aliases": [],
+            "video": false,
+            "title": "\"Sheep May Safely Graze\"",
+            "id": "3917fcdc-4f9c-4673-a3fc-0c290871904d",
+            "tags": []
+        },
+        {
+            "id": "23159b20-6233-41e5-87df-f9a45b452a98",
+            "tags": [],
+            "disambiguation": "",
+            "length": null,
+            "title": "»O Mensch, bewein dein Sünde groß«, BWV 622",
+            "video": false,
+            "aliases": []
+        },
+        {
+            "length": 88000,
+            "disambiguation": "",
+            "aliases": [],
+            "video": false,
+            "title": "1st Lute Suite in E minor, BWV996: Bouree",
+            "id": "11c7b38a-f78f-473e-918a-195500456001",
+            "tags": []
+        }
+    ],
+    "end-area": {
+        "type": null,
+        "sort-name": "Leipzig",
+        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
+        "name": "Leipzig",
+        "type-id": null,
+        "disambiguation": ""
+    },
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "type": "Person",
+    "tags": [
+        {
+            "count": 1,
+            "name": "bach"
+        },
+        {
+            "name": "baroque",
+            "count": 14
+        },
+        {
+            "count": 1,
+            "name": "bertalan hock"
+        },
+        {
+            "name": "cantata 147",
+            "count": 1
+        }
+    ]
+}

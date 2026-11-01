@@ -1,0 +1,303 @@
+{
+    "created": "2026-11-01T12:54:01.270Z",
+    "count": 66,
+    "offset": 0,
+    "artists": [
+        {
+            "id": "87c5dedd-371d-4a53-9f7f-80522fb7f3cb",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 100,
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "name": "Björk",
+            "sort-name": "Björk",
+            "gender": "female",
+            "country": "IS",
+            "area": {
+                "id": "48802a32-075a-3805-a183-277c66047693",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Iceland",
+                "sort-name": "Iceland",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "e498a3ef-704c-462e-b144-6e6fc108a6f2",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Reykjavík",
+                "sort-name": "Reykjavík",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "ipis": [
+                "00055405100",
+                "00256617158",
+                "00284222376"
+            ],
+            "isnis": [
+                "0000000110013823"
+            ],
+            "life-span": {
+                "begin": "1965-11-21",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Βjörk",
+                    "name": "Βjörk",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Biork",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Biork",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bjцrk",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Bjцrk",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "B󠀱j󠀱ör󠀱k",
+                    "name": "B󠀱j󠀱ör󠀱k",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bjork",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Bjork",
+                    "locale": "en",
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Björk",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "ビョーク",
+                    "locale": "ja",
+                    "type": "Artist name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Guðmundsdóttir, Björk",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Björk Guðmundsdóttir",
+                    "locale": "is",
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": "1965-11-21",
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 0,
+                    "name": "trip-hop"
+                },
+                {
+                    "count": 2,
+                    "name": "rock"
+                }
+            ]
+        },
+        {
+            "id": "9c17713b-14f7-47ee-b0ba-87802d186aab",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 74,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Brant Bjork",
+            "sort-name": "Bjork, Brant",
+            "gender": "male",
+            "country": "US",
+            "area": {
+                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United States",
+                "sort-name": "United States",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1973-03-19",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Brant Bjork & the Operators",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Brant Bjork & the Operators",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Brant Bjork & the Bros",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Brant Bjork & the Bros",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 0,
+                    "name": "rock"
+                },
+                {
+                    "count": 0,
+                    "name": "heavy metal"
+                }
+            ]
+        },
+        {
+            "id": "19a151ce-f7fa-4bf5-9abe-18964992cfcb",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 63,
+            "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+            "name": "Hera Björk",
+            "sort-name": "Hera Björk",
+            "gender": "female",
+            "country": "IS",
+            "area": {
+                "id": "48802a32-075a-3805-a183-277c66047693",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Iceland",
+                "sort-name": "Iceland",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "e498a3ef-704c-462e-b144-6e6fc108a6f2",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Reykjavík",
+                "sort-name": "Reykjavík",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "isnis": [
+                "0000000461614364"
+            ],
+            "life-span": {
+                "begin": "1972-03-29",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Hera Björk Þórhallsdóttir",
+                    "type-id": "d4dcd0c0-b341-3612-a332-c0ce797b25cf",
+                    "name": "Hera Björk Þórhallsdóttir",
+                    "locale": "is",
+                    "type": "Legal name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "eurovision 2024 artists"
+                }
+            ]
+        },
+        {
+            "id": "51a23bc0-61df-4ec0-adce-dc38a28c48d4",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 63,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Harald Björk",
+            "sort-name": "Björk, Harald",
+            "gender": "male",
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Bjoerk, Harald",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Harald Bjoerk",
+                    "locale": null,
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Bjork, Harald",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "Harald Bjork",
+                    "locale": null,
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "6a276be8-dc5d-44bc-8de8-aba5201fcf60",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "score": 61,
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "name": "Jon Björk",
+            "sort-name": "Björk, Jon",
+            "gender": "male",
+            "country": "SE",
+            "area": {
+                "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Sweden",
+                "sort-name": "Sweden",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "Swedish composer",
+            "life-span": {
+                "ended": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,244 @@
+{
+    "created": "2026-11-01T12:54:00.199Z",
+    "count": 31,
+    "offset": 0,
+    "artists": [
+        {
+            "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 100,
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "c249c30e-88ab-4b2f-a745-96a25bd7afee",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Liverpool",
+                "sort-name": "Liverpool",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "UK rock band, “The Fab Four”",
+            "isnis": [
+                "0000000121707484"
+            ],
+            "life-span": {
+                "begin": "1960-03-27",
+                "end": "1970-04-10",
+                "ended": true
+            },
+            "aliases": [
+                {
+                    "sort-name": "ビートルズ",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "ビートルズ",
+                    "locale": "ja",
+                    "type": "Artist name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "ビートルズ（ザ）",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "ザ・ビートルズ",
+                    "locale": "ja",
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "비틀스",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "비틀스",
+                    "locale": "ko",
+                    "type": "Artist name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "披头士乐队",
+                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                    "name": "披头士乐队",
+                    "locale": "zh_Hans_CN",
+                    "type": "Artist name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "披頭四樂團",
+                    "name": "披頭四樂團",
+                    "locale": "zh_Hant",
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Beetles",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "Beetles",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "fab four",
+                    "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                    "name": "fab four",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 50,
+                    "name": "rock"
+                },
+                {
+                    "count": 31,
+                    "name": "pop"
+                }
+            ]
+        },
+        {
+            "id": "0f697bc6-6df7-41c9-b550-39981e520d70",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 60,
+            "name": "The Beatles Revival Band",
+            "sort-name": "Beatles Revival Band, The",
+            "country": "DE",
+            "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Germany",
+                "sort-name": "Germany",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "16560d3e-358b-4869-8a6d-727db2ee7b69",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Frankfurt am Main",
+                "sort-name": "Frankfurt am Main",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "German cover band",
+            "isnis": [
+                "0000000121858514"
+            ],
+            "life-span": {
+                "begin": "1976",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Beatles Revival Band",
+                    "name": "Beatles Revival Band",
+                    "locale": null,
+                    "type": null,
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "aln-sh"
+                }
+            ]
+        },
+        {
+            "id": "9d953ee6-4ea6-4b0e-aea6-7268d380bef1",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 58,
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "SiIvaGunner collaboration",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "daf68253-e023-4128-a92a-82896093c67f",
+            "score": 56,
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "disambiguation": "punk/lofi; published on Wheelchair Full of Old Men",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "8d3431db-bc83-4dc2-93b8-0e46e31d09f7",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "score": 56,
+            "name": "The Beatles",
+            "sort-name": "Beatles, The",
+            "area": {
+                "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Philadelphia",
+                "sort-name": "Philadelphia",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "begin-area": {
+                "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Philadelphia",
+                "sort-name": "Philadelphia",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "end-area": {
+                "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Philadelphia",
+                "sort-name": "Philadelphia",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "disambiguation": "1960s Philadelphia doo-wop group",
+            "life-span": {
+                "ended": true
+            }
+        }
+    ]
+}

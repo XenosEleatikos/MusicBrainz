@@ -1,0 +1,41 @@
+{
+    "cover-art-archive": {
+        "back": true,
+        "front": true,
+        "artwork": true,
+        "count": 2,
+        "darkened": false
+    },
+    "title": "Abbey Road",
+    "packaging": "Gatefold Cover",
+    "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "release-events": [
+        {
+            "area": {
+                "type": null,
+                "sort-name": "Europe",
+                "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                "name": "Europe",
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "XE"
+                ],
+                "type-id": null
+            },
+            "date": "2019-09-27"
+        }
+    ],
+    "date": "2019-09-27",
+    "status": "Official",
+    "id": "8c6a00d5-8673-4aad-8192-5fe8649b5efa",
+    "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+    },
+    "quality": "normal",
+    "country": "XE",
+    "disambiguation": "2 CD Anniversary Edition",
+    "barcode": "602577915079",
+    "asin": null
+}

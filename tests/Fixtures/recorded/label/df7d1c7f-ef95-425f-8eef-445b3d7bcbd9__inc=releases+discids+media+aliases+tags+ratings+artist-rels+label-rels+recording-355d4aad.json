@@ -1,0 +1,1848 @@
+{
+    "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
+    "relations": [
+        {
+            "attribute-values": [],
+            "end": "2005",
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "direction": "backward",
+            "ended": true,
+            "artist": {
+                "name": "Empire",
+                "disambiguation": "English new wave pop",
+                "country": "GB",
+                "type": "Group",
+                "sort-name": "Empire",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "ae7bd860-4f9e-4cbf-92cf-a661d262ea9c"
+            },
+            "attribute-ids": [],
+            "begin": "1987",
+            "target-type": "artist",
+            "source-credit": "",
+            "type": "recording contract",
+            "target-credit": "",
+            "attributes": []
+        },
+        {
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "artist": {
+                "country": "AU",
+                "disambiguation": "",
+                "type": "Group",
+                "sort-name": "SAFIA",
+                "name": "SAFIA",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "0b88686a-5ed4-4c66-960e-77e9b2981b8a"
+            },
+            "attribute-values": [],
+            "type": "recording contract",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "begin": "2015",
+            "target-type": "artist",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "recording contract",
+            "target-type": "artist",
+            "begin": null,
+            "attribute-ids": [],
+            "artist": {
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+                "type": "Group",
+                "sort-name": "Coldplay",
+                "country": "GB",
+                "disambiguation": "",
+                "name": "Coldplay"
+            },
+            "ended": false,
+            "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+            "end": null,
+            "direction": "backward",
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "direction": "backward",
+            "end": "2013",
+            "type-id": "23f8c592-006d-4214-9080-c4e5000c05d7",
+            "ended": true,
+            "label": {
+                "label-code": null,
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                "name": "EMI Records Ltd.",
+                "type": "Holding",
+                "sort-name": "EMI Records Ltd.",
+                "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012"
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "label",
+            "type": "imprint",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "begin": null,
+            "target-type": "label",
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "imprint",
+            "source-credit": "Parlophone UK",
+            "attribute-values": [],
+            "label": {
+                "label-code": null,
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "id": "e956d1d0-63dd-4a44-8680-cadc00587095",
+                "name": "Parlophone Records Ltd.",
+                "type": "Holding",
+                "sort-name": "Parlophone Records Ltd.",
+                "disambiguation": "not for release label use! a Warner Music Group company"
+            },
+            "ended": false,
+            "direction": "backward",
+            "type-id": "23f8c592-006d-4214-9080-c4e5000c05d7",
+            "end": null
+        },
+        {
+            "target-credit": "",
+            "type": "imprint",
+            "source-credit": "",
+            "target-type": "label",
+            "begin": null,
+            "attribute-ids": [],
+            "label": {
+                "label-code": null,
+                "id": "79a28420-8f8c-46d6-987b-63c250d8b74b",
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                "name": "The Gramophone Co., Ltd.",
+                "disambiguation": "UK record company",
+                "sort-name": "The Gramophone Co., Ltd.",
+                "type": "Original Production"
+            },
+            "type-id": "23f8c592-006d-4214-9080-c4e5000c05d7",
+            "end": null,
+            "direction": "backward",
+            "ended": false,
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "target-credit": "",
+            "type": "label ownership",
+            "source-credit": "",
+            "begin": "2013-02",
+            "target-type": "label",
+            "attribute-ids": [],
+            "label": {
+                "type": "Holding",
+                "sort-name": "Warner Music Group Corp.",
+                "disambiguation": "holding company spun off from Time Warner – file NO releases",
+                "name": "Warner Music Group Corp.",
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "id": "85010168-8987-4540-a058-296d426c3981",
+                "label-code": 14666
+            },
+            "end": null,
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "direction": "backward",
+            "ended": false,
+            "attribute-values": []
+        },
+        {
+            "target-credit": "",
+            "source-credit": "",
+            "type": "label ownership",
+            "target-type": "label",
+            "begin": null,
+            "attribute-ids": [],
+            "label": {
+                "label-code": 542,
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                "id": "c029628b-6633-439e-bcee-ed02e8a338f7",
+                "name": "EMI",
+                "disambiguation": "EMI Records, or EMI Music only if there is no other imprint",
+                "type": "Original Production",
+                "sort-name": "EMI"
+            },
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "direction": "backward",
+            "end": "2013",
+            "ended": true,
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "begin": null,
+            "target-type": "label",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "label ownership",
+            "attribute-values": [],
+            "label": {
+                "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                "id": "724611ee-b61b-4146-ae8f-37af4fb9b9da",
+                "label-code": 8280,
+                "disambiguation": "",
+                "type": "Original Production",
+                "sort-name": "Deconstruction",
+                "name": "Deconstruction"
+            },
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "end": null,
+            "direction": "forward",
+            "ended": false,
+            "attributes": []
+        },
+        {
+            "attribute-values": [],
+            "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+            "end": "1955",
+            "direction": "forward",
+            "ended": true,
+            "begin": "1955",
+            "target-type": "recording",
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "attributes": [],
+            "recording": {
+                "disambiguation": "",
+                "length": 478000,
+                "id": "94353f83-8b71-45e7-a274-5219ac039d23",
+                "title": "Piano Concerto no. 3 in G major, op. 15: I. Allegro (Arr. Barblan)",
+                "video": false
+            }
+        },
+        {
+            "attributes": [],
+            "recording": {
+                "title": "Piano Concerto no. 3 in G major, op. 15: II. Rondo (Arr. Barblan)",
+                "video": false,
+                "disambiguation": "",
+                "id": "390440b2-263c-4769-bf2b-f42164486342",
+                "length": 317000
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "begin": "1955",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": true,
+            "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+            "direction": "forward",
+            "end": "1955"
+        },
+        {
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "recording",
+            "begin": "1957",
+            "end": "1957",
+            "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+            "direction": "forward",
+            "ended": true,
+            "attribute-values": [],
+            "recording": {
+                "length": 943000,
+                "id": "d6669db2-1499-4bef-8d20-1779ace03685",
+                "disambiguation": "",
+                "title": "Concerto in E minor for cello and orchestra: I. Allegro moderato",
+                "video": false
+            },
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "source-credit": "",
+            "type": "copyright",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "disambiguation": "",
+                "country": "XW",
+                "status": null,
+                "packaging": null,
+                "id": "b2dc3f00-e122-446b-bd0c-408b15e239d9",
+                "media": [],
+                "text-representation": {
+                    "language": "fra",
+                    "script": "Latn"
+                },
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2017-04-14",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "type-id": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "[Worldwide]",
+                            "name": "[Worldwide]"
+                        }
+                    }
+                ],
+                "packaging-id": null,
+                "title": "Sad Hill",
+                "date": "2017-04-14",
+                "barcode": "724384510855",
+                "quality": "normal"
+            },
+            "begin": "1997",
+            "target-type": "release",
+            "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+            "direction": "forward",
+            "end": "1997",
+            "ended": true,
+            "attribute-values": []
+        },
+        {
+            "ended": true,
+            "direction": "forward",
+            "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+            "end": "1998",
+            "attribute-values": [],
+            "type": "copyright",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "media": [],
+                "id": "2b0aac51-b81d-4298-bb69-8489339b8c06",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "explicit",
+                "country": "XW",
+                "quality": "normal",
+                "barcode": "724384596552",
+                "date": "2003-03-03",
+                "title": "Quelques gouttes suffisent…",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "[Worldwide]",
+                            "sort-name": "[Worldwide]",
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ]
+                        },
+                        "date": "2003-03-03"
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "language": "fra",
+                    "script": "Latn"
+                }
+            },
+            "begin": "1998",
+            "target-type": "release",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "attribute-values": [],
+            "direction": "forward",
+            "end": "2001",
+            "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+            "ended": true,
+            "begin": "2001",
+            "target-type": "release",
+            "attribute-ids": [],
+            "release": {
+                "id": "3aa7ad8b-884a-4ab7-bb8a-5db0a92bb8f7",
+                "media": [],
+                "disambiguation": "",
+                "country": null,
+                "packaging": null,
+                "status": null,
+                "quality": "normal",
+                "barcode": "0094633595859",
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "area": null,
+                        "date": "2005-08-29"
+                    }
+                ],
+                "status-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "date": "2005-08-29",
+                "title": "Eple"
+            },
+            "target-credit": "",
+            "source-credit": "",
+            "type": "copyright"
+        },
+        {
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "distributed",
+            "target-type": "release",
+            "begin": null,
+            "attribute-ids": [],
+            "release": {
+                "packaging": null,
+                "status": null,
+                "country": "CZ",
+                "disambiguation": "",
+                "media": [],
+                "id": "c4d6fdd6-7dc4-4901-8ce6-7bb5a946bd73",
+                "date": "2012-04-30",
+                "title": "Dáreček",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2012-04-30",
+                        "area": {
+                            "sort-name": "Czechia",
+                            "type": null,
+                            "disambiguation": "",
+                            "name": "Czechia",
+                            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "CZ"
+                            ]
+                        }
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "ces"
+                },
+                "quality": "normal",
+                "barcode": "8594165700025"
+            },
+            "ended": true,
+            "type-id": "4f89b0a1-e135-41e4-94a7-e3d2a95f31a1",
+            "end": "2013",
+            "direction": "forward",
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "4f89b0a1-e135-41e4-94a7-e3d2a95f31a1",
+            "end": null,
+            "ended": false,
+            "target-type": "release",
+            "begin": null,
+            "release": {
+                "disambiguation": "",
+                "country": "XE",
+                "status": null,
+                "packaging": null,
+                "id": "52103a27-7376-4c0d-9793-75b43a85b066",
+                "media": [],
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "Europe",
+                            "disambiguation": "",
+                            "sort-name": "Europe",
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "XE"
+                            ],
+                            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                            "type-id": null
+                        },
+                        "date": "2021"
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "date": "2021",
+                "title": "Gorillaz",
+                "quality": "normal",
+                "barcode": "724353113810"
+            },
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "distributed",
+            "attributes": []
+        },
+        {
+            "ended": true,
+            "end": "2021",
+            "direction": "forward",
+            "type-id": "e77cb4ab-a438-43ad-9200-0d9bbf68b378",
+            "attribute-values": [],
+            "type": "licensee",
+            "source-credit": "Parlophone Records Limited",
+            "target-credit": "",
+            "release": {
+                "barcode": "",
+                "quality": "normal",
+                "title": "Heimcomputer",
+                "date": "2021-05-11",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "deu"
+                },
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "date": "2021-05-11",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "type-id": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "name": "Germany",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "Germany"
+                        }
+                    }
+                ],
+                "status-id": null,
+                "media": [],
+                "id": "dcbeb0bc-9601-40bc-895f-ca7a7a641b5c",
+                "packaging": null,
+                "status": null,
+                "country": "DE",
+                "disambiguation": "Musikexpress, Heft, Juni 06/2021"
+            },
+            "attribute-ids": [],
+            "target-type": "release",
+            "begin": "2021",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "attribute-ids": [],
+            "release": {
+                "quality": "normal",
+                "barcode": "190295570378",
+                "date": "2018-09-14",
+                "title": "7",
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2018-09-14",
+                        "area": {
+                            "name": "[Worldwide]",
+                            "type": null,
+                            "sort-name": "[Worldwide]",
+                            "disambiguation": "",
+                            "type-id": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ]
+                        }
+                    }
+                ],
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "media": [],
+                "id": "5e86aa55-5ff5-42e8-90b8-3e2801c0457b",
+                "status": null,
+                "packaging": null,
+                "country": "XW",
+                "disambiguation": ""
+            },
+            "begin": null,
+            "target-type": "release",
+            "source-credit": "",
+            "type": "licensee",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "e77cb4ab-a438-43ad-9200-0d9bbf68b378",
+            "end": null,
+            "ended": false
+        },
+        {
+            "attributes": [],
+            "source-credit": "",
+            "type": "licensee",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "disambiguation": "",
+                "country": "US",
+                "status": null,
+                "packaging": null,
+                "media": [],
+                "id": "516ecdf7-234a-4f38-8006-ff81449237a7",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "name": "United States",
+                            "sort-name": "United States",
+                            "type": null,
+                            "disambiguation": ""
+                        },
+                        "date": "2018-09-14"
+                    },
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "CA"
+                            ],
+                            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                            "type-id": null,
+                            "name": "Canada",
+                            "disambiguation": "",
+                            "sort-name": "Canada",
+                            "type": null
+                        },
+                        "date": ""
+                    },
+                    {
+                        "area": {
+                            "name": "Mexico",
+                            "disambiguation": "",
+                            "sort-name": "Mexico",
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "MX"
+                            ],
+                            "id": "3e08b2cd-69f3-317c-b1e4-e71be581839e",
+                            "type-id": null
+                        },
+                        "date": ""
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "date": "2018-09-14",
+                "title": "7",
+                "quality": "normal",
+                "barcode": "190295560034"
+            },
+            "target-type": "release",
+            "begin": null,
+            "direction": "forward",
+            "type-id": "e77cb4ab-a438-43ad-9200-0d9bbf68b378",
+            "end": null,
+            "ended": false,
+            "attribute-values": []
+        },
+        {
+            "attributes": [],
+            "ended": false,
+            "type-id": "45a18e5d-b610-412f-acfc-c43ca835c24f",
+            "direction": "forward",
+            "end": null,
+            "attribute-values": [],
+            "type": "licensor",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "media": [],
+                "id": "5dacb6f1-b2b2-46b0-b6b0-5b4d5266cec3",
+                "disambiguation": "",
+                "country": "DK",
+                "packaging": null,
+                "status": null,
+                "quality": "normal",
+                "barcode": "5099901953053",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "DK"
+                            ],
+                            "id": "4757b525-2a60-324a-b060-578765d2c993",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "sort-name": "Denmark",
+                            "type": null,
+                            "name": "Denmark"
+                        },
+                        "date": "2013-04-12"
+                    },
+                    {
+                        "area": {
+                            "name": "Norway",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "Norway",
+                            "iso-3166-1-codes": [
+                                "NO"
+                            ],
+                            "type-id": null,
+                            "id": "6743d351-6f37-3049-9724-5041161fff4d"
+                        },
+                        "date": "2013-04-12"
+                    },
+                    {
+                        "area": {
+                            "name": "Sweden",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "Sweden",
+                            "iso-3166-1-codes": [
+                                "SE"
+                            ],
+                            "type-id": null,
+                            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb"
+                        },
+                        "date": "2013-04-12"
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "date": "2013-04-12",
+                "title": "Am I Wrong"
+            },
+            "target-type": "release",
+            "begin": null
+        },
+        {
+            "attributes": [],
+            "attribute-ids": [],
+            "release": {
+                "quality": "normal",
+                "barcode": "5054197155130",
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "AF"
+                            ],
+                            "id": "aa95182f-df0a-3ad6-8bfb-4b63482cd276",
+                            "type-id": null,
+                            "name": "Afghanistan",
+                            "disambiguation": "",
+                            "sort-name": "Afghanistan",
+                            "type": null
+                        },
+                        "date": "2022-07-08"
+                    },
+                    {
+                        "date": "2022-07-08",
+                        "area": {
+                            "disambiguation": "",
+                            "sort-name": "Albania",
+                            "type": null,
+                            "name": "Albania",
+                            "iso-3166-1-codes": [
+                                "AL"
+                            ],
+                            "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc",
+                            "type-id": null
+                        }
+                    },
+                    {
+                        "date": "2022-07-08",
+                        "area": {
+                            "type-id": null,
+                            "id": "28242750-534a-326b-8ed6-1b03dfb88cd0",
+                            "iso-3166-1-codes": [
+                                "DZ"
+                            ],
+                            "type": null,
+                            "sort-name": "Algeria",
+                            "disambiguation": "",
+                            "name": "Algeria"
+                        }
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "fra"
+                },
+                "date": "2022-07-08",
+                "title": "Diamant",
+                "id": "4a0e0d11-ee7f-4f9c-aaaf-43c3bd74b31b",
+                "media": [],
+                "disambiguation": "",
+                "country": "AF",
+                "status": null,
+                "packaging": null
+            },
+            "begin": null,
+            "target-type": "release",
+            "source-credit": "",
+            "type": "licensor",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": false,
+            "direction": "forward",
+            "end": null,
+            "type-id": "45a18e5d-b610-412f-acfc-c43ca835c24f"
+        },
+        {
+            "begin": null,
+            "target-type": "release",
+            "release": {
+                "country": "CZ",
+                "disambiguation": "",
+                "status": null,
+                "packaging": null,
+                "id": "c4d6fdd6-7dc4-4901-8ce6-7bb5a946bd73",
+                "media": [],
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "Czechia",
+                            "sort-name": "Czechia",
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "CZ"
+                            ]
+                        },
+                        "date": "2012-04-30"
+                    }
+                ],
+                "text-representation": {
+                    "language": "ces",
+                    "script": "Latn"
+                },
+                "date": "2012-04-30",
+                "title": "Dáreček",
+                "quality": "normal",
+                "barcode": "8594165700025"
+            },
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "marketed",
+            "attribute-values": [],
+            "type-id": "543a0464-52f0-4282-b8b0-080ca03395a0",
+            "end": "2013",
+            "direction": "forward",
+            "ended": true,
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "direction": "forward",
+            "type-id": "543a0464-52f0-4282-b8b0-080ca03395a0",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "type": "marketed",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "media": [],
+                "id": "24021392-fa8d-4ed4-a8ef-dbcb91dbc719",
+                "disambiguation": "",
+                "country": "GB",
+                "status": null,
+                "packaging": null,
+                "barcode": "724388142625",
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "name": "United Kingdom",
+                            "sort-name": "United Kingdom",
+                            "type": null,
+                            "disambiguation": ""
+                        },
+                        "date": "1994-05-31"
+                    }
+                ],
+                "title": "Absolutely Fabulous",
+                "date": "1994-05-31"
+            },
+            "target-type": "release",
+            "begin": null
+        },
+        {
+            "attributes": [],
+            "source-credit": "",
+            "type": "marketed",
+            "target-credit": "",
+            "attribute-ids": [],
+            "release": {
+                "barcode": "724388144322",
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                            "iso-3166-1-codes": [
+                                "GB"
+                            ],
+                            "type": null,
+                            "sort-name": "United Kingdom",
+                            "disambiguation": "",
+                            "name": "United Kingdom"
+                        },
+                        "date": "1994"
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null,
+                "title": "Change",
+                "date": "1994",
+                "media": [],
+                "id": "dcbc786c-3f1f-479e-95d9-73c602e68118",
+                "country": "GB",
+                "disambiguation": "",
+                "status": null,
+                "packaging": null
+            },
+            "begin": null,
+            "target-type": "release",
+            "type-id": "543a0464-52f0-4282-b8b0-080ca03395a0",
+            "end": null,
+            "direction": "forward",
+            "ended": false,
+            "attribute-values": []
+        },
+        {
+            "attributes": [
+                "re"
+            ],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "mastering",
+            "target-type": "release",
+            "begin": "2021",
+            "release": {
+                "status": null,
+                "packaging": null,
+                "disambiguation": "2021 remaster",
+                "country": null,
+                "media": [],
+                "id": "e6bd7246-2477-444a-842c-29176b90621e",
+                "date": "2021-05-21",
+                "title": "The Legendary 1965 Recording",
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": null,
+                        "date": "2021-05-21"
+                    }
+                ],
+                "text-representation": {
+                    "script": "Latn",
+                    "language": null
+                },
+                "quality": "normal",
+                "barcode": "190296697487"
+            },
+            "attribute-ids": {
+                "re": "9b72452f-550e-4ace-93ed-fb8789cdc245"
+            },
+            "ended": true,
+            "type-id": "50794e8d-ee64-4baa-a593-f0a44176e622",
+            "direction": "forward",
+            "end": "2021",
+            "attribute-values": []
+        },
+        {
+            "type": "mastering",
+            "source-credit": "",
+            "target-credit": "",
+            "release": {
+                "release-events": [
+                    {
+                        "date": "2021-06-04",
+                        "area": {
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "[Worldwide]",
+                            "name": "[Worldwide]",
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "type-id": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+                        }
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "mul"
+                },
+                "date": "2021-06-04",
+                "title": "The Legendary 1965 Recording",
+                "quality": "normal",
+                "barcode": "0190296697678",
+                "country": "XW",
+                "disambiguation": "",
+                "packaging": null,
+                "status": null,
+                "id": "cdd2da36-2bd0-4ed4-a764-9fd844790c20",
+                "media": []
+            },
+            "attribute-ids": {
+                "re": "9b72452f-550e-4ace-93ed-fb8789cdc245"
+            },
+            "target-type": "release",
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "end": null,
+            "type-id": "50794e8d-ee64-4baa-a593-f0a44176e622",
+            "attribute-values": [],
+            "attributes": [
+                "re"
+            ]
+        },
+        {
+            "type": "misc",
+            "source-credit": "Parlophone Records",
+            "target-credit": "",
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "release": {
+                "barcode": "00198704098413",
+                "quality": "normal",
+                "title": "Paint the Town Blue",
+                "date": "2024-09-07",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "type": null,
+                            "sort-name": "[Worldwide]",
+                            "disambiguation": "",
+                            "name": "[Worldwide]"
+                        },
+                        "date": "2024-09-07"
+                    }
+                ],
+                "status-id": null,
+                "media": [],
+                "id": "5403ea35-1b6e-4c7e-b3ae-5065597873da",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "",
+                "country": "XW"
+            },
+            "target-type": "release",
+            "begin": null,
+            "ended": false,
+            "type-id": "2266eb23-5fab-4aa3-8d2c-ad6d42df8568",
+            "end": null,
+            "direction": "forward",
+            "attribute-values": {
+                "task": "Ashnikko appears courtesy of"
+            },
+            "attributes": [
+                "task"
+            ]
+        },
+        {
+            "attribute-values": {
+                "task": "Ashnikko appears courtesy of"
+            },
+            "type-id": "2266eb23-5fab-4aa3-8d2c-ad6d42df8568",
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "target-type": "release",
+            "begin": null,
+            "release": {
+                "status": null,
+                "packaging": null,
+                "disambiguation": "",
+                "country": null,
+                "media": [],
+                "id": "85c992b1-7414-4d39-8a00-369bd43d523b",
+                "title": "Paint the Town Blue",
+                "date": "2024-09-07",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2024-09-07",
+                        "area": null
+                    }
+                ],
+                "packaging-id": null,
+                "barcode": "198704100130",
+                "quality": "normal"
+            },
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "target-credit": "",
+            "source-credit": "Parlophone Records",
+            "type": "misc",
+            "attributes": [
+                "task"
+            ]
+        },
+        {
+            "target-type": "release",
+            "begin": "1999",
+            "release": {
+                "id": "cdd2da36-2bd0-4ed4-a764-9fd844790c20",
+                "media": [],
+                "disambiguation": "",
+                "country": "XW",
+                "status": null,
+                "packaging": null,
+                "barcode": "0190296697678",
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "mul"
+                },
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2021-06-04",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "sort-name": "[Worldwide]",
+                            "type": null,
+                            "name": "[Worldwide]"
+                        }
+                    }
+                ],
+                "title": "The Legendary 1965 Recording",
+                "date": "2021-06-04"
+            },
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "attribute-values": [],
+            "ended": false,
+            "direction": "forward",
+            "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "phonographic copyright",
+            "target-type": "release",
+            "begin": "1999",
+            "attribute-ids": [],
+            "release": {
+                "media": [],
+                "id": "e6bd7246-2477-444a-842c-29176b90621e",
+                "country": null,
+                "disambiguation": "2021 remaster",
+                "packaging": null,
+                "status": null,
+                "quality": "normal",
+                "barcode": "190296697487",
+                "release-events": [
+                    {
+                        "area": null,
+                        "date": "2021-05-21"
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": null
+                },
+                "date": "2021-05-21",
+                "title": "The Legendary 1965 Recording"
+            },
+            "direction": "forward",
+            "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+            "end": null,
+            "ended": false,
+            "attribute-values": []
+        },
+        {
+            "attributes": [],
+            "end": "2001",
+            "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+            "direction": "forward",
+            "ended": true,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "phonographic copyright",
+            "source-credit": "",
+            "begin": "2001",
+            "target-type": "release",
+            "release": {
+                "media": [],
+                "id": "3aa7ad8b-884a-4ab7-bb8a-5db0a92bb8f7",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "",
+                "country": null,
+                "quality": "normal",
+                "barcode": "0094633595859",
+                "date": "2005-08-29",
+                "title": "Eple",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2005-08-29",
+                        "area": null
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                }
+            },
+            "attribute-ids": []
+        },
+        {
+            "attributes": [],
+            "attribute-values": [],
+            "type-id": "a4c3fb3a-66f8-4362-9507-bb846fe86b64",
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "release": {
+                "date": "2005-11-21",
+                "title": "27 5 94: The Astoria London Live",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "XE"
+                            ],
+                            "type-id": null,
+                            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                            "disambiguation": "",
+                            "type": null,
+                            "sort-name": "Europe",
+                            "name": "Europe"
+                        },
+                        "date": "2005-11-21"
+                    }
+                ],
+                "packaging-id": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "barcode": "0724349141896",
+                "packaging": null,
+                "status": null,
+                "disambiguation": "2005 remaster",
+                "country": "XE",
+                "media": [],
+                "id": "dce07cfb-9916-46d9-a5d6-ef7d157c6b3c"
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "release",
+            "source-credit": "",
+            "type": "produced for",
+            "target-credit": ""
+        },
+        {
+            "url": {
+                "id": "f7388484-8e90-47cb-9fc8-4111f13a274f",
+                "resource": "https://www.discogs.com/label/2294"
+            },
+            "attributes": [],
+            "source-credit": "",
+            "type": "discogs",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "direction": "forward",
+            "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+            "end": null,
+            "ended": false,
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "ended": false,
+            "direction": "forward",
+            "type-id": "b35f7822-bf3c-4148-b306-fb723c63ee8b",
+            "end": null,
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "type": "logo",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "url": {
+                "resource": "http://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Parlophone_logo.svg/500px-Parlophone_logo.svg.png",
+                "id": "caabdd11-be87-44a4-b8c4-8e5e63128748"
+            }
+        },
+        {
+            "attribute-values": [],
+            "ended": false,
+            "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+            "end": null,
+            "direction": "forward",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "type": "official site",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "url": {
+                "resource": "http://www.parlophone.co.uk/",
+                "id": "170e419f-293d-4544-a030-bd924b3d5d54"
+            }
+        },
+        {
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "83eca2b3-5ae1-43f5-a732-56fa9a8591b1",
+            "end": null,
+            "ended": false,
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "source-credit": "",
+            "type": "other databases",
+            "target-credit": "",
+            "attributes": [],
+            "url": {
+                "id": "1dcfa9a1-0129-48cd-a9e9-e7aa2bcaa6c7",
+                "resource": "https://rateyourmusic.com/label/parlophone_records/"
+            }
+        },
+        {
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+            "end": null,
+            "ended": false,
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "Parlophone UK",
+            "type": "purchase for download",
+            "attributes": [],
+            "url": {
+                "resource": "https://www.beatport.com/label/parlophone-uk/34746",
+                "id": "2eedee24-3592-437d-9765-546691b321a9"
+            }
+        },
+        {
+            "attributes": [],
+            "url": {
+                "resource": "https://www.qobuz.com/gb-en/label/parlophone-uk/download-streaming-albums/49020",
+                "id": "b8c116d1-ef88-4d0c-b947-70f05cc91068"
+            },
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "Parlophone UK",
+            "type": "purchase for download",
+            "attribute-values": [],
+            "end": null,
+            "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+            "direction": "forward",
+            "ended": false
+        },
+        {
+            "attribute-values": [],
+            "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+            "end": "2019-04",
+            "direction": "forward",
+            "ended": true,
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "social network",
+            "attributes": [],
+            "url": {
+                "resource": "https://plus.google.com/+ParlophoneCoUk",
+                "id": "b8e9cbef-2faf-49e2-9e33-2bb250b46616"
+            }
+        },
+        {
+            "url": {
+                "id": "835e3f66-43bb-4d7b-9a5a-49ba79d660a4",
+                "resource": "http://parlophone.tumblr.com/"
+            },
+            "attributes": [],
+            "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "social network",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "url",
+            "attribute-ids": []
+        },
+        {
+            "url": {
+                "resource": "https://twitter.com/parlophone",
+                "id": "0fc81b95-b692-4a7e-a53b-ad826041aa61"
+            },
+            "attributes": [],
+            "ended": false,
+            "direction": "forward",
+            "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+            "end": null,
+            "attribute-values": [],
+            "type": "social network",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null
+        },
+        {
+            "url": {
+                "resource": "https://soundcloud.com/parlophone",
+                "id": "012cd2f0-570f-4485-a9ee-d3c8c33a063e"
+            },
+            "attributes": [],
+            "source-credit": "",
+            "type": "soundcloud",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "ended": false,
+            "type-id": "a31d05ba-3b82-47b2-ab8b-1fe73b5459e2",
+            "direction": "forward",
+            "end": null,
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "cbe05bdd-a877-4cc6-8060-7ba43a2516ef",
+            "end": null,
+            "ended": false,
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "streaming",
+            "source-credit": "Parlophone UK",
+            "attributes": [],
+            "url": {
+                "resource": "https://www.qobuz.com/gb-en/label/parlophone-uk/download-streaming-albums/49020",
+                "id": "b8c116d1-ef88-4d0c-b947-70f05cc91068"
+            }
+        },
+        {
+            "attributes": [],
+            "url": {
+                "resource": "https://www.wikidata.org/wiki/Q208909",
+                "id": "cae38fa1-c57f-42ee-8c11-4208a8e1c8e0"
+            },
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "type": "wikidata",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": false,
+            "end": null,
+            "direction": "forward",
+            "type-id": "75d87e83-d927-4580-ba63-44dc76256f98"
+        },
+        {
+            "url": {
+                "resource": "https://www.youtube.com/user/ParlophoneRecords",
+                "id": "75dce595-fb11-4e52-b421-357db3489c87"
+            },
+            "attributes": [],
+            "source-credit": "",
+            "type": "youtube",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "url",
+            "begin": null,
+            "ended": false,
+            "end": null,
+            "direction": "forward",
+            "type-id": "d9c71059-ba9d-4135-b909-481d12cf84e3",
+            "attribute-values": []
+        },
+        {
+            "source-credit": "",
+            "type": "publishing",
+            "target-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "work",
+            "end": null,
+            "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+            "direction": "forward",
+            "ended": false,
+            "attribute-values": [],
+            "work": {
+                "iswcs": [],
+                "id": "5dbd08bd-978e-470e-a464-e6df418a5f4a",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "type": "Song",
+                "disambiguation": "",
+                "title": "Futura Free",
+                "language": "eng"
+            },
+            "attributes": []
+        }
+    ],
+    "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+    "ipis": [],
+    "disambiguation": "",
+    "country": "GB",
+    "rating": {
+        "votes-count": 2,
+        "value": 4
+    },
+    "isnis": [],
+    "sort-name": "Parlophone",
+    "type": "Original Production",
+    "label-code": 299,
+    "annotation": "This imprint is now used Worldwide. Please use this for any release that has just “Parlophone” on label or “Parlophone UK” on digital releases. Please don’t use regional companies, i.e. Parlophone (Australia), etc.",
+    "aliases": [
+        {
+            "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+            "end": null,
+            "ended": false,
+            "primary": null,
+            "type": "Search hint",
+            "sort-name": "Parlaphone",
+            "locale": null,
+            "begin": null,
+            "name": "Parlaphone"
+        },
+        {
+            "primary": true,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "end": null,
+            "ended": false,
+            "begin": null,
+            "name": "Parlophon",
+            "type": "Label name",
+            "sort-name": "Parlophon",
+            "locale": "de"
+        },
+        {
+            "type": "Label name",
+            "sort-name": "Parlophone Records",
+            "locale": "en",
+            "begin": null,
+            "name": "Parlophone Records",
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "end": null,
+            "ended": false,
+            "primary": false
+        },
+        {
+            "sort-name": "Parlophone UK",
+            "type": "Label name",
+            "locale": "en_GB",
+            "name": "Parlophone UK",
+            "begin": null,
+            "ended": false,
+            "end": null,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "primary": false
+        },
+        {
+            "name": "パーロフォン",
+            "begin": null,
+            "locale": "ja",
+            "sort-name": "パーロフォン",
+            "type": "Label name",
+            "primary": true,
+            "ended": false,
+            "end": null,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675"
+        }
+    ],
+    "tags": [
+        {
+            "name": "alternative",
+            "count": 1
+        },
+        {
+            "name": "alternative rock",
+            "count": 1
+        },
+        {
+            "count": 1,
+            "name": "art rock"
+        },
+        {
+            "count": 1,
+            "name": "baroque pop"
+        }
+    ],
+    "name": "Parlophone",
+    "life-span": {
+        "begin": "1896",
+        "ended": false,
+        "end": null
+    },
+    "area": {
+        "name": "United Kingdom",
+        "disambiguation": "",
+        "type": null,
+        "sort-name": "United Kingdom",
+        "iso-3166-1-codes": [
+            "GB"
+        ],
+        "type-id": null,
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed"
+    },
+    "releases": [
+        {
+            "quality": "normal",
+            "barcode": null,
+            "tags": [],
+            "aliases": [],
+            "packaging-id": null,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "date": "1921",
+                    "area": {
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "Netherlands",
+                        "name": "Netherlands",
+                        "iso-3166-1-codes": [
+                            "NL"
+                        ],
+                        "type-id": null,
+                        "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7"
+                    }
+                }
+            ],
+            "text-representation": {
+                "script": "Latn",
+                "language": "nld"
+            },
+            "date": "1921",
+            "title": "'n zoen moet je mondeling doen / Met jou wil ik uit visschen gaan",
+            "id": "2d2f24ec-ee86-41eb-bf06-025111511cb1",
+            "media": [
+                {
+                    "title": "",
+                    "format": "10\" Shellac",
+                    "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b",
+                    "position": 1,
+                    "track-count": 2,
+                    "discs": [],
+                    "id": "42b784f6-db70-3249-8a88-9ff2416a996c"
+                }
+            ],
+            "disambiguation": "",
+            "country": "NL",
+            "packaging": null,
+            "status": "Official"
+        },
+        {
+            "text-representation": {
+                "script": "Latn",
+                "language": "nld"
+            },
+            "release-events": [
+                {
+                    "area": {
+                        "name": "Netherlands",
+                        "sort-name": "Netherlands",
+                        "type": null,
+                        "disambiguation": "",
+                        "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "NL"
+                        ]
+                    },
+                    "date": "1921"
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": null,
+            "title": "De boemelaar",
+            "date": "1921",
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "no cover art"
+                }
+            ],
+            "barcode": null,
+            "quality": "normal",
+            "aliases": [],
+            "disambiguation": "",
+            "country": "NL",
+            "status": "Official",
+            "packaging": null,
+            "media": [
+                {
+                    "title": "",
+                    "format": "10\" Shellac",
+                    "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b",
+                    "position": 1,
+                    "track-count": 2,
+                    "discs": [],
+                    "id": "adf20338-5ce3-31ca-a6f3-027af26b062a"
+                }
+            ],
+            "id": "b123c023-2aed-4542-8a8b-00a8451297bb"
+        },
+        {
+            "barcode": null,
+            "tags": [],
+            "quality": "normal",
+            "aliases": [],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "area": {
+                        "sort-name": "United Kingdom",
+                        "type": null,
+                        "disambiguation": "",
+                        "name": "United Kingdom",
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    },
+                    "date": "1925"
+                }
+            ],
+            "packaging-id": null,
+            "title": "Let Me Be the First to Kiss You Good Morning / Where's My Sweetie Hiding?",
+            "date": "1925",
+            "id": "931c534f-adb1-41cc-b137-f5ee1e7cf56b",
+            "media": [
+                {
+                    "track-count": 2,
+                    "discs": [],
+                    "position": 1,
+                    "id": "c30329aa-a4af-3bc0-939e-ea1fdfc4d6ae",
+                    "format": "10\" Shellac",
+                    "title": "",
+                    "format-id": "6954724d-b8f3-39a4-b724-d2eec6ac674b"
+                }
+            ],
+            "disambiguation": "",
+            "country": "GB",
+            "packaging": null,
+            "status": "Official"
+        }
+    ]
+}
