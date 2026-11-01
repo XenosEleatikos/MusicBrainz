@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\EventRelationListTrait;
+use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value;
 
 /**
@@ -25,6 +26,16 @@ class Event implements Value
     use Property\MBIDTrait;
     use Property\TimeTrait;
 
+    private string $setlist;
+
+    /**
+     * Returns the setlist of the event in the MusicBrainz setlist notation (empty if there is none).
+     */
+    public function getSetlist(): string
+    {
+        return $this->setlist;
+    }
+
     /**
      * Constructs an event.
      *
@@ -32,6 +43,7 @@ class Event implements Value
      */
     public function __construct(array $event = [])
     {
+        $this->setlist = ArrayAccess::getString($event, 'setlist') ?? '';
         $this->setCancelledFromArray($event);
         $this->setDisambiguationFromArray($event);
         $this->setEventNameFromArray($event);

@@ -30,6 +30,10 @@ class Alias implements Value
      */
     public function __construct(array $alias = [])
     {
+        // The search API calls the period of an alias begin-date/end-date, lookups call it begin/end
+        $alias['begin'] ??= $alias['begin-date'] ?? null;
+        $alias['end'] ??= $alias['end-date'] ?? null;
+
         $this->setAliasTypeFromArray($alias);
         $this->setBeginDateFromArray($alias);
         $this->setEndDateFromArray($alias);

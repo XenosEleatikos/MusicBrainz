@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\ReleaseRelationListTrait;
+use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value;
 
 /**
@@ -33,13 +34,24 @@ class Release implements Value
     use Property\TitleTrait;
     use ReleaseRelationListTrait;
 
+    private CoverArtArchive $coverArtArchive;
+
     /**
-     * Constructs a recording.
+     * Returns whether the Cover Art Archive has cover art for the release.
+     */
+    public function getCoverArtArchive(): CoverArtArchive
+    {
+        return $this->coverArtArchive;
+    }
+
+    /**
+     * Constructs a release.
      *
      * @param array $release Array of information about a release
      */
     public function __construct(array $release = [])
     {
+        $this->coverArtArchive = CoverArtArchive::fromArray(ArrayAccess::getArray($release, 'cover-art-archive') ?? []);
         $this->setAliasesFromArray($release);
         $this->setAnnotationTextFromArray($release);
         $this->setArtistCreditsFromArray($release, 'artist-credit');

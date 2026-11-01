@@ -92,7 +92,8 @@ class RelationFactory
         return new $class(
             $relation[$relatedEntityType->value],
             $relationType,
-            $direction
+            $direction,
+            $relation
         );
     }
 

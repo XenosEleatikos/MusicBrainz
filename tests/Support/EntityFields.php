@@ -20,11 +20,11 @@ final class EntityFields
     public const SCALARS = [
         'area'         => ['id' => 'getMBID', 'name' => 'getName', 'sort-name' => 'getSortName', 'disambiguation' => 'getDisambiguation'],
         'artist'       => ['id' => 'getMBID', 'name' => 'getArtistName', 'sort-name' => 'getSortName', 'disambiguation' => 'getDisambiguation', 'country' => 'getCountry'],
-        'event'        => ['id' => 'getMBID', 'name' => 'getEventName', 'disambiguation' => 'getDisambiguation', 'time' => 'getTime'],
+        'event'        => ['setlist' => 'getSetlist', 'id' => 'getMBID', 'name' => 'getEventName', 'disambiguation' => 'getDisambiguation', 'time' => 'getTime'],
         'instrument'   => ['id' => 'getMBID', 'name' => 'getInstrumentName', 'disambiguation' => 'getDisambiguation', 'description' => 'getDescription'],
         'label'        => ['id' => 'getMBID', 'name' => 'getName', 'sort-name' => 'getSortName', 'disambiguation' => 'getDisambiguation', 'country' => 'getCountry'],
         'place'        => ['id' => 'getMBID', 'name' => 'getName', 'disambiguation' => 'getDisambiguation', 'address' => 'getAddress'],
-        'recording'    => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
+        'recording'    => ['artist-credit-id' => 'getArtistCreditId', 'id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
         'release'      => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation', 'country' => 'getCountry', 'date' => 'getDate', 'barcode' => 'getBarcode', 'asin' => 'getAsin'],
         'release-group' => ['id' => 'getMBID', 'title' => 'getTitle', 'disambiguation' => 'getDisambiguation'],
         'series'       => ['id' => 'getMBID', 'name' => 'getName', 'disambiguation' => 'getDisambiguation'],
@@ -95,6 +95,8 @@ final class EntityFields
                 $alias = $entity->getAliases()[$index];
                 Assert::assertSame($aliasJson['name'], (string) $alias->getName());
                 Assert::assertSame($aliasJson['sort-name'], (string) $alias->getSortName());
+                Assert::assertSame($aliasJson['begin'] ?? $aliasJson['begin-date'] ?? '', (string) $alias->getBeginDate());
+                Assert::assertSame($aliasJson['end'] ?? $aliasJson['end-date'] ?? '', (string) $alias->getEndDate());
                 Assert::assertSame($aliasJson['primary'] ?? false, $alias->getPrimaryName()->isPrimaryName());
                 if (isset($aliasJson['type'])) {
                     Assert::assertSame($aliasJson['type'], $alias->getAliasType()->name);
@@ -142,6 +144,12 @@ final class EntityFields
                     Assert::assertNotNull($entity->$getter()->kind());
                 }
             }
+            $coverArt = $entity->getCoverArtArchive();
+            Assert::assertSame($json['cover-art-archive']['artwork'] ?? false, $coverArt->artwork);
+            Assert::assertSame($json['cover-art-archive']['count'] ?? 0, $coverArt->count);
+            Assert::assertSame($json['cover-art-archive']['front'] ?? false, $coverArt->front);
+            Assert::assertSame($json['cover-art-archive']['back'] ?? false, $coverArt->back);
+            Assert::assertSame($json['cover-art-archive']['darkened'] ?? false, $coverArt->darkened);
             if (isset($json['quality'])) {
                 Assert::assertSame($json['quality'], $entity->getQuality()?->value);
             }

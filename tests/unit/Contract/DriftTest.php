@@ -34,19 +34,8 @@ final class DriftTest extends TestCase
      * @var list<string>
      */
     private const KNOWN_GAPS = [
-        'artist-credit-id',   // recording search: id of the artist credit
-        'back',               // release: cover art availability
-        'cover-art-archive',
-        'darkened',
-        'front',
-        'begin-date',         // area search (dates of the life span)
-        'end-date',
-        'ordering-key',       // relations: position within ordered relations (series, etc.)
-        'setlist',            // event relations
-        'source-credit',      // relations: credited names
-        'target-credit',
-        'target',             // area search: relation target
-        'target-type',        // relations: type of the other entity
+        'target',             // relation: MBID of the target, redundant with the target entity (search results)
+        'target-type',        // relation: entity type of the target, derived from the relation type and direction
     ];
 
     public function testLibraryReadsEveryKeyOfTheRecordedResponses(): void

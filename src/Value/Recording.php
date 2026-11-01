@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Value;
 
 use MusicBrainz\Relation\RelationList\Property\RecordingRelationListTrait;
+use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value;
 
 /**
@@ -42,6 +43,16 @@ class Recording implements Value
     use Property\ScoreTrait;
     use RecordingRelationListTrait;
 
+    private ?MBID $artistCreditId;
+
+    /**
+     * Returns the MBID of the artist credit (search results only).
+     */
+    public function getArtistCreditId(): ?MBID
+    {
+        return $this->artistCreditId;
+    }
+
     /**
      * Constructs a recording.
      *
@@ -50,6 +61,8 @@ class Recording implements Value
     public function __construct(array $recording = [])
     {
         $this->setMbidFromArray($recording);
+        $artistCreditId = ArrayAccess::getString($recording, 'artist-credit-id');
+        $this->artistCreditId = null === $artistCreditId ? null : new MBID($artistCreditId);
         $this->setLengthFromArray($recording);
         $this->setTitleFromArray($recording);
         $this->setFirstReleaseDateFromArray($recording);
