@@ -85,7 +85,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all areas standing in a certain relation.
+     * Looks up all areas standing in a certain relation.
      *
      * @param AreaRelation $areaRelation A relation, the requested areas stand in
      * @param AreaFields   $areaFields   A list of properties of the areas to be included in the response
@@ -106,7 +106,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all artists standing in a certain relation.
+     * Looks up all artists standing in a certain relation.
      *
      * @param ArtistRelation $artistRelation A relation, the requested artists stand in
      * @param ArtistFields   $artistFields   A list of properties of the artists to be included in the response
@@ -127,7 +127,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all collections standing in a certain relation.
+     * Looks up all collections standing in a certain relation.
      *
      * The browse request for collection doesn't support any "inc" parameter.
      *
@@ -149,7 +149,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all events standing in a certain relation.
+     * Looks up all events standing in a certain relation.
      *
      * @param EventRelation $eventRelation A relation, the requested events stand in
      * @param EventFields   $eventFields   A list of properties of the events to be included in the response
@@ -170,7 +170,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all instruments standing in a certain relation.
+     * Looks up all instruments standing in a certain relation.
      *
      * @param InstrumentRelation $instrumentRelation A relation, the requested instruments stand in
      * @param InstrumentFields   $instrumentFields   A list of properties of the instrument to be included in the response
@@ -191,7 +191,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all labels standing in a certain relation.
+     * Looks up all labels standing in a certain relation.
      *
      * @param LabelRelation $labelRelation A relation, the requested labels stand in
      * @param LabelFields   $labelFields   A list of properties of the labels to be included in the response
@@ -212,7 +212,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all places standing in a certain relation.
+     * Looks up all places standing in a certain relation.
      *
      * @param PlaceRelation $placeRelation A relation, the requested place stand in
      * @param PlaceFields   $placeFields   A list of properties of the places to be included in the response
@@ -233,7 +233,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all recordings standing in a certain relation.
+     * Looks up all recordings standing in a certain relation.
      *
      * @param RecordingRelation $recordingRelation A relation, the requested recording stand in
      * @param RecordingFields   $recordingFields   A list of properties of the recordings to be included in the response
@@ -254,7 +254,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all releases standing in a certain relation.
+     * Looks up all releases standing in a certain relation.
      *
      * @param ReleaseRelation $releaseRelation A relation, the requested releases stand in
      * @param ReleaseFields   $releaseFields   A list of properties of the releases to be included in the response
@@ -275,7 +275,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all release groups standing in a certain relation.
+     * Looks up all release groups standing in a certain relation.
      *
      * @param ReleaseGroupRelation $releaseRelation    A relation, the requested release groups stand in
      * @param ReleaseGroupFields   $releaseGroupFields A list of properties of the release groups to be included in the
@@ -300,7 +300,7 @@ final class Browse
     }
 
     /**
-     * Looks up for all series standing in a certain relation.
+     * Looks up all series standing in a certain relation.
      *
      * @param SeriesRelation $seriesRelation A relation, the requested series stand in
      * @param SeriesFields   $seriesFields   A list of properties of the series to be included in the response
@@ -325,7 +325,7 @@ final class Browse
      */
 
     /**
-     * Looks up for all works standing in a certain relation.
+     * Looks up all works standing in a certain relation.
      *
      * @param WorkRelation $workRelation A relation, the requested series stand in
      * @param WorkFields   $workFields   A list of properties of the series to be included in the response
@@ -346,7 +346,7 @@ final class Browse
     }
 
     /**
-     * Looks up for entities standing in a certain relation.
+     * Looks up entities standing in a certain relation.
      *
      * @param EntityType       $entity     The type of the requested entities
      * @param AbstractRelation $relation   The type of the related entity

@@ -4,10 +4,15 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Support;
 
+use MusicBrainz\Definition\RelationTypeId;
+use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\NamedType;
 use PHPUnit\Framework\Assert;
 
 use function array_diff;
+use function array_filter;
+use function array_merge;
+use function array_push;
 use function array_key_exists;
 use function array_values;
 use function array_keys;
@@ -153,6 +158,11 @@ final class EntityAssertions
         'attribute' => ['type' => ['type', 'str'], 'type-id' => ['typeId', 'id'], 'value' => ['value', 'nstr'], 'value-id' => ['valueId', 'id']],
     ];
 
+    private const RELATION_KEYS = [
+        'type', 'type-id', 'direction', 'target-type', 'target', 'begin', 'end', 'ended', 'attributes', 'attribute-ids', 'attribute-values',
+        'attribute-credits', 'source-credit', 'target-credit', 'ordering-key',
+    ];
+
     /** Types whose JSON does not carry the shared keys (aliases, tags, ...) */
     private const WITHOUT_SHARED = [
         'url', 'collection', 'annotation', 'cdstub', 'tag', 'genre', 'alias', 'life-span', 'text-representation', 'cover-art-archive', 'coordinates',
@@ -179,6 +189,10 @@ final class EntityAssertions
             }
             self::assertProperty($object, (string) $property, $kind, $definition[2] ?? null, $json, $key, "$path.$key");
             $checked[$property] = true;
+        }
+
+        if ('collection' === $type && isset($json['entity-type'])) {
+            Assert::assertSame($json[$json['entity-type'] . '-count'] ?? 0, $object->count, "$path: number of entities in the collection");
         }
 
         // What the response does not contain must be empty in the object
@@ -279,9 +293,64 @@ final class EntityAssertions
                 break;
             case 'relations':
                 Assert::assertNotNull($actual, "$path: relations were delivered but not parsed");
+                self::assertRelations($actual, 'relation-list' === $key ? self::flatten($value) : $value, $path);
                 break;
             default:
                 Assert::fail("Unknown kind $kind");
+        }
+    }
+
+    /**
+     * Search results deliver the relations as "relation-list": [{"relations": [...]}].
+     *
+     * @param array<int,array<string,mixed>> $lists
+     *
+     * @return list<array<string,mixed>>
+     */
+    private static function flatten(array $lists): array
+    {
+        $relations = [];
+        foreach ($lists as $list) {
+            array_push($relations, ...($list['relations'] ?? []));
+        }
+
+        return $relations;
+    }
+
+    /**
+     * Every relation of a type the library knows must arrive, in the order of the response, with its own data and its
+     * target; every key of the response must be known.
+     *
+     * @param array<int,array<string,mixed>> $json
+     */
+    public static function assertRelations(\MusicBrainz\Relation\RelationList $list, array $json, string $path): void
+    {
+        $known = RelationTypeId::getClassMap();
+        $expected = array_values(array_filter($json, static fn(array $relation): bool => isset($known[$relation['type-id']])));
+        Assert::assertCount(count($expected), $list->relations, "$path: relations of known types must not get lost");
+
+        $keys = array_merge(self::RELATION_KEYS, array_map(static fn(EntityType $type): string => $type->value, EntityType::cases()));
+        foreach ($expected as $index => $relationJson) {
+            $at = "{$path}.relations[{$index}]";
+            $relation = $list->relations[$index];
+            Assert::assertSame([], array_values(array_diff(array_keys($relationJson), $keys)), "$at: keys of the response the library does not read");
+
+            Assert::assertSame($relationJson['direction'], $relation->direction->value, $at);
+            Assert::assertSame($relationJson['type-id'], (string) $relation->type::getRelationTypeId(), $at);
+            Assert::assertSame($relationJson['type'], (string) $relation->type::getRelationName(), "$at: the name of the relation type");
+            Assert::assertSame($relationJson['begin'] ?? null, null === $relation->begin ? null : (string) $relation->begin, $at);
+            Assert::assertSame($relationJson['end'] ?? null, null === $relation->end ? null : (string) $relation->end, $at);
+            Assert::assertSame($relationJson['ended'] ?? false, $relation->ended, $at);
+            Assert::assertSame($relationJson['ordering-key'] ?? null, $relation->orderingKey, $at);
+            Assert::assertSame($relationJson['source-credit'] ?? '', $relation->sourceCredit, $at);
+            Assert::assertSame($relationJson['target-credit'] ?? '', $relation->targetCredit, $at);
+            Assert::assertSame($relationJson['attributes'] ?? [], $relation->attributes, $at);
+            Assert::assertSame($relationJson['attribute-ids'] ?? [], $relation->attributeIds, $at);
+            Assert::assertSame($relationJson['attribute-values'] ?? [], $relation->attributeValues, $at);
+            Assert::assertSame($relationJson['attribute-credits'] ?? [], $relation->attributeCredits, $at);
+
+            Assert::assertArrayHasKey($relation->targetType->value, $relationJson, "$at: the target is delivered under its entity type");
+            self::assertMirrors($relation->target, $relation->targetType->path(), $relationJson[$relation->targetType->value], "$at.target");
         }
     }
 

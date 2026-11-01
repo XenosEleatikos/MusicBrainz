@@ -20,8 +20,9 @@ through a PSR-18 client (`tests/Support/ReplayHttpClient.php`):
 
 | Test | Purpose |
 |------|---------|
-| `tests/unit/Api/LookupTest`, `PageTest`, `RelationsTest`, `ErrorTest` | Every recorded lookup, browse and search response must be mirrored by the value objects. `tests/Support/EntityAssertions.php` holds an explicit table per entity type: every JSON key must be mapped to a property or listed as deliberately not mapped, so data the library drops fails the test. |
+| `tests/unit/Api/LookupTest`, `PageTest`, `RelationsTest`, `ErrorTest` | Every recorded lookup, browse and search response must be mirrored by the value objects, including nested objects and relations. `tests/Support/EntityAssertions.php` holds an explicit table per entity type: every JSON key must be mapped to a property or listed as deliberately not mapped, so data the library drops fails the test. |
 | `tests/unit/Contract/ScenarioTest` | The library must parse every recorded scenario without an exception and without logging a warning about unknown data. |
+| `tests/unit/Filter`, `Supplement` | The search filters offer exactly the fields of the search documentation (`tests/Fixtures/search-fields.json`), and the include flags of the fields classes are exactly those the web service accepts (`tests/Fixtures/accepted-includes.json`). |
 | `tests/unit/Http`, `Helper`, `Value`, `Relation` | Classic unit tests (throttling, retries, error handling, type conversion, the map of relationship types). |
 | `tests/specification` | Compares the library with the live documentation of relationship types (needs network, runs weekly in CI). |
 

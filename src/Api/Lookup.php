@@ -72,7 +72,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an area and returns the result.
+     * Looks up an area and returns the result.
      *
      * @param MBID       $mbid       A MusicBrainz Identifier (MBID) of an area
      * @param AreaFields $areaFields List of fields to be included in the response
@@ -87,7 +87,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an artist and returns the result.
+     * Looks up an artist and returns the result.
      *
      * @param MBID         $mbid         A MusicBrainz Identifier (MBID) of an artist
      * @param ArtistFields $artistFields List of fields to be included in the response
@@ -101,7 +101,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a collection and returns the result.
+     * Looks up a collection and returns the result.
      *
      * @param MBID $mbid A MusicBrainz Identifier (MBID) of a collection
      *
@@ -115,7 +115,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an event and returns the result.
+     * Looks up an event and returns the result.
      *
      * @param MBID        $mbid        A MusicBrainz Identifier (MBID) of an event
      * @param EventFields $eventFields List of fields to be included in the response
@@ -130,7 +130,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an instrument and returns the result.
+     * Looks up an instrument and returns the result.
      *
      * @param MBID             $mbid             A MusicBrainz Identifier (MBID) of an instrument
      * @param InstrumentFields $instrumentFields List of fields to be included in the response
@@ -145,7 +145,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a label and returns the result.
+     * Looks up a label and returns the result.
      *
      * @param MBID   $mbid A MusicBrainz Identifier (MBID) of a label
      * @param LabelFields $labelFields List of fields to be included in the response
@@ -160,7 +160,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a place and returns the result.
+     * Looks up a place and returns the result.
      *
      * @param MBID        $mbid        A MusicBrainz Identifier (MBID) of a label
      * @param PlaceFields $placeFields List of fields to be included in the response
@@ -175,7 +175,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a recording and returns the result.
+     * Looks up a recording and returns the result.
      *
      * @param MBID            $mbid            A MusicBrainz Identifier (MBID) of a recording
      * @param RecordingFields $recordingFields List of fields to be included in the response
@@ -190,7 +190,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a release and returns the result.
+     * Looks up a release and returns the result.
      *
      * @param MBID          $mbid          A MusicBrainz Identifier (MBID) of a release
      * @param ReleaseFields $releaseFields List of fields to be included in the response
@@ -205,7 +205,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a release group and returns the result.
+     * Looks up a release group and returns the result.
      *
      * @param MBID               $mbid               A MusicBrainz Identifier (MBID) of a release
      * @param ReleaseGroupFields $releaseGroupFields List of fields to be included in the response
@@ -220,7 +220,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an URL and returns the result.
+     * Looks up an URL and returns the result.
      *
      * @param MBID         $mbid         A MusicBrainz Identifier (MBID) of a release
      * @param SeriesFields $seriesFields List of fields to be included in the response
@@ -235,7 +235,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an URL and returns the result.
+     * Looks up an URL and returns the result.
      *
      * @param MBID         $mbid          A MusicBrainz Identifier (MBID) of a release
      * @param UrlFields $urlFields List of fields to be included in the response
@@ -250,7 +250,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for a work and returns the result.
+     * Looks up a work and returns the result.
      *
      * @param MBID   $mbid A MusicBrainz Identifier (MBID) of a work
      * @param WorkFields $workFields List of fields to be included in the response
@@ -265,7 +265,7 @@ final class Lookup
     }
 
     /**
-     * Looks up for an entity by performing a request to the MusicBrainz web service.
+     * Looks up an entity by performing a request to the MusicBrainz web service.
      *
      * @link https://musicbrainz.org/doc/MusicBrainz_API
      *

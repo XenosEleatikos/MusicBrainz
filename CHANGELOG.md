@@ -24,8 +24,8 @@ guide in the README.
   OAuth2 access token (`Config::setAccessToken()`).
 - The value objects are `final readonly` classes with public typed properties instead of classes with getters
   (`$artist->name` instead of `getArtistName()`). Names are uniform (`name`, `title`, `sortName`), nested objects that
-  the response does not contain are `null` instead of empty dummy objects, lists are plain arrays, `Page`,
-  `SearchResult` and `RelationList` are generic and immutable. They are built with `X::fromArray()`; the property traits
+  the response does not contain are `null` instead of empty dummy objects, lists are plain arrays, `Page` and
+  `SearchResult` are generic, `Page` and `RelationList` are immutable. They are built with `X::fromArray()`; the property traits
   and the per-entity list and page classes are gone.
 - Relations are `Relation` objects (type, direction, target entity, period, attributes, credits) in
   `$entity->relations`, a `RelationList` grouped by `->to(EntityType::Artist)`.
@@ -46,6 +46,12 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- Input is validated: an invalid MBID or date, an empty text value, a bad page filter or an empty search filter throw a
+  `MusicBrainz\InvalidArgumentException`. What the web service delivers is read tolerantly: an invalid id or date, a
+  wrongly typed element, or a missing list or count is logged and skipped instead of crashing the response or vanishing
+  silently.
+- The entry point, the API classes and `Config` are `final`; the plumbing (`fromArray()` factories, helpers, the HTTP
+  client, the map of relationship types) is marked `@internal`.
 - Search for events, instruments, series and URLs. Every search filter offers exactly the fields the documentation of the
   search lists (a test compares them), including `alias`, `tag`, `isni`, the `*accent` variants and `release_count`.
 - Genres, tags and ratings on all entities (`genres`, `tags`, `rating`), and the same for the authenticated user
@@ -68,8 +74,11 @@ guide in the README.
 - Relations from labels to artists, and from areas to areas, were dropped.
 - Browsing by release group sent a wrong parameter, the place search had no name field.
 - `begin-area`/`end-area`, `label-code` as integer, coordinates as strings, integer ratings are parsed.
-- Lookups no longer offer `inc` values the web service rejects (`releases` for releases, `artists` and
-  `release-groups` for works).
+- The include parameters of all lookup and browse requests are exactly those the web service accepts (derived from the
+  service itself and kept in sync by a test): `releases` for releases, `artists` and `release-groups` for works and
+  `discids` or `media` for labels without releases were offered but rejected; the relationship includes for every pair of
+  entities, `genre-rels`, and the combinations that need `releases` or `recordings` (`media`, `discids`, `isrcs`,
+  `various-artists`) were missing.
 - Deprecations of PHP 8.4 (implicitly nullable parameters).
 - Search fields that did not exist at MusicBrainz: places by `lat`/`long` (not `latitude`/`longitude`), areas by
   `iso1`/`iso2`/`iso3`, artists by `endarea` (was `area`), releases by `discidsmedium` (was `discids`), CD stubs by

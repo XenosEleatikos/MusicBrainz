@@ -13,7 +13,7 @@ use MusicBrainz\Value\MBID;
 trait ReleaseGroupTrait
 {
     /**
-     * SDefines a relation to a release group.
+     * Defines a relation to a release group.
      *
      * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related entity
      *
