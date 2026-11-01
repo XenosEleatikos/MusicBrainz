@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation;
 
+use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\MBID;
 
@@ -27,10 +28,8 @@ abstract class AbstractRelation
 
     /**
      * The type of the related entity
-     *
-     * @var EntityType
      */
-    private $entityType;
+    private EntityType $entityType;
 
     /**
      * Returns the MusicBrainz Identifier (MBID) of the related entity.
@@ -39,7 +38,7 @@ abstract class AbstractRelation
      */
     public function getEntityId(): MBID|string
     {
-        return $this->entityId;
+        return $this->entityId ?? throw new InvalidArgumentException('Define the related entity first, e.g. with ->artist($mbid)');
     }
 
     /**
@@ -63,7 +62,7 @@ abstract class AbstractRelation
      */
     public function getEntityType(): EntityType
     {
-        return $this->entityType;
+        return $this->entityType ?? throw new InvalidArgumentException('Define the related entity first, e.g. with ->artist($mbid)');
     }
 
     /**

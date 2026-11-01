@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Value;
 
 /**
@@ -27,9 +28,11 @@ class MBID implements Value
      */
     public function __construct(?string $mbid = '')
     {
-        $this->mbid = isset($mbid) && ($this->isValidMBID($mbid))
-            ? $mbid
-            : '';
+        if (null !== $mbid && '' !== $mbid && !$this->isValidMBID($mbid)) {
+            throw new InvalidArgumentException('"' . $mbid . '" is not a valid MusicBrainz Identifier (MBID)');
+        }
+
+        $this->mbid = $mbid ?? '';
     }
 
     /**
