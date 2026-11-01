@@ -1,13 +1,26 @@
 {
-    "video": true,
-    "title": "Bohemian Rhapsody",
-    "user-rating": {
-        "value": null
-    },
-    "user-genres": [],
+    "length": 124633,
     "disambiguation": "live, 1985-07-13: Wembley Stadium, London, UK",
-    "user-tags": [],
-    "first-release-date": "2007-10-30",
+    "user-rating": {
+        "value": 5
+    },
+    "user-tags": [
+        {
+            "name": "rock"
+        },
+        {
+            "name": "xenos test favourite"
+        }
+    ],
     "id": "106d1527-d378-4e55-ba49-d18f8e63ae8a",
-    "length": 124633
+    "title": "Bohemian Rhapsody",
+    "video": true,
+    "first-release-date": "2007-10-30",
+    "user-genres": [
+        {
+            "disambiguation": "",
+            "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+            "name": "rock"
+        }
+    ]
 }

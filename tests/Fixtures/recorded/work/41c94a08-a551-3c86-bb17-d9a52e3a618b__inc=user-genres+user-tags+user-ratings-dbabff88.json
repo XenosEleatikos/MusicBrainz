@@ -1,58 +1,44 @@
 {
-    "user-rating": {
-        "value": null
-    },
-    "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
-    "iswcs": [
-        "T-010.154.505-4",
-        "T-304.031.869-8",
-        "T-900.313.996-6"
-    ],
     "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
-    "type": "Song",
-    "user-tags": [],
-    "languages": [
-        "eng"
-    ],
     "attributes": [
         {
-            "value": "000395 939 39",
+            "type": "SUISA ID",
             "type-id": "034f35ae-d250-3749-95e7-854e606d5960",
-            "type": "SUISA ID"
+            "value": "000395 939 39"
         },
         {
-            "value": "2350484",
             "type": "SPAC ID",
+            "value": "2350484",
             "type-id": "fd46ccc3-b3bb-4c5a-b40d-23b81899ef46"
         },
         {
             "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
-            "type": "SPA ID",
-            "value": "1401"
+            "value": "1401",
+            "type": "SPA ID"
         },
         {
-            "type": "SPA ID",
             "type-id": "f15e9a05-231e-415b-8b7d-8ec44c736bde",
-            "value": "2889811"
+            "value": "2889811",
+            "type": "SPA ID"
         },
         {
-            "type": "SOBODAYCOM ID",
+            "value": "2350484",
             "type-id": "3667d8d9-9fe4-4df0-873b-4dc00a886d80",
-            "value": "2350484"
+            "type": "SOBODAYCOM ID"
         },
         {
             "type-id": "2e4f9e12-d094-4bd0-b4dd-a560cc5c4977",
-            "type": "SIAE ID",
-            "value": "77102027100"
+            "value": "77102027100",
+            "type": "SIAE ID"
         },
         {
-            "value": "110.953",
             "type-id": "6a200b13-ca08-3b32-87a9-7aaa46368d75",
+            "value": "110.953",
             "type": "SGAE ID"
         },
         {
-            "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
             "type": "SGACEDOM ID",
+            "type-id": "33fe1f90-d812-48ef-839f-bc151afecaca",
             "value": "2350484"
         },
         {
@@ -61,23 +47,23 @@
             "value": "621067"
         },
         {
-            "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef",
             "type": "SAYCE ID",
-            "value": "621067"
+            "value": "621067",
+            "type-id": "4bcbb212-a973-46ee-8160-e9f0f89ca6ef"
         },
         {
-            "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb",
             "type": "SADAIC ID",
-            "value": "244682"
+            "value": "244682",
+            "type-id": "d8aa6512-314a-478d-bd30-e8d7411509cb"
         },
         {
             "type": "SACVEN ID",
-            "type-id": "91064561-0c00-4574-ad18-247c7216675f",
-            "value": "1505329"
+            "value": "1505329",
+            "type-id": "91064561-0c00-4574-ad18-247c7216675f"
         },
         {
-            "type-id": "519f3860-0b48-4532-8752-25984f662360",
             "type": "SACM ID",
+            "type-id": "519f3860-0b48-4532-8752-25984f662360",
             "value": "034159693"
         },
         {
@@ -91,24 +77,24 @@
             "type": "SACEM ID"
         },
         {
-            "value": "004709200",
             "type-id": "b2e4067b-a9e4-44fb-bfcd-3c1fc41dc06d",
+            "value": "004709200",
             "type": "SABAM ID"
         },
         {
             "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6",
-            "type": "PRS tune code",
-            "value": "3230143N"
+            "value": "3230143N",
+            "type": "PRS tune code"
         },
         {
-            "value": "456514AT",
             "type": "PRS tune code",
+            "value": "456514AT",
             "type-id": "cd76035f-b94e-4e47-850d-aa2cd825d1a6"
         },
         {
             "type": "NICAUTOR ID",
-            "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6",
-            "value": "2350484"
+            "value": "2350484",
+            "type-id": "5ab3cd1a-b9ad-4244-8b32-b3a958d4ede6"
         },
         {
             "value": "1340416-001",
@@ -121,14 +107,14 @@
             "value": "1088"
         },
         {
-            "value": "16161493",
             "type": "ECAD ID",
-            "type-id": "d37a8c27-8f83-47c7-954d-175d35759990"
+            "type-id": "d37a8c27-8f83-47c7-954d-175d35759990",
+            "value": "16161493"
         },
         {
+            "value": "4830013",
             "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
-            "type": "COMPASS ID",
-            "value": "4830013"
+            "type": "COMPASS ID"
         },
         {
             "type": "COMPASS ID",
@@ -137,53 +123,53 @@
         },
         {
             "value": "9951304",
-            "type": "COMPASS ID",
-            "type-id": "5ea37343-be89-4cd0-8a37-f471738df641"
+            "type-id": "5ea37343-be89-4cd0-8a37-f471738df641",
+            "type": "COMPASS ID"
         },
         {
-            "value": "W-000288376",
             "type": "BUMA/STEMRA ID",
+            "value": "W-000288376",
             "type-id": "a6492434-b847-4f1b-9869-9184ade990ed"
         },
         {
             "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
-            "type": "ASCAP ID",
-            "value": "882285781"
+            "value": "882285781",
+            "type": "ASCAP ID"
         },
         {
             "type-id": "d833318c-6c6a-370e-8b16-9cb15873ba76",
-            "type": "ASCAP ID",
-            "value": "320199817"
+            "value": "320199817",
+            "type": "ASCAP ID"
         },
         {
+            "value": "GW00029355",
             "type-id": "bdf50af8-0881-322a-8ab7-f031a4935d04",
-            "type": "APRA ID",
-            "value": "GW00029355"
+            "type": "APRA ID"
         },
         {
+            "type": "APDAYC ID",
             "value": "1061208",
-            "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8",
-            "type": "APDAYC ID"
+            "type-id": "b66d6f47-2a58-4bc1-ac75-b44c47a198f8"
         },
         {
-            "value": "2350484",
             "type-id": "84afca1d-80dc-4d44-8d7a-e1e84e70aa65",
+            "value": "2350484",
             "type": "APA ID"
         },
         {
+            "type": "AKM ID",
             "value": "38245901",
-            "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2",
-            "type": "AKM ID"
+            "type-id": "eee68598-7f51-44a7-bd5a-fc728f1854d2"
         },
         {
+            "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819",
             "value": "6125603",
-            "type": "AGADU ID",
-            "type-id": "27ea7f59-9f9c-4aee-b31a-61109ac03819"
+            "type": "AGADU ID"
         },
         {
+            "type": "AEI ID",
             "value": "2350484",
-            "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826",
-            "type": "AEI ID"
+            "type-id": "d12e548d-4579-4ddd-abb6-9ffa4fee6826"
         },
         {
             "value": "938428",
@@ -192,32 +178,59 @@
         },
         {
             "value": "4045492",
-            "type": "ACAM ID",
-            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
+            "type": "ACAM ID"
         },
         {
+            "type": "ACAM ID",
             "value": "5032949",
-            "type": "ACAM ID",
             "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
         },
         {
+            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c",
             "value": "2350484",
-            "type": "ACAM ID",
-            "type-id": "955305a2-58ec-4c64-94f7-7fb9b209416c"
+            "type": "ACAM ID"
         },
         {
+            "type": "AACIMH ID",
             "value": "2350484",
-            "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865",
-            "type": "AACIMH ID"
+            "type-id": "a9551cb7-ee2c-4b05-87b6-18ef0e549865"
         },
         {
-            "value": "0B0-9709-5",
             "type": "JASRAC ID",
+            "value": "0B0-9709-5",
             "type-id": "31048fcc-3dbb-3979-8f85-805afb933e0c"
         }
     ],
-    "disambiguation": "",
-    "user-genres": [],
+    "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
     "title": "Bohemian Rhapsody",
-    "language": "eng"
+    "type": "Song",
+    "languages": [
+        "eng"
+    ],
+    "language": "eng",
+    "user-tags": [
+        {
+            "name": "rock"
+        },
+        {
+            "name": "xenos test favourite"
+        }
+    ],
+    "disambiguation": "",
+    "user-rating": {
+        "value": 5
+    },
+    "user-genres": [
+        {
+            "disambiguation": "",
+            "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+            "name": "rock"
+        }
+    ],
+    "iswcs": [
+        "T-010.154.505-4",
+        "T-304.031.869-8",
+        "T-900.313.996-6"
+    ]
 }

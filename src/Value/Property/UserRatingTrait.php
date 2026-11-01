@@ -12,14 +12,14 @@ use MusicBrainz\Helper\ArrayAccess;
 trait UserRatingTrait
 {
     /**
-     * The user's rating (0 to 100), or null if the user has not rated the entity
+     * The user's rating (0 to 5 stars), or null if the user has not rated the entity
      *
      * @var null|int
      */
     private ?int $userRating = null;
 
     /**
-     * Returns the rating the authenticated user has given (0 to 100), or null if there is none. Requires the
+     * Returns the rating the authenticated user has given (0 to 5 stars), or null if there is none. Requires the
      * "user-ratings" include and an access token.
      *
      * @return null|int

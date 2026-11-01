@@ -1,33 +1,46 @@
 {
     "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
-    "isnis": [],
-    "name": "Parlophone",
-    "ipis": [],
-    "sort-name": "Parlophone",
-    "user-genres": [],
-    "disambiguation": "",
-    "user-tags": [],
     "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
-    "label-code": 299,
-    "type": "Original Production",
     "user-rating": {
-        "value": null
+        "value": 5
+    },
+    "ipis": [],
+    "disambiguation": "",
+    "country": "GB",
+    "isnis": [],
+    "sort-name": "Parlophone",
+    "type": "Original Production",
+    "label-code": 299,
+    "name": "Parlophone",
+    "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": "1896"
     },
     "area": {
-        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
-        "name": "United Kingdom",
+        "iso-3166-1-codes": [
+            "GB"
+        ],
         "type-id": null,
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
         "disambiguation": "",
         "type": null,
         "sort-name": "United Kingdom",
-        "iso-3166-1-codes": [
-            "GB"
-        ]
+        "name": "United Kingdom"
     },
-    "country": "GB",
-    "life-span": {
-        "ended": false,
-        "begin": "1896",
-        "end": null
-    }
+    "user-genres": [
+        {
+            "disambiguation": "",
+            "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+            "name": "rock"
+        }
+    ],
+    "user-tags": [
+        {
+            "name": "rock"
+        },
+        {
+            "name": "xenos test favourite"
+        }
+    ]
 }

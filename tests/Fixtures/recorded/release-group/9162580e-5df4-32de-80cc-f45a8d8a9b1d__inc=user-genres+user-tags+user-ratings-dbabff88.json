@@ -1,15 +1,28 @@
 {
-    "first-release-date": "1969-09-26",
-    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
-    "user-genres": [],
-    "secondary-type-ids": [],
+    "user-genres": [
+        {
+            "disambiguation": "",
+            "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+            "name": "rock"
+        }
+    ],
     "secondary-types": [],
-    "user-tags": [],
+    "secondary-type-ids": [],
     "id": "9162580e-5df4-32de-80cc-f45a8d8a9b1d",
-    "primary-type": "Album",
-    "title": "Abbey Road",
+    "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
     "disambiguation": "",
+    "first-release-date": "1969-09-26",
+    "title": "Abbey Road",
+    "user-tags": [
+        {
+            "name": "rock"
+        },
+        {
+            "name": "xenos test favourite"
+        }
+    ],
+    "primary-type": "Album",
     "user-rating": {
-        "value": null
+        "value": 5
     }
 }

@@ -1,43 +1,56 @@
 {
-    "user-tags": [],
-    "title": "Abbey Road",
+    "quality": "normal",
+    "id": "31765b9f-e969-4257-855f-c7ea1f657b2a",
     "cover-art-archive": {
-        "front": true,
         "back": false,
+        "front": true,
+        "darkened": false,
         "artwork": true,
-        "count": 1,
-        "darkened": false
+        "count": 1
     },
-    "packaging": "None",
-    "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
-    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
     "date": "2015-12-24",
-    "user-genres": [],
-    "release-events": [
-        {
-            "date": "2015-12-24",
-            "area": {
-                "type": null,
-                "sort-name": "[Worldwide]",
-                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
-                "name": "[Worldwide]",
-                "type-id": null,
-                "iso-3166-1-codes": [
-                    "XW"
-                ],
-                "disambiguation": ""
-            }
-        }
-    ],
+    "country": "XW",
     "text-representation": {
         "language": "eng",
         "script": "Latn"
     },
-    "id": "31765b9f-e969-4257-855f-c7ea1f657b2a",
-    "status": "Official",
-    "country": "XW",
-    "quality": "normal",
-    "barcode": "00602547670342",
     "asin": null,
-    "disambiguation": ""
+    "status": "Official",
+    "user-tags": [
+        {
+            "name": "rock"
+        },
+        {
+            "name": "xenos test favourite"
+        }
+    ],
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "title": "Abbey Road",
+    "barcode": "00602547670342",
+    "disambiguation": "",
+    "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+    "user-genres": [
+        {
+            "disambiguation": "",
+            "name": "rock",
+            "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798"
+        }
+    ],
+    "packaging": "None",
+    "release-events": [
+        {
+            "date": "2015-12-24",
+            "area": {
+                "type-id": null,
+                "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                "type": null,
+                "sort-name": "[Worldwide]",
+                "name": "[Worldwide]",
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "XW"
+                ]
+            }
+        }
+    ]
 }

@@ -2,13 +2,13 @@
     "collection-offset": 0,
     "collections": [
         {
-            "type": "Artist collection",
-            "id": "f27d2f80-0aff-4a0f-a8c3-296226073b20",
-            "artist-count": 2,
-            "editor": "example-user",
-            "name": "My favourite artists",
+            "entity-type": "artist",
             "type-id": "b21ef166-d652-3e15-958d-1ff7ad3412ab",
-            "entity-type": "artist"
+            "name": "My favourite artists",
+            "editor": "example-user",
+            "artist-count": 2,
+            "id": "f27d2f80-0aff-4a0f-a8c3-296226073b20",
+            "type": "Artist collection"
         }
     ],
     "collection-count": 1
