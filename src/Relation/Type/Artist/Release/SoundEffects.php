@@ -21,6 +21,6 @@ class SoundEffects extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Sound effects');
+        return new Name('sound effects');
     }
 }

@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Artist\Url\Discography;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is deprecated and should not be used.
+ * This links an artist to that artist's page at BBC Music.
  *
  * @link https://musicbrainz.org/relationship/d028a975-000c-4525-9333-d3c8425e4b54
  */

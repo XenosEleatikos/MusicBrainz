@@ -21,6 +21,6 @@ class WrittenIn extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Written in');
+        return new Name('written in');
     }
 }

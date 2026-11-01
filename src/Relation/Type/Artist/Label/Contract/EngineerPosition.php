@@ -21,6 +21,6 @@ class EngineerPosition extends Contract
      */
     public static function getRelationName(): Name
     {
-        return new Name('engineer position');
+        return new Name('engineer position at');
     }
 }

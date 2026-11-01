@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Work as Base;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates the person who adapted this work (generally from a different medium, such as a prose work into an audio drama or a stage musical into a film musical).
+ * Indicates the person who adapted this work (generally from a different medium, such as a prose work into an audio
+ * drama or a stage musical into a film musical).
  *
  * @link https://musicbrainz.org/relationship/89fff34a-2c51-4068-9709-50d6c6dd3d01
  */
@@ -21,6 +22,6 @@ class Adapter extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Adapter');
+        return new Name('adapter');
     }
 }

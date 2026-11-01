@@ -21,6 +21,6 @@ class NamedAfterReleaseGroup extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after release group');
+        return new Name('named after release group');
     }
 }

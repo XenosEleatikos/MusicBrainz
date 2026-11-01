@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates the mastering engineer for this work.
+ * Indicates the mastering engineer for this release.
  *
  * @link https://musicbrainz.org/relationship/84453d28-c3e8-4864-9aae-25aa968bcf9e
  */

@@ -21,6 +21,6 @@ class WrittenAt extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Written at');
+        return new Name('written at');
     }
 }

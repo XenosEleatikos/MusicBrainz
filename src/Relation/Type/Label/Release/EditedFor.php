@@ -21,6 +21,6 @@ class EditedFor extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Edited for');
+        return new Name('edited for');
     }
 }

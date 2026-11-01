@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Event as Base;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates an artist who did the graphic design / layout for the event, arranging pieces of content into a coherent and aesthetically-pleasing design.
+ * This indicates an artist who did the graphic design / layout for the event, arranging pieces of content into a
+ * coherent and aesthetically-pleasing design.
  *
  * @link https://musicbrainz.org/relationship/d3e1717b-6ab9-4fdb-bd77-0dba3f082a74
  */
@@ -21,6 +22,6 @@ class GraphicDesign extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Graphic design');
+        return new Name('graphic design');
     }
 }

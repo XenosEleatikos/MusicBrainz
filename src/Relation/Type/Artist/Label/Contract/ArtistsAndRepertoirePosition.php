@@ -21,6 +21,6 @@ class ArtistsAndRepertoirePosition extends Contract
      */
     public static function getRelationName(): Name
     {
-        return new Name('artists and repertoire position');
+        return new Name('artists and repertoire position at');
     }
 }

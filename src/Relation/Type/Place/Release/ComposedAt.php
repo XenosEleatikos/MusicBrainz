@@ -21,6 +21,6 @@ class ComposedAt extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Composed at');
+        return new Name('composed at');
     }
 }

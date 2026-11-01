@@ -21,6 +21,6 @@ class NamedAfterArtist extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after artist');
+        return new Name('named after artist');
     }
 }

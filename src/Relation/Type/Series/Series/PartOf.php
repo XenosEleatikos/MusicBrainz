@@ -21,6 +21,6 @@ class PartOf extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Part of');
+        return new Name('part of');
     }
 }

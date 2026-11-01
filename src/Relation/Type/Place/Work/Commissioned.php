@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Place\Work;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates that the place commissioned the work. This is most common for classical works, but also exists in other genres to a degree.
+ * This indicates that the place commissioned the work. This is most common for classical works, but also exists in
+ * other genres to a degree.
  *
  * @link https://musicbrainz.org/relationship/77edb403-8628-4f00-9fa4-b1f69bea6dc2
  */

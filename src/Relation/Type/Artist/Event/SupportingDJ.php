@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Event;
 use MusicBrainz\Value\Name;
 
 /**
- * Links an event to a DJ that appeared in a supporting role (such as DJing between artists, or closing the night after a concert).
+ * Links an event to a DJ that appeared in a supporting role (such as DJing between artists, or closing the night after
+ * a concert).
  *
  * @link https://musicbrainz.org/relationship/2c5c92da-259c-42fc-ac1f-53d9dda2d6d0
  */

@@ -21,6 +21,6 @@ class ComposedIn extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Composed in');
+        return new Name('composed in');
     }
 }

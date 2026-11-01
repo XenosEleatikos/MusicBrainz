@@ -21,6 +21,6 @@ class TranslatedIn extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Translated in');
+        return new Name('translated in');
     }
 }

@@ -21,6 +21,6 @@ class Design extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Design');
+        return new Name('design');
     }
 }

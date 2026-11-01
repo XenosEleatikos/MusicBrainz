@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Release\Production;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates an artist who is responsible for the creative and practical day-to-day aspects involved with making a musical recording.
+ * This indicates an artist who is responsible for the creative and practical day-to-day aspects involved with making a
+ * musical recording.
  *
  * @link https://musicbrainz.org/relationship/8bf377ba-8d71-4ecc-97f2-7bb2d8a2a75f
  */

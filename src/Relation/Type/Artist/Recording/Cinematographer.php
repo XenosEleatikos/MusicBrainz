@@ -21,6 +21,6 @@ class Cinematographer extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Cinematographer');
+        return new Name('cinematographer');
     }
 }

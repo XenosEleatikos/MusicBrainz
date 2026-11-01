@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
 use MusicBrainz\Value\Name;
 
 /**
- * This credits a person who was responsible for booking the studio or performance venue where the recording was recorded.
+ * This credits a person who was responsible for booking the studio or performance venue where the recording was
+ * recorded.
  *
  * @link https://musicbrainz.org/relationship/b1edc6f6-283d-4e32-b625-b96cfb192056
  */

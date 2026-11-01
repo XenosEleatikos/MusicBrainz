@@ -21,6 +21,6 @@ class ArtistInResidence extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Artist-in-residence');
+        return new Name('artist-in-residence');
     }
 }

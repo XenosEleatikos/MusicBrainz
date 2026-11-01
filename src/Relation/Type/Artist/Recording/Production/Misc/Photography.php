@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is deprecated and should not be used.
+ * This credits a person or agency whose photographs are included as part of a recording.
  *
  * @link https://musicbrainz.org/relationship/a7e408a1-8c64-4122-9ec2-906068955187
  */

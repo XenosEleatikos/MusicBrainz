@@ -21,6 +21,6 @@ class Discogs extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Discogs');
+        return new Name('discogs');
     }
 }

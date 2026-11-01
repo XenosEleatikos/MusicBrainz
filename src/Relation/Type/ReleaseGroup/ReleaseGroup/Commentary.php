@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
 use MusicBrainz\Value\Name;
 
 /**
- * This links a release group to another containing official commentary for it (usually the artist talking about each specific track in an album).
+ * This links a release group to another containing official commentary for it (usually the artist talking about each
+ * specific track in an album).
  *
  * @link https://musicbrainz.org/relationship/10476d36-e9f0-40ac-9318-339399bdeadc
  */

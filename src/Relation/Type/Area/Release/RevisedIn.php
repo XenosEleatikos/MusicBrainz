@@ -21,6 +21,6 @@ class RevisedIn extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Revised in');
+        return new Name('revised in');
     }
 }

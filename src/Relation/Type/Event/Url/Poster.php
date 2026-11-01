@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Event\Url;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type links an event to a promotional poster for the event.
+ * This relationship type links an event to a promotional poster for the event. Deprecated, use the Event Art Archive
+ * instead.
  *
  * @link https://musicbrainz.org/relationship/ca7ada80-bf87-4422-9671-ec0a22733acc
  */

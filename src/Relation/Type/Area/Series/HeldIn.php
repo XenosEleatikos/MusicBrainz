@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Area\Series;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates the area an event series was held at.
+ * Indicates the area an event series was held in.
  *
  * @link https://musicbrainz.org/relationship/281bf307-f1e8-4a56-a7b8-fe8304bb2bf3
  */

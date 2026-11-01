@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer;
 use MusicBrainz\Value\Name;
 
 /**
- * This describes an engineer responsible for using a mixing console to mix a recorded track into a single piece of music suitable for release. For remixing, see remixer.
+ * This describes an engineer responsible for using a mixing console to mix a recorded track into a single piece of
+ * music suitable for release. For remixing, see remixer.
  *
  * @link https://musicbrainz.org/relationship/3e3102e1-1896-4f50-b5b2-dd9824e46efe
  */

@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Recording\Recording\RemixesAndCompilations;
 use MusicBrainz\Value\Name;
 
 /**
- * This is used to link a DJ-mixed recording to each of the source recordings. See DJ-mixer for crediting the person who created the DJ-mix.
+ * This is used to link a DJ-mixed recording to each of the source recordings. See DJ-mixer for crediting the person
+ * who created the DJ-mix.
  *
  * @link https://musicbrainz.org/relationship/451076df-61cf-46ab-9921-555cab2f050d
  */

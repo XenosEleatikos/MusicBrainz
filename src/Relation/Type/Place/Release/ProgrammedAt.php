@@ -21,6 +21,6 @@ class ProgrammedAt extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Programmed at');
+        return new Name('programmed at');
     }
 }

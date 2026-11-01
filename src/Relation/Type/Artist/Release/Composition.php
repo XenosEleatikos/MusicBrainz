@@ -21,6 +21,6 @@ class Composition extends Release
      */
     public static function getRelationName(): Name
     {
-        return new Name('composition');
+        return new Name('authorship');
     }
 }

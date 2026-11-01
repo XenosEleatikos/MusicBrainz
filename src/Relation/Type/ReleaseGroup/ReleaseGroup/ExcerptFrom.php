@@ -21,6 +21,6 @@ class ExcerptFrom extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Excerpt from');
+        return new Name('excerpt from');
     }
 }

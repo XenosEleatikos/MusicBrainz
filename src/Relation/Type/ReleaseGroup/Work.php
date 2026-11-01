@@ -9,7 +9,7 @@ use MusicBrainz\Value\EntityType;
 /**
  * A relation of a release group to a work
  *
- * @link https://musicbrainz.org/relationships/release-group-work
+ * @link https://musicbrainz.org/relationships/release_group-work
  */
 abstract class Work extends \MusicBrainz\Relation\Type\ReleaseGroup
 {

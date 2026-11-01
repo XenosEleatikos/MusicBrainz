@@ -21,6 +21,6 @@ class Headquarters extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Headquarters');
+        return new Name('headquarters');
     }
 }

@@ -21,6 +21,6 @@ class NamedAfterPlace extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after place');
+        return new Name('named after place');
     }
 }

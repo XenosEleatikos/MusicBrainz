@@ -21,6 +21,6 @@ class Composition extends Work
      */
     public static function getRelationName(): Name
     {
-        return new Name('composition');
+        return new Name('authorship');
     }
 }

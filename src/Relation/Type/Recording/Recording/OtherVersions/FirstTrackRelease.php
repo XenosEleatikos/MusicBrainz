@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is deprecated and should not be used.
+ * This relationship type is deprecated! If two recordings are identical, please merge them.
  *
  * @link https://musicbrainz.org/relationship/f5f41b82-ecc7-488e-adf3-12356885d724
  */

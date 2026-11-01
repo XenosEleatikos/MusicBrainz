@@ -57,6 +57,7 @@ final class RelationsTest extends TestCase
             self::assertSame($relationJson['direction'], $relation->direction->value);
             self::assertSame($targetKey, $relation->targetType->path());
             self::assertSame($relationJson['type-id'], (string) $relation->type::getRelationTypeId());
+            self::assertSame($relationJson['type'], (string) $relation->type::getRelationName(), 'The name must be the one the web service delivers');
             self::assertSame($relationJson['begin'] ?? null, null === $relation->begin ? null : (string) $relation->begin);
             self::assertSame($relationJson['end'] ?? null, null === $relation->end ? null : (string) $relation->end);
             self::assertSame($relationJson['ended'] ?? false, $relation->ended);

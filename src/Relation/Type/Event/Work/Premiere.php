@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Event\Work;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates the event where the work had its first performance
+ * Indicates the event where the work had its first performance.
  *
  * @link https://musicbrainz.org/relationship/8cfc7355-186b-477b-b55d-4c20f63d0927
  */

@@ -21,6 +21,6 @@ class Participant extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Participant');
+        return new Name('participant');
     }
 }

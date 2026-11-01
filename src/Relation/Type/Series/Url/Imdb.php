@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Series\Url as Base;
 use MusicBrainz\Value\Name;
 
 /**
- * This links a series (generally a podcast) to its page in IMDb .
+ * This links a series (generally a podcast) to its page in IMDb.
  *
  * @link https://musicbrainz.org/relationship/ed4083be-a0b3-4040-b5b4-7513a67e9dc8
  */

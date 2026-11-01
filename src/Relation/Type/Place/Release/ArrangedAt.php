@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Place\Release;
 use MusicBrainz\Value\Name;
 
 /**
- * Links a release to the place it was arranged at.
+ * This links a release with the place it was arranged at.
  *
  * @link https://musicbrainz.org/relationship/03a9e95d-986f-40e4-985d-7487bfccfbb2
  */

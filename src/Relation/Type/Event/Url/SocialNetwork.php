@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Event\Url;
 use MusicBrainz\Value\Name;
 
 /**
- * A social network page is an event's own page on a social network which only people involved with the event can post content to. Examples include Facebook pages and event entries, and accounts on Twitter, Instagram and Flickr.
+ * A social network page is an event's own page on a social network which only people involved with the event can post
+ * content to. Examples include Facebook pages and event entries, and accounts on Twitter, Instagram and Flickr.
  *
  * @link https://musicbrainz.org/relationship/68f5fcaa-b58c-3bfe-9b7c-75c2b56e839a
  */

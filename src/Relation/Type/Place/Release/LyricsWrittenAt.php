@@ -21,6 +21,6 @@ class LyricsWrittenAt extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Lyrics written at');
+        return new Name('lyrics written at');
     }
 }

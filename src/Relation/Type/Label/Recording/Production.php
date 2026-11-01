@@ -21,6 +21,6 @@ class Production extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Production');
+        return new Name('production');
     }
 }

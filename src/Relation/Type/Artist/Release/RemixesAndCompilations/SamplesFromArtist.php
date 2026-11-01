@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Artist\Release\RemixesAndCompilations;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates that the release contains samples from material by the indicated artist. Use this only if you really cannot figure out the particular recording that has been sampled.
+ * Indicates that the release contains samples from material by the indicated artist. Use this only if you really
+ * cannot figure out the particular recording that has been sampled.
  *
  * @link https://musicbrainz.org/relationship/7ddb04ae-6c8a-41bd-95c2-392994d663db
  */

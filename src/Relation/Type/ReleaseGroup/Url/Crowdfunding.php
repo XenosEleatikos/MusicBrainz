@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\ReleaseGroup\Url;
 use MusicBrainz\Value\Name;
 
 /**
- * This links a release group to the relevant crowdfunding project at a crowdfunding site like Kickstarter or Indiegogo.
+ * This links a release group to the relevant crowdfunding project at a crowdfunding site like Kickstarter or
+ * Indiegogo.
  *
  * @link https://musicbrainz.org/relationship/6aec99c1-8817-4d91-8fd0-1028cb467b62
  */

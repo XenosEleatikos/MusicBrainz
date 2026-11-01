@@ -39,6 +39,6 @@ class NullType extends Type
      */
     public static function getRelationName(): Name
     {
-        return new Name('is ralated to');
+        return new Name('is related to');
     }
 }

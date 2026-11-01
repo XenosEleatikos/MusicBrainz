@@ -21,6 +21,6 @@ class PurchaseArtwork extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Purchase artwork');
+        return new Name('purchase artwork');
     }
 }

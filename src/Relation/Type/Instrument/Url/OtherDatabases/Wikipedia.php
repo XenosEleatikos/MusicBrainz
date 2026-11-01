@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Instrument\Url\OtherDatabases;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is deprecated and should not be used.
+ * Points to the Wikipedia page for this instrument.
  *
  * @link https://musicbrainz.org/relationship/b21fd997-c813-3bc6-99cc-c64323bd15d3
  */

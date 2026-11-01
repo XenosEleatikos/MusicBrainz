@@ -21,6 +21,6 @@ class ProductionCoordinator extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Production coordinator');
+        return new Name('production coordinator');
     }
 }

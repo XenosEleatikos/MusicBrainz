@@ -21,6 +21,6 @@ class NamedAfterSeries extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after series');
+        return new Name('named after series');
     }
 }

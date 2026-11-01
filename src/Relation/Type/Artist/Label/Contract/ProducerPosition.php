@@ -21,6 +21,6 @@ class ProducerPosition extends Contract
      */
     public static function getRelationName(): Name
     {
-        return new Name('producer position');
+        return new Name('producer position at');
     }
 }

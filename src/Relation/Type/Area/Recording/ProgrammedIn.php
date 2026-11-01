@@ -21,6 +21,6 @@ class ProgrammedIn extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Programmed in');
+        return new Name('programmed in');
     }
 }

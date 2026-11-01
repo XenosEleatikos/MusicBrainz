@@ -9,7 +9,7 @@ use MusicBrainz\Value\EntityType;
 /**
  * A relation of a genre to a release group
  *
- * @link https://musicbrainz.org/relationships/genre-release-group
+ * @link https://musicbrainz.org/relationships/genre-release_group
  */
 abstract class ReleaseGroup extends \MusicBrainz\Relation\Type\Genre
 {

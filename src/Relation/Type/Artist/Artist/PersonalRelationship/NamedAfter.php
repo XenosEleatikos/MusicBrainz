@@ -21,6 +21,6 @@ class NamedAfter extends PersonalRelationship
      */
     public static function getRelationName(): Name
     {
-        return new Name('named after');
+        return new Name('named after artist');
     }
 }

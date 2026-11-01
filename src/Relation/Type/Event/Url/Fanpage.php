@@ -21,6 +21,6 @@ class Fanpage extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Fanpage');
+        return new Name('fanpage');
     }
 }

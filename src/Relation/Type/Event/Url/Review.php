@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Event\Url;
 use MusicBrainz\Value\Name;
 
 /**
- * Indicates a webpage that reviews the event in question.
+ * Indicates a webpage that reviews the event in question, whether it be in text, audio or video form.
  *
  * @link https://musicbrainz.org/relationship/30ee8e92-5722-4dd7-943c-a2fa82b9aff4
  */

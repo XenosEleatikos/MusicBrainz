@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Place\Work;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates the work is dedicated to a specific place (such an educational institution). This is most common for classical works, but also exists in other genres to a degree.
+ * This indicates the work is dedicated to a specific place (such an educational institution). This is most common for
+ * classical works, but also exists in other genres to a degree.
  *
  * @link https://musicbrainz.org/relationship/4121e462-a6bd-4e33-8fe7-0f9aee69f5e9
  */

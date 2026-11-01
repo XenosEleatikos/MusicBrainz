@@ -21,6 +21,6 @@ class NamedAfterWork extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after work');
+        return new Name('named after work');
     }
 }

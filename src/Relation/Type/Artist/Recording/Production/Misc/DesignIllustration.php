@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is deprecated and should not be used.
+ * This indicates a person or agency who did design or illustration for the track.
  *
  * @link https://musicbrainz.org/relationship/4af8e696-2690-486f-87db-bc8ec2bfe859
  */

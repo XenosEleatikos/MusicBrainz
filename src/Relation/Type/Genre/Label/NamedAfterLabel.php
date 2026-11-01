@@ -21,6 +21,6 @@ class NamedAfterLabel extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after label');
+        return new Name('named after label');
     }
 }

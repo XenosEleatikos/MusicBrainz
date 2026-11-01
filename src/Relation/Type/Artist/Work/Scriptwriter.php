@@ -21,6 +21,6 @@ class Scriptwriter extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Scriptwriter');
+        return new Name('scriptwriter');
     }
 }

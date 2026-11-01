@@ -21,6 +21,6 @@ class JuryMember extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Jury member');
+        return new Name('jury member');
     }
 }

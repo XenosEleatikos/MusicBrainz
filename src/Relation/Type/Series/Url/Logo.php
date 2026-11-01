@@ -21,6 +21,6 @@ class Logo extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Logo');
+        return new Name('logo');
     }
 }

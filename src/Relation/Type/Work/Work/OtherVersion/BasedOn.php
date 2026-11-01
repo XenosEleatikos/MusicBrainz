@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Work\Work\OtherVersion;
 use MusicBrainz\Value\Name;
 
 /**
- * This links two works, where the second work is based on music or text from the first, but isn't directly a revision or an arrangement of it.
+ * This links two works, where the second work is based on music or text from the first, but isn't directly a revision
+ * or an arrangement of it.
  *
  * @link https://musicbrainz.org/relationship/6bb1df6b-57f3-434d-8a39-5dc363d2eb78
  */

@@ -8,7 +8,7 @@ use MusicBrainz\Relation\Type\Label\Recording\ContractedTasks;
 use MusicBrainz\Value\Name;
 
 /**
- * Use this relationship for credits like "Recording was produced by X for Label"
+ * Use this relationship for credits like “Recording was produced by X for Label”.
  *
  * @link https://musicbrainz.org/relationship/ce1529b0-2fd9-4dcc-82d2-4036a044b5b9
  */

@@ -21,6 +21,6 @@ class Animation extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Animation');
+        return new Name('animation');
     }
 }

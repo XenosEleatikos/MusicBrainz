@@ -21,6 +21,6 @@ class Schedule extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Schedule');
+        return new Name('schedule');
     }
 }

@@ -21,6 +21,6 @@ class Illustration extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Illustration');
+        return new Name('illustration');
     }
 }

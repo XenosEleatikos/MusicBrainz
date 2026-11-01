@@ -21,6 +21,6 @@ class NamedAfterArea extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Named after area');
+        return new Name('named after area');
     }
 }

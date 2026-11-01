@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Label\Release\Misc\Artwork\Design;
 use MusicBrainz\Value\Name;
 
 /**
- * This indicates an agency who did the graphic design for the release, arranging pieces of content into a coherent and aesthetically-pleasing sleeve design.
+ * This indicates an agency who did the graphic design for the release, arranging pieces of content into a coherent and
+ * aesthetically-pleasing sleeve design.
  *
  * @link https://musicbrainz.org/relationship/9e41d0cc-d102-4555-aa40-deb453e61780
  */

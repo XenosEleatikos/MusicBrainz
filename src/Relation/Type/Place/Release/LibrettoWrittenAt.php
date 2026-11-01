@@ -21,6 +21,6 @@ class LibrettoWrittenAt extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Libretto written at');
+        return new Name('libretto written at');
     }
 }

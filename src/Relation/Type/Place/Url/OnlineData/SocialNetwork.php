@@ -8,7 +8,8 @@ use MusicBrainz\Relation\Type\Place\Url\OnlineData;
 use MusicBrainz\Value\Name;
 
 /**
- * A social network page is a place's own page on a social network which only people involved with the place can post content to. Examples include Facebook pages, and accounts on Twitter, Instagram and Flickr.
+ * A social network page is a place's own page on a social network which only people involved with the place can post
+ * content to. Examples include Facebook pages, and accounts on Twitter, Instagram and Flickr.
  *
  * @link https://musicbrainz.org/relationship/040de4d5-ace5-4cfb-8a45-95c5c73bce01
  */

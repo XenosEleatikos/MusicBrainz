@@ -21,6 +21,6 @@ class VideoCopyright extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Video copyright');
+        return new Name('video copyright');
     }
 }

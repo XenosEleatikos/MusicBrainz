@@ -8,7 +8,10 @@ use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup as Base;
 use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is used to indicate that a release group is a re‐recording of another release group, that is, when an artist performs a new studio rendition of their own album.
+ * This relationship type is used to indicate that a release group is a re‐recording of another release group, that is,
+ * when an artist performs a new studio rendition of their own album. For a live performance of the album, see the live
+ * performance relationship type. For a cover recording of the album by a different artist, see the cover relationship
+ * type.
  *
  * @link https://musicbrainz.org/relationship/26ce3301-cf1f-4ce4-a7e2-9670f9a9e1d5
  */
@@ -21,6 +24,6 @@ class Rerecording extends Base
      */
     public static function getRelationName(): Name
     {
-        return new Name('Re‐recording');
+        return new Name('re‐recording');
     }
 }
