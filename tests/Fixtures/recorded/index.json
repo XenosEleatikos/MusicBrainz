@@ -559,10 +559,10 @@
         "recorded": "2026-11-01T18:50:19+00:00",
         "slimmed": true
     },
-    "work/list__limit=5_offset=0_query=name_Bohemian_Rhapsody_-d3401f52.json": {
-        "url": "https://musicbrainz.org/ws/2/work/?limit=5&offset=0&fmt=json&query=name%3A%22Bohemian%20Rhapsody%22",
+    "work/list__limit=5_offset=0_query=work_Bohemian_Rhapsody_-4fbdea2b.json": {
+        "url": "https://musicbrainz.org/ws/2/work/?limit=5&offset=0&fmt=json&query=work%3A%22Bohemian%20Rhapsody%22",
         "status": 200,
-        "recorded": "2026-11-01T12:54:08+00:00",
+        "recorded": "2026-11-01T19:11:18+00:00",
         "slimmed": true
     }
 }

@@ -18,7 +18,7 @@ trait WorkNameWithoutAccentsTrait
      */
     public static function workNameWithoutAccents(): string
     {
-        return 'name';
+        return 'work';
     }
 
     /**

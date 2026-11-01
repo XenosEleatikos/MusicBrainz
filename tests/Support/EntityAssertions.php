@@ -114,13 +114,13 @@ final class EntityAssertions
             'id' => ['id', 'id'], 'resource' => ['resource', 'str'], 'relations' => ['relations', 'relations'], 'relation-list' => ['relations', 'relations'],
         ],
         'collection' => [
-            'id' => ['id', 'id'], 'name' => ['name', 'str'], 'editor' => ['editor', 'str'], 'entity-type' => ['entityType', 'skip'], 'type' => ['type', 'nstr'],
+            'id' => ['id', 'id'], 'name' => ['name', 'str'], 'editor' => ['editor', 'str'], 'entity-type' => ['entityType', 'entityType'], 'type' => ['type', 'nstr'],
             'type-id' => [null, 'skip'], 'artist-count' => [null, 'skip'], 'release-count' => [null, 'skip'], 'area-count' => [null, 'skip'], 'event-count' => [null, 'skip'],
             'instrument-count' => [null, 'skip'], 'label-count' => [null, 'skip'], 'place-count' => [null, 'skip'], 'recording-count' => [null, 'skip'],
             'release-group-count' => [null, 'skip'], 'series-count' => [null, 'skip'], 'work-count' => [null, 'skip'], 'genre-count' => [null, 'skip'],
         ],
         'annotation' => [
-            'entity' => ['entityId', 'id'], 'name' => ['name', 'str'], 'text' => ['text', 'str'], 'type' => ['entityType', 'skip'], 'score' => [null, 'skip'],
+            'entity' => ['entityId', 'id'], 'name' => ['name', 'str'], 'text' => ['text', 'str'], 'type' => ['entityType', 'entityType'], 'score' => [null, 'skip'],
         ],
         'cdstub' => [
             'id' => ['discId', 'str'], 'title' => ['title', 'str'], 'artist' => ['artist', 'str'], 'barcode' => ['barcode', 'str'],
@@ -204,7 +204,10 @@ final class EntityAssertions
                 Assert::assertSame(null === $value ? '' : (string) $value, $actual, $path);
                 break;
             case 'nstr':
-                Assert::assertSame(null === $value || '' === $value ? null : (string) $value, '' === $actual ? null : $actual, $path);
+                Assert::assertSame(null === $value ? null : (string) $value, $actual, $path);
+                break;
+            case 'entityType':
+                Assert::assertSame(null === $value ? null : str_replace('-', '_', (string) $value), $actual?->value, $path);
                 break;
             case 'int':
             case 'nint':
@@ -295,7 +298,7 @@ final class EntityAssertions
             default => null,
         };
         $actual = $object->$property;
-        Assert::assertSame($expected, 'nstr' === $kind && '' === $actual ? null : $actual, "$path is absent in the response, so the property must be " . get_debug_type($expected));
+        Assert::assertSame($expected, $actual, "$path is absent in the response, so the property must be " . get_debug_type($expected));
     }
 
     /**

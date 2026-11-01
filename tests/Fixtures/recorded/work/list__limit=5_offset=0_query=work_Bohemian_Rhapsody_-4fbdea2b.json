@@ -1,6 +1,6 @@
 {
-    "created": "2026-11-01T12:54:08.190Z",
-    "count": 4086,
+    "created": "2026-11-01T19:11:18.804Z",
+    "count": 8,
     "offset": 0,
     "works": [
         {
@@ -60,19 +60,9 @@
                     "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
                     "direction": "backward",
                     "recording": {
-                        "id": "2e9176bc-058c-4954-ab7f-c4b2e9d4dfaf",
-                        "title": "Bohemian Rhapsody",
-                        "video": true
-                    }
-                },
-                {
-                    "type": "performance",
-                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
-                    "direction": "backward",
-                    "recording": {
-                        "id": "2372681e-4d45-4b7e-87de-eb73b38b828a",
-                        "title": "Bohemian Rhapsody",
-                        "video": true
+                        "id": "d22dae20-bda2-4573-a69f-095e0c644199",
+                        "title": "Bohemian Rhapsody (Rotterdam 26/04/2005)",
+                        "video": null
                     }
                 }
             ],
@@ -82,7 +72,7 @@
         },
         {
             "id": "6c8c1ee3-0c88-42d2-908c-47748c702136",
-            "score": 89,
+            "score": 81,
             "title": "Bohemian Rhapsody",
             "disambiguation": "arr. for wind band",
             "relations": [
@@ -110,9 +100,32 @@
             "languages": []
         },
         {
+            "id": "16eff811-2653-49b2-be87-46202b5cd26d",
+            "type": "Song",
+            "score": 81,
+            "title": "Bohemian Rhapsody",
+            "language": "jpn",
+            "disambiguation": "Japanese translation",
+            "relations": [
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "4171d29b-6f88-4825-b95b-b6cb3208b963",
+                        "title": "女王様物語",
+                        "video": null
+                    }
+                }
+            ],
+            "languages": [
+                "jpn"
+            ]
+        },
+        {
             "id": "660e678b-f1e3-4136-a471-965cd8496bb0",
             "type": "Song",
-            "score": 89,
+            "score": 81,
             "title": "Bohemian Rhapsody",
             "language": "eng",
             "relations": [
@@ -152,32 +165,9 @@
             ]
         },
         {
-            "id": "16eff811-2653-49b2-be87-46202b5cd26d",
-            "type": "Song",
-            "score": 89,
-            "title": "Bohemian Rhapsody",
-            "language": "jpn",
-            "disambiguation": "Japanese translation",
-            "relations": [
-                {
-                    "type": "performance",
-                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
-                    "direction": "backward",
-                    "recording": {
-                        "id": "4171d29b-6f88-4825-b95b-b6cb3208b963",
-                        "title": "女王様物語",
-                        "video": null
-                    }
-                }
-            ],
-            "languages": [
-                "jpn"
-            ]
-        },
-        {
             "id": "a8f4f093-823a-4cc0-86e7-76c784dbd65b",
             "type": "Song",
-            "score": 88,
+            "score": 79,
             "title": "Bohemian Rhapsody",
             "language": "zxx",
             "relations": [],

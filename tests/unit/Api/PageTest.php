@@ -16,6 +16,7 @@ use function array_is_list;
 use function array_keys;
 use function array_map;
 use function count;
+use function in_array;
 use function is_array;
 use function str_starts_with;
 
@@ -26,6 +27,9 @@ use const ARRAY_FILTER_USE_KEY;
  */
 final class PageTest extends TestCase
 {
+    /** Collections that are deliberately empty: the web service does not let the API add areas or instruments */
+    private const EMPTY = ['auth/browse/area/by-collection', 'auth/browse/instrument/by-collection'];
+
     /**
      * @return array<string, array{string}>
      */
@@ -52,6 +56,9 @@ final class PageTest extends TestCase
 
         $listKey = array_values(array_filter(array_keys($json), static fn($key): bool => is_array($json[$key]) && array_is_list($json[$key])))[0];
         self::assertCount(count($json[$listKey]), $page);
+        if (!in_array($scenario, self::EMPTY, true)) {
+            self::assertGreaterThan(0, count($page), 'A scenario that finds nothing tests nothing');
+        }
         self::assertSame($json[$kind === 'search' ? 'count' : $type . '-count'], $page->totalCount);
         self::assertSame($json[$kind === 'search' ? 'offset' : $type . '-offset'], $page->offset);
         self::assertSame($json['created'] ?? null, $page->created);

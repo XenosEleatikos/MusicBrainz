@@ -3,10 +3,15 @@
     "type": "library",
     "description": "A PHP library for accessing the MusicBrainz API",
     "keywords": [
-        "musicbrainz",
+        "api",
+        "client",
         "library",
+        "lucene",
+        "metadata",
+        "music",
+        "musicbrainz",
         "php",
-        "api"
+        "psr-18"
     ],
     "homepage": "https://github.com/XenosEleatikos/MusicBrainz",
     "license": "MIT",
@@ -76,5 +81,10 @@
             "MusicBrainz\\Test\\Support\\": "tests/Support",
             "MusicBrainz\\SpecificationTest\\": "tests/specification"
         }
+    },
+    "support": {
+        "issues": "https://github.com/XenosEleatikos/MusicBrainz/issues",
+        "source": "https://github.com/XenosEleatikos/MusicBrainz",
+        "security": "https://github.com/XenosEleatikos/MusicBrainz/security/policy"
     }
 }

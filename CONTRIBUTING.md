@@ -35,6 +35,8 @@ bin/record-fixtures --list                 # all scenarios
 bin/record-fixtures lookup/artist/bowie    # only scenarios whose name contains the pattern
 bin/record-fixtures --refresh <pattern>    # ask the web service again
 bin/record-fixtures --prune                # (complete run) delete fixtures no scenario uses any more
+bin/slim-fixtures                          # apply the shortening rules to recorded fixtures again, offline
+bin/probe-includes [pattern]               # ask the web service which inc parameters it accepts (tests/Fixtures/accepted-includes.json)
 ```
 
 Please keep the following in mind:
