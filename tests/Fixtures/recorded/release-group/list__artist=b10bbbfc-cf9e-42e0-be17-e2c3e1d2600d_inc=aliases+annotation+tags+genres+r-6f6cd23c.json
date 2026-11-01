@@ -1,0 +1,1105 @@
+{
+    "release-group-count": 1053,
+    "release-group-offset": 0,
+    "release-groups": [
+        {
+            "genres": [
+                {
+                    "disambiguation": "",
+                    "name": "merseybeat",
+                    "id": "c979d6c8-fa9e-47c3-86d6-754a7f89ea18",
+                    "count": 2
+                },
+                {
+                    "name": "pop",
+                    "disambiguation": "",
+                    "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                    "count": 2
+                },
+                {
+                    "disambiguation": "",
+                    "name": "pop rock",
+                    "count": 2,
+                    "id": "797e2e85-5ffd-495c-a757-8b4079052f0e"
+                },
+                {
+                    "name": "rock",
+                    "disambiguation": "",
+                    "count": 4,
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798"
+                },
+                {
+                    "count": 1,
+                    "id": "e4581b76-a842-440b-9b0f-1aa7a00a5c57",
+                    "disambiguation": "",
+                    "name": "rock and roll"
+                }
+            ],
+            "id": "2d111aea-50f8-33cc-ab63-780bc57068c0",
+            "secondary-types": [],
+            "first-release-date": "1964-12-15",
+            "primary-type": "Album",
+            "aliases": [],
+            "tags": [
+                {
+                    "name": "autumn",
+                    "count": 1
+                },
+                {
+                    "name": "bittersweet",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "breakup"
+                }
+            ],
+            "annotation": null,
+            "disambiguation": "",
+            "relations": [
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "ended": false,
+                    "target-type": "release_group",
+                    "direction": "forward",
+                    "type": "included in",
+                    "end": null,
+                    "target-credit": "",
+                    "release_group": {
+                        "secondary-type-ids": [],
+                        "primary-type-id": null,
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type-id": null,
+                                    "sort-name": "Beatles, The",
+                                    "type": null,
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles",
+                                    "country": "GB"
+                                },
+                                "name": "The Beatles",
+                                "joinphrase": ""
+                            }
+                        ],
+                        "primary-type": null,
+                        "first-release-date": "2000",
+                        "title": "Beatles ’65 / Beatles VI",
+                        "disambiguation": "",
+                        "secondary-types": [],
+                        "id": "dffd4c85-dc81-3374-b672-f8656735ebfc"
+                    },
+                    "source-credit": "",
+                    "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a"
+                },
+                {
+                    "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "release_group": {
+                        "secondary-types": [],
+                        "id": "a79a5dc0-1731-373d-bbf9-33171b9b323a",
+                        "title": "The Capitol Albums, Vol. 1",
+                        "disambiguation": "",
+                        "primary-type": null,
+                        "artist-credit": [
+                            {
+                                "joinphrase": "",
+                                "name": "The Beatles",
+                                "artist": {
+                                    "country": "GB",
+                                    "type": null,
+                                    "sort-name": "Beatles, The",
+                                    "type-id": null,
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles"
+                                }
+                            }
+                        ],
+                        "first-release-date": "2004-11-15",
+                        "secondary-type-ids": [],
+                        "primary-type-id": null
+                    },
+                    "end": null,
+                    "type": "included in",
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "release_group",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "direction": "forward",
+                    "target-type": "release_group",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "included in",
+                    "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                    "release_group": {
+                        "first-release-date": "2014-01-20",
+                        "primary-type": null,
+                        "artist-credit": [
+                            {
+                                "name": "The Beatles",
+                                "joinphrase": "",
+                                "artist": {
+                                    "name": "The Beatles",
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "type": null,
+                                    "sort-name": "Beatles, The",
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type-id": null,
+                                    "country": "GB"
+                                }
+                            }
+                        ],
+                        "primary-type-id": null,
+                        "secondary-type-ids": [],
+                        "secondary-types": [],
+                        "id": "ddc7a3a4-d8d7-4dbf-bd8a-8cc10701e9e1",
+                        "disambiguation": "",
+                        "title": "The U.S. Albums"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null
+                },
+                {
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "ordering-key": 41,
+                    "series": {
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "00eca148-0b4d-44fe-9473-4d5ce4ce7e4f",
+                        "type": "Release group series",
+                        "name": "Billboard 200 Decade-End Chart 1960s",
+                        "disambiguation": ""
+                    },
+                    "type": "part of",
+                    "direction": "forward",
+                    "target-type": "series",
+                    "ended": false,
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-values": {
+                        "number": "41"
+                    },
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    }
+                },
+                {
+                    "type": "part of",
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-values": {
+                        "number": "9"
+                    },
+                    "target-type": "series",
+                    "ended": false,
+                    "direction": "forward",
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "series": {
+                        "disambiguation": "",
+                        "name": "Dave Marsh: Top 40 Albums of 1965",
+                        "type": "Release group series",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "22f40ab9-075b-4d74-b42b-965493353c8d"
+                    },
+                    "ordering-key": 9
+                },
+                {
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "series",
+                    "attribute-values": {
+                        "number": "6"
+                    },
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "begin": null,
+                    "type": "part of",
+                    "ordering-key": 6,
+                    "series": {
+                        "type": "Release group series",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "19c78789-e350-43a7-b992-f8e4ef6a14b3",
+                        "disambiguation": "",
+                        "name": "The Beatles: Canadian albums"
+                    },
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126",
+                    "url": {
+                        "id": "401f945e-d6d1-4047-9328-8ad71d9a1cae",
+                        "resource": "https://www.discogs.com/master/45760"
+                    },
+                    "type": "discogs",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward"
+                },
+                {
+                    "url": {
+                        "resource": "https://www.sputnikmusic.com/soundoff.php?albumid=222238",
+                        "id": "a95cd678-592a-4342-acb8-a16ec9f6e8b4"
+                    },
+                    "end": null,
+                    "type-id": "c3ac9c3b-f546-4d15-873f-b294d2c1b708",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "type": "review"
+                },
+                {
+                    "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null,
+                    "url": {
+                        "resource": "https://www.wikidata.org/wiki/Q1753637",
+                        "id": "302a7619-40fe-406f-ad2e-3ad5a71ba31f"
+                    },
+                    "type": "wikidata",
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null
+                }
+            ],
+            "rating": {
+                "votes-count": 5,
+                "value": 4.4
+            },
+            "title": "Beatles ’65",
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "joinphrase": "",
+                    "artist": {
+                        "name": "The Beatles",
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "type": "Group",
+                        "genres": [
+                            {
+                                "name": "britpop",
+                                "disambiguation": "",
+                                "count": 2,
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30"
+                            },
+                            {
+                                "name": "classic rock",
+                                "disambiguation": "",
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "count": 4
+                            },
+                            {
+                                "disambiguation": "",
+                                "name": "experimental rock",
+                                "count": 2,
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7"
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "tags": [
+                            {
+                                "name": "1960s",
+                                "count": 1
+                            },
+                            {
+                                "count": 7,
+                                "name": "60s"
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "country": "GB",
+                        "aliases": [
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "primary": false,
+                                "end": null,
+                                "name": "Beatles",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "en",
+                                "sort-name": "Beatles",
+                                "type": "Artist name"
+                            },
+                            {
+                                "end": null,
+                                "name": "Beetles",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "type": "Search hint",
+                                "sort-name": "Beetles",
+                                "locale": null,
+                                "begin": null,
+                                "ended": false,
+                                "primary": null
+                            },
+                            {
+                                "primary": false,
+                                "ended": false,
+                                "begin": null,
+                                "locale": "is",
+                                "sort-name": "Bítlarnir",
+                                "type": "Artist name",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Bítlarnir",
+                                "end": null
+                            },
+                            {
+                                "end": null,
+                                "name": "Die Beatles",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "de",
+                                "sort-name": "Beatles, Die",
+                                "type": "Artist name",
+                                "begin": null,
+                                "ended": false,
+                                "primary": false
+                            },
+                            {
+                                "locale": null,
+                                "sort-name": "fab four",
+                                "type": "Search hint",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "fab four",
+                                "end": null,
+                                "ended": false,
+                                "primary": null,
+                                "begin": null
+                            },
+                            {
+                                "type-id": null,
+                                "type": null,
+                                "sort-name": "披頭四樂團",
+                                "locale": "zh_Hant",
+                                "end": null,
+                                "name": "披頭四樂團",
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": []
+        },
+        {
+            "first-release-date": "1964-02-03",
+            "aliases": [],
+            "primary-type": "Album",
+            "genres": [
+                {
+                    "name": "pop",
+                    "disambiguation": "",
+                    "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "id": "797e2e85-5ffd-495c-a757-8b4079052f0e",
+                    "disambiguation": "",
+                    "name": "pop rock"
+                },
+                {
+                    "count": 2,
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                    "disambiguation": "",
+                    "name": "rock"
+                }
+            ],
+            "secondary-types": [],
+            "id": "31770e0a-e537-376d-a7c0-48e507f3105e",
+            "artist-credit": [
+                {
+                    "joinphrase": "",
+                    "name": "The Beatles",
+                    "artist": {
+                        "name": "The Beatles",
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "genres": [
+                            {
+                                "disambiguation": "",
+                                "name": "britpop",
+                                "count": 2,
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30"
+                            },
+                            {
+                                "count": 4,
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "name": "classic rock",
+                                "disambiguation": ""
+                            },
+                            {
+                                "count": 2,
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+                                "disambiguation": "",
+                                "name": "experimental rock"
+                            }
+                        ],
+                        "type": "Group",
+                        "sort-name": "Beatles, The",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "1960s"
+                            },
+                            {
+                                "name": "60s",
+                                "count": 7
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "country": "GB",
+                        "aliases": [
+                            {
+                                "ended": false,
+                                "primary": false,
+                                "begin": null,
+                                "type": "Artist name",
+                                "locale": "en",
+                                "sort-name": "Beatles",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Beatles",
+                                "end": null
+                            },
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "primary": null,
+                                "name": "Beetles",
+                                "end": null,
+                                "sort-name": "Beetles",
+                                "locale": null,
+                                "type": "Search hint",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+                            },
+                            {
+                                "ended": false,
+                                "primary": false,
+                                "begin": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "is",
+                                "sort-name": "Bítlarnir",
+                                "type": "Artist name",
+                                "end": null,
+                                "name": "Bítlarnir"
+                            },
+                            {
+                                "end": null,
+                                "name": "Die Beatles",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "de",
+                                "type": "Artist name",
+                                "sort-name": "Beatles, Die",
+                                "begin": null,
+                                "ended": false,
+                                "primary": false
+                            },
+                            {
+                                "name": "fab four",
+                                "end": null,
+                                "sort-name": "fab four",
+                                "locale": null,
+                                "type": "Search hint",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "ended": false,
+                                "primary": null
+                            },
+                            {
+                                "name": "披頭四樂團",
+                                "end": null,
+                                "sort-name": "披頭四樂團",
+                                "type": null,
+                                "locale": "zh_Hant",
+                                "type-id": null,
+                                "begin": null,
+                                "primary": false,
+                                "ended": false
+                            }
+                        ]
+                    }
+                }
+            ],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "secondary-type-ids": [],
+            "tags": [
+                {
+                    "name": "1960s",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "1964"
+                },
+                {
+                    "name": "beat",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "pop"
+                },
+                {
+                    "name": "pop rock",
+                    "count": 1
+                },
+                {
+                    "name": "rock",
+                    "count": 2
+                }
+            ],
+            "disambiguation": "",
+            "annotation": null,
+            "rating": {
+                "votes-count": 8,
+                "value": 4.9
+            },
+            "title": "Twist and Shout",
+            "relations": [
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "end": null,
+                    "ordering-key": 2,
+                    "series": {
+                        "disambiguation": "",
+                        "name": "The Beatles: Canadian albums",
+                        "type": "Release group series",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "19c78789-e350-43a7-b992-f8e4ef6a14b3"
+                    },
+                    "type": "part of",
+                    "target-type": "series",
+                    "ended": false,
+                    "direction": "forward",
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-values": {
+                        "number": "2"
+                    }
+                },
+                {
+                    "type": "discogs",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward",
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126",
+                    "url": {
+                        "resource": "https://www.discogs.com/master/230677",
+                        "id": "2def868f-e3e9-4675-84c0-114a5d7d5037"
+                    }
+                },
+                {
+                    "url": {
+                        "id": "f3e56a28-1977-4903-ab67-39d8a236535f",
+                        "resource": "https://www.wikidata.org/wiki/Q1940281"
+                    },
+                    "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "wikidata"
+                }
+            ]
+        },
+        {
+            "primary-type": "Album",
+            "aliases": [],
+            "first-release-date": "1964-04-10",
+            "id": "387bc6cc-ac60-365f-819b-fbc78c486065",
+            "secondary-types": [],
+            "genres": [
+                {
+                    "name": "classic rock",
+                    "disambiguation": "",
+                    "count": 1,
+                    "id": "93244085-20e5-4f16-9067-1d19143b3810"
+                },
+                {
+                    "id": "911c7bbb-172d-4df8-9478-dbff4296e791",
+                    "count": 2,
+                    "name": "pop",
+                    "disambiguation": ""
+                },
+                {
+                    "count": 3,
+                    "id": "797e2e85-5ffd-495c-a757-8b4079052f0e",
+                    "name": "pop rock",
+                    "disambiguation": ""
+                },
+                {
+                    "disambiguation": "",
+                    "name": "rock",
+                    "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798",
+                    "count": 6
+                },
+                {
+                    "count": 1,
+                    "id": "e4581b76-a842-440b-9b0f-1aa7a00a5c57",
+                    "disambiguation": "",
+                    "name": "rock and roll"
+                }
+            ],
+            "artist-credit": [
+                {
+                    "artist": {
+                        "aliases": [
+                            {
+                                "end": null,
+                                "name": "Beatles",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "type": "Artist name",
+                                "sort-name": "Beatles",
+                                "locale": "en",
+                                "begin": null,
+                                "ended": false,
+                                "primary": false
+                            },
+                            {
+                                "sort-name": "Beetles",
+                                "type": "Search hint",
+                                "locale": null,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "Beetles",
+                                "end": null,
+                                "ended": false,
+                                "primary": null,
+                                "begin": null
+                            },
+                            {
+                                "locale": "is",
+                                "sort-name": "Bítlarnir",
+                                "type": "Artist name",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Bítlarnir",
+                                "end": null,
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            },
+                            {
+                                "end": null,
+                                "name": "Die Beatles",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "sort-name": "Beatles, Die",
+                                "type": "Artist name",
+                                "locale": "de",
+                                "begin": null,
+                                "ended": false,
+                                "primary": false
+                            },
+                            {
+                                "ended": false,
+                                "primary": null,
+                                "begin": null,
+                                "type": "Search hint",
+                                "sort-name": "fab four",
+                                "locale": null,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "fab four",
+                                "end": null
+                            },
+                            {
+                                "ended": false,
+                                "primary": false,
+                                "begin": null,
+                                "type-id": null,
+                                "sort-name": "披頭四樂團",
+                                "locale": "zh_Hant",
+                                "type": null,
+                                "end": null,
+                                "name": "披頭四樂團"
+                            }
+                        ],
+                        "country": "GB",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "1960s"
+                            },
+                            {
+                                "count": 7,
+                                "name": "60s"
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "type": "Group",
+                        "genres": [
+                            {
+                                "count": 2,
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30",
+                                "name": "britpop",
+                                "disambiguation": ""
+                            },
+                            {
+                                "count": 4,
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "disambiguation": "",
+                                "name": "classic rock"
+                            },
+                            {
+                                "count": 2,
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+                                "disambiguation": "",
+                                "name": "experimental rock"
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "name": "The Beatles",
+                        "disambiguation": "UK rock band, “The Fab Four”"
+                    },
+                    "name": "The Beatles",
+                    "joinphrase": ""
+                }
+            ],
+            "secondary-type-ids": [],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "1960s"
+                },
+                {
+                    "name": "1964",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "artist on cover"
+                }
+            ],
+            "relations": [
+                {
+                    "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                    "target-credit": "",
+                    "release_group": {
+                        "title": "The Capitol Albums, Vol. 1",
+                        "disambiguation": "",
+                        "id": "a79a5dc0-1731-373d-bbf9-33171b9b323a",
+                        "secondary-types": [],
+                        "secondary-type-ids": [],
+                        "primary-type-id": null,
+                        "artist-credit": [
+                            {
+                                "joinphrase": "",
+                                "name": "The Beatles",
+                                "artist": {
+                                    "country": "GB",
+                                    "type": null,
+                                    "sort-name": "Beatles, The",
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type-id": null,
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles"
+                                }
+                            }
+                        ],
+                        "primary-type": null,
+                        "first-release-date": "2004-11-15"
+                    },
+                    "source-credit": "",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "release_group",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "included in"
+                },
+                {
+                    "type": "included in",
+                    "direction": "forward",
+                    "target-type": "release_group",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                    "release_group": {
+                        "primary-type-id": null,
+                        "secondary-type-ids": [],
+                        "first-release-date": "2014-01-20",
+                        "primary-type": null,
+                        "artist-credit": [
+                            {
+                                "joinphrase": "",
+                                "name": "The Beatles",
+                                "artist": {
+                                    "country": "GB",
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type-id": null,
+                                    "sort-name": "Beatles, The",
+                                    "type": null,
+                                    "name": "The Beatles",
+                                    "disambiguation": "UK rock band, “The Fab Four”"
+                                }
+                            }
+                        ],
+                        "disambiguation": "",
+                        "title": "The U.S. Albums",
+                        "secondary-types": [],
+                        "id": "ddc7a3a4-d8d7-4dbf-bd8a-8cc10701e9e1"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null
+                },
+                {
+                    "type-id": "589447ea-be2c-46cc-b9e9-469e1d06e18a",
+                    "release_group": {
+                        "primary-type-id": null,
+                        "secondary-type-ids": [],
+                        "first-release-date": "2004",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "country": "GB",
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "Beatles, The",
+                                    "name": "The Beatles",
+                                    "disambiguation": "UK rock band, “The Fab Four”"
+                                },
+                                "name": "The Beatles",
+                                "joinphrase": ""
+                            }
+                        ],
+                        "primary-type": null,
+                        "disambiguation": "",
+                        "title": "Meet The Beatles / The Beatles’ Second Album",
+                        "secondary-types": [],
+                        "id": "8fa7261d-47c8-4644-9ecb-7414ad5c6c46"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "type": "included in",
+                    "direction": "forward",
+                    "target-type": "release_group",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "type": "part of",
+                    "direction": "forward",
+                    "target-type": "series",
+                    "ended": false,
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-values": {
+                        "number": "55"
+                    },
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "ordering-key": 55,
+                    "series": {
+                        "disambiguation": "",
+                        "name": "Billboard 200 Decade-End Chart 1960s",
+                        "id": "00eca148-0b4d-44fe-9473-4d5ce4ce7e4f",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "type": "Release group series"
+                    }
+                },
+                {
+                    "end": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "series": {
+                        "name": "Dave Marsh: Top 40 Albums of 1964",
+                        "disambiguation": "",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "cd3dbf06-99d5-45ec-9d2e-74f1a1476df8",
+                        "type": "Release group series"
+                    },
+                    "ordering-key": 2,
+                    "type": "part of",
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "begin": null,
+                    "attribute-values": {
+                        "number": "2"
+                    },
+                    "attributes": [
+                        "number"
+                    ],
+                    "ended": false,
+                    "target-type": "series",
+                    "direction": "forward"
+                },
+                {
+                    "target-type": "series",
+                    "ended": false,
+                    "direction": "forward",
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-values": {
+                        "number": "3"
+                    },
+                    "type": "part of",
+                    "ordering-key": 3,
+                    "series": {
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "384fa008-cccd-4198-8502-379a8e4814e7",
+                        "type": "Release group series",
+                        "disambiguation": "",
+                        "name": "The Beatles: US albums"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "01018437-91d8-36b9-bf89-3f885d53b5bd",
+                    "end": null
+                },
+                {
+                    "end": null,
+                    "type-id": "99e550f3-5ab4-3110-b5b9-fe01d970b126",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "url": {
+                        "id": "9d65ca5a-dfe8-4ec5-b640-5d29543d88a7",
+                        "resource": "https://www.discogs.com/master/54549"
+                    },
+                    "type": "discogs",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url"
+                },
+                {
+                    "type": "wikidata",
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type-id": "b988d08c-5d86-4a57-9557-c83b399e3580",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "url": {
+                        "id": "359748f5-e736-40d7-9c7e-9f9615cefaa1",
+                        "resource": "https://www.wikidata.org/wiki/Q2002709"
+                    }
+                }
+            ],
+            "rating": {
+                "votes-count": 7,
+                "value": 4
+            },
+            "title": "The Beatles’ Second Album",
+            "disambiguation": "",
+            "annotation": null
+        }
+    ]
+}

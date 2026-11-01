@@ -1,4 +1,0 @@
-{
-    "error": "The given parameters do not match any available query type for the artist resource.",
-    "help": "For usage, please see: https://musicbrainz.org/development/mmd"
-}

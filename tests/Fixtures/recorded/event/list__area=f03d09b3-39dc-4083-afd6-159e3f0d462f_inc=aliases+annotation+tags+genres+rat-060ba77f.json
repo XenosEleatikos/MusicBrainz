@@ -1,0 +1,655 @@
+{
+    "event-count": 4117,
+    "events": [
+        {
+            "cancelled": false,
+            "life-span": {
+                "begin": "2027-08-15",
+                "end": null,
+                "ended": false
+            },
+            "name": "Anjunadeep Open Air London",
+            "tags": [],
+            "genres": [],
+            "annotation": null,
+            "aliases": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "disambiguation": "2027",
+            "type": "Concert",
+            "setlist": "",
+            "relations": [
+                {
+                    "target-credit": "",
+                    "type": "presented",
+                    "source-credit": "",
+                    "target-type": "label",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "label": {
+                        "id": "5b66608b-878d-4d7a-a96b-6da38356f6c8",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "label-code": null,
+                        "disambiguation": "",
+                        "sort-name": "Anjunadeep",
+                        "type": "Original Production",
+                        "name": "Anjunadeep"
+                    },
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "09bd2cba-6160-408b-b191-afef7480ce54",
+                    "end": null,
+                    "attribute-values": [],
+                    "attributes": []
+                },
+                {
+                    "place": {
+                        "address": "",
+                        "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+                        "id": "9551d219-4b5f-4507-83d8-9b680838d1f4",
+                        "name": "Old Royal Naval College",
+                        "coordinates": {
+                            "latitude": 51.483611,
+                            "longitude": -0.005833
+                        },
+                        "area": {
+                            "iso-3166-2-codes": [
+                                "GB-GRE"
+                            ],
+                            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                            "id": "4020f085-9caf-433d-b8aa-2ee86f0c7589",
+                            "name": "Greenwich",
+                            "disambiguation": "",
+                            "type": "Subdivision",
+                            "sort-name": "Greenwich"
+                        },
+                        "disambiguation": "",
+                        "type": "Other"
+                    },
+                    "attributes": [],
+                    "end": null,
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "held at",
+                    "source-credit": "",
+                    "begin": null,
+                    "target-type": "place",
+                    "attribute-ids": []
+                },
+                {
+                    "direction": "forward",
+                    "type-id": "c26808b0-4e67-31a7-a587-913720dfb3f3",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "official homepage",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://anjunadeep.com/gb/events/oa-london",
+                        "id": "7319b3ec-dde9-4fdf-a646-bf266df8b7c1"
+                    },
+                    "attributes": []
+                }
+            ],
+            "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+            "time": "",
+            "id": "22d23b9e-3536-4a05-9e15-752e138ebdea"
+        },
+        {
+            "genres": [],
+            "tags": [],
+            "annotation": null,
+            "aliases": [],
+            "cancelled": false,
+            "name": "BICEP Live on the Thames",
+            "life-span": {
+                "begin": "2027-07-31",
+                "ended": true,
+                "end": "2027-07-31"
+            },
+            "setlist": "",
+            "id": "263b7b12-86ae-48f5-b783-2b7622b3fc80",
+            "time": "14:00",
+            "relations": [
+                {
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "target-type": "artist",
+                    "begin": null,
+                    "type": "main performer",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "end": null,
+                    "direction": "backward",
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "artist": {
+                        "name": "Bicep",
+                        "type": "Group",
+                        "sort-name": "Bicep",
+                        "disambiguation": "",
+                        "country": "GB",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8"
+                    }
+                },
+                {
+                    "place": {
+                        "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+                        "id": "9551d219-4b5f-4507-83d8-9b680838d1f4",
+                        "address": "",
+                        "type": "Other",
+                        "disambiguation": "",
+                        "coordinates": {
+                            "longitude": -0.005833,
+                            "latitude": 51.483611
+                        },
+                        "area": {
+                            "type": "Subdivision",
+                            "sort-name": "Greenwich",
+                            "disambiguation": "",
+                            "name": "Greenwich",
+                            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                            "id": "4020f085-9caf-433d-b8aa-2ee86f0c7589",
+                            "iso-3166-2-codes": [
+                                "GB-GRE"
+                            ]
+                        },
+                        "name": "Old Royal Naval College"
+                    },
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "held at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "place",
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-values": []
+                },
+                {
+                    "type-id": "707d947d-9563-328a-9a7d-0c5b9c3a9791",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "part of",
+                    "ordering-key": 3,
+                    "begin": null,
+                    "target-type": "series",
+                    "attribute-ids": [],
+                    "series": {
+                        "name": "Labyrinth on the Thames 2027",
+                        "type": "Event series",
+                        "type-id": "64640a2a-1c31-394d-b7b0-683a32ff9aff",
+                        "id": "65a8e59a-4b56-4430-8fd0-75b8fa0a8088",
+                        "disambiguation": ""
+                    },
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://www.bicepmusic.com/london2027/",
+                        "id": "a14ce138-52ba-43ec-9d55-7435a216b13a"
+                    },
+                    "attribute-values": [],
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "c26808b0-4e67-31a7-a587-913720dfb3f3",
+                    "end": null,
+                    "attribute-ids": [],
+                    "target-type": "url",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "official homepage",
+                    "target-credit": ""
+                },
+                {
+                    "attribute-values": [],
+                    "type-id": "bf0f91b9-d97e-4a7b-9114-f1db1e0b61de",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "begin": null,
+                    "target-type": "url",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "ticketing",
+                    "source-credit": "",
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://dice.fm/event/l8po9p-bicep-live-on-the-thames-31st-jul-old-royal-naval-college-london-tickets",
+                        "id": "b3fcf9ff-a10c-4bb9-a425-c343fb36ad24"
+                    }
+                }
+            ],
+            "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+            "disambiguation": "Saturday",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "type": "Concert"
+        },
+        {
+            "relations": [
+                {
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "main performer",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "direction": "backward",
+                    "artist": {
+                        "id": "10e8f0df-90f9-4957-aedd-c4e0d187e3a8",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "country": "GB",
+                        "disambiguation": "",
+                        "sort-name": "Bicep",
+                        "type": "Group",
+                        "name": "Bicep"
+                    },
+                    "attribute-values": []
+                },
+                {
+                    "attributes": [],
+                    "place": {
+                        "id": "9551d219-4b5f-4507-83d8-9b680838d1f4",
+                        "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+                        "address": "",
+                        "type": "Other",
+                        "disambiguation": "",
+                        "area": {
+                            "name": "Greenwich",
+                            "disambiguation": "",
+                            "type": "Subdivision",
+                            "sort-name": "Greenwich",
+                            "iso-3166-2-codes": [
+                                "GB-GRE"
+                            ],
+                            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                            "id": "4020f085-9caf-433d-b8aa-2ee86f0c7589"
+                        },
+                        "coordinates": {
+                            "longitude": -0.005833,
+                            "latitude": 51.483611
+                        },
+                        "name": "Old Royal Naval College"
+                    },
+                    "source-credit": "",
+                    "type": "held at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "place",
+                    "begin": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "end": null,
+                    "attribute-values": []
+                },
+                {
+                    "series": {
+                        "type": "Event series",
+                        "type-id": "64640a2a-1c31-394d-b7b0-683a32ff9aff",
+                        "id": "65a8e59a-4b56-4430-8fd0-75b8fa0a8088",
+                        "disambiguation": "",
+                        "name": "Labyrinth on the Thames 2027"
+                    },
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "part of",
+                    "ordering-key": 4,
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "series",
+                    "direction": "forward",
+                    "type-id": "707d947d-9563-328a-9a7d-0c5b9c3a9791",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": []
+                },
+                {
+                    "attributes": [],
+                    "url": {
+                        "id": "b45900fb-21c7-401f-8c75-310329b9893e",
+                        "resource": "https://dice.fm/event/eo99ad-bicep-live-on-the-thames-added-date-3rd-date-1st-aug-old-royal-naval-college-london-tickets"
+                    },
+                    "attribute-ids": [],
+                    "target-type": "url",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "ticketing",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "type-id": "bf0f91b9-d97e-4a7b-9114-f1db1e0b61de",
+                    "ended": false
+                }
+            ],
+            "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+            "id": "277c6839-4788-43f6-8734-08be427a38d5",
+            "time": "14:00",
+            "setlist": "",
+            "type": "Concert",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "disambiguation": "Sunday",
+            "tags": [],
+            "genres": [],
+            "aliases": [],
+            "annotation": null,
+            "cancelled": false,
+            "life-span": {
+                "begin": "2027-08-01",
+                "end": "2027-08-01",
+                "ended": true
+            },
+            "name": "BICEP Live on the Thames"
+        },
+        {
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "disambiguation": "",
+            "type": "Festival",
+            "setlist": "",
+            "relations": [
+                {
+                    "area": {
+                        "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                        "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                        "name": "London",
+                        "type": "City",
+                        "sort-name": "London",
+                        "disambiguation": "Greater London"
+                    },
+                    "attributes": [],
+                    "begin": null,
+                    "target-type": "area",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "held in",
+                    "source-credit": "",
+                    "attribute-values": [],
+                    "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+                    "end": null,
+                    "direction": "backward",
+                    "ended": false
+                },
+                {
+                    "attribute-values": [],
+                    "end": null,
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "direction": "backward",
+                    "ended": false,
+                    "artist": {
+                        "disambiguation": "Spanish black/death metal",
+                        "country": "ES",
+                        "type": "Group",
+                        "sort-name": "13th Moon",
+                        "name": "13th Moon",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "e80b3cc3-d275-4e5d-ab03-069f9f4baae6"
+                    },
+                    "attribute-ids": [],
+                    "target-type": "artist",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "main performer",
+                    "target-credit": "",
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "Black/Speed Metal UK",
+                        "type": "Group",
+                        "sort-name": "Äxe",
+                        "name": "Äxe",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "830d6499-51d9-4c06-b27d-14393a1c5d76"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "main performer",
+                    "begin": null,
+                    "target-type": "artist",
+                    "attribute-ids": []
+                },
+                {
+                    "attributes": [],
+                    "ended": false,
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "direction": "backward",
+                    "end": null,
+                    "artist": {
+                        "name": "Beherit",
+                        "disambiguation": "",
+                        "country": "FI",
+                        "type": "Group",
+                        "sort-name": "Beherit",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "65a8ee1c-20ef-4e2d-bf55-33a35bd7e644"
+                    },
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "type": "main performer",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist"
+                },
+                {
+                    "attribute-values": [],
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "target-type": "place",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "held at",
+                    "place": {
+                        "area": {
+                            "name": "Hackney",
+                            "disambiguation": "",
+                            "type": "Subdivision",
+                            "sort-name": "Hackney",
+                            "iso-3166-2-codes": [
+                                "GB-HCK"
+                            ],
+                            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                            "id": "76325eca-c006-429f-93bb-d499ae80916c"
+                        },
+                        "coordinates": {
+                            "longitude": -0.0555,
+                            "latitude": 51.5455
+                        },
+                        "name": "Hackney Empire",
+                        "type": "Venue",
+                        "disambiguation": "",
+                        "id": "afe53d10-cecd-4187-b955-bec7d4392205",
+                        "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+                        "address": "Mare Street, Hackney, London"
+                    },
+                    "attributes": []
+                }
+            ],
+            "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+            "id": "3e5cace0-f58a-4149-aec0-c0916444777e",
+            "time": "",
+            "cancelled": false,
+            "life-span": {
+                "begin": "2027-04-17",
+                "end": "2027-04-18",
+                "ended": true
+            },
+            "name": "Winds of Agony",
+            "tags": [],
+            "genres": [],
+            "annotation": null,
+            "aliases": []
+        },
+        {
+            "setlist": "",
+            "relations": [
+                {
+                    "label": {
+                        "name": "Anjunadeep",
+                        "sort-name": "Anjunadeep",
+                        "type": "Original Production",
+                        "disambiguation": "",
+                        "label-code": null,
+                        "id": "5b66608b-878d-4d7a-a96b-6da38356f6c8",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+                    },
+                    "direction": "forward",
+                    "type-id": "09bd2cba-6160-408b-b191-afef7480ce54",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "presented",
+                    "begin": null,
+                    "target-type": "label",
+                    "attribute-ids": [],
+                    "attributes": []
+                },
+                {
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "type": "held at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "place",
+                    "place": {
+                        "address": "",
+                        "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+                        "id": "9551d219-4b5f-4507-83d8-9b680838d1f4",
+                        "disambiguation": "",
+                        "type": "Other",
+                        "name": "Old Royal Naval College",
+                        "coordinates": {
+                            "longitude": -0.005833,
+                            "latitude": 51.483611
+                        },
+                        "area": {
+                            "iso-3166-2-codes": [
+                                "GB-GRE"
+                            ],
+                            "id": "4020f085-9caf-433d-b8aa-2ee86f0c7589",
+                            "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                            "name": "Greenwich",
+                            "sort-name": "Greenwich",
+                            "type": "Subdivision",
+                            "disambiguation": ""
+                        }
+                    },
+                    "attributes": []
+                },
+                {
+                    "begin": null,
+                    "target-type": "series",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "part of",
+                    "source-credit": "",
+                    "ordering-key": 5,
+                    "attribute-values": [],
+                    "type-id": "707d947d-9563-328a-9a7d-0c5b9c3a9791",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "attributes": [],
+                    "series": {
+                        "disambiguation": "",
+                        "type-id": "64640a2a-1c31-394d-b7b0-683a32ff9aff",
+                        "type": "Event series",
+                        "id": "65a8e59a-4b56-4430-8fd0-75b8fa0a8088",
+                        "name": "Labyrinth on the Thames 2027"
+                    }
+                },
+                {
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://anjunadeep.com/gb/events/oa-london",
+                        "id": "7319b3ec-dde9-4fdf-a646-bf266df8b7c1"
+                    },
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "c26808b0-4e67-31a7-a587-913720dfb3f3",
+                    "end": null,
+                    "ended": false,
+                    "begin": null,
+                    "target-type": "url",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "official homepage"
+                }
+            ],
+            "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+            "time": "",
+            "id": "94b465bf-739d-42ce-80b8-03b11474d45c",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "disambiguation": "",
+            "type": "Festival",
+            "annotation": null,
+            "aliases": [],
+            "tags": [],
+            "genres": [],
+            "life-span": {
+                "begin": "2027-08-15",
+                "end": null,
+                "ended": false
+            },
+            "name": "Anjunadeep Open Air London",
+            "cancelled": false
+        }
+    ],
+    "event-offset": 0
+}

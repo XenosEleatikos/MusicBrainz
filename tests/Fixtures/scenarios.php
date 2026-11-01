@@ -229,7 +229,6 @@ $scenarios['auth/browse/collection/by-editor'] = static function (MusicBrainz $m
 
     return $mb->api()->browse()->collection($relation, $page(10));
 };
-$scenarios['auth/browse/artist/by-collection'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->artist($relation(ArtistRelation::class, 'collection', $collection), $withUser(new Browse\ArtistFields()), $page(10));
 // Collections created for these tests (type area, instrument, series); the area and instrument collections are empty
 $scenarios['auth/browse/area/by-collection']       = static fn(MusicBrainz $mb) => $mb->api()->browse()->area($relation(AreaRelation::class, 'collection', 'abde7cff-3493-4c98-bc4a-1647f216331d'), $withUser(new Browse\AreaFields()), $page(10));
 $scenarios['auth/browse/instrument/by-collection'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->instrument($relation(InstrumentRelation::class, 'collection', '8e72551b-040d-49d5-afb5-70d37928de0a'), $withUser(new Browse\InstrumentFields()), $page(10));

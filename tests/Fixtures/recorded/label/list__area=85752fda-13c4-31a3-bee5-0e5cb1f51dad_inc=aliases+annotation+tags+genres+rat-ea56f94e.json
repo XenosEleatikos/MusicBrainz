@@ -1,0 +1,2036 @@
+{
+    "label-offset": 0,
+    "labels": [
+        {
+            "id": "4e3c9b9b-dc82-421c-a0da-6743bee0b4cb",
+            "annotation": null,
+            "isnis": [],
+            "label-code": null,
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "disambiguation": "",
+                "sort-name": "Germany",
+                "type": null,
+                "type-id": null
+            },
+            "relations": [
+                {
+                    "source-credit": "",
+                    "ended": false,
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://www.discogs.com/label/37059",
+                        "id": "cd7b91c0-9d58-453e-8efa-400c1a4c43a2"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "target-type": "url",
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "type": "discogs",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "attributes": [],
+                    "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+                    "type": "official site",
+                    "ended": false,
+                    "source-credit": "",
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "f09cf7be-0341-4455-88e6-7e4924750c4b",
+                        "resource": "http://www.ikonen-magazin.de/"
+                    }
+                }
+            ],
+            "type": "Production",
+            "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+            "genres": [],
+            "disambiguation": "",
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "aliases": [],
+            "tags": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "name": ":Ikonen: Media",
+            "ipis": [],
+            "country": "DE",
+            "sort-name": ":Ikonen: Media"
+        },
+        {
+            "ipis": [],
+            "name": "_wdis",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "tags": [],
+            "sort-name": "_wdis",
+            "country": null,
+            "isnis": [],
+            "annotation": null,
+            "id": "844fe0de-edd2-4889-8d07-8fd2854e5075",
+            "relations": [
+                {
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://wdis.bandcamp.com/",
+                        "id": "ae256285-91b8-404f-a3d4-776bde0ab981"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "target-type": "url",
+                    "type-id": "c535de4c-a112-4974-b138-5e0daa56eab5",
+                    "type": "bandcamp",
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "type": "social network",
+                    "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+                    "target-type": "url",
+                    "begin": null,
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://www.facebook.com/whatdoisee",
+                        "id": "44c50eab-ab41-47a1-8a7a-80a5dd2f9dd7"
+                    },
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "ended": false,
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": []
+                },
+                {
+                    "url": {
+                        "resource": "https://www.instagram.com/wdis_/",
+                        "id": "873185b8-4a46-4304-be89-d983b63922c3"
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "ended": false,
+                    "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+                    "type": "social network",
+                    "attributes": [],
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://soundcloud.com/whatdoisee",
+                        "id": "7c3dd7ef-21cf-4509-92ed-45879f3f6764"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "ended": false,
+                    "source-credit": "",
+                    "type": "soundcloud",
+                    "type-id": "a31d05ba-3b82-47b2-ab8b-1fe73b5459e2",
+                    "attributes": [],
+                    "target-type": "url"
+                }
+            ],
+            "area": {
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+                "name": "Berlin",
+                "disambiguation": "",
+                "type": null,
+                "type-id": null,
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "sort-name": "Berlin"
+            },
+            "label-code": null,
+            "genres": [],
+            "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034",
+            "type": "Distributor",
+            "aliases": [],
+            "disambiguation": "whatdoisee",
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            }
+        },
+        {
+            "country": "DE",
+            "sort-name": "!Hype",
+            "tags": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "name": "!Hype",
+            "ipis": [],
+            "type": "Original Production",
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "genres": [],
+            "disambiguation": "",
+            "life-span": {
+                "begin": null,
+                "ended": false,
+                "end": null
+            },
+            "aliases": [],
+            "id": "87e20f79-4084-4c2b-8176-49db7136d7c2",
+            "annotation": null,
+            "isnis": [],
+            "label-code": 6708,
+            "area": {
+                "disambiguation": "",
+                "sort-name": "Germany",
+                "type-id": null,
+                "type": null,
+                "name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+            },
+            "relations": [
+                {
+                    "attributes": [],
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "type": "discogs",
+                    "target-type": "url",
+                    "target-credit": "",
+                    "begin": null,
+                    "url": {
+                        "id": "9eced182-a5e5-4e80-ba6b-83d2146512d0",
+                        "resource": "https://www.discogs.com/label/5039"
+                    },
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": "",
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": []
+                }
+            ]
+        },
+        {
+            "tags": [
+                {
+                    "name": "distributor",
+                    "count": 1
+                },
+                {
+                    "name": "european",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "name": "fixme"
+                },
+                {
+                    "count": 1,
+                    "name": "german"
+                },
+                {
+                    "count": 1,
+                    "name": "independent"
+                }
+            ],
+            "ipis": [],
+            "name": "!K7",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "country": "DE",
+            "sort-name": "!K7",
+            "annotation": "Electronic music label founded in Berlin in 1996. Now has offices and distribution in several countries. Company name is '''Stud!o K7''', but the current logo/imprint is simply '''!K7'''.",
+            "id": "893364ff-1830-4694-833d-93751f14f984",
+            "isnis": [],
+            "label-code": 7306,
+            "relations": [
+                {
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "type-id": "e0636054-32b7-4dd5-97a9-6e5664d443bc",
+                    "type": "label distribution",
+                    "attributes": [],
+                    "target-type": "label",
+                    "label": {
+                        "disambiguation": "",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "type": "Original Production",
+                        "sort-name": "Oath",
+                        "label-code": null,
+                        "id": "2f297585-c99f-46c8-a9e5-d06eda8b662d",
+                        "name": "Oath"
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-credit": "",
+                    "ended": false,
+                    "source-credit": ""
+                },
+                {
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": null,
+                    "source-credit": "K7",
+                    "ended": false,
+                    "type-id": "e0636054-32b7-4dd5-97a9-6e5664d443bc",
+                    "type": "label distribution",
+                    "attributes": [],
+                    "target-type": "label",
+                    "label": {
+                        "name": "Sonic Records",
+                        "id": "86d77b34-7c67-4712-89ac-cad010f2bd59",
+                        "label-code": null,
+                        "sort-name": "Sonic Records",
+                        "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+                        "type": "Production",
+                        "disambiguation": "Polish label, releases Polish pop, rock and alternative"
+                    },
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "end": null
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "begin": "2020-08",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "source-credit": "!K7 Music",
+                    "ended": false,
+                    "attributes": [],
+                    "type": "label ownership",
+                    "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+                    "target-type": "label",
+                    "label": {
+                        "label-code": null,
+                        "name": "Soul Bank Music",
+                        "id": "6d17fe9f-6b8d-4f3d-bbd6-b2390b3f0d66",
+                        "disambiguation": "",
+                        "sort-name": "Soul Bank Music",
+                        "type": "Imprint",
+                        "type-id": "b6285b2a-3514-3d43-80df-fcf528824ded"
+                    }
+                },
+                {
+                    "label": {
+                        "name": "Create Music Group",
+                        "id": "7b14742b-f7aa-4cee-838f-dd636ec0fe2e",
+                        "label-code": null,
+                        "sort-name": "Create Music Group",
+                        "type": "Distributor",
+                        "type-id": "53ab8dcc-9946-3b62-966e-7634d78e5034",
+                        "disambiguation": "not a release label"
+                    },
+                    "target-type": "label",
+                    "type": "label ownership",
+                    "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+                    "attributes": [],
+                    "ended": false,
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": "2025-04",
+                    "target-credit": "",
+                    "end": null,
+                    "direction": "backward",
+                    "attribute-values": []
+                },
+                {
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-credit": "",
+                    "target-type": "label",
+                    "label": {
+                        "name": "Strut",
+                        "id": "9ba9a0fb-d617-4906-9c1d-7bfa78087ff9",
+                        "label-code": 7306,
+                        "sort-name": "Strut",
+                        "type": "Production",
+                        "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+                        "disambiguation": "British"
+                    },
+                    "type": "label ownership",
+                    "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+                    "attributes": []
+                },
+                {
+                    "label": {
+                        "disambiguation": "German label/record company",
+                        "type": "Production",
+                        "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+                        "sort-name": "Stud!o K7",
+                        "label-code": 7306,
+                        "id": "2064e0a9-ec1e-40c1-8c08-48a90ba4fddf",
+                        "name": "Stud!o K7"
+                    },
+                    "target-type": "label",
+                    "attributes": [],
+                    "type-id": "e6159066-6013-4d09-a2f8-bc473f21e89e",
+                    "type": "label rename",
+                    "ended": false,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "end": null,
+                    "direction": "backward",
+                    "attribute-values": []
+                },
+                {
+                    "type": "phonographic copyright",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "attributes": [],
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "begin": "2008",
+                    "target-credit": "",
+                    "ended": true,
+                    "source-credit": "Studio !K7",
+                    "direction": "forward",
+                    "end": "2008",
+                    "attribute-values": [],
+                    "recording": {
+                        "disambiguation": "Herbal Tonic edit",
+                        "title": "Stranded on Earth",
+                        "length": 290360,
+                        "video": false,
+                        "id": "447b3bad-f411-43c5-8c4f-0f9bcf7db3f5"
+                    }
+                },
+                {
+                    "direction": "forward",
+                    "end": "2009",
+                    "attribute-values": [],
+                    "recording": {
+                        "title": "Mr. Chombee Has the Flaw",
+                        "video": false,
+                        "length": 211586,
+                        "disambiguation": "",
+                        "id": "b4ac00c8-53e2-436b-906c-ddd7c367be8e"
+                    },
+                    "attributes": [],
+                    "type": "phonographic copyright",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "target-type": "recording",
+                    "begin": "2009",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "ended": true,
+                    "source-credit": "Studio !K7"
+                },
+                {
+                    "attributes": [],
+                    "type": "phonographic copyright",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "target-type": "recording",
+                    "target-credit": "",
+                    "begin": "2026",
+                    "attribute-ids": [],
+                    "ended": true,
+                    "source-credit": "!K7 Records",
+                    "direction": "forward",
+                    "end": "2026",
+                    "attribute-values": [],
+                    "recording": {
+                        "id": "45a7c139-4570-4ff7-94c6-011a5975fdf1",
+                        "video": false,
+                        "length": 111000,
+                        "title": "Flip",
+                        "disambiguation": "part of \"DJ-Kicks: Djrum\" DJ mix"
+                    }
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "release": {
+                        "packaging": null,
+                        "title": "Pat Thomas and Kwashibu Area Band",
+                        "packaging-id": null,
+                        "country": "XW",
+                        "release-events": [
+                            {
+                                "date": "2015-06-15",
+                                "area": {
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "name": "[Worldwide]"
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "id": "b5233513-c05c-4b46-9a8f-bf85d63afe2a",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "run"
+                        },
+                        "quality": "normal",
+                        "barcode": "0730003312625",
+                        "status": null,
+                        "disambiguation": "",
+                        "date": "2015-06-15"
+                    },
+                    "attribute-values": [],
+                    "target-type": "release",
+                    "type": "copyright",
+                    "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+                    "attributes": [],
+                    "ended": false,
+                    "source-credit": "!K7 Records",
+                    "attribute-ids": [],
+                    "begin": "2015",
+                    "target-credit": ""
+                },
+                {
+                    "end": "2021",
+                    "direction": "forward",
+                    "release": {
+                        "status-id": null,
+                        "id": "b8e973fa-153c-418d-b872-5b2db7908ddc",
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "barcode": "4062548027846",
+                        "status": null,
+                        "disambiguation": "",
+                        "date": "2021-05-14",
+                        "packaging": null,
+                        "title": "Diana (You Don’t Even Know)",
+                        "packaging-id": null,
+                        "country": "XW",
+                        "release-events": [
+                            {
+                                "date": "2021-05-14",
+                                "area": {
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "name": "[Worldwide]",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "attribute-values": [],
+                    "target-type": "release",
+                    "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+                    "type": "copyright",
+                    "attributes": [],
+                    "ended": true,
+                    "source-credit": "!K7 Music",
+                    "attribute-ids": [],
+                    "begin": "2021",
+                    "target-credit": ""
+                },
+                {
+                    "type-id": "2ed5a497-4f85-4b3f-831e-d341ad28c544",
+                    "type": "copyright",
+                    "attributes": [],
+                    "target-type": "release",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": "2025",
+                    "source-credit": "!K7 Records",
+                    "ended": true,
+                    "direction": "forward",
+                    "end": "2025",
+                    "release": {
+                        "status": null,
+                        "barcode": "4062548115024",
+                        "date": "2025-09-12",
+                        "disambiguation": "",
+                        "id": "b629cc5e-31a7-4ad9-b91f-547afd91430c",
+                        "status-id": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": null,
+                            "script": null
+                        },
+                        "country": "DE",
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "date": "2025-09-12",
+                                "area": {
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "sort-name": "Germany",
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "name": "Germany"
+                                }
+                            }
+                        ],
+                        "title": "DJ-Kicks",
+                        "packaging": null
+                    },
+                    "attribute-values": []
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "release": {
+                        "status": null,
+                        "barcode": "4062548123005",
+                        "disambiguation": "",
+                        "date": "2025-09-05",
+                        "status-id": null,
+                        "id": "6679c757-ef69-4769-9eb1-24b4644085b3",
+                        "text-representation": {
+                            "language": "mul",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "packaging-id": null,
+                        "country": "XW",
+                        "release-events": [
+                            {
+                                "area": {
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "name": "[Worldwide]",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "[Worldwide]",
+                                    "disambiguation": ""
+                                },
+                                "date": "2025-09-05"
+                            }
+                        ],
+                        "packaging": null,
+                        "title": "2015-2025 Les Disques Bongo Joe: 10 Years of Sonic Explorations"
+                    },
+                    "attribute-values": [],
+                    "target-type": "release",
+                    "type-id": "4f89b0a1-e135-41e4-94a7-e3d2a95f31a1",
+                    "type": "distributed",
+                    "attributes": [],
+                    "ended": false,
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-credit": ""
+                },
+                {
+                    "attribute-values": [],
+                    "release": {
+                        "release-events": [
+                            {
+                                "date": "2007-10-30",
+                                "area": {
+                                    "name": "[Worldwide]",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null,
+                                    "type-id": null,
+                                    "disambiguation": ""
+                                }
+                            }
+                        ],
+                        "country": "XW",
+                        "packaging-id": null,
+                        "title": "Baguette EP",
+                        "packaging": null,
+                        "date": "2007-10-30",
+                        "disambiguation": "",
+                        "status": null,
+                        "barcode": "807297340716",
+                        "text-representation": {
+                            "language": "fra",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "id": "e5051ea0-e6a6-4b08-869d-3fb7dd26fd40",
+                        "status-id": null
+                    },
+                    "end": null,
+                    "direction": "forward",
+                    "source-credit": "",
+                    "ended": false,
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "target-type": "release",
+                    "attributes": [],
+                    "type-id": "4f89b0a1-e135-41e4-94a7-e3d2a95f31a1",
+                    "type": "distributed"
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "release": {
+                        "status-id": null,
+                        "id": "de6fbc79-5220-458f-9fda-c0471e13b533",
+                        "text-representation": {
+                            "language": "tur",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "barcode": "4062548043259",
+                        "status": null,
+                        "disambiguation": "",
+                        "date": "2022-05-06",
+                        "packaging": null,
+                        "title": "Bi Cinnete Bakar",
+                        "packaging-id": null,
+                        "country": "XW",
+                        "release-events": [
+                            {
+                                "area": {
+                                    "name": "[Worldwide]",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "disambiguation": "",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null,
+                                    "type-id": null
+                                },
+                                "date": "2022-05-06"
+                            }
+                        ]
+                    },
+                    "target-type": "release",
+                    "attributes": [],
+                    "type-id": "4f89b0a1-e135-41e4-94a7-e3d2a95f31a1",
+                    "type": "distributed",
+                    "source-credit": "",
+                    "ended": false,
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": []
+                },
+                {
+                    "attribute-values": [],
+                    "release": {
+                        "title": "Dirty Dancing",
+                        "packaging": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "name": "Germany",
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "sort-name": "Germany",
+                                    "type": null,
+                                    "type-id": null,
+                                    "disambiguation": ""
+                                },
+                                "date": "2002-09-16"
+                            }
+                        ],
+                        "country": "DE",
+                        "packaging-id": null,
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "id": "0d5dbc61-4f89-4844-a64d-b3e92b5ff6c3",
+                        "status-id": null,
+                        "date": "2002-09-16",
+                        "disambiguation": "",
+                        "status": null,
+                        "barcode": "730003712821"
+                    },
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "source-credit": "!K7 Records",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "target-type": "release",
+                    "attributes": [],
+                    "type-id": "e77cb4ab-a438-43ad-9200-0d9bbf68b378",
+                    "type": "licensee"
+                },
+                {
+                    "source-credit": "",
+                    "ended": false,
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "release",
+                    "attributes": [],
+                    "type": "licensee",
+                    "type-id": "e77cb4ab-a438-43ad-9200-0d9bbf68b378",
+                    "attribute-values": [],
+                    "release": {
+                        "release-events": [
+                            {
+                                "date": "2002-03",
+                                "area": {
+                                    "name": "Germany",
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "disambiguation": "",
+                                    "sort-name": "Germany",
+                                    "type-id": null,
+                                    "type": null
+                                }
+                            }
+                        ],
+                        "country": "DE",
+                        "packaging-id": null,
+                        "title": "Groovetechnology v1.3",
+                        "packaging": null,
+                        "date": "2002-03",
+                        "disambiguation": "",
+                        "barcode": "730003712227",
+                        "status": null,
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "quality": "normal",
+                        "id": "61716169-53e4-4845-a764-103036b8e5c4",
+                        "status-id": null
+                    },
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "release": {
+                        "id": "6e0cda85-9fa8-4a97-8185-667a9cf464c6",
+                        "status-id": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "status": null,
+                        "barcode": "730003731327",
+                        "date": "2013",
+                        "disambiguation": "",
+                        "title": "Tapes",
+                        "packaging": null,
+                        "country": "XE",
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "type": null,
+                                    "type-id": null,
+                                    "sort-name": "Europe",
+                                    "disambiguation": "",
+                                    "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                                    "name": "Europe",
+                                    "iso-3166-1-codes": [
+                                        "XE"
+                                    ]
+                                },
+                                "date": "2013"
+                            }
+                        ]
+                    },
+                    "attributes": [],
+                    "type-id": "e77cb4ab-a438-43ad-9200-0d9bbf68b378",
+                    "type": "licensee",
+                    "target-type": "release",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": ""
+                },
+                {
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "release": {
+                        "date": "2002-03",
+                        "disambiguation": "",
+                        "barcode": "730003712227",
+                        "status": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "id": "61716169-53e4-4845-a764-103036b8e5c4",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "name": "Germany",
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "disambiguation": "",
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "Germany"
+                                },
+                                "date": "2002-03"
+                            }
+                        ],
+                        "country": "DE",
+                        "packaging-id": null,
+                        "title": "Groovetechnology v1.3",
+                        "packaging": null
+                    },
+                    "attributes": [],
+                    "type-id": "45a18e5d-b610-412f-acfc-c43ca835c24f",
+                    "type": "licensor",
+                    "target-type": "release",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": ""
+                },
+                {
+                    "attributes": [],
+                    "type": "manufactured",
+                    "type-id": "835e514a-c5bc-44f7-be7b-92452a3f5d60",
+                    "target-type": "release",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": "K7 Music GmbH",
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "release": {
+                        "release-events": [
+                            {
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "name": "Germany",
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                                    "disambiguation": "",
+                                    "sort-name": "Germany",
+                                    "type": null,
+                                    "type-id": null
+                                },
+                                "date": "2026-10-16"
+                            }
+                        ],
+                        "packaging-id": null,
+                        "country": "DE",
+                        "packaging": null,
+                        "title": "DJ-Kicks: Djrum",
+                        "disambiguation": "",
+                        "date": "2026-10-16",
+                        "status": null,
+                        "barcode": "4062548143010",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "quality": "normal",
+                        "status-id": null,
+                        "id": "b788e791-bc6b-402c-97fe-87583a902197"
+                    }
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "release": {
+                        "id": "b5233513-c05c-4b46-9a8f-bf85d63afe2a",
+                        "status-id": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "run",
+                            "script": "Latn"
+                        },
+                        "barcode": "0730003312625",
+                        "status": null,
+                        "date": "2015-06-15",
+                        "disambiguation": "",
+                        "title": "Pat Thomas and Kwashibu Area Band",
+                        "packaging": null,
+                        "country": "XW",
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "type-id": null,
+                                    "sort-name": "[Worldwide]",
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "name": "[Worldwide]",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ]
+                                },
+                                "date": "2015-06-15"
+                            }
+                        ]
+                    },
+                    "target-type": "release",
+                    "attributes": [],
+                    "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+                    "type": "phonographic copyright",
+                    "source-credit": "!K7 Records",
+                    "ended": false,
+                    "target-credit": "",
+                    "begin": "2015",
+                    "attribute-ids": []
+                },
+                {
+                    "target-type": "release",
+                    "attributes": [],
+                    "type": "phonographic copyright",
+                    "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+                    "source-credit": "!K7 Music",
+                    "ended": true,
+                    "target-credit": "",
+                    "begin": "2021",
+                    "attribute-ids": [],
+                    "end": "2021",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "release": {
+                        "disambiguation": "",
+                        "date": "2021-05-14",
+                        "barcode": "4062548027846",
+                        "status": null,
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "status-id": null,
+                        "id": "b8e973fa-153c-418d-b872-5b2db7908ddc",
+                        "release-events": [
+                            {
+                                "area": {
+                                    "type": null,
+                                    "type-id": null,
+                                    "sort-name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "name": "[Worldwide]"
+                                },
+                                "date": "2021-05-14"
+                            }
+                        ],
+                        "packaging-id": null,
+                        "country": "XW",
+                        "packaging": null,
+                        "title": "Diana (You Don’t Even Know)"
+                    }
+                },
+                {
+                    "target-type": "release",
+                    "attributes": [],
+                    "type": "phonographic copyright",
+                    "type-id": "287361d2-1dce-4d39-9f82-222b786e2b30",
+                    "source-credit": "!K7 Records",
+                    "ended": true,
+                    "target-credit": "",
+                    "begin": "2025",
+                    "attribute-ids": [],
+                    "end": "2025",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "release": {
+                        "quality": "normal",
+                        "text-representation": {
+                            "language": null,
+                            "script": null
+                        },
+                        "status-id": null,
+                        "id": "b629cc5e-31a7-4ad9-b91f-547afd91430c",
+                        "disambiguation": "",
+                        "date": "2025-09-12",
+                        "status": null,
+                        "barcode": "4062548115024",
+                        "packaging": null,
+                        "title": "DJ-Kicks",
+                        "release-events": [
+                            {
+                                "date": "2025-09-12",
+                                "area": {
+                                    "disambiguation": "",
+                                    "sort-name": "Germany",
+                                    "type-id": null,
+                                    "type": null,
+                                    "name": "Germany",
+                                    "iso-3166-1-codes": [
+                                        "DE"
+                                    ],
+                                    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+                                }
+                            }
+                        ],
+                        "packaging-id": null,
+                        "country": "DE"
+                    }
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "series": {
+                        "disambiguation": "",
+                        "name": "!Kollections",
+                        "type": "Release group series",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "id": "a6da7649-30fd-4cf7-a989-ddffdbde9043"
+                    },
+                    "source-credit": "",
+                    "ended": false,
+                    "attributes": [],
+                    "type-id": "1cd0342c-69a1-4f97-8471-46748f8ecde1",
+                    "type": "publishes series",
+                    "target-type": "series"
+                },
+                {
+                    "attributes": [],
+                    "type-id": "1cd0342c-69a1-4f97-8471-46748f8ecde1",
+                    "type": "publishes series",
+                    "target-type": "series",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": "",
+                    "series": {
+                        "disambiguation": "",
+                        "name": "3Lux",
+                        "id": "4bb70949-706a-413b-afd7-9acabf8fa385",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "type": "Release group series"
+                    },
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": []
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-type": "series",
+                    "attributes": [],
+                    "type-id": "1cd0342c-69a1-4f97-8471-46748f8ecde1",
+                    "type": "publishes series",
+                    "series": {
+                        "id": "151923a7-d063-4b64-9b66-13d0813182ea",
+                        "type": "Release group series",
+                        "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+                        "name": "DJ‐Kicks",
+                        "disambiguation": ""
+                    },
+                    "ended": false,
+                    "source-credit": "",
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": []
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://k7records.bandcamp.com/",
+                        "id": "b0be1e9a-d54a-4a25-b4b1-fac1a71eb01b"
+                    },
+                    "source-credit": "",
+                    "ended": false,
+                    "attributes": [],
+                    "type-id": "c535de4c-a112-4974-b138-5e0daa56eab5",
+                    "type": "bandcamp",
+                    "target-type": "url"
+                },
+                {
+                    "target-credit": "",
+                    "begin": null,
+                    "url": {
+                        "resource": "https://www.discogs.com/label/29377",
+                        "id": "7266b0d0-53f7-4336-a071-969f3c092ebb"
+                    },
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": "!K7 Records",
+                    "attributes": [],
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "type": "discogs",
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "source-credit": "",
+                    "ended": false,
+                    "begin": null,
+                    "target-credit": "",
+                    "url": {
+                        "id": "90274a1f-b9ae-4290-90cb-82eb175e14e7",
+                        "resource": "https://www.discogs.com/label/30192"
+                    },
+                    "attribute-ids": [],
+                    "target-type": "url",
+                    "attributes": [],
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "type": "discogs",
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://myspace.com/k7records",
+                        "id": "96335d0e-84a7-4993-886a-51926f90fa2c"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "ended": false,
+                    "type": "myspace",
+                    "type-id": "240ba9dc-9898-4505-9bf7-32a53a695612",
+                    "attributes": [],
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "146f5789-b666-46c8-9ad5-f98bba9e8a3f",
+                        "resource": "https://www.k7records.com/"
+                    },
+                    "ended": false,
+                    "source-credit": "!K7 Records",
+                    "attributes": [],
+                    "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+                    "type": "official site",
+                    "target-type": "url"
+                },
+                {
+                    "url": {
+                        "id": "aa62b338-cd2b-4b9f-9536-1d6dbdafb62a",
+                        "resource": "http://www.k7.com/"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": null,
+                    "source-credit": "",
+                    "ended": false,
+                    "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+                    "type": "official site",
+                    "attributes": [],
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://rateyourmusic.com/label/_k7_records/",
+                        "id": "a93d20a2-a0af-49b6-baf5-93718f678834"
+                    },
+                    "target-credit": "",
+                    "begin": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "type-id": "83eca2b3-5ae1-43f5-a732-56fa9a8591b1",
+                    "type": "other databases",
+                    "attributes": [],
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "type": "purchase for download",
+                    "target-type": "url",
+                    "target-credit": "",
+                    "begin": null,
+                    "url": {
+                        "resource": "https://boomkat.com/labels/k7-records",
+                        "id": "10a335e4-0367-4435-ac31-ae422aef27dd"
+                    },
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": ""
+                },
+                {
+                    "ended": false,
+                    "source-credit": "!K7 Records",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "f57a9762-c95f-489f-adcd-6d98ad36b45b",
+                        "resource": "https://music.apple.com/de/label/1546658703"
+                    },
+                    "target-type": "url",
+                    "attributes": [],
+                    "type": "purchase for download",
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "085afde7-17dc-4613-9e34-f49e1a6c136c",
+                        "resource": "https://www.beatport.com/label/k7-records/2203"
+                    },
+                    "target-credit": "",
+                    "begin": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "type": "purchase for download",
+                    "attributes": [],
+                    "target-type": "url"
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "10a335e4-0367-4435-ac31-ae422aef27dd",
+                        "resource": "https://boomkat.com/labels/k7-records"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "ended": false,
+                    "type": "purchase for mail-order",
+                    "type-id": "607deff9-31a8-4b8c-a971-d873cf59ef16",
+                    "attributes": [],
+                    "target-type": "url"
+                },
+                {
+                    "target-credit": "",
+                    "begin": null,
+                    "url": {
+                        "resource": "https://music.apple.com/de/curator/1090971585",
+                        "id": "939bfa9b-fb52-496a-a762-691b8c1e0055"
+                    },
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": "",
+                    "attributes": [],
+                    "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+                    "type": "social network",
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "ended": false,
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "f16937a0-eb33-4176-a1ed-0a74e17eda12",
+                        "resource": "https://open.spotify.com/user/!k7"
+                    },
+                    "target-credit": "",
+                    "begin": null,
+                    "target-type": "url",
+                    "type": "social network",
+                    "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "e83282d1-3d32-434c-b626-75c4839c684f",
+                        "resource": "https://twitter.com/K7records"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "ended": false,
+                    "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+                    "type": "social network",
+                    "attributes": [],
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "url": {
+                        "id": "f8295b0e-e164-4d1e-996e-c733c655f867",
+                        "resource": "https://soundcloud.com/k7-records"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "type": "soundcloud",
+                    "type-id": "a31d05ba-3b82-47b2-ab8b-1fe73b5459e2",
+                    "attributes": [],
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "attributes": [],
+                    "type-id": "75d87e83-d927-4580-ba63-44dc76256f98",
+                    "type": "wikidata",
+                    "ended": false,
+                    "source-credit": "",
+                    "begin": null,
+                    "target-credit": "",
+                    "url": {
+                        "id": "67f4ba9e-68f9-4e00-a429-e3f85ad25c2c",
+                        "resource": "https://www.wikidata.org/wiki/Q315760"
+                    },
+                    "attribute-ids": []
+                }
+            ],
+            "area": {
+                "disambiguation": "",
+                "type-id": null,
+                "type": null,
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "type": "Original Production",
+            "genres": [],
+            "aliases": [
+                {
+                    "type-id": null,
+                    "type": null,
+                    "sort-name": "!K7 Records",
+                    "primary": null,
+                    "end": null,
+                    "name": "!K7 Records",
+                    "begin": null,
+                    "locale": null,
+                    "ended": false
+                },
+                {
+                    "ended": false,
+                    "locale": null,
+                    "name": "!K7R",
+                    "begin": null,
+                    "primary": null,
+                    "end": null,
+                    "sort-name": "!K7R",
+                    "type": null,
+                    "type-id": null
+                },
+                {
+                    "end": null,
+                    "primary": null,
+                    "sort-name": "IK7",
+                    "type-id": null,
+                    "type": null,
+                    "ended": false,
+                    "locale": null,
+                    "name": "IK7",
+                    "begin": null
+                }
+            ],
+            "life-span": {
+                "begin": "1996",
+                "ended": false,
+                "end": null
+            },
+            "disambiguation": "German label"
+        },
+        {
+            "ipis": [],
+            "name": ":chlodwig",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "tags": [],
+            "sort-name": ":chlodwig",
+            "country": "DE",
+            "isnis": [],
+            "annotation": null,
+            "id": "ad8fb57c-7695-427b-8753-3b4883c8e9fd",
+            "relations": [
+                {
+                    "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+                    "type": "label ownership",
+                    "attributes": [],
+                    "label": {
+                        "type": null,
+                        "type-id": null,
+                        "sort-name": "Chlodwig Musik GmbH",
+                        "disambiguation": "copyrights holders, music publishers",
+                        "id": "49ed4c7f-a9c6-4acb-9580-5e22b74729a3",
+                        "name": "Chlodwig Musik GmbH",
+                        "label-code": null
+                    },
+                    "target-type": "label",
+                    "attribute-ids": [],
+                    "begin": "1994",
+                    "target-credit": "",
+                    "ended": false,
+                    "source-credit": "",
+                    "direction": "backward",
+                    "end": null,
+                    "attribute-values": []
+                },
+                {
+                    "direction": "backward",
+                    "end": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type-id": "e6159066-6013-4d09-a2f8-bc473f21e89e",
+                    "type": "label rename",
+                    "label": {
+                        "id": "91ffd3bb-8cd6-4769-88c5-ad57ce46080a",
+                        "name": "Chlodwig",
+                        "label-code": 8442,
+                        "type": "Original Production",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "sort-name": "Chlodwig",
+                        "disambiguation": "use up to 1994, renamed into \":chlodwig\""
+                    },
+                    "target-type": "label",
+                    "begin": "1994",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "ended": false,
+                    "source-credit": ""
+                },
+                {
+                    "type": "discogs",
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "attributes": [],
+                    "target-type": "url",
+                    "url": {
+                        "id": "fec0fef5-d59d-4fd4-aaee-a7f978c9f6f4",
+                        "resource": "https://www.discogs.com/label/615284"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": []
+                }
+            ],
+            "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "type-id": null,
+                "type": null,
+                "sort-name": "Germany",
+                "disambiguation": ""
+            },
+            "label-code": 8442,
+            "genres": [],
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "type": "Original Production",
+            "aliases": [],
+            "life-span": {
+                "begin": "1994",
+                "end": null,
+                "ended": false
+            },
+            "disambiguation": "\":C\" or \":chlodwig\" logo since 1994"
+        },
+        {
+            "ipis": [],
+            "name": "_rohformat",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "tags": [],
+            "sort-name": "_rohformat",
+            "country": "DE",
+            "isnis": [],
+            "annotation": null,
+            "id": "c060dc46-0c69-4da4-aab7-454f99edfd04",
+            "relations": [
+                {
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "71daefa4-b750-4fdb-9851-1b745d33952c",
+                        "resource": "http://www.rohformat.de/"
+                    },
+                    "source-credit": "",
+                    "ended": false,
+                    "attributes": [],
+                    "type": "official site",
+                    "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                }
+            ],
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "sort-name": "Germany",
+                "type-id": null,
+                "type": null,
+                "disambiguation": ""
+            },
+            "label-code": null,
+            "genres": [],
+            "type-id": null,
+            "type": null,
+            "aliases": [],
+            "disambiguation": "",
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            }
+        },
+        {
+            "relations": [
+                {
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "attributes": [],
+                    "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+                    "type": "official site",
+                    "ended": false,
+                    "source-credit": "",
+                    "begin": null,
+                    "target-credit": "",
+                    "url": {
+                        "resource": "http://www.k7.com/",
+                        "id": "aa62b338-cd2b-4b9f-9536-1d6dbdafb62a"
+                    },
+                    "attribute-ids": []
+                }
+            ],
+            "area": {
+                "disambiguation": "",
+                "type": null,
+                "type-id": null,
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "name": "Germany"
+            },
+            "label-code": 7306,
+            "isnis": [],
+            "annotation": null,
+            "id": "ce49732b-7e5c-4d3f-bddc-2e907abd8734",
+            "aliases": [
+                {
+                    "end": null,
+                    "primary": null,
+                    "sort-name": "K7Records",
+                    "type-id": null,
+                    "type": null,
+                    "ended": false,
+                    "locale": null,
+                    "begin": null,
+                    "name": "!K7Records"
+                }
+            ],
+            "life-span": {
+                "begin": null,
+                "ended": false,
+                "end": null
+            },
+            "disambiguation": "",
+            "genres": [],
+            "type": null,
+            "type-id": null,
+            "ipis": [],
+            "name": "!K7Records",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "tags": [],
+            "sort-name": "!K7Records",
+            "country": "DE"
+        },
+        {
+            "tags": [],
+            "name": "://about blank",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "ipis": [],
+            "country": null,
+            "sort-name": "://about blank",
+            "label-code": null,
+            "area": {
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "sort-name": "Berlin",
+                "type-id": null,
+                "type": null,
+                "disambiguation": "",
+                "name": "Berlin",
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105"
+            },
+            "relations": [
+                {
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://aboutblankberlin.bandcamp.com/",
+                        "id": "4a7833ea-870d-495a-aebb-d60f6160c05a"
+                    },
+                    "target-type": "url",
+                    "attributes": [],
+                    "type-id": "c535de4c-a112-4974-b138-5e0daa56eab5",
+                    "type": "bandcamp"
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "c6e42771-0da6-4412-80fb-5da6485f9490",
+                        "resource": "https://www.discogs.com/label/700434"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "ended": false,
+                    "source-credit": "",
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "type": "discogs",
+                    "attributes": [],
+                    "target-type": "url"
+                },
+                {
+                    "target-credit": "",
+                    "begin": null,
+                    "url": {
+                        "resource": "http://aboutblank.li/",
+                        "id": "577139c0-6970-4bb9-92fa-978990152a3a"
+                    },
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "ended": false,
+                    "attributes": [],
+                    "type-id": "fe108f43-acb9-4ad1-8be3-57e6ec5b17b6",
+                    "type": "official site",
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "end": null
+                },
+                {
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward",
+                    "source-credit": "",
+                    "ended": false,
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://www.beatport.com/label/about-blank/65911",
+                        "id": "c16fe91c-cd7d-4cac-9e15-e0fb31920a06"
+                    },
+                    "target-credit": "",
+                    "begin": null,
+                    "target-type": "url",
+                    "type": "purchase for download",
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "type": "purchase for download",
+                    "target-type": "url",
+                    "target-credit": "",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "e9bdb34a-fc2e-4246-b8d7-77bf3412acc2",
+                        "resource": "https://www.junodownload.com/labels/%3A%252F%252Fabout+blank/"
+                    },
+                    "source-credit": "",
+                    "ended": false,
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": []
+                },
+                {
+                    "target-type": "url",
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "type": "purchase for download",
+                    "attributes": [],
+                    "ended": false,
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "url": {
+                        "id": "68053278-3c6e-4209-a898-e8199210840f",
+                        "resource": "https://www.traxsource.com/label/35801"
+                    },
+                    "begin": null,
+                    "target-credit": "",
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": []
+                },
+                {
+                    "ended": false,
+                    "source-credit": "",
+                    "url": {
+                        "resource": "https://www.instagram.com/about.blank.berlin/",
+                        "id": "35ef2f05-47bd-4c00-a68f-0c8143fc8284"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": null,
+                    "target-type": "url",
+                    "type-id": "5d217d99-bc05-4a76-836d-c91eec4ba818",
+                    "type": "social network",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "ended": false,
+                    "source-credit": "",
+                    "url": {
+                        "id": "8adad14e-d4f0-4102-be81-fcf42c2eb511",
+                        "resource": "https://soundcloud.com/about-blank-berlin"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "begin": null,
+                    "target-type": "url",
+                    "type": "soundcloud",
+                    "type-id": "a31d05ba-3b82-47b2-ab8b-1fe73b5459e2",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                }
+            ],
+            "id": "e97aff86-f929-4429-b8f7-ff443aef4daa",
+            "annotation": null,
+            "isnis": [],
+            "life-span": {
+                "begin": null,
+                "ended": false,
+                "end": null
+            },
+            "disambiguation": "",
+            "aliases": [],
+            "type": null,
+            "type-id": null,
+            "genres": []
+        },
+        {
+            "country": "DE",
+            "sort-name": "!K7 Label Group",
+            "tags": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "name": "!K7 Label Group",
+            "ipis": [],
+            "disambiguation": "",
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "aliases": [],
+            "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+            "type": "Holding",
+            "genres": [],
+            "label-code": null,
+            "area": {
+                "name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "disambiguation": "",
+                "sort-name": "Germany",
+                "type": null,
+                "type-id": null
+            },
+            "relations": [
+                {
+                    "source-credit": "",
+                    "ended": false,
+                    "attribute-ids": [],
+                    "target-credit": "!K7 Records",
+                    "begin": null,
+                    "target-type": "label",
+                    "label": {
+                        "name": "!K7",
+                        "id": "893364ff-1830-4694-833d-93751f14f984",
+                        "label-code": 7306,
+                        "sort-name": "!K7",
+                        "type": "Original Production",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "disambiguation": "German label"
+                    },
+                    "type": "label ownership",
+                    "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "target-type": "url",
+                    "attributes": [],
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "type": "discogs",
+                    "source-credit": "",
+                    "ended": false,
+                    "begin": null,
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "url": {
+                        "resource": "https://www.discogs.com/label/666606",
+                        "id": "945b0a4b-9254-4fbc-9f73-d7bcc6b9467f"
+                    },
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": []
+                }
+            ],
+            "id": "fd5a6b66-a335-4a5e-8c99-6f156621c093",
+            "annotation": null,
+            "isnis": []
+        }
+    ],
+    "label-count": 13862
+}

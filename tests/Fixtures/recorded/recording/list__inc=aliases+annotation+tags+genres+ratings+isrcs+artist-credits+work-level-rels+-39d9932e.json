@@ -1,0 +1,3465 @@
+{
+    "recording-count": 17,
+    "recordings": [
+        {
+            "aliases": [
+                {
+                    "type-id": null,
+                    "locale": null,
+                    "type": null,
+                    "sort-name": "Octopus's Garden",
+                    "end": null,
+                    "name": "Octopus's Garden",
+                    "ended": false,
+                    "primary": null,
+                    "begin": null
+                },
+                {
+                    "type-id": null,
+                    "locale": null,
+                    "type": null,
+                    "sort-name": "Octopus's Garden - Remastered 2009",
+                    "end": null,
+                    "name": "Octopus's Garden - Remastered 2009",
+                    "ended": false,
+                    "primary": null,
+                    "begin": null
+                }
+            ],
+            "first-release-date": "1969-09-26",
+            "video": false,
+            "id": "15127932-c879-466e-b0f8-a1c5022d16e7",
+            "genres": [
+                {
+                    "disambiguation": "",
+                    "name": "art pop",
+                    "id": "930ef127-3653-4677-9b95-ecc90c7c1a14",
+                    "count": 1
+                },
+                {
+                    "count": 1,
+                    "id": "decc967b-5b70-453b-9107-0b4e7a00505f",
+                    "name": "beat music",
+                    "disambiguation": ""
+                },
+                {
+                    "name": "classic rock",
+                    "disambiguation": "",
+                    "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                    "count": 2
+                }
+            ],
+            "isrcs": [
+                "GBAYE0601694"
+            ],
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "joinphrase": "",
+                    "artist": {
+                        "type": "Group",
+                        "genres": [
+                            {
+                                "count": 2,
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30",
+                                "disambiguation": "",
+                                "name": "britpop"
+                            },
+                            {
+                                "count": 4,
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "name": "classic rock",
+                                "disambiguation": ""
+                            },
+                            {
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+                                "count": 2,
+                                "disambiguation": "",
+                                "name": "experimental rock"
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "1960s"
+                            },
+                            {
+                                "count": 7,
+                                "name": "60s"
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "name": "The Beatles",
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "country": "GB",
+                        "aliases": [
+                            {
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "en",
+                                "sort-name": "Beatles",
+                                "type": "Artist name",
+                                "end": null,
+                                "name": "Beatles",
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            },
+                            {
+                                "name": "Beetles",
+                                "end": null,
+                                "sort-name": "Beetles",
+                                "type": "Search hint",
+                                "locale": null,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "ended": false,
+                                "primary": null
+                            },
+                            {
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "type": "Artist name",
+                                "sort-name": "Bítlarnir",
+                                "locale": "is",
+                                "end": null,
+                                "name": "Bítlarnir",
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            },
+                            {
+                                "name": "Die Beatles",
+                                "end": null,
+                                "type": "Artist name",
+                                "sort-name": "Beatles, Die",
+                                "locale": "de",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null,
+                                "ended": false,
+                                "primary": false
+                            },
+                            {
+                                "ended": false,
+                                "primary": null,
+                                "begin": null,
+                                "sort-name": "fab four",
+                                "locale": null,
+                                "type": "Search hint",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "name": "fab four",
+                                "end": null
+                            },
+                            {
+                                "type-id": null,
+                                "type": null,
+                                "locale": "zh_Hant",
+                                "sort-name": "披頭四樂團",
+                                "end": null,
+                                "name": "披頭四樂團",
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "relations": [
+                {
+                    "type": "engineer",
+                    "ended": false,
+                    "artist": {
+                        "country": "GB",
+                        "name": "Jeff Jarratt",
+                        "disambiguation": "producer",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "b3daedfa-9f92-49f3-9dd8-9d29c110406f",
+                        "sort-name": "Jarratt, Jeff",
+                        "type": "Person"
+                    },
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                    "end": null
+                },
+                {
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                    "end": null,
+                    "ended": false,
+                    "artist": {
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "91e7ebdb-07b3-4819-b269-08dab097e0ba",
+                        "sort-name": "McDonald, Phil",
+                        "type": "Person",
+                        "disambiguation": "engineer and producer",
+                        "name": "Phil McDonald",
+                        "country": "GB"
+                    },
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type": "engineer"
+                },
+                {
+                    "type": "instrument",
+                    "ended": true,
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "The Beatles",
+                        "name": "George Harrison",
+                        "sort-name": "Harrison, George",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "42a8f507-8412-4611-854f-926571049fa0"
+                    },
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "attribute-ids": {
+                        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+                    },
+                    "begin": "1969-04-26",
+                    "attribute-values": [],
+                    "attributes": [
+                        "electric guitar"
+                    ],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "end": "1969-04-26",
+                    "attribute-credits": {
+                        "electric guitar": "1968 Fender Rosewood Telecaster"
+                    }
+                },
+                {
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-credits": {
+                        "electric guitar": "1965 Epiphone ES-230TD Casino"
+                    },
+                    "end": "1969-04-26",
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "artist": {
+                        "country": "GB",
+                        "name": "John Lennon",
+                        "disambiguation": "The Beatles",
+                        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "Lennon, John",
+                        "type": "Person"
+                    },
+                    "ended": true,
+                    "attributes": [
+                        "electric guitar"
+                    ],
+                    "attribute-values": [],
+                    "begin": "1969-04-26",
+                    "attribute-ids": {
+                        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+                    },
+                    "type": "instrument"
+                },
+                {
+                    "end": "1969-04-26",
+                    "attribute-credits": {
+                        "electric bass guitar": "1964 Rickenbacker 4001 S"
+                    },
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "attribute-ids": {
+                        "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+                    },
+                    "begin": "1969-04-26",
+                    "attribute-values": [],
+                    "attributes": [
+                        "electric bass guitar"
+                    ],
+                    "artist": {
+                        "disambiguation": "The Beatles",
+                        "name": "Paul McCartney",
+                        "sort-name": "McCartney, Paul",
+                        "type": "Person",
+                        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "country": "GB"
+                    },
+                    "ended": true,
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "type": "instrument"
+                },
+                {
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null,
+                    "direction": "backward",
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+                        "name": "George Martin",
+                        "type": "Person",
+                        "sort-name": "Martin, George",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2"
+                    },
+                    "ended": false,
+                    "target-type": "artist",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "producer"
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "type": "producer",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "artist",
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "UK record producer / remixer",
+                        "name": "Chris Thomas",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "2a25263b-54ad-42c5-acea-e50b3913369c",
+                        "type": "Person",
+                        "sort-name": "Thomas, Chris"
+                    },
+                    "ended": false,
+                    "direction": "backward"
+                },
+                {
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "attribute-credits": [],
+                    "end": "1969-07-17",
+                    "type": "vocal",
+                    "direction": "backward",
+                    "artist": {
+                        "name": "George Harrison",
+                        "disambiguation": "The Beatles",
+                        "sort-name": "Harrison, George",
+                        "type": "Person",
+                        "id": "42a8f507-8412-4611-854f-926571049fa0",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "country": "GB"
+                    },
+                    "ended": true,
+                    "target-type": "artist",
+                    "attribute-values": [],
+                    "attributes": [
+                        "background vocals"
+                    ],
+                    "attribute-ids": {
+                        "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+                    },
+                    "begin": "1969-07-17"
+                },
+                {
+                    "type": "vocal",
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "disambiguation": "The Beatles",
+                        "name": "Paul McCartney",
+                        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "McCartney, Paul",
+                        "type": "Person",
+                        "country": "GB"
+                    },
+                    "direction": "backward",
+                    "begin": "1969-07-17",
+                    "attribute-ids": {
+                        "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+                    },
+                    "attributes": [
+                        "background vocals"
+                    ],
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "end": "1969-07-17",
+                    "attribute-credits": []
+                },
+                {
+                    "end": "1969-07-18",
+                    "attribute-credits": [],
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [
+                        "lead vocals"
+                    ],
+                    "attribute-values": [],
+                    "begin": "1969-07-18",
+                    "attribute-ids": {
+                        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                    },
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "country": "GB",
+                        "sort-name": "Starr, Ringo",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "300c4c73-33ac-4255-9d57-4e32627f5e13",
+                        "disambiguation": "The Beatles",
+                        "name": "Ringo Starr"
+                    },
+                    "type": "vocal"
+                },
+                {
+                    "source-credit": "",
+                    "label": {
+                        "label-code": null,
+                        "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "type": "Holding",
+                        "sort-name": "EMI Records Ltd.",
+                        "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012",
+                        "name": "EMI Records Ltd."
+                    },
+                    "target-credit": "",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "end": "1969",
+                    "type": "phonographic copyright",
+                    "target-type": "label",
+                    "ended": true,
+                    "direction": "backward",
+                    "begin": "1969",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": []
+                },
+                {
+                    "ended": true,
+                    "target-type": "label",
+                    "direction": "backward",
+                    "attribute-ids": [],
+                    "begin": "1969",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type": "phonographic copyright",
+                    "target-credit": "",
+                    "label": {
+                        "label-code": null,
+                        "disambiguation": "UK record company",
+                        "name": "The Gramophone Co., Ltd.",
+                        "sort-name": "The Gramophone Co., Ltd.",
+                        "type": "Original Production",
+                        "id": "79a28420-8f8c-46d6-987b-63c250d8b74b",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d"
+                    },
+                    "source-credit": "",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "end": "1969"
+                },
+                {
+                    "end": "1987",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "label": {
+                        "name": "EMI Records Ltd.",
+                        "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012",
+                        "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "type": "Holding",
+                        "sort-name": "EMI Records Ltd.",
+                        "label-code": null
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": "1987",
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "label",
+                    "ended": true,
+                    "type": "phonographic copyright"
+                },
+                {
+                    "target-type": "place",
+                    "ended": true,
+                    "place": {
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94",
+                        "area": {
+                            "disambiguation": "",
+                            "name": "St John's Wood",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "type": "District",
+                            "sort-name": "St John's Wood"
+                        },
+                        "type": "Studio",
+                        "name": "Abbey Road Studios: Studio 2",
+                        "disambiguation": "",
+                        "coordinates": {
+                            "latitude": 51.53192,
+                            "longitude": -0.17835
+                        },
+                        "address": "3 Abbey Road, St John’s Wood, London"
+                    },
+                    "direction": "backward",
+                    "begin": "1969-04-26",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "1969-04-26"
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "1969-04-29",
+                    "target-type": "place",
+                    "place": {
+                        "id": "2d9b9649-6f1d-4671-a859-f283192132b5",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "area": {
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "type": "District",
+                            "sort-name": "St John's Wood",
+                            "name": "St John's Wood",
+                            "disambiguation": ""
+                        },
+                        "type": "Studio",
+                        "disambiguation": "",
+                        "name": "Abbey Road Studios: Studio 3",
+                        "coordinates": {
+                            "latitude": 51.53192,
+                            "longitude": -0.17835
+                        },
+                        "address": "3 Abbey Road, St John’s Wood, London"
+                    },
+                    "ended": true,
+                    "direction": "backward",
+                    "begin": "1969-04-29",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "recorded at"
+                },
+                {
+                    "type": "recorded at",
+                    "attribute-ids": [],
+                    "begin": "1969-07-18",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "place": {
+                        "coordinates": {
+                            "latitude": 51.53192,
+                            "longitude": -0.17835
+                        },
+                        "address": "3 Abbey Road, St John’s Wood, London",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "area": {
+                            "name": "St John's Wood",
+                            "disambiguation": "",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "sort-name": "St John's Wood",
+                            "type": "District"
+                        },
+                        "id": "2d9b9649-6f1d-4671-a859-f283192132b5",
+                        "type": "Studio",
+                        "name": "Abbey Road Studios: Studio 3",
+                        "disambiguation": ""
+                    },
+                    "ended": true,
+                    "target-type": "place",
+                    "direction": "backward",
+                    "end": "1969-07-18",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51"
+                },
+                {
+                    "target-type": "recording",
+                    "ended": false,
+                    "direction": "backward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "mashes up",
+                    "recording": {
+                        "id": "eba492f6-87e6-41fd-b3ce-65e8dd04dbfd",
+                        "artist-credit": [
+                            {
+                                "name": "DJ Lobsterdust",
+                                "joinphrase": "",
+                                "artist": {
+                                    "disambiguation": "",
+                                    "name": "DJ Lobsterdust",
+                                    "type-id": null,
+                                    "id": "dc5e7241-9160-404b-8dd0-7cb2eef99fde",
+                                    "sort-name": "Lobsterdust, DJ",
+                                    "type": null,
+                                    "country": "US"
+                                }
+                            }
+                        ],
+                        "title": "Glass Octopus (The Beatles vs. Blondie) (2008 mix)",
+                        "isrcs": [],
+                        "length": 191136,
+                        "video": false,
+                        "disambiguation": ""
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                    "end": null
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                    "end": null,
+                    "recording": {
+                        "id": "598a7b30-c287-40f0-806d-c360535a1243",
+                        "artist-credit": [
+                            {
+                                "joinphrase": "",
+                                "name": "David0Mario",
+                                "artist": {
+                                    "id": "2aa12ce2-5622-4e54-ae1c-d2db3ac32eeb",
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "David0Mario",
+                                    "disambiguation": "",
+                                    "name": "David0Mario",
+                                    "country": null
+                                }
+                            }
+                        ],
+                        "video": false,
+                        "length": 189866,
+                        "disambiguation": "",
+                        "title": "Scott The Woz’s Garden",
+                        "isrcs": []
+                    },
+                    "type": "mashes up",
+                    "target-type": "recording",
+                    "ended": false,
+                    "direction": "backward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": []
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                    "recording": {
+                        "disambiguation": "",
+                        "length": 269000,
+                        "video": false,
+                        "isrcs": [],
+                        "title": "Shape of an Octopus",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "disambiguation": "",
+                                    "name": "DJ Cummerbund",
+                                    "type": null,
+                                    "sort-name": "Cummerbund, DJ",
+                                    "type-id": null,
+                                    "id": "96511a9c-ee18-4cc8-b3a6-856eaf16fcba",
+                                    "country": "US"
+                                },
+                                "joinphrase": "",
+                                "name": "DJ Cummerbund"
+                            }
+                        ],
+                        "id": "99a1559e-40ba-44d3-b0a6-44854acf2b42"
+                    },
+                    "type": "mashes up",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "recording",
+                    "ended": false,
+                    "direction": "backward"
+                },
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "recording",
+                    "ended": false,
+                    "type": "remix",
+                    "recording": {
+                        "disambiguation": "Love version",
+                        "video": false,
+                        "length": 198586,
+                        "isrcs": [],
+                        "title": "Octopus’s Garden",
+                        "artist-credit": [
+                            {
+                                "name": "The Beatles",
+                                "joinphrase": "",
+                                "artist": {
+                                    "sort-name": "Beatles, The",
+                                    "type": null,
+                                    "type-id": null,
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "name": "The Beatles",
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "country": "GB"
+                                }
+                            }
+                        ],
+                        "id": "488b093f-d204-4600-80fc-d0bc5bc64506"
+                    },
+                    "end": null,
+                    "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                    "source-credit": "",
+                    "target-credit": ""
+                },
+                {
+                    "type": "remix",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "ended": false,
+                    "target-type": "recording",
+                    "direction": "backward",
+                    "end": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                    "recording": {
+                        "title": "Octopus’s Garden",
+                        "isrcs": [],
+                        "length": 170800,
+                        "video": false,
+                        "disambiguation": "2019 stereo mix",
+                        "id": "b00dbaea-565c-4e8c-b864-e765e6e8f22a",
+                        "artist-credit": [
+                            {
+                                "joinphrase": "",
+                                "name": "The Beatles",
+                                "artist": {
+                                    "country": "GB",
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles",
+                                    "type-id": null,
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "sort-name": "Beatles, The",
+                                    "type": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "remix",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "recording",
+                    "ended": false,
+                    "direction": "backward",
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                    "recording": {
+                        "id": "03b8db89-eeb7-43bb-a4c7-cd7b071a9c3f",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type-id": null,
+                                    "sort-name": "Beatles, The",
+                                    "type": null,
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles",
+                                    "country": "GB"
+                                },
+                                "name": "The Beatles",
+                                "joinphrase": ""
+                            }
+                        ],
+                        "title": "Octopus’s Garden (5.1 mix)",
+                        "isrcs": [],
+                        "video": false,
+                        "length": 171000,
+                        "disambiguation": ""
+                    }
+                },
+                {
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "free streaming",
+                    "url": {
+                        "id": "53a02ce3-cce3-46b3-a7d6-c97dfc8585c0",
+                        "resource": "https://open.spotify.com/track/3eZxQIML98CXyZJ6hOBp1g"
+                    },
+                    "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null
+                },
+                {
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": "1969-07-18",
+                    "direction": "forward",
+                    "ended": true,
+                    "work": {
+                        "attributes": [],
+                        "language": "eng",
+                        "languages": [
+                            "eng"
+                        ],
+                        "relations": [
+                            {
+                                "end": null,
+                                "target-credit": "Richard Starkey",
+                                "source-credit": "",
+                                "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                                "type": "composer",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "artist": {
+                                    "country": "GB",
+                                    "disambiguation": "The Beatles",
+                                    "name": "Ringo Starr",
+                                    "sort-name": "Starr, Ringo",
+                                    "type": "Person",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "id": "300c4c73-33ac-4255-9d57-4e32627f5e13"
+                                },
+                                "ended": false,
+                                "target-type": "artist",
+                                "direction": "backward"
+                            },
+                            {
+                                "end": null,
+                                "target-credit": "Richard Starkey",
+                                "source-credit": "",
+                                "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "ended": false,
+                                "artist": {
+                                    "sort-name": "Starr, Ringo",
+                                    "type": "Person",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "id": "300c4c73-33ac-4255-9d57-4e32627f5e13",
+                                    "disambiguation": "The Beatles",
+                                    "name": "Ringo Starr",
+                                    "country": "GB"
+                                },
+                                "target-type": "artist",
+                                "direction": "backward",
+                                "type": "lyricist"
+                            },
+                            {
+                                "end": null,
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "label": {
+                                    "type": "Publisher",
+                                    "sort-name": "BMG Platinum Songs US",
+                                    "id": "7b5c7738-687b-4e6f-a8b5-bf601658d293",
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "name": "BMG Platinum Songs US",
+                                    "disambiguation": "",
+                                    "label-code": null
+                                },
+                                "source-credit": "",
+                                "target-credit": "",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "label",
+                                "ended": false,
+                                "type": "publishing"
+                            },
+                            {
+                                "end": null,
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "target-credit": "",
+                                "label": {
+                                    "label-code": null,
+                                    "type-id": null,
+                                    "id": "ccb6feec-33d8-4ae9-9d5f-8924197a52ad",
+                                    "type": null,
+                                    "sort-name": "Eaton Music Limited",
+                                    "disambiguation": "",
+                                    "name": "Eaton Music Limited"
+                                },
+                                "source-credit": "",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "label",
+                                "type": "publishing"
+                            },
+                            {
+                                "end": null,
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "label": {
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "id": "17820072-8509-47f7-b411-9022c291308c",
+                                    "type": "Publisher",
+                                    "sort-name": "Startling Music Ltd.",
+                                    "name": "Startling Music Ltd.",
+                                    "disambiguation": "",
+                                    "label-code": null
+                                },
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type": "publishing",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "label",
+                                "ended": false
+                            },
+                            {
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                                "end": null,
+                                "url": {
+                                    "resource": "https://genius.com/The-beatles-octopuss-garden-lyrics",
+                                    "id": "e34cda55-30a3-47e5-8ac1-b8bbfee77dc6"
+                                },
+                                "type": "lyrics",
+                                "ended": false,
+                                "target-type": "url",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": []
+                            },
+                            {
+                                "type": "secondhandsongs",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "url",
+                                "end": null,
+                                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "url": {
+                                    "id": "4517cee0-9648-4911-a3f7-5b3e0bba4f99",
+                                    "resource": "https://secondhandsongs.com/work/29150"
+                                }
+                            },
+                            {
+                                "type": "songfacts",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "url",
+                                "ended": false,
+                                "direction": "backward",
+                                "end": null,
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+                                "url": {
+                                    "id": "261ea1b0-3a05-4de6-9570-7803710c41e7",
+                                    "resource": "https://www.songfacts.com/facts/the-beatles/octopuss-garden"
+                                }
+                            },
+                            {
+                                "type": "wikidata",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "url",
+                                "ended": false,
+                                "end": null,
+                                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                                "source-credit": "",
+                                "target-credit": "",
+                                "url": {
+                                    "resource": "https://www.wikidata.org/wiki/Q210389",
+                                    "id": "a9ef160f-3a86-43be-b55f-cb96c8c5aef3"
+                                }
+                            },
+                            {
+                                "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "end": null,
+                                "direction": "forward",
+                                "ended": false,
+                                "work": {
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "id": "8e47d4e3-35b0-475e-be02-105face50f32",
+                                    "type": "Song",
+                                    "iswcs": [],
+                                    "title": "Octopus’s Garden (Love version)",
+                                    "disambiguation": "",
+                                    "languages": [],
+                                    "attributes": [],
+                                    "language": null
+                                },
+                                "target-type": "work",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "type": "other version"
+                            },
+                            {
+                                "type": "other version",
+                                "ended": false,
+                                "work": {
+                                    "languages": [],
+                                    "attributes": [],
+                                    "language": null,
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "id": "806ea0b5-6434-4227-8ed0-aad9fa09b645",
+                                    "type": "Song",
+                                    "iswcs": [],
+                                    "title": "Shao-Lin Temple Garden",
+                                    "disambiguation": ""
+                                },
+                                "target-type": "work",
+                                "direction": "forward",
+                                "attribute-ids": {
+                                    "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                                },
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [
+                                    "parody"
+                                ],
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                                "end": null
+                            },
+                            {
+                                "type": "other version",
+                                "work": {
+                                    "languages": [],
+                                    "language": null,
+                                    "attributes": [],
+                                    "type": "Song",
+                                    "id": "ac7670e3-f19c-312a-b2a0-60b975e05676",
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "disambiguation": "",
+                                    "iswcs": [],
+                                    "title": "Living in Hope"
+                                },
+                                "target-type": "work",
+                                "ended": false,
+                                "direction": "forward",
+                                "begin": null,
+                                "attribute-ids": {
+                                    "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                                },
+                                "attributes": [
+                                    "parody"
+                                ],
+                                "attribute-values": [],
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                                "end": null
+                            }
+                        ],
+                        "iswcs": [
+                            "T-010.029.771-9"
+                        ],
+                        "title": "Octopus’s Garden",
+                        "disambiguation": "",
+                        "id": "4986b89e-1316-3143-ba60-173fb0bd7a03",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "type": "Song"
+                    },
+                    "target-type": "work",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": "1969-04-26",
+                    "type": "performance"
+                }
+            ],
+            "title": "Octopus’s Garden",
+            "rating": {
+                "value": 3.55,
+                "votes-count": 18
+            },
+            "disambiguation": "original studio mix",
+            "annotation": null,
+            "length": 171000,
+            "tags": [
+                {
+                    "count": 2,
+                    "name": "album rock"
+                },
+                {
+                    "count": 1,
+                    "name": "am pop"
+                },
+                {
+                    "count": 1,
+                    "name": "art pop"
+                }
+            ]
+        },
+        {
+            "isrcs": [
+                "GBAYE0601697"
+            ],
+            "artist-credit": [
+                {
+                    "name": "The Beatles",
+                    "joinphrase": "",
+                    "artist": {
+                        "aliases": [
+                            {
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "en",
+                                "sort-name": "Beatles",
+                                "type": "Artist name",
+                                "end": null,
+                                "name": "Beatles",
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            },
+                            {
+                                "name": "Beetles",
+                                "end": null,
+                                "type": "Search hint",
+                                "locale": null,
+                                "sort-name": "Beetles",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "begin": null,
+                                "ended": false,
+                                "primary": null
+                            },
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "primary": false,
+                                "name": "Bítlarnir",
+                                "end": null,
+                                "sort-name": "Bítlarnir",
+                                "locale": "is",
+                                "type": "Artist name",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                            },
+                            {
+                                "name": "Die Beatles",
+                                "end": null,
+                                "locale": "de",
+                                "sort-name": "Beatles, Die",
+                                "type": "Artist name",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "begin": null,
+                                "ended": false,
+                                "primary": false
+                            },
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "primary": null,
+                                "name": "fab four",
+                                "end": null,
+                                "locale": null,
+                                "type": "Search hint",
+                                "sort-name": "fab four",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e"
+                            },
+                            {
+                                "locale": "zh_Hant",
+                                "type": null,
+                                "sort-name": "披頭四樂團",
+                                "type-id": null,
+                                "name": "披頭四樂團",
+                                "end": null,
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            }
+                        ],
+                        "country": "GB",
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "tags": [
+                            {
+                                "name": "1960s",
+                                "count": 1
+                            },
+                            {
+                                "name": "60s",
+                                "count": 7
+                            },
+                            {
+                                "name": "abbey road",
+                                "count": 1
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "type": "Group",
+                        "genres": [
+                            {
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30",
+                                "count": 2,
+                                "disambiguation": "",
+                                "name": "britpop"
+                            },
+                            {
+                                "name": "classic rock",
+                                "disambiguation": "",
+                                "count": 4,
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810"
+                            },
+                            {
+                                "name": "experimental rock",
+                                "disambiguation": "",
+                                "count": 2,
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7"
+                            }
+                        ],
+                        "name": "The Beatles",
+                        "disambiguation": "UK rock band, “The Fab Four”"
+                    }
+                }
+            ],
+            "relations": [
+                {
+                    "artist": {
+                        "name": "Geoff Emerick",
+                        "disambiguation": "British recording engineer",
+                        "id": "3ff7a3d9-a800-4de4-94a6-41a35c96c0ae",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "Emerick, Geoff",
+                        "type": "Person",
+                        "country": "GB"
+                    },
+                    "ended": false,
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type": "engineer",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                    "end": null
+                },
+                {
+                    "artist": {
+                        "type": "Person",
+                        "sort-name": "McDonald, Phil",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "91e7ebdb-07b3-4819-b269-08dab097e0ba",
+                        "name": "Phil McDonald",
+                        "disambiguation": "engineer and producer",
+                        "country": "GB"
+                    },
+                    "ended": false,
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type": "engineer",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                    "end": null
+                },
+                {
+                    "target-type": "artist",
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "The Beatles",
+                        "name": "John Lennon",
+                        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "Lennon, John",
+                        "type": "Person"
+                    },
+                    "ended": true,
+                    "direction": "backward",
+                    "begin": "1969-08-01",
+                    "attribute-ids": {
+                        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+                    },
+                    "attributes": [
+                        "electric guitar"
+                    ],
+                    "attribute-values": [],
+                    "type": "instrument",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "attribute-credits": [],
+                    "end": "1969-08-01"
+                },
+                {
+                    "begin": "1969-08-01",
+                    "attribute-ids": {
+                        "harpsichord": "bfe379dc-1d65-4862-acd8-60d53bb963a2"
+                    },
+                    "attributes": [
+                        "harpsichord"
+                    ],
+                    "attribute-values": [],
+                    "target-type": "artist",
+                    "artist": {
+                        "country": "GB",
+                        "type": "Person",
+                        "sort-name": "Martin, George",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+                        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+                        "name": "George Martin"
+                    },
+                    "ended": true,
+                    "direction": "backward",
+                    "type": "instrument",
+                    "attribute-credits": [],
+                    "end": "1969-08-01",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+                },
+                {
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-credits": [],
+                    "end": "1969-08-01",
+                    "type": "instrument",
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "country": "GB",
+                        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "McCartney, Paul",
+                        "type": "Person",
+                        "disambiguation": "The Beatles",
+                        "name": "Paul McCartney"
+                    },
+                    "attributes": [
+                        "electric bass guitar"
+                    ],
+                    "attribute-values": [],
+                    "begin": "1969-08-01",
+                    "attribute-ids": {
+                        "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+                    }
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "type": "producer",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "artist",
+                    "ended": false,
+                    "artist": {
+                        "sort-name": "Martin, George",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+                        "name": "George Martin",
+                        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+                        "country": "GB"
+                    },
+                    "direction": "backward"
+                },
+                {
+                    "attribute-ids": {
+                        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                    },
+                    "begin": "1969-08-01",
+                    "attribute-values": [],
+                    "attributes": [
+                        "lead vocals"
+                    ],
+                    "ended": true,
+                    "artist": {
+                        "id": "42a8f507-8412-4611-854f-926571049fa0",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "type": "Person",
+                        "sort-name": "Harrison, George",
+                        "name": "George Harrison",
+                        "disambiguation": "The Beatles",
+                        "country": "GB"
+                    },
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "type": "vocal",
+                    "end": "1969-08-01",
+                    "attribute-credits": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "end": "1969-08-01",
+                    "attribute-credits": [],
+                    "type": "vocal",
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "sort-name": "Lennon, John",
+                        "type": "Person",
+                        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "name": "John Lennon",
+                        "disambiguation": "The Beatles",
+                        "country": "GB"
+                    },
+                    "direction": "backward",
+                    "begin": "1969-08-01",
+                    "attribute-ids": {
+                        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                    },
+                    "attributes": [
+                        "lead vocals"
+                    ],
+                    "attribute-values": []
+                },
+                {
+                    "type": "vocal",
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "artist": {
+                        "disambiguation": "The Beatles",
+                        "name": "Paul McCartney",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                        "type": "Person",
+                        "sort-name": "McCartney, Paul",
+                        "country": "GB"
+                    },
+                    "ended": true,
+                    "attributes": [
+                        "lead vocals"
+                    ],
+                    "attribute-values": [],
+                    "begin": "1969-08-01",
+                    "attribute-ids": {
+                        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                    },
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": "1969-08-01",
+                    "attribute-credits": []
+                },
+                {
+                    "label": {
+                        "label-code": null,
+                        "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "sort-name": "EMI Records Ltd.",
+                        "type": "Holding",
+                        "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012",
+                        "name": "EMI Records Ltd."
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "end": "1969",
+                    "target-type": "label",
+                    "ended": true,
+                    "direction": "backward",
+                    "begin": "1969",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "phonographic copyright"
+                },
+                {
+                    "end": "2009",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "label": {
+                        "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012",
+                        "name": "EMI Records Ltd.",
+                        "type": "Holding",
+                        "sort-name": "EMI Records Ltd.",
+                        "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "label-code": null
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": "2009",
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "label",
+                    "ended": true,
+                    "type": "phonographic copyright"
+                },
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": "1969-08-01",
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "place",
+                    "place": {
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "area": {
+                            "sort-name": "St John's Wood",
+                            "type": "District",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "disambiguation": "",
+                            "name": "St John's Wood"
+                        },
+                        "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94",
+                        "type": "Studio",
+                        "name": "Abbey Road Studios: Studio 2",
+                        "disambiguation": "",
+                        "coordinates": {
+                            "longitude": -0.17835,
+                            "latitude": 51.53192
+                        },
+                        "address": "3 Abbey Road, St John’s Wood, London"
+                    },
+                    "ended": true,
+                    "type": "recorded at",
+                    "end": "1969-08-01",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "source-credit": "",
+                    "target-credit": ""
+                },
+                {
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": "1969-08-04",
+                    "type": "recorded at",
+                    "direction": "backward",
+                    "target-type": "place",
+                    "ended": true,
+                    "place": {
+                        "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "area": {
+                            "disambiguation": "",
+                            "name": "St John's Wood",
+                            "sort-name": "St John's Wood",
+                            "type": "District",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d"
+                        },
+                        "type": "Studio",
+                        "disambiguation": "",
+                        "name": "Abbey Road Studios: Studio 2",
+                        "coordinates": {
+                            "longitude": -0.17835,
+                            "latitude": 51.53192
+                        },
+                        "address": "3 Abbey Road, St John’s Wood, London"
+                    },
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": "1969-08-04",
+                    "attribute-ids": []
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "1969-08-05",
+                    "type": "recorded at",
+                    "target-type": "place",
+                    "place": {
+                        "address": "3 Abbey Road, St John’s Wood, London",
+                        "coordinates": {
+                            "longitude": -0.17835,
+                            "latitude": 51.53192
+                        },
+                        "disambiguation": "",
+                        "name": "Abbey Road Studios",
+                        "type": "Studio",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "id": "bd55aeb7-19d1-4607-a500-14b8479d3fed",
+                        "area": {
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "sort-name": "St John's Wood",
+                            "type": "District",
+                            "disambiguation": "",
+                            "name": "St John's Wood"
+                        }
+                    },
+                    "ended": true,
+                    "direction": "backward",
+                    "begin": "1969-08-05",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": []
+                },
+                {
+                    "type": "mashes up",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "recording",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "ordering-key": 2,
+                    "recording": {
+                        "disambiguation": "",
+                        "video": false,
+                        "length": 286354,
+                        "isrcs": [],
+                        "title": "Facts and Lodging (Eagles vs. The Beatles vs. Gorillaz vs. Flobots vs. Johnny Cash vs. Supertramp vs. LouisF)",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "name": "Psynwav",
+                                    "disambiguation": "UK mashup artist",
+                                    "sort-name": "Psynwav",
+                                    "type": null,
+                                    "id": "0f012e8e-9cad-4e72-9139-2d2f3ba3aea2",
+                                    "type-id": null,
+                                    "country": "GB"
+                                },
+                                "name": "Psynwav",
+                                "joinphrase": ""
+                            }
+                        ],
+                        "id": "f0e684b2-bb11-4da9-af2d-a80ad532bf43"
+                    }
+                },
+                {
+                    "type": "mashes up",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "backward",
+                    "ended": false,
+                    "target-type": "recording",
+                    "end": null,
+                    "type-id": "579d0b4c-bf77-479d-aa59-a8af1f518958",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "recording": {
+                        "id": "8b3abab1-c4af-4f6f-84b2-1c716d5477fc",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "country": "US",
+                                    "sort-name": "Earworm, DJ",
+                                    "type": null,
+                                    "id": "e407802a-bfc3-4979-a5e1-3196ccf9c8d9",
+                                    "type-id": null,
+                                    "disambiguation": "",
+                                    "name": "DJ Earworm"
+                                },
+                                "name": "DJ Earworm",
+                                "joinphrase": ""
+                            }
+                        ],
+                        "video": false,
+                        "length": 466000,
+                        "disambiguation": "",
+                        "title": "Stairway to Bootleg Heaven (Dolly Parton vs. Eurythmics vs. The Beatles vs. Laurie Anderson vs. Art of Noise vs. Beastie Boys vs. Pat Benatar)",
+                        "isrcs": []
+                    }
+                },
+                {
+                    "direction": "backward",
+                    "ended": false,
+                    "target-type": "recording",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "remix",
+                    "recording": {
+                        "isrcs": [],
+                        "title": "Because",
+                        "disambiguation": "Love version",
+                        "video": false,
+                        "length": 164653,
+                        "artist-credit": [
+                            {
+                                "name": "The Beatles",
+                                "joinphrase": "",
+                                "artist": {
+                                    "type-id": null,
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type": null,
+                                    "sort-name": "Beatles, The",
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles",
+                                    "country": "GB"
+                                }
+                            }
+                        ],
+                        "id": "ca5bc67d-9099-4d24-b33b-13cfda36b963"
+                    },
+                    "type-id": "bfbdb55a-b857-473a-8f2e-a9c09e45c3f5",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null
+                },
+                {
+                    "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-credits": [],
+                    "end": "1969-08-04",
+                    "recording": {
+                        "id": "99488607-ffe1-42c7-83fb-3ad73dd90ea1",
+                        "artist-credit": [
+                            {
+                                "name": "The Beatles",
+                                "joinphrase": "",
+                                "artist": {
+                                    "type-id": null,
+                                    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                                    "type": null,
+                                    "sort-name": "Beatles, The",
+                                    "disambiguation": "UK rock band, “The Fab Four”",
+                                    "name": "The Beatles",
+                                    "country": "GB"
+                                }
+                            }
+                        ],
+                        "title": "Now and Then",
+                        "isrcs": [],
+                        "video": false,
+                        "length": 248640,
+                        "disambiguation": ""
+                    },
+                    "type": "samples material",
+                    "direction": "backward",
+                    "target-type": "recording",
+                    "ended": true,
+                    "attributes": [
+                        "background vocals"
+                    ],
+                    "attribute-values": [],
+                    "begin": "1969-08-01",
+                    "attribute-ids": {
+                        "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+                    }
+                },
+                {
+                    "type": "samples material",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "recording",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "recording": {
+                        "disambiguation": "",
+                        "length": 243000,
+                        "video": false,
+                        "isrcs": [],
+                        "title": "Broken Windows",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "id": "aca11c2f-a480-4009-8038-f32d4a7cad54",
+                                    "type-id": null,
+                                    "type": null,
+                                    "sort-name": "Benjamin Bear",
+                                    "name": "Benjamin Bear",
+                                    "disambiguation": "",
+                                    "country": "US"
+                                },
+                                "name": "Benjamin Bear",
+                                "joinphrase": " feat. "
+                            },
+                            {
+                                "joinphrase": "",
+                                "name": "Marc With a C",
+                                "artist": {
+                                    "name": "Marc With a C",
+                                    "disambiguation": "",
+                                    "sort-name": "Marc With a C",
+                                    "type": null,
+                                    "id": "56e71d76-7fce-4078-acae-f696cf9de4c7",
+                                    "type-id": null,
+                                    "country": "US"
+                                }
+                            }
+                        ],
+                        "id": "d058589a-7f79-44a6-b3d8-653c2c13fd28"
+                    }
+                },
+                {
+                    "recording": {
+                        "disambiguation": "",
+                        "length": 92813,
+                        "video": false,
+                        "isrcs": [],
+                        "title": "New Is Old",
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "id": "78c1866f-92d8-4180-98ea-fe88121aa195",
+                                    "type-id": null,
+                                    "sort-name": "Negativland",
+                                    "type": null,
+                                    "name": "Negativland",
+                                    "disambiguation": "",
+                                    "country": "US"
+                                },
+                                "joinphrase": "",
+                                "name": "Negativland"
+                            }
+                        ],
+                        "id": "2033002a-d04a-4409-89fd-d36baa9ec852"
+                    },
+                    "end": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "ended": false,
+                    "target-type": "recording",
+                    "direction": "backward",
+                    "type": "samples material"
+                },
+                {
+                    "end": null,
+                    "type-id": "9efd9ce9-e702-448b-8e76-641515e8fe62",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "recording": {
+                        "artist-credit": [
+                            {
+                                "artist": {
+                                    "disambiguation": "",
+                                    "name": "Negativland",
+                                    "type-id": null,
+                                    "id": "78c1866f-92d8-4180-98ea-fe88121aa195",
+                                    "sort-name": "Negativland",
+                                    "type": null,
+                                    "country": "US"
+                                },
+                                "name": "Negativland",
+                                "joinphrase": ""
+                            }
+                        ],
+                        "id": "7bb017dc-b84d-4979-9d48-44243c06fb55",
+                        "disambiguation": "",
+                        "video": false,
+                        "length": 79080,
+                        "isrcs": [],
+                        "title": "Old Is New"
+                    },
+                    "type": "samples material",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "recording",
+                    "ended": false
+                },
+                {
+                    "type": "free streaming",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "url": {
+                        "id": "2c240492-b2ec-4d10-a0ba-7504f352051f",
+                        "resource": "https://open.spotify.com/track/1rxoyGj1QuPoVi8fOft1Kt"
+                    }
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "end": "1969-08-05",
+                    "type": "performance",
+                    "work": {
+                        "attributes": [],
+                        "language": "eng",
+                        "languages": [
+                            "eng"
+                        ],
+                        "relations": [
+                            {
+                                "type": "writer",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "artist": {
+                                    "country": "GB",
+                                    "type": "Person",
+                                    "sort-name": "Lennon, John",
+                                    "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "disambiguation": "The Beatles",
+                                    "name": "John Lennon"
+                                },
+                                "ended": false,
+                                "target-type": "artist",
+                                "direction": "backward",
+                                "end": null,
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                            },
+                            {
+                                "end": null,
+                                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                                "source-credit": "",
+                                "target-credit": "",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "artist",
+                                "artist": {
+                                    "name": "Paul McCartney",
+                                    "disambiguation": "The Beatles",
+                                    "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "type": "Person",
+                                    "sort-name": "McCartney, Paul",
+                                    "country": "GB"
+                                },
+                                "ended": false,
+                                "type": "writer"
+                            },
+                            {
+                                "end": null,
+                                "label": {
+                                    "label-code": null,
+                                    "disambiguation": "",
+                                    "name": "Agent-Lennon/McCartney Writers",
+                                    "type": null,
+                                    "sort-name": "Agent-Lennon/McCartney Writers",
+                                    "type-id": null,
+                                    "id": "5abe1786-1dde-427c-a9ae-c8b63d0a80e6"
+                                },
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "type": "publishing",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "label",
+                                "ended": false,
+                                "direction": "backward"
+                            },
+                            {
+                                "type": "publishing",
+                                "ended": false,
+                                "target-type": "label",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "target-credit": "",
+                                "label": {
+                                    "label-code": null,
+                                    "name": "ATV (Northern Songs Catalog)",
+                                    "disambiguation": "",
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "id": "94cd6321-7413-4457-86a7-332def8200f5",
+                                    "type": "Publisher",
+                                    "sort-name": "ATV (Northern Songs Catalog)"
+                                },
+                                "source-credit": "",
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "end": null
+                            },
+                            {
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "label",
+                                "ended": false,
+                                "type": "publishing",
+                                "end": null,
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "label": {
+                                    "type-id": null,
+                                    "id": "7a3db714-fb21-4c04-bbc5-ab4e819c3b27",
+                                    "type": null,
+                                    "sort-name": "EMI Blackwood Music Collecting",
+                                    "disambiguation": "",
+                                    "name": "EMI Blackwood Music Collecting",
+                                    "label-code": null
+                                },
+                                "source-credit": "",
+                                "target-credit": ""
+                            },
+                            {
+                                "type": "lyrics",
+                                "direction": "backward",
+                                "target-type": "url",
+                                "ended": false,
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                                "source-credit": "",
+                                "target-credit": "",
+                                "end": null,
+                                "url": {
+                                    "resource": "https://genius.com/The-beatles-because-lyrics",
+                                    "id": "b22bbd51-b3ad-40b0-9d0c-c9b9fe3c13a6"
+                                }
+                            },
+                            {
+                                "url": {
+                                    "resource": "https://secondhandsongs.com/work/1924",
+                                    "id": "2f7d31e5-b34e-4dd4-a108-eb51620b5d5f"
+                                },
+                                "end": null,
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "ended": false,
+                                "target-type": "url",
+                                "direction": "backward",
+                                "type": "secondhandsongs"
+                            },
+                            {
+                                "type": "songfacts",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "ended": false,
+                                "target-type": "url",
+                                "direction": "backward",
+                                "end": null,
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+                                "url": {
+                                    "id": "c193bd67-a9a5-4ae6-90d5-0edb514c845b",
+                                    "resource": "http://www.songfacts.com/detail.php?id=198"
+                                }
+                            },
+                            {
+                                "type": "wikidata",
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "url",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "end": null,
+                                "url": {
+                                    "id": "9fe2c0f2-dd9c-41cb-8bc0-25609add9dda",
+                                    "resource": "https://www.wikidata.org/wiki/Q210395"
+                                }
+                            },
+                            {
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "work",
+                                "work": {
+                                    "languages": [],
+                                    "language": null,
+                                    "attributes": [],
+                                    "type": "Song",
+                                    "id": "8e22f7fb-0f3d-4e8c-a862-18f5a1f61122",
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "disambiguation": "",
+                                    "title": "Because I'm Only Sleeping",
+                                    "iswcs": []
+                                },
+                                "ended": false,
+                                "direction": "backward",
+                                "type": "medley",
+                                "ordering-key": 1,
+                                "end": null,
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992"
+                            },
+                            {
+                                "type": "other version",
+                                "ended": false,
+                                "work": {
+                                    "attributes": [],
+                                    "language": null,
+                                    "languages": [],
+                                    "title": "קר חם",
+                                    "iswcs": [],
+                                    "disambiguation": "",
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "id": "5606dcf6-3ecd-4f24-a364-769232c39da8",
+                                    "type": "Song"
+                                },
+                                "target-type": "work",
+                                "direction": "forward",
+                                "attribute-ids": {
+                                    "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                                },
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [
+                                    "translated"
+                                ],
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                                "end": null
+                            }
+                        ],
+                        "iswcs": [
+                            "T-010.436.614-4"
+                        ],
+                        "title": "Because",
+                        "disambiguation": "",
+                        "id": "b1002811-37ca-3aed-a3d1-f3e9474c28a7",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "type": "Song"
+                    },
+                    "target-type": "work",
+                    "ended": true,
+                    "direction": "forward",
+                    "begin": "1969-08-01",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": []
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "end": null,
+                    "type": "performance",
+                    "work": {
+                        "type": "Song",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "id": "b1002811-37ca-3aed-a3d1-f3e9474c28a7",
+                        "disambiguation": "",
+                        "title": "Because",
+                        "iswcs": [
+                            "T-010.436.614-4"
+                        ],
+                        "relations": [
+                            {
+                                "end": null,
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                                "type": "writer",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "artist",
+                                "ended": false,
+                                "artist": {
+                                    "sort-name": "Lennon, John",
+                                    "type": "Person",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+                                    "disambiguation": "The Beatles",
+                                    "name": "John Lennon",
+                                    "country": "GB"
+                                },
+                                "direction": "backward"
+                            },
+                            {
+                                "type": "writer",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "artist",
+                                "ended": false,
+                                "artist": {
+                                    "disambiguation": "The Beatles",
+                                    "name": "Paul McCartney",
+                                    "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "type": "Person",
+                                    "sort-name": "McCartney, Paul",
+                                    "country": "GB"
+                                },
+                                "end": null,
+                                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                                "source-credit": "",
+                                "target-credit": ""
+                            },
+                            {
+                                "ended": false,
+                                "target-type": "label",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "type": "publishing",
+                                "target-credit": "",
+                                "label": {
+                                    "disambiguation": "",
+                                    "name": "Agent-Lennon/McCartney Writers",
+                                    "type-id": null,
+                                    "id": "5abe1786-1dde-427c-a9ae-c8b63d0a80e6",
+                                    "sort-name": "Agent-Lennon/McCartney Writers",
+                                    "type": null,
+                                    "label-code": null
+                                },
+                                "source-credit": "",
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "end": null
+                            },
+                            {
+                                "type": "publishing",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "label",
+                                "ended": false,
+                                "direction": "backward",
+                                "end": null,
+                                "label": {
+                                    "label-code": null,
+                                    "disambiguation": "",
+                                    "name": "ATV (Northern Songs Catalog)",
+                                    "sort-name": "ATV (Northern Songs Catalog)",
+                                    "type": "Publisher",
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "id": "94cd6321-7413-4457-86a7-332def8200f5"
+                                },
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
+                            },
+                            {
+                                "type": "publishing",
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "label",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "label": {
+                                    "label-code": null,
+                                    "type-id": null,
+                                    "id": "7a3db714-fb21-4c04-bbc5-ab4e819c3b27",
+                                    "type": null,
+                                    "sort-name": "EMI Blackwood Music Collecting",
+                                    "name": "EMI Blackwood Music Collecting",
+                                    "disambiguation": ""
+                                },
+                                "end": null
+                            },
+                            {
+                                "url": {
+                                    "resource": "https://genius.com/The-beatles-because-lyrics",
+                                    "id": "b22bbd51-b3ad-40b0-9d0c-c9b9fe3c13a6"
+                                },
+                                "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "end": null,
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "url",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "type": "lyrics"
+                            },
+                            {
+                                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "end": null,
+                                "url": {
+                                    "resource": "https://secondhandsongs.com/work/1924",
+                                    "id": "2f7d31e5-b34e-4dd4-a108-eb51620b5d5f"
+                                },
+                                "type": "secondhandsongs",
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "url",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null
+                            },
+                            {
+                                "url": {
+                                    "id": "c193bd67-a9a5-4ae6-90d5-0edb514c845b",
+                                    "resource": "http://www.songfacts.com/detail.php?id=198"
+                                },
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+                                "end": null,
+                                "target-type": "url",
+                                "ended": false,
+                                "direction": "backward",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "type": "songfacts"
+                            },
+                            {
+                                "end": null,
+                                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                                "source-credit": "",
+                                "target-credit": "",
+                                "url": {
+                                    "id": "9fe2c0f2-dd9c-41cb-8bc0-25609add9dda",
+                                    "resource": "https://www.wikidata.org/wiki/Q210395"
+                                },
+                                "type": "wikidata",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "url",
+                                "ended": false
+                            },
+                            {
+                                "end": null,
+                                "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "ordering-key": 1,
+                                "type": "medley",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null,
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "work",
+                                "work": {
+                                    "language": null,
+                                    "attributes": [],
+                                    "languages": [],
+                                    "disambiguation": "",
+                                    "title": "Because I'm Only Sleeping",
+                                    "iswcs": [],
+                                    "type": "Song",
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "id": "8e22f7fb-0f3d-4e8c-a862-18f5a1f61122"
+                                }
+                            },
+                            {
+                                "end": null,
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                                "type": "other version",
+                                "attribute-ids": {
+                                    "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                                },
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [
+                                    "translated"
+                                ],
+                                "ended": false,
+                                "target-type": "work",
+                                "work": {
+                                    "disambiguation": "",
+                                    "iswcs": [],
+                                    "title": "קר חם",
+                                    "type": "Song",
+                                    "id": "5606dcf6-3ecd-4f24-a364-769232c39da8",
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "language": null,
+                                    "attributes": [],
+                                    "languages": []
+                                },
+                                "direction": "forward"
+                            }
+                        ],
+                        "languages": [
+                            "eng"
+                        ],
+                        "language": "eng",
+                        "attributes": []
+                    },
+                    "target-type": "work",
+                    "ended": false,
+                    "direction": "forward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": []
+                }
+            ],
+            "title": "Because",
+            "rating": {
+                "votes-count": 13,
+                "value": 3.9
+            },
+            "disambiguation": "original studio mix",
+            "annotation": null,
+            "length": 166000,
+            "tags": [
+                {
+                    "name": "album rock",
+                    "count": 2
+                },
+                {
+                    "count": 1,
+                    "name": "am pop"
+                },
+                {
+                    "name": "art pop",
+                    "count": 1
+                }
+            ],
+            "aliases": [
+                {
+                    "type-id": null,
+                    "sort-name": "Because - Remastered 2009",
+                    "locale": null,
+                    "type": null,
+                    "end": null,
+                    "name": "Because - Remastered 2009",
+                    "ended": false,
+                    "primary": null,
+                    "begin": null
+                }
+            ],
+            "first-release-date": "1969-09-26",
+            "video": false,
+            "id": "1e1d1f33-346c-4f9a-ad05-03aa715c2f37",
+            "genres": [
+                {
+                    "name": "art pop",
+                    "disambiguation": "",
+                    "count": 1,
+                    "id": "930ef127-3653-4677-9b95-ecc90c7c1a14"
+                },
+                {
+                    "count": 1,
+                    "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                    "disambiguation": "",
+                    "name": "art rock"
+                },
+                {
+                    "count": 1,
+                    "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                    "name": "baroque pop",
+                    "disambiguation": ""
+                }
+            ]
+        },
+        {
+            "first-release-date": "1969-09-26",
+            "aliases": [
+                {
+                    "ended": false,
+                    "primary": null,
+                    "begin": null,
+                    "sort-name": "Golden Slumbers - Remastered 2009",
+                    "locale": null,
+                    "type": null,
+                    "type-id": null,
+                    "name": "Golden Slumbers - Remastered 2009",
+                    "end": null
+                }
+            ],
+            "video": false,
+            "genres": [
+                {
+                    "name": "art pop",
+                    "disambiguation": "",
+                    "id": "930ef127-3653-4677-9b95-ecc90c7c1a14",
+                    "count": 1
+                },
+                {
+                    "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "baroque pop"
+                },
+                {
+                    "name": "beat music",
+                    "disambiguation": "",
+                    "id": "decc967b-5b70-453b-9107-0b4e7a00505f",
+                    "count": 1
+                }
+            ],
+            "id": "3d7f2000-123d-4cac-862b-e04ead24c5f2",
+            "isrcs": [
+                "GBAYE0601703"
+            ],
+            "artist-credit": [
+                {
+                    "joinphrase": "",
+                    "name": "The Beatles",
+                    "artist": {
+                        "disambiguation": "UK rock band, “The Fab Four”",
+                        "name": "The Beatles",
+                        "type": "Group",
+                        "genres": [
+                            {
+                                "name": "britpop",
+                                "disambiguation": "",
+                                "id": "f1c9b874-7ef2-4e79-9419-c0bcb5f33a30",
+                                "count": 2
+                            },
+                            {
+                                "count": 4,
+                                "id": "93244085-20e5-4f16-9067-1d19143b3810",
+                                "disambiguation": "",
+                                "name": "classic rock"
+                            },
+                            {
+                                "disambiguation": "",
+                                "name": "experimental rock",
+                                "id": "65c97e89-b42b-45c2-a70e-0eca1b8f0ff7",
+                                "count": 2
+                            }
+                        ],
+                        "sort-name": "Beatles, The",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "1960s"
+                            },
+                            {
+                                "name": "60s",
+                                "count": 7
+                            },
+                            {
+                                "count": 1,
+                                "name": "abbey road"
+                            }
+                        ],
+                        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "country": "GB",
+                        "aliases": [
+                            {
+                                "sort-name": "Beatles",
+                                "type": "Artist name",
+                                "locale": "en",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "Beatles",
+                                "end": null,
+                                "ended": false,
+                                "primary": false,
+                                "begin": null
+                            },
+                            {
+                                "ended": false,
+                                "primary": null,
+                                "begin": null,
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "locale": null,
+                                "sort-name": "Beetles",
+                                "type": "Search hint",
+                                "end": null,
+                                "name": "Beetles"
+                            },
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "primary": false,
+                                "name": "Bítlarnir",
+                                "end": null,
+                                "type": "Artist name",
+                                "sort-name": "Bítlarnir",
+                                "locale": "is",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                            },
+                            {
+                                "primary": false,
+                                "ended": false,
+                                "begin": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "locale": "de",
+                                "sort-name": "Beatles, Die",
+                                "type": "Artist name",
+                                "end": null,
+                                "name": "Die Beatles"
+                            },
+                            {
+                                "end": null,
+                                "name": "fab four",
+                                "type-id": "1937e404-b981-3cb7-8151-4c86ebfc8d8e",
+                                "type": "Search hint",
+                                "sort-name": "fab four",
+                                "locale": null,
+                                "begin": null,
+                                "ended": false,
+                                "primary": null
+                            },
+                            {
+                                "begin": null,
+                                "ended": false,
+                                "primary": false,
+                                "name": "披頭四樂團",
+                                "end": null,
+                                "locale": "zh_Hant",
+                                "type": null,
+                                "sort-name": "披頭四樂團",
+                                "type-id": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "length": 92000,
+            "disambiguation": "original studio mix",
+            "annotation": null,
+            "title": "Golden Slumbers",
+            "rating": {
+                "value": 3.9,
+                "votes-count": 12
+            },
+            "relations": [
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "artist",
+                    "artist": {
+                        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "Martin, George",
+                        "type": "Person",
+                        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+                        "name": "George Martin",
+                        "country": "GB"
+                    },
+                    "ended": false,
+                    "direction": "backward",
+                    "type": "conductor",
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "234670ce-5f22-4fd0-921b-ef1662695c5d"
+                },
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                    "end": null,
+                    "type": "engineer",
+                    "target-type": "artist",
+                    "ended": false,
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "British recording engineer",
+                        "name": "Geoff Emerick",
+                        "type": "Person",
+                        "sort-name": "Emerick, Geoff",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "3ff7a3d9-a800-4de4-94a6-41a35c96c0ae"
+                    },
+                    "direction": "backward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": []
+                },
+                {
+                    "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null,
+                    "type": "engineer",
+                    "direction": "backward",
+                    "artist": {
+                        "country": "GB",
+                        "id": "91e7ebdb-07b3-4819-b269-08dab097e0ba",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "type": "Person",
+                        "sort-name": "McDonald, Phil",
+                        "name": "Phil McDonald",
+                        "disambiguation": "engineer and producer"
+                    },
+                    "ended": false,
+                    "target-type": "artist",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "type": "instrument",
+                    "begin": "1969-07-02",
+                    "attribute-ids": {
+                        "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+                    },
+                    "attributes": [
+                        "electric bass guitar"
+                    ],
+                    "attribute-values": [],
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "country": "GB",
+                        "id": "42a8f507-8412-4611-854f-926571049fa0",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "type": "Person",
+                        "sort-name": "Harrison, George",
+                        "disambiguation": "The Beatles",
+                        "name": "George Harrison"
+                    },
+                    "direction": "backward",
+                    "end": "1969-07-02",
+                    "attribute-credits": [],
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+                },
+                {
+                    "type": "instrument",
+                    "attribute-values": [],
+                    "attributes": [
+                        "piano"
+                    ],
+                    "attribute-ids": {
+                        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+                    },
+                    "begin": "1969-07-02",
+                    "direction": "backward",
+                    "artist": {
+                        "country": "GB",
+                        "sort-name": "McCartney, Paul",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                        "disambiguation": "The Beatles",
+                        "name": "Paul McCartney"
+                    },
+                    "ended": true,
+                    "target-type": "artist",
+                    "attribute-credits": [],
+                    "end": "1969-07-02",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "target-credit": "",
+                    "source-credit": ""
+                },
+                {
+                    "type": "instrument",
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "country": "GB",
+                        "id": "300c4c73-33ac-4255-9d57-4e32627f5e13",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "type": "Person",
+                        "sort-name": "Starr, Ringo",
+                        "name": "Ringo Starr",
+                        "disambiguation": "The Beatles"
+                    },
+                    "direction": "backward",
+                    "begin": "1969-07-02",
+                    "attribute-ids": {
+                        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+                    },
+                    "attributes": [
+                        "drums (drum set)"
+                    ],
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "attribute-credits": [],
+                    "end": "1969-07-02"
+                },
+                {
+                    "target-type": "artist",
+                    "artist": {
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+                        "type": "Person",
+                        "sort-name": "Martin, George",
+                        "name": "George Martin",
+                        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+                        "country": "GB"
+                    },
+                    "ended": false,
+                    "direction": "backward",
+                    "begin": null,
+                    "attribute-ids": {
+                        "brass": "82157c40-112f-4e4a-a3c0-5388ebb12931",
+                        "strings": "32eca297-dde6-45d0-9305-ae479947c2a8"
+                    },
+                    "attributes": [
+                        "brass",
+                        "strings"
+                    ],
+                    "attribute-values": [],
+                    "type": "instrument arranger",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+                    "attribute-credits": [],
+                    "end": null
+                },
+                {
+                    "type": "producer",
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "ended": false,
+                    "artist": {
+                        "name": "George Martin",
+                        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+                        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "sort-name": "Martin, George",
+                        "type": "Person",
+                        "country": "GB"
+                    },
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null
+                },
+                {
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                    "attribute-credits": [],
+                    "end": "1969-07-31",
+                    "artist": {
+                        "sort-name": "McCartney, Paul",
+                        "type": "Person",
+                        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "name": "Paul McCartney",
+                        "disambiguation": "The Beatles",
+                        "country": "GB"
+                    },
+                    "ended": true,
+                    "target-type": "artist",
+                    "direction": "backward",
+                    "attribute-ids": {
+                        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+                    },
+                    "begin": "1969-07-31",
+                    "attribute-values": [],
+                    "attributes": [
+                        "lead vocals"
+                    ],
+                    "type": "vocal"
+                },
+                {
+                    "end": "1969",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "label": {
+                        "label-code": null,
+                        "name": "EMI Records Ltd.",
+                        "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012",
+                        "type": "Holding",
+                        "sort-name": "EMI Records Ltd.",
+                        "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed"
+                    },
+                    "type": "phonographic copyright",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": "1969",
+                    "direction": "backward",
+                    "ended": true,
+                    "target-type": "label"
+                },
+                {
+                    "end": "2009",
+                    "label": {
+                        "label-code": null,
+                        "type": "Holding",
+                        "sort-name": "EMI Records Ltd.",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "id": "618a22b7-308f-49a5-bceb-3368e0d25768",
+                        "name": "EMI Records Ltd.",
+                        "disambiguation": "not for release label use! UK parent of EMI‐owned labels until Sept 2012"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "fd841726-ba3c-47f7-af8e-6734ab6243ff",
+                    "begin": "2009",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "label",
+                    "ended": true,
+                    "direction": "backward",
+                    "type": "phonographic copyright"
+                },
+                {
+                    "end": "1969-07-02",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "type": "recorded at",
+                    "begin": "1969-07-02",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "place",
+                    "place": {
+                        "name": "Abbey Road Studios: Studio 2",
+                        "disambiguation": "",
+                        "type": "Studio",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "area": {
+                            "name": "St John's Wood",
+                            "disambiguation": "",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "type": "District",
+                            "sort-name": "St John's Wood"
+                        },
+                        "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94",
+                        "address": "3 Abbey Road, St John’s Wood, London",
+                        "coordinates": {
+                            "latitude": 51.53192,
+                            "longitude": -0.17835
+                        }
+                    },
+                    "ended": true,
+                    "direction": "backward"
+                },
+                {
+                    "end": "1969-07-03",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "type": "recorded at",
+                    "begin": "1969-07-03",
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "place",
+                    "ended": true,
+                    "place": {
+                        "address": "3 Abbey Road, St John’s Wood, London",
+                        "coordinates": {
+                            "longitude": -0.17835,
+                            "latitude": 51.53192
+                        },
+                        "disambiguation": "",
+                        "name": "Abbey Road Studios: Studio 2",
+                        "type": "Studio",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "area": {
+                            "type": "District",
+                            "sort-name": "St John's Wood",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "disambiguation": "",
+                            "name": "St John's Wood"
+                        },
+                        "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94"
+                    },
+                    "direction": "backward"
+                },
+                {
+                    "direction": "backward",
+                    "ended": true,
+                    "place": {
+                        "address": "3 Abbey Road, St John’s Wood, London",
+                        "coordinates": {
+                            "longitude": -0.17835,
+                            "latitude": 51.53192
+                        },
+                        "name": "Abbey Road Studios: Studio 2",
+                        "disambiguation": "",
+                        "type": "Studio",
+                        "area": {
+                            "name": "St John's Wood",
+                            "disambiguation": "",
+                            "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                            "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+                            "type": "District",
+                            "sort-name": "St John's Wood"
+                        },
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "id": "6f12a5d2-52e5-4dec-9fed-494b1f65bb94"
+                    },
+                    "target-type": "place",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": "1969-07-04",
+                    "type": "recorded at",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": "1969-07-04"
+                },
+                {
+                    "type": "free streaming",
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "7e41ef12-a124-4324-afdb-fdbae687a89c",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null,
+                    "url": {
+                        "resource": "https://open.spotify.com/track/01SfTM5nfCou5gQL70r6gs",
+                        "id": "4961ea4e-8a08-47d5-9a12-c6c4bed9f5c9"
+                    }
+                },
+                {
+                    "type": "performance",
+                    "ended": true,
+                    "work": {
+                        "languages": [
+                            "eng"
+                        ],
+                        "attributes": [],
+                        "language": "eng",
+                        "id": "c5960d63-ebc3-3f7e-87da-eb72c0ce4dc7",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "type": "Song",
+                        "title": "Golden Slumbers",
+                        "iswcs": [
+                            "T-010.435.651-5"
+                        ],
+                        "relations": [
+                            {
+                                "type": "writer",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "artist",
+                                "ended": false,
+                                "artist": {
+                                    "country": "GB",
+                                    "disambiguation": "The Beatles",
+                                    "name": "John Lennon",
+                                    "sort-name": "Lennon, John",
+                                    "type": "Person",
+                                    "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                                },
+                                "direction": "backward",
+                                "end": null,
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+                            },
+                            {
+                                "type": "writer",
+                                "artist": {
+                                    "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+                                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                                    "type": "Person",
+                                    "sort-name": "McCartney, Paul",
+                                    "disambiguation": "The Beatles",
+                                    "name": "Paul McCartney",
+                                    "country": "GB"
+                                },
+                                "ended": false,
+                                "target-type": "artist",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                                "end": null
+                            },
+                            {
+                                "end": null,
+                                "label": {
+                                    "label-code": null,
+                                    "name": "Northern Songs Ltd.",
+                                    "disambiguation": "",
+                                    "id": "26df054d-78cf-4d83-9bb1-a41816125528",
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "type": "Publisher",
+                                    "sort-name": "Northern Songs Ltd."
+                                },
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "label",
+                                "ended": false,
+                                "direction": "backward",
+                                "type": "publishing"
+                            },
+                            {
+                                "target-credit": "Sony/ATV Music Publishing LLC",
+                                "source-credit": "",
+                                "label": {
+                                    "sort-name": "Sony/ATV Music Publishing LLC",
+                                    "type": "Publisher",
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "id": "99b364b4-8934-4eae-b0ff-555a5d950d7d",
+                                    "disambiguation": "1995–2020",
+                                    "name": "Sony/ATV Music Publishing LLC",
+                                    "label-code": null
+                                },
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "end": null,
+                                "type": "publishing",
+                                "ended": false,
+                                "target-type": "label",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": []
+                            },
+                            {
+                                "end": null,
+                                "source-credit": "",
+                                "label": {
+                                    "disambiguation": "",
+                                    "name": "Sony/ATV Tunes LLC",
+                                    "type": "Publisher",
+                                    "sort-name": "Sony/ATV Tunes LLC",
+                                    "id": "a789c5e2-2dc5-47f2-bb97-12c23e5805d2",
+                                    "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                                    "label-code": null
+                                },
+                                "target-credit": "",
+                                "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                                "begin": null,
+                                "attribute-ids": [],
+                                "attributes": [],
+                                "attribute-values": [],
+                                "target-type": "label",
+                                "ended": false,
+                                "direction": "backward",
+                                "type": "publishing"
+                            },
+                            {
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                                "end": null,
+                                "url": {
+                                    "resource": "https://genius.com/The-beatles-golden-slumbers-lyrics",
+                                    "id": "2b97a7db-9112-4a2b-96aa-77ae86621806"
+                                },
+                                "type": "lyrics",
+                                "ended": false,
+                                "target-type": "url",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": []
+                            },
+                            {
+                                "type": "secondhandsongs",
+                                "ended": false,
+                                "target-type": "url",
+                                "direction": "backward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                                "end": null,
+                                "url": {
+                                    "resource": "https://secondhandsongs.com/work/6097",
+                                    "id": "09607bcd-28e9-4cc4-8b64-be4eb2cbdb37"
+                                }
+                            },
+                            {
+                                "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+                                "target-credit": "",
+                                "source-credit": "",
+                                "end": null,
+                                "url": {
+                                    "id": "4261a7a7-2c56-4ec9-b6dd-7112597ffbb6",
+                                    "resource": "http://www.songfacts.com/detail.php?id=204"
+                                },
+                                "type": "songfacts",
+                                "direction": "backward",
+                                "ended": false,
+                                "target-type": "url",
+                                "attribute-values": [],
+                                "attributes": [],
+                                "attribute-ids": [],
+                                "begin": null
+                            },
+                            {
+                                "direction": "backward",
+                                "target-type": "url",
+                                "ended": false,
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "type": "wikidata",
+                                "url": {
+                                    "resource": "https://www.wikidata.org/wiki/Q210406",
+                                    "id": "55146101-09f1-47f8-94a2-d30f9147e2e6"
+                                },
+                                "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                                "source-credit": "",
+                                "target-credit": "",
+                                "end": null
+                            },
+                            {
+                                "type": "arrangement",
+                                "ended": false,
+                                "target-type": "work",
+                                "work": {
+                                    "type-id": null,
+                                    "id": "729d29a6-6511-46fd-ad76-ab7cc6ecb027",
+                                    "type": null,
+                                    "title": "Golden Slumbers",
+                                    "iswcs": [],
+                                    "disambiguation": "for piano, Takemitsu",
+                                    "languages": [],
+                                    "attributes": [],
+                                    "language": null
+                                },
+                                "direction": "forward",
+                                "attribute-ids": [],
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [],
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+                                "end": null
+                            },
+                            {
+                                "end": null,
+                                "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                                "source-credit": "",
+                                "target-credit": "",
+                                "type": "based on",
+                                "attributes": [],
+                                "attribute-values": [],
+                                "begin": null,
+                                "attribute-ids": [],
+                                "direction": "backward",
+                                "target-type": "work",
+                                "work": {
+                                    "disambiguation": "“Golden Slumbers” poem",
+                                    "title": "Cradle Song",
+                                    "iswcs": [],
+                                    "type": "Poem",
+                                    "id": "69b5d5d2-5591-4e2d-a349-b7436b6e8c85",
+                                    "type-id": "66b8026e-7ce8-36f8-a8d5-7c346c7b9a88",
+                                    "language": null,
+                                    "attributes": [],
+                                    "languages": []
+                                },
+                                "ended": false
+                            },
+                            {
+                                "target-credit": "",
+                                "source-credit": "",
+                                "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                                "end": null,
+                                "type": "other version",
+                                "ended": false,
+                                "target-type": "work",
+                                "work": {
+                                    "iswcs": [],
+                                    "title": "Golden Slumbers",
+                                    "disambiguation": "Japanese version",
+                                    "id": "c4b6227c-0a2c-4e8a-8d76-ba77198e693e",
+                                    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                                    "type": "Song",
+                                    "attributes": [],
+                                    "language": null,
+                                    "languages": []
+                                },
+                                "direction": "forward",
+                                "attribute-ids": {
+                                    "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                                },
+                                "begin": null,
+                                "attribute-values": [],
+                                "attributes": [
+                                    "translated"
+                                ]
+                            }
+                        ],
+                        "disambiguation": "The Beatles"
+                    },
+                    "target-type": "work",
+                    "direction": "forward",
+                    "attribute-ids": [],
+                    "begin": "1969-07-02",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "end": "1969-08-15"
+                }
+            ],
+            "tags": [
+                {
+                    "name": "album rock",
+                    "count": 2
+                },
+                {
+                    "count": 1,
+                    "name": "am pop"
+                },
+                {
+                    "count": 1,
+                    "name": "art pop"
+                }
+            ]
+        }
+    ],
+    "recording-offset": 0
+}

@@ -24,4 +24,7 @@ enum PackagingKind: string
     case Other = 'Other';
     case None = 'None';
     case Box = 'Box';
+    case Slipcase = 'Slipcase';
+    case PlasticSleeve = 'Plastic Sleeve';
+    case Slidepack = 'Slidepack';
 }

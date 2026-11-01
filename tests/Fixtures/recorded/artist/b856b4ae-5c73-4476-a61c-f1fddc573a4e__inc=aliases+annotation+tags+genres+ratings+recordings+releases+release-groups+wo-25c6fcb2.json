@@ -1,0 +1,222 @@
+{
+    "id": "b856b4ae-5c73-4476-a61c-f1fddc573a4e",
+    "life-span": {
+        "begin": null,
+        "end": null,
+        "ended": false
+    },
+    "country": null,
+    "type": "Person",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "genres": [],
+    "end-area": null,
+    "annotation": null,
+    "area": null,
+    "recordings": [
+        {
+            "disambiguation": "",
+            "title": "Kitty ina Moonlight",
+            "id": "3338dce8-3bc3-47b2-83c5-0981d773f5a7",
+            "genres": [],
+            "length": 198160,
+            "aliases": [],
+            "tags": [],
+            "video": false
+        },
+        {
+            "aliases": [],
+            "video": false,
+            "tags": [],
+            "id": "f820b1c1-4d5f-4f21-9ed3-fd9143e22ed7",
+            "title": "Simone",
+            "disambiguation": "",
+            "genres": [],
+            "length": 247000
+        },
+        {
+            "tags": [],
+            "video": false,
+            "aliases": [],
+            "genres": [],
+            "length": 132000,
+            "disambiguation": "",
+            "title": "Simone [Comeback]",
+            "id": "c5bcd418-3ec2-4325-b5bb-d55deb84225b"
+        }
+    ],
+    "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+    "tags": [],
+    "isnis": [],
+    "disambiguation": "",
+    "ipis": [],
+    "gender": "Female",
+    "release-groups": [],
+    "releases": [],
+    "begin-area": null,
+    "relations": [
+        {
+            "source-credit": "",
+            "target-type": "artist",
+            "begin": null,
+            "attribute-ids": [],
+            "artist": {
+                "type": "Group",
+                "disambiguation": "Australian indie rock band",
+                "id": "70195961-574a-498e-9101-1bed7ff978d5",
+                "country": "AU",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "name": "Terry",
+                "sort-name": "Terry"
+            },
+            "type": "member of band",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "attributes": [],
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "ended": false
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "recording": {
+                "length": 125000,
+                "video": false,
+                "disambiguation": "",
+                "title": "A Day Like Any Other",
+                "id": "3e259934-b43c-42f3-9422-0c67dff46858"
+            },
+            "source-credit": "",
+            "target-type": "recording",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "attributes": []
+        },
+        {
+            "attribute-ids": {
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "recording": {
+                "id": "ad47d071-0959-4fac-9453-08e39fbcb44a",
+                "title": "Coffee Colour",
+                "disambiguation": "",
+                "length": 127000,
+                "video": false
+            },
+            "attribute-credits": [],
+            "begin": null,
+            "target-type": "recording",
+            "source-credit": "",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "attributes": [
+                "background vocals"
+            ],
+            "type": "vocal"
+        },
+        {
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "length": 181000,
+                "id": "f25828c6-650e-411b-a75d-9b73fb87c8cd",
+                "title": "Don't Say a Thing",
+                "disambiguation": ""
+            },
+            "begin": null,
+            "target-type": "recording",
+            "source-credit": "",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "attributes": [],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal"
+        },
+        {
+            "attributes": [],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "target-type": "recording",
+            "source-credit": "",
+            "attribute-ids": [],
+            "recording": {
+                "length": 142000,
+                "video": false,
+                "disambiguation": "",
+                "id": "bea39752-52a3-43c3-a758-1ce400d3885a",
+                "title": "More and More, Less and Less"
+            },
+            "begin": null
+        },
+        {
+            "source-credit": "",
+            "target-type": "recording",
+            "attribute-credits": [],
+            "begin": null,
+            "recording": {
+                "disambiguation": "",
+                "title": "SS c'est bon",
+                "id": "de68f286-bc23-4cb9-a761-48049c6db185",
+                "video": false,
+                "length": 167000
+            },
+            "attribute-ids": {
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "attributes": [
+                "background vocals"
+            ],
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "ended": false
+        },
+        {
+            "source-credit": "",
+            "target-type": "url",
+            "begin": null,
+            "attribute-ids": [],
+            "type": "discogs",
+            "attributes": [],
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "url": {
+                "id": "5bb6372a-eb96-42ea-863b-521c0e3af21e",
+                "resource": "https://www.discogs.com/artist/2036836"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null
+        }
+    ],
+    "works": [],
+    "aliases": [],
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "sort-name": "Waite, Xanthe",
+    "name": "Xanthe Waite"
+}

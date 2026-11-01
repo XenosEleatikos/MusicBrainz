@@ -6,16 +6,27 @@ namespace MusicBrainz\Supplement\Lookup;
 
 use MusicBrainz\Supplement\Fields;
 
+/**
+ * The inc parameters a lookup of series accepts. The list is derived from the web service itself (see tests/Fixtures/accepted-includes.json); flags for data that
+ * needs authentication (user-tags, user-genres, user-ratings) require an access token.
+ *
+ * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
+ */
 class SeriesFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\AliasesTrait;
+    use \MusicBrainz\Supplement\Field\AnnotationTrait;
     use \MusicBrainz\Supplement\Field\TagsTrait;
-    use \MusicBrainz\Supplement\Field\GenresTrait;
     use \MusicBrainz\Supplement\Field\UserTagsTrait;
+    use \MusicBrainz\Supplement\Field\GenresTrait;
     use \MusicBrainz\Supplement\Field\UserGenresTrait;
-    // relations
+    use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\EventRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\GenreRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\InstrumentRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\LabelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\PlaceRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\RecordingRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ReleaseRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ReleaseGroupRelationsTrait;

@@ -8,6 +8,8 @@ use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
+use function in_array;
+
 /**
  * A PSR-18 decorator that records responses of a real HTTP client in a {@see FixtureStore}.
  *
@@ -39,8 +41,8 @@ final class RecordingHttpClient implements ClientInterface
         ++$this->networkRequests;
         $response = $this->inner->sendRequest($request);
         $body = (string) $response->getBody();
-        // A server error says nothing about the API's data; only 2xx and 4xx responses are fixtures
-        if ($response->getStatusCode() < 500) {
+        // Only answers that describe the API are fixtures: not server errors, and not a rejected or expired token
+        if (!in_array($response->getStatusCode(), [401, 403, 429], true) && $response->getStatusCode() < 500) {
             $this->store->save($name, $request, $response->getStatusCode(), $body);
         }
 

@@ -1,0 +1,1852 @@
+{
+    "place-offset": 0,
+    "place-count": 2456,
+    "places": [
+        {
+            "name": "3 Mills Studios",
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "area": {
+                "sort-name": "Stratford",
+                "type": null,
+                "disambiguation": "",
+                "name": "Stratford",
+                "id": "a17b36e3-ad5c-4f6d-bb51-77c99ef25ae6",
+                "type-id": null
+            },
+            "coordinates": {
+                "latitude": 51.527222,
+                "longitude": -0.005833
+            },
+            "annotation": null,
+            "aliases": [],
+            "genres": [],
+            "tags": [],
+            "disambiguation": "",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "type": "Studio",
+            "address": "",
+            "id": "0d40919c-d658-4426-b606-762030fbfe85",
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "relations": [
+                {
+                    "recording": {
+                        "length": 149000,
+                        "id": "3bd4d8df-2ab0-4c22-8120-177d14456591",
+                        "disambiguation": "",
+                        "video": false,
+                        "title": "Break Up (Bye Bye) (Filth Harmony version)"
+                    },
+                    "attributes": [],
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording"
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "end": null,
+                    "attributes": [],
+                    "recording": {
+                        "video": false,
+                        "title": "Break Up (Bye Bye) (Frock Destroyers version)",
+                        "id": "9bcf8e2f-93ee-4fe7-9860-f856246c3a14",
+                        "length": 151000,
+                        "disambiguation": ""
+                    }
+                },
+                {
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "attributes": [],
+                    "recording": {
+                        "title": "Break Up (Bye Bye) (Frock Destroyers version) (Adam Joseph remix)",
+                        "video": false,
+                        "length": 226874,
+                        "id": "2da31ebc-c7f9-41b6-94ce-6bb2d7086877",
+                        "disambiguation": ""
+                    }
+                },
+                {
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "recording": {
+                        "title": "Break Up (Bye Bye) (Frock Destroyers version) (Much Betta remix)",
+                        "video": false,
+                        "disambiguation": "",
+                        "id": "3da175ac-e2a4-4d3c-8c5f-70c75eed5264",
+                        "length": 216024
+                    },
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "recording": {
+                        "video": false,
+                        "title": "Break Up (Bye Bye) (Rock version)",
+                        "disambiguation": "",
+                        "length": 172000,
+                        "id": "a87e3c24-cd97-4605-a488-8ddc26bb88da"
+                    },
+                    "begin": null,
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "attribute-values": [],
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false
+                },
+                {
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "f8c03644-0829-48f9-8729-3848d46b148e",
+                        "length": null,
+                        "video": false,
+                        "title": "Break Up Bye Bye (Freddy Scott remix)"
+                    },
+                    "attributes": [],
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": []
+                },
+                {
+                    "attributes": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "length": null,
+                        "id": "32e64be3-d975-42dc-abf3-2f8bee4477d4",
+                        "title": "Break Up Bye Bye (Markaholic remix)",
+                        "video": false
+                    },
+                    "attribute-values": [],
+                    "ended": false,
+                    "end": null,
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "begin": null,
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at"
+                },
+                {
+                    "type-id": "07e6b4eb-5891-4646-b167-f96c5a4ccc77",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "type": "video shot at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "recording": {
+                        "title": "You Know I’m No Good",
+                        "video": true,
+                        "disambiguation": "",
+                        "length": 243000,
+                        "id": "5f292291-a381-4ff8-8ae8-aafa44ed5c9b"
+                    },
+                    "attributes": []
+                }
+            ]
+        },
+        {
+            "annotation": null,
+            "aliases": [
+                {
+                    "primary": null,
+                    "ended": false,
+                    "end": null,
+                    "type-id": null,
+                    "name": "mu",
+                    "begin": null,
+                    "sort-name": "mu",
+                    "type": null,
+                    "locale": null
+                }
+            ],
+            "genres": [],
+            "tags": [],
+            "name": "“mu”",
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "area": {
+                "type-id": null,
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "name": "London",
+                "type": null,
+                "sort-name": "London",
+                "disambiguation": "Greater London"
+            },
+            "coordinates": {
+                "longitude": -0.075945,
+                "latitude": 51.542181
+            },
+            "address": "432-434 Kingsland Rd, London E8 4AA, United Kingdom",
+            "id": "0edcb947-7bb2-4d1f-b0c2-30190c53f2dc",
+            "type-id": "d7a75895-e1a4-44e7-b76e-80a3913b13c8",
+            "relations": [
+                {
+                    "target-credit": "",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "begin": "2023-01",
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "end": "2023-01",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "ended": true,
+                    "attribute-values": [],
+                    "recording": {
+                        "length": 905240,
+                        "id": "1b3bd4fb-756e-4c06-9cc1-857757ad20f9",
+                        "disambiguation": "live, 2023‐01: “mu”, London, UK",
+                        "title": "Bishara",
+                        "video": false
+                    },
+                    "attributes": []
+                },
+                {
+                    "attribute-values": [],
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "end": "2023-01",
+                    "ended": true,
+                    "attribute-ids": [],
+                    "begin": "2023-01",
+                    "target-type": "recording",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "recording": {
+                        "disambiguation": "live, 2023‐01: “mu”, London, UK",
+                        "length": 470960,
+                        "id": "ad059d51-2202-40cb-b231-b6621cec6935",
+                        "video": false,
+                        "title": "Camille"
+                    }
+                },
+                {
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": "2023-01",
+                    "target-type": "recording",
+                    "ended": true,
+                    "direction": "forward",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "2023-01",
+                    "attribute-values": [],
+                    "recording": {
+                        "disambiguation": "live, 2023‐01: “mu”, London, UK",
+                        "id": "14012fb5-e10a-4e59-9503-32c5dfca1365",
+                        "length": 518567,
+                        "video": false,
+                        "title": "Happiness"
+                    },
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "ended": true,
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "direction": "forward",
+                    "end": "2023-01-19",
+                    "begin": "2023-01-18",
+                    "target-type": "release",
+                    "release": {
+                        "barcode": "789993993918",
+                        "quality": "normal",
+                        "id": "80ad18f0-09b6-45a6-ab0f-98fa9ebc6e67",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "disambiguation": "",
+                        "country": "XW",
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "disambiguation": "",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null,
+                                    "name": "[Worldwide]",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "type-id": null
+                                },
+                                "date": "2024-05-10"
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging": null,
+                        "title": "Voices of Bishara Live at \"mu\"",
+                        "status": null,
+                        "date": "2024-05-10"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "recorded at",
+                    "source-credit": ""
+                },
+                {
+                    "attributes": [],
+                    "begin": "2024-07-15",
+                    "target-type": "release",
+                    "release": {
+                        "barcode": "634457233065",
+                        "id": "ed22f3f7-5474-4bfe-bb89-30019fde193a",
+                        "quality": "normal",
+                        "packaging": null,
+                        "status": null,
+                        "title": "Let the Spirit Out (live at “mu”)",
+                        "date": "2025-11-21",
+                        "country": "XW",
+                        "disambiguation": "",
+                        "text-representation": {
+                            "language": null,
+                            "script": "Latn"
+                        },
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2025-11-21",
+                                "area": {
+                                    "name": "[Worldwide]",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ]
+                                }
+                            }
+                        ],
+                        "packaging-id": null
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "attribute-values": [],
+                    "ended": true,
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "direction": "forward",
+                    "end": "2024-07-15"
+                },
+                {
+                    "attributes": [],
+                    "ended": true,
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "direction": "forward",
+                    "end": "2024-07-16",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "begin": "2024-07-16",
+                    "target-type": "release",
+                    "release": {
+                        "barcode": "634457233065",
+                        "id": "ed22f3f7-5474-4bfe-bb89-30019fde193a",
+                        "quality": "normal",
+                        "disambiguation": "",
+                        "country": "XW",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": null
+                        },
+                        "release-events": [
+                            {
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "type-id": null,
+                                    "name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null
+                                },
+                                "date": "2025-11-21"
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging-id": null,
+                        "packaging": null,
+                        "title": "Let the Spirit Out (live at “mu”)",
+                        "status": null,
+                        "date": "2025-11-21"
+                    },
+                    "attribute-ids": []
+                },
+                {
+                    "type": "discogs",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "direction": "forward",
+                    "type-id": "1c140ac8-8dc2-449e-92cb-52c90d525640",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "url": {
+                        "id": "0b607548-a577-4dd0-a7ba-dc7aa89fed41",
+                        "resource": "https://www.discogs.com/label/3683113"
+                    },
+                    "attributes": []
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "696b79da-7e45-40e6-a9d4-b31438eb7e5d",
+                    "end": null,
+                    "ended": false,
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "official homepage",
+                    "source-credit": "",
+                    "attributes": [],
+                    "url": {
+                        "id": "269a5f87-5253-4f44-8390-f3b502caac24",
+                        "resource": "https://mu-ldn.com/"
+                    }
+                },
+                {
+                    "url": {
+                        "id": "2bc3428c-285b-4f40-adc8-19a0ac64bf7b",
+                        "resource": "https://www.instagram.com/mu.ldn/"
+                    },
+                    "attributes": [],
+                    "ended": false,
+                    "type-id": "040de4d5-ace5-4cfb-8a45-95c5c73bce01",
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "social network",
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "url": {
+                        "resource": "https://www.songkick.com/venues/4444591",
+                        "id": "7344ad70-2889-4af6-8bbc-ebbcb57765b1"
+                    },
+                    "attributes": [],
+                    "type-id": "3eb58d3e-6f00-36a8-a115-3dad616b7391",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "songkick",
+                    "source-credit": "",
+                    "begin": null,
+                    "target-type": "url",
+                    "attribute-ids": []
+                }
+            ],
+            "disambiguation": "",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "type": "Club"
+        },
+        {
+            "life-span": {
+                "end": null,
+                "ended": false,
+                "begin": null
+            },
+            "name": "5 Torren St",
+            "coordinates": null,
+            "area": {
+                "type-id": null,
+                "id": "e3b25e1c-0adf-4773-820e-533b4f245d01",
+                "iso-3166-2-codes": [
+                    "GB-ISL"
+                ],
+                "disambiguation": "",
+                "type": null,
+                "sort-name": "Islington",
+                "name": "Islington"
+            },
+            "annotation": null,
+            "aliases": [],
+            "tags": [],
+            "genres": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "disambiguation": "",
+            "type": "Venue",
+            "address": "",
+            "relations": [
+                {
+                    "type": "held at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "event",
+                    "begin": null,
+                    "ended": false,
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "direction": "backward",
+                    "end": null,
+                    "attribute-values": [],
+                    "event": {
+                        "disambiguation": "",
+                        "type": "Concert",
+                        "cancelled": false,
+                        "life-span": {
+                            "ended": true,
+                            "end": "1991-12-20",
+                            "begin": "1991-12-20"
+                        },
+                        "name": "Jazz 90: Xmas Party",
+                        "setlist": "",
+                        "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                        "id": "26852d66-1362-4d1f-8b5f-3a1badd8dfe3",
+                        "time": "22:00"
+                    },
+                    "attributes": []
+                }
+            ],
+            "type-id": "cd92781a-a73f-30e8-a430-55d7521338db",
+            "id": "108f9a44-b62b-4cb1-bffe-73389b1865a5"
+        },
+        {
+            "coordinates": {
+                "longitude": -0.123327,
+                "latitude": 51.577274
+            },
+            "area": {
+                "type-id": null,
+                "id": "1f2f8902-d8ed-41b5-b013-bd8d707851b2",
+                "name": "Crouch End",
+                "disambiguation": "",
+                "type": null,
+                "sort-name": "Crouch End"
+            },
+            "life-span": {
+                "begin": null,
+                "ended": false,
+                "end": null
+            },
+            "name": "2khz Studio",
+            "aliases": [],
+            "annotation": null,
+            "tags": [],
+            "genres": [],
+            "type": "Studio",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "disambiguation": "",
+            "relations": [
+                {
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "type": "owner",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "end": null,
+                    "type-id": "6f238bfb-0108-45ad-a1da-960c919a7066",
+                    "direction": "backward",
+                    "artist": {
+                        "name": "Ian Grimble",
+                        "type": "Person",
+                        "sort-name": "Grimble, Ian",
+                        "country": "GB",
+                        "disambiguation": "",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "eec7b8c7-1764-4dd2-bb12-7121a190d11a"
+                    }
+                },
+                {
+                    "recording": {
+                        "title": "Auld Wives",
+                        "video": false,
+                        "length": 279000,
+                        "id": "62a26811-a954-49d2-8562-104559d25993",
+                        "disambiguation": ""
+                    },
+                    "attributes": [],
+                    "ended": false,
+                    "end": null,
+                    "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "mixed at",
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "recording": {
+                        "video": false,
+                        "title": "Boys That Sing",
+                        "id": "2494d085-b7b5-4cee-9f61-7c9f06785803",
+                        "length": 196000,
+                        "disambiguation": ""
+                    },
+                    "attributes": [],
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "mixed at",
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "attribute-values": [],
+                    "end": null,
+                    "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "type": "mixed at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "recording": {
+                        "id": "350ce99f-5ddb-4bca-89f1-8bd30ec2a14f",
+                        "length": 372000,
+                        "disambiguation": "",
+                        "title": "Broken Parable",
+                        "video": false
+                    }
+                },
+                {
+                    "recording": {
+                        "title": "Boys That Sing",
+                        "video": false,
+                        "id": "2494d085-b7b5-4cee-9f61-7c9f06785803",
+                        "length": 196000,
+                        "disambiguation": ""
+                    },
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "produced at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "direction": "forward",
+                    "type-id": "6bc3827d-bc20-4621-ae14-9c3707ad140a",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": []
+                },
+                {
+                    "attributes": [],
+                    "recording": {
+                        "video": false,
+                        "title": "Call You Up",
+                        "length": 298000,
+                        "id": "2ec0a455-fe9b-4d58-a6ad-b971d97c7db2",
+                        "disambiguation": ""
+                    },
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "produced at",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "type-id": "6bc3827d-bc20-4621-ae14-9c3707ad140a",
+                    "direction": "forward",
+                    "ended": false
+                },
+                {
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "1ef352e7-5f3c-4e68-9b18-db25b7873c22",
+                        "length": 249000,
+                        "title": "Drunk",
+                        "video": false
+                    },
+                    "attributes": [],
+                    "direction": "forward",
+                    "type-id": "6bc3827d-bc20-4621-ae14-9c3707ad140a",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "type": "produced at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "2012-03-12",
+                    "ended": true,
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": "2012-03-12",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "recording": {
+                        "video": false,
+                        "title": "Been Better",
+                        "disambiguation": "live, 2012-03-12: 2KHz at Church Studios, London, England",
+                        "length": 233000,
+                        "id": "8bab448a-f5d0-4c8a-b445-1d0348b1ec7e"
+                    }
+                },
+                {
+                    "recording": {
+                        "video": false,
+                        "title": "Courage",
+                        "disambiguation": "live, 2012-03-12: 2KHz at Church Studios, London, England",
+                        "id": "a4844b80-b0dc-4a33-aec8-f1b98f470cb3",
+                        "length": 270000
+                    },
+                    "attributes": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "begin": "2012-03-12",
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "2012-03-12",
+                    "direction": "forward",
+                    "ended": true,
+                    "attribute-values": []
+                },
+                {
+                    "recording": {
+                        "disambiguation": "live, 2012-03-12: 2KHz at Church Studios, London, England",
+                        "id": "981b3cbe-f409-4470-aa2e-31c87805903b",
+                        "length": 243000,
+                        "title": "Sympathy",
+                        "video": false
+                    },
+                    "attributes": [],
+                    "ended": true,
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "2012-03-12",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "begin": "2012-03-12",
+                    "target-type": "recording",
+                    "attribute-ids": []
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "end": "2012-08-14",
+                    "ended": true,
+                    "begin": "2012-08-14",
+                    "target-type": "release",
+                    "attribute-ids": [],
+                    "release": {
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "date": "",
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "type-id": null,
+                                    "name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "disambiguation": "",
+                        "country": "XW",
+                        "date": "",
+                        "packaging": null,
+                        "title": "Live at 2KHz, Aug 14, 2012",
+                        "status": null,
+                        "quality": "normal",
+                        "id": "caf642a1-3c67-41df-92e4-8c26f36f0019",
+                        "barcode": ""
+                    },
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "release": {
+                        "date": "2013-01-03",
+                        "status": null,
+                        "packaging": null,
+                        "title": "Daytrotter Session",
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "name": "[Worldwide]",
+                                    "sort-name": "[Worldwide]",
+                                    "type": null,
+                                    "disambiguation": "",
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ]
+                                },
+                                "date": "2013-01-03"
+                            }
+                        ],
+                        "packaging-id": null,
+                        "disambiguation": "",
+                        "country": "XW",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "id": "890985dd-6805-4cc7-8f28-9f28e9814e6e",
+                        "quality": "normal",
+                        "barcode": null
+                    },
+                    "begin": null,
+                    "target-type": "release",
+                    "ended": false,
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": []
+                },
+                {
+                    "attributes": [],
+                    "begin": null,
+                    "target-type": "release",
+                    "release": {
+                        "id": "08d92f42-0fbd-4ac1-aa8e-cb6b35929d0f",
+                        "quality": "normal",
+                        "barcode": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2012-06-14",
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "type-id": null,
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "type": null,
+                                    "sort-name": "[Worldwide]"
+                                }
+                            }
+                        ],
+                        "packaging-id": null,
+                        "disambiguation": "",
+                        "country": "XW",
+                        "text-representation": {
+                            "script": "Latn",
+                            "language": "eng"
+                        },
+                        "date": "2012-06-14",
+                        "packaging": null,
+                        "status": null,
+                        "title": "Daytrotter Session"
+                    },
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "attribute-values": [],
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "attribute-ids": [],
+                    "target-type": "url",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "discogs",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "1c140ac8-8dc2-449e-92cb-52c90d525640",
+                    "end": null,
+                    "direction": "forward",
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://www.discogs.com/label/299778",
+                        "id": "f8d4c5af-af45-4e19-8359-a985039c5533"
+                    }
+                },
+                {
+                    "attribute-values": [],
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "c809cb4a-2835-44fb-bc64-fd4882bd389c",
+                    "end": null,
+                    "begin": null,
+                    "target-type": "url",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "myspace",
+                    "source-credit": "",
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://myspace.com/2khz",
+                        "id": "2b8d40e4-aa89-4a8f-9e46-80e4f3b4e607"
+                    }
+                },
+                {
+                    "attribute-ids": [],
+                    "target-type": "url",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "setlistfm",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "751e8fb1-ed8d-4a94-b71b-a38065054f5d",
+                    "end": null,
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://www.setlist.fm/venue/2khz-at-church-studios-london-england-2bd77816.html",
+                        "id": "220da605-2b77-449a-ae4f-2adc23dcc749"
+                    }
+                },
+                {
+                    "source-credit": "",
+                    "type": "social network",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "type-id": "040de4d5-ace5-4cfb-8a45-95c5c73bce01",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "attribute-values": [],
+                    "url": {
+                        "resource": "https://www.facebook.com/pages/2KHZ-Studio/737585039747292",
+                        "id": "006c0d00-363b-44ae-b469-ad1b67e24200"
+                    },
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://www.facebook.com/pages/2Khz-Studios/175923735896851",
+                        "id": "61442ff7-2486-48b4-992c-4f095b87a420"
+                    },
+                    "begin": null,
+                    "target-type": "url",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "social network",
+                    "source-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "040de4d5-ace5-4cfb-8a45-95c5c73bce01",
+                    "end": null
+                }
+            ],
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "id": "1f017fac-536c-48de-ba75-34799fa4a646",
+            "address": "97 Scrubs Ln"
+        },
+        {
+            "type": "Studio",
+            "disambiguation": "",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "id": "2fdaefb7-bbaf-4230-8996-549cf45b658e",
+            "relations": [
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "666c5ee3-b763-4b74-8f71-3456dfd3e755",
+                    "direction": "backward",
+                    "end": null,
+                    "artist": {
+                        "country": "GB",
+                        "disambiguation": "engineer, producer, UK",
+                        "sort-name": "Morris, Tom",
+                        "type": "Person",
+                        "name": "Tom Morris",
+                        "id": "99d1519e-856c-4d28-b03f-2d4e389e434a",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "type": "engineer position",
+                    "source-credit": "",
+                    "target-credit": ""
+                },
+                {
+                    "attributes": [],
+                    "recording": {
+                        "video": false,
+                        "title": "5AM",
+                        "length": 204000,
+                        "id": "bdcca76d-db4b-492d-94b7-f34ce9e4af2d",
+                        "disambiguation": ""
+                    },
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "f845a95e-b2b5-4a94-9645-fc8b031ab0bd",
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "type": "engineered at",
+                    "target-credit": ""
+                },
+                {
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "f845a95e-b2b5-4a94-9645-fc8b031ab0bd",
+                    "end": null,
+                    "direction": "forward",
+                    "begin": null,
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "engineered at",
+                    "source-credit": "",
+                    "attributes": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "f4b31157-b874-4223-9d2e-ca8a8b9e3996",
+                        "length": 238266,
+                        "video": false,
+                        "title": "Alihukwe"
+                    }
+                },
+                {
+                    "recording": {
+                        "disambiguation": "",
+                        "length": 221653,
+                        "id": "3c2c5c28-a849-474d-8ef4-edfa4fe92863",
+                        "title": "Brother",
+                        "video": false
+                    },
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "engineered at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "f845a95e-b2b5-4a94-9645-fc8b031ab0bd",
+                    "end": null,
+                    "attribute-values": []
+                },
+                {
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "mixed at",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                    "direction": "forward",
+                    "end": null,
+                    "attributes": [],
+                    "recording": {
+                        "title": "5AM",
+                        "video": false,
+                        "length": 204000,
+                        "id": "bdcca76d-db4b-492d-94b7-f34ce9e4af2d",
+                        "disambiguation": ""
+                    }
+                },
+                {
+                    "target-credit": "",
+                    "type": "mixed at",
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "attribute-values": [],
+                    "recording": {
+                        "id": "d9d5289a-72e4-4a96-88c7-7b6ae5a41eb8",
+                        "length": 248000,
+                        "disambiguation": "",
+                        "title": "Crushing",
+                        "video": false
+                    },
+                    "attributes": []
+                },
+                {
+                    "type": "mixed at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "ended": false,
+                    "type-id": "11d74801-1493-4a5d-bc0f-4ddc537acddb",
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "recording": {
+                        "title": "I Can't Keep You",
+                        "video": false,
+                        "disambiguation": "",
+                        "length": 257000,
+                        "id": "869e38be-eb34-4564-bf5e-2cf1530a4683"
+                    },
+                    "attributes": []
+                },
+                {
+                    "recording": {
+                        "video": false,
+                        "title": "Alihukwe",
+                        "length": 238266,
+                        "id": "f4b31157-b874-4223-9d2e-ca8a8b9e3996",
+                        "disambiguation": ""
+                    },
+                    "attributes": [],
+                    "source-credit": "",
+                    "type": "produced at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "ended": false,
+                    "type-id": "6bc3827d-bc20-4621-ae14-9c3707ad140a",
+                    "end": null,
+                    "direction": "forward",
+                    "attribute-values": []
+                },
+                {
+                    "attribute-values": [],
+                    "type-id": "6bc3827d-bc20-4621-ae14-9c3707ad140a",
+                    "direction": "forward",
+                    "end": null,
+                    "ended": false,
+                    "begin": null,
+                    "target-type": "recording",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "produced at",
+                    "source-credit": "",
+                    "attributes": [],
+                    "recording": {
+                        "title": "Brother",
+                        "video": false,
+                        "disambiguation": "",
+                        "length": 221653,
+                        "id": "3c2c5c28-a849-474d-8ef4-edfa4fe92863"
+                    }
+                },
+                {
+                    "target-type": "recording",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "produced at",
+                    "source-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "direction": "forward",
+                    "type-id": "6bc3827d-bc20-4621-ae14-9c3707ad140a",
+                    "end": null,
+                    "attributes": [],
+                    "recording": {
+                        "title": "Cortisol",
+                        "video": false,
+                        "disambiguation": "",
+                        "id": "c9da38e7-351c-4efe-8973-7df068123d4c",
+                        "length": 254493
+                    }
+                },
+                {
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": "2014-04",
+                    "ended": true,
+                    "end": "2014-06",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "d69f9b29-697e-43f3-bfa2-572f6d7398aa",
+                        "length": 221000,
+                        "video": false,
+                        "title": "And When You Fall"
+                    },
+                    "attributes": []
+                },
+                {
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-type": "recording",
+                    "begin": "2014-04",
+                    "attribute-ids": [],
+                    "end": "2014-06",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "ended": true,
+                    "attribute-values": [],
+                    "recording": {
+                        "length": 219000,
+                        "id": "15f59b04-42bc-41c2-9fe9-df4f6ba48851",
+                        "disambiguation": "",
+                        "title": "Black Eunuch",
+                        "video": false
+                    },
+                    "attributes": []
+                },
+                {
+                    "end": "2014-06",
+                    "direction": "forward",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "ended": true,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": "2014-04",
+                    "attribute-ids": [],
+                    "recording": {
+                        "title": "Blood",
+                        "video": false,
+                        "length": 338000,
+                        "id": "e1bdaeb3-56f9-4b96-ba6f-15d12dbb6ded",
+                        "disambiguation": ""
+                    },
+                    "attributes": []
+                },
+                {
+                    "attribute-values": [],
+                    "direction": "forward",
+                    "type-id": "8ebfc2f6-0ac7-40f6-b03e-67fe3428f5d4",
+                    "end": null,
+                    "ended": false,
+                    "attribute-ids": [],
+                    "release": {
+                        "date": "2014-08-05",
+                        "packaging": null,
+                        "title": "Being",
+                        "status": null,
+                        "status-id": null,
+                        "release-events": [
+                            {
+                                "date": "2014-08-05",
+                                "area": {
+                                    "iso-3166-1-codes": [
+                                        "CA"
+                                    ],
+                                    "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                                    "type-id": null,
+                                    "disambiguation": "",
+                                    "sort-name": "Canada",
+                                    "type": null,
+                                    "name": "Canada"
+                                }
+                            }
+                        ],
+                        "packaging-id": null,
+                        "disambiguation": "",
+                        "country": "CA",
+                        "text-representation": {
+                            "script": null,
+                            "language": "eng"
+                        },
+                        "id": "ab2493bc-6cd1-4c2d-a54a-8a006cbc73f4",
+                        "quality": "normal",
+                        "barcode": "880893008419"
+                    },
+                    "target-type": "release",
+                    "begin": null,
+                    "source-credit": "",
+                    "type": "mixed at",
+                    "target-credit": "",
+                    "attributes": []
+                },
+                {
+                    "attributes": [],
+                    "ended": false,
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "direction": "forward",
+                    "end": null,
+                    "attribute-values": [],
+                    "source-credit": "",
+                    "type": "recorded at",
+                    "target-credit": "",
+                    "release": {
+                        "release-events": [
+                            {
+                                "date": "2014-08-05",
+                                "area": {
+                                    "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+                                    "type-id": null,
+                                    "iso-3166-1-codes": [
+                                        "CA"
+                                    ],
+                                    "name": "Canada",
+                                    "sort-name": "Canada",
+                                    "type": null,
+                                    "disambiguation": ""
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "packaging-id": null,
+                        "country": "CA",
+                        "disambiguation": "",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": null
+                        },
+                        "date": "2014-08-05",
+                        "packaging": null,
+                        "title": "Being",
+                        "status": null,
+                        "id": "ab2493bc-6cd1-4c2d-a54a-8a006cbc73f4",
+                        "quality": "normal",
+                        "barcode": "880893008419"
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "release"
+                },
+                {
+                    "attribute-credits": [],
+                    "attributes": [
+                        "drums (drum set)"
+                    ],
+                    "attribute-ids": {
+                        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+                    },
+                    "release": {
+                        "barcode": "3663729293749",
+                        "quality": "normal",
+                        "id": "1aa1f8e3-10b3-4764-9c67-d46d623c24eb",
+                        "packaging": null,
+                        "status": null,
+                        "title": "Omni",
+                        "date": "2024-05-10",
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "country": "XW",
+                        "disambiguation": "",
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "area": {
+                                    "type-id": null,
+                                    "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                                    "iso-3166-1-codes": [
+                                        "XW"
+                                    ],
+                                    "type": null,
+                                    "sort-name": "[Worldwide]",
+                                    "disambiguation": "",
+                                    "name": "[Worldwide]"
+                                },
+                                "date": "2024-05-10"
+                            }
+                        ],
+                        "status-id": null
+                    },
+                    "target-type": "release",
+                    "begin": null,
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "end": null,
+                    "direction": "forward"
+                },
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type-id": "3b1fae9f-5b22-42c5-a40c-d1e5c9b90251",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "release",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "release": {
+                        "quality": "normal",
+                        "id": "b1fb84fd-507c-4a7a-a955-97acadcd9ee5",
+                        "barcode": "5055300330574",
+                        "date": "2012-05-21",
+                        "packaging": null,
+                        "status": null,
+                        "title": "Quarantine",
+                        "packaging-id": null,
+                        "release-events": [
+                            {
+                                "date": "2012-05-21",
+                                "area": {
+                                    "name": "United Kingdom",
+                                    "type": null,
+                                    "sort-name": "United Kingdom",
+                                    "disambiguation": "",
+                                    "type-id": null,
+                                    "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                                    "iso-3166-1-codes": [
+                                        "GB"
+                                    ]
+                                }
+                            }
+                        ],
+                        "status-id": null,
+                        "text-representation": {
+                            "language": "eng",
+                            "script": "Latn"
+                        },
+                        "disambiguation": "",
+                        "country": "GB"
+                    },
+                    "target-credit": "",
+                    "type": "recorded at",
+                    "source-credit": ""
+                },
+                {
+                    "begin": null,
+                    "target-type": "url",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "type": "discogs",
+                    "source-credit": "",
+                    "attribute-values": [],
+                    "ended": false,
+                    "end": null,
+                    "type-id": "1c140ac8-8dc2-449e-92cb-52c90d525640",
+                    "direction": "forward",
+                    "attributes": [],
+                    "url": {
+                        "resource": "https://www.discogs.com/label/397149",
+                        "id": "ec71b6a7-a895-4532-8e3f-341c31c2fcfe"
+                    }
+                }
+            ],
+            "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+            "address": "",
+            "area": {
+                "disambiguation": "Greater London",
+                "type": null,
+                "sort-name": "London",
+                "name": "London",
+                "type-id": null,
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f"
+            },
+            "coordinates": null,
+            "name": "4AD Studios",
+            "life-span": {
+                "end": null,
+                "ended": false,
+                "begin": null
+            },
+            "genres": [],
+            "tags": [],
+            "aliases": [],
+            "annotation": null
+        },
+        {
+            "type": "Other",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "disambiguation": "",
+            "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+            "relations": [
+                {
+                    "attributes": [],
+                    "recording": {
+                        "title": "Whistling by Mrs. Shaw",
+                        "video": false,
+                        "length": 151000,
+                        "id": "23d526ee-76f1-4bba-a128-7e669d6bc140",
+                        "disambiguation": ""
+                    },
+                    "attribute-values": [],
+                    "ended": true,
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "end": "1888-08-14",
+                    "direction": "forward",
+                    "target-type": "recording",
+                    "begin": "1888-08-14",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "recorded at"
+                },
+                {
+                    "recording": {
+                        "disambiguation": "",
+                        "id": "d19a00cb-54e1-4509-a922-93c6f170d230",
+                        "length": 179000,
+                        "video": true,
+                        "title": "The Pirates of Penzance: Introduction"
+                    },
+                    "attributes": [],
+                    "type": "recorded at",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": "1888-10-05",
+                    "end": "1888-10-05",
+                    "type-id": "ad462279-14b0-4180-9b58-571d0eef7c51",
+                    "direction": "forward",
+                    "ended": true,
+                    "attribute-values": []
+                }
+            ],
+            "id": "43e5aba1-0486-4238-8893-b4dc109bb986",
+            "address": "“Little Menlo”, Beulah Hill, Upper Norwood, London SE19 3, UK",
+            "coordinates": null,
+            "area": {
+                "type-id": null,
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "name": "London",
+                "disambiguation": "Greater London",
+                "type": null,
+                "sort-name": "London"
+            },
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "name": "“Little Menlo”, Beulah Hill, London",
+            "tags": [],
+            "genres": [],
+            "aliases": [
+                {
+                    "locale": null,
+                    "sort-name": "“Electric House”, Beulah Hill, London",
+                    "type": "Search hint",
+                    "name": "“Electric House”, Beulah Hill, London",
+                    "begin": null,
+                    "ended": false,
+                    "type-id": "0a438b9c-1850-32de-b4bb-7f58f5048ea3",
+                    "end": null,
+                    "primary": null
+                }
+            ],
+            "annotation": null
+        },
+        {
+            "area": {
+                "id": "995a7fc8-612e-4743-8d95-2244757ba159",
+                "type-id": null,
+                "disambiguation": "",
+                "sort-name": "Mayfair",
+                "type": null,
+                "name": "Mayfair"
+            },
+            "coordinates": {
+                "latitude": 51.510411,
+                "longitude": -0.139758
+            },
+            "name": "3 Savile Row",
+            "life-span": {
+                "begin": null,
+                "ended": false,
+                "end": null
+            },
+            "genres": [],
+            "tags": [],
+            "aliases": [
+                {
+                    "locale": null,
+                    "type": "Place name",
+                    "sort-name": "Apple Building",
+                    "begin": "1968-06-22",
+                    "name": "Apple Building",
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "end": null,
+                    "ended": true,
+                    "primary": null
+                },
+                {
+                    "type": "Place name",
+                    "sort-name": "Apple Building, The",
+                    "locale": null,
+                    "begin": "1968-06-22",
+                    "name": "The Apple Building",
+                    "end": null,
+                    "type-id": "fb68f9a2-622c-319b-83b0-bbff4127cdc5",
+                    "ended": true,
+                    "primary": null
+                }
+            ],
+            "annotation": null,
+            "type": null,
+            "disambiguation": "part of terrace",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "id": "4c0f6677-e72c-4ab5-afc3-a48d334b8a13",
+            "type-id": null,
+            "relations": [
+                {
+                    "begin": "1968",
+                    "target-type": "place",
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "parts",
+                    "attribute-values": [],
+                    "ended": true,
+                    "type-id": "ff683f48-eff1-40ab-a58f-b128098ffe92",
+                    "direction": "forward",
+                    "end": "1975-05",
+                    "attributes": [],
+                    "place": {
+                        "name": "Apple Studios",
+                        "coordinates": {
+                            "longitude": -0.139758,
+                            "latitude": 51.510411
+                        },
+                        "area": {
+                            "name": "London",
+                            "type": "City",
+                            "sort-name": "London",
+                            "disambiguation": "Greater London",
+                            "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                            "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f"
+                        },
+                        "disambiguation": "",
+                        "type": "Studio",
+                        "address": "3 Savile Row, Mayfair, London W1S 3PB, UK",
+                        "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+                        "id": "8a4daadd-bfbf-40a9-ac22-e6ee22d997cb"
+                    }
+                },
+                {
+                    "ended": false,
+                    "end": null,
+                    "type-id": "07e6b4eb-5891-4646-b167-f96c5a4ccc77",
+                    "direction": "forward",
+                    "attribute-values": [],
+                    "type": "video shot at",
+                    "source-credit": "Apple Building Roof",
+                    "target-credit": "",
+                    "attribute-ids": [],
+                    "target-type": "recording",
+                    "begin": null,
+                    "recording": {
+                        "length": 88000,
+                        "id": "2e532640-6043-4d26-bbb2-92ef7096cd8a",
+                        "disambiguation": "",
+                        "video": true,
+                        "title": "Gods of the Apple…"
+                    },
+                    "attributes": []
+                }
+            ],
+            "address": "3 Savile Row, London W1S 3PB, UK"
+        },
+        {
+            "type": "Other",
+            "disambiguation": "",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "id": "d604ea5c-f208-4fcf-ba72-e65ba764121c",
+            "type-id": "a0df5ead-0bd6-33d8-8444-855a9f3e9970",
+            "relations": [
+                {
+                    "attribute-values": [],
+                    "ended": false,
+                    "end": null,
+                    "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+                    "direction": "backward",
+                    "target-type": "event",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type": "held at",
+                    "attributes": [],
+                    "event": {
+                        "id": "814a3441-50d0-4d57-bd80-931ebce9457a",
+                        "time": "",
+                        "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                        "setlist": "",
+                        "cancelled": false,
+                        "type": "Festival",
+                        "disambiguation": "",
+                        "name": "Myami",
+                        "life-span": {
+                            "end": "1988",
+                            "ended": true,
+                            "begin": "1988"
+                        }
+                    }
+                }
+            ],
+            "address": "",
+            "area": {
+                "id": "f03d09b3-39dc-4083-afd6-159e3f0d462f",
+                "type-id": null,
+                "name": "London",
+                "sort-name": "London",
+                "type": null,
+                "disambiguation": "Greater London"
+            },
+            "coordinates": null,
+            "name": "2-3 Burlington Street",
+            "life-span": {
+                "end": null,
+                "ended": false,
+                "begin": null
+            },
+            "aliases": [],
+            "annotation": null,
+            "genres": [],
+            "tags": []
+        }
+    ]
+}
