@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Helper;
 
+use MusicBrainz\InvalidArgumentException;
+use MusicBrainz\MusicBrainz;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Parsable;
@@ -11,6 +13,7 @@ use MusicBrainz\Value\Parsable;
 use function array_filter;
 use function array_values;
 use function is_int;
+use function get_debug_type;
 use function is_array;
 use function is_string;
 
@@ -49,6 +52,8 @@ final class Json
         foreach (ArrayAccess::getArray($data, $key) ?? [] as $element) {
             if (is_array($element)) {
                 $result[] = $class::fromArray($element);
+            } else {
+                MusicBrainz::log()->error('Unexpected API behavior: an element of "' . $key . '" is of type ' . get_debug_type($element) . ', expected an object');
             }
         }
 
@@ -88,8 +93,17 @@ final class Json
     public static function id(array $data, string $key = 'id'): ?MBID
     {
         $id = ArrayAccess::getString($data, $key);
+        if (null === $id || '' === $id) {
+            return null;
+        }
 
-        return null === $id || '' === $id ? null : new MBID($id);
+        try {
+            return new MBID($id);
+        } catch (InvalidArgumentException) {
+            MusicBrainz::log()->error('Unexpected API behavior: "' . $id . '" in "' . $key . '" is not an MBID');
+
+            return null;
+        }
     }
 
     /**
@@ -99,6 +113,6 @@ final class Json
     {
         $date = ArrayAccess::getString($data, $key);
 
-        return null === $date || '' === $date ? null : new Date($date);
+        return null === $date || '' === $date ? null : Date::tryFrom($date);
     }
 }

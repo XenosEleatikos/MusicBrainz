@@ -8,9 +8,7 @@ use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * A latitude
- *
- * @link https://musicbrainz.org/doc/Place
+ * Latitude
  */
 final readonly class Latitude implements Stringable
 {

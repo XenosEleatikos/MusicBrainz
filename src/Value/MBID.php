@@ -16,21 +16,21 @@ use function preg_match;
  */
 final readonly class MBID implements Stringable
 {
-    /** The identifier in the form 8-4-4-4-12 hexadecimal digits; empty if there is none */
+    /** The identifier in the form 8-4-4-4-12 hexadecimal digits */
     public string $value;
 
     /**
-     * @param null|string $value A MusicBrainz Identifier (MBID) or an empty string
+     * @param string $value A MusicBrainz Identifier (MBID)
      *
-     * @throws InvalidArgumentException if the value is not empty and not an MBID
+     * @throws InvalidArgumentException if the value is not an MBID
      */
-    public function __construct(?string $value = '')
+    public function __construct(string $value)
     {
-        if (null !== $value && '' !== $value && 1 !== preg_match('/^[a-f\d]{8}(-[a-f\d]{4}){3}-[a-f\d]{12}$/i', $value)) {
+        if (1 !== preg_match('/^[a-f\d]{8}(-[a-f\d]{4}){3}-[a-f\d]{12}$/i', $value)) {
             throw new InvalidArgumentException('"' . $value . '" is not a valid MusicBrainz Identifier (MBID)');
         }
 
-        $this->value = $value ?? '';
+        $this->value = $value;
     }
 
     public function __toString(): string

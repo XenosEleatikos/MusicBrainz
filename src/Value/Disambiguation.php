@@ -4,19 +4,27 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
+use function trim;
+
 /**
- * A disambiguation
- *
- * @link https://musicbrainz.org/doc/Disambiguation_Comment
+ * Disambiguation
  */
 final readonly class Disambiguation implements Stringable
 {
     /**
      * @param string $value The value
+     *
+     * @throws InvalidArgumentException if the value is empty
      */
-    public function __construct(public string $value = '') {}
+    public function __construct(public string $value)
+    {
+        if ('' === trim($value)) {
+            throw new InvalidArgumentException('Disambiguation must not be empty');
+        }
+    }
 
     public function __toString(): string
     {

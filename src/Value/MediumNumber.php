@@ -8,7 +8,7 @@ use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * A medium number
+ * MediumNumber
  */
 final readonly class MediumNumber implements Stringable
 {

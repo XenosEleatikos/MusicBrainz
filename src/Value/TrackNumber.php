@@ -8,7 +8,7 @@ use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * A track number
+ * TrackNumber
  */
 final readonly class TrackNumber implements Stringable
 {

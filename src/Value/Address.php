@@ -4,19 +4,27 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
+use function trim;
+
 /**
- * The address describes the location of the place using the standard addressing format for the country it is located in.
- *
- * @see https://musicbrainz.org/doc/Place
+ * Address
  */
 final readonly class Address implements Stringable
 {
     /**
      * @param string $value The value
+     *
+     * @throws InvalidArgumentException if the value is empty
      */
-    public function __construct(public string $value = '') {}
+    public function __construct(public string $value)
+    {
+        if ('' === trim($value)) {
+            throw new InvalidArgumentException('Address must not be empty');
+        }
+    }
 
     public function __toString(): string
     {

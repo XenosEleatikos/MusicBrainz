@@ -22,6 +22,7 @@ use MusicBrainz\Value\Work;
 use MusicBrainz\Value\Page;
 use MusicBrainz\Config;
 use MusicBrainz\Exception;
+use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AbstractFilter;
 use MusicBrainz\Filter\Search\AnnotationFilter;
@@ -358,12 +359,12 @@ class Search
     private function getParameters(AbstractFilter $searchFilter, PageFilter $pageFilter): array
     {
         if ('' === (string) $searchFilter) {
-            throw new Exception('The filter needs at least one argument to create a query.');
+            throw new InvalidArgumentException('The filter needs at least one argument to create a query.');
         }
 
         return [
-            'limit'  => $pageFilter->getLimit(),
-            'offset' => $pageFilter->getOffset(),
+            'limit'  => $pageFilter->limit,
+            'offset' => $pageFilter->offset,
             'fmt'    => 'json',
             'query'  => (string) $searchFilter,
         ];

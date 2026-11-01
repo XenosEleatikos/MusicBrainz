@@ -4,19 +4,27 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
+use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
+use function trim;
+
 /**
- * An ISO 3166-2 code
- *
- * @link https://en.wikipedia.org/wiki/ISO_3166-2
+ * ISO31662Code
  */
 final readonly class ISO31662Code implements Stringable
 {
     /**
      * @param string $value The value
+     *
+     * @throws InvalidArgumentException if the value is empty
      */
-    public function __construct(public string $value = '') {}
+    public function __construct(public string $value)
+    {
+        if ('' === trim($value)) {
+            throw new InvalidArgumentException('ISO31662Code must not be empty');
+        }
+    }
 
     public function __toString(): string
     {

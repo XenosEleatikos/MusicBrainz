@@ -11,10 +11,7 @@ use function ctype_digit;
 use function strlen;
 
 /**
- * An IPI (interested party information) code is an identifying number assigned by the CISAC database for musical rights
- * management.
- *
- * @see https://musicbrainz.org/doc/IPI
+ * IPI
  */
 final readonly class IPI implements Stringable
 {
@@ -23,9 +20,9 @@ final readonly class IPI implements Stringable
      *
      * @throws InvalidArgumentException
      */
-    public function __construct(public string $value = '')
+    public function __construct(public string $value)
     {
-        if ('' !== $value && (11 !== strlen($value) || !ctype_digit($value))) {
+        if (11 !== strlen($value) || !ctype_digit($value)) {
             throw new InvalidArgumentException('"' . $value . '" is not an IPI code (11 digits)');
         }
     }

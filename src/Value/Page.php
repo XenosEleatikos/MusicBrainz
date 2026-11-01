@@ -9,12 +9,12 @@ use ArrayIterator;
 use Countable;
 use IteratorAggregate;
 use MusicBrainz\Exception;
+use MusicBrainz\MusicBrainz;
 use Traversable;
 
 use function array_key_exists;
 use function count;
-use function array_filter;
-use function array_values;
+use function get_debug_type;
 use function is_array;
 use function is_int;
 use function is_string;
@@ -135,9 +135,25 @@ final readonly class Page implements ArrayAccess, Countable, IteratorAggregate
      */
     private static function elements(array $result, string $type): array
     {
-        $list = $result[str_ends_with($type, 's') ? $type : $type . 's'] ?? [];
+        $key = str_ends_with($type, 's') ? $type : $type . 's';
+        $list = $result[$key] ?? null;
 
-        return is_array($list) ? array_values(array_filter($list, is_array(...))) : [];
+        if (!is_array($list)) {
+            MusicBrainz::log()->error('Unexpected API behavior: the response has no list "' . $key . '" (got ' . get_debug_type($list) . ')');
+
+            return [];
+        }
+
+        $elements = [];
+        foreach ($list as $element) {
+            if (is_array($element)) {
+                $elements[] = $element;
+            } else {
+                MusicBrainz::log()->error('Unexpected API behavior: an element of "' . $key . '" is of type ' . get_debug_type($element) . ', expected an object');
+            }
+        }
+
+        return $elements;
     }
 
     /**
@@ -145,6 +161,13 @@ final readonly class Page implements ArrayAccess, Countable, IteratorAggregate
      */
     private static function number(array $result, string $key): int
     {
-        return is_int($result[$key] ?? null) ? $result[$key] : 0;
+        $number = $result[$key] ?? null;
+        if (!is_int($number)) {
+            MusicBrainz::log()->error('Unexpected API behavior: "' . $key . '" is missing or not an integer (got ' . get_debug_type($number) . ')');
+
+            return 0;
+        }
+
+        return $number;
     }
 }

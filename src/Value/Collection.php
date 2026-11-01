@@ -14,7 +14,7 @@ use Stringable;
 final readonly class Collection implements Parsable, Stringable
 {
     public function __construct(
-        public MBID $id,
+        public ?MBID $id,
         public string $name,
         public string $editor,
         public ?EntityType $entityType = null,
@@ -34,7 +34,7 @@ final readonly class Collection implements Parsable, Stringable
         }
 
         return new self(
-            Json::id($data) ?? new MBID(),
+            Json::id($data),
             ArrayAccess::getString($data, 'name') ?? '',
             ArrayAccess::getString($data, 'editor') ?? '',
             $entityType,

@@ -7,7 +7,6 @@ namespace MusicBrainz\Test\Value;
 use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Value\Count;
 use MusicBrainz\Value\Country;
-use MusicBrainz\Value\Date;
 use MusicBrainz\Value\IPI;
 use MusicBrainz\Value\LabelCode;
 use MusicBrainz\Value\Latitude;
@@ -29,7 +28,12 @@ final class ScalarValuesTest extends TestCase
     {
         self::assertSame('Tom Waits', (string) new Name('Tom Waits'));
         self::assertSame('Tom Waits', (new Name('Tom Waits'))->value);
-        self::assertSame('', (string) new Name());
+    }
+
+    public function testTextValuesMustNotBeEmpty(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        new Name(' ');
     }
 
     public function testCountsAndNumbersMustNotBeNegative(): void
@@ -68,7 +72,6 @@ final class ScalarValuesTest extends TestCase
     public function testCountryCodesAreUpperCased(): void
     {
         self::assertSame('GB', (string) new Country('gb'));
-        self::assertSame('', (string) new Country());
 
         $this->expectException(InvalidArgumentException::class);
         new Country('GBR');
@@ -88,7 +91,7 @@ final class ScalarValuesTest extends TestCase
     public static function labelCodes(): array
     {
         return [
-            'with prefix' => ['LC-01234', 'LC-01234'], 'lower case, space' => ['lc 1234', 'LC-01234'], 'only digits' => ['299', 'LC-00299'], 'empty' => ['', ''],
+            'with prefix' => ['LC-01234', 'LC-01234'], 'lower case, space' => ['lc 1234', 'LC-01234'], 'only digits' => ['299', 'LC-00299'],
         ];
     }
 
@@ -98,21 +101,12 @@ final class ScalarValuesTest extends TestCase
         $code = new LabelCode($input);
 
         self::assertSame($expected, (string) $code);
-        self::assertSame('' === $expected ? '' : substr($expected, 3), $code->withoutPrefix());
+        self::assertSame(substr($expected, 3), $code->withoutPrefix());
     }
 
     public function testInvalidLabelCodesAreRefused(): void
     {
         $this->expectException(InvalidArgumentException::class);
         new LabelCode('LC-123456');
-    }
-
-    public function testADateOfZeroIsNoDate(): void
-    {
-        $date = new Date('0');
-
-        self::assertNull($date->originalFormat);
-        self::assertNull($date->dateTime);
-        self::assertSame('', (string) $date);
     }
 }

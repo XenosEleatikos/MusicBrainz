@@ -363,8 +363,8 @@ class Browse
 
         $params = [
             $relation->getEntityType()->browseParameter() => (string) $relation->getEntityId(),
-            'limit' => $pageFilter->getLimit(),
-            'offset' => $pageFilter->getOffset(),
+            'limit' => $pageFilter->limit,
+            'offset' => $pageFilter->offset,
             'fmt' => 'json',
         ];
 

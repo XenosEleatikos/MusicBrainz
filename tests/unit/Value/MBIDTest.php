@@ -32,9 +32,10 @@ final class MBIDTest extends TestCase
         new MBID('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600');
     }
 
-    public function testAbsentValuesAreEmpty(): void
+    public function testAnEmptyValueIsRefused(): void
     {
-        self::assertSame('', (string) new MBID());
-        self::assertSame('', (string) new MBID(null));
+        $this->expectException(InvalidArgumentException::class);
+
+        new MBID('');
     }
 }

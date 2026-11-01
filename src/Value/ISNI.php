@@ -25,10 +25,10 @@ final readonly class ISNI implements Stringable
      *
      * @throws InvalidArgumentException
      */
-    public function __construct(string $value = '')
+    public function __construct(string $value)
     {
         $normalized = str_replace(' ', '', $value);
-        if ('' !== $normalized && 1 !== preg_match('/^[0-9]{15}[0-9X]$/', $normalized)) {
+        if (1 !== preg_match('/^[0-9]{15}[0-9X]$/', $normalized)) {
             throw new InvalidArgumentException('"' . $value . '" is not an ISNI (16 characters)');
         }
         $this->value = $normalized;
