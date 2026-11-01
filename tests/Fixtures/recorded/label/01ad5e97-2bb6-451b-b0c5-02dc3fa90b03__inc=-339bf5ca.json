@@ -1,0 +1,28 @@
+{
+    "type": "Production",
+    "id": "01ad5e97-2bb6-451b-b0c5-02dc3fa90b03",
+    "life-span": {
+        "begin": null,
+        "ended": false,
+        "end": null
+    },
+    "country": "NO",
+    "label-code": null,
+    "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+    "area": {
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "id": "6743d351-6f37-3049-9724-5041161fff4d",
+        "name": "Norway",
+        "sort-name": "Norway",
+        "iso-3166-1-codes": [
+            "NO"
+        ]
+    },
+    "ipis": [],
+    "disambiguation": "",
+    "isnis": [],
+    "name": "Parlophone Norway",
+    "sort-name": "Parlophone Norway"
+}

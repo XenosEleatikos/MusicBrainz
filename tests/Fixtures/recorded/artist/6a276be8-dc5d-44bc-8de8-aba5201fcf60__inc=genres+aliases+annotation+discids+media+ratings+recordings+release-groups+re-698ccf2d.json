@@ -1,0 +1,313 @@
+{
+    "type": "Person",
+    "release-groups": [
+        {
+            "secondary-types": [],
+            "id": "d1ee1b0a-a649-44d4-a887-052df510be11",
+            "genres": [],
+            "primary-type": null,
+            "aliases": [],
+            "first-release-date": "2014-04-04",
+            "tags": [],
+            "releases": [],
+            "title": "A Flickering Moment Part 2",
+            "disambiguation": "",
+            "secondary-type-ids": [],
+            "primary-type-id": null
+        },
+        {
+            "secondary-type-ids": [],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "title": "Her Lament",
+            "disambiguation": "",
+            "tags": [],
+            "releases": [],
+            "primary-type": "Album",
+            "aliases": [],
+            "first-release-date": "2015-08-07",
+            "secondary-types": [],
+            "id": "82124b54-fec4-4741-a2ce-a7317613130b",
+            "genres": []
+        },
+        {
+            "secondary-type-ids": [],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "title": "Peaked",
+            "disambiguation": "",
+            "tags": [],
+            "releases": [],
+            "primary-type": "Album",
+            "aliases": [],
+            "first-release-date": "2017-02-24",
+            "secondary-types": [],
+            "id": "78cbade5-335e-4627-89c1-7650a86f7b16",
+            "genres": []
+        },
+        {
+            "id": "c282ab10-f9a5-4fa1-90be-0237e9f90c48",
+            "secondary-types": [],
+            "genres": [],
+            "aliases": [],
+            "primary-type": "EP",
+            "first-release-date": "2014-10-01",
+            "tags": [],
+            "releases": [],
+            "title": "A Desolate Dream",
+            "disambiguation": "",
+            "secondary-type-ids": [],
+            "primary-type-id": "6d0c5bf6-7a33-3420-a519-44fc63eedebf"
+        }
+    ],
+    "gender": "Male",
+    "name": "Jon Björk",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "relations": [
+        {
+            "url": {
+                "id": "a1b20294-0b9d-4699-97bd-8b4d332f9f77",
+                "resource": "https://open.spotify.com/artist/0mVBmLkuwYCoohzWfdeodD"
+            },
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "target-credit": "",
+            "source-credit": "",
+            "end": null,
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attribute-values": [],
+            "attributes": [],
+            "attribute-ids": [],
+            "begin": null,
+            "type": "free streaming"
+        },
+        {
+            "target-credit": "",
+            "source-credit": "",
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "end": null,
+            "url": {
+                "id": "9c809b52-d371-4917-a07e-bf472ec177a1",
+                "resource": "https://www.deezer.com/artist/56920662"
+            },
+            "type": "free streaming",
+            "ended": false,
+            "target-type": "url",
+            "direction": "forward",
+            "attribute-ids": [],
+            "begin": null,
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "attribute-values": [],
+            "attributes": [],
+            "ended": false,
+            "target-type": "url",
+            "direction": "forward",
+            "type": "official homepage",
+            "url": {
+                "id": "e6cf9d4b-e121-411b-aecd-0be07f92a9ab",
+                "resource": "https://www.jonbjorkmusic.com/"
+            },
+            "end": null,
+            "target-credit": "",
+            "source-credit": "",
+            "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15"
+        },
+        {
+            "url": {
+                "resource": "https://twitter.com/JonBjorkMusic",
+                "id": "8b49e1ab-c5c0-4904-b0d5-6f8a15573c6b"
+            },
+            "end": null,
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "source-credit": "",
+            "target-credit": "",
+            "attributes": [],
+            "attribute-values": [],
+            "begin": null,
+            "attribute-ids": [],
+            "direction": "forward",
+            "target-type": "url",
+            "ended": false,
+            "type": "social network"
+        },
+        {
+            "attributes": [],
+            "attribute-values": [],
+            "begin": null,
+            "attribute-ids": [],
+            "direction": "forward",
+            "target-type": "url",
+            "ended": false,
+            "type": "social network",
+            "url": {
+                "id": "39520c9f-08ca-4af7-998c-f7435845d1ad",
+                "resource": "https://www.instagram.com/jonbjorkmusic/"
+            },
+            "end": null,
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "source-credit": "",
+            "target-credit": ""
+        },
+        {
+            "type": "soundcloud",
+            "target-type": "url",
+            "ended": false,
+            "direction": "forward",
+            "begin": null,
+            "attribute-ids": [],
+            "attributes": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "target-credit": "",
+            "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+            "end": null,
+            "url": {
+                "resource": "https://soundcloud.com/jon-bjork",
+                "id": "e8b7951f-8c07-4fc0-a09d-bb950f02a353"
+            }
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attribute-values": [],
+            "attributes": [],
+            "attribute-ids": [],
+            "begin": null,
+            "type": "streaming",
+            "url": {
+                "id": "f4dd3a95-3e3f-4e75-ae13-42a35d43b3a1",
+                "resource": "https://music.apple.com/us/artist/1219133018"
+            },
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "target-credit": "",
+            "source-credit": "",
+            "end": null
+        },
+        {
+            "type": "streaming",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attribute-values": [],
+            "attributes": [],
+            "attribute-ids": [],
+            "begin": null,
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "target-credit": "",
+            "source-credit": "",
+            "end": null,
+            "url": {
+                "id": "2f35cabd-ca24-4e64-843a-63593e74e94a",
+                "resource": "https://tidal.com/artist/9600338"
+            }
+        },
+        {
+            "attributes": [],
+            "attribute-values": [],
+            "begin": null,
+            "attribute-ids": [],
+            "direction": "forward",
+            "target-type": "url",
+            "ended": false,
+            "type": "youtube",
+            "url": {
+                "id": "e19711b3-bde3-4ae1-806b-70e2dffab757",
+                "resource": "https://www.youtube.com/channel/UC1SqnmtAJvWkVUt8mw3Ng5g"
+            },
+            "end": null,
+            "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+            "source-credit": "",
+            "target-credit": ""
+        },
+        {
+            "ended": false,
+            "target-type": "url",
+            "direction": "forward",
+            "attribute-ids": [],
+            "begin": null,
+            "attribute-values": [],
+            "attributes": [],
+            "type": "youtube",
+            "url": {
+                "id": "ba2c5b49-5364-4159-abde-db6c0907b77a",
+                "resource": "https://www.youtube.com/channel/UCsYAdgHFTcCg0GWICdHsWkQ"
+            },
+            "target-credit": "",
+            "source-credit": "Jon Björk - Topic",
+            "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+            "end": null
+        }
+    ],
+    "disambiguation": "Swedish composer",
+    "annotation": null,
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "id": "6a276be8-dc5d-44bc-8de8-aba5201fcf60",
+    "genres": [],
+    "sort-name": "Björk, Jon",
+    "begin-area": null,
+    "works": [],
+    "life-span": {
+        "end": null,
+        "begin": null,
+        "ended": false
+    },
+    "recordings": [
+        {
+            "genres": [],
+            "id": "fd73cc3d-3f08-42e1-a27f-f4a87288642b",
+            "tags": [],
+            "length": 110909,
+            "video": false,
+            "disambiguation": "",
+            "title": "A Day Together",
+            "aliases": []
+        },
+        {
+            "video": false,
+            "length": 101568,
+            "disambiguation": "",
+            "title": "A Desolate Dream",
+            "genres": [],
+            "id": "1b5359a3-adac-41ea-b603-da9c54bb4646",
+            "tags": [],
+            "aliases": []
+        },
+        {
+            "genres": [],
+            "id": "abb81613-488e-45ce-83a0-6bb43e0757b6",
+            "tags": [],
+            "length": 129000,
+            "video": false,
+            "disambiguation": "",
+            "title": "A Lovely End",
+            "aliases": []
+        }
+    ],
+    "aliases": [],
+    "isnis": [],
+    "country": "SE",
+    "tags": [],
+    "area": {
+        "iso-3166-1-codes": [
+            "SE"
+        ],
+        "name": "Sweden",
+        "disambiguation": "",
+        "type": null,
+        "sort-name": "Sweden",
+        "type-id": null,
+        "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb"
+    },
+    "releases": [],
+    "rating": {
+        "value": null,
+        "votes-count": 0
+    },
+    "end-area": null,
+    "ipis": []
+}

@@ -1,0 +1,41 @@
+{
+    "id": "b25a1e5d-3247-41ea-9920-f93c58a6e479",
+    "date": "2019-09-27",
+    "title": "Abbey Road",
+    "country": "JP",
+    "barcode": "4988031353004",
+    "quality": "normal",
+    "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+    },
+    "status": "Official",
+    "packaging": null,
+    "disambiguation": "2CD anniversary edition",
+    "cover-art-archive": {
+        "artwork": true,
+        "count": 2,
+        "front": true,
+        "back": true,
+        "darkened": false
+    },
+    "release-events": [
+        {
+            "area": {
+                "type-id": null,
+                "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+                "disambiguation": "",
+                "type": null,
+                "sort-name": "Japan",
+                "name": "Japan",
+                "iso-3166-1-codes": [
+                    "JP"
+                ]
+            },
+            "date": "2019-09-27"
+        }
+    ],
+    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+    "asin": "B07W93DCNH",
+    "packaging-id": null
+}

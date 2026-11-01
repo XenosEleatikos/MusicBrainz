@@ -83,6 +83,16 @@ $lookups = [
     'work'         => ['bohemian-rhapsody' => '41c94a08-a551-3c86-bb17-d9a52e3a618b'],
 ];
 
+// Less popular, sparsely maintained entities (taken from search results): missing and empty fields must not break parsing
+$lookups['area']['london-sparse']                  = '7bfa293f-d942-46f4-8f95-0a205faa5d2d';
+$lookups['artist']['jon-bjork-sparse']             = '6a276be8-dc5d-44bc-8de8-aba5201fcf60';
+$lookups['artist']['xanthe-waite-sparse']          = 'b856b4ae-5c73-4476-a61c-f1fddc573a4e';
+$lookups['label']['parlophone-norway-sparse']      = '01ad5e97-2bb6-451b-b0c5-02dc3fa90b03';
+$lookups['release']['abbey-road-sparse']           = 'b25a1e5d-3247-41ea-9920-f93c58a6e479';
+$lookups['recording']['bohemian-rhapsody-sparse']  = '79d660ef-dd32-4c5c-b2aa-a9d736cd2396';
+$lookups['releaseGroup']['alexa-play-ok-computer'] = '6c5a2f5b-8959-4e8e-8342-78b3e9ff72ce';
+$lookups['work']['bohemian-rhapsody-sparse']       = 'a8f4f093-823a-4cc0-86e7-76c784dbd65b';
+
 $lookups['url'] = ['wikidata-beatles' => '7a14a19d-17d6-452e-8741-6ace4eea275c', 'discogs-beatles' => '4327d342-5545-4168-a4c9-f8a740099d5d'];
 
 foreach ($lookups as $entity => $entities) {

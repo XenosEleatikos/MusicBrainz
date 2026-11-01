@@ -1,0 +1,298 @@
+{
+    "tags": [],
+    "area": {
+        "type": null,
+        "disambiguation": "",
+        "id": "6743d351-6f37-3049-9724-5041161fff4d",
+        "type-id": null,
+        "iso-3166-1-codes": [
+            "NO"
+        ],
+        "name": "Norway",
+        "sort-name": "Norway"
+    },
+    "annotation": null,
+    "genres": [],
+    "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+    "label-code": null,
+    "type": "Production",
+    "country": "NO",
+    "id": "01ad5e97-2bb6-451b-b0c5-02dc3fa90b03",
+    "life-span": {
+        "end": null,
+        "ended": false,
+        "begin": null
+    },
+    "sort-name": "Parlophone Norway",
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "name": "Parlophone Norway",
+    "aliases": [
+        {
+            "type": "Label name",
+            "primary": null,
+            "locale": null,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "begin": null,
+            "ended": false,
+            "end": null,
+            "name": "Parlophone Music Norway",
+            "sort-name": "Parlophone Music Norway"
+        }
+    ],
+    "relations": [
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "label",
+            "source-credit": "",
+            "label": {
+                "type": "Holding",
+                "disambiguation": "",
+                "id": "09ef1562-c76e-4e94-bf51-ce0e81a1384d",
+                "label-code": null,
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "name": "Warner Music Norway AS",
+                "sort-name": "Warner Music Norway AS"
+            },
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "backward",
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "attributes": [],
+            "type": "label ownership"
+        },
+        {
+            "ended": false,
+            "end": null,
+            "url": {
+                "resource": "https://www.discogs.com/label/589945",
+                "id": "7130f981-f87f-4b9a-bac0-bf758ba52d05"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+            "attributes": [],
+            "type": "discogs",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "source-credit": ""
+        },
+        {
+            "target-type": "url",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+            "attributes": [],
+            "type": "purchase for download",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "url": {
+                "resource": "https://www.qobuz.com/gb-en/label/parlophone-norway-1/download-streaming-albums/49482",
+                "id": "48df3108-470e-4b47-891b-4f100596faaf"
+            }
+        },
+        {
+            "ended": false,
+            "end": null,
+            "url": {
+                "resource": "https://www.qobuz.com/gb-en/label/parlophone-norway-1/download-streaming-albums/49482",
+                "id": "48df3108-470e-4b47-891b-4f100596faaf"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "cbe05bdd-a877-4cc6-8060-7ba43a2516ef",
+            "attributes": [],
+            "type": "streaming",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "source-credit": ""
+        }
+    ],
+    "releases": [
+        {
+            "id": "7f9207ed-3e5e-4871-b878-7711a7ca2985",
+            "date": "1983",
+            "title": "Cheek to Cheek",
+            "country": "XW",
+            "barcode": "0724353931858",
+            "media": [
+                {
+                    "discs": [],
+                    "position": 1,
+                    "format": "Digital Media",
+                    "track-count": 11,
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "title": "",
+                    "id": "04234c14-28d4-4277-a0e3-d2cecfcac8c5"
+                }
+            ],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "genres": [],
+            "quality": "normal",
+            "status": "Official",
+            "tags": [],
+            "packaging": "None",
+            "disambiguation": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "name": "[Worldwide]",
+                        "sort-name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ]
+                    },
+                    "date": "1983"
+                }
+            ],
+            "aliases": [],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b"
+        },
+        {
+            "disambiguation": "",
+            "packaging": "None",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "disambiguation": "",
+                        "type": null,
+                        "sort-name": "[Worldwide]",
+                        "name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ]
+                    },
+                    "date": "1999-09-13"
+                }
+            ],
+            "aliases": [],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "media": [
+                {
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "title": "",
+                    "id": "6e5232bd-aa35-4f1a-a77f-ee20e922f6e2",
+                    "discs": [],
+                    "position": 1,
+                    "format": "Digital Media",
+                    "track-count": 11
+                }
+            ],
+            "barcode": "0724352286355",
+            "date": "1999-09-13",
+            "id": "6508dc7f-be1d-4830-8058-d9643d1cd2d9",
+            "country": "XW",
+            "title": "Boarding nu",
+            "quality": "normal",
+            "genres": [],
+            "text-representation": {
+                "script": "Latn",
+                "language": "nor"
+            },
+            "tags": [],
+            "status": "Official"
+        },
+        {
+            "tags": [],
+            "status": "Official",
+            "media": [
+                {
+                    "position": 1,
+                    "discs": [],
+                    "format": "Digital Media",
+                    "track-count": 1,
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "title": "",
+                    "id": "3006d38f-5366-3a10-96f1-e0bf9dcf78c6"
+                }
+            ],
+            "barcode": "724386724458",
+            "date": "2004-07-30",
+            "id": "5f6a9223-bbb0-45f1-9505-52be7c1cb8f1",
+            "country": "AF",
+            "title": "Two Way Monologue",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "genres": [],
+            "quality": "normal",
+            "aliases": [],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "disambiguation": "",
+            "packaging": "None",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "date": "2004-07-30",
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "AF"
+                        ],
+                        "sort-name": "Afghanistan",
+                        "name": "Afghanistan",
+                        "id": "aa95182f-df0a-3ad6-8bfb-4b63482cd276",
+                        "disambiguation": "",
+                        "type": null,
+                        "type-id": null
+                    }
+                },
+                {
+                    "area": {
+                        "sort-name": "Albania",
+                        "name": "Albania",
+                        "iso-3166-1-codes": [
+                            "AL"
+                        ],
+                        "type-id": null,
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc"
+                    },
+                    "date": "2004-07-30"
+                },
+                {
+                    "date": "2004-07-30",
+                    "area": {
+                        "id": "28242750-534a-326b-8ed6-1b03dfb88cd0",
+                        "disambiguation": "",
+                        "type": null,
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "DZ"
+                        ],
+                        "name": "Algeria",
+                        "sort-name": "Algeria"
+                    }
+                }
+            ]
+        }
+    ],
+    "disambiguation": "",
+    "ipis": [],
+    "isnis": []
+}
