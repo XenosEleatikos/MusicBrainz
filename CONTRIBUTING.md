@@ -20,9 +20,8 @@ through a PSR-18 client (`tests/Support/ReplayHttpClient.php`):
 
 | Test | Purpose |
 |------|---------|
-| `tests/unit/Api/LookupTest`, `PageTest`, `ErrorTest` | Every recorded lookup, browse and search response must be mirrored by the value objects: every JSON field, nested structure, relation, list and count. |
+| `tests/unit/Api/LookupTest`, `PageTest`, `RelationsTest`, `ErrorTest` | Every recorded lookup, browse and search response must be mirrored by the value objects. `tests/Support/EntityAssertions.php` holds an explicit table per entity type: every JSON key must be mapped to a property or listed as deliberately not mapped, so data the library drops fails the test. |
 | `tests/unit/Contract/ScenarioTest` | The library must parse every recorded scenario without an exception and without logging a warning about unknown data. |
-| `tests/unit/Contract/DriftTest` | Every JSON key of the recordings has to occur in `src/`. Known gaps are listed in the test. |
 | `tests/unit/Http`, `Helper`, `Value`, `Relation` | Classic unit tests (throttling, retries, error handling, type conversion, the map of relationship types). |
 | `tests/specification` | Compares the library with the live documentation of relationship types (needs network, runs weekly in CI). |
 
@@ -53,7 +52,7 @@ Please keep the following in mind:
 
 1. Implement it in `src/`.
 2. Add (or extend) a scenario that returns real data for it, and record it.
-3. Extend `tests/Support/EntityFields.php` so that the tests compare it with the JSON.
+3. Add the keys of the new data to the table in `tests/Support/EntityAssertions.php`, so that the tests compare it with the JSON.
 4. Run `composer ci`.
 
 ## Code style

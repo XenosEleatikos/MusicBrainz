@@ -16,7 +16,7 @@ read-only. Requirements: PHP 8.3 or newer, any PSR-18 HTTP client.
     - [Search Requests](#search-requests)
     - [Lookup Requests](#lookup-requests)
     - [Browse Requests](#browse-requests)
-    - [Types and unknown values](#types-and-unknown-values)
+    - [Value objects](#value-objects)
     - [Relations](#relations)
     - [Errors](#errors)
 - [Upgrading from 1.x](#upgrading-from-1x)
@@ -110,7 +110,8 @@ method taking a specific filter object and a page filter for pagination. The ret
 list object containing basic information about the matching entities. For more information you have to perform
 a [lookup request](#lookup-requests) with the MusicBrainz Identifier (MBID) of the entity.
 
-The following example search for the artist named "Tom Waits" and limits the result list to the top match.
+The following example searches for the artist named "Tom Waits" and limits the result list to the top match. The result
+is a `Page` of `SearchResult` objects, each with the matching `entity` and its `score` (0 to 100).
 
 ```php
 <?php
@@ -124,8 +125,9 @@ $pageFilter = new PageFilter(0, 1);
 
 $artistList = $musicBrainz->api()->search()->artist($artistFilter, $pageFilter);
 
-foreach ($artistList as $searchResult) {
-    echo $searchResult->getScore()->getNumber(), ' ', $searchResult->getArtist()->getArtistName(), PHP_EOL;
+echo $artistList->totalCount, ' matches', PHP_EOL;       // all matches, not only this page
+foreach ($artistList as $result) {                        // a Page is iterable, countable and read-only
+    echo $result->score, ' ', $result->entity->name, PHP_EOL;
 }
 ```
 
@@ -151,6 +153,11 @@ $artist = $musicBrainz->api()->lookup()->artist(
     new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'),
     $fields
 );
+
+echo $artist->name, ' (', $artist->lifeSpan?->begin, ')', PHP_EOL;
+foreach ($artist->recordings as $recording) {
+    echo $recording->title, PHP_EOL;
+}
 ```
 
 ### Browse Requests
@@ -175,7 +182,18 @@ $eventFields = (new EventFields)
 $pageFilter = new PageFilter(0, 5);
 
 $eventList = $musicBrainz->api()->browse()->event($eventRelation, $eventFields, $pageFilter);
+
+foreach ($eventList as $event) {
+    echo $event->name, ' ', $event->lifeSpan?->begin, PHP_EOL;
+}
 ```
+
+### Value objects
+All results are immutable value objects (`final readonly` classes) with public, typed properties; there are no getters
+and setters. Data the response does not contain is `null` (a nested object such as `$artist->area`, a date, a type) or
+empty (`''` for names, `[]` for lists), never a dummy object. Dates are `Date` objects that keep the precision the
+database has ("1969", "1969-09", "1969-09-26"). The classes are built from the decoded JSON with `X::fromArray()`;
+that factory is not meant to be called by applications.
 
 ### Types and unknown values
 Types, genders, statuses etc. are value objects with the name as MusicBrainz delivers it, the MBID of the type, and a
@@ -185,7 +203,7 @@ Types, genders, statuses etc. are value objects with the name as MusicBrainz del
 <?php
 use MusicBrainz\Value\ArtistTypeKind;
 
-$type = $artist->getArtistType();      // null if the response has no type
+$type = $artist->type;                 // null if the response has no type
 $type->name;                           // "Person"
 (string) $type->id;                    // "b6e035f4-3ce9-331c-97df-83397230b0df"
 ArtistTypeKind::Person === $type->kind();
@@ -195,14 +213,17 @@ MusicBrainz maintains these lists in its database and extends them from time to 
 yet is kept in `name`, `kind()` returns `null`, and a warning is sent to your logger.
 
 ### Relations
-Entities that were requested with relationship includes (e.g. `includeArtistRelations()`) hold their relations sorted by
-the type of the related entity. Every relation knows its direction, its period, its attributes and its credits:
+Entities that were requested with relationship includes (e.g. `includeArtistRelations()`) have a `RelationList` in
+`$entity->relations` (`null` if relations were not requested). Every relation knows its type, its direction, its target
+entity, its period, its attributes and its credits:
 
 ```php
 <?php
-foreach ($artist->getRelations()->getArtistRelations() as $relation) {
-    echo $relation->getRelationType()::getRelationName(), ': ', $relation->getArtist()->getArtistName(), PHP_EOL;
-    echo $relation->getBeginDate(), ' - ', $relation->getEndDate(), ' ', implode(', ', $relation->getAttributes()), PHP_EOL;
+use MusicBrainz\Value\EntityType;
+
+foreach ($artist->relations?->to(EntityType::Artist) ?? [] as $relation) {
+    echo $relation->type::getRelationName(), ': ', $relation->target->name, PHP_EOL;
+    echo $relation->begin, ' - ', $relation->end, ' ', implode(', ', $relation->attributes), PHP_EOL;
 }
 ```
 
@@ -222,11 +243,15 @@ Version 2 contains breaking changes, the full list is in the [changelog](CHANGEL
 2. **Authentication.** User name and password (digest authentication) are gone. Use an OAuth2 access token:
    `$musicBrainz->config()->setAccessToken('...')`.
 3. **User agent.** Set a meaningful one: `$musicBrainz->config()->setUserAgent('MyApp/1.0 ( https://example.org )')`.
-4. **Enums and types.** `EntityType`, `Direction` and `DataQuality` are enums (`EntityType::ReleaseGroup`). Types like
+4. **No getters.** Results are readonly value objects with public properties: `$artist->name` instead of
+   `$artist->getArtistName()`, `$release->title`, `$page->totalCount`, `$searchResult->entity`. All names are uniform
+   (`name`, `title`, `sortName`, `disambiguation`). Absent nested objects are `null`; lists are plain arrays; `Page` is
+   iterable and read-only. Relations are `Relation` objects in `$entity->relations` (see [Relations](#relations)).
+5. **Enums and types.** `EntityType`, `Direction` and `DataQuality` are enums (`EntityType::ReleaseGroup`). Types like
    `ArtistType` or `Gender` have a `kind()` returning an enum (`ArtistTypeKind::Person`), see
-   [Types and unknown values](#types-and-unknown-values). Their getters return `null` if the response has no value.
-   `ReleaseType`/`ReleaseTypeList` are replaced by `PrimaryReleaseType` and `SecondaryReleaseTypeList`.
-5. **Browse filters.** `setEntityTypeRelease()`/`setEntityTypeReleaseGroup()` are now `release()`/`releaseGroup()`;
+   [Types and unknown values](#types-and-unknown-values). `ReleaseType`/`ReleaseTypeList` are replaced by
+   `PrimaryReleaseType` and a list of `SecondaryReleaseType`.
+6. **Browse filters.** `setEntityTypeRelease()`/`setEntityTypeReleaseGroup()` are now `release()`/`releaseGroup()`;
    `CollectionRelation::editor()` takes the user name.
 
 ## Development
