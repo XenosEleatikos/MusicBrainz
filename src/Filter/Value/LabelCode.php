@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;

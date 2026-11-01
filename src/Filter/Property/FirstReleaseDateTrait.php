@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Date;
 
 trait FirstReleaseDateTrait
@@ -26,10 +25,12 @@ trait FirstReleaseDateTrait
      *
      * @param Date $date
      *
-     * @return Term
+     * @return static
      */
-    public function addFirstReleaseDate(Date $date): Term
+    public function addFirstReleaseDate(Date $date): static
     {
-        return $this->addTerm((string) $date, self::firstReleaseDate());
+        $this->addTerm((string) $date, self::firstReleaseDate());
+
+        return $this;
     }
 }

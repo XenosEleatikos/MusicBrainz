@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Genre\Place;
 
 use MusicBrainz\Relation\Type\Genre\Place as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the place that inspired this genre’s name.
@@ -17,10 +16,10 @@ class NamedAfterPlace extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('named after place');
+        return 'named after place';
     }
 }

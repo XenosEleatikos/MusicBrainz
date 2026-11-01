@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Recording\Url\GetTheMusic;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is used to link a recording to a site where it can be legally streamed for free, such as
@@ -18,10 +17,10 @@ class FreeStreaming extends GetTheMusic
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('free streaming');
+        return 'free streaming';
     }
 }

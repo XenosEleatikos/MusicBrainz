@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Recording;
 
 use MusicBrainz\Relation\Type\Label\Recording;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship is deprecated. To indicate work publishers, add label-work relationships. To indicate (P) holders,
@@ -18,10 +17,10 @@ class Publishing extends Recording
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('publishing');
+        return 'publishing';
     }
 }

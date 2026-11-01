@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Count;
+use MusicBrainz\Filter\Value\Count;
 
 trait NumberOfRecordingsTrait
 {
@@ -26,10 +25,12 @@ trait NumberOfRecordingsTrait
      *
      * @param Count $count
      *
-     * @return Term
+     * @return static
      */
-    public function addNumberOfRecordings(Count $count): Term
+    public function addNumberOfRecordings(Count $count): static
     {
-        return $this->addTerm((string) $count, self::numberOfRecordings());
+        $this->addTerm((string) $count, self::numberOfRecordings());
+
+        return $this;
     }
 }

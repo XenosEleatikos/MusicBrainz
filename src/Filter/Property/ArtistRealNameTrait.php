@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait ArtistRealNameTrait
 {
@@ -26,10 +25,12 @@ trait ArtistRealNameTrait
      *
      * @param Name $artistRealName A “real name” of any artist that is included in the release group’s artist credit
      *
-     * @return Phrase
+     * @return static
      */
-    public function addArtistRealName(Name $artistRealName): Phrase
+    public function addArtistRealName(Name $artistRealName): static
     {
-        return $this->addPhrase((string) $artistRealName, self::artistRealName());
+        $this->addPhrase((string) $artistRealName, self::artistRealName());
+
+        return $this;
     }
 }

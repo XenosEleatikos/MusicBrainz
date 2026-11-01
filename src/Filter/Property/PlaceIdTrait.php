@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait PlaceIdTrait
@@ -26,10 +25,12 @@ trait PlaceIdTrait
      *
      * @param MBID $placeId The MusicBrainz Identifier (MBID) of a place
      *
-     * @return Term
+     * @return static
      */
-    public function addPlaceId(MBID $placeId): Term
+    public function addPlaceId(MBID $placeId): static
     {
-        return $this->addTerm((string) $placeId, self::placeId());
+        $this->addTerm((string) $placeId, self::placeId());
+
+        return $this;
     }
 }

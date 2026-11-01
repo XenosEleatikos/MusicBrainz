@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
@@ -10,9 +10,9 @@ use Stringable;
 use function trim;
 
 /**
- * Address
+ * ISWC
  */
-final readonly class Address implements Stringable
+final readonly class ISWC implements Stringable
 {
     /**
      * @param string $value The value
@@ -22,7 +22,7 @@ final readonly class Address implements Stringable
     public function __construct(public string $value)
     {
         if ('' === trim($value)) {
-            throw new InvalidArgumentException('Address must not be empty');
+            throw new InvalidArgumentException('ISWC must not be empty');
         }
     }
 

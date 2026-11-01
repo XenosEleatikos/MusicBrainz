@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Count;
+use MusicBrainz\Filter\Value\Count;
 
 trait NumberOfTracksOnAnyReleaseTrait
 {
@@ -26,10 +25,12 @@ trait NumberOfTracksOnAnyReleaseTrait
      *
      * @param Count $count
      *
-     * @return Term
+     * @return static
      */
-    public function addNumberOfTracksOnAnyRelease(Count $count): Term
+    public function addNumberOfTracksOnAnyRelease(Count $count): static
     {
-        return $this->addTerm((string) $count, self::numberOfTracksOnAnyRelease());
+        $this->addTerm((string) $count, self::numberOfTracksOnAnyRelease());
+
+        return $this;
     }
 }

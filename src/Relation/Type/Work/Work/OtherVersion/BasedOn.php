@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Work\Work\OtherVersion;
 
 use MusicBrainz\Relation\Type\Work\Work\OtherVersion;
-use MusicBrainz\Value\Name;
 
 /**
  * This links two works, where the second work is based on music or text from the first, but isn't directly a revision
@@ -18,10 +17,10 @@ class BasedOn extends OtherVersion
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('based on');
+        return 'based on';
     }
 }

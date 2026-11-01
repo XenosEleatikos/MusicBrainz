@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\TrackNumber;
+use MusicBrainz\Filter\Value\TrackNumber;
 
 trait NumberOfTracksOnMediumTrait
 {
@@ -26,10 +25,12 @@ trait NumberOfTracksOnMediumTrait
      *
      * @param TrackNumber $numberOfTracksOnMedium The number of tracks in the medium on release
      *
-     * @return Term
+     * @return static
      */
-    public function addNumberOfTracksOnMedium(TrackNumber $numberOfTracksOnMedium): Term
+    public function addNumberOfTracksOnMedium(TrackNumber $numberOfTracksOnMedium): static
     {
-        return $this->addTerm((string) $numberOfTracksOnMedium, self::numberOfTracksOnMedium());
+        $this->addTerm((string) $numberOfTracksOnMedium, self::numberOfTracksOnMedium());
+
+        return $this;
     }
 }

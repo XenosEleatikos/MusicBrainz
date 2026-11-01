@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Composition;
 
 use MusicBrainz\Relation\Type\Artist\Work\Composition;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship is used to link a work to the artist responsible for writing the music and/or the words (lyrics,
@@ -20,10 +19,10 @@ class Writer extends Composition
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('writer');
+        return 'writer';
     }
 }

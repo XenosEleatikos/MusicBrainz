@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
 
 use MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link a music video to the corresponding audio recording.
@@ -17,10 +16,10 @@ class MusicVideo extends OtherVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('music video');
+        return 'music video';
     }
 }

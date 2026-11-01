@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Release\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Release\Url\GetTheMusic;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is used to link a release to a site where the tracks can be legally streamed for a
@@ -18,10 +17,10 @@ class Streaming extends GetTheMusic
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('streaming');
+        return 'streaming';
     }
 }

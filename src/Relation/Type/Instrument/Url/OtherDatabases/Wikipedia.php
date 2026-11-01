@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Instrument\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Instrument\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * Points to the Wikipedia page for this instrument.
@@ -17,10 +16,10 @@ class Wikipedia extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('wikipedia');
+        return 'wikipedia';
     }
 }

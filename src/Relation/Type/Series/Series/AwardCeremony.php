@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Series\Series;
 
 use MusicBrainz\Relation\Type\Series\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an award series to the award ceremony series of events where it's announced and/or awarded.
@@ -17,10 +16,10 @@ class AwardCeremony extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('award ceremony');
+        return 'award ceremony';
     }
 }

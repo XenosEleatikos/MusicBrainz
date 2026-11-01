@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release;
 
 use MusicBrainz\Relation\Type\Artist\Release as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a release to a person credited as a production coordinator for it.
@@ -17,10 +16,10 @@ class ProductionCoordinator extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('production coordinator');
+        return 'production coordinator';
     }
 }

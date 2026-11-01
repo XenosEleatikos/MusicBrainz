@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release\Publishing;
 
 use MusicBrainz\Relation\Type\Label\Release\Publishing;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship indicates the company that was the licensee of this release (that is, received a license for it
@@ -18,10 +17,10 @@ class Licensee extends Publishing
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('licensee');
+        return 'licensee';
     }
 }

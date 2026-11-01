@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
 use MusicBrainz\Relation\Type\Artist\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to (one of) its main performer(s).
@@ -17,10 +16,10 @@ class MainPerformer extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('main performer');
+        return 'main performer';
     }
 }

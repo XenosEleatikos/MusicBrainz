@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * Count
+ * MediumNumber
  */
-final readonly class Count implements Stringable
+final readonly class MediumNumber implements Stringable
 {
     /**
      * @param int $value The number
@@ -19,8 +19,8 @@ final readonly class Count implements Stringable
      */
     public function __construct(public int $value)
     {
-        if (!($value >= 0)) {
-            throw new InvalidArgumentException('A count cannot be negative, got ' . $value);
+        if (!($value >= 1)) {
+            throw new InvalidArgumentException('A medium number starts at 1, got ' . $value);
         }
     }
 

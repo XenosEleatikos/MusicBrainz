@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates a release group is an excerpt from another, such as the highlights of a box set or a long opera.
@@ -17,10 +16,10 @@ class ExcerptFrom extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('excerpt from');
+        return 'excerpt from';
     }
 }

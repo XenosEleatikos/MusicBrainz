@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ASIN;
+use MusicBrainz\Filter\Value\ASIN;
 
 trait AsinTrait
 {
@@ -26,10 +25,12 @@ trait AsinTrait
      *
      * @param ASIN $asin The Amazon Standard Identification Number (ASIN)
      *
-     * @return Term
+     * @return static
      */
-    public function addASIN(ASIN $asin): Term
+    public function addASIN(ASIN $asin): static
     {
-        return $this->addTerm((string) $asin, self::asin());
+        $this->addTerm((string) $asin, self::asin());
+
+        return $this;
     }
 }

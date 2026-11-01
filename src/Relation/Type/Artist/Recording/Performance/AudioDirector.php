@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Performance;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Performance;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the artist was an audio director for this recording. This is the artist responsible for the creative
@@ -19,10 +18,10 @@ class AudioDirector extends Performance
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('audio director');
+        return 'audio director';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
 use MusicBrainz\Relation\Type\Artist\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to an artist who was a VJ during it, either as the background for someone else’s musical performance
@@ -18,10 +17,10 @@ class VJ extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('VJ');
+        return 'VJ';
     }
 }

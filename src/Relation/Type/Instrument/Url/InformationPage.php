@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Instrument\Url;
 
 use MusicBrainz\Relation\Type\Instrument\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * information page
@@ -17,10 +16,10 @@ class InformationPage extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('information page');
+        return 'information page';
     }
 }

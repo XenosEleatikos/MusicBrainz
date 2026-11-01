@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Series\Series;
 
 use MusicBrainz\Relation\Type\Series\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a series to another series that exists within it.
@@ -17,10 +16,10 @@ class Subseries extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('subseries');
+        return 'subseries';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
 use MusicBrainz\Relation\Type\Artist\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to a guest performer. Guest performers usually make short appearances during other artist's set.
@@ -17,10 +16,10 @@ class GuestPerformer extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('guest performer');
+        return 'guest performer';
     }
 }

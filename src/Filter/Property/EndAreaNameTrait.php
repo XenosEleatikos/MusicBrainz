@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait EndAreaNameTrait
 {
@@ -26,10 +25,12 @@ trait EndAreaNameTrait
      *
      * @param Name $endAreaName The name of the ending area
      *
-     * @return Phrase
+     * @return static
      */
-    public function addEndAreaName(Name $endAreaName): Phrase
+    public function addEndAreaName(Name $endAreaName): static
     {
-        return $this->addPhrase((string) $endAreaName, self::endAreaName());
+        $this->addPhrase((string) $endAreaName, self::endAreaName());
+
+        return $this;
     }
 }

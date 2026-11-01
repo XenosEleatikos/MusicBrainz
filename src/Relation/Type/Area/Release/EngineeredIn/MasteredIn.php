@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Release\EngineeredIn;
 
 use MusicBrainz\Relation\Type\Area\Release\EngineeredIn;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the area it was mastered in. Use only when the place is unknown!
@@ -17,10 +16,10 @@ class MasteredIn extends EngineeredIn
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('mastered in');
+        return 'mastered in';
     }
 }

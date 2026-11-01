@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Url\OnlineData;
 
 use MusicBrainz\Relation\Type\Artist\Url\OnlineData;
-use MusicBrainz\Value\Name;
 
 /**
  * This links an artist to a site where the artist can receive donations/patronage, such as Flattr or PayPal.me.
@@ -17,10 +16,10 @@ class Patronage extends OnlineData
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('patronage');
+        return 'patronage';
     }
 }

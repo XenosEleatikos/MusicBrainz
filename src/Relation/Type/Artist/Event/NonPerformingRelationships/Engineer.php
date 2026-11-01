@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Event\NonPerformingRelationships;
 
 use MusicBrainz\Relation\Type\Artist\Event\NonPerformingRelationships;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to an engineer or sound technician who worked on it.
@@ -17,10 +16,10 @@ class Engineer extends NonPerformingRelationships
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('engineer');
+        return 'engineer';
     }
 }

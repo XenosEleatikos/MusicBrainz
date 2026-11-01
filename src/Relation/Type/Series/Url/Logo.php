@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Series\Url;
 
 use MusicBrainz\Relation\Type\Series\Url as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link a series (a podcast, a festival...) to an image of its logo.
@@ -17,10 +16,10 @@ class Logo extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('logo');
+        return 'logo';
     }
 }

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\EntityType;
 
 trait TargetTypeTrait
@@ -26,10 +25,12 @@ trait TargetTypeTrait
      *
      * @param EntityType $targetType
      *
-     * @return Term
+     * @return static
      */
-    public function addTargetType(EntityType $targetType): Term
+    public function addTargetType(EntityType $targetType): static
     {
-        return $this->addTerm($targetType->value, self::targetType());
+        $this->addTerm($targetType->value, self::targetType());
+
+        return $this;
     }
 }

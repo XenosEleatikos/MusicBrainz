@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Release\EngineeredIn\MasteredIn;
 
 use MusicBrainz\Relation\Type\Area\Release\EngineeredIn\MasteredIn;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the area where the lacquer cutting took place. Use only when the place is unknown!
@@ -17,10 +16,10 @@ class LacquerCutIn extends MasteredIn
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('lacquer cut in');
+        return 'lacquer cut in';
     }
 }

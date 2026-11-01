@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Length;
+use MusicBrainz\Filter\Value\Length;
 
 trait QuantizedLengthTrait
 {
@@ -26,10 +25,12 @@ trait QuantizedLengthTrait
      *
      * @param Length $quantizedLength The Quantized length (length / 2000)
      *
-     * @return Term
+     * @return static
      */
-    public function addQuantizedLength(Length $quantizedLength): Term
+    public function addQuantizedLength(Length $quantizedLength): static
     {
-        return $this->addTerm((string) $quantizedLength, self::quantizedLength());
+        $this->addTerm((string) $quantizedLength, self::quantizedLength());
+
+        return $this;
     }
 }

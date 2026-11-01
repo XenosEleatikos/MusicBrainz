@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Release;
 
 use MusicBrainz\Relation\Type\Place\Release;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a release with the place it was arranged at.
@@ -17,10 +16,10 @@ class ArrangedAt extends Release
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('arranged at');
+        return 'arranged at';
     }
 }

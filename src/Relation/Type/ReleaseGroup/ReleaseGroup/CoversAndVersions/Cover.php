@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\CoversAndVersions;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\CoversAndVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is used to indicate that a release group is a cover version of another release group, that
@@ -19,10 +18,10 @@ class Cover extends CoversAndVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('cover');
+        return 'cover';
     }
 }

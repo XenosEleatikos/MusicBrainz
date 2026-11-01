@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Length;
+use MusicBrainz\Filter\Value\Length;
 
 trait LengthTrait
 {
@@ -26,10 +25,12 @@ trait LengthTrait
      *
      * @param Length $length The Length
      *
-     * @return Term
+     * @return static
      */
-    public function addLength(Length $length): Term
+    public function addLength(Length $length): static
     {
-        return $this->addTerm((string) $length, self::length());
+        $this->addTerm((string) $length, self::length());
+
+        return $this;
     }
 }

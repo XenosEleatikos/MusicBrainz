@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Recording;
 
 use MusicBrainz\Relation\Type\Label\Recording;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an organization (often a radio station) broadcast the given recording.
@@ -17,10 +16,10 @@ class Broadcast extends Recording
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('broadcast');
+        return 'broadcast';
     }
 }

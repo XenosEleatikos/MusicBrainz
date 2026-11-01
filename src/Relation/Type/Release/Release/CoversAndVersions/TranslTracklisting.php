@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Release\Release\CoversAndVersions;
 
 use MusicBrainz\Relation\Type\Release\Release\CoversAndVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that one release is identical to another release, but that the release title and track titles have
@@ -18,10 +17,10 @@ class TranslTracklisting extends CoversAndVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('transl-tracklisting');
+        return 'transl-tracklisting';
     }
 }

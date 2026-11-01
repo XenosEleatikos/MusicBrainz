@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is used to indicate that a release group is a re‐recording of another release group, that is,
@@ -20,10 +19,10 @@ class Rerecording extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('re‐recording');
+        return 're‐recording';
     }
 }

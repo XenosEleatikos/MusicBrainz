@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\CatalogNumber;
+use MusicBrainz\Filter\Value\CatalogNumber;
 
 trait CatalogNumberTrait
 {
@@ -26,10 +25,12 @@ trait CatalogNumberTrait
      *
      * @param CatalogNumber $catalogNumber A catalog number
      *
-     * @return Phrase
+     * @return static
      */
-    public function addCatalogNumber(CatalogNumber $catalogNumber): Phrase
+    public function addCatalogNumber(CatalogNumber $catalogNumber): static
     {
-        return $this->addPhrase((string) $catalogNumber, self::catalogNumber());
+        $this->addPhrase((string) $catalogNumber, self::catalogNumber());
+
+        return $this;
     }
 }

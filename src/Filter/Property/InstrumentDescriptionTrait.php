@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait InstrumentDescriptionTrait
 {
@@ -26,10 +25,12 @@ trait InstrumentDescriptionTrait
      *
      * @param Name $description
      *
-     * @return Phrase
+     * @return static
      */
-    public function addInstrumentDescription(Name $description): Phrase
+    public function addInstrumentDescription(Name $description): static
     {
-        return $this->addPhrase((string) $description, self::instrumentDescription());
+        $this->addPhrase((string) $description, self::instrumentDescription());
+
+        return $this;
     }
 }

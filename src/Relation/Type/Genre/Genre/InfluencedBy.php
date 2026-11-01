@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Genre\Genre;
 
 use MusicBrainz\Relation\Type\Genre\Genre;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that a genre has influences of another, but is not connected to it enough to be a subgenre of it.
@@ -17,10 +16,10 @@ class InfluencedBy extends Genre
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('influenced by');
+        return 'influenced by';
     }
 }

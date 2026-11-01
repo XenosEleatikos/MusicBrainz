@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Url\Work\GetTheScore;
 
 use MusicBrainz\Relation\Type\Url\Work\GetTheScore;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is used to link to a page where the score / sheet music for this work can be legally
@@ -18,10 +17,10 @@ class PurchaseForDownload extends GetTheScore
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('purchase for download');
+        return 'purchase for download';
     }
 }

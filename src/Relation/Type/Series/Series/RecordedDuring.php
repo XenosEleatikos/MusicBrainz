@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Series\Series;
 
 use MusicBrainz\Relation\Type\Series\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a recording, release or release group series to the event series (tour, residency, etc.) it was recorded
@@ -18,10 +17,10 @@ class RecordedDuring extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('recorded during');
+        return 'recorded during';
     }
 }

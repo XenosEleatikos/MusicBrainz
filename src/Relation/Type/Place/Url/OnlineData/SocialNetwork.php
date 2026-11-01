@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Url\OnlineData;
 
 use MusicBrainz\Relation\Type\Place\Url\OnlineData;
-use MusicBrainz\Value\Name;
 
 /**
  * A social network page is a place's own page on a social network which only people involved with the place can post
@@ -18,10 +17,10 @@ class SocialNetwork extends OnlineData
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('social network');
+        return 'social network';
     }
 }

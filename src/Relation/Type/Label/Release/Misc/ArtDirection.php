@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release\Misc;
 
 use MusicBrainz\Relation\Type\Label\Release\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an agency that did the art direction for the release.
@@ -17,10 +16,10 @@ class ArtDirection extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('art direction');
+        return 'art direction';
     }
 }

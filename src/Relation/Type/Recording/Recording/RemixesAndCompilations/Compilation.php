@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording\RemixesAndCompilations;
 
 use MusicBrainz\Relation\Type\Recording\Recording\RemixesAndCompilations;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that a recording is a compilation of several other recordings. This applies to one long recording
@@ -20,10 +19,10 @@ class Compilation extends RemixesAndCompilations
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('compilation');
+        return 'compilation';
     }
 }

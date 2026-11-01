@@ -119,7 +119,7 @@ is a `Page` of `SearchResult` objects, each with the matching `entity` and its `
 <?php
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 $artistFilter = new ArtistFilter;
 $artistFilter->addArtistNameWithoutAccents(new Name('Tom Waits'));

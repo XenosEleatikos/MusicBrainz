@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Recording;
 
 use MusicBrainz\Relation\Type\Label\Recording as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This describes the company responsible for using a mixing console to mix a recorded track into a single piece of
@@ -18,10 +17,10 @@ class Mix extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('mix');
+        return 'mix';
     }
 }

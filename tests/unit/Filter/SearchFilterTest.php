@@ -10,15 +10,15 @@ use MusicBrainz\Filter\Search\PlaceFilter;
 use MusicBrainz\Filter\Search\ReleaseFilter;
 use MusicBrainz\Filter\Search\ReleaseGroupFilter;
 use MusicBrainz\Filter\Search\WorkFilter;
-use MusicBrainz\Value\ASIN;
-use MusicBrainz\Value\CatalogNumber;
-use MusicBrainz\Value\Count;
-use MusicBrainz\Value\ISO31661Code;
-use MusicBrainz\Value\ISWC;
-use MusicBrainz\Value\Latitude;
-use MusicBrainz\Value\Longitude;
+use MusicBrainz\Filter\Value\ASIN;
+use MusicBrainz\Filter\Value\CatalogNumber;
+use MusicBrainz\Filter\Value\Count;
+use MusicBrainz\Filter\Value\ISO31661Code;
+use MusicBrainz\Filter\Value\ISWC;
+use MusicBrainz\Filter\Value\Latitude;
+use MusicBrainz\Filter\Value\Longitude;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -66,5 +66,15 @@ final class SearchFilterTest extends TestCase
         $artist = new ArtistFilter();
         $artist->addEndAreaName(new Name('Berlin'));
         self::assertSame('endarea:"Berlin"', (string) $artist);
+    }
+
+    public function testAddMethodsChain(): void
+    {
+        $filter = new ReleaseFilter();
+
+        $result = $filter->addASIN(new ASIN('B000003Z4N'))->addCatalogNumber(new CatalogNumber('PCS 7088'));
+
+        self::assertSame($filter, $result);
+        self::assertSame('asin:B000003Z4N catno:"PCS 7088"', (string) $filter);
     }
 }

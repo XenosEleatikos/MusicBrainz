@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
 use MusicBrainz\Relation\Type\Artist\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a place (often a concert hall or educational institution) to an artist who has an artist-in-residence
@@ -18,10 +17,10 @@ class ResidencePosition extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('artist-in-residence');
+        return 'artist-in-residence';
     }
 }

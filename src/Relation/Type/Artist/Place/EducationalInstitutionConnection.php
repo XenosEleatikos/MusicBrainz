@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
 use MusicBrainz\Relation\Type\Artist\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is only used for grouping other relationship types.
@@ -17,10 +16,10 @@ class EducationalInstitutionConnection extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('educational institution connection');
+        return 'educational institution connection';
     }
 }

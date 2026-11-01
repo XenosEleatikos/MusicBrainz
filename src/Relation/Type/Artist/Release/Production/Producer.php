@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an artist who is responsible for the creative and practical day-to-day aspects involved with making a
@@ -18,10 +17,10 @@ class Producer extends Production
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('producer');
+        return 'producer';
     }
 }

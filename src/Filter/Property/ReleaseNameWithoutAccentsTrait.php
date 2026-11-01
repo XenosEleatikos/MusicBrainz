@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait ReleaseNameWithoutAccentsTrait
 {
@@ -26,10 +25,12 @@ trait ReleaseNameWithoutAccentsTrait
      *
      * @param Name $releaseNameWithoutAccents The name of a release
      *
-     * @return Phrase
+     * @return static
      */
-    public function addReleaseName(Name $releaseNameWithoutAccents): Phrase
+    public function addReleaseName(Name $releaseNameWithoutAccents): static
     {
-        return $this->addPhrase((string) $releaseNameWithoutAccents, self::releaseNameWithoutAccents());
+        $this->addPhrase((string) $releaseNameWithoutAccents, self::releaseNameWithoutAccents());
+
+        return $this;
     }
 }

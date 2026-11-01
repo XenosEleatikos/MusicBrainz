@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Recording;
 
 use MusicBrainz\Relation\Type\Place\Recording as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a recording to the place it was programmed at.
@@ -17,10 +16,10 @@ class ProgrammedAt extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('programmed at');
+        return 'programmed at';
     }
 }

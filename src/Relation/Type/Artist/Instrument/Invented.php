@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Instrument;
 
 use MusicBrainz\Relation\Type\Artist\Instrument;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship links an instrument to the person(s) who invented or designed it.
@@ -17,10 +16,10 @@ class Invented extends Instrument
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('invented');
+        return 'invented';
     }
 }

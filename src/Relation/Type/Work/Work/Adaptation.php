@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Work\Work;
 
 use MusicBrainz\Relation\Type\Work\Work as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This links two works, where one work is an adaptation of the other (generally from a different medium, such as a
@@ -18,10 +17,10 @@ class Adaptation extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('adaptation');
+        return 'adaptation';
     }
 }

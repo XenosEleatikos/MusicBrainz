@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates a person or agency who did design or illustration for the track.
@@ -17,10 +16,10 @@ class DesignIllustration extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('design/illustration');
+        return 'design/illustration';
     }
 }

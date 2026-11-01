@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Title;
+use MusicBrainz\Filter\Value\Title;
 
 trait TitleTrait
 {
@@ -26,10 +25,12 @@ trait TitleTrait
      *
      * @param Title $title The title comment
      *
-     * @return Phrase
+     * @return static
      */
-    public function addTitleComment(Title $title): Phrase
+    public function addTitleComment(Title $title): static
     {
-        return $this->addPhrase((string) $title, self::title());
+        $this->addPhrase((string) $title, self::title());
+
+        return $this;
     }
 }

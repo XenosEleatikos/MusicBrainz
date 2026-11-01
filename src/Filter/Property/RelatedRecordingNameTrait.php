@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait RelatedRecordingNameTrait
 {
@@ -26,10 +25,12 @@ trait RelatedRecordingNameTrait
      *
      * @param Name $recordingName
      *
-     * @return Phrase
+     * @return static
      */
-    public function addRelatedRecordingName(Name $recordingName): Phrase
+    public function addRelatedRecordingName(Name $recordingName): static
     {
-        return $this->addPhrase((string) $recordingName, self::relatedRecordingName());
+        $this->addPhrase((string) $recordingName, self::relatedRecordingName());
+
+        return $this;
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Production\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This credits a person or agency whose photographs are included as part of a recording.
@@ -17,10 +16,10 @@ class Photography extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('photography');
+        return 'photography';
     }
 }

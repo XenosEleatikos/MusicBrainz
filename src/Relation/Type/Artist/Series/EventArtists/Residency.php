@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Series\EventArtists;
 
 use MusicBrainz\Relation\Type\Artist\Series\EventArtists;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship links a concert residency to the artist(s) who held the residency.
@@ -17,10 +16,10 @@ class Residency extends EventArtists
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('residency');
+        return 'residency';
     }
 }

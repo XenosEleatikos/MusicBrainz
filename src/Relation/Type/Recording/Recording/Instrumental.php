@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording;
 
 use MusicBrainz\Relation\Type\Recording\Recording as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link an instrumental version of a song to the original song. An instrumental version is a version of
@@ -19,10 +18,10 @@ class Instrumental extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('instrumental');
+        return 'instrumental';
     }
 }

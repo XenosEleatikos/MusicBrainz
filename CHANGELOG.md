@@ -38,6 +38,11 @@ guide in the README.
   a list of `SecondaryReleaseType`.
 - Browse filters: `ReleaseRelation::setEntityTypeRelease()` and `setEntityTypeReleaseGroup()` are now `release()` and
   `releaseGroup()`. `CollectionRelation::editor()` takes the user name of the editor (editors have no MBID).
+- The `add*()` methods of the search filters return the filter (`static`), so calls can be chained, instead of objects of the
+  query builder AskLucy; the filter input classes (`Name`, `Count`, `Country`, `LabelCode`, ...) moved to
+  `MusicBrainz\Filter\Value`, the results use plain scalars. `Relation\Type::getRelationName()` returns a string.
+- `Relation::tryFromArray()`, `NamedType::fromKeys()` and the other factories that differ from `Parsable::fromArray()` have
+  their own names; the entities implement `MusicBrainz\Value\Entity`.
 - The small value objects the search filters take as input (`Name`, `MBID`, `Date`, `Count`, `Country`, `LabelCode`, ...)
   are `final readonly` with a public `value` and refuse impossible values with an `InvalidArgumentException`
   (negative counts, coordinates outside the earth, an invalid IPI, ...) instead of silently turning them into nothing.

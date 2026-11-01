@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait PrimaryAliasNameTrait
 {
@@ -26,10 +25,12 @@ trait PrimaryAliasNameTrait
      *
      * @param Name $aliasName
      *
-     * @return Phrase
+     * @return static
      */
-    public function addPrimaryAliasName(Name $aliasName): Phrase
+    public function addPrimaryAliasName(Name $aliasName): static
     {
-        return $this->addPhrase((string) $aliasName, self::primaryAliasName());
+        $this->addPhrase((string) $aliasName, self::primaryAliasName());
+
+        return $this;
     }
 }

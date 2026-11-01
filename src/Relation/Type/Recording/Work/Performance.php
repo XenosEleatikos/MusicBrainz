@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Work;
 
 use MusicBrainz\Relation\Type\Recording\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link works to their recordings.
@@ -17,10 +16,10 @@ class Performance extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('performance');
+        return 'performance';
     }
 }

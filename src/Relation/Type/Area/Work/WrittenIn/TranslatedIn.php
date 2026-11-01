@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Work\WrittenIn;
 
 use MusicBrainz\Relation\Type\Area\Work\WrittenIn;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a work with the area it was translated in.
@@ -17,10 +16,10 @@ class TranslatedIn extends WrittenIn
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('translated in');
+        return 'translated in';
     }
 }

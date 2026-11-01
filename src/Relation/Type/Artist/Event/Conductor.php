@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
 use MusicBrainz\Relation\Type\Artist\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to an artist that was a conductor in it.
@@ -17,10 +16,10 @@ class Conductor extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('conductor');
+        return 'conductor';
     }
 }

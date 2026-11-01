@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\Url;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship describes a URL where lyrics for the release group can be found. Only sites on the whitelist are
@@ -18,10 +17,10 @@ class Lyrics extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('lyrics');
+        return 'lyrics';
     }
 }

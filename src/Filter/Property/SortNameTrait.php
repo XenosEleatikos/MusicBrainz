@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait SortNameTrait
 {
@@ -26,10 +25,12 @@ trait SortNameTrait
      *
      * @param Name $sortName The sort name
      *
-     * @return Phrase
+     * @return static
      */
-    public function addSortNameWithAccents(Name $sortName): Phrase
+    public function addSortNameWithAccents(Name $sortName): static
     {
-        return $this->addPhrase((string) $sortName, self::sortName());
+        $this->addPhrase((string) $sortName, self::sortName());
+
+        return $this;
     }
 }

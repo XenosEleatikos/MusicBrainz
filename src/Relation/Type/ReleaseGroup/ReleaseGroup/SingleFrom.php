@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that a single or EP release group includes at least one track taken from an album release group. This
@@ -18,10 +17,10 @@ class SingleFrom extends ReleaseGroup
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('single from');
+        return 'single from';
     }
 }

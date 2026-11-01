@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship indicates the artist is the phonographic copyright holder for this release, usually indicated with
@@ -18,10 +17,10 @@ class PhonographicCopyright extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('phonographic copyright');
+        return 'phonographic copyright';
     }
 }

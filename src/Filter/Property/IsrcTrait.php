@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ISRC;
+use MusicBrainz\Filter\Value\ISRC;
 
 trait IsrcTrait
 {
@@ -26,10 +25,12 @@ trait IsrcTrait
      *
      * @param ISRC $isrcCode The International Standard Recording Code (ISRC) of the recording
      *
-     * @return Term
+     * @return static
      */
-    public function addIsrcCode(ISRC $isrcCode): Term
+    public function addIsrcCode(ISRC $isrcCode): static
     {
-        return $this->addTerm((string) $isrcCode, self::isrcCode());
+        $this->addTerm((string) $isrcCode, self::isrcCode());
+
+        return $this;
     }
 }

@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Barcode;
+use MusicBrainz\Filter\Value\Barcode;
 
 trait BarcodeTrait
 {
@@ -26,10 +25,12 @@ trait BarcodeTrait
      *
      * @param Barcode $barcode The Barcode
      *
-     * @return Term
+     * @return static
      */
-    public function addBarcode(Barcode $barcode): Term
+    public function addBarcode(Barcode $barcode): static
     {
-        return $this->addTerm((string) $barcode, self::barcode());
+        $this->addTerm((string) $barcode, self::barcode());
+
+        return $this;
     }
 }

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * Latitude
+ * Longitude
  */
-final readonly class Latitude implements Stringable
+final readonly class Longitude implements Stringable
 {
     /**
      * @param float $value Degrees
@@ -19,8 +19,8 @@ final readonly class Latitude implements Stringable
      */
     public function __construct(public float $value)
     {
-        if (!($value >= -90.0 && $value <= 90.0)) {
-            throw new InvalidArgumentException('A latitude is between -90 and 90 degrees, got ' . $value);
+        if (!($value >= -180.0 && $value <= 180.0)) {
+            throw new InvalidArgumentException('A longitude is between -180 and 180 degrees, got ' . $value);
         }
     }
 

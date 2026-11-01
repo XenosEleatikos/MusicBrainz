@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Url\OnlineData;
 
 use MusicBrainz\Relation\Type\Place\Url\OnlineData;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a place to a site where the place or the organisation behind it can receive donations/patronage, such as
@@ -18,10 +17,10 @@ class Patronage extends OnlineData
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('patronage');
+        return 'patronage';
     }
 }

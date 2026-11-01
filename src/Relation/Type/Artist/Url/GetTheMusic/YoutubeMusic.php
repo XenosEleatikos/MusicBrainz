@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Artist\Url\GetTheMusic;
-use MusicBrainz\Value\Name;
 
 /**
  * This links an artist to its channel at YouTube Music.
@@ -17,10 +16,10 @@ class YoutubeMusic extends GetTheMusic
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('youtube music');
+        return 'youtube music';
     }
 }

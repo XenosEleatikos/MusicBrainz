@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait TagNameTrait
 {
@@ -26,10 +25,12 @@ trait TagNameTrait
      *
      * @param Name $tagName The tag name
      *
-     * @return Phrase
+     * @return static
      */
-    public function addTagName(Name $tagName): Phrase
+    public function addTagName(Name $tagName): static
     {
-        return $this->addPhrase((string) $tagName, self::tagName());
+        $this->addPhrase((string) $tagName, self::tagName());
+
+        return $this;
     }
 }

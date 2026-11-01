@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
 
 use MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is deprecated! Different remasters should be merged.
@@ -17,10 +16,10 @@ class Remaster extends OtherVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('remaster');
+        return 'remaster';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Label\Url\GetTheMusic;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates a webpage where you can download a label's releases for free.
@@ -17,10 +16,10 @@ class DownloadForFree extends GetTheMusic
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('download for free');
+        return 'download for free';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Event\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Event\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type links an event to its corresponding page at Last.fm.
@@ -17,10 +16,10 @@ class LastFm extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('last.fm');
+        return 'last.fm';
     }
 }

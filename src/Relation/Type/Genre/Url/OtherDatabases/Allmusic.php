@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Genre\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Genre\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link a genre to its corresponding page on Allmusic.
@@ -17,10 +16,10 @@ class Allmusic extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('allmusic');
+        return 'allmusic';
     }
 }

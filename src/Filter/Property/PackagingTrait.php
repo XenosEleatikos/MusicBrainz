@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\PackagingKind;
 
 trait PackagingTrait
@@ -26,10 +25,12 @@ trait PackagingTrait
      *
      * @param PackagingKind $packaging
      *
-     * @return Phrase
+     * @return static
      */
-    public function addPackaging(PackagingKind $packaging): Phrase
+    public function addPackaging(PackagingKind $packaging): static
     {
-        return $this->addPhrase($packaging->value, self::packaging());
+        $this->addPhrase($packaging->value, self::packaging());
+
+        return $this;
     }
 }

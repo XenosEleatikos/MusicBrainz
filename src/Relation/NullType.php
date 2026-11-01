@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation;
 
 use MusicBrainz\Value\EntityType;
-use MusicBrainz\Value\Name;
 
 /**
  * An undefined relation type
@@ -35,10 +34,10 @@ class NullType extends Type
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('is related to');
+        return 'is related to';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is deprecated! Please add mastering engineers at the release level.
@@ -17,10 +16,10 @@ class Mastering extends Engineer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('mastering');
+        return 'mastering';
     }
 }

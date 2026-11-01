@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
 
 use MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to specify that an artist collaborated on a short-term project, for cases where artist credits can't be
@@ -18,10 +17,10 @@ class Collaboration extends MusicalRelationships
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('collaboration');
+        return 'collaboration';
     }
 }

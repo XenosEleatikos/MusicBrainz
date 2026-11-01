@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release\Publishing;
 
 use MusicBrainz\Relation\Type\Label\Release\Publishing;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the organization that promotes (or contracts out promotion) for a release. This is not the same
@@ -18,10 +17,10 @@ class Promoted extends Publishing
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('promoted');
+        return 'promoted';
     }
 }

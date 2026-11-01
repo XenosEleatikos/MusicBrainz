@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\IPI;
+use MusicBrainz\Filter\Value\IPI;
 
 trait IpiCodeTrait
 {
@@ -26,10 +25,12 @@ trait IpiCodeTrait
      *
      * @param IPI $ipiCode An IPI (interested party information) code
      *
-     * @return Term
+     * @return static
      */
-    public function addIpiCode(IPI $ipiCode): Term
+    public function addIpiCode(IPI $ipiCode): static
     {
-        return $this->addTerm((string) $ipiCode, self::ipiCode());
+        $this->addTerm((string) $ipiCode, self::ipiCode());
+
+        return $this;
     }
 }

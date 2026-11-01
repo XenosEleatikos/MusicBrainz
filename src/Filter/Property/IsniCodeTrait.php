@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ISNI;
+use MusicBrainz\Filter\Value\ISNI;
 
 trait IsniCodeTrait
 {
@@ -26,10 +25,12 @@ trait IsniCodeTrait
      *
      * @param ISNI $isni
      *
-     * @return Term
+     * @return static
      */
-    public function addIsniCode(ISNI $isni): Term
+    public function addIsniCode(ISNI $isni): static
     {
-        return $this->addTerm((string) $isni, self::isniCode());
+        $this->addTerm((string) $isni, self::isniCode());
+
+        return $this;
     }
 }

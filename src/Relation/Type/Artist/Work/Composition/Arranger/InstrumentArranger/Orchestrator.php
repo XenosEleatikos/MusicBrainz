@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Composition\Arranger\InstrumentArranger;
 
 use MusicBrainz\Relation\Type\Artist\Work\Composition\Arranger\InstrumentArranger;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the person who orchestrated the work. Orchestration is a special type of arrangement. It means the
@@ -21,10 +20,10 @@ class Orchestrator extends InstrumentArranger
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('orchestrator');
+        return 'orchestrator';
     }
 }

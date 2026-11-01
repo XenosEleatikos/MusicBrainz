@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a release group to another containing official commentary for it (usually the artist talking about each
@@ -18,10 +17,10 @@ class Commentary extends ReleaseGroup
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('commentary');
+        return 'commentary';
     }
 }

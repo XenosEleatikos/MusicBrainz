@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\TrackDisplayNumber;
+use MusicBrainz\Filter\Value\TrackDisplayNumber;
 
 trait TrackDisplayNumberTrait
 {
@@ -26,10 +25,12 @@ trait TrackDisplayNumberTrait
      *
      * @param TrackDisplayNumber $trackDisplayNumber A displayed track number
      *
-     * @return Phrase
+     * @return static
      */
-    public function addTrackDisplayNumber(TrackDisplayNumber $trackDisplayNumber): Phrase
+    public function addTrackDisplayNumber(TrackDisplayNumber $trackDisplayNumber): static
     {
-        return $this->addPhrase((string) $trackDisplayNumber, self::trackId());
+        $this->addPhrase((string) $trackDisplayNumber, self::trackId());
+
+        return $this;
     }
 }

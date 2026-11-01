@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-
 trait UrlDescendentTrait
 {
     use AbstractAdderTrait;
@@ -25,10 +23,12 @@ trait UrlDescendentTrait
      *
      * @param string $url
      *
-     * @return Phrase
+     * @return static
      */
-    public function addUrlDescendent(string $url): Phrase
+    public function addUrlDescendent(string $url): static
     {
-        return $this->addPhrase($url, self::urlDescendent());
+        $this->addPhrase($url, self::urlDescendent());
+
+        return $this;
     }
 }

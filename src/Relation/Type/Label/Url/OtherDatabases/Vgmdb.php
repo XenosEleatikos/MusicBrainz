@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Label\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type links a label to its corresponding page at VGMdb. VGMdb is a community project dedicated to
@@ -18,10 +17,10 @@ class Vgmdb extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('vgmdb');
+        return 'vgmdb';
     }
 }

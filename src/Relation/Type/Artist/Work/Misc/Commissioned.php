@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Work\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that the artist commissioned the work. This is most common for classical works, but also exists in
@@ -18,10 +17,10 @@ class Commissioned extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('commissioned');
+        return 'commissioned';
     }
 }

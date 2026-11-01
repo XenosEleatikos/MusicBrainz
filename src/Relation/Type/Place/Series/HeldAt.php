@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Series;
 
 use MusicBrainz\Relation\Type\Place\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the location a run or residency was held at.
@@ -17,10 +16,10 @@ class HeldAt extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('held at');
+        return 'held at';
     }
 }

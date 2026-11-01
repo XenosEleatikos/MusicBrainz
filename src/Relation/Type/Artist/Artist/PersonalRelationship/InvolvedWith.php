@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship;
 
 use MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates that two persons were romantically involved with each other without being married.
@@ -17,10 +16,10 @@ class InvolvedWith extends PersonalRelationship
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('involved with');
+        return 'involved with';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url;
 
 use MusicBrainz\Relation\Type\Label\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the official homepage for a label.
@@ -17,10 +16,10 @@ class OfficialSite extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('official site');
+        return 'official site';
     }
 }

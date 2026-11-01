@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-
 trait VideoTrait
 {
     use AbstractAdderTrait;
@@ -25,10 +23,12 @@ trait VideoTrait
      *
      * @param bool $video True to only show video tracks
      *
-     * @return Term
+     * @return static
      */
-    public function addVideo(bool $video): Term
+    public function addVideo(bool $video): static
     {
-        return $this->addTerm((string) $video, self::video());
+        $this->addTerm((string) $video, self::video());
+
+        return $this;
     }
 }

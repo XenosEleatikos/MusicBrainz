@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Instrument;
 
 use MusicBrainz\Relation\Type\Area\Instrument;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type links instruments to the areas they originate from.
@@ -17,10 +16,10 @@ class InstrumentOrigin extends Instrument
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('instrument origin');
+        return 'instrument origin';
     }
 }

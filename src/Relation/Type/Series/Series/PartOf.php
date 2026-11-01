@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Series\Series;
 
 use MusicBrainz\Relation\Type\Series\Series as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates that the series is part of a series.
@@ -17,10 +16,10 @@ class PartOf extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('part of');
+        return 'part of';
     }
 }

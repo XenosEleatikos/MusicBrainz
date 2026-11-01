@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * TrackNumber
+ * Count
  */
-final readonly class TrackNumber implements Stringable
+final readonly class Count implements Stringable
 {
     /**
      * @param int $value The number
@@ -20,7 +20,7 @@ final readonly class TrackNumber implements Stringable
     public function __construct(public int $value)
     {
         if (!($value >= 0)) {
-            throw new InvalidArgumentException('A track number cannot be negative, got ' . $value);
+            throw new InvalidArgumentException('A count cannot be negative, got ' . $value);
         }
     }
 

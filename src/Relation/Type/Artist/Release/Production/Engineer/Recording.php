@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
-use MusicBrainz\Value\Name;
 
 /**
  * This describes an engineer responsible for committing the performance to tape or another recording medium. This can
@@ -19,10 +18,10 @@ class Recording extends Engineer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('recording');
+        return 'recording';
     }
 }

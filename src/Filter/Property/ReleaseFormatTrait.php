@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Format;
 
 trait ReleaseFormatTrait
@@ -26,10 +25,12 @@ trait ReleaseFormatTrait
      *
      * @param Format $format The recording release format
      *
-     * @return Term
+     * @return static
      */
-    public function addFormat(Format $format): Term
+    public function addFormat(Format $format): static
     {
-        return $this->addTerm((string) $format, self::format());
+        $this->addTerm((string) $format, self::format());
+
+        return $this;
     }
 }

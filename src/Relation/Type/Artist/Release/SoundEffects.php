@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release;
 
 use MusicBrainz\Relation\Type\Artist\Release as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an artist that did the sound effects for the release.
@@ -17,10 +16,10 @@ class SoundEffects extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('sound effects');
+        return 'sound effects';
     }
 }

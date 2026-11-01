@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-
 trait RelationTypeTrait
 {
     use AbstractAdderTrait;
@@ -25,10 +23,12 @@ trait RelationTypeTrait
      *
      * @param string $relationType
      *
-     * @return Phrase
+     * @return static
      */
-    public function addRelationType(string $relationType): Phrase
+    public function addRelationType(string $relationType): static
     {
-        return $this->addPhrase($relationType, self::relationType());
+        $this->addPhrase($relationType, self::relationType());
+
+        return $this;
     }
 }

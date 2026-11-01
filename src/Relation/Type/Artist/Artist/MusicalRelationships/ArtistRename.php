@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
 
 use MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
-use MusicBrainz\Value\Name;
 
 /**
  * This describes a situation where an artist (generally a group) changed its name, leading to the start of a new
@@ -18,10 +17,10 @@ class ArtistRename extends MusicalRelationships
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('artist rename');
+        return 'artist rename';
     }
 }

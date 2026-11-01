@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
 
 use MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an artist (generally a person) was the founder of a group.
@@ -17,10 +16,10 @@ class Founder extends MusicalRelationships
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('founder');
+        return 'founder';
     }
 }

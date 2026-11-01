@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a recording to the artist who did the programming for electronic instruments used on the recording. In
@@ -18,10 +17,10 @@ class Programming extends Engineer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('programming');
+        return 'programming';
     }
 }

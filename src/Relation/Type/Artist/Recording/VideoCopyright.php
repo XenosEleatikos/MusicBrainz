@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording;
 
 use MusicBrainz\Relation\Type\Artist\Recording as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship indicates the artist is the copyright holder for this video, usually indicated with a © symbol.
@@ -17,10 +16,10 @@ class VideoCopyright extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('video copyright');
+        return 'video copyright';
     }
 }

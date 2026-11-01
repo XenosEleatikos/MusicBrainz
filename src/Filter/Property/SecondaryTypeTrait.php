@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\SecondaryReleaseTypeKind;
 
 trait SecondaryTypeTrait
@@ -26,10 +25,12 @@ trait SecondaryTypeTrait
      *
      * @param SecondaryReleaseTypeKind $secondaryType The secondary release type of the release group
      *
-     * @return Phrase
+     * @return static
      */
-    public function addSecondaryType(SecondaryReleaseTypeKind $secondaryType): Phrase
+    public function addSecondaryType(SecondaryReleaseTypeKind $secondaryType): static
     {
-        return $this->addPhrase($secondaryType->value, self::secondaryType());
+        $this->addPhrase($secondaryType->value, self::secondaryType());
+
+        return $this;
     }
 }

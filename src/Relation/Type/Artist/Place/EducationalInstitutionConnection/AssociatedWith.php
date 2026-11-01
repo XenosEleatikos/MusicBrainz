@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place\EducationalInstitutionConnection;
 
 use MusicBrainz\Relation\Type\Artist\Place\EducationalInstitutionConnection;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship links a group with the institution (esp. educational institution) they're associated with.
@@ -17,10 +16,10 @@ class AssociatedWith extends EducationalInstitutionConnection
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('associated with');
+        return 'associated with';
     }
 }

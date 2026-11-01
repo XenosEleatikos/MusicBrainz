@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
@@ -10,9 +10,9 @@ use Stringable;
 use function trim;
 
 /**
- * Script
+ * Disambiguation
  */
-final readonly class Script implements Stringable
+final readonly class Disambiguation implements Stringable
 {
     /**
      * @param string $value The value
@@ -22,7 +22,7 @@ final readonly class Script implements Stringable
     public function __construct(public string $value)
     {
         if ('' === trim($value)) {
-            throw new InvalidArgumentException('Script must not be empty');
+            throw new InvalidArgumentException('Disambiguation must not be empty');
         }
     }
 

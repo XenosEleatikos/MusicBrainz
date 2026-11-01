@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Composition\Writer;
 
 use MusicBrainz\Relation\Type\Artist\Work\Composition\Writer;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates that an artist revised a work. In most cases, this will be the original composer revising the work at a
@@ -18,10 +17,10 @@ class RevisedBy extends Writer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('revised by');
+        return 'revised by';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
 
 use MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link a karaoke version of a song to the original song. A karaoke version is a version of the song
@@ -21,10 +20,10 @@ class Karaoke extends OtherVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('karaoke');
+        return 'karaoke';
     }
 }

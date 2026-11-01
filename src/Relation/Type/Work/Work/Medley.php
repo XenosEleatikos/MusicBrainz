@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Work\Work;
 
 use MusicBrainz\Relation\Type\Work\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to indicate that a work is a medley of several other songs. This means that the original songs were
@@ -19,10 +18,10 @@ class Medley extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('medley');
+        return 'medley';
     }
 }

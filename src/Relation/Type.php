@@ -8,7 +8,6 @@ use MusicBrainz\Definition\RelationTypeId;
 use MusicBrainz\Value\EntityType;
 use LogicException;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Name;
 
 use function is_string;
 
@@ -34,9 +33,9 @@ abstract class Type
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    abstract public static function getRelationName(): Name;
+    abstract public static function getRelationName(): string;
 
     /**
      * Returns the UUID of the relation.

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait ReleaseIdTrait
@@ -26,10 +25,12 @@ trait ReleaseIdTrait
      *
      * @param MBID $releaseId The MusicBrainz ID of a release
      *
-     * @return Term
+     * @return static
      */
-    public function addReleaseId(MBID $releaseId): Term
+    public function addReleaseId(MBID $releaseId): static
     {
-        return $this->addTerm((string) $releaseId, self::releaseId());
+        $this->addTerm((string) $releaseId, self::releaseId());
+
+        return $this;
     }
 }

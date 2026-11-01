@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Work;
 
 use MusicBrainz\Relation\Type\Area\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the area where the work had its first performance.
@@ -17,10 +16,10 @@ class Premiere extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('premiere');
+        return 'premiere';
     }
 }

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait EntityIdTrait
@@ -26,10 +25,12 @@ trait EntityIdTrait
      *
      * @param MBID $entityId The MusicBrainz Identifier (MBID) of an entity
      *
-     * @return Term
+     * @return static
      */
-    public function addEntityId(MBID $entityId): Term
+    public function addEntityId(MBID $entityId): static
     {
-        return $this->addTerm((string) $entityId, self::entityId());
+        $this->addTerm((string) $entityId, self::entityId());
+
+        return $this;
     }
 }

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\PrimaryReleaseTypeKind;
 use MusicBrainz\Value\SecondaryReleaseTypeKind;
 
@@ -27,10 +26,12 @@ trait ReleaseGroupTypeTrait
      *
      * @param PrimaryReleaseTypeKind|SecondaryReleaseTypeKind $releaseGroupType The type of the release group
      *
-     * @return Phrase
+     * @return static
      */
-    public function addReleaseGroupType(PrimaryReleaseTypeKind|SecondaryReleaseTypeKind $releaseGroupType): Phrase
+    public function addReleaseGroupType(PrimaryReleaseTypeKind|SecondaryReleaseTypeKind $releaseGroupType): static
     {
-        return $this->addPhrase($releaseGroupType->value, self::releaseGroupType());
+        $this->addPhrase($releaseGroupType->value, self::releaseGroupType());
+
+        return $this;
     }
 }

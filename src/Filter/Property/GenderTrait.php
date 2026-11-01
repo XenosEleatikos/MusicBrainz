@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\GenderKind;
 
 trait GenderTrait
@@ -26,10 +25,12 @@ trait GenderTrait
      *
      * @param GenderKind $gender A gender
      *
-     * @return Phrase
+     * @return static
      */
-    public function addGender(GenderKind $gender): Phrase
+    public function addGender(GenderKind $gender): static
     {
-        return $this->addPhrase($gender->value, self::gender());
+        $this->addPhrase($gender->value, self::gender());
+
+        return $this;
     }
 }

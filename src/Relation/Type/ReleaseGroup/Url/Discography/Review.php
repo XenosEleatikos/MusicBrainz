@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\Url\Discography;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\Url\Discography;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates a page that reviews the release (group) in question, whether it be in text, audio or video form.
@@ -17,10 +16,10 @@ class Review extends Discography
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('review');
+        return 'review';
     }
 }

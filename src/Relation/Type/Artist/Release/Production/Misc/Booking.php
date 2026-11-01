@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This credits a person who was responsible for booking the studio or performance venue where the release was
@@ -18,10 +17,10 @@ class Booking extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('booking');
+        return 'booking';
     }
 }

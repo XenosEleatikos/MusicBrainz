@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
 
 use MusicBrainz\Relation\Type\Recording\Recording\OtherVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This links an edit to its original recording. An "edit", for this relationship, can be a radio edit (which involves
@@ -20,10 +19,10 @@ class Edit extends OtherVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('edit');
+        return 'edit';
     }
 }

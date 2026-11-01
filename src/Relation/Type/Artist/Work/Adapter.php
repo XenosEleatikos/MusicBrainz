@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work;
 
 use MusicBrainz\Relation\Type\Artist\Work as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the person who adapted this work (generally from a different medium, such as a prose work into an audio
@@ -18,10 +17,10 @@ class Adapter extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('adapter');
+        return 'adapter';
     }
 }

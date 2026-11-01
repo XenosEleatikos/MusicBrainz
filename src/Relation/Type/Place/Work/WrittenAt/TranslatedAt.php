@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Work\WrittenAt;
 
 use MusicBrainz\Relation\Type\Place\Work\WrittenAt;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a work with the place it was translated at.
@@ -17,10 +16,10 @@ class TranslatedAt extends WrittenAt
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('translated at');
+        return 'translated at';
     }
 }

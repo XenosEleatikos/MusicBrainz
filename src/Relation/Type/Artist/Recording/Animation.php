@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording;
 
 use MusicBrainz\Relation\Type\Artist\Recording as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This credits a person or agency who worked on animation for a video recording.
@@ -17,10 +16,10 @@ class Animation extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('animation');
+        return 'animation';
     }
 }

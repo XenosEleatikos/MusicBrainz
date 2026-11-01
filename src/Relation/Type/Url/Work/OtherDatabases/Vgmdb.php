@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Url\Work\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Url\Work\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a soundtrack work to the VGMdb page for the movie, show or game of which it is a soundtrack. VGMdb is a
@@ -18,10 +17,10 @@ class Vgmdb extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('vgmdb');
+        return 'vgmdb';
     }
 }

@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Address;
+use MusicBrainz\Filter\Value\Address;
 
 trait AddressTrait
 {
@@ -26,10 +25,12 @@ trait AddressTrait
      *
      * @param Address $address The Address
      *
-     * @return Term
+     * @return static
      */
-    public function addAddress(Address $address): Term
+    public function addAddress(Address $address): static
     {
-        return $this->addTerm((string) $address, self::address());
+        $this->addTerm((string) $address, self::address());
+
+        return $this;
     }
 }

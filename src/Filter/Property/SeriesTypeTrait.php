@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\SeriesTypeKind;
 
 trait SeriesTypeTrait
@@ -26,10 +25,12 @@ trait SeriesTypeTrait
      *
      * @param SeriesTypeKind $seriesType
      *
-     * @return Phrase
+     * @return static
      */
-    public function addSeriesType(SeriesTypeKind $seriesType): Phrase
+    public function addSeriesType(SeriesTypeKind $seriesType): static
     {
-        return $this->addPhrase($seriesType->value, self::seriesType());
+        $this->addPhrase($seriesType->value, self::seriesType());
+
+        return $this;
     }
 }

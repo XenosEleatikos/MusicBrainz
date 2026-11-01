@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Place;
 
 use MusicBrainz\Relation\Type\Place\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates a place that moved from one location to another, while still being generally considered the same.
@@ -17,10 +16,10 @@ class RelocatedTo extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('relocated to');
+        return 'relocated to';
     }
 }

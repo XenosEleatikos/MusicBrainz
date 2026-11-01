@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Work\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the work is dedicated to a specific artist. This is most common for classical works, but also exists
@@ -18,10 +17,10 @@ class Dedication extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('dedication');
+        return 'dedication';
     }
 }

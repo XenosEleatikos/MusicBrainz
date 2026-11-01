@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work;
 
 use MusicBrainz\Relation\Type\Artist\Work as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the artist was the choreographer for this work (often a ballet).
@@ -17,10 +16,10 @@ class Choreographer extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('choreographer');
+        return 'choreographer';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\RemixesAndCompilations;
 
 use MusicBrainz\Relation\Type\Artist\Recording\RemixesAndCompilations;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates that the recording contains samples from material by the indicated artist. Use this only if you really
@@ -18,10 +17,10 @@ class SamplesFromArtist extends RemixesAndCompilations
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('samples from artist');
+        return 'samples from artist';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Label;
 
 use MusicBrainz\Relation\Type\Area\Label as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the area (usually a city) where a label is headquartered in.
@@ -17,10 +16,10 @@ class Headquarters extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('headquarters');
+        return 'headquarters';
     }
 }

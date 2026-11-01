@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release\Misc\Artwork\Design;
 
 use MusicBrainz\Relation\Type\Label\Release\Misc\Artwork\Design;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an agency who did the graphic design for the release, arranging pieces of content into a coherent and
@@ -18,10 +17,10 @@ class GraphicDesign extends Design
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('graphic design');
+        return 'graphic design';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Series;
 
 use MusicBrainz\Relation\Type\Area\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the area an event series was held in.
@@ -17,10 +16,10 @@ class HeldIn extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('held in');
+        return 'held in';
     }
 }

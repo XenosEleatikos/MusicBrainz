@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Test\Value;
+namespace MusicBrainz\Test\Filter;
 
 use MusicBrainz\InvalidArgumentException;
-use MusicBrainz\Value\Count;
-use MusicBrainz\Value\Country;
-use MusicBrainz\Value\IPI;
-use MusicBrainz\Value\LabelCode;
-use MusicBrainz\Value\Latitude;
-use MusicBrainz\Value\Length;
-use MusicBrainz\Value\Longitude;
-use MusicBrainz\Value\MediumNumber;
-use MusicBrainz\Value\Name;
-use MusicBrainz\Value\TrackNumber;
+use MusicBrainz\Filter\Value\Count;
+use MusicBrainz\Filter\Value\Country;
+use MusicBrainz\Filter\Value\IPI;
+use MusicBrainz\Filter\Value\LabelCode;
+use MusicBrainz\Filter\Value\Latitude;
+use MusicBrainz\Filter\Value\Length;
+use MusicBrainz\Filter\Value\Longitude;
+use MusicBrainz\Filter\Value\MediumNumber;
+use MusicBrainz\Filter\Value\Name;
+use MusicBrainz\Filter\Value\TrackNumber;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -22,7 +22,7 @@ use PHPUnit\Framework\TestCase;
  * The small value objects that the search filters take as input: immutable, and they refuse values that cannot be right
  * instead of turning them into something empty.
  */
-final class ScalarValuesTest extends TestCase
+final class FilterValuesTest extends TestCase
 {
     public function testTextValuesKeepTheirValue(): void
     {

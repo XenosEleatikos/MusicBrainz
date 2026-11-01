@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Event;
 
 use MusicBrainz\Relation\Type\Artist\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to a DJ that appeared in a supporting role (such as DJing between artists, or closing the night after
@@ -18,10 +17,10 @@ class SupportingDJ extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('supporting DJ');
+        return 'supporting DJ';
     }
 }

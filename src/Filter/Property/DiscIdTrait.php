@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait DiscIdTrait
@@ -26,10 +25,12 @@ trait DiscIdTrait
      *
      * @param MBID $mbid The MusicBrainz Identifier (MBID) of the disc
      *
-     * @return Term
+     * @return static
      */
-    public function addDiscId(MBID $mbid): Term
+    public function addDiscId(MBID $mbid): static
     {
-        return $this->addTerm((string) $mbid, self::discId());
+        $this->addTerm((string) $mbid, self::discId());
+
+        return $this;
     }
 }

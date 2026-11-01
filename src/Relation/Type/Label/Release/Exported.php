@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release;
 
 use MusicBrainz\Relation\Type\Label\Release as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the organization that exports (or contracts out exports). This is not the same concept as the record
@@ -18,10 +17,10 @@ class Exported extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('exported');
+        return 'exported';
     }
 }

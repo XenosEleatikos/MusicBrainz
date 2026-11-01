@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Place\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * Points to the Internet Movie Database page for this place.
@@ -17,10 +16,10 @@ class IMDb extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('IMDb');
+        return 'IMDb';
     }
 }

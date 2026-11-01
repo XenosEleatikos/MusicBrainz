@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait SeriesNameWithAccentsTrait
 {
@@ -26,10 +25,12 @@ trait SeriesNameWithAccentsTrait
      *
      * @param Name $seriesName
      *
-     * @return Phrase
+     * @return static
      */
-    public function addSeriesNameWithAccents(Name $seriesName): Phrase
+    public function addSeriesNameWithAccents(Name $seriesName): static
     {
-        return $this->addPhrase((string) $seriesName, self::seriesNameWithAccents());
+        $this->addPhrase((string) $seriesName, self::seriesNameWithAccents());
+
+        return $this;
     }
 }

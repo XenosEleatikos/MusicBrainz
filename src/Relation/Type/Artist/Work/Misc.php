@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work;
 
 use MusicBrainz\Relation\Type\Artist\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates a miscellaneous support role. This is usually stated in the liner notes of an album.
@@ -17,10 +16,10 @@ class Misc extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('misc');
+        return 'misc';
     }
 }

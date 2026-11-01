@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release;
 
 use MusicBrainz\Relation\Type\Label\Release as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the mastering company for this release, when a company is credited instead of a specific engineer.
@@ -17,10 +16,10 @@ class Mastering extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('mastering');
+        return 'mastering';
     }
 }

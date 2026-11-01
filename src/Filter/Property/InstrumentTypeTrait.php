@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\InstrumentTypeKind;
 
 trait InstrumentTypeTrait
@@ -26,10 +25,12 @@ trait InstrumentTypeTrait
      *
      * @param InstrumentTypeKind $instrumentType
      *
-     * @return Phrase
+     * @return static
      */
-    public function addInstrumentType(InstrumentTypeKind $instrumentType): Phrase
+    public function addInstrumentType(InstrumentTypeKind $instrumentType): static
     {
-        return $this->addPhrase($instrumentType->value, self::instrumentType());
+        $this->addPhrase($instrumentType->value, self::instrumentType());
+
+        return $this;
     }
 }

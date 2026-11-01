@@ -36,7 +36,7 @@ abstract class AbstractFilter
      *
      * @return self
      */
-    public function add(Clause $clause): self
+    protected function add(Clause $clause): self
     {
         $this->query->add($clause);
 

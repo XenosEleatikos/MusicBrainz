@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This credits the author of liner notes provided with the release (usually on the sleeve). While most time liner
@@ -19,10 +18,10 @@ class LinerNotes extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('liner notes');
+        return 'liner notes';
     }
 }

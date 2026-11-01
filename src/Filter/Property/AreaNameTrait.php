@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait AreaNameTrait
 {
@@ -26,10 +25,12 @@ trait AreaNameTrait
      *
      * @param Name $areaName An area name
      *
-     * @return Phrase
+     * @return static
      */
-    public function addAreaName(Name $areaName): Phrase
+    public function addAreaName(Name $areaName): static
     {
-        return $this->addPhrase((string) $areaName, self::areaName());
+        $this->addPhrase((string) $areaName, self::areaName());
+
+        return $this;
     }
 }

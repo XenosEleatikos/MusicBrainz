@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Label\Contract;
 
 use MusicBrainz\Relation\Type\Artist\Label\Contract;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that an artist was officially employed by a label in a creative position, such as photographer or
@@ -18,10 +17,10 @@ class CreativePosition extends Contract
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('creative position at');
+        return 'creative position at';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Url\Production;
 
 use MusicBrainz\Relation\Type\Recording\Url\Production;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type describes that the recording contains samples taken from a movie, show or game, which has an
@@ -19,10 +18,10 @@ class IMDBSamples extends Production
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('IMDB samples');
+        return 'IMDB samples';
     }
 }

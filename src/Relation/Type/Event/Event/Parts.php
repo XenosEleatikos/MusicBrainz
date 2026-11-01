@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Event\Event;
 
 use MusicBrainz\Relation\Type\Event\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that an event is made up of multiple parts (e.g. a festival happening on multiple venues over the
@@ -18,10 +17,10 @@ class Parts extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('parts');
+        return 'parts';
     }
 }

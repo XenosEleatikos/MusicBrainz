@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-
 trait AnnotationIdTrait
 {
     use AbstractAdderTrait;
@@ -25,10 +23,12 @@ trait AnnotationIdTrait
      *
      * @param int $annotationId
      *
-     * @return Term
+     * @return static
      */
-    public function addAnnotationId(int $annotationId): Term
+    public function addAnnotationId(int $annotationId): static
     {
-        return $this->addTerm((string) $annotationId, self::annotationId());
+        $this->addTerm((string) $annotationId, self::annotationId());
+
+        return $this;
     }
 }

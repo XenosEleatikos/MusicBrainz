@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\LabelTypeKind;
 
 trait LabelTypeTrait
@@ -26,10 +25,12 @@ trait LabelTypeTrait
      *
      * @param LabelTypeKind $labelType The type of label
      *
-     * @return Phrase
+     * @return static
      */
-    public function addLabelType(LabelTypeKind $labelType): Phrase
+    public function addLabelType(LabelTypeKind $labelType): static
     {
-        return $this->addPhrase($labelType->value, self::labelType());
+        $this->addPhrase($labelType->value, self::labelType());
+
+        return $this;
     }
 }

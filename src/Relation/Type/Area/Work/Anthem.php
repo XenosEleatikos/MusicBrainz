@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Work;
 
 use MusicBrainz\Relation\Type\Area\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * Designates that a work is or was the anthem for an area.
@@ -17,10 +16,10 @@ class Anthem extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('anthem');
+        return 'anthem';
     }
 }

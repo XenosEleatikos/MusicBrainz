@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Label\BusinessAssociation;
 
 use MusicBrainz\Relation\Type\Label\Label\BusinessAssociation;
-use MusicBrainz\Value\Name;
 
 /**
  * This describes a situation where a label has changed its name, either for purely aesthetic reasons or following a
@@ -20,10 +19,10 @@ class LabelRename extends BusinessAssociation
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('label rename');
+        return 'label rename';
     }
 }

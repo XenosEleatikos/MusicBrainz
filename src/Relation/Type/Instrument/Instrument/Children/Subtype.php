@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Instrument\Instrument\Children;
 
 use MusicBrainz\Relation\Type\Instrument\Instrument\Children;
-use MusicBrainz\Value\Name;
 
 /**
  * This links an instrument to more specific subtypes of it.
@@ -17,10 +16,10 @@ class Subtype extends Children
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('subtype');
+        return 'subtype';
     }
 }

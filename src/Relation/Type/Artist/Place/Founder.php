@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
 use MusicBrainz\Relation\Type\Artist\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type can be used to link a place (generally a studio or venue) to the person(s) who founded it.
@@ -17,10 +16,10 @@ class Founder extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('founder');
+        return 'founder';
     }
 }

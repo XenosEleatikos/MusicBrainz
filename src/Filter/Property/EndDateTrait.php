@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Date;
 
 trait EndDateTrait
@@ -26,10 +25,12 @@ trait EndDateTrait
      *
      * @param Date $endDate The ending date
      *
-     * @return Term
+     * @return static
      */
-    public function addEndDate(Date $endDate): Term
+    public function addEndDate(Date $endDate): static
     {
-        return $this->addTerm((string) $endDate, self::endDate());
+        $this->addTerm((string) $endDate, self::endDate());
+
+        return $this;
     }
 }

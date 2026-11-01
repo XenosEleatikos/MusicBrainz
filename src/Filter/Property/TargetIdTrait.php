@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait TargetIdTrait
@@ -26,10 +25,12 @@ trait TargetIdTrait
      *
      * @param MBID $targetId
      *
-     * @return Term
+     * @return static
      */
-    public function addTargetId(MBID $targetId): Term
+    public function addTargetId(MBID $targetId): static
     {
-        return $this->addTerm((string) $targetId, self::targetId());
+        $this->addTerm((string) $targetId, self::targetId());
+
+        return $this;
     }
 }

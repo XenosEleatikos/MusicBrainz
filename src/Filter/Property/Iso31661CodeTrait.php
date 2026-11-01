@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ISO31661Code;
+use MusicBrainz\Filter\Value\ISO31661Code;
 
 trait Iso31661CodeTrait
 {
@@ -26,10 +25,12 @@ trait Iso31661CodeTrait
      *
      * @param ISO31661Code $iso31661Code The ISO 3166-1 code
      *
-     * @return Term
+     * @return static
      */
-    public function addIso31661Code(ISO31661Code $iso31661Code): Term
+    public function addIso31661Code(ISO31661Code $iso31661Code): static
     {
-        return $this->addTerm((string) $iso31661Code, self::iso31661Code());
+        $this->addTerm((string) $iso31661Code, self::iso31661Code());
+
+        return $this;
     }
 }

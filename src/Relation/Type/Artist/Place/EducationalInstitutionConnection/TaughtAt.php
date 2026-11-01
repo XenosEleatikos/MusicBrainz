@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place\EducationalInstitutionConnection;
 
 use MusicBrainz\Relation\Type\Artist\Place\EducationalInstitutionConnection;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship links a musician to the music school(s) they taught at.
@@ -17,10 +16,10 @@ class TaughtAt extends EducationalInstitutionConnection
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('taught at');
+        return 'taught at';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\RemixesAndCompilations;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\RemixesAndCompilations;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link a release group containing a DJ-mixed version of a release to the release group containing the
@@ -18,10 +17,10 @@ class DJMix extends RemixesAndCompilations
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('DJ-mix');
+        return 'DJ-mix';
     }
 }

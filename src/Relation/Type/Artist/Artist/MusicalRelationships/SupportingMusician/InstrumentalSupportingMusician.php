@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships\SupportingMusician;
 
 use MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships\SupportingMusician;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates a musician doing long-time instrumental support for another one on albums and/or at concerts. This is a
@@ -19,10 +18,10 @@ class InstrumentalSupportingMusician extends SupportingMusician
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('instrumental supporting musician');
+        return 'instrumental supporting musician';
     }
 }

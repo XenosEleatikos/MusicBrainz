@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Series;
 
 use MusicBrainz\Relation\Type\Label\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * This allows linking a series to the label who publishes it.
@@ -17,10 +16,10 @@ class PublishesSeries extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('publishes series');
+        return 'publishes series';
     }
 }

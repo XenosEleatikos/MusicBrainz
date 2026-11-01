@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-
 trait UrlStringTrait
 {
     use AbstractAdderTrait;
@@ -25,10 +23,12 @@ trait UrlStringTrait
      *
      * @param string $url
      *
-     * @return Phrase
+     * @return static
      */
-    public function addUrl(string $url): Phrase
+    public function addUrl(string $url): static
     {
-        return $this->addPhrase($url, self::urlString());
+        $this->addPhrase($url, self::urlString());
+
+        return $this;
     }
 }

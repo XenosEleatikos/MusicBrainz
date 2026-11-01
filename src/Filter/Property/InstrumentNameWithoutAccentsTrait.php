@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait InstrumentNameWithoutAccentsTrait
 {
@@ -26,10 +25,12 @@ trait InstrumentNameWithoutAccentsTrait
      *
      * @param Name $instrumentName
      *
-     * @return Phrase
+     * @return static
      */
-    public function addInstrumentNameWithoutAccents(Name $instrumentName): Phrase
+    public function addInstrumentNameWithoutAccents(Name $instrumentName): static
     {
-        return $this->addPhrase((string) $instrumentName, self::instrumentNameWithoutAccents());
+        $this->addPhrase((string) $instrumentName, self::instrumentNameWithoutAccents());
+
+        return $this;
     }
 }

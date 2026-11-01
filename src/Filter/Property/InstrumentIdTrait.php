@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait InstrumentIdTrait
@@ -26,10 +25,12 @@ trait InstrumentIdTrait
      *
      * @param MBID $instrumentId
      *
-     * @return Term
+     * @return static
      */
-    public function addInstrumentId(MBID $instrumentId): Term
+    public function addInstrumentId(MBID $instrumentId): static
     {
-        return $this->addTerm((string) $instrumentId, self::instrumentId());
+        $this->addTerm((string) $instrumentId, self::instrumentId());
+
+        return $this;
     }
 }

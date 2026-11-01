@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release;
 
 use MusicBrainz\Relation\Type\Label\Release;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the rights society associated with a release. The rights society is an organization which collects
@@ -18,10 +17,10 @@ class RightsSociety extends Release
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('rights society');
+        return 'rights society';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Release\ManufacturedAt;
 
 use MusicBrainz\Relation\Type\Place\Release\ManufacturedAt;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the place it was pressed at.
@@ -17,10 +16,10 @@ class PressedAt extends ManufacturedAt
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('pressed at');
+        return 'pressed at';
     }
 }

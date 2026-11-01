@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Release\Release\CoversAndVersions;
 
 use MusicBrainz\Relation\Type\Release\Release\CoversAndVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This links two releases, where one is a remaster of the other. This is usually done to improve the audio quality or
@@ -19,10 +18,10 @@ class Remaster extends CoversAndVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('remaster');
+        return 'remaster';
     }
 }

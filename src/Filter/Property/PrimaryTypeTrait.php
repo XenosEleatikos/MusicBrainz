@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\PrimaryReleaseTypeKind;
 
 trait PrimaryTypeTrait
@@ -26,10 +25,12 @@ trait PrimaryTypeTrait
      *
      * @param PrimaryReleaseTypeKind $primaryType The primary release type of the release group
      *
-     * @return Phrase
+     * @return static
      */
-    public function addPrimaryType(PrimaryReleaseTypeKind $primaryType): Phrase
+    public function addPrimaryType(PrimaryReleaseTypeKind $primaryType): static
     {
-        return $this->addPhrase($primaryType->value, self::primaryType());
+        $this->addPhrase($primaryType->value, self::primaryType());
+
+        return $this;
     }
 }

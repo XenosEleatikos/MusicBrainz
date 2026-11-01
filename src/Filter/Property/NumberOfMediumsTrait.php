@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Count;
+use MusicBrainz\Filter\Value\Count;
 
 trait NumberOfMediumsTrait
 {
@@ -26,10 +25,12 @@ trait NumberOfMediumsTrait
      *
      * @param Count $numberOfMediums The number of mediums
      *
-     * @return Term
+     * @return static
      */
-    public function addNumberOfMediums(Count $numberOfMediums): Term
+    public function addNumberOfMediums(Count $numberOfMediums): static
     {
-        return $this->addTerm((string) $numberOfMediums, self::numberOfMediums());
+        $this->addTerm((string) $numberOfMediums, self::numberOfMediums());
+
+        return $this;
     }
 }

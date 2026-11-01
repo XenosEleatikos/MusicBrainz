@@ -41,10 +41,10 @@ use MusicBrainz\MusicBrainz;
 use MusicBrainz\Supplement\Browse;
 use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Supplement\Lookup;
-use MusicBrainz\Value\ASIN;
+use MusicBrainz\Filter\Value\ASIN;
 use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\Name;
-use MusicBrainz\Value\Title;
+use MusicBrainz\Filter\Value\Name;
+use MusicBrainz\Filter\Value\Title;
 
 /** Enables every include flag except the ones requiring authentication (user-*). */
 $full = static function (Fields $fields): Fields {

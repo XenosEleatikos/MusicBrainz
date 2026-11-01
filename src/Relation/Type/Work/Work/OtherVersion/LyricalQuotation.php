@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Work\Work\OtherVersion;
 
 use MusicBrainz\Relation\Type\Work\Work\OtherVersion;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used when a work includes a brief quotation of the lyrics of another work. In most cases the quotation is
@@ -19,10 +18,10 @@ class LyricalQuotation extends OtherVersion
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('lyrical quotation');
+        return 'lyrical quotation';
     }
 }

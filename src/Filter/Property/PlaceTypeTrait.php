@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
 use MusicBrainz\Value\PlaceTypeKind;
 
 trait PlaceTypeTrait
@@ -26,10 +25,12 @@ trait PlaceTypeTrait
      *
      * @param PlaceTypeKind $placeType The type of place
      *
-     * @return Phrase
+     * @return static
      */
-    public function addPlaceType(PlaceTypeKind $placeType): Phrase
+    public function addPlaceType(PlaceTypeKind $placeType): static
     {
-        return $this->addPhrase($placeType->value, self::placeType());
+        $this->addPhrase($placeType->value, self::placeType());
+
+        return $this;
     }
 }

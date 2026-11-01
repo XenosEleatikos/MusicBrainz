@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Work\Work\OtherVersion\Arrangement;
 
 use MusicBrainz\Relation\Type\Work\Work\OtherVersion\Arrangement;
-use MusicBrainz\Value\Name;
 
 /**
  * This links two works where one work is an orchestration of the other.
@@ -17,10 +16,10 @@ class Orchestration extends Arrangement
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('orchestration');
+        return 'orchestration';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Release\Release;
 
 use MusicBrainz\Relation\Type\Release\Release;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that a release was released in support of another release. This allows a release to be linked to its
@@ -19,10 +18,10 @@ class SupportingRelease extends Release
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('supporting release');
+        return 'supporting release';
     }
 }

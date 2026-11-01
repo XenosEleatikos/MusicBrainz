@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Instrument\Instrument\Children;
 
 use MusicBrainz\Relation\Type\Instrument\Instrument\Children;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that an instrument (often an ensemble or family) consists of two or more other instruments.
@@ -17,10 +16,10 @@ class Parts extends Children
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('parts');
+        return 'parts';
     }
 }

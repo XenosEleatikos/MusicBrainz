@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release\Publishing;
 
 use MusicBrainz\Relation\Type\Label\Release\Publishing;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship indicates the label is the copyright holder for this release, usually indicated with a © symbol.
@@ -17,10 +16,10 @@ class Copyright extends Publishing
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('copyright');
+        return 'copyright';
     }
 }

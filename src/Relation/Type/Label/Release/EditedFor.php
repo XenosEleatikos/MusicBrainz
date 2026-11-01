@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release;
 
 use MusicBrainz\Relation\Type\Label\Release as Base;
-use MusicBrainz\Value\Name;
 
 /**
  * Use this relationship for credits like “Recording was edited by X for Label”.
@@ -17,10 +16,10 @@ class EditedFor extends Base
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('edited for');
+        return 'edited for';
     }
 }

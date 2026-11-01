@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer\Recording;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Production\Engineer\Recording;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates a recording engineer that recorded field recordings for the recording.
@@ -17,10 +16,10 @@ class FieldRecordist extends Recording
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('field recordist');
+        return 'field recordist';
     }
 }

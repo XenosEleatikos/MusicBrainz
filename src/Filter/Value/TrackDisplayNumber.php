@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Value;
+namespace MusicBrainz\Filter\Value;
 
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
@@ -10,9 +10,9 @@ use Stringable;
 use function trim;
 
 /**
- * AnnotationText
+ * TrackDisplayNumber
  */
-final readonly class AnnotationText implements Stringable
+final readonly class TrackDisplayNumber implements Stringable
 {
     /**
      * @param string $value The value
@@ -22,7 +22,7 @@ final readonly class AnnotationText implements Stringable
     public function __construct(public string $value)
     {
         if ('' === trim($value)) {
-            throw new InvalidArgumentException('AnnotationText must not be empty');
+            throw new InvalidArgumentException('TrackDisplayNumber must not be empty');
         }
     }
 

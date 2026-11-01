@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Release;
 
 use MusicBrainz\Relation\Type\Recording\Release;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates that the recording contains samples from this release.
@@ -17,10 +16,10 @@ class SamplesMaterial extends Release
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('samples material');
+        return 'samples material';
     }
 }
