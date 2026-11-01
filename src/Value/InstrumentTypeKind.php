@@ -14,4 +14,5 @@ enum InstrumentTypeKind: string
     case PercussionInstrument = 'Percussion instrument';
     case ElectronicInstrument = 'Electronic instrument';
     case OtherInstrument = 'Other instrument';
+    case Ensemble = 'Ensemble';
 }

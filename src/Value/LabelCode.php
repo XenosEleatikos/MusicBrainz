@@ -64,7 +64,7 @@ class LabelCode implements Value
     {
         return ($this->isValidLabelCode($labelCode))
             ? 'LC-' . str_pad(
-                (string) abs(filter_var($labelCode, FILTER_SANITIZE_NUMBER_INT)), // @phpstan-ignore-line
+                (string) abs((int) filter_var($labelCode, FILTER_SANITIZE_NUMBER_INT)),
                 5,
                 '0',
                 STR_PAD_LEFT

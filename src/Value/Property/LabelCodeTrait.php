@@ -7,6 +7,7 @@ namespace MusicBrainz\Value\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\LabelCode;
 
+use function is_int;
 use function is_null;
 
 /**
@@ -40,7 +41,12 @@ trait LabelCodeTrait
      */
     private function setLabelCodeFromArray(array $input): void
     {
-        $this->labelCode = is_null($labelCode = ArrayAccess::getString($input, 'label-code'))
+        // The web service delivers the label code as number (e.g. 295), older responses may contain a string.
+        $labelCode = isset($input['label-code']) && is_int($input['label-code'])
+            ? (string) $input['label-code']
+            : ArrayAccess::getString($input, 'label-code');
+
+        $this->labelCode = is_null($labelCode)
             ? new LabelCode()
             : new LabelCode($labelCode);
     }

@@ -23,4 +23,5 @@ enum PackagingKind: string
     case DiscboxSlider = 'Discbox Slider';
     case Other = 'Other';
     case None = 'None';
+    case Box = 'Box';
 }

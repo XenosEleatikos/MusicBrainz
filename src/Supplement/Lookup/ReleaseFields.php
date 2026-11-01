@@ -12,7 +12,6 @@ class ReleaseFields extends Fields
     use \MusicBrainz\Supplement\Field\CollectionsTrait;
     use \MusicBrainz\Supplement\Field\LabelsTrait;
     use \MusicBrainz\Supplement\Field\RecordingsTrait;
-    use \MusicBrainz\Supplement\Field\ReleasesTrait;
 
     use \MusicBrainz\Supplement\Field\MediaTrait;
     use \MusicBrainz\Supplement\Field\ArtistCreditsTrait;

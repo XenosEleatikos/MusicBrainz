@@ -243,7 +243,7 @@ class Search
         $params   = $this->getParameters($tagFilter, $pageFilter);
         $response = $this->httpAdapter->call('tag' . '/', $this->config, $params);
 
-        return new TagListPage($response);
+        return TagListPage::make($response, 'tag');
     }
 
     /**
@@ -261,7 +261,7 @@ class Search
         $params   = $this->getParameters($workFilter, $pageFilter);
         $response = $this->httpAdapter->call('work' . '/', $this->config, $params, false);
 
-        return new WorkListPage($response);
+        return WorkListPage::make($response, 'work');
     }
 
     /**
