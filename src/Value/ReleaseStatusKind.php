@@ -17,4 +17,5 @@ enum ReleaseStatusKind: string
     case PseudoRelease = 'Pseudo-Release';
     case Withdrawn = 'Withdrawn';
     case Cancelled = 'Cancelled';
+    case Expunged = 'Expunged';
 }

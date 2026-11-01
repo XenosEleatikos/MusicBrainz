@@ -19,4 +19,5 @@ enum LabelTypeKind: string
     case RightsSociety = 'Rights Society';
     case Imprint = 'Imprint';
     case Manufacturer = 'Manufacturer';
+    case Broadcaster = 'Broadcaster';
 }

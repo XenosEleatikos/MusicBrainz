@@ -27,4 +27,11 @@ enum PackagingKind: string
     case Slipcase = 'Slipcase';
     case PlasticSleeve = 'Plastic Sleeve';
     case Slidepack = 'Slidepack';
+    case ClamshellCase = 'Clamshell Case';
+    case Digibook = 'Digibook';
+    case Digifile = 'Digifile';
+    case Longbox = 'Longbox';
+    case MetalTin = 'Metal Tin';
+    case SnapPack = 'SnapPack';
+    case SuperJewelBox = 'Super Jewel Box';
 }

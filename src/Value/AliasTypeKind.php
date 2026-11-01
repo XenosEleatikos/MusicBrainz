@@ -23,4 +23,5 @@ enum AliasTypeKind: string
     case ReleaseName = 'Release name';
     case ReleaseGroupName = 'Release group name';
     case SeriesName = 'Series name';
+    case BrandName = 'Brand name';
 }

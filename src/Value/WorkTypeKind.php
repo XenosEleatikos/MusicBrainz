@@ -28,7 +28,7 @@ enum WorkTypeKind: string
     case Song = 'Song';
     case SymphonicPoem = 'Symphonic poem';
     case Zarzuela = 'Zarzuela';
-    case Tude = 'Étude';
+    case Etude = 'Étude';
     case Poem = 'Poem';
     case Soundtrack = 'Soundtrack';
     case Prose = 'Prose';
