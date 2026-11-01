@@ -19,7 +19,7 @@ use MusicBrainz\Filter\Search\ReleaseFilter;
 use MusicBrainz\Filter\Search\ReleaseGroupFilter;
 use MusicBrainz\Filter\Search\TagFilter;
 use MusicBrainz\Filter\Search\WorkFilter;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
 use MusicBrainz\Value\Page\SearchResult\AnnotationListPage;
 use MusicBrainz\Value\Page\SearchResult\AreaListPage;
 use MusicBrainz\Value\Page\SearchResult\ArtistListPage;
@@ -43,9 +43,9 @@ class Search
     /**
      * An HTTP adapter
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $httpAdapter;
 
     /**
      * The API client configuration
@@ -57,10 +57,10 @@ class Search
     /**
      * Constructs the search API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
+     * @param ApiClient $httpAdapter An HTTP adapter
      * @param Config              $config      The API client configuration
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $httpAdapter, Config $config)
     {
         $this->httpAdapter = $httpAdapter;
         $this->config      = $config;

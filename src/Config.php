@@ -10,18 +10,22 @@ namespace MusicBrainz;
 class Config
 {
     /**
-     * The username of a MusicBrainz account
+     * An OAuth2 access token, required for user specific data (user-tags, user-ratings, user-genres, private
+     * collections).
      *
-     * @var string
+     * @see https://musicbrainz.org/doc/Development/OAuth2
      */
-    private string $username;
+    private ?string $accessToken = null;
 
     /**
-     * The password of a MusicBrainz account
-     *
-     * @var string
+     * Minimum interval between two requests in seconds. MusicBrainz allows one request per second per IP address.
      */
-    private string $password;
+    private float $minRequestInterval = 1.0;
+
+    /**
+     * Maximum number of retries if the web service answers with HTTP 503.
+     */
+    private int $maxRetries = 2;
 
     /**
      * The user agent
@@ -30,7 +34,7 @@ class Config
      *
      * @var string
      */
-    private string $userAgent = 'https://github.com/XenosEleatikos/MusicBrainz';
+    private string $userAgent = 'XenosMusicBrainz/2 ( https://github.com/XenosEleatikos/MusicBrainz )';
 
     /**
      * URL of the MusicBrainz API
@@ -39,50 +43,38 @@ class Config
      */
     private string $apiUrl = 'https://musicbrainz.org/ws/2';
 
-    /**
-     * Returns the username.
-     *
-     * @return string
-     */
-    public function getUsername(): string
+    public function getAccessToken(): ?string
     {
-        return $this->username;
+        return $this->accessToken;
     }
 
-    /**
-     * Sets the username.
-     *
-     * @param string $username The username
-     *
-     * @return self
-     */
-    public function setUsername(string $username): self
+    public function setAccessToken(?string $accessToken): self
     {
-        $this->username = $username;
+        $this->accessToken = $accessToken;
 
         return $this;
     }
 
-    /**
-     * Returns the password.
-     *
-     * @return string
-     */
-    public function getPassword(): string
+    public function getMinRequestInterval(): float
     {
-        return $this->password;
+        return $this->minRequestInterval;
     }
 
-    /**
-     * Sets the password.
-     *
-     * @param string $password The password
-     *
-     * @return self
-     */
-    public function setPassword(string $password): self
+    public function setMinRequestInterval(float $seconds): self
     {
-        $this->password = $password;
+        $this->minRequestInterval = $seconds;
+
+        return $this;
+    }
+
+    public function getMaxRetries(): int
+    {
+        return $this->maxRetries;
+    }
+
+    public function setMaxRetries(int $maxRetries): self
+    {
+        $this->maxRetries = $maxRetries;
 
         return $this;
     }

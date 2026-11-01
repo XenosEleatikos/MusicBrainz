@@ -49,7 +49,7 @@ class ArtistTest extends ApiTestCase
             'artist/',
             [
                 'fmt'    => 'json',
-                'query'  => 'artist:Waite',
+                'query'  => 'artist:"Waite"',
                 'limit'  => 25,
                 'offset' => 0,
             ],

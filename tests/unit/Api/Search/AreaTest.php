@@ -53,7 +53,7 @@ class AreaTest extends ApiTestCase
                 'limit'  => 5,
                 'offset' => 0,
                 'fmt'    => 'json',
-                'query' => 'area:Leipzig',
+                'query' => 'area:"Leipzig"',
             ],
             'Search/Area.json'
         );

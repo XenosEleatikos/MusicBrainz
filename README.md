@@ -6,9 +6,10 @@ This project contains an easy to use PHP API client for the [MusicBrainz JSON we
     - [Install with Git](#install-with-git)
     - [Install with Composer](#install-with-composer)
 - [Set up](#set-up)
-    - [HTTP Adapter](#http-adapter)
+    - [HTTP client](#http-client)
     - [Logger](#logger)
-    - [MusicBrainz Credentials](#musicbrainz-credentials)
+    - [User agent and rate limit](#user-agent-and-rate-limit)
+    - [Authentication](#authentication)
 - [Usage](#usage)
     - [Search Requests](#search-requests)
     - [Lookup Requests](#lookup-requests)
@@ -30,61 +31,51 @@ composer require xenos/musicbrainz
 
 ## Set up
 
-### HTTP Adapter
-As an HTTP client is necessary to the the MusicBrainz API client, you have to provide it as constructor argument. You
-may use any HTTP client by using an adapter instantiating ```MusicBrainz\AbstractHttpAdapter```. This projects delivers
-an adapter for [Guzzle 6](http://docs.guzzlephp.org/en/stable/), but you may write your own adapter for your preferred
-HTTP client.
-
-Usage with Guzzle:
+### HTTP client
+The library requires **PHP 8.3+** and works with any [PSR-18](https://www.php-fig.org/psr/psr-18/) HTTP client together
+with a [PSR-17](https://www.php-fig.org/psr/psr-17/) request factory. Example with the Symfony HTTP client and Nyholm's
+PSR-7 implementation:
 
 ```php
 <?php
 use MusicBrainz\MusicBrainz;
-use MusicBrainz\HttpAdapter\GuzzleHttpAdapter;
-use GuzzleHttp\Client;
+use Nyholm\Psr7\Factory\Psr17Factory;
+use Symfony\Component\HttpClient\Psr18Client;
 
-$guzzleHttpAdapter = new GuzzleHttpAdapter(new Client);
-$musicBrainz       = new MusicBrainz($guzzleHttpAdapter);
+$musicBrainz = new MusicBrainz(new Psr18Client(), new Psr17Factory());
 ```
 
-Don't forget to add ``Guzzle`` to your composer project, if not yet required.
 ```bash
-composer require guzzlehttp/guzzle
+composer require symfony/http-client nyholm/psr7
 ```
+
+Guzzle (`guzzlehttp/guzzle` with `guzzlehttp/psr7`) or any other PSR-18 client works the same way.
 
 ### Logger
-Optionally, you may set any PSR-3 logger implementing [```Psr\Log\LoggerInterface```](http://www.php-fig.org/psr/psr-3/)
-by injecting it as a second constructor argument.
-
-Usage with Guzzle and Monolog:
+Optionally, you may set any [PSR-3](http://www.php-fig.org/psr/psr-3/) logger as third constructor argument:
 
 ```php
 <?php
-use Monolog\Logger;
-use MusicBrainz\MusicBrainz;
-use MusicBrainz\HttpAdapter\GuzzleHttpAdapter;
-use GuzzleHttp\Client;
-
-$guzzleHttpAdapter = new GuzzleHttpAdapter(new Client);
-$logger            = new Logger('MusicBrainz API Client Logger');
-$musicBrainz       = new MusicBrainz($guzzleHttpAdapter, $logger);
+$musicBrainz = new MusicBrainz(new Psr18Client(), new Psr17Factory(), $logger);
 ```
 
-Don't forget to add ``Monolog`` to your composer project, if not yet required.
-```bash
-composer require monolog/monolog
-```
-
-### MusicBrainz Credentials
-All requests for ``user-tags`` or ``user-ratings`` require authentication.
+### User agent and rate limit
+MusicBrainz requires a meaningful user agent and allows one request per second. The client throttles requests
+automatically and retries on HTTP 503. Please set the name and contact of your application:
 
 ```php
 <?php
-/** @var \MusicBrainz\MusicBrainz $musicBrainz*/
-$musicBrainz->config()
-    ->setUsername('myUsername')
-    ->setPassword('myPassword');
+$musicBrainz->config()->setUserAgent('MyApp/1.0 ( https://example.com/contact )');
+```
+
+### Authentication
+Requests for ``user-tags``, ``user-ratings``, ``user-genres`` and private collections require an
+[OAuth2](https://musicbrainz.org/doc/Development/OAuth2) access token. (HTTP digest authentication is deprecated by
+MusicBrainz and not supported.)
+
+```php
+<?php
+$musicBrainz->config()->setAccessToken('my-oauth2-access-token');
 ```
 
 ### Custom API Path

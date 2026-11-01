@@ -43,7 +43,7 @@ class CdStubTest extends ApiTestCase
             'cdstub/',
             [
                 'fmt'    => 'json',
-                'query'  => 'title:Doo',
+                'query'  => 'title:"Doo"',
                 'limit'  => 100,
                 'offset' => 0,
             ],

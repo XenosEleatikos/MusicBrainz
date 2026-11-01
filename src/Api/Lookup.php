@@ -5,10 +5,11 @@ declare(strict_types=1);
 namespace MusicBrainz\Api;
 
 use MusicBrainz\Config;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
 use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Supplement\Lookup\AreaFields;
 use MusicBrainz\Supplement\Lookup\ArtistFields;
+use MusicBrainz\Supplement\Lookup\CollectionFields;
 use MusicBrainz\Supplement\Lookup\EventFields;
 use MusicBrainz\Supplement\Lookup\InstrumentFields;
 use MusicBrainz\Supplement\Lookup\LabelFields;
@@ -34,7 +35,6 @@ use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\Series;
 use MusicBrainz\Value\URL;
 use MusicBrainz\Value\Work;
-use src\Supplement\Lookup\CollectionFields;
 
 /**
  * Lookups are direct queries for entities specified by a MusicBrainz Identifier (MBID).
@@ -46,9 +46,9 @@ class Lookup
     /**
      * An HTTP adapter
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $httpAdapter;
 
     /**
      * The API client configuration
@@ -60,10 +60,10 @@ class Lookup
     /**
      * Constructs the search API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
+     * @param ApiClient $httpAdapter An HTTP adapter
      * @param Config              $config      The API client configuration
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $httpAdapter, Config $config)
     {
         $this->httpAdapter = $httpAdapter;
         $this->config      = $config;
@@ -285,12 +285,12 @@ class Lookup
             $params['inc'] = $includes;
         }
 
-        $authRequired = $authRequired || stripos($includes, 'user');
+        $authRequired = $authRequired || str_contains($includes, 'user-');
 
         $response = $this->httpAdapter->call(
-            str_replace('_', '-', (string) $entityType) .
-            '/' .
-            $mbid,
+            str_replace('_', '-', (string) $entityType)
+            . '/'
+            . $mbid,
             $this->config,
             $params,
             $authRequired

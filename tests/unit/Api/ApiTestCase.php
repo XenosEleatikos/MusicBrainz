@@ -4,64 +4,63 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Api;
 
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Config;
 use MusicBrainz\MusicBrainz;
+use MusicBrainz\Test\Support\FakeHttpClient;
+use Nyholm\Psr7\Factory\Psr17Factory;
 use PHPUnit\Framework\TestCase;
-use PHPUnit_Framework_MockObject_MockObject;
+
+use function file_get_contents;
+use function parse_str;
 
 /**
- * Unit tests for the lookup API.
+ * Base class for API tests: serves recorded fixtures through a fake PSR-18 client, so tests run offline.
  */
 abstract class ApiTestCase extends TestCase
 {
-    /**
-     * A mock object of the abstract HTTP adapter
-     *
-     * @var PHPUnit_Framework_MockObject_MockObject|AbstractHttpAdapter
-     */
-    private AbstractHttpAdapter $httpAdapter;
+    protected FakeHttpClient $httpClient;
 
-    /**
-     * The MusicBrainz API client
-     *
-     * @var MusicBrainz
-     */
     protected MusicBrainz $musicBrainz;
 
-    /**
-     * Sets up a mock object of the abstract HTTP adapter and the MusicBrainz API client to be tested.
-     *
-     * @return void
-     */
-    public function setUp(): void
+    protected function setUp(): void
     {
-        $this->httpAdapter = $this->getMockBuilder('\MusicBrainz\HttpAdapter\AbstractHttpAdapter')
-            ->onlyMethods(['call'])
-            ->getMockForAbstractClass();
-
-        $this->musicBrainz = new \MusicBrainz\MusicBrainz($this->httpAdapter);
+        $this->httpClient  = new FakeHttpClient();
+        $this->musicBrainz = new MusicBrainz(
+            $this->httpClient,
+            new Psr17Factory(),
+            config: (new Config())->setMinRequestInterval(0.0)->setAccessToken('test-token'),
+        );
     }
 
     /**
-     * Setting up the mock object of the abstract HTTP adapter by expecting an API call and defining a fixture as result.
+     * Queues a fixture as response and asserts the request when the test is done.
      *
-     * @param string $path       An expected path
-     * @param array  $parameters A list of expected parameters
-     * @param string $fixture    A fixture placed in Fixtures/Search
-     *
-     * @return void
+     * @param string               $path       Expected path (relative to the API URL)
+     * @param array<string,string> $parameters Expected query parameters (fmt=json is added implicitly)
+     * @param string               $fixture    A fixture file relative to tests/unit/Fixtures
      */
     protected function expectApiCall(string $path, array $parameters, string $fixture): void
     {
-        $this->httpAdapter->expects($this->once())
-            ->method('call')
-            ->with(
-                $path,
-                $this->musicBrainz->config(),
-                $parameters
-            )
-            ->willReturn(
-                json_decode(file_get_contents(__DIR__ . '/../Fixtures/' . $fixture), true)
-            );
+        $this->httpClient->queueJson((string) file_get_contents(__DIR__ . '/../Fixtures/' . $fixture));
+        $this->expected = [$path, $parameters];
+    }
+
+    /** @var array{0:string,1:array<string,string>}|null */
+    private ?array $expected = null;
+
+    protected function assertPostConditions(): void
+    {
+        if (null === $this->expected) {
+            return;
+        }
+        [$path, $parameters] = $this->expected;
+        self::assertCount(1, $this->httpClient->requests);
+        $uri = $this->httpClient->requests[0]->getUri();
+        self::assertSame('/ws/2/' . $path, $uri->getPath());
+        parse_str($uri->getQuery(), $actual);
+        $parameters = array_map(strval(...), $parameters + ['fmt' => 'json']);
+        ksort($parameters);
+        ksort($actual);
+        self::assertSame($parameters, $actual);
     }
 }

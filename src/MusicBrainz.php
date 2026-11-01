@@ -4,50 +4,43 @@ declare(strict_types=1);
 
 namespace MusicBrainz;
 
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
+use Psr\Http\Client\ClientInterface;
+use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
-
-use function is_null;
 
 /**
  * The library's main class
  */
 class MusicBrainz
 {
-    /**
-     * The Http adapter used to make requests
-     *
-     * @var AbstractHttpAdapter
-     */
-    private AbstractHttpAdapter $adapter;
+    private readonly ApiClient $apiClient;
+
+    private readonly Config $config;
 
     /**
-     * A set of configuration.
-     *
-     * @var Config
-     */
-    private Config $config;
-
-    /**
-     * A logger
-     *
-     * @var LoggerInterface
+     * A logger. Static, because value objects log unexpected API data while parsing.
      */
     private static LoggerInterface $logger;
 
     /**
      * Constructs the MusicBrainz API client.
      *
-     * @param AbstractHttpAdapter  $adapter The Http adapter used to make requests
-     * @param null|LoggerInterface $logger  A logger
-     * @param null|Config          $config  A set of configuration
+     * @param ClientInterface         $client         Any PSR-18 HTTP client
+     * @param RequestFactoryInterface $requestFactory Any PSR-17 request factory
+     * @param null|LoggerInterface    $logger         A PSR-3 logger
+     * @param null|Config             $config         A set of configuration
      */
-    public function __construct(AbstractHttpAdapter $adapter, LoggerInterface $logger = null, Config $config = null)
-    {
-        $this->adapter = $adapter;
-        $this->config  = $config ?? new Config();
-        self::setLogger($logger);
+    public function __construct(
+        ClientInterface $client,
+        RequestFactoryInterface $requestFactory,
+        ?LoggerInterface $logger = null,
+        ?Config $config = null,
+    ) {
+        $this->apiClient = new ApiClient($client, $requestFactory);
+        $this->config    = $config ?? new Config();
+        self::$logger    = $logger ?? new NullLogger();
     }
 
     /**
@@ -57,7 +50,7 @@ class MusicBrainz
      */
     public function api(): Api
     {
-        return new Api($this->adapter, $this->config());
+        return new Api($this->apiClient, $this->config());
     }
 
     /**
@@ -77,19 +70,6 @@ class MusicBrainz
      */
     public static function log(): LoggerInterface
     {
-        return self::$logger;
-    }
-
-    /**
-     * Sets a given logger statically and returns it. Creates a new null object logger, sets it statically and returns
-     * it, if no logger was given.
-     *
-     * @param null|LoggerInterface $logger A logger
-     *
-     * @return LoggerInterface
-     */
-    private static function setLogger(LoggerInterface $logger = null): LoggerInterface
-    {
-        return self::$logger = is_null($logger) ? new NullLogger() : $logger;
+        return self::$logger ??= new NullLogger();
     }
 }

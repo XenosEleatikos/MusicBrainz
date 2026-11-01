@@ -69,7 +69,7 @@ class ReleaseTest extends ApiTestCase
             'release/',
             [
                 'fmt'    => 'json',
-                'query'  => 'arid:172e1f1a-504d-4488-b053-6344ba63e6d0',
+                'query'  => 'arid:172e1f1a\\-504d\\-4488\\-b053\\-6344ba63e6d0',
                 'limit'  => 25,
                 'offset' => 0,
             ],

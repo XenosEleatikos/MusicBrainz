@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src\Supplement\Lookup;
+namespace MusicBrainz\Supplement\Lookup;
 
 use MusicBrainz\Supplement\Fields;
 

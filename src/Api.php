@@ -7,7 +7,7 @@ namespace MusicBrainz;
 use MusicBrainz\Api\Browse;
 use MusicBrainz\Api\Lookup;
 use MusicBrainz\Api\Search;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
 
 /**
  * Provides methods to get classes for each type of API call: browse, lookup and search.
@@ -19,9 +19,9 @@ class Api
     /**
      * An HTTP adapter
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $httpAdapter;
 
     /**
      * The API client configuration
@@ -33,10 +33,10 @@ class Api
     /**
      * Constructs the search API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
+     * @param ApiClient $httpAdapter An HTTP adapter
      * @param Config              $config      The API client configuration
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $httpAdapter, Config $config)
     {
         $this->httpAdapter = $httpAdapter;
         $this->config      = $config;

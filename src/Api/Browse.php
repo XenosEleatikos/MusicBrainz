@@ -19,7 +19,7 @@ use MusicBrainz\Filter\Browse\Relation\Entity\ReleaseRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\SeriesRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\WorkRelation;
 use MusicBrainz\Filter\PageFilter;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
 use MusicBrainz\Supplement\Browse\AreaFields;
 use MusicBrainz\Supplement\Browse\ArtistFields;
 use MusicBrainz\Supplement\Browse\CollectionFields;
@@ -57,9 +57,9 @@ class Browse
     /**
      * An HTTP adapter
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $httpAdapter;
 
     /**
      * The API client configuration
@@ -71,10 +71,10 @@ class Browse
     /**
      * Constructs the browse API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
+     * @param ApiClient $httpAdapter An HTTP adapter
      * @param Config              $config      The API client configuration
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $httpAdapter, Config $config)
     {
         $this->httpAdapter = $httpAdapter;
         $this->config      = $config;

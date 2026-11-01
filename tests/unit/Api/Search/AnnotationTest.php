@@ -49,7 +49,7 @@ class AnnotationTest extends ApiTestCase
                 'limit'  => 5,
                 'offset' => 0,
                 'fmt'    => 'json',
-                'query'  => 'text:awesome',
+                'query'  => 'text:"awesome"',
             ],
             'Search/Annotation.json'
         );

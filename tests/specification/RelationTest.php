@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace MusicBrainz\SpecificationTest;
 
 use DirectoryIterator;
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 use SplFileInfo;
+use Symfony\Component\HttpClient\HttpClient;
+use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
 use function array_keys;
@@ -23,13 +23,13 @@ use function ucfirst;
 
 class RelationTest extends TestCase
 {
-    private Client $client;
+    private HttpClientInterface $client;
 
     protected function setUp(): void
     {
         parent::setUp();
 
-        $this->client = new Client();
+        $this->client = HttpClient::create(['headers' => ['User-Agent' => 'XenosMusicBrainz/2-dev ( https://github.com/XenosEleatikos/MusicBrainz )']]);
     }
 
     /**
@@ -40,12 +40,11 @@ class RelationTest extends TestCase
      *
      * @return string[] Links to overview pages for each relationship type (area-area, area-event...)
      *
-     * @throws GuzzleException
      */
     public function testCountPossibleRelationshipTypes(): array
     {
-        $response = $this->client->get('https://musicbrainz.org/relationships');
-        $crawler = new Crawler($response->getBody()->getContents());
+        $response = $this->client->request('GET', 'https://musicbrainz.org/relationships');
+        $crawler = new Crawler($response->getContent());
         $links = $crawler->filterXPath('//a');
 
         foreach ($links as $link) {
@@ -72,13 +71,12 @@ class RelationTest extends TestCase
      * @return array<string, Crawler> Links to overview pages for each relationship type (area-area, area-event...)
      *                                and associated crawler
      *
-     * @throws GuzzleException
      */
     public function testCountActualRelationshipTypes(array $hrefs): array
     {
         foreach ($hrefs as $href) {
-            $response = $this->client->get('https://musicbrainz.org/' . $href);
-            $crawler = new Crawler($response->getBody()->getContents());
+            $response = $this->client->request('GET', 'https://musicbrainz.org/' . $href);
+            $crawler = new Crawler($response->getContent());
             /**
              * For some combination of entities, there are no relations defined. We can ignore these pages.
              *
