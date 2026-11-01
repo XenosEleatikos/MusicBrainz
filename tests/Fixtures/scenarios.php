@@ -58,13 +58,8 @@ $full = static function (Fields $fields): Fields {
 };
 
 $mbid = static fn(string $id): MBID => new MBID($id);
-/** Creates a browse filter: relation($class, 'artist', <mbid>) */
-$relation = static function (string $class, string $method, string $id): object {
-    $relation = new $class();
-    $relation->$method(new MBID($id));
-
-    return $relation;
-};
+/** Creates a browse relation: relation($class, 'artist', <mbid>) is $class::artist(new MBID(<mbid>)) */
+$relation = static fn(string $class, string $method, string $id): object => $class::$method(new MBID($id));
 $page = static fn(int $limit = 25, int $offset = 0): PageFilter => new PageFilter($offset, $limit);
 
 $scenarios = [];
@@ -259,10 +254,7 @@ $withUser = static function (Fields $fields): Fields {
 };
 $scenarios['auth/lookup/collection/favourite-artists'] = static fn(MusicBrainz $mb) => $mb->api()->lookup()->collection($mbid($collection));
 $scenarios['auth/browse/collection/by-editor'] = static function (MusicBrainz $mb) use ($page, $editor) {
-    $relation = new CollectionRelation();
-    $relation->editor($editor);
-
-    return $mb->api()->browse()->collection($relation, $page(10));
+    return $mb->api()->browse()->collection(CollectionRelation::editor($editor), $page(10));
 };
 // Collections created for these tests (type area, instrument, series); the area and instrument collections are empty
 $scenarios['auth/browse/area/by-collection']       = static fn(MusicBrainz $mb) => $mb->api()->browse()->area($relation(AreaRelation::class, 'collection', 'abde7cff-3493-4c98-bc4a-1647f216331d'), $withUser(new Browse\AreaFields()), $page(10));

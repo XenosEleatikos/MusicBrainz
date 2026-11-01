@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type release.
+ * Provides the relation "linked to a release".
  */
 trait ReleaseTrait
 {
     /**
-     * Defines a relation to a release.
+     * Browses the entities linked to a release.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related release
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the release
      */
-    public function release(MBID $mbid): void
+    public static function release(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(EntityType::Release);
+        return new static(BrowseParameter::Release, $mbid);
     }
 }

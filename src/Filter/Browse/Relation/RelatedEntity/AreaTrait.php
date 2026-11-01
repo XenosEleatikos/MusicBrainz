@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type area.
+ * Provides the relation "linked to an area".
  */
 trait AreaTrait
 {
     /**
-     * Defines a relation to an area.
+     * Browses the entities linked to an area.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related area
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the area
      */
-    public function area(MBID $mbid): void
+    public static function area(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(EntityType::Area);
+        return new static(BrowseParameter::Area, $mbid);
     }
 }

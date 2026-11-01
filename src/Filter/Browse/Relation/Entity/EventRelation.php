@@ -9,7 +9,7 @@ use MusicBrainz\Filter\Browse\Relation\AbstractRelation;
 /**
  * A relation between an event and another entity.
  */
-class EventRelation extends AbstractRelation
+final readonly class EventRelation extends AbstractRelation
 {
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\AreaTrait;
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\ArtistTrait;

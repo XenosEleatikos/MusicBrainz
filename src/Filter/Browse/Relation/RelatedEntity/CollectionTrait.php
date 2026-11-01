@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type collection.
+ * Provides the relation "linked to a collection".
  */
 trait CollectionTrait
 {
     /**
-     * Defines a relation to a collection.
+     * Browses the entities linked to a collection.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related collection
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the collection
      */
-    public function collection(MBID $mbid): void
+    public static function collection(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(EntityType::Collection);
+        return new static(BrowseParameter::Collection, $mbid);
     }
 }

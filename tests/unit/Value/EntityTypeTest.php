@@ -14,13 +14,4 @@ final class EntityTypeTest extends TestCase
         self::assertSame('release-group', EntityType::ReleaseGroup->path());
         self::assertSame('area', EntityType::Area->path());
     }
-
-    public function testBrowseParametersFollowTheWebService(): void
-    {
-        // Recorded: release_group=... is rejected with HTTP 400, release-group=... works; track_artist is documented with
-        // an underscore
-        self::assertSame('release-group', EntityType::ReleaseGroup->browseParameter());
-        self::assertSame('track_artist', EntityType::TrackArtist->browseParameter());
-        self::assertSame('collection', EntityType::Collection->browseParameter());
-    }
 }

@@ -14,7 +14,6 @@ enum EntityType: string
     case Area = 'area';
     case Artist = 'artist';
     case Collection = 'collection';
-    case Editor = 'editor';
     case Event = 'event';
     case Genre = 'genre';
     case Instrument = 'instrument';
@@ -24,8 +23,6 @@ enum EntityType: string
     case Release = 'release';
     case ReleaseGroup = 'release_group';
     case Series = 'series';
-    case Track = 'track';
-    case TrackArtist = 'track_artist';
     case Url = 'url';
     case Work = 'work';
 
@@ -37,12 +34,4 @@ enum EntityType: string
         return str_replace('_', '-', $this->value);
     }
 
-    /**
-     * Returns the name of the query parameter that browse requests use for this entity type. The web service is not
-     * consistent here: "release-group" has a hyphen, "track_artist" an underscore.
-     */
-    public function browseParameter(): string
-    {
-        return self::TrackArtist === $this ? $this->value : $this->path();
-    }
 }

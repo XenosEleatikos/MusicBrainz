@@ -36,8 +36,10 @@ guide in the README.
   not is kept in `name` and logged as warning; `kind()` returns `null`.
 - `ReleaseType`, `ReleaseTypeList` and `AbstractType` were removed, use `PrimaryReleaseType` and
   a list of `SecondaryReleaseType`.
-- Browse filters: `ReleaseRelation::setEntityTypeRelease()` and `setEntityTypeReleaseGroup()` are now `release()` and
-  `releaseGroup()`. `CollectionRelation::editor()` takes the user name of the editor (editors have no MBID).
+- Browse relations are immutable and created with a static constructor of the entity you browse: `ReleaseRelation::artist($mbid)`
+  instead of `(new ReleaseRelation())->artist($mbid)`, so they cannot exist half defined. `setEntityTypeRelease()` and
+  `setEntityTypeReleaseGroup()` are now `release()` and `releaseGroup()`, `CollectionRelation::editor()` takes the user name of
+  the editor (editors have no MBID). The query parameters are the enum `BrowseParameter`; `EntityType` contains only entities.
 - The `add*()` methods of the search filters return the filter (`static`), so calls can be chained, instead of objects of the
   query builder AskLucy; the filter input classes (`Name`, `Count`, `Country`, `LabelCode`, ...) moved to
   `MusicBrainz\Filter\Value`, the results use plain scalars. `Relation\Type::getRelationName()` returns a string.

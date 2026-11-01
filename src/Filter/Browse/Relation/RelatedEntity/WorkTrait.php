@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type work.
+ * Provides the relation "linked to a work".
  */
 trait WorkTrait
 {
     /**
-     * Defines a relation to a work.
+     * Browses the entities linked to a work.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related work
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the work
      */
-    public function work(MBID $mbid): void
+    public static function work(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(EntityType::Work);
+        return new static(BrowseParameter::Work, $mbid);
     }
 }

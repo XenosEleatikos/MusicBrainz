@@ -364,7 +364,7 @@ final class Browse
         $includes = (string) $includes;
 
         $params = [
-            $relation->getEntityType()->browseParameter() => (string) $relation->getEntityId(),
+            $relation->parameter->value => (string) $relation->value,
             'limit' => $pageFilter->limit,
             'offset' => $pageFilter->offset,
             'fmt' => 'json',

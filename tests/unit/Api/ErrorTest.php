@@ -5,9 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Test\Api;
 
 use MusicBrainz\ApiException;
-use MusicBrainz\Filter\Browse\Relation\Entity\ArtistRelation;
 use MusicBrainz\InvalidArgumentException;
-use MusicBrainz\Supplement\Browse\ArtistFields;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Test\Support\RecordedApi;
@@ -59,18 +57,5 @@ final class ErrorTest extends TestCase
         } finally {
             self::assertSame([], $api->http->requests);
         }
-    }
-
-    public function testBrowseWithoutARelatedEntityIsRefusedBeforeARequestIsMade(): void
-    {
-        $api = new RecordedApi();
-
-        try {
-            $api->musicBrainz->api()->browse()->artist(new ArtistRelation(), new ArtistFields(), new PageFilter());
-            self::fail('An exception was expected');
-        } catch (InvalidArgumentException $exception) {
-            self::assertStringContainsString('Define the related entity', $exception->getMessage());
-        }
-        self::assertSame([], $api->http->requests);
     }
 }

@@ -177,8 +177,7 @@ use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Supplement\Browse\EventFields;
 use MusicBrainz\Value\MBID;
 
-$eventRelation = new EventRelation();
-$eventRelation->artist(new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'));
+$eventRelation = EventRelation::artist(new MBID('c3aeb863-7b26-4388-94e8-5a240f2be21b'));
 $eventFields = (new EventFields)
     ->includeTags();
 $pageFilter = new PageFilter(0, 5);
@@ -273,7 +272,8 @@ Version 2 contains breaking changes, the full list is in the [changelog](CHANGEL
    [Types and unknown values](#types-and-unknown-values). `ReleaseType`/`ReleaseTypeList` are replaced by
    `PrimaryReleaseType` and a list of `SecondaryReleaseType`.
 6. **Browse filters.** `setEntityTypeRelease()`/`setEntityTypeReleaseGroup()` are now `release()`/`releaseGroup()`;
-   `CollectionRelation::editor()` takes the user name.
+   `CollectionRelation::editor()` takes the user name. Browse relations are immutable objects created with a static
+   constructor: `ReleaseRelation::artist($mbid)` instead of `(new ReleaseRelation())->artist($mbid)`.
 
 ## Development
 See [CONTRIBUTING.md](CONTRIBUTING.md). The unit tests run offline against real, recorded responses of the web service.
