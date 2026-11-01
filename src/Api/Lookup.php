@@ -107,7 +107,7 @@ class Lookup
      */
     public function collection(MBID $mbid): Collection
     {
-        $result = $this->lookup(EntityType::Collection, $mbid, new CollectionFields(), true);
+        $result = $this->lookup(EntityType::Collection, $mbid, new CollectionFields());
 
         return new Collection($result);
     }
@@ -268,11 +268,10 @@ class Lookup
      * @param EntityType $entityType   An entity type
      * @param MBID       $mbid         A MusicBrainz Identifier (MBID)
      * @param Fields     $includes     A list of include parameters
-     * @param bool       $authRequired True, if user authentication is required
      *
      * @return array
      */
-    private function lookup(EntityType $entityType, MBID $mbid, Fields $includes, bool $authRequired = false)
+    private function lookup(EntityType $entityType, MBID $mbid, Fields $includes)
     {
         $includes = (string) $includes;
 
@@ -285,13 +284,12 @@ class Lookup
             $params['inc'] = $includes;
         }
 
-        $authRequired = $authRequired || str_contains($includes, 'user-');
 
         $response = $this->httpAdapter->call(
             $entityType->path() . '/' . $mbid,
             $this->config,
             $params,
-            $authRequired
+            str_contains((string) $includes, 'user-')
         );
 
         return $response;

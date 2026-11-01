@@ -59,7 +59,7 @@ class RelationFactory
         $relationType = self::getRelationType(new MBID($relationTypeId));
 
         if ($relationType instanceof NullType) {
-            MusicBrainz::log()->alert('Unknown relation type given. See: https://musicbrainz.org/relationship/' . $relationTypeId);
+            MusicBrainz::log()->warning('Unknown relation type given. See: https://musicbrainz.org/relationship/' . $relationTypeId);
 
             return null;
         }
@@ -68,7 +68,7 @@ class RelationFactory
         $direction = null === $directionCode ? null : Direction::tryFrom($directionCode);
 
         if (null === $direction) {
-            MusicBrainz::log()->alert('Cannot resolve relation without a valid direction (got "' . ($directionCode ?? 'null') . '"). See: https://musicbrainz.org/relationship/' . $relationTypeId);
+            MusicBrainz::log()->warning('Cannot resolve relation without a valid direction (got "' . ($directionCode ?? 'null') . '"). See: https://musicbrainz.org/relationship/' . $relationTypeId);
 
             return null;
         }
@@ -84,7 +84,7 @@ class RelationFactory
         $class = RelationTarget::getClassMap()[$relatedEntityType->value];
 
         if (empty($relation[$relatedEntityType->value])) {
-            MusicBrainz::log()->alert('Cannot resolve relation. See: https://musicbrainz.org/relationship/' . $relationTypeId);
+            MusicBrainz::log()->warning('Cannot resolve relation. See: https://musicbrainz.org/relationship/' . $relationTypeId);
 
             return null;
         }

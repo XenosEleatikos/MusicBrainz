@@ -69,6 +69,15 @@ final class ApiClientTest extends TestCase
         self::assertSame('Bearer secret', $this->http->requests[0]->getHeaderLine('Authorization'));
     }
 
+    public function testSendsAConfiguredTokenEvenIfNotRequired(): void
+    {
+        $this->http->queueJson('{}');
+
+        $this->client->call('collection/abc', $this->config->setAccessToken('secret'));
+
+        self::assertSame('Bearer secret', $this->http->requests[0]->getHeaderLine('Authorization'));
+    }
+
     public function testRequiresTokenIfAuthenticationIsRequired(): void
     {
         $this->expectException(Exception::class);
@@ -102,6 +111,22 @@ final class ApiClientTest extends TestCase
             self::assertStringContainsString('currently busy', $exception->getMessage());
         }
         self::assertCount(2, $this->http->requests);
+    }
+
+    public function testDoesNotWaitForLongerThanItIsReasonable(): void
+    {
+        $this->http->queue(new Response(503, ['Retry-After' => '3600'], '{"error":"busy"}'));
+
+        $start = microtime(true);
+        try {
+            $this->client->call('artist/abc', $this->config);
+            self::fail('An exception was expected');
+        } catch (Exception $exception) {
+            self::assertSame(503, $exception->getCode());
+        }
+
+        self::assertLessThan(5.0, microtime(true) - $start);
+        self::assertCount(1, $this->http->requests);
     }
 
     public function testReportsErrorMessageAndStatusOfTheApi(): void

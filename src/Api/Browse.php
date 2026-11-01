@@ -95,8 +95,7 @@ class Browse
             EntityType::Area,
             $areaRelation,
             $areaFields,
-            $pageFilter,
-            $areaRelation->getEntityType() === EntityType::Collection
+            $pageFilter
         );
 
         return AreaListPage::make($result, 'area');
@@ -349,7 +348,6 @@ class Browse
      * @param AbstractRelation $relation     The type of the related entity
      * @param Fields           $includes     A list of properties of the requested entities to be included in the response
      * @param PageFilter       $pageFilter   A page filter
-     * @param bool             $authRequired True, if user authentication is required
      *
      * @return array
      */
@@ -358,7 +356,6 @@ class Browse
         AbstractRelation $relation,
         Fields $includes,
         PageFilter $pageFilter,
-        bool $authRequired = false
     ) {
         $includes = (string) $includes;
 
@@ -373,9 +370,7 @@ class Browse
             $params['inc'] = $includes;
         }
 
-        $authRequired = $authRequired || str_contains($includes, 'user-');
-
-        $response = $this->httpAdapter->call($entity->path(), $this->config, $params, $authRequired);
+        $response = $this->httpAdapter->call($entity->path(), $this->config, $params, str_contains($includes, 'user-'));
 
         return $response;
     }

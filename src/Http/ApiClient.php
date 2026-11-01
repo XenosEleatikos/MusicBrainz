@@ -17,6 +17,10 @@ use function is_array;
 use function json_decode;
 use function max;
 use function microtime;
+use function parse_url;
+use function strtotime;
+use function time;
+use function is_numeric;
 use function trim;
 use function usleep;
 use function is_string;
@@ -34,8 +38,16 @@ use const PHP_QUERY_RFC3986;
  */
 final class ApiClient
 {
-    /** Timestamp of the last request in seconds, shared by all instances (the limit applies per IP address). */
-    private static float $lastRequest = 0.0;
+    /** The longest pause between two attempts that is accepted (seconds). A server asking for more is not waited for. */
+    private const MAX_RETRY_DELAY = 60.0;
+
+    /**
+     * Timestamps of the last request in seconds by host, shared by all instances (the limit applies per IP address and
+     * server).
+     *
+     * @var array<string, float>
+     */
+    private static array $lastRequest = [];
 
     public function __construct(
         private readonly ClientInterface $client,
@@ -47,7 +59,7 @@ final class ApiClient
      *
      * @param string               $path           Path relative to the API URL, e.g. "artist/<mbid>"
      * @param array<string, mixed> $params         Query parameters
-     * @param bool                 $isAuthRequired Whether an access token is required
+     * @param bool                 $isAuthRequired Whether the request cannot be answered without an access token
      *
      * @return array<mixed, mixed>
      *
@@ -66,40 +78,61 @@ final class ApiClient
             ->withHeader('Accept', 'application/json')
             ->withHeader('User-Agent', $config->getUserAgent());
 
-        if ($isAuthRequired) {
-            $token = $config->getAccessToken();
-            if (null === $token || '' === $token) {
-                throw new Exception('Authentication is required: set an OAuth2 access token in the configuration');
-            }
+        // A configured token is always sent (it lets the web service show private collections, for example); it is
+        // required for requests that deliver user data.
+        $token = $config->getAccessToken();
+        if (null !== $token && '' !== $token) {
             $request = $request->withHeader('Authorization', 'Bearer ' . $token);
+        } elseif ($isAuthRequired) {
+            throw new Exception('Authentication is required: set an OAuth2 access token in the configuration');
         }
 
+        $host = (string) parse_url($url, PHP_URL_HOST);
         $attempt = 0;
         do {
-            $this->throttle($config->getMinRequestInterval());
+            $this->throttle($host, $config->getMinRequestInterval());
             try {
                 $response = $this->client->sendRequest($request);
             } catch (ClientExceptionInterface $exception) {
                 throw new Exception($exception->getMessage(), 0, $exception);
             }
-            self::$lastRequest = microtime(true);
+            self::$lastRequest[$host] = microtime(true);
         } while (503 === $response->getStatusCode() && $attempt++ < $config->getMaxRetries() && $this->wait($response));
 
         return $this->decode($response);
     }
 
-    private function throttle(float $interval): void
+    private function throttle(string $host, float $interval): void
     {
-        $remaining = self::$lastRequest + $interval - microtime(true);
+        $remaining = (self::$lastRequest[$host] ?? 0.0) + $interval - microtime(true);
         if ($remaining > 0) {
             usleep((int) ($remaining * 1_000_000));
         }
     }
 
+    /**
+     * Waits as long as the server asked for (at least one second) and returns true; returns false without waiting if the
+     * server asks for more than {@see MAX_RETRY_DELAY} seconds.
+     */
     private function wait(ResponseInterface $response): bool
     {
-        $retryAfter = $response->getHeaderLine('Retry-After');
-        usleep((int) (max(1.0, (float) $retryAfter) * 1_000_000));
+        $retryAfter = trim($response->getHeaderLine('Retry-After'));
+
+        if (is_numeric($retryAfter)) {
+            $seconds = (float) $retryAfter;
+        } elseif ('' !== $retryAfter && false !== ($time = strtotime($retryAfter))) {
+            // The HTTP-date form
+            $seconds = (float) ($time - time());
+        } else {
+            $seconds = 0.0;
+        }
+
+        $seconds = max(1.0, $seconds);
+        if ($seconds > self::MAX_RETRY_DELAY) {
+            return false;
+        }
+
+        usleep((int) ($seconds * 1_000_000));
 
         return true;
     }
