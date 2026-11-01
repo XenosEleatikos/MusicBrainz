@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Artist
  */
-class ArtistFilter extends AbstractFilter
+final class ArtistFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\IsniCodeTrait;
     use \MusicBrainz\Filter\Property\PrimaryAliasNameTrait;

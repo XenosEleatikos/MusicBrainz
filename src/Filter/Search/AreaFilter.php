@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Area
  */
-class AreaFilter extends AbstractFilter
+final class AreaFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\TagNameTrait;
     use \MusicBrainz\Filter\Property\SortNameTrait;

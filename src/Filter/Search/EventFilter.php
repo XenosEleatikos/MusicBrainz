@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Event
  */
-class EventFilter extends AbstractFilter
+final class EventFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaIdTrait;

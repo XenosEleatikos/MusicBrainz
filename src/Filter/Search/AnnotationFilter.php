@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Annotation
  */
-class AnnotationFilter extends AbstractFilter
+final class AnnotationFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\AnnotationIdTrait;
     use \MusicBrainz\Filter\Property\AnnotationTextTrait;

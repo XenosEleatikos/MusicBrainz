@@ -13,7 +13,7 @@ use MusicBrainz\Supplement\Fields;
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */
-class SeriesFields extends Fields
+final class SeriesFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\AliasesTrait;
     use \MusicBrainz\Supplement\Field\AnnotationTrait;

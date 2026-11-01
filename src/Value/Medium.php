@@ -14,7 +14,9 @@ final readonly class Medium implements Parsable
 {
     /**
      * @param list<Disc>  $discs
-     * @param list<Track> $tracks
+     * @param list<Track> $tracks     The tracks of the medium
+     * @param null|Track  $pregap     The hidden track before the first track ("track zero"), if there is one
+     * @param list<Track> $dataTracks The data tracks of an enhanced CD
      */
     public function __construct(
         public ?MBID $id,
@@ -25,6 +27,8 @@ final readonly class Medium implements Parsable
         public ?int $discCount = null,
         public array $discs = [],
         public array $tracks = [],
+        public ?Track $pregap = null,
+        public array $dataTracks = [],
     ) {}
 
     /**
@@ -44,6 +48,18 @@ final readonly class Medium implements Parsable
             Json::list($data, 'discs', Disc::class),
             // Search results call the list "track"
             Json::list($data, 'tracks', Track::class) ?: Json::list($data, 'track', Track::class),
+            self::track($data, 'pregap'),
+            Json::list($data, 'data-tracks', Track::class),
         );
+    }
+
+    /**
+     * @param array<mixed> $data
+     */
+    private static function track(array $data, string $key): ?Track
+    {
+        $track = Json::object($data, $key, Track::class);
+
+        return $track instanceof Track ? $track : null;
     }
 }

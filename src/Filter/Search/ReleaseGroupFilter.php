@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Release_Group
  */
-class ReleaseGroupFilter extends AbstractFilter
+final class ReleaseGroupFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\FirstReleaseDateTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;

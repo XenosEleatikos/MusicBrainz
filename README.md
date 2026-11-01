@@ -250,7 +250,7 @@ input such as an MBID that is no UUID; it is a bug in the calling code and not a
 The public API is what this readme describes: the `MusicBrainz` entry point and its `Config`, the lookup, browse and search
 methods with their filters, fields and page filter, the value objects with their public properties, and the exceptions.
 Everything marked `@internal` (the `fromArray()` factories, the HTTP client, the helpers, the map of relationship types) may
-change in a minor release. Result classes and the API classes are `final`.
+change in a minor release. Result classes, the API classes, filters and fields classes are `final`.
 
 ## Upgrading from 1.x
 Version 2 contains breaking changes, the full list is in the [changelog](CHANGELOG.md). The most important ones:

@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Place
  */
-class RecordingFilter extends AbstractFilter
+final class RecordingFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\NumberOfTracksOnAnyReleaseTrait;
     use \MusicBrainz\Filter\Property\FirstReleaseDateTrait;

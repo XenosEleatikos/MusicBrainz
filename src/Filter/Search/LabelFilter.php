@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Label
  */
-class LabelFilter extends AbstractFilter
+final class LabelFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\ReleaseCountTrait;
     use \MusicBrainz\Filter\Property\IsniCodeTrait;

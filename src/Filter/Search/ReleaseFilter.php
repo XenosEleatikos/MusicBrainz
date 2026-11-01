@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Release
  */
-class ReleaseFilter extends AbstractFilter
+final class ReleaseFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\ReleaseGroupTypeTrait;
     use \MusicBrainz\Filter\Property\PackagingTrait;

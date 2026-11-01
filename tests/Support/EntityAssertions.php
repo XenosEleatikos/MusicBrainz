@@ -145,7 +145,7 @@ final class EntityAssertions
         'artist-credit' => ['name' => ['name', 'str'], 'joinphrase' => ['joinPhrase', 'str'], 'artist' => ['artist', 'entity', 'artist']],
         'medium' => [
             'id' => ['id', 'id'], 'position' => ['position', 'nint'], 'title' => ['title', 'str'], 'format' => ['format', 'named', 'format-id'], 'format-id' => [null, 'skip'],
-            'track-count' => ['trackCount', 'nint'], 'disc-count' => ['discCount', 'nint'], 'track-offset' => [null, 'skip'], 'track' => ['tracks', 'list', 'track'], 'discs' => ['discs', 'list', 'disc'], 'tracks' => ['tracks', 'list', 'track'],
+            'track-count' => ['trackCount', 'nint'], 'disc-count' => ['discCount', 'nint'], 'track-offset' => [null, 'skip'], 'pregap' => ['pregap', 'entity', 'track'], 'data-tracks' => ['dataTracks', 'list', 'track'], 'track' => ['tracks', 'list', 'track'], 'discs' => ['discs', 'list', 'disc'], 'tracks' => ['tracks', 'list', 'track'],
         ],
         'disc' => ['id' => ['id', 'str'], 'sectors' => ['sectors', 'nint'], 'offsets' => ['offsets', 'ints'], 'offset-count' => [null, 'skip']],
         'track' => [

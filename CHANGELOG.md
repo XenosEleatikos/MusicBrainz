@@ -64,7 +64,7 @@ guide in the README.
   `MusicBrainz\InvalidArgumentException`. What the web service delivers is read tolerantly: an invalid id or date, a
   wrongly typed element, or a missing list or count is logged and skipped instead of crashing the response or vanishing
   silently.
-- The entry point, the API classes and `Config` are `final`; the plumbing (`fromArray()` factories, helpers, the HTTP
+- The entry point, the API classes, `Config`, the search filters and the fields classes are `final`; the plumbing (`fromArray()` factories, helpers, the HTTP
   client, the map of relationship types) is marked `@internal`.
 - Search for events, instruments, series and URLs. Every search filter offers exactly the fields the documentation of the
   search lists (a test compares them), including `alias`, `tag`, `isni`, the `*accent` variants and `release_count`.
@@ -73,7 +73,7 @@ guide in the README.
   requested with, are no longer dropped.
 - Relations keep their own data: period, attributes, credits and ordering (`begin`, `attributes`, `sourceCredit`, ...),
   including the relations of works.
-- Cover Art Archive information of releases, setlists of events, ISRCs of recordings.
+- Pregap and data tracks of media, Cover Art Archive information of releases, setlists of events, ISRCs of recordings.
 - 82 relationship types that were missing, including everything that involves genres; relations to genres.
 - Enum cases the documentation lists but the library lacked: `LabelTypeKind::Broadcaster`, `PlaceTypeKind::Amphitheatre`,
   `EducationalInstitution` and `Park`, `InstrumentTypeKind::Family`, `ReleaseStatusKind::Expunged`, `AliasTypeKind::BrandName`

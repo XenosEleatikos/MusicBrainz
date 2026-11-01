@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Tag
  */
-class TagFilter extends AbstractFilter
+final class TagFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\TagNameTrait;
 }

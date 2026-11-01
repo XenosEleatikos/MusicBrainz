@@ -13,7 +13,7 @@ use MusicBrainz\Supplement\Fields;
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */
-class InstrumentFields extends Fields
+final class InstrumentFields extends Fields
 {
     // ratings and user-ratings are not supported (docs are not correct)
     use \MusicBrainz\Supplement\Field\AliasesTrait;

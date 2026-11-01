@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#URL
  */
-class UrlFilter extends AbstractFilter
+final class UrlFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\RelationTypeTrait;
     use \MusicBrainz\Filter\Property\TargetIdTrait;

@@ -13,7 +13,7 @@ use MusicBrainz\Supplement\Fields;
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */
-class UrlFields extends Fields
+final class UrlFields extends Fields
 {
     use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;

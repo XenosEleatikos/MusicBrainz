@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Work
  */
-class WorkFilter extends AbstractFilter
+final class WorkFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\RecordingIdTrait;
     use \MusicBrainz\Filter\Property\NumberOfRecordingsTrait;

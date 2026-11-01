@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#CDStubs
  */
-class CdStubFilter extends AbstractFilter
+final class CdStubFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\DateAddedTrait;
     use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;

@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Instrument
  */
-class InstrumentFilter extends AbstractFilter
+final class InstrumentFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\DisambiguationTrait;

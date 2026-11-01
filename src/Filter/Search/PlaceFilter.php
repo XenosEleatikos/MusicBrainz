@@ -9,7 +9,7 @@ namespace MusicBrainz\Filter\Search;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Place
  */
-class PlaceFilter extends AbstractFilter
+final class PlaceFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\PlaceNameWithAccentsTrait;
     use \MusicBrainz\Filter\Property\AddressTrait;
