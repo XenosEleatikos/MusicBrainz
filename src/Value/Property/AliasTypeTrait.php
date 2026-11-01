@@ -4,44 +4,28 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value\Property;
 
-use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\AliasType;
-use MusicBrainz\Value\MBID;
 
 /**
- * Provides a getter for the alias type.
+ * Provides a getter for an alias type.
  */
 trait AliasTypeTrait
 {
-    /**
-     * An alias type
-     *
-     * @var AliasType
-     */
-    private AliasType $aliasType;
+    private ?AliasType $aliasType;
 
     /**
-     * Returns the alias type.
-     *
-     * @return AliasType
+     * Returns an alias type, or null if the web service did not deliver one.
      */
-    public function getAliasType(): AliasType
+    public function getAliasType(): ?AliasType
     {
         return $this->aliasType;
     }
 
     /**
-     * Sets the alias type by extracting it from a given input array.
-     *
-     * @param array $input An array returned by the webservice
-     *
-     * @return void
+     * @param array<mixed> $input An array returned by the webservice
      */
     private function setAliasTypeFromArray(array $input): void
     {
-        $this->aliasType = new AliasType(
-            ArrayAccess::getString($input, 'type'),
-            new MBID(ArrayAccess::getString($input, 'type-id'))
-        );
+        $this->aliasType = AliasType::fromArray($input, 'type', 'type-id');
     }
 }

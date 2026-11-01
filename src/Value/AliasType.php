@@ -5,29 +5,19 @@ declare(strict_types=1);
 namespace MusicBrainz\Value;
 
 /**
- * An alias type code
- *
- * @see https://musicbrainz.org/doc/Aliases
- *
- * @todo Define possible values!
+ * An alias type.
  */
-class AliasType extends AbstractType
+final readonly class AliasType extends NamedType
 {
-    /**
-     * An alias for an area name.
-     *
-     * @var string
-     */
-    public const AREA_NAME = 'Area name';
-
-    /**
-     * Constructs an alias type.
-     *
-     * @param null|string $typeCode An alias type code
-     * @param null|MBID   $mbid
-     */
-    public function __construct(?string $typeCode = parent::UNDEFINED, MBID $mbid = null)
+    protected static function kindEnum(): string
     {
-        parent::__construct($typeCode, $mbid);
+        return AliasTypeKind::class;
+    }
+
+    public function kind(): ?AliasTypeKind
+    {
+        $kind = $this->resolveKind();
+
+        return $kind instanceof AliasTypeKind ? $kind : null;
     }
 }

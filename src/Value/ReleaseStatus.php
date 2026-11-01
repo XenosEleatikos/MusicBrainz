@@ -16,6 +16,8 @@ final readonly class ReleaseStatus extends NamedType
 
     public function kind(): ?ReleaseStatusKind
     {
-        return ReleaseStatusKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof ReleaseStatusKind ? $kind : null;
     }
 }

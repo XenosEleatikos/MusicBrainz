@@ -12,6 +12,7 @@ use MusicBrainz\Value\ArtistType;
 use MusicBrainz\Value\ArtistTypeKind;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Gender;
+use MusicBrainz\Value\GenderKind;
 use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Page\SearchResult\ArtistListPage;
@@ -105,7 +106,7 @@ class ArtistTest extends ApiTestCase
         $this->assertEquals('Waite, Xanthe', $artist->getSortName());
 
         $this->assertInstanceOf(Gender::class, $artist->getGender());
-        $this->assertEquals(Gender::FEMALE, $artist->getGender());
+        $this->assertSame(GenderKind::Female, $artist->getGender()->kind());
 
         /**
          * "life-span": {

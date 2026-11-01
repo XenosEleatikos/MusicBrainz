@@ -7,7 +7,7 @@ namespace MusicBrainz\Test\Api\Search;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
 use MusicBrainz\Test\Api\ApiTestCase;
-use MusicBrainz\Value\AliasType;
+use MusicBrainz\Value\AliasTypeKind;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\AreaType;
 use MusicBrainz\Value\AreaTypeKind;
@@ -116,7 +116,7 @@ class AreaTest extends ApiTestCase
         $this->assertEquals('Leipzig', $area->getSortName());
 
         $alias = $area->getAliases()[0];
-        $this->assertEquals(AliasType::AREA_NAME, $alias->getAliasType());
+        $this->assertSame(AliasTypeKind::AreaName, $alias->getAliasType()->kind());
 
         /** @todo Test not-empty dates */
         $this->assertInstanceOf(Date::class, $alias->getBeginDate());

@@ -16,6 +16,8 @@ final readonly class ArtistType extends NamedType
 
     public function kind(): ?ArtistTypeKind
     {
-        return ArtistTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof ArtistTypeKind ? $kind : null;
     }
 }

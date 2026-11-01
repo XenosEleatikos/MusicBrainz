@@ -16,6 +16,8 @@ final readonly class PrimaryReleaseType extends NamedType
 
     public function kind(): ?PrimaryReleaseTypeKind
     {
-        return PrimaryReleaseTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof PrimaryReleaseTypeKind ? $kind : null;
     }
 }

@@ -16,6 +16,8 @@ final readonly class EventType extends NamedType
 
     public function kind(): ?EventTypeKind
     {
-        return EventTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof EventTypeKind ? $kind : null;
     }
 }

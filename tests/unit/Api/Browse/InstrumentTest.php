@@ -11,6 +11,7 @@ use MusicBrainz\Test\Api\ApiTestCase;
 use MusicBrainz\Value\Alias;
 use MusicBrainz\Value\AliasList;
 use MusicBrainz\Value\AliasType;
+use MusicBrainz\Value\AliasTypeKind;
 use MusicBrainz\Value\Count;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Ended;
@@ -134,7 +135,8 @@ class InstrumentTest extends ApiTestCase
 
         $this->assertInstanceOf(AliasType::class, $alias->getAliasType());
         $this->assertEquals('Instrument name', $alias->getAliasType());
-        $this->assertEquals('2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd', $alias->getAliasType()->getMbid());
+        $this->assertSame(AliasTypeKind::InstrumentName, $alias->getAliasType()->kind());
+        $this->assertEquals('2322fc94-fbf3-3c09-b23c-aa5ec8d14fcd', $alias->getAliasType()->id);
 
         $this->assertInstanceOf(LocaleCode::class, $alias->getLocaleCode());
         $this->assertEquals('eo', $alias->getLocaleCode());

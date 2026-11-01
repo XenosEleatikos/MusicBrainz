@@ -9,6 +9,8 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\MusicBrainz;
 use MusicBrainz\Value;
 
+use function strcasecmp;
+
 /**
  * Base class for types that MusicBrainz editors maintain in the database (artist types, release statuses...).
  *
@@ -32,9 +34,28 @@ abstract readonly class NamedType implements Value
     /**
      * Returns the known value as enum case, or null if this value is not (yet) known to this library.
      */
-    public function kind(): ?BackedEnum
+    abstract public function kind(): ?BackedEnum;
+
+    /**
+     * Finds the enum case for the name. The web service is not consistent in letter case between its endpoints
+     * (e.g. "Female" in lookups, "female" in searches), so the name is matched case-insensitively as fallback.
+     */
+    final protected function resolveKind(): ?BackedEnum
     {
-        return static::kindEnum()::tryFrom($this->name);
+        $enum = static::kindEnum();
+
+        $exact = $enum::tryFrom($this->name);
+        if (null !== $exact) {
+            return $exact;
+        }
+
+        foreach ($enum::cases() as $case) {
+            if (0 === strcasecmp((string) $case->value, $this->name)) {
+                return $case;
+            }
+        }
+
+        return null;
     }
 
     /**

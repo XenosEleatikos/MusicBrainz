@@ -16,6 +16,8 @@ final readonly class PlaceType extends NamedType
 
     public function kind(): ?PlaceTypeKind
     {
-        return PlaceTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof PlaceTypeKind ? $kind : null;
     }
 }

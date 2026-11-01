@@ -16,6 +16,8 @@ final readonly class InstrumentType extends NamedType
 
     public function kind(): ?InstrumentTypeKind
     {
-        return InstrumentTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof InstrumentTypeKind ? $kind : null;
     }
 }

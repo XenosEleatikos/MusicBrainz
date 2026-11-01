@@ -16,6 +16,8 @@ final readonly class SeriesType extends NamedType
 
     public function kind(): ?SeriesTypeKind
     {
-        return SeriesTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof SeriesTypeKind ? $kind : null;
     }
 }

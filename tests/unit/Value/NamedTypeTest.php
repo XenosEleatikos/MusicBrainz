@@ -72,6 +72,15 @@ class NamedTypeTest extends TestCase
         self::assertStringContainsString('Brand New Status', $this->logs[0]['message']);
     }
 
+    public function testKindIsResolvedCaseInsensitively(): void
+    {
+        $status = ReleaseStatus::make('official');
+
+        self::assertSame(ReleaseStatusKind::Official, $status->kind());
+        self::assertSame('official', $status->name);
+        self::assertSame([], $this->logs);
+    }
+
     public function testFromArrayWithoutNameReturnsNull(): void
     {
         self::assertNull(ReleaseStatus::fromArray(['status-id' => 'x'], 'status', 'status-id'));

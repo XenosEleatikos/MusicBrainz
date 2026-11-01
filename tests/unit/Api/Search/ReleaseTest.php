@@ -23,6 +23,7 @@ use MusicBrainz\Value\MediaList;
 use MusicBrainz\Value\Medium;
 use MusicBrainz\Value\Name;
 use MusicBrainz\Value\Packaging;
+use MusicBrainz\Value\PackagingKind;
 use MusicBrainz\Value\Page\SearchResult\ReleaseListPage;
 use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseEvent;
@@ -125,7 +126,7 @@ class ReleaseTest extends ApiTestCase
         $this->assertSame(ReleaseStatusKind::Official, $release->getReleaseStatus()->kind());
 
         $this->assertInstanceOf(Packaging::class, $release->getPackaging());
-        $this->assertEquals(Packaging::JEWEL_CASE, $release->getPackaging());
+        $this->assertSame(PackagingKind::JewelCase, $release->getPackaging()->kind());
 
         $this->assertInstanceOf(TextRepresentation::class, $release->getTextRepresentation());
         $this->assertEquals('Latn (eng)', $release->getTextRepresentation());

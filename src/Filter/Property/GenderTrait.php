@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace MusicBrainz\Filter\Property;
 
 use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Gender;
+use MusicBrainz\Value\GenderKind;
 
 trait GenderTrait
 {
@@ -24,12 +24,12 @@ trait GenderTrait
     /**
      * Adds a gender.
      *
-     * @param Gender $gender A gender
+     * @param GenderKind $gender A gender
      *
      * @return Term
      */
-    public function addGender(Gender $gender): Term
+    public function addGender(GenderKind $gender): Term
     {
-        return $this->addTerm((string) $gender, self::gender());
+        return $this->addTerm($gender->value, self::gender());
     }
 }

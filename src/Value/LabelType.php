@@ -16,6 +16,8 @@ final readonly class LabelType extends NamedType
 
     public function kind(): ?LabelTypeKind
     {
-        return LabelTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof LabelTypeKind ? $kind : null;
     }
 }

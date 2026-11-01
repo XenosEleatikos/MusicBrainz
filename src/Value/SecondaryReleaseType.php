@@ -16,6 +16,8 @@ final readonly class SecondaryReleaseType extends NamedType
 
     public function kind(): ?SecondaryReleaseTypeKind
     {
-        return SecondaryReleaseTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof SecondaryReleaseTypeKind ? $kind : null;
     }
 }

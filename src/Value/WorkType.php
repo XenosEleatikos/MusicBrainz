@@ -16,6 +16,8 @@ final readonly class WorkType extends NamedType
 
     public function kind(): ?WorkTypeKind
     {
-        return WorkTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof WorkTypeKind ? $kind : null;
     }
 }

@@ -16,6 +16,8 @@ final readonly class AreaType extends NamedType
 
     public function kind(): ?AreaTypeKind
     {
-        return AreaTypeKind::tryFrom($this->name);
+        $kind = $this->resolveKind();
+
+        return $kind instanceof AreaTypeKind ? $kind : null;
     }
 }
