@@ -21,7 +21,6 @@ enum EntityType: string
     case Label = 'label';
     case Place = 'place';
     case Recording = 'recording';
-    case Resource = 'resource';
     case Release = 'release';
     case ReleaseGroup = 'release_group';
     case Series = 'series';
