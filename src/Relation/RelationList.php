@@ -17,8 +17,8 @@ use function count;
 use function is_array;
 
 /**
- * The relationships of an entity, in the order of the web service. Relationships of types the library does not know
- * are left out (and logged).
+ * The relationships of an entity, in the order of the web service. Relationships of a type the library does not know
+ * yet are kept (and logged); their `type` is null.
  *
  * @implements IteratorAggregate<int, Relation>
  */

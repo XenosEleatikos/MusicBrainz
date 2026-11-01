@@ -72,7 +72,9 @@ final class RelationTest extends TestCase
         self::assertSame('1970-04', (string) $relation->end);
         self::assertTrue($relation->ended);
         self::assertSame(['guitar'], $relation->attributes);
-        self::assertSame(self::MEMBER_OF_BAND, (string) $relation->type::getRelationTypeId());
+        self::assertSame(self::MEMBER_OF_BAND, (string) $relation->typeId);
+        self::assertSame('member of band', $relation->typeName);
+        self::assertSame('member of band', $relation->type::getRelationName());
         self::assertSame([], $this->logged);
     }
 
@@ -102,13 +104,17 @@ final class RelationTest extends TestCase
         self::assertSame('Radiohead', $list->to(EntityType::Artist)[1]->target->name);
     }
 
-    public function testUnknownRelationTypesAreSkippedAndReported(): void
+    public function testUnknownRelationTypesAreKeptAndReported(): void
     {
-        $list = RelationList::fromArray([self::memberOfBand(['type-id' => '00000000-0000-4000-8000-000000000000'])]);
+        $list = RelationList::fromArray([self::memberOfBand(['type' => 'brand new', 'type-id' => '00000000-0000-4000-8000-000000000000'])]);
 
-        self::assertCount(0, $list);
+        self::assertCount(1, $list);
+        $relation = $list->relations[0];
+        self::assertNull($relation->type);
+        self::assertSame('brand new', $relation->typeName);
+        self::assertSame('The Beatles', $relation->target->name);
         self::assertCount(1, $this->logged);
-        self::assertStringContainsString('Unknown relation type', $this->logged[0]);
+        self::assertStringContainsString('Unknown relation type "brand new"', $this->logged[0]);
     }
 
     public function testRelationsWithoutValidDirectionAreSkippedAndReported(): void
@@ -116,12 +122,12 @@ final class RelationTest extends TestCase
         self::assertNull(Relation::tryFromArray(self::memberOfBand(['direction' => 'sideways'])));
         self::assertNull(Relation::tryFromArray(self::memberOfBand(['direction' => null])));
         self::assertCount(2, $this->logged);
-        self::assertStringContainsString('valid direction', $this->logged[0]);
+        self::assertStringContainsString('valid type id and direction', $this->logged[0]);
     }
 
     public function testRelationsWithoutTargetAreSkippedAndReported(): void
     {
         self::assertNull(Relation::tryFromArray(self::memberOfBand(['artist' => []])));
-        self::assertStringContainsString('Cannot resolve relation', $this->logged[0]);
+        self::assertStringContainsString('there is no target', $this->logged[0]);
     }
 }

@@ -10,7 +10,6 @@ use MusicBrainz\Value\NamedType;
 use PHPUnit\Framework\Assert;
 
 use function array_diff;
-use function array_filter;
 use function array_merge;
 use function array_push;
 use function array_key_exists;
@@ -326,18 +325,24 @@ final class EntityAssertions
     public static function assertRelations(\MusicBrainz\Relation\RelationList $list, array $json, string $path): void
     {
         $known = RelationTypeId::getClassMap();
-        $expected = array_values(array_filter($json, static fn(array $relation): bool => isset($known[$relation['type-id']])));
-        Assert::assertCount(count($expected), $list->relations, "$path: relations of known types must not get lost");
+        Assert::assertCount(count($json), $list->relations, "$path: no relation may get lost");
 
         $keys = array_merge(self::RELATION_KEYS, array_map(static fn(EntityType $type): string => $type->value, EntityType::cases()));
-        foreach ($expected as $index => $relationJson) {
+        foreach ($json as $index => $relationJson) {
             $at = "{$path}.relations[{$index}]";
             $relation = $list->relations[$index];
             Assert::assertSame([], array_values(array_diff(array_keys($relationJson), $keys)), "$at: keys of the response the library does not read");
 
             Assert::assertSame($relationJson['direction'], $relation->direction->value, $at);
-            Assert::assertSame($relationJson['type-id'], (string) $relation->type::getRelationTypeId(), $at);
-            Assert::assertSame($relationJson['type'], (string) $relation->type::getRelationName(), "$at: the name of the relation type");
+            Assert::assertSame($relationJson['type-id'], (string) $relation->typeId, $at);
+            Assert::assertSame($relationJson['type'], $relation->typeName, "$at: the name of the relation type");
+            if (isset($known[$relationJson['type-id']])) {
+                Assert::assertNotNull($relation->type, "$at: the library knows this relation type");
+                Assert::assertSame($relationJson['type-id'], (string) $relation->type::getRelationTypeId(), $at);
+                Assert::assertSame($relationJson['type'], $relation->type::getRelationName(), "$at: the name of the relation type class");
+            } else {
+                Assert::assertNull($relation->type, "$at: an unknown relation type is kept without a class");
+            }
             Assert::assertSame($relationJson['begin'] ?? null, null === $relation->begin ? null : (string) $relation->begin, $at);
             Assert::assertSame($relationJson['end'] ?? null, null === $relation->end ? null : (string) $relation->end, $at);
             Assert::assertSame($relationJson['ended'] ?? false, $relation->ended, $at);

@@ -8,13 +8,13 @@ use LogicException;
 use MusicBrainz\Definition\RelationTypeId;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
-use MusicBrainz\Relation\NullType;
 use MusicBrainz\Relation\Type;
 use MusicBrainz\Value\Area;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\Date;
 use MusicBrainz\Value\Direction;
 use MusicBrainz\Value\Entity;
+use MusicBrainz\Value\MBID;
 use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\Event;
 use MusicBrainz\Value\Genre;
@@ -43,13 +43,18 @@ use function is_int;
 final readonly class Relation
 {
     /**
+     * @param MBID                 $typeId           The MBID of the relationship type
+     * @param string               $typeName         The name of the relationship type as the web service delivers it
+     * @param null|Type            $type             The class of the relationship type; null if the library does not know it yet
      * @param list<string>         $attributes       Names of the attributes, e.g. "guitar" or "lead vocals"
      * @param array<string,string> $attributeIds     MBIDs of the attributes, by name
      * @param array<string,string> $attributeValues  Values of attributes that have one (e.g. a number), by name
      * @param array<string,string> $attributeCredits Credits of attributes (e.g. the instrument as printed in the liner notes), by name
      */
     public function __construct(
-        public Type $type,
+        public MBID $typeId,
+        public string $typeName,
+        public ?Type $type,
         public Direction $direction,
         public EntityType $targetType,
         public Entity $target,
@@ -66,8 +71,8 @@ final readonly class Relation
     ) {}
 
     /**
-     * Builds a relation from a decoded "relations" element. Returns null (and logs a warning) if the relation type is
-     * unknown to the library or the relation is incomplete.
+     * Builds a relation from a decoded "relations" element. Relationships of a type the library does not know yet are kept
+     * (`$type` is null) and reported to the logger. Returns null, and logs a warning, only if the relation is incomplete.
      *
      * @param array<mixed> $data
      *
@@ -75,46 +80,43 @@ final readonly class Relation
      */
     public static function tryFromArray(array $data): ?self
     {
-        $typeId = ArrayAccess::getString($data, 'type-id');
-        $type = self::type($typeId);
-
-        if ($type instanceof NullType) {
-            MusicBrainz::log()->warning('Unknown relation type given. See: https://musicbrainz.org/relationship/' . $typeId);
-
-            return null;
-        }
-
+        $typeId = Json::id($data, 'type-id');
+        $typeName = ArrayAccess::getString($data, 'type') ?? '';
         $directionName = ArrayAccess::getString($data, 'direction');
         $direction = null === $directionName ? null : Direction::tryFrom($directionName);
-        if (null === $direction) {
-            MusicBrainz::log()->warning('Cannot resolve relation without a valid direction (got "' . ($directionName ?? 'null') . '"). See: https://musicbrainz.org/relationship/' . $typeId);
+
+        if (null === $typeId || null === $direction) {
+            MusicBrainz::log()->warning('Cannot resolve the relation "' . $typeName . '" without a valid type id and direction (got "' . ($directionName ?? 'null') . '")');
 
             return null;
         }
 
-        // The target is the entity on the other side of the entity the relation was requested with. Lookups tell by the
-        // direction which side that is; search results do not follow that convention, so the other side is tried as well.
-        $sides = Direction::Forward === $direction
-            ? [$type::getRelatedEntityType(), $type::getBaseEntityType()]
-            : [$type::getBaseEntityType(), $type::getRelatedEntityType()];
+        $type = self::type($typeId);
+        if (null === $type) {
+            MusicBrainz::log()->warning('Unknown relation type "' . $typeName . '". See: https://musicbrainz.org/relationship/' . $typeId);
+        }
+
+        // The target is delivered under the key of its entity type; there is exactly one such key
         $targetType = null;
         $targetData = null;
-        foreach ($sides as $side) {
-            $candidate = null === $side ? null : ArrayAccess::getArray($data, $side->value);
-            if (null !== $side && !empty($candidate)) {
-                $targetType = $side;
+        foreach (EntityType::cases() as $candidateType) {
+            $candidate = EntityType::Collection === $candidateType ? null : ArrayAccess::getArray($data, $candidateType->value);
+            if (!empty($candidate)) {
+                $targetType = $candidateType;
                 $targetData = $candidate;
                 break;
             }
         }
 
         if (null === $targetType || null === $targetData) {
-            MusicBrainz::log()->warning('Cannot resolve relation. See: https://musicbrainz.org/relationship/' . $typeId);
+            MusicBrainz::log()->warning('Cannot resolve the relation "' . $typeName . '": there is no target. See: https://musicbrainz.org/relationship/' . $typeId);
 
             return null;
         }
 
         return new self(
+            $typeId,
+            $typeName,
             $type,
             $direction,
             $targetType,
@@ -132,13 +134,13 @@ final readonly class Relation
         );
     }
 
-    private static function type(?string $typeId): Type
+    private static function type(MBID $typeId): ?Type
     {
         $classMap = RelationTypeId::getClassMap();
-        if (null === $typeId || !array_key_exists($typeId, $classMap)) {
-            return new NullType();
+        if (!array_key_exists((string) $typeId, $classMap)) {
+            return null;
         }
-        $class = $classMap[$typeId];
+        $class = $classMap[(string) $typeId];
 
         return new $class();
     }

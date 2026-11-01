@@ -219,15 +219,16 @@ yet is kept in `name`, `kind()` returns `null`, and a warning is sent to your lo
 
 ### Relations
 Entities that were requested with relationship includes (e.g. `includeArtistRelations()`) have a `RelationList` in
-`$entity->relations` (`null` if relations were not requested). Every relation knows its type, its direction, its target
-entity, its period, its attributes and its credits:
+`$entity->relations` (`null` if relations were not requested). Every relation knows its type (`typeName`, `typeId`, and `type`, the class of the
+relationship type, which is `null` for a type the library does not know yet), its direction, its target entity, its period,
+its attributes and its credits:
 
 ```php
 <?php
 use MusicBrainz\Value\EntityType;
 
 foreach ($artist->relations?->to(EntityType::Artist) ?? [] as $relation) {
-    echo $relation->type::getRelationName(), ': ', $relation->target->name, PHP_EOL;
+    echo $relation->typeName, ': ', $relation->target->name, PHP_EOL;
     echo $relation->begin, ' - ', $relation->end, ' ', implode(', ', $relation->attributes), PHP_EOL;
 }
 ```
