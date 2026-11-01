@@ -19,6 +19,6 @@ abstract class Artist extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::ARTIST);
+        return EntityType::Artist;
     }
 }

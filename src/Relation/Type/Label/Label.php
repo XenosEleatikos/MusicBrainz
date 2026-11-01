@@ -20,6 +20,6 @@ abstract class Label extends \MusicBrainz\Relation\Type\Label
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::LABEL);
+        return EntityType::Label;
     }
 }

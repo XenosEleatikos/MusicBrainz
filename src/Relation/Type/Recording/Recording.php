@@ -20,6 +20,6 @@ abstract class Recording extends \MusicBrainz\Relation\Type\Recording
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::RECORDING);
+        return EntityType::Recording;
     }
 }

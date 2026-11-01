@@ -20,6 +20,6 @@ abstract class Series extends \MusicBrainz\Relation\Type\Release
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::SERIES);
+        return EntityType::Series;
     }
 }

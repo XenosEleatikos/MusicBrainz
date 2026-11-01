@@ -15,21 +15,21 @@ class NullType extends Type
     /**
      * Returns the entity type of the base entity.
      *
-     * @return EntityType
+     * @return null|EntityType
      */
-    public static function getBaseEntityType(): EntityType
+    public static function getBaseEntityType(): ?EntityType
     {
-        return new EntityType();
+        return null;
     }
 
     /**
      * Returns the entity type of the related entity.
      *
-     * @return EntityType
+     * @return null|EntityType
      */
-    public static function getRelatedEntityType(): EntityType
+    public static function getRelatedEntityType(): ?EntityType
     {
-        return new EntityType();
+        return null;
     }
 
     /**

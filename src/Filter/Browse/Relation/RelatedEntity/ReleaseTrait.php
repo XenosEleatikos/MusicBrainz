@@ -22,6 +22,6 @@ trait ReleaseTrait
     public function setEntityTypeRelease(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::RELEASE));
+        $this->setEntityType(EntityType::Release);
     }
 }

@@ -42,7 +42,7 @@ trait RelationsToPlaceTrait
      */
     private function setPlaceRelationsFromArray(array $input): void
     {
-        $this->placeRelations = is_null($input = ArrayAccess::getArray($input, EntityType::PLACE))
+        $this->placeRelations = is_null($input = ArrayAccess::getArray($input, EntityType::Place->value))
             ? new RelationToPlaceList()
             : new RelationToPlaceList($input);
     }

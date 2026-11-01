@@ -22,6 +22,6 @@ trait LabelTrait
     public function label(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::LABEL));
+        $this->setEntityType(EntityType::Label);
     }
 }

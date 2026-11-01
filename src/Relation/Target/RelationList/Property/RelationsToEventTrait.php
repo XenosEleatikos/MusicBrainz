@@ -42,7 +42,7 @@ trait RelationsToEventTrait
      */
     private function setEventRelationsFromArray(array $input): void
     {
-        $this->eventRelations = is_null($input = ArrayAccess::getArray($input, EntityType::EVENT))
+        $this->eventRelations = is_null($input = ArrayAccess::getArray($input, EntityType::Event->value))
             ? new RelationToEventList()
             : new RelationToEventList($input);
     }

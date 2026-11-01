@@ -19,6 +19,6 @@ abstract class Recording extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::RECORDING);
+        return EntityType::Recording;
     }
 }

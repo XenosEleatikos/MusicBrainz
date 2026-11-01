@@ -22,6 +22,6 @@ trait AreaTrait
     public function area(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::AREA));
+        $this->setEntityType(EntityType::Area);
     }
 }

@@ -40,7 +40,7 @@ abstract class Relation
     /**
      * Returns the entity type of the related entity.
      *
-     * @return EntityType
+     * @return null|EntityType
      */
-    abstract public static function getRelatedEntityType(): EntityType;
+    abstract public static function getRelatedEntityType(): ?EntityType;
 }

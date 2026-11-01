@@ -7,8 +7,6 @@ namespace MusicBrainz\Value\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\DataQuality;
 
-use function is_null;
-
 /**
  * Provides a getter for the data quality.
  */
@@ -17,16 +15,16 @@ trait DataQualityTrait
     /**
      * The data quality
      *
-     * @var DataQuality
+     * @var null|DataQuality
      */
-    private DataQuality $quality;
+    private ?DataQuality $quality;
 
     /**
      * Returns the data quality.
      *
-     * @return DataQuality
+     * @return null|DataQuality
      */
-    public function getQuality(): DataQuality
+    public function getQuality(): ?DataQuality
     {
         return $this->quality;
     }
@@ -40,8 +38,6 @@ trait DataQualityTrait
      */
     private function setDataQualityFromArray(array $input): void
     {
-        $this->quality = is_null($quality = ArrayAccess::getString($input, 'quality'))
-            ? new DataQuality()
-            : new DataQuality($quality);
+        $this->quality = ArrayAccess::getEnum($input, 'quality', DataQuality::class);
     }
 }

@@ -22,6 +22,6 @@ trait ArtistTrait
     public function artist(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::ARTIST));
+        $this->setEntityType(EntityType::Artist);
     }
 }

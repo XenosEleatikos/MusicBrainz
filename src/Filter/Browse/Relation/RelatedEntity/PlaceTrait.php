@@ -22,6 +22,6 @@ trait PlaceTrait
     public function place(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::PLACE));
+        $this->setEntityType(EntityType::Place);
     }
 }

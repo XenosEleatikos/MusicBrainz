@@ -169,7 +169,7 @@ class ArtistTest extends ApiTestCase
 
         $quality = $release->getQuality();
         $this->assertInstanceOf(DataQuality::class, $quality);
-        $this->assertEquals('normal', $quality);
+        $this->assertSame(DataQuality::Normal, $quality);
 
         /** @todo Test barcode */
 

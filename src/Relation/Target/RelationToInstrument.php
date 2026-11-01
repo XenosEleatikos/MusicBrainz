@@ -39,7 +39,7 @@ class RelationToInstrument extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::INSTRUMENT);
+        return EntityType::Instrument;
     }
 
     /**

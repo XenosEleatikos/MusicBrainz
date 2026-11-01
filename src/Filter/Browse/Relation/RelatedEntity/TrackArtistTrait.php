@@ -13,7 +13,7 @@ use MusicBrainz\Value\MBID;
 trait TrackArtistTrait
 {
     /**
-     * @see EntityType::TRACK_ARTIST
+     * @see EntityType::TrackArtist
      *
      * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related artist
      *
@@ -22,6 +22,6 @@ trait TrackArtistTrait
     public function trackArtist(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::TRACK_ARTIST));
+        $this->setEntityType(EntityType::TrackArtist);
     }
 }

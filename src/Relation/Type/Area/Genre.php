@@ -20,6 +20,6 @@ abstract class Genre extends \MusicBrainz\Relation\Type\Area
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::GENRE);
+        return EntityType::Genre;
     }
 }

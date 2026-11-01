@@ -22,6 +22,6 @@ trait WorkTrait
     public function work(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::WORK));
+        $this->setEntityType(EntityType::Work);
     }
 }

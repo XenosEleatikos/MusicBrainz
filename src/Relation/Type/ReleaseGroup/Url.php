@@ -20,6 +20,6 @@ abstract class Url extends \MusicBrainz\Relation\Type\ReleaseGroup
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::URL);
+        return EntityType::Url;
     }
 }

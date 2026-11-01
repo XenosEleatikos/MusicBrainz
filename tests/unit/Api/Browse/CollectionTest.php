@@ -100,7 +100,7 @@ class CollectionTest extends ApiTestCase
         $this->assertEquals('f27d2f80-0aff-4a0f-a8c3-296226073b20', $collection->getMBID());
 
         $this->assertInstanceOf(EntityType::class, $collection->getEntityType());
-        $this->assertEquals((string) new EntityType(EntityType::ARTIST), $collection->getEntityType());
+        $this->assertSame(EntityType::Artist, $collection->getEntityType());
 
         $this->assertInstanceOf(EditorName::class, $collection->getEditorName());
         $this->assertEquals('XenosEleatikos', $collection->getEditorName());

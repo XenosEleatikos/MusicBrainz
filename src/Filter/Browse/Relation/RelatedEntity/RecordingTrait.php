@@ -22,6 +22,6 @@ trait RecordingTrait
     public function recording(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::RECORDING));
+        $this->setEntityType(EntityType::Recording);
     }
 }

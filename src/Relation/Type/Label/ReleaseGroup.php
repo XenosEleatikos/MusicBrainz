@@ -20,6 +20,6 @@ abstract class ReleaseGroup extends \MusicBrainz\Relation\Type\Label
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::RELEASE_GROUP);
+        return EntityType::ReleaseGroup;
     }
 }

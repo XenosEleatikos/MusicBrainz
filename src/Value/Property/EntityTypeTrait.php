@@ -7,8 +7,6 @@ namespace MusicBrainz\Value\Property;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Value\EntityType;
 
-use function is_null;
-
 /**
  * Provides a getter for the entity type.
  */
@@ -17,16 +15,16 @@ trait EntityTypeTrait
     /**
      * The type is used to state whether an entity is a person, a group, or something else.
      *
-     * @var EntityType
+     * @var null|EntityType
      */
-    private EntityType $entityType;
+    private ?EntityType $entityType;
 
     /**
      * Returns the entity type.
      *
-     * @return EntityType
+     * @return null|EntityType
      */
-    public function getEntityType(): EntityType
+    public function getEntityType(): ?EntityType
     {
         return $this->entityType;
     }
@@ -41,8 +39,6 @@ trait EntityTypeTrait
      */
     private function setEntityTypeFromArray(array $input, string $key = 'entity-type'): void
     {
-        $this->entityType = is_null($entityType = ArrayAccess::getString($input, $key))
-            ? new EntityType()
-            : new EntityType($entityType);
+        $this->entityType = ArrayAccess::getEnum($input, $key, EntityType::class);
     }
 }

@@ -92,11 +92,11 @@ class Browse
     public function area(AreaRelation $areaRelation, AreaFields $areaFields, PageFilter $pageFilter): AreaListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::AREA),
+            EntityType::Area,
             $areaRelation,
             $areaFields,
             $pageFilter,
-            (string) $areaRelation->getEntityType() === EntityType::COLLECTION
+            $areaRelation->getEntityType() === EntityType::Collection
         );
 
         return AreaListPage::make($result, 'area');
@@ -114,7 +114,7 @@ class Browse
     public function artist(ArtistRelation $artistRelation, ArtistFields $artistFields, PageFilter $pageFilter): ArtistListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::ARTIST),
+            EntityType::Artist,
             $artistRelation,
             $artistFields,
             $pageFilter
@@ -136,7 +136,7 @@ class Browse
     public function collection(CollectionRelation $collectionRelation, PageFilter $pageFilter): CollectionListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::COLLECTION),
+            EntityType::Collection,
             $collectionRelation,
             new CollectionFields(),
             $pageFilter
@@ -157,7 +157,7 @@ class Browse
     public function event(EventRelation $eventRelation, EventFields $eventFields, PageFilter $pageFilter): EventListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::EVENT),
+            EntityType::Event,
             $eventRelation,
             $eventFields,
             $pageFilter
@@ -178,7 +178,7 @@ class Browse
     public function instrument(InstrumentRelation $instrumentRelation, InstrumentFields $instrumentFields, PageFilter $pageFilter): InstrumentListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::INSTRUMENT),
+            EntityType::Instrument,
             $instrumentRelation,
             $instrumentFields,
             $pageFilter
@@ -199,7 +199,7 @@ class Browse
     public function label(LabelRelation $labelRelation, LabelFields $labelFields, PageFilter $pageFilter): LabelListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::LABEL),
+            EntityType::Label,
             $labelRelation,
             $labelFields,
             $pageFilter
@@ -220,7 +220,7 @@ class Browse
     public function place(PlaceRelation $placeRelation, PlaceFields $placeFields, PageFilter $pageFilter): PlaceListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::PLACE),
+            EntityType::Place,
             $placeRelation,
             $placeFields,
             $pageFilter
@@ -241,7 +241,7 @@ class Browse
     public function recording(RecordingRelation $recordingRelation, RecordingFields $recordingFields, PageFilter $pageFilter): RecordingListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::RECORDING),
+            EntityType::Recording,
             $recordingRelation,
             $recordingFields,
             $pageFilter
@@ -262,7 +262,7 @@ class Browse
     public function release(ReleaseRelation $releaseRelation, ReleaseFields $releaseFields, PageFilter $pageFilter): ReleaseListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::RELEASE),
+            EntityType::Release,
             $releaseRelation,
             $releaseFields,
             $pageFilter
@@ -287,7 +287,7 @@ class Browse
         PageFilter $pageFilter
     ): ReleaseGroupListPage {
         $result = $this->browse(
-            new EntityType(EntityType::RELEASE_GROUP),
+            EntityType::ReleaseGroup,
             $releaseRelation,
             $releaseGroupFields,
             $pageFilter
@@ -308,7 +308,7 @@ class Browse
     public function series(SeriesRelation $seriesRelation, SeriesFields $seriesFields, PageFilter $pageFilter): SeriesListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::SERIES),
+            EntityType::Series,
             $seriesRelation,
             $seriesFields,
             $pageFilter
@@ -333,7 +333,7 @@ class Browse
     public function work(WorkRelation $workRelation, WorkFields $workFields, PageFilter $pageFilter): WorkListPage
     {
         $result = $this->browse(
-            new EntityType(EntityType::WORK),
+            EntityType::Work,
             $workRelation,
             $workFields,
             $pageFilter
@@ -363,7 +363,7 @@ class Browse
         $includes = (string) $includes;
 
         $params = [
-            (string) $relation->getEntityType()  => (string) $relation->getEntityId(),
+            $relation->getEntityType()->value => (string) $relation->getEntityId(),
             'limit'                              => $pageFilter->getLimit(),
             'offset'                             => $pageFilter->getOffset(),
             'fmt'                                => 'json',
@@ -373,9 +373,9 @@ class Browse
             $params['inc'] = $includes;
         }
 
-        $authRequired = $authRequired || stripos($includes, 'user');
+        $authRequired = $authRequired || str_contains($includes, 'user-');
 
-        $response = $this->httpAdapter->call(str_replace('_', '-', (string) $entity), $this->config, $params, $authRequired);
+        $response = $this->httpAdapter->call($entity->path(), $this->config, $params, $authRequired);
 
         return $response;
     }

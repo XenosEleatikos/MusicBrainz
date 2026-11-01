@@ -39,7 +39,7 @@ class RelationToLabel extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::LABEL);
+        return EntityType::Label;
     }
 
     /**

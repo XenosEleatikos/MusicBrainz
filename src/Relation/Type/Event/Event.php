@@ -20,6 +20,6 @@ abstract class Event extends \MusicBrainz\Relation\Type\Event
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::EVENT);
+        return EntityType::Event;
     }
 }

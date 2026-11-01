@@ -42,7 +42,7 @@ trait RelationsToInstrumentTrait
      */
     private function setInstrumentRelationsFromArray(array $input): void
     {
-        $this->instrumentRelations = is_null($input = ArrayAccess::getArray($input, EntityType::INSTRUMENT))
+        $this->instrumentRelations = is_null($input = ArrayAccess::getArray($input, EntityType::Instrument->value))
             ? new RelationToInstrumentList()
             : new RelationToInstrumentList($input);
     }

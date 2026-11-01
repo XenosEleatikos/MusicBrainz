@@ -41,7 +41,7 @@ trait RelationsToAreaTrait
      */
     private function setAreaRelationsFromArray(array $input): void
     {
-        $this->areaRelations = is_null($listData = ArrayAccess::getArray($input, EntityType::AREA))
+        $this->areaRelations = is_null($listData = ArrayAccess::getArray($input, EntityType::Area->value))
             ? new RelationToAreaList()
             : new RelationToAreaList($input);
     }

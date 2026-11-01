@@ -39,7 +39,7 @@ class RelationToSeries extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::SERIES);
+        return EntityType::Series;
     }
 
     /**

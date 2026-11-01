@@ -79,7 +79,7 @@ class Lookup
      */
     public function area(MBID $mbid, AreaFields $areaFields): Area
     {
-        $result = $this->lookup(new EntityType(EntityType::AREA), $mbid, $areaFields);
+        $result = $this->lookup(EntityType::Area, $mbid, $areaFields);
 
         return new Area($result);
     }
@@ -93,7 +93,7 @@ class Lookup
      */
     public function artist(MBID $mbid, ArtistFields $artistFields): Artist
     {
-        $result = $this->lookup(new EntityType(EntityType::ARTIST), $mbid, $artistFields);
+        $result = $this->lookup(EntityType::Artist, $mbid, $artistFields);
 
         return new Artist($result);
     }
@@ -107,7 +107,7 @@ class Lookup
      */
     public function collection(MBID $mbid): Collection
     {
-        $result = $this->lookup(new EntityType(EntityType::COLLECTION), $mbid, new CollectionFields(), true);
+        $result = $this->lookup(EntityType::Collection, $mbid, new CollectionFields(), true);
 
         return new Collection($result);
     }
@@ -122,7 +122,7 @@ class Lookup
      */
     public function event(MBID $mbid, EventFields $eventFields)
     {
-        $result = $this->lookup(new EntityType(EntityType::EVENT), $mbid, $eventFields);
+        $result = $this->lookup(EntityType::Event, $mbid, $eventFields);
 
         return new Event($result);
     }
@@ -137,7 +137,7 @@ class Lookup
      */
     public function instrument(MBID $mbid, InstrumentFields $instrumentFields): Instrument
     {
-        $result = $this->lookup(new EntityType(EntityType::INSTRUMENT), $mbid, $instrumentFields);
+        $result = $this->lookup(EntityType::Instrument, $mbid, $instrumentFields);
 
         return new Instrument($result);
     }
@@ -151,7 +151,7 @@ class Lookup
      */
     public function label(MBID $mbid, LabelFields $labelFields): Label
     {
-        $result = $this->lookup(new EntityType(EntityType::LABEL), $mbid, $labelFields);
+        $result = $this->lookup(EntityType::Label, $mbid, $labelFields);
 
         return new Label($result);
     }
@@ -166,7 +166,7 @@ class Lookup
      */
     public function place(MBID $mbid, PlaceFields $placeFields): Place
     {
-        $result = $this->lookup(new EntityType(EntityType::PLACE), $mbid, $placeFields);
+        $result = $this->lookup(EntityType::Place, $mbid, $placeFields);
 
         return new Place($result);
     }
@@ -181,7 +181,7 @@ class Lookup
      */
     public function recording(MBID $mbid, RecordingFields $recordingFields): Recording
     {
-        $result = $this->lookup(new EntityType(EntityType::RECORDING), $mbid, $recordingFields);
+        $result = $this->lookup(EntityType::Recording, $mbid, $recordingFields);
 
         return new Recording($result);
     }
@@ -196,7 +196,7 @@ class Lookup
      */
     public function release(MBID $mbid, ReleaseFields $releaseFields): Release
     {
-        $result = $this->lookup(new EntityType(EntityType::RELEASE), $mbid, $releaseFields);
+        $result = $this->lookup(EntityType::Release, $mbid, $releaseFields);
 
         return new Release($result);
     }
@@ -211,7 +211,7 @@ class Lookup
      */
     public function releaseGroup(MBID $mbid, ReleaseGroupFields $releaseGroupFields): ReleaseGroup
     {
-        $result = $this->lookup(new EntityType(EntityType::RELEASE_GROUP), $mbid, $releaseGroupFields);
+        $result = $this->lookup(EntityType::ReleaseGroup, $mbid, $releaseGroupFields);
 
         return new ReleaseGroup($result);
     }
@@ -226,7 +226,7 @@ class Lookup
      */
     public function series(MBID $mbid, SeriesFields $seriesFields): Series
     {
-        $result = $this->lookup(new EntityType(EntityType::SERIES), $mbid, $seriesFields);
+        $result = $this->lookup(EntityType::Series, $mbid, $seriesFields);
 
         return new Series($result);
     }
@@ -241,7 +241,7 @@ class Lookup
      */
     public function url(MBID $mbid, $urlFields): URL
     {
-        $result = $this->lookup(new EntityType(EntityType::URL), $mbid, $urlFields);
+        $result = $this->lookup(EntityType::Url, $mbid, $urlFields);
 
         return new URL($result);
     }
@@ -255,7 +255,7 @@ class Lookup
      */
     public function work(MBID $mbid, WorkFields $workFields): Work
     {
-        $result = $this->lookup(new EntityType(EntityType::WORK), $mbid, $workFields);
+        $result = $this->lookup(EntityType::Work, $mbid, $workFields);
 
         return new Work($result);
     }
@@ -288,9 +288,7 @@ class Lookup
         $authRequired = $authRequired || str_contains($includes, 'user-');
 
         $response = $this->httpAdapter->call(
-            str_replace('_', '-', (string) $entityType)
-            . '/'
-            . $mbid,
+            $entityType->path() . '/' . $mbid,
             $this->config,
             $params,
             $authRequired

@@ -19,6 +19,6 @@ abstract class Work extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::WORK);
+        return EntityType::Work;
     }
 }

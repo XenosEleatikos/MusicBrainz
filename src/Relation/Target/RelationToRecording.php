@@ -39,7 +39,7 @@ class RelationToRecording extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::RECORDING);
+        return EntityType::Recording;
     }
 
     /**

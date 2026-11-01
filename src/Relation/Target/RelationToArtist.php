@@ -39,7 +39,7 @@ class RelationToArtist extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::ARTIST);
+        return EntityType::Artist;
     }
 
     /**

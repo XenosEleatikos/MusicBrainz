@@ -20,6 +20,6 @@ abstract class Instrument extends \MusicBrainz\Relation\Type\Artist
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::INSTRUMENT);
+        return EntityType::Instrument;
     }
 }

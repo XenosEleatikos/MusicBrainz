@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Helper;
 
+use BackedEnum;
 use MusicBrainz\MusicBrainz;
 
 use function gettype;
@@ -141,5 +142,35 @@ class ArrayAccess
             ->error('Unexpected API behavior: Expected "' . $key . '" to be of type string, but got ' . gettype($array[$key]));
 
         return null;
+    }
+
+    /**
+     * Extracts a backed enum case from a certain key of a given input array. Returns null, if the key doesn't exist
+     * or doesn't contain a value of type string. Logs an error, if the value is not a known case of the enum.
+     *
+     * @template T of BackedEnum
+     *
+     * @param array<mixed>    $array     The input array
+     * @param string          $key       The array key
+     * @param class-string<T> $enumClass The enum
+     *
+     * @return null|T
+     */
+    public static function getEnum(array $array, string $key, string $enumClass): ?BackedEnum
+    {
+        $value = self::getString($array, $key);
+
+        if (null === $value) {
+            return null;
+        }
+
+        $case = $enumClass::tryFrom($value);
+
+        if (null === $case) {
+            MusicBrainz::log()
+                ->error('Unexpected API behavior: "' . $value . '" is not a known ' . $enumClass . ' (key "' . $key . '")');
+        }
+
+        return $case;
     }
 }

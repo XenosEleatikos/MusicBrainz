@@ -39,7 +39,7 @@ class RelationToPlace extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::PLACE);
+        return EntityType::Place;
     }
 
     /**

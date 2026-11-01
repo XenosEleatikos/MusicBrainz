@@ -42,7 +42,7 @@ trait RelationsToWorkTrait
      */
     private function setWorkRelationsFromArray(array $input): void
     {
-        $this->workRelations = is_null($input = ArrayAccess::getArray($input, EntityType::WORK))
+        $this->workRelations = is_null($input = ArrayAccess::getArray($input, EntityType::Work->value))
             ? new RelationToWorkList()
             : new RelationToWorkList($input);
     }

@@ -39,7 +39,7 @@ class RelationToEvent extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::EVENT);
+        return EntityType::Event;
     }
 
     /**

@@ -29,18 +29,18 @@ class RelationTarget
     public static function getClassMap(): array
     {
         return [
-            EntityType::AREA          => RelationToArea::class,
-            EntityType::ARTIST        => RelationToArtist::class,
-            EntityType::EVENT         => RelationToEvent::class,
-            EntityType::INSTRUMENT    => RelationToInstrument::class,
-            EntityType::LABEL         => RelationToLabel::class,
-            EntityType::PLACE         => RelationToPlace::class,
-            EntityType::RECORDING     => RelationToRecording::class,
-            EntityType::RELEASE       => RelationToRelease::class,
-            EntityType::RELEASE_GROUP => RelationToReleaseGroup::class,
-            EntityType::SERIES        => RelationToSeries::class,
-            EntityType::URL           => RelationToUrl::class,
-            EntityType::WORK          => RelationToWork::class,
+            EntityType::Area->value          => RelationToArea::class,
+            EntityType::Artist->value        => RelationToArtist::class,
+            EntityType::Event->value         => RelationToEvent::class,
+            EntityType::Instrument->value    => RelationToInstrument::class,
+            EntityType::Label->value         => RelationToLabel::class,
+            EntityType::Place->value         => RelationToPlace::class,
+            EntityType::Recording->value     => RelationToRecording::class,
+            EntityType::Release->value       => RelationToRelease::class,
+            EntityType::ReleaseGroup->value => RelationToReleaseGroup::class,
+            EntityType::Series->value        => RelationToSeries::class,
+            EntityType::Url->value           => RelationToUrl::class,
+            EntityType::Work->value          => RelationToWork::class,
         ];
     }
 }

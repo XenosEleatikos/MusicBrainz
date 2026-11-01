@@ -22,6 +22,6 @@ trait ReleaseGroupTrait
     public function setEntityTypeReleaseGroup(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::RELEASE_GROUP));
+        $this->setEntityType(EntityType::ReleaseGroup);
     }
 }

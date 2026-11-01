@@ -19,6 +19,6 @@ abstract class Label extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::LABEL);
+        return EntityType::Label;
     }
 }

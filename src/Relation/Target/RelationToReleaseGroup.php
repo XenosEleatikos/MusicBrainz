@@ -39,7 +39,7 @@ class RelationToReleaseGroup extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::RELEASE_GROUP);
+        return EntityType::ReleaseGroup;
     }
 
     /**

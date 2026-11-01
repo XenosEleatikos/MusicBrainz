@@ -4,207 +4,37 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
-
-use function in_array;
+use function str_replace;
 
 /**
- * An entity type
+ * The type of an entity (core entities of MusicBrainz and some related resources).
  */
-class EntityType implements Value
+enum EntityType: string
 {
-    /**
-     * An area
-     *
-     * @var string
-     */
-    public const AREA = 'area';
+    case Area = 'area';
+    case Artist = 'artist';
+    case Collection = 'collection';
+    case Editor = 'editor';
+    case Event = 'event';
+    case Genre = 'genre';
+    case Instrument = 'instrument';
+    case Label = 'label';
+    case Place = 'place';
+    case Recording = 'recording';
+    case Resource = 'resource';
+    case Release = 'release';
+    case ReleaseGroup = 'release_group';
+    case Series = 'series';
+    case Track = 'track';
+    case TrackArtist = 'track_artist';
+    case Url = 'url';
+    case Work = 'work';
 
     /**
-     * An artist
-     *
-     * @var string
+     * Returns the name used in URL paths of the web service, which uses hyphens instead of underscores.
      */
-    public const ARTIST = 'artist';
-
-    /**
-     * A collection
-     *
-     * @var string
-     */
-    public const COLLECTION = 'collection';
-
-    /**
-     * An editor
-     *
-     * @var string
-     */
-    public const EDITOR = 'editor';
-
-    /**
-     * An event
-     *
-     * @var string
-     */
-    public const EVENT = 'event';
-
-    /**
-     * A genre
-     *
-     * @var string
-     */
-    public const GENRE = 'genre';
-
-    /**
-     * An instrument
-     *
-     * @var string
-     */
-    public const INSTRUMENT = 'instrument';
-
-    /**
-     * A label
-     *
-     * @var string
-     */
-    public const LABEL = 'label';
-
-    /**
-     * A place
-     *
-     * @var string
-     */
-    public const PLACE = 'place';
-
-    /**
-     * A recording
-     *
-     * @var string
-     */
-    public const RECORDING = 'recording';
-
-    /**
-     * A resource
-     *
-     * @var string
-     */
-    public const RESOURCE = 'resource';
-
-    /**
-     * A release
-     *
-     * @var string
-     */
-    public const RELEASE = 'release';
-
-    /**
-     * A release group
-     *
-     * @var string
-     */
-    public const RELEASE_GROUP = 'release_group';
-
-    /**
-     * A series
-     *
-     * @var string
-     */
-    public const SERIES = 'series';
-
-    /**
-     * A track
-     *
-     * @var string
-     */
-    public const TRACK = 'track';
-
-    /**
-     * As a special case, release also allows track_artist, which is intended to allow you
-     * to browse various artist appearances for an artist. It will return any release where
-     * the artist appears in the artist credit for a track, but NOT in the artist credit for
-     * the entire release (as those would already have been returned in a request with
-     * artist=<MBID>).
-     *
-     * @see self::ARTIST
-     * @see https://musicbrainz.org/doc/MusicBrainz_API#Linked_entities
-     *
-     * @var string
-     */
-    public const TRACK_ARTIST = 'track_artist';
-
-    /**
-     * An URL
-     *
-     * @var string
-     */
-    public const URL = 'url';
-
-    /**
-     * A work
-     *
-     * @var string
-     */
-    public const WORK = 'work';
-
-    /**
-     * An undefined entity type
-     *
-     * @var string
-     */
-    public const UNDEFINED = '';
-
-    /**
-     * A list of valid entity types
-     *
-     * @var string[]
-     */
-    private const ENTITY_TYPES = [
-        self::AREA,
-        self::ARTIST,
-        self::COLLECTION,
-        self::EDITOR,
-        self::EVENT,
-        self::GENRE,
-        self::INSTRUMENT,
-        self::LABEL,
-        self::PLACE,
-        self::RECORDING,
-        self::RESOURCE,
-        self::RELEASE,
-        self::RELEASE_GROUP,
-        self::SERIES,
-        self::TRACK,
-        self::TRACK_ARTIST,
-        self::URL,
-        self::WORK,
-    ];
-
-    /**
-     * The entity type code
-     *
-     * @var string
-     */
-    private $entityTypeCode;
-
-    /**
-     * Constructs an entity type.
-     *
-     * @param string $entityTypeCode The entity type code
-     */
-    public function __construct(string $entityTypeCode = self::UNDEFINED)
+    public function path(): string
     {
-        $this->entityTypeCode = in_array($entityTypeCode, self::ENTITY_TYPES)
-            ? $entityTypeCode
-            : self::UNDEFINED;
-    }
-
-    /**
-     * Returns the entity type code.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return $this->entityTypeCode;
+        return str_replace('_', '-', $this->value);
     }
 }

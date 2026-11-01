@@ -22,6 +22,6 @@ trait TrackTrait
     public function track(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::TRACK));
+        $this->setEntityType(EntityType::Track);
     }
 }

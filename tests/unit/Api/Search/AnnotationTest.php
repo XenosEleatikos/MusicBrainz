@@ -91,7 +91,7 @@ class AnnotationTest extends ApiTestCase
         $this->assertEquals('6370e01e-4fd4-49c4-858b-6f1df7c7fe91', $annotation->getMBID());
 
         $this->assertInstanceOf(EntityType::class, $annotation->getEntityType());
-        $this->assertEquals(EntityType::RELEASE, $annotation->getEntityType());
+        $this->assertEquals(EntityType::Release, $annotation->getEntityType());
 
         $this->assertInstanceOf(Name::class, $annotation->getName());
         $this->assertEquals('Echo Ricochet', $annotation->getName());

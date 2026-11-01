@@ -22,6 +22,6 @@ trait ResourceTrait
     public function resource(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::RESOURCE));
+        $this->setEntityType(EntityType::Resource);
     }
 }

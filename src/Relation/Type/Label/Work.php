@@ -20,6 +20,6 @@ abstract class Work extends \MusicBrainz\Relation\Type\Label
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::WORK);
+        return EntityType::Work;
     }
 }

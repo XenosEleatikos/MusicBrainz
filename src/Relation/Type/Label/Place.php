@@ -20,6 +20,6 @@ abstract class Place extends \MusicBrainz\Relation\Type\Label
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::PLACE);
+        return EntityType::Place;
     }
 }

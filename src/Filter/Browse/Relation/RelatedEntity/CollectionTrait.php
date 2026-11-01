@@ -22,6 +22,6 @@ trait CollectionTrait
     public function collection(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::COLLECTION));
+        $this->setEntityType(EntityType::Collection);
     }
 }

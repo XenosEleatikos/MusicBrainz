@@ -19,14 +19,14 @@ abstract class Type
      *
      * @return EntityType
      */
-    abstract public static function getBaseEntityType(): EntityType;
+    abstract public static function getBaseEntityType(): ?EntityType;
 
     /**
      * Returns the entity type of the related entity.
      *
      * @return EntityType
      */
-    abstract public static function getRelatedEntityType(): EntityType;
+    abstract public static function getRelatedEntityType(): ?EntityType;
 
     /**
      * Returns the name of the relation.

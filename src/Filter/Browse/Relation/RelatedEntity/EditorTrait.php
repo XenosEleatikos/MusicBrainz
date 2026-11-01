@@ -22,6 +22,6 @@ trait EditorTrait
     public function editor(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::EDITOR));
+        $this->setEntityType(EntityType::Editor);
     }
 }

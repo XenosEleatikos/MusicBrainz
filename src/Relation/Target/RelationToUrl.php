@@ -39,7 +39,7 @@ class RelationToUrl extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::URL);
+        return EntityType::Url;
     }
 
     /**

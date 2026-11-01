@@ -35,7 +35,11 @@ class RelationFactory
             if (is_null($relation)) {
                 continue;
             }
-            $relationList[(string) $relation::getRelatedEntityType()][] = $relation;
+            $relatedEntityType = $relation::getRelatedEntityType();
+            if (null === $relatedEntityType) {
+                continue;
+            }
+            $relationList[$relatedEntityType->value][] = $relation;
         }
 
         return $relationList ?? [];
@@ -60,22 +64,32 @@ class RelationFactory
             return null;
         }
 
-        $direction = new Direction(ArrayAccess::getString($relation, 'direction') ?? '');
+        $direction = ArrayAccess::getEnum($relation, 'direction', Direction::class);
 
-        $relatedEntityType = (Direction::FORWARD == $direction)
+        if (null === $direction) {
+            MusicBrainz::log()->alert('Cannot resolve relation without a valid direction. See: https://musicbrainz.org/relationship/' . $relationTypeId);
+
+            return null;
+        }
+
+        $relatedEntityType = (Direction::Forward === $direction)
             ? $relationType::getRelatedEntityType()
             : $relationType::getBaseEntityType();
 
-        $class = RelationTarget::getClassMap()[(string) $relatedEntityType];
+        if (null === $relatedEntityType) {
+            return null;
+        }
 
-        if (empty($relation[(string) $relatedEntityType])) {
+        $class = RelationTarget::getClassMap()[$relatedEntityType->value];
+
+        if (empty($relation[$relatedEntityType->value])) {
             MusicBrainz::log()->alert('Cannot resolve relation. See: https://musicbrainz.org/relationship/' . $relationTypeId);
 
             return null;
         }
 
         return new $class(
-            $relation[(string) $relatedEntityType],
+            $relation[$relatedEntityType->value],
             $relationType,
             $direction
         );

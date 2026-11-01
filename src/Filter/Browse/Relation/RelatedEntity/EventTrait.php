@@ -22,6 +22,6 @@ trait EventTrait
     public function event(MBID $mbid): void
     {
         $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::EVENT));
+        $this->setEntityType(EntityType::Event);
     }
 }

@@ -39,7 +39,7 @@ class RelationToArea extends Relation
      */
     public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::AREA);
+        return EntityType::Area;
     }
 
     /**

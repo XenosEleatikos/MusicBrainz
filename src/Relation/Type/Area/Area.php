@@ -20,6 +20,6 @@ abstract class Area extends \MusicBrainz\Relation\Type\Area
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::AREA);
+        return EntityType::Area;
     }
 }

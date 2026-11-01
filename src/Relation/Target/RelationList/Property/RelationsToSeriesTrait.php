@@ -42,7 +42,7 @@ trait RelationsToSeriesTrait
      */
     private function setSeriesRelationsFromArray(array $input): void
     {
-        $this->seriesRelations = is_null($input = ArrayAccess::getArray($input, EntityType::SERIES))
+        $this->seriesRelations = is_null($input = ArrayAccess::getArray($input, EntityType::Series->value))
             ? new RelationToSeriesList()
             : new RelationToSeriesList($input);
     }

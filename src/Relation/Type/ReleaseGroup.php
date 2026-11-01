@@ -19,6 +19,6 @@ abstract class ReleaseGroup extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::RELEASE_GROUP);
+        return EntityType::ReleaseGroup;
     }
 }
