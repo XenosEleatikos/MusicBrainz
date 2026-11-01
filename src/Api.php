@@ -14,7 +14,7 @@ use MusicBrainz\Http\ApiClient;
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API
  */
-class Api
+final class Api
 {
     /**
      * The API client
@@ -35,6 +35,8 @@ class Api
      *
      * @param ApiClient $apiClient The API client
      * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
     public function __construct(ApiClient $apiClient, Config $config)
     {

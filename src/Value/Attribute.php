@@ -21,6 +21,8 @@ final readonly class Attribute implements Parsable
 
     /**
      * @param array<mixed> $data
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

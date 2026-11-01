@@ -13,7 +13,7 @@ use Psr\Log\NullLogger;
 /**
  * The library's main class
  */
-class MusicBrainz
+final class MusicBrainz
 {
     private readonly ApiClient $apiClient;
 
@@ -40,7 +40,12 @@ class MusicBrainz
     ) {
         $this->apiClient = new ApiClient($client, $requestFactory);
         $this->config    = $config ?? new Config();
-        self::$logger    = $logger ?? new NullLogger();
+        // A second instance without a logger must not silence the logger of the first one
+        if (null !== $logger) {
+            self::$logger = $logger;
+        } else {
+            self::$logger ??= new NullLogger();
+        }
     }
 
     /**

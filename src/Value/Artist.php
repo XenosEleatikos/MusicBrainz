@@ -61,6 +61,8 @@ final readonly class Artist implements Parsable
 
     /**
      * @param array<mixed> $data A decoded artist of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

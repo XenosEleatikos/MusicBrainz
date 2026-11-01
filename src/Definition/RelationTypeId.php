@@ -6,6 +6,9 @@ namespace MusicBrainz\Definition;
 
 use MusicBrainz\Relation\Type;
 
+/**
+ * @internal
+ */
 class RelationTypeId
 {
     /**

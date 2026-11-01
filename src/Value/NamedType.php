@@ -61,6 +61,8 @@ abstract readonly class NamedType implements Stringable
 
     /**
      * Creates the type from API data. Logs a warning if the value is not known to this library.
+     *
+     * @internal
      */
     final public static function make(string $name, ?string $id = null): static
     {
@@ -95,6 +97,8 @@ abstract readonly class NamedType implements Stringable
      * Creates the type from an API response array. Returns null if the name is missing.
      *
      * @param array<mixed> $data
+     *
+     * @internal
      */
     final public static function fromArray(array $data, string $nameKey, string $idKey): ?static
     {

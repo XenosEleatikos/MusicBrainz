@@ -7,7 +7,7 @@ namespace MusicBrainz;
 /**
  * The API client configuration
  */
-class Config
+final class Config
 {
     /**
      * An OAuth2 access token, required for user specific data (user-tags, user-ratings, user-genres, private

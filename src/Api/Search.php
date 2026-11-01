@@ -48,7 +48,7 @@ use MusicBrainz\Value\SearchResult;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API/Search
  */
-class Search
+final class Search
 {
     /**
      * The API client
@@ -69,6 +69,8 @@ class Search
      *
      * @param ApiClient $apiClient The API client
      * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
     public function __construct(ApiClient $apiClient, Config $config)
     {

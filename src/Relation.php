@@ -68,6 +68,8 @@ final readonly class Relation
      * unknown to the library or the relation is incomplete.
      *
      * @param array<mixed> $data
+     *
+     * @internal
      */
     public static function fromArray(array $data): ?self
     {

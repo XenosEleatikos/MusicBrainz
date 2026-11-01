@@ -53,6 +53,8 @@ final readonly class Label implements Parsable
 
     /**
      * @param array<mixed> $data A decoded label of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

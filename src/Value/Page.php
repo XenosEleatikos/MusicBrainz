@@ -51,6 +51,8 @@ final readonly class Page implements ArrayAccess, Countable, IteratorAggregate
      * @param class-string<E> $class
      *
      * @return self<E>
+     *
+     * @internal
      */
     public static function browse(array $result, string $type, string $class): self
     {
@@ -73,6 +75,8 @@ final readonly class Page implements ArrayAccess, Countable, IteratorAggregate
      * @param class-string<E> $class
      *
      * @return self<SearchResult<E>>
+     *
+     * @internal
      */
     public static function search(array $result, string $type, string $class): self
     {

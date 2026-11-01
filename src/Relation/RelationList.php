@@ -31,6 +31,8 @@ final readonly class RelationList implements Countable, IteratorAggregate
 
     /**
      * @param array<mixed> $relations Decoded "relations" elements
+     *
+     * @internal
      */
     public static function fromArray(array $relations): self
     {

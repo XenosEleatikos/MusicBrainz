@@ -46,6 +46,8 @@ final readonly class Place implements Parsable
 
     /**
      * @param array<mixed> $data A decoded place of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

@@ -70,7 +70,7 @@ $musicBrainz = new MusicBrainz(new Psr18Client(), new Psr17Factory(), $logger);
 
 The logger receives warnings about data the library does not know yet (a new type, an unknown relationship type) and
 unexpected API behavior. Note that the logger is process-wide: value objects are built from plain arrays and log through
-`MusicBrainz::log()`, so the logger of the most recently created `MusicBrainz` instance is used.
+`MusicBrainz::log()`, so the logger of the most recently created `MusicBrainz` instance that was given a logger is used.
 
 ### User agent and rate limit
 MusicBrainz requires a meaningful user agent and allows one request per second. The client throttles requests
@@ -232,6 +232,12 @@ foreach ($artist->relations?->to(EntityType::Artist) ?? [] as $relation) {
 ### Errors
 Failed requests throw a `MusicBrainz\Exception`; its code is the HTTP status (404 for an unknown MBID). Responses with
 HTTP 503 are retried automatically, see `Config::setMaxRetries()`.
+
+## Stability
+The public API is what this readme describes: the `MusicBrainz` entry point and its `Config`, the lookup, browse and search
+methods with their filters, fields and page filter, the value objects with their public properties, and the exceptions.
+Everything marked `@internal` (the `fromArray()` factories, the HTTP client, the helpers, the map of relationship types) may
+change in a minor release. Result classes and the API classes are `final`.
 
 ## Upgrading from 1.x
 Version 2 contains breaking changes, the full list is in the [changelog](CHANGELOG.md). The most important ones:

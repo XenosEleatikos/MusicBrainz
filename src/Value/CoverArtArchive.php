@@ -28,6 +28,8 @@ final readonly class CoverArtArchive implements Parsable
 
     /**
      * @param array<mixed> $input The "cover-art-archive" object of a release
+     *
+     * @internal
      */
     public static function fromArray(array $input): static
     {

@@ -43,6 +43,8 @@ final readonly class Instrument implements Parsable
 
     /**
      * @param array<mixed> $data A decoded instrument of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

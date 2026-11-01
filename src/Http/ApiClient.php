@@ -35,6 +35,8 @@ use const PHP_QUERY_RFC3986;
  * HTTP 503 responses.
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting
+ *
+ * @internal
  */
 final class ApiClient
 {

@@ -41,7 +41,7 @@ use MusicBrainz\Value\Work;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API#Lookups
  */
-class Lookup
+final class Lookup
 {
     /**
      * The API client
@@ -62,6 +62,8 @@ class Lookup
      *
      * @param ApiClient $apiClient The API client
      * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
     public function __construct(ApiClient $apiClient, Config $config)
     {

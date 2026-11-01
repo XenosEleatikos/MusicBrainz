@@ -42,6 +42,8 @@ final readonly class Series implements Parsable
 
     /**
      * @param array<mixed> $data A decoded series of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

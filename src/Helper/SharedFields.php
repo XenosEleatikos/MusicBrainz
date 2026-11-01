@@ -16,6 +16,8 @@ use function is_array;
 /**
  * The fields almost all entities share: aliases, tags, genres, ratings, annotation and relations, including those of
  * the authenticated user. Returns them as named arguments for the constructor of an entity.
+ *
+ * @internal
  */
 final class SharedFields
 {

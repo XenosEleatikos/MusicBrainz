@@ -22,6 +22,8 @@ final readonly class Annotation implements Parsable
 
     /**
      * @param array<mixed> $data
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

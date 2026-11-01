@@ -49,6 +49,8 @@ final readonly class Work implements Parsable
 
     /**
      * @param array<mixed> $data A decoded work of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

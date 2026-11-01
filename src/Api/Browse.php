@@ -54,7 +54,7 @@ use MusicBrainz\Value\Page;
  *
  * @link https://musicbrainz.org/doc/MusicBrainz_API#Browse
  */
-class Browse
+final class Browse
 {
     /**
      * The API client
@@ -75,6 +75,8 @@ class Browse
      *
      * @param ApiClient $apiClient The API client
      * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
     public function __construct(ApiClient $apiClient, Config $config)
     {

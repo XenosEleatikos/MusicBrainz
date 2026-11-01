@@ -20,6 +20,8 @@ use function is_string;
 /**
  * Reads typed values out of decoded JSON. Missing keys and null values give null (or an empty list); values of the
  * wrong type are reported to the logger by {@see ArrayAccess}.
+ *
+ * @internal
  */
 final class Json
 {

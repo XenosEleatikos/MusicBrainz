@@ -50,6 +50,8 @@ final readonly class Area implements Parsable
 
     /**
      * @param array<mixed> $data A decoded area of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

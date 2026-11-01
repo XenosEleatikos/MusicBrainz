@@ -18,6 +18,8 @@ final readonly class Coordinates
 
     /**
      * @param array<mixed> $data
+     *
+     * @internal
      */
     public static function fromArray(array $data): ?self
     {

@@ -19,6 +19,8 @@ final readonly class LabelInfo implements Parsable
 
     /**
      * @param array<mixed> $data
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

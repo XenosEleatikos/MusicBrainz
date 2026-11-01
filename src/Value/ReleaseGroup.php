@@ -50,6 +50,8 @@ final readonly class ReleaseGroup implements Parsable
 
     /**
      * @param array<mixed> $data A decoded releasegroup of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

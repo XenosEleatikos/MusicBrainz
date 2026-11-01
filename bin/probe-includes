@@ -8,7 +8,11 @@ declare(strict_types=1);
  * the answer to tests/Fixtures/accepted-includes.json. The unit test tests/unit/Supplement/FieldsTest compares the include
  * flags of the library with that file.
  *
- * Usage: bin/probe-includes [pattern ...]     e.g. bin/probe-includes lookup/artist
+ * Usage: bin/probe-includes [--combinations] [pattern ...]     e.g. bin/probe-includes lookup/artist
+ *
+ * Some parameters are only accepted together with another one: "media", "discids", "isrcs" and "various-artists" need
+ * "releases" or "recordings". With --combinations, parameters that were rejected alone are tried together with these, and
+ * the parent is stored instead of true, e.g. "media": "releases".
  *
  * One request per second, about 600 requests for a complete run. Existing entries of entities that are not probed are
  * kept.
@@ -19,7 +23,8 @@ use Symfony\Component\HttpClient\HttpClient;
 require __DIR__ . '/../vendor/autoload.php';
 
 $userAgent = 'XenosMusicBrainz/2-dev ( https://github.com/XenosEleatikos/MusicBrainz )';
-$patterns = array_slice($argv, 1);
+$combinations = in_array('--combinations', $argv, true);
+$patterns = array_values(array_filter(array_slice($argv, 1), static fn(string $a): bool => !str_starts_with($a, '--')));
 $file = __DIR__ . '/../tests/Fixtures/accepted-includes.json';
 
 $entities = ['area', 'artist', 'event', 'genre', 'instrument', 'label', 'place', 'recording', 'release', 'release-group', 'series', 'url', 'work'];
@@ -70,6 +75,30 @@ foreach ($todo as $name => [$template, $kind, $entity]) {
     if ($patterns && [] === array_filter($patterns, static fn(string $p): bool => str_contains($name, $p))) {
         continue;
     }
+    if ($combinations) {
+        $accepted = $result[$kind][$entity] ?? [];
+        foreach (['media', 'discids', 'isrcs', 'various-artists'] as $inc) {
+            if (true === ($accepted[$inc] ?? null)) {
+                continue;
+            }
+            $accepted[$inc] = false;
+            foreach (['releases', 'recordings'] as $parent) {
+                if (true !== ($accepted[$parent] ?? false)) {
+                    continue;
+                }
+                if (200 === $status(sprintf($template, $parent . '+' . $inc))) {
+                    $accepted[$inc] = $parent;
+                    break;
+                }
+            }
+        }
+        ksort($accepted);
+        $result[$kind][$entity] = $accepted;
+        echo $name, ': ', count(array_filter($accepted)), " accepted (with combinations)\n";
+        file_put_contents($file, json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
+        continue;
+    }
+
     $accepted = [];
     foreach ($candidates as $inc) {
         $code = $status(sprintf($template, $inc));

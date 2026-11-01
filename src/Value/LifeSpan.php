@@ -20,6 +20,8 @@ final readonly class LifeSpan implements Parsable
 
     /**
      * @param array<mixed> $data A "life-span" object
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

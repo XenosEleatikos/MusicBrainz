@@ -46,6 +46,8 @@ final readonly class Event implements Parsable
 
     /**
      * @param array<mixed> $data A decoded event of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

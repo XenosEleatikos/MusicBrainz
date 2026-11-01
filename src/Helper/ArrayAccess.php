@@ -16,6 +16,8 @@ use function is_string;
 
 /**
  * A helper class for extracting values from an array.
+ *
+ * @internal
  */
 class ArrayAccess
 {

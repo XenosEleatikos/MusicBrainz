@@ -27,6 +27,8 @@ final readonly class URL implements Parsable
 
     /**
      * @param array<mixed> $data A decoded url of the web service
+     *
+     * @internal
      */
     public static function fromArray(array $data): static
     {

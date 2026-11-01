@@ -29,6 +29,8 @@ final readonly class SearchResult
      * @param class-string<E> $class A class with a static fromArray(array): E factory
      *
      * @return self<E>
+     *
+     * @internal
      */
     public static function fromArray(array $data, string $class): self
     {
