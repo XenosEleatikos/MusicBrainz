@@ -48,7 +48,7 @@ jobs:
         if: matrix.php == '8.3'
         run: composer test:coverage
 
-  # Talks to musicbrainz.org (about 160 requests, throttled to one per second). Not part of every push.
+  # Talks to musicbrainz.org (about 90 requests, throttled to one per second). Not part of every push.
   specification:
     name: Specification (live MusicBrainz documentation)
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'

@@ -1,6 +1,7 @@
 * text=auto eol=lf
 
 # Not part of the package that Composer downloads (composer install --prefer-dist)
+/.docker/                export-ignore
 /.github/                export-ignore
 /bin/                    export-ignore
 /tests/                  export-ignore

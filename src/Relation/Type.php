@@ -18,16 +18,16 @@ use function is_string;
 abstract class Type
 {
     /**
-     * Returns the entity type of the base entity.
+     * Returns the entity type of the base entity, null for an unknown relation type.
      *
-     * @return EntityType
+     * @return null|EntityType
      */
     abstract public static function getBaseEntityType(): ?EntityType;
 
     /**
-     * Returns the entity type of the related entity.
+     * Returns the entity type of the related entity, null for an unknown relation type.
      *
-     * @return EntityType
+     * @return null|EntityType
      */
     abstract public static function getRelatedEntityType(): ?EntityType;
 

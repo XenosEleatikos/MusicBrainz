@@ -42,7 +42,8 @@ class RelationTest extends TestCase
      * This test reads the documentation for {@see https://musicbrainz.org/relationships relationships} and
      * counts the linked pages for more specific relationship types (area-area, area-event...).
      *
-     * For the 12 main entities of MusicBrainz, there should be 91 (12+11+10...) possible relationship types.
+     * For the 13 entity types that can be related (the 12 main entities and genres), there should be 91 (13+12+11...)
+     * possible pairs, each with an overview page of its relationship types.
      *
      * @return string[] Links to overview pages for each relationship type (area-area, area-event...)
      *

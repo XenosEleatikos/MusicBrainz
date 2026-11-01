@@ -37,6 +37,7 @@
     "suggest": {
         "monolog/monolog": "Allows logging of the application flow.",
         "symfony/http-client": "A PSR-18 HTTP client; any other PSR-18 client works as well.",
+        "nyholm/psr7": "A PSR-7 implementation with a PSR-17 request factory, which the client needs besides the PSR-18 client.",
         "guzzlehttp/guzzle": "A PSR-18 HTTP client; any other PSR-18 client works as well."
     },
     "autoload": {

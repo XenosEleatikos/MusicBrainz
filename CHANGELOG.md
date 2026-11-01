@@ -35,7 +35,7 @@ guide in the README.
   `EventType`, `PlaceType`, `InstrumentType`, `SeriesType`, `WorkType`). A value MusicBrainz knows but the library does
   not is kept in `name` and logged as warning; `kind()` returns `null`.
 - `ReleaseType`, `ReleaseTypeList` and `AbstractType` were removed, use `PrimaryReleaseType` and
-  `SecondaryReleaseTypeList`.
+  a list of `SecondaryReleaseType`.
 - Browse filters: `ReleaseRelation::setEntityTypeRelease()` and `setEntityTypeReleaseGroup()` are now `release()` and
   `releaseGroup()`. `CollectionRelation::editor()` takes the user name of the editor (editors have no MBID).
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
@@ -48,6 +48,9 @@ guide in the README.
   including the relations of works.
 - Cover Art Archive information of releases, setlists of events, ISRCs of recordings.
 - 82 relationship types that were missing, including everything that involves genres; relations to genres.
+- Enum cases the documentation lists but the library lacked: `LabelTypeKind::Broadcaster`, `PlaceTypeKind::Amphitheatre`,
+  `EducationalInstitution` and `Park`, `InstrumentTypeKind::Family`, `ReleaseStatusKind::Expunged`, `AliasTypeKind::BrandName`
+  and the packagings `ClamshellCase`, `Digibook`, `Digifile`, `Longbox`, `MetalTin`, `SnapPack` and `SuperJewelBox`.
 - Rate limiting (one request per second) and retries on HTTP 503, configurable.
 - Test infrastructure: `bin/record-fixtures` records real responses, the unit tests replay them offline.
 - CI for PHP 8.3, 8.4 and 8.5, PHPStan level 9, a coverage gate.
@@ -61,3 +64,10 @@ guide in the README.
 - Lookups no longer offer `inc` values the web service rejects (`releases` for releases, `artists` and
   `release-groups` for works).
 - Deprecations of PHP 8.4 (implicitly nullable parameters).
+- Search fields that did not exist at MusicBrainz: places by `lat`/`long` (not `latitude`/`longitude`), areas by
+  `iso1`/`iso2`/`iso3`, artists by `endarea` (was `area`), releases by `discidsmedium` (was `discids`), CD stubs by
+  `tracks`. `WorkFilter` (ISRC) and `RecordingFilter` (tracks on a medium) no longer offer fields their index lacks.
+- `getRelationName()` of 13 relationship types returned a name that differs from the official one (for example
+  "named after artist", "position at", "authorship"); the names and descriptions are those of musicbrainz.org now.
+- `WorkTypeKind::Tude` is `WorkTypeKind::Etude`.
+- Links to the documentation that were redirected or pointed to a missing anchor.

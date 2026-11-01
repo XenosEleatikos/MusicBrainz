@@ -1,5 +1,5 @@
 # MusicBrainz API Client
-A typed PHP API client for the [MusicBrainz JSON web service](https://musicbrainz.org/doc/Development/JSON_Web_Service):
+A typed PHP API client for the [MusicBrainz JSON web service](https://musicbrainz.org/doc/MusicBrainz_API):
 search, lookup and browse requests for the core entities, including genres, tags, ratings and relations. The library is
 read-only. Requirements: PHP 8.3 or newer, any PSR-18 HTTP client.
 
@@ -12,11 +12,13 @@ read-only. Requirements: PHP 8.3 or newer, any PSR-18 HTTP client.
     - [Logger](#logger)
     - [User agent and rate limit](#user-agent-and-rate-limit)
     - [Authentication](#authentication)
+    - [Custom API Path](#custom-api-path)
 - [Usage](#usage)
     - [Search Requests](#search-requests)
     - [Lookup Requests](#lookup-requests)
     - [Browse Requests](#browse-requests)
     - [Value objects](#value-objects)
+    - [Types and unknown values](#types-and-unknown-values)
     - [Relations](#relations)
     - [Errors](#errors)
 - [Upgrading from 1.x](#upgrading-from-1x)
@@ -106,8 +108,8 @@ $musicBrainz->config()
 ### Search Requests
 The search API provides methods to search for the MusicBrainz
 [core entities](https://musicbrainz.org/doc/MusicBrainz_Entity). For each of these entities there is a search
-method taking a specific filter object and a page filter for pagination. The return value will be a specific
-list object containing basic information about the matching entities. For more information you have to perform
+method taking a specific filter object and a page filter for pagination. The return value is a `Page` containing
+basic information about the matching entities. For more information you have to perform
 a [lookup request](#lookup-requests) with the MusicBrainz Identifier (MBID) of the entity.
 
 The following example searches for the artist named "Tom Waits" and limits the result list to the top match. The result
