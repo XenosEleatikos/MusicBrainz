@@ -83,14 +83,6 @@ final class ApiClientTest extends TestCase
         self::assertStringContainsString('shared by all applications', $logged[0]);
     }
 
-    public function testRefusesToRequestWithoutUserAgent(): void
-    {
-        $this->expectException(ConfigurationException::class);
-        $this->expectExceptionMessage('User Agent');
-
-        $this->client->call('artist/abc', $this->config->setUserAgent(' '));
-    }
-
     public function testSendsBearerTokenIfAuthenticationIsRequired(): void
     {
         $this->http->queueJson('{}');

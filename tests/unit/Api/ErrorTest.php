@@ -9,6 +9,13 @@ use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Test\Support\RecordedApi;
+use MusicBrainz\Config;
+use MusicBrainz\MusicBrainz;
+use MusicBrainz\ResponseException;
+use MusicBrainz\Test\Support\FakeHttpClient;
+use MusicBrainz\Value\MBID;
+use MusicBrainz\Supplement\Lookup\ArtistFields;
+use Nyholm\Psr7\Factory\Psr17Factory;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -57,5 +64,16 @@ final class ErrorTest extends TestCase
         } finally {
             self::assertSame([], $api->http->requests);
         }
+    }
+
+    public function testAnAnswerThatIsNoEntityIsAResponseError(): void
+    {
+        $http = new FakeHttpClient();
+        $http->queueJson('[1,2]');
+        $musicBrainz = new MusicBrainz($http, new Psr17Factory(), null, (new Config())->setMinRequestInterval(0.0)->setUserAgent('Tests/1 ( https://example.org )'));
+
+        $this->expectException(ResponseException::class);
+
+        $musicBrainz->api()->lookup()->artist(new MBID('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d'), new ArtistFields());
     }
 }

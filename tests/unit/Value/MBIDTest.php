@@ -14,7 +14,7 @@ final class MBIDTest extends TestCase
     public function testAcceptsAUuid(): void
     {
         self::assertSame('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d', (string) new MBID('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d'));
-        self::assertSame('B10BBBFC-CF9E-42E0-BE17-E2C3E1D2600D', (string) new MBID('B10BBBFC-CF9E-42E0-BE17-E2C3E1D2600D'));
+        self::assertSame('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d', (string) new MBID('B10BBBFC-CF9E-42E0-BE17-E2C3E1D2600D'));
     }
 
     public function testRefusesAnythingElse(): void
@@ -37,5 +37,17 @@ final class MBIDTest extends TestCase
         $this->expectException(InvalidArgumentException::class);
 
         new MBID('');
+    }
+
+    public function testATrailingNewLineIsNoMbid(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        new MBID("b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d\n");
+    }
+
+    public function testMbidsAreLowerCase(): void
+    {
+        self::assertSame('b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d', (new MBID('B10BBBFC-CF9E-42E0-BE17-E2C3E1D2600D'))->value);
     }
 }

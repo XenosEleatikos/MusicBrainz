@@ -56,4 +56,33 @@ final class ConfigTest extends TestCase
 
         (new Config())->setMaxRetries(-1);
     }
+
+    /**
+     * @return array<string, array{string}>
+     */
+    public static function invalidHeaderValues(): array
+    {
+        return ['empty' => [''], 'blank' => [' '], 'new line' => ["A\r\nX-Injected: 1"], 'tab' => ["A\tB"], 'nul' => ["A\0B"]];
+    }
+
+    #[DataProvider('invalidHeaderValues')]
+    public function testRefusesAUserAgentThatIsNoHeaderValue(string $value): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        (new Config())->setUserAgent($value);
+    }
+
+    #[DataProvider('invalidHeaderValues')]
+    public function testRefusesATokenThatIsNoHeaderValue(string $value): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+
+        (new Config())->setAccessToken($value);
+    }
+
+    public function testTheTokenCanBeRemoved(): void
+    {
+        self::assertNull((new Config())->setAccessToken('abc')->setAccessToken(null)->getAccessToken());
+    }
 }

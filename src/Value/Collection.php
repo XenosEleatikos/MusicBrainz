@@ -41,7 +41,7 @@ final readonly class Collection implements Parsable, Stringable
             ArrayAccess::getString($data, 'editor') ?? '',
             $entityType,
             CollectionType::fromKeys($data, 'type', 'type-id'),
-            null === $entityTypeName ? 0 : (ArrayAccess::getInteger($data, $entityTypeName . '-count') ?? 0),
+            null === $entityTypeName ? 0 : (ArrayAccess::getInteger($data, $entityTypeName . '-count') ?? ArrayAccess::getInteger($data, str_replace('_', '-', $entityTypeName) . '-count') ?? ArrayAccess::getInteger($data, str_replace('-', '_', $entityTypeName) . '-count') ?? 0),
         );
     }
 

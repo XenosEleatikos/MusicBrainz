@@ -6,6 +6,7 @@ namespace MusicBrainz\Api;
 
 use MusicBrainz\Config;
 use MusicBrainz\Http\ApiClient;
+use MusicBrainz\ResponseException;
 use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Supplement\Lookup\AreaFields;
 use MusicBrainz\Supplement\Lookup\ArtistFields;
@@ -35,6 +36,8 @@ use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\Series;
 use MusicBrainz\Value\URL;
 use MusicBrainz\Value\Work;
+
+use function is_string;
 
 /**
  * Lookups are direct queries for entities specified by a MusicBrainz Identifier (MBID).
@@ -282,11 +285,17 @@ final class Lookup
             'fmt' => 'json',
         ];
 
-        return $this->apiClient->call(
+        $response = $this->apiClient->call(
             $entityType->path() . '/' . $mbid,
             $this->config,
             $params,
             str_contains((string) $includes, 'user-')
         );
+
+        if (!is_string($response['id'] ?? null)) {
+            throw new ResponseException('The answer of the web service is no ' . $entityType->value . ': it has no id');
+        }
+
+        return $response;
     }
 }

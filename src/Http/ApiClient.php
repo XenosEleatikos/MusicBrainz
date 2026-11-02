@@ -79,10 +79,6 @@ final class ApiClient
      */
     public function call(string $path, Config $config, array $params = [], bool $isAuthRequired = false): array
     {
-        if ('' === trim($config->getUserAgent())) {
-            throw new ConfigurationException('You must set a valid User Agent before accessing the MusicBrainz API');
-        }
-
         if (Config::DEFAULT_USER_AGENT === $config->getUserAgent() && !self::$warnedAboutUserAgent) {
             self::$warnedAboutUserAgent = true;
             MusicBrainz::log()->warning(
@@ -179,7 +175,7 @@ final class ApiClient
         }
 
         if (!is_array($data)) {
-            throw new ResponseException('Unexpected response from the web service: ' . mb_strimwidth($body, 0, 200, '…'));
+            throw new ResponseException('Unexpected response from the web service (HTTP ' . $status . '): ' . mb_strimwidth($body, 0, 200, '…'));
         }
 
         return $data;

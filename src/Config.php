@@ -6,6 +6,7 @@ namespace MusicBrainz;
 
 use function preg_match;
 use function rtrim;
+use function trim;
 
 /**
  * The API client configuration
@@ -56,6 +57,9 @@ final class Config
 
     public function setAccessToken(?string $accessToken): self
     {
+        if (null !== $accessToken) {
+            self::assertHeaderValue($accessToken, 'access token');
+        }
         $this->accessToken = $accessToken;
 
         return $this;
@@ -110,6 +114,7 @@ final class Config
      */
     public function setUserAgent(string $userAgent): self
     {
+        self::assertHeaderValue($userAgent, 'user agent');
         $this->userAgent = $userAgent;
 
         return $this;
@@ -140,5 +145,15 @@ final class Config
         $this->apiUrl = rtrim($apiUrl, '/');
 
         return $this;
+    }
+
+    /**
+     * @throws InvalidArgumentException if the value is empty or cannot be an HTTP header value
+     */
+    private static function assertHeaderValue(string $value, string $name): void
+    {
+        if ('' === trim($value) || 1 === preg_match('/[\x00-\x1F\x7F]/', $value)) {
+            throw new InvalidArgumentException('The ' . $name . ' must not be empty and must not contain control characters');
+        }
     }
 }

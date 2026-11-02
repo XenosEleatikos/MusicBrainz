@@ -8,6 +8,7 @@ use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 use function preg_match;
+use function strtolower;
 
 /**
  * A MusicBrainz Identifier (MBID)
@@ -16,7 +17,7 @@ use function preg_match;
  */
 final readonly class MBID implements Stringable
 {
-    /** The identifier in the form 8-4-4-4-12 hexadecimal digits */
+    /** The identifier in the form 8-4-4-4-12 hexadecimal digits, in lower case */
     public string $value;
 
     /**
@@ -26,11 +27,11 @@ final readonly class MBID implements Stringable
      */
     public function __construct(string $value)
     {
-        if (1 !== preg_match('/^[a-f\d]{8}(-[a-f\d]{4}){3}-[a-f\d]{12}$/i', $value)) {
+        if (1 !== preg_match('/^[a-f\d]{8}(-[a-f\d]{4}){3}-[a-f\d]{12}\z/i', $value)) {
             throw new InvalidArgumentException('"' . $value . '" is not a valid MusicBrainz Identifier (MBID)');
         }
 
-        $this->value = $value;
+        $this->value = strtolower($value);
     }
 
     public function __toString(): string

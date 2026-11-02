@@ -88,4 +88,12 @@ final class MalformedResponseTest extends TestCase
         self::assertCount(1, $this->logged);
         self::assertStringContainsString('"artist-count" is missing or not an integer', $this->logged[0]);
     }
+
+    public function testRelationsGivenAsObjectInsteadOfListDoNotCrash(): void
+    {
+        $artist = Artist::fromArray(['id' => 'b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d', 'name' => 'x', 'relation-list' => [['relations' => ['a' => 'b']]]]);
+
+        self::assertNotNull($artist->relations);
+        self::assertCount(0, $artist->relations);
+    }
 }

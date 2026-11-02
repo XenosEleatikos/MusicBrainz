@@ -11,6 +11,7 @@ use MusicBrainz\Value\Rating;
 use MusicBrainz\Value\Tag;
 
 use function array_push;
+use function array_values;
 use function is_array;
 
 /**
@@ -72,7 +73,7 @@ final class SharedFields
         $merged = [];
         foreach ($lists as $list) {
             if (is_array($list) && is_array($list['relations'] ?? null)) {
-                array_push($merged, ...$list['relations']);
+                array_push($merged, ...array_values($list['relations']));
             }
         }
 

@@ -61,7 +61,7 @@ final class ScenarioTest extends TestCase
             $http,
             new Psr17Factory(),
             $logger,
-            (new Config())->setMinRequestInterval(0.0)->setAccessToken('test-token'),
+            (new Config())->setMinRequestInterval(0.0)->setAccessToken('test-token')->setUserAgent('Tests/1 ( https://example.org )'),
         );
 
         $result = $scenarios[$name]($musicBrainz);

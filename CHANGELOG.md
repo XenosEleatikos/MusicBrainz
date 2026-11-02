@@ -54,6 +54,9 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- `Config` refuses a user agent or token that cannot be an HTTP header value; MBIDs are normalized to lower case and must not
+  carry trailing characters; a lookup whose answer is no entity (no `id`) is a `ResponseException`; a relation list that is an
+  object instead of a list no longer crashes the parser.
 - Search criteria are combined with AND, so every criterion narrows the result (a juxtaposition of criteria means OR to the
   web service); `$filter->matchAny()` asks for OR. Whatever an application passes to a filter either becomes part of a valid
   query or throws a `MusicBrainz\InvalidArgumentException`; `ended:false` and `video:false` can be searched, an address is
