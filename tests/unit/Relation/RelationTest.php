@@ -16,6 +16,9 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\AbstractLogger;
 use Stringable;
 
+use function array_map;
+use function iterator_to_array;
+
 final class RelationTest extends TestCase
 {
     private const MEMBER_OF_BAND = '5be4c609-9afa-4ea0-910b-12ffb71e3821';
@@ -102,6 +105,7 @@ final class RelationTest extends TestCase
         self::assertCount(2, $list->to(EntityType::Artist));
         self::assertSame([], $list->to(EntityType::Label));
         self::assertSame('Radiohead', $list->to(EntityType::Artist)[1]->target->name);
+        self::assertSame(['The Beatles', 'Radiohead'], array_map(static fn(Relation $relation): string => $relation->target->name, iterator_to_array($list)));
     }
 
     public function testUnknownRelationTypesAreKeptAndReported(): void

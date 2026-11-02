@@ -11,7 +11,7 @@ trait SeriesNameWithAccentsTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the search of the series' name.
+     * Returns the field name for the search of the series' name (with the specified diacritics).
      *
      * @return string
      *

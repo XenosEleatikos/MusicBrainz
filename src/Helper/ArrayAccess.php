@@ -19,7 +19,7 @@ use function is_string;
  *
  * @internal
  */
-class ArrayAccess
+final class ArrayAccess
 {
     /**
      * Extracts an array from a certain key of a given input array, and returns it. Returns null, if the array key

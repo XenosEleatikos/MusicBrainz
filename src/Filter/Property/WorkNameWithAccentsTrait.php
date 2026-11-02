@@ -11,7 +11,7 @@ trait WorkNameWithAccentsTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the name of the work.
+     * Returns the field name for the name of the work (with accented characters).
      *
      * @return string
      *
@@ -23,7 +23,7 @@ trait WorkNameWithAccentsTrait
     }
 
     /**
-     * Adds the name of the work.
+     * Adds the name of the work (with accented characters).
      *
      * @param Name $workNameWithAccents The name of the work
      *

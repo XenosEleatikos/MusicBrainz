@@ -25,7 +25,7 @@ trait ArtistNameTrait
     /**
      * Adds the artist's name (without accented characters).
      *
-     * @param Name $artistNameWithoutAccents The name of the artist's name (without accented characters)
+     * @param Name $artistNameWithoutAccents The name of the artist (without accented characters)
      *
      * @return static
      */

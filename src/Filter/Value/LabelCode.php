@@ -24,7 +24,6 @@ use const STR_PAD_LEFT;
  * by LC and a dash (e.g. LC-0193 = Electrola; LC-0233 = His Master's Voice). Note that the number of countries using
  * the LC is limited, and that the code given on the item is not always accurate."
  *
- * @link http://www.iasa-web.org/icat/08_0.htm
  * @link https://musicbrainz.org/doc/Label/Label_Code
  */
 final readonly class LabelCode implements Stringable

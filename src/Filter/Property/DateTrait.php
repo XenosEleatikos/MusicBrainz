@@ -23,9 +23,9 @@ trait DateTrait
     }
 
     /**
-     * Adds the recording release date.
+     * Adds the release date (of the release, or of any release that includes the recording).
      *
-     * @param Date $date The recording release date
+     * @param Date $date The release date
      *
      * @return static
      */

@@ -16,7 +16,6 @@ use MusicBrainz\Value\Release;
 use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\Series;
 use MusicBrainz\Value\Work;
-use MusicBrainz\Value\URL;
 use MusicBrainz\Config;
 use MusicBrainz\Filter\Browse\Relation\AbstractRelation;
 use MusicBrainz\Filter\Browse\Relation\Entity\AreaRelation;
@@ -321,14 +320,10 @@ final class Browse
     }
 
     /**
-     * @todo Implement browse URL!
-     */
-
-    /**
      * Looks up all works standing in a certain relation.
      *
-     * @param WorkRelation $workRelation A relation, the requested series stand in
-     * @param WorkFields   $workFields   A list of properties of the series to be included in the response
+     * @param WorkRelation $workRelation A relation, the requested works stand in
+     * @param WorkFields   $workFields   A list of properties of the works to be included in the response
      * @param PageFilter   $pageFilter   A page filter
      *
      * @return Page<Work>

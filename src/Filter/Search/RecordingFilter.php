@@ -7,7 +7,7 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching recordings
  *
- * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Place
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Recording
  */
 final class RecordingFilter extends AbstractFilter
 {

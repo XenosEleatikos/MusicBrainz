@@ -25,7 +25,7 @@ trait RecordingNameTrait
     /**
      * Adds the name of the recording (without accented characters).
      *
-     * @param Name $recordingNameWithoutAccents The name of the name of the recording (without accented characters)
+     * @param Name $recordingNameWithoutAccents The name of the recording (without accented characters)
      *
      * @return static
      */

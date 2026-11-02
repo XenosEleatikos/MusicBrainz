@@ -43,11 +43,31 @@ final class ConfigTest extends TestCase
         (new Config())->setApiUrl($url);
     }
 
-    public function testRefusesANegativeInterval(): void
+    /**
+     * @return array<string, array{float}>
+     */
+    public static function invalidIntervals(): array
+    {
+        return ['negative' => [-0.5], 'not a number' => [NAN], 'infinite' => [INF], 'minus infinite' => [-INF]];
+    }
+
+    #[DataProvider('invalidIntervals')]
+    public function testRefusesAnIntervalThatIsNotAFiniteNonNegativeNumber(float $seconds): void
     {
         $this->expectException(InvalidArgumentException::class);
 
-        (new Config())->setMinRequestInterval(-0.5);
+        (new Config())->setMinRequestInterval($seconds);
+    }
+
+    public function testAcceptsWhatItAcceptsAndReturnsItself(): void
+    {
+        $config = new Config();
+
+        self::assertSame($config, $config->setMinRequestInterval(0.0)->setMaxRetries(0)->setUserAgent('App/1 ( https://example.org )')->setAccessToken('token'));
+        self::assertSame(0.0, $config->getMinRequestInterval());
+        self::assertSame(0, $config->getMaxRetries());
+        self::assertSame('App/1 ( https://example.org )', $config->getUserAgent());
+        self::assertSame('token', $config->getAccessToken());
     }
 
     public function testRefusesNegativeRetries(): void

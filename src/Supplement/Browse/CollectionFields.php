@@ -13,4 +13,4 @@ use MusicBrainz\Supplement\Fields;
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */
-class CollectionFields extends Fields {}
+final class CollectionFields extends Fields {}

@@ -6,7 +6,6 @@ namespace MusicBrainz\Http;
 
 use JsonException;
 use MusicBrainz\Config;
-use MusicBrainz\Exception;
 use MusicBrainz\MusicBrainz;
 use MusicBrainz\TransportException;
 use MusicBrainz\ResponseException;
@@ -75,7 +74,10 @@ final class ApiClient
      *
      * @return array<mixed, mixed>
      *
-     * @throws Exception
+     * @throws ConfigurationException If the request needs an access token and none is set
+     * @throws TransportException      If the HTTP client fails
+     * @throws ApiException            If the web service answers with an HTTP error
+     * @throws ResponseException       If the answer is not the expected JSON
      */
     public function call(string $path, Config $config, array $params = [], bool $isAuthRequired = false): array
     {

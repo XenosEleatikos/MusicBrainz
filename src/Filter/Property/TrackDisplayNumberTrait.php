@@ -31,7 +31,7 @@ trait TrackDisplayNumberTrait
      */
     public function addTrackDisplayNumber(TrackDisplayNumber $trackDisplayNumber): static
     {
-        $this->addPhrase((string) $trackDisplayNumber, self::trackId());
+        $this->addPhrase((string) $trackDisplayNumber, self::trackDisplayNumber());
 
         return $this;
     }

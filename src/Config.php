@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz;
 
+use function is_finite;
 use function preg_match;
 use function rtrim;
 use function trim;
@@ -72,8 +73,8 @@ final class Config
 
     public function setMinRequestInterval(float $seconds): self
     {
-        if ($seconds < 0) {
-            throw new InvalidArgumentException('The interval between requests must not be negative, got ' . $seconds);
+        if (!is_finite($seconds) || $seconds < 0) {
+            throw new InvalidArgumentException('The interval between requests must be a number of seconds that is not negative, got ' . $seconds);
         }
         $this->minRequestInterval = $seconds;
 
@@ -136,6 +137,8 @@ final class Config
      * @param string $apiUrl The URL of the MusicBrainz API
      *
      * @return self
+     *
+     * @throws InvalidArgumentException If the URL does not start with http:// or https://
      */
     public function setApiUrl(string $apiUrl): Config
     {

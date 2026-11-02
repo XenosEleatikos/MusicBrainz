@@ -11,7 +11,7 @@ trait AreaNameWithAccentsTrait
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the search of the area's name.
+     * Returns the field name for the search of the area's name (with the specified diacritics).
      *
      * @return string
      *

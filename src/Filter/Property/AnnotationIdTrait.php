@@ -28,6 +28,8 @@ trait AnnotationIdTrait
      * @param int $annotationId
      *
      * @return static
+     *
+     * @throws InvalidArgumentException If the id is not positive
      */
     public function addAnnotationId(int $annotationId): static
     {

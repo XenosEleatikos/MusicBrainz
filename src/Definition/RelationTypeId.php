@@ -9,7 +9,7 @@ use MusicBrainz\Relation\Type;
 /**
  * @internal
  */
-class RelationTypeId
+final class RelationTypeId
 {
     /**
      * @return array<string, class-string<Type>>

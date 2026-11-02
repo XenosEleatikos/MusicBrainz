@@ -20,7 +20,7 @@ use function ucwords;
 
 /**
  * The search filter of every entity offers exactly the fields the documentation of the search lists
- * (https://musicbrainz.org/doc/MusicBrainz_API/Search#Fields, copied to tests/Fixtures/search-fields.json).
+ * (https://musicbrainz.org/doc/MusicBrainz_API/Search#Search_Fields, copied to tests/Fixtures/search-fields.json).
  */
 final class SearchFieldsTest extends TestCase
 {

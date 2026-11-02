@@ -52,6 +52,15 @@ guide in the README.
   `Date` exposes `originalFormat` and `dateTime`; `LabelCode::withoutPrefix()` replaces
   `getLabelCodeWithoutLcPrefix()`. The marker interfaces `Value` and `Expression` are gone.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
+- The wrapper classes around single scalars that results contained (`Score`, `RatingValue`, `RatingVotes`, `JoinPhrase`, `Cancelled`,
+  `Resource`, `Time`, `TimeStamp`, `Format`, ...) are gone: the properties are plain scalars, `MediumFormat` replaces `Format`.
+  `__toString()` is gone from the entities and most other results (it stays on `MBID`, `Date`, the types, `Alias`, `Collection`,
+  `Genre` and `Tag`), use their properties.
+- `PageFilter` is `final readonly`: it takes limit and offset in its constructor, `getLimit()`, `getOffset()`, `setLimit()` and
+  `setOffset()` are gone (read `$pageFilter->limit` and `->offset`). The `getIncludeFlagFor...()` methods of the fields classes
+  (`inc` parameters) are gone, the classes only offer the chainable `include...()` methods.
+- `UrlRelation`, the browse `UrlFields` and `DiscIdFields` are removed: no API method used them. `getEntityId()` and `getEntityType()`
+  of the browse relations are gone, the relation carries its `BrowseParameter` and its value.
 
 ### Added
 - The search filters follow one naming scheme: `add<Field>`, with `...WithAccents` for the variant that is sensitive to

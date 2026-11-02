@@ -18,7 +18,6 @@ use function array_keys;
 use function count;
 use function get_debug_type;
 use function in_array;
-use function is_array;
 
 /**
  * Compares a value object with the JSON it was built from. For every entity type there is an explicit table: each key of
@@ -376,18 +375,5 @@ final class EntityAssertions
         };
         $actual = $object->$property;
         Assert::assertSame($expected, $actual, "$path is absent in the response, so the property must be " . get_debug_type($expected));
-    }
-
-    /**
-     * @return list<string> The entity types the tables know
-     */
-    public static function types(): array
-    {
-        return array_keys(self::TABLE);
-    }
-
-    public static function isList(mixed $value): bool
-    {
-        return is_array($value) && array_is_list($value);
     }
 }

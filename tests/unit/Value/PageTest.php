@@ -10,6 +10,9 @@ use MusicBrainz\Value\Tag;
 use OutOfRangeException;
 use PHPUnit\Framework\TestCase;
 
+use function array_map;
+use function iterator_to_array;
+
 final class PageTest extends TestCase
 {
     public function testAPageIsReadOnly(): void
@@ -31,5 +34,24 @@ final class PageTest extends TestCase
         $this->expectException(OutOfRangeException::class);
 
         (new Page([], 0))[0];
+    }
+
+    public function testAPageIsIterable(): void
+    {
+        $page = new Page([new Tag('rock', 3), new Tag('pop', 2)], 10, 5);
+
+        self::assertSame(['rock', 'pop'], array_map(static fn(Tag $tag): string => $tag->name, iterator_to_array($page)));
+    }
+
+    public function testElementsCannotBeRemoved(): void
+    {
+        $page = new Page([new Tag('rock', 3)], 1);
+
+        try {
+            unset($page[0]);
+            self::fail('A page must not allow to remove an element');
+        } catch (LogicException) {
+            self::assertCount(1, $page);
+        }
     }
 }
