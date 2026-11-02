@@ -7,10 +7,10 @@ namespace MusicBrainz\Filter\Value;
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
-use function trim;
+use function preg_match;
 
 /**
- * Title
+ * A title
  */
 final readonly class Title implements Stringable
 {
@@ -21,7 +21,7 @@ final readonly class Title implements Stringable
      */
     public function __construct(public string $value)
     {
-        if ('' === trim($value)) {
+        if (1 === preg_match('/^\s*$/u', $value)) {
             throw new InvalidArgumentException('Title must not be empty');
         }
     }

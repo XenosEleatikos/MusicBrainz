@@ -11,7 +11,9 @@ use function preg_match;
 use function strtoupper;
 
 /**
- * Country
+ * A country
+ *
+ * @link https://wiki.musicbrainz.org/Release_Country
  */
 final readonly class Country implements Stringable
 {

@@ -54,6 +54,10 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- Search criteria are combined with AND, so every criterion narrows the result (a juxtaposition of criteria means OR to the
+  web service); `$filter->matchAny()` asks for OR. Whatever an application passes to a filter either becomes part of a valid
+  query or throws a `MusicBrainz\InvalidArgumentException`; `ended:false` and `video:false` can be searched, an address is
+  searched as a phrase.
 - Exceptions: `MusicBrainz\ExceptionInterface` is implemented by everything the library throws on purpose. `ApiException` (HTTP
   status as code), `TransportException`, `ResponseException` and `ConfigurationException` extend `MusicBrainz\Exception` for
   everything that goes wrong with a request; `InvalidArgumentException` (an SPL exception) signals invalid input and is no

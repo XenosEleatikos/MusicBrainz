@@ -27,7 +27,7 @@ trait EndedTrait
      */
     public function addEnded(bool $ended): static
     {
-        $this->addTerm((string) $ended, self::ended());
+        $this->addTerm($ended ? 'true' : 'false', self::ended());
 
         return $this;
     }

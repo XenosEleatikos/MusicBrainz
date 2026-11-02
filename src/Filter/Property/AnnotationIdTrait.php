@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
+use MusicBrainz\InvalidArgumentException;
+
 trait AnnotationIdTrait
 {
     use AbstractAdderTrait;
@@ -27,6 +29,9 @@ trait AnnotationIdTrait
      */
     public function addAnnotationId(int $annotationId): static
     {
+        if ($annotationId < 1) {
+            throw new InvalidArgumentException('An annotation id is a positive number, got ' . $annotationId);
+        }
         $this->addTerm((string) $annotationId, self::annotationId());
 
         return $this;

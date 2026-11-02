@@ -8,7 +8,7 @@ use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * Count
+ * A count
  */
 final readonly class Count implements Stringable
 {

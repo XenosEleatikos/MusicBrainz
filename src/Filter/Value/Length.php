@@ -8,7 +8,7 @@ use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
 /**
- * Length
+ * A length
  */
 final readonly class Length implements Stringable
 {

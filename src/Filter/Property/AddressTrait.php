@@ -29,7 +29,7 @@ trait AddressTrait
      */
     public function addAddress(Address $address): static
     {
-        $this->addTerm((string) $address, self::address());
+        $this->addPhrase((string) $address, self::address());
 
         return $this;
     }

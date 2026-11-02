@@ -7,10 +7,14 @@ namespace MusicBrainz\Filter\Value;
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
-use function trim;
+use function preg_match;
 
 /**
- * Barcode
+ * Barcodes are numbers used as stock control mechanisms by retailers: as such they are highly standardised and well
+ * recognised, and form an invaluable identifier for communication between companies. On physical releases, they usually
+ * appear in the form of a machine-readable series of black and white bars, hence the name "barcode".
+ *
+ * @see https://musicbrainz.org/doc/Barcode
  */
 final readonly class Barcode implements Stringable
 {
@@ -21,8 +25,11 @@ final readonly class Barcode implements Stringable
      */
     public function __construct(public string $value)
     {
-        if ('' === trim($value)) {
+        if (1 === preg_match('/^\s*$/u', $value)) {
             throw new InvalidArgumentException('Barcode must not be empty');
+        }
+        if (1 === preg_match('/\s/u', $value)) {
+            throw new InvalidArgumentException('Barcode must not contain whitespace');
         }
     }
 

@@ -27,7 +27,7 @@ trait VideoTrait
      */
     public function addVideo(bool $video): static
     {
-        $this->addTerm((string) $video, self::video());
+        $this->addTerm($video ? 'true' : 'false', self::video());
 
         return $this;
     }

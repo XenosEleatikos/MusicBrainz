@@ -33,7 +33,7 @@ final class SearchFilterTest extends TestCase
         $filter->addASIN(new ASIN('B000003Z4N'));
         $filter->addCatalogNumber(new CatalogNumber('PCS 7088'));
 
-        self::assertSame('asin:B000003Z4N catno:"PCS 7088"', (string) $filter);
+        self::assertSame('asin:B000003Z4N AND catno:"PCS 7088"', (string) $filter);
     }
 
     public function testWorkSearchFields(): void
@@ -42,7 +42,7 @@ final class SearchFilterTest extends TestCase
         $filter->addIswc(new ISWC('T-010.140.234-6'));
         $filter->addWorkId(new MBID('41c94a08-a551-3c86-bb17-d9a52e3a618b'));
 
-        self::assertSame('iswc:T\-010.140.234\-6 wid:41c94a08\-a551\-3c86\-bb17\-d9a52e3a618b', (string) $filter);
+        self::assertSame('iswc:T\-010.140.234\-6 AND wid:41c94a08\-a551\-3c86\-bb17\-d9a52e3a618b', (string) $filter);
     }
 
     public function testReleaseGroupSearchFields(): void
@@ -58,7 +58,7 @@ final class SearchFilterTest extends TestCase
         $place = new PlaceFilter();
         $place->addLatitude(new Latitude(58.388226));
         $place->addLongitude(new Longitude(26.702817));
-        self::assertSame('lat:58.388226 long:26.702817', (string) $place);
+        self::assertSame('lat:58.388226 AND long:26.702817', (string) $place);
 
         $area = new AreaFilter();
         $area->addIso31661Code(new ISO31661Code('DE'));
@@ -76,7 +76,7 @@ final class SearchFilterTest extends TestCase
         $result = $filter->addASIN(new ASIN('B000003Z4N'))->addCatalogNumber(new CatalogNumber('PCS 7088'));
 
         self::assertSame($filter, $result);
-        self::assertSame('asin:B000003Z4N catno:"PCS 7088"', (string) $filter);
+        self::assertSame('asin:B000003Z4N AND catno:"PCS 7088"', (string) $filter);
     }
 
     public function testFormatsOfMediaCanBeSearchedFor(): void

@@ -7,10 +7,10 @@ namespace MusicBrainz\Filter\Value;
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
-use function trim;
+use function preg_match;
 
 /**
- * Script
+ * A script
  */
 final readonly class Script implements Stringable
 {
@@ -21,8 +21,11 @@ final readonly class Script implements Stringable
      */
     public function __construct(public string $value)
     {
-        if ('' === trim($value)) {
+        if (1 === preg_match('/^\s*$/u', $value)) {
             throw new InvalidArgumentException('Script must not be empty');
+        }
+        if (1 === preg_match('/\s/u', $value)) {
+            throw new InvalidArgumentException('Script must not contain whitespace');
         }
     }
 

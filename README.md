@@ -112,6 +112,8 @@ method taking a specific filter object and a page filter for pagination. The ret
 basic information about the matching entities. For more information you have to perform
 a [lookup request](#lookup-requests) with the MusicBrainz Identifier (MBID) of the entity.
 
+Several criteria of a filter are combined with AND: each one narrows the result (use `$filter->matchAny()` for OR).
+
 The following example searches for the artist named "Tom Waits" and limits the result list to the top match. The result
 is a `Page` of `SearchResult` objects, each with the matching `entity` and its `score` (0 to 100).
 

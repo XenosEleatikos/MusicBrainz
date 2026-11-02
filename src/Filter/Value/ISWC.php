@@ -7,10 +7,14 @@ namespace MusicBrainz\Filter\Value;
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
-use function trim;
+use function preg_match;
 
 /**
- * ISWC
+ * An International Standard Musical Work Code (ISWC)
+ * The International Standard Musical Work Code (ISWC) is an ISO standard similar to ISBNs for identifying musical
+ * works/compositions.
+ *
+ * @link https://musicbrainz.org/doc/ISWC
  */
 final readonly class ISWC implements Stringable
 {
@@ -21,8 +25,11 @@ final readonly class ISWC implements Stringable
      */
     public function __construct(public string $value)
     {
-        if ('' === trim($value)) {
+        if (1 === preg_match('/^\s*$/u', $value)) {
             throw new InvalidArgumentException('ISWC must not be empty');
+        }
+        if (1 === preg_match('/\s/u', $value)) {
+            throw new InvalidArgumentException('ISWC must not contain whitespace');
         }
     }
 

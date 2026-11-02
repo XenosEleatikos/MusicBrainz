@@ -7,10 +7,10 @@ namespace MusicBrainz\Filter\Value;
 use MusicBrainz\InvalidArgumentException;
 use Stringable;
 
-use function trim;
+use function preg_match;
 
 /**
- * Language
+ * A language
  */
 final readonly class Language implements Stringable
 {
@@ -21,8 +21,11 @@ final readonly class Language implements Stringable
      */
     public function __construct(public string $value)
     {
-        if ('' === trim($value)) {
+        if (1 === preg_match('/^\s*$/u', $value)) {
             throw new InvalidArgumentException('Language must not be empty');
+        }
+        if (1 === preg_match('/\s/u', $value)) {
+            throw new InvalidArgumentException('Language must not contain whitespace');
         }
     }
 

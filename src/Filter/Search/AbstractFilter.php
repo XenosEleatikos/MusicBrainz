@@ -6,83 +6,83 @@ namespace MusicBrainz\Filter\Search;
 
 use AskLucy\Expression\Clause\Clause;
 use AskLucy\Expression\Clause\Phrase;
+use AskLucy\Exception\InvalidArgumentException as AskLucyException;
 use AskLucy\Expression\Clause\Query;
 use AskLucy\Expression\Clause\Term;
+use MusicBrainz\InvalidArgumentException;
 
 /**
  * An abstract filter
  */
 abstract class AbstractFilter
 {
-    /**
-     * The lucene search query created by this filter
-     *
-     * @var Query
-     */
-    protected Query $query;
+    /** @var list<Clause> */
+    private array $clauses = [];
+
+    private bool $matchAny = false;
 
     /**
-     * Constructs an annotation filter.
+     * Makes a hit sufficient if it matches any one of the criteria. By default a hit has to match all of them: every
+     * criterion narrows the result.
      */
-    public function __construct()
+    public function matchAny(): static
     {
-        $this->query = new Query();
-    }
-
-    /**
-     * Adds a clause to the filter.
-     *
-     * @param Clause $clause A clause
-     *
-     * @return self
-     */
-    protected function add(Clause $clause): self
-    {
-        $this->query->add($clause);
+        $this->matchAny = true;
 
         return $this;
     }
 
     /**
-     * Returns the filter as Lucene query string.
-     *
-     * @return string
+     * Returns the query in Lucene syntax, as it is sent to the web service; empty if there is no criterion yet.
      */
     public function __toString(): string
     {
-        return (string) $this->query;
+        $query = new Query();
+        foreach ($this->clauses as $index => $clause) {
+            if (0 === $index) {
+                $query->add($clause);
+            } elseif ($this->matchAny) {
+                $query->or($clause);
+            } else {
+                $query->and($clause);
+            }
+        }
+
+        return (string) $query;
     }
 
     /**
-     * Creates a new term by given search word and field name, adds it to the filter query and returns it.
+     * Adds a search word (no whitespace) for a field.
      *
-     * @param string $searchWord A search word
-     * @param string $field      The name of the field to search in
-     *
-     * @return Term
+     * @throws InvalidArgumentException if the word is empty or not a single word
      */
     protected function addTerm(string $searchWord, string $field): Term
     {
-        $term = new Term($searchWord, $field);
+        try {
+            $term = new Term($searchWord, $field);
+        } catch (AskLucyException $exception) {
+            throw new InvalidArgumentException('Cannot search for "' . $searchWord . '" in "' . $field . '": ' . $exception->getMessage(), 0, $exception);
+        }
 
-        $this->add($term);
+        $this->clauses[] = $term;
 
         return $term;
     }
 
     /**
-     * Creates a new phrase by given search words and field name, adds it to the filter query and returns it.
+     * Adds search words (a phrase) for a field.
      *
-     * @param string $searchWords Search words
-     * @param string $field       The name of the field to search in
-     *
-     * @return Phrase
+     * @throws InvalidArgumentException if the phrase is empty or not valid text
      */
     protected function addPhrase(string $searchWords, string $field): Phrase
     {
-        $phrase = new Phrase($searchWords, $field);
+        try {
+            $phrase = new Phrase($searchWords, $field);
+        } catch (AskLucyException $exception) {
+            throw new InvalidArgumentException('Cannot search for "' . $searchWords . '" in "' . $field . '": ' . $exception->getMessage(), 0, $exception);
+        }
 
-        $this->add($phrase);
+        $this->clauses[] = $phrase;
 
         return $phrase;
     }
