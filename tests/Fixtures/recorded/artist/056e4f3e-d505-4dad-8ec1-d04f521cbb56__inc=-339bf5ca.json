@@ -1,0 +1,45 @@
+{
+    "gender-id": null,
+    "ipis": [
+        "00711797335"
+    ],
+    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+    "area": {
+        "type": null,
+        "sort-name": "France",
+        "id": "08310658-51eb-3801-80de-5a0739207115",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "France",
+        "iso-3166-1-codes": [
+            "FR"
+        ]
+    },
+    "end-area": null,
+    "disambiguation": "French electronic duo",
+    "country": "FR",
+    "isnis": [
+        "0000000123531208"
+    ],
+    "begin-area": {
+        "iso-3166-2-codes": [
+            "FR-75"
+        ],
+        "disambiguation": "",
+        "name": "Paris",
+        "type": null,
+        "sort-name": "Paris",
+        "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+        "type-id": null
+    },
+    "type": "Group",
+    "sort-name": "Daft Punk",
+    "id": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+    "life-span": {
+        "begin": "1993",
+        "end": "2021-02-22",
+        "ended": true
+    },
+    "name": "Daft Punk",
+    "gender": null
+}

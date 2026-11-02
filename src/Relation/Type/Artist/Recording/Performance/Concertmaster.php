@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Performance;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Performance;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an artist who was the concertmaster/leader for an orchestra or band on this recording.
@@ -17,10 +16,10 @@ class Concertmaster extends Performance
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('concertmaster');
+        return 'concertmaster';
     }
 }

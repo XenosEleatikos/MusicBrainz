@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait EntityNameTrait
 {
@@ -15,6 +14,8 @@ trait EntityNameTrait
      * Returns the field name for the entity name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function entityName(): string
     {
@@ -26,10 +27,12 @@ trait EntityNameTrait
      *
      * @param Name $entityName An entity name
      *
-     * @return Phrase
+     * @return static
      */
-    public function addEntityName(Name $entityName): Phrase
+    public function addEntityName(Name $entityName): static
     {
-        return $this->addPhrase((string) $entityName, self::entityName());
+        $this->addPhrase((string) $entityName, self::entityName());
+
+        return $this;
     }
 }

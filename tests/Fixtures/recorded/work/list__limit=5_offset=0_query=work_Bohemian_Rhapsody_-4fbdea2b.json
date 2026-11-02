@@ -1,0 +1,179 @@
+{
+    "created": "2026-11-01T19:11:18.804Z",
+    "count": 8,
+    "offset": 0,
+    "works": [
+        {
+            "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
+            "type": "Song",
+            "score": 100,
+            "title": "Bohemian Rhapsody",
+            "language": "eng",
+            "iswcs": [
+                "T-304.031.869-8",
+                "T-010.154.505-4",
+                "T-900.313.996-6"
+            ],
+            "relations": [
+                {
+                    "type": "composer",
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "direction": "backward",
+                    "artist": {
+                        "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                        "name": "Freddie Mercury",
+                        "sort-name": "Mercury, Freddie"
+                    }
+                },
+                {
+                    "type": "lyricist",
+                    "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                    "direction": "backward",
+                    "artist": {
+                        "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                        "name": "Freddie Mercury",
+                        "sort-name": "Mercury, Freddie"
+                    }
+                },
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "13d31021-4754-44eb-a937-718ffecdc7ea",
+                        "title": "Bohemian Rhapsody",
+                        "video": null
+                    }
+                },
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "b1a9c0e9-d987-4042-ae91-78d6a3267d69",
+                        "title": "Bohemian Rhapsody",
+                        "video": null
+                    }
+                },
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "d22dae20-bda2-4573-a69f-095e0c644199",
+                        "title": "Bohemian Rhapsody (Rotterdam 26/04/2005)",
+                        "video": null
+                    }
+                }
+            ],
+            "languages": [
+                "eng"
+            ]
+        },
+        {
+            "id": "6c8c1ee3-0c88-42d2-908c-47748c702136",
+            "score": 81,
+            "title": "Bohemian Rhapsody",
+            "disambiguation": "arr. for wind band",
+            "relations": [
+                {
+                    "type": "arranger",
+                    "type-id": "d3fd781c-5894-47e2-8c12-86cc0e2c8d08",
+                    "direction": "backward",
+                    "artist": {
+                        "id": "46746219-94cb-4b8c-92fa-385aab45d6a7",
+                        "name": "Norbert Studnitzky",
+                        "sort-name": "Studnitzky, Norbert"
+                    }
+                },
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "d9218276-2f2a-4049-8123-853959a65528",
+                        "title": "Bohemian Rhapsody",
+                        "video": null
+                    }
+                }
+            ],
+            "languages": []
+        },
+        {
+            "id": "16eff811-2653-49b2-be87-46202b5cd26d",
+            "type": "Song",
+            "score": 81,
+            "title": "Bohemian Rhapsody",
+            "language": "jpn",
+            "disambiguation": "Japanese translation",
+            "relations": [
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "4171d29b-6f88-4825-b95b-b6cb3208b963",
+                        "title": "女王様物語",
+                        "video": null
+                    }
+                }
+            ],
+            "languages": [
+                "jpn"
+            ]
+        },
+        {
+            "id": "660e678b-f1e3-4136-a471-965cd8496bb0",
+            "type": "Song",
+            "score": 81,
+            "title": "Bohemian Rhapsody",
+            "language": "eng",
+            "relations": [
+                {
+                    "type": "lyricist",
+                    "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                    "direction": "backward",
+                    "artist": {
+                        "id": "9b7d4216-b59d-443f-8c35-95f28b371056",
+                        "name": "Gold, Frankincense & Disk Drive",
+                        "sort-name": "Gold, Frankincense & Disk Drive"
+                    }
+                },
+                {
+                    "type": "composer",
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "direction": "backward",
+                    "artist": {
+                        "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                        "name": "Freddie Mercury",
+                        "sort-name": "Mercury, Freddie"
+                    }
+                },
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "recording": {
+                        "id": "db340861-3a05-421d-a836-360a4fde1fdf",
+                        "title": "Bohemian Rapsody",
+                        "video": null
+                    }
+                }
+            ],
+            "languages": [
+                "eng"
+            ]
+        },
+        {
+            "id": "a8f4f093-823a-4cc0-86e7-76c784dbd65b",
+            "type": "Song",
+            "score": 79,
+            "title": "Bohemian Rhapsody",
+            "language": "zxx",
+            "relations": [],
+            "languages": [
+                "zxx"
+            ]
+        }
+    ]
+}

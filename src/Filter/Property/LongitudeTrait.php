@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Longitude;
+use MusicBrainz\Filter\Value\Longitude;
 
 trait LongitudeTrait
 {
@@ -15,10 +14,12 @@ trait LongitudeTrait
      * Returns the field name for the longitude.
      *
      * @return string
+     *
+     * @internal
      */
     public static function longitude(): string
     {
-        return 'longitude';
+        return 'long';
     }
 
     /**
@@ -26,10 +27,12 @@ trait LongitudeTrait
      *
      * @param Longitude $longitude The longitude
      *
-     * @return Term
+     * @return static
      */
-    public function addLongitude(Longitude $longitude): Term
+    public function addLongitude(Longitude $longitude): static
     {
-        return $this->addTerm((string) $longitude, self::longitude());
+        $this->addTerm((string) $longitude, self::longitude());
+
+        return $this;
     }
 }

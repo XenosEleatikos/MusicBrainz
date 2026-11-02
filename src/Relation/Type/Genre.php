@@ -19,6 +19,6 @@ abstract class Genre extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::GENRE);
+        return EntityType::Genre;
     }
 }

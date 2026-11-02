@@ -9,7 +9,7 @@ use MusicBrainz\Filter\Browse\Relation\AbstractRelation;
 /**
  * A relation between a release group and another entity.
  */
-class ReleaseGroupRelation extends AbstractRelation
+final readonly class ReleaseGroupRelation extends AbstractRelation
 {
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\ArtistTrait;
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\CollectionTrait;

@@ -1,0 +1,169 @@
+{
+    "life-span": {
+        "end": "1985-07-13",
+        "ended": true,
+        "begin": "1985-07-13"
+    },
+    "id": "8e0ff16a-757f-4e16-9877-4c4131621a8b",
+    "type": "Concert",
+    "setlist": "",
+    "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+    "genres": [],
+    "annotation": null,
+    "tags": [],
+    "time": "",
+    "cancelled": false,
+    "disambiguation": "",
+    "relations": [
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "event": {
+                "time": "12:00",
+                "name": "Live Aid",
+                "setlist": "",
+                "type": "Concert",
+                "disambiguation": "Wembley Stadium",
+                "cancelled": false,
+                "id": "08657c50-71c6-4a3d-b7c4-3db6efbf07fd",
+                "life-span": {
+                    "begin": "1985-07-13",
+                    "ended": true,
+                    "end": "1985-07-13"
+                },
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+            },
+            "target-type": "event",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "parts",
+            "attributes": [],
+            "type-id": "65742183-b25c-469e-b094-ff6739e6699c"
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "event",
+            "event": {
+                "time": "08:51",
+                "name": "Live Aid",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                "disambiguation": "JFK Stadium",
+                "type": "Concert",
+                "setlist": "",
+                "life-span": {
+                    "end": "1985-07-13",
+                    "ended": true,
+                    "begin": "1985-07-13"
+                },
+                "id": "e4ea9ddd-3fbb-47d0-b570-add507bf0c27",
+                "cancelled": false
+            },
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": null,
+            "ended": false,
+            "type": "parts",
+            "type-id": "65742183-b25c-469e-b094-ff6739e6699c",
+            "attributes": []
+        },
+        {
+            "type": "held at",
+            "attributes": [],
+            "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "source-credit": "",
+            "target-type": "place",
+            "begin": null,
+            "place": {
+                "name": "John F. Kennedy Stadium",
+                "address": "S Broad Street, Philadelphia, PA 19148",
+                "coordinates": {
+                    "longitude": -75.171944,
+                    "latitude": 39.901389
+                },
+                "area": {
+                    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                    "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+                    "type": "City",
+                    "disambiguation": "",
+                    "sort-name": "Philadelphia",
+                    "name": "Philadelphia"
+                },
+                "type-id": "62664fbd-cd55-3b5f-a5ea-fb5d1bc0113c",
+                "disambiguation": "",
+                "type": "Stadium",
+                "id": "68726567-21b1-4e48-a0a1-ac33f9a702b5"
+            },
+            "attribute-ids": []
+        },
+        {
+            "begin": null,
+            "place": {
+                "area": {
+                    "id": "808dbe1f-5047-4f97-aeca-cd16ccced82e",
+                    "type": "District",
+                    "disambiguation": "",
+                    "type-id": "84039871-5e47-38ca-a66a-45e512c8290f",
+                    "name": "Wembley",
+                    "sort-name": "Wembley"
+                },
+                "coordinates": {
+                    "longitude": -0.279722,
+                    "latitude": 51.555556
+                },
+                "address": "Wembley, London, HA9 0WS",
+                "name": "Wembley Stadium",
+                "id": "db17e312-ec0a-4d8e-b2e4-bd00a7924588",
+                "type": "Stadium",
+                "disambiguation": "1st incarnation, 1923–2000",
+                "type-id": "62664fbd-cd55-3b5f-a5ea-fb5d1bc0113c"
+            },
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "place",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "held at",
+            "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+            "attributes": []
+        },
+        {
+            "ended": false,
+            "end": null,
+            "url": {
+                "id": "e8c67a79-507e-4c93-a67b-a043b1aef5e6",
+                "resource": "https://www.wikidata.org/wiki/Q193740"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "b022d060-e6a8-340f-8c73-6b21b1d090b9",
+            "attributes": [],
+            "type": "wikidata",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "url",
+            "source-credit": ""
+        }
+    ],
+    "aliases": [],
+    "name": "Live Aid",
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    }
+}

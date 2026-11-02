@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Country;
+use MusicBrainz\Filter\Value\Country;
 
 trait CountryTrait
 {
@@ -15,6 +14,8 @@ trait CountryTrait
      * Returns the field name for the country.
      *
      * @return string
+     *
+     * @internal
      */
     public static function country(): string
     {
@@ -26,10 +27,12 @@ trait CountryTrait
      *
      * @param Country $country A country
      *
-     * @return Term
+     * @return static
      */
-    public function addCountry(Country $country): Term
+    public function addCountry(Country $country): static
     {
-        return $this->addTerm((string) $country, self::country());
+        $this->addTerm((string) $country, self::country());
+
+        return $this;
     }
 }

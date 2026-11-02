@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Label\Url\GetTheMusic;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a label to its page at Apple Music.
@@ -17,10 +16,10 @@ class AppleMusic extends GetTheMusic
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('apple music');
+        return 'apple music';
     }
 }

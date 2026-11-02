@@ -6,15 +6,36 @@ namespace MusicBrainz\Supplement\Browse;
 
 use MusicBrainz\Supplement\Fields;
 
-class RecordingFields extends Fields
+/**
+ * The inc parameters a browse request for recording entities accepts. The list is derived from the web service itself (see tests/Fixtures/accepted-includes.json). The flags for
+ * data that needs authentication (user-tags, user-genres, user-ratings) require an access token.
+ *
+ * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
+ */
+final class RecordingFields extends Fields
 {
+    use \MusicBrainz\Supplement\Field\AliasesTrait;
     use \MusicBrainz\Supplement\Field\AnnotationTrait;
-    use \MusicBrainz\Supplement\Field\ArtistCreditsTrait;
-    use \MusicBrainz\Supplement\Field\IsrcsTrait;
-    use \MusicBrainz\Supplement\Field\GenresTrait;
-    use \MusicBrainz\Supplement\Field\RatingsTrait;
     use \MusicBrainz\Supplement\Field\TagsTrait;
-    use \MusicBrainz\Supplement\Field\UserGenresTrait;
-    use \MusicBrainz\Supplement\Field\UserRatingsTrait;
     use \MusicBrainz\Supplement\Field\UserTagsTrait;
+    use \MusicBrainz\Supplement\Field\GenresTrait;
+    use \MusicBrainz\Supplement\Field\UserGenresTrait;
+    use \MusicBrainz\Supplement\Field\RatingsTrait;
+    use \MusicBrainz\Supplement\Field\UserRatingsTrait;
+    use \MusicBrainz\Supplement\Field\IsrcsTrait;
+    use \MusicBrainz\Supplement\Field\ArtistCreditsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\WorkLevelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\AreaRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ArtistRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\EventRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\GenreRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\InstrumentRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\LabelRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\PlaceRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\RecordingRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ReleaseRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\ReleaseGroupRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\SeriesRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\UrlRelationsTrait;
+    use \MusicBrainz\Supplement\Field\Relation\WorkRelationsTrait;
 }

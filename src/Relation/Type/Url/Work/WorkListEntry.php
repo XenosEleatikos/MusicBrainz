@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Url\Work;
 
 use MusicBrainz\Relation\Type\Url\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * This link points to a page for a particular work within a work list for an artist.
@@ -17,10 +16,10 @@ class WorkListEntry extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('work list entry');
+        return 'work list entry';
     }
 }

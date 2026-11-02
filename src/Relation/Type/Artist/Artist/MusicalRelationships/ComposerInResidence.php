@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
 
 use MusicBrainz\Relation\Type\Artist\Artist\MusicalRelationships;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a group (often an orchestra) to a composer who has a composer-in-residence position with the group.
@@ -17,10 +16,10 @@ class ComposerInResidence extends MusicalRelationships
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('composer-in-residence');
+        return 'composer-in-residence';
     }
 }

@@ -9,7 +9,7 @@ use MusicBrainz\Filter\Browse\Relation\AbstractRelation;
 /**
  * A relation between an area and another entity.
  */
-class AreaRelation extends AbstractRelation
+final readonly class AreaRelation extends AbstractRelation
 {
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\CollectionTrait;
 }

@@ -1,0 +1,50 @@
+{
+    "language": "zxx",
+    "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+    "type": "Song",
+    "iswcs": [],
+    "tags": [],
+    "annotation": null,
+    "languages": [
+        "zxx"
+    ],
+    "attributes": [],
+    "relations": [
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "work": {
+                "disambiguation": "",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "Vast Error",
+                "id": "f1565da2-c790-42ad-a3a3-876696097fdd",
+                "type-id": "66d7962b-6377-364f-a0b4-b200febc510e",
+                "language": "zxx",
+                "type": "Soundtrack",
+                "iswcs": []
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
+            "type": "parts",
+            "direction": "backward",
+            "begin": null,
+            "attributes": [],
+            "target-type": "work",
+            "end": null,
+            "ended": false
+        }
+    ],
+    "title": "Bohemian Rhapsody",
+    "id": "a8f4f093-823a-4cc0-86e7-76c784dbd65b",
+    "genres": [],
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "disambiguation": "",
+    "aliases": []
+}

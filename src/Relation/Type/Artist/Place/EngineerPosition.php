@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
 use MusicBrainz\Relation\Type\Artist\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * Describes the fact a person was contracted by a place as an engineer.
@@ -17,10 +16,10 @@ class EngineerPosition extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('engineer position');
+        return 'engineer position';
     }
 }

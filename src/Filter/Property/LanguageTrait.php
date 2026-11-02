@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Language;
+use MusicBrainz\Filter\Value\Language;
 
 trait LanguageTrait
 {
@@ -15,6 +14,8 @@ trait LanguageTrait
      * Returns the field name for the language.
      *
      * @return string
+     *
+     * @internal
      */
     public static function language(): string
     {
@@ -26,10 +27,12 @@ trait LanguageTrait
      *
      * @param Language $language The language
      *
-     * @return Term
+     * @return static
      */
-    public function addLanguage(Language $language): Term
+    public function addLanguage(Language $language): static
     {
-        return $this->addTerm((string) $language, self::language());
+        $this->addTerm((string) $language, self::language());
+
+        return $this;
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
-use MusicBrainz\Value\Name;
 
 /**
  * This describes an engineer responsible for transferring a release, for example from an old tape to digital.
@@ -17,10 +16,10 @@ class Transfer extends Engineer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('transfer');
+        return 'transfer';
     }
 }

@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait BeginAreaNameTrait
 {
@@ -15,6 +14,8 @@ trait BeginAreaNameTrait
      * Returns the field name for the name of the beginning area.
      *
      * @return string
+     *
+     * @internal
      */
     public static function beginAreaName(): string
     {
@@ -26,10 +27,12 @@ trait BeginAreaNameTrait
      *
      * @param Name $beginAreaName The name of the beginning area
      *
-     * @return Phrase
+     * @return static
      */
-    public function addBeginAreaName(Name $beginAreaName): Phrase
+    public function addBeginAreaName(Name $beginAreaName): static
     {
-        return $this->addPhrase((string) $beginAreaName, self::beginAreaName());
+        $this->addPhrase((string) $beginAreaName, self::beginAreaName());
+
+        return $this;
     }
 }

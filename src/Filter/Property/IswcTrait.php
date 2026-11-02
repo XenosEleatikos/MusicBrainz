@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ISWC;
+use MusicBrainz\Filter\Value\ISWC;
 
 trait IswcTrait
 {
@@ -15,6 +14,8 @@ trait IswcTrait
      * Returns the field name for the International Standard Musical Work Code (ISWC).
      *
      * @return string
+     *
+     * @internal
      */
     public static function iswc(): string
     {
@@ -26,10 +27,12 @@ trait IswcTrait
      *
      * @param ISWC $iswc The International Standard Musical Work Code (ISWC)
      *
-     * @return Term
+     * @return static
      */
-    public function addDisambiguationComment(ISWC $iswc): Term
+    public function addIswc(ISWC $iswc): static
     {
-        return $this->addTerm((string) $iswc, self::iswc());
+        $this->addTerm((string) $iswc, self::iswc());
+
+        return $this;
     }
 }

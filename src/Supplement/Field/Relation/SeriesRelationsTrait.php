@@ -14,16 +14,6 @@ trait SeriesRelationsTrait
     protected bool $seriesRelations = false;
 
     /**
-     * Returns true, if series relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForSeriesRelations(): bool
-    {
-        return $this->seriesRelations;
-    }
-
-    /**
      * Sets whether series relations should be included.
      *
      * @param bool $seriesRelations True, if series relations should be included, otherwise false

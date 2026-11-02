@@ -7,14 +7,16 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching artists
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Artist
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Artist
  */
-class ArtistFilter extends AbstractFilter
+final class ArtistFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\IsniTrait;
+    use \MusicBrainz\Filter\Property\PrimaryAliasNameTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
-    use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ArtistNameTrait;
     use \MusicBrainz\Filter\Property\ArtistNameWithAccentsTrait;
     use \MusicBrainz\Filter\Property\SortNameTrait;
     use \MusicBrainz\Filter\Property\ArtistTypeTrait;
@@ -26,6 +28,6 @@ class ArtistFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\EndDateTrait;
     use \MusicBrainz\Filter\Property\EndedTrait;
     use \MusicBrainz\Filter\Property\GenderTrait;
-    use \MusicBrainz\Filter\Property\IpiCodeTrait;
+    use \MusicBrainz\Filter\Property\IpiTrait;
     use \MusicBrainz\Filter\Property\TagNameTrait;
 }

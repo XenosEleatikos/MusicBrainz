@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Genre\Genre\InfluencedBy;
 
 use MusicBrainz\Relation\Type\Genre\Genre\InfluencedBy;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that a genre originated as a hybrid of two or more other genres.
@@ -17,10 +16,10 @@ class FusionOf extends InfluencedBy
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('fusion of');
+        return 'fusion of';
     }
 }

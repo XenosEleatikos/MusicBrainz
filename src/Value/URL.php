@@ -4,42 +4,36 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\UrlRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * An URL
- * A URL in MusicBrainz is a specific entity representing a regular internet Uniform Resource Locator. A MusicBrainz URL
- * entity can be edited to change the underlying internet URL it points to; and can be linked to Artists, Releases,
- * Tracks and Labels.
+ * A URL: a web address that entities are linked to.
  *
- * @link https://musicbrainz.org/doc/URL
+ * @see https://musicbrainz.org/doc/URL
  */
-class URL implements Value
+final readonly class URL implements Entity
 {
-    use Property\MBIDTrait;
-    use Property\ResourceTrait;
-    use UrlRelationListTrait;
+    /**
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $resource = '',
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs an URL.
+     * @param array<mixed> $data A decoded url of the web service
      *
-     * @param array $resource Information about the track
+     * @internal
      */
-    public function __construct(array $resource = [])
+    public static function fromArray(array $data): static
     {
-        $this->setMbidFromArray($resource);
-        $this->setResourceFromArray($resource);
-        $this->setRelationsFromArray($resource);
-    }
-
-    /**
-     * Returns the URL resource as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getResource();
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'resource') ?? '',
+            relations: SharedFields::parse($data)['relations'],
+        );
     }
 }

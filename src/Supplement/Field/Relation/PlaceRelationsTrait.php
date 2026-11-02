@@ -14,16 +14,6 @@ trait PlaceRelationsTrait
     protected bool $placeRelations = false;
 
     /**
-     * Returns true, if place relations should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForPlaceRelations(): bool
-    {
-        return $this->placeRelations;
-    }
-
-    /**
      * Sets whether place relations should be included.
      *
      * @param bool $placeRelations True, if place relations should be included, otherwise false

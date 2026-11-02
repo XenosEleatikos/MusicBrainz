@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Script;
+use MusicBrainz\Filter\Value\Script;
 
 trait ScriptTrait
 {
@@ -15,6 +14,8 @@ trait ScriptTrait
      * Returns the field name for the script.
      *
      * @return string
+     *
+     * @internal
      */
     public static function script(): string
     {
@@ -26,10 +27,12 @@ trait ScriptTrait
      *
      * @param Script $script The script
      *
-     * @return Term
+     * @return static
      */
-    public function addScript(Script $script): Term
+    public function addScript(Script $script): static
     {
-        return $this->addTerm((string) $script, self::script());
+        $this->addTerm((string) $script, self::script());
+
+        return $this;
     }
 }

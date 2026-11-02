@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Date;
 
 trait BeginDateTrait
@@ -15,6 +14,8 @@ trait BeginDateTrait
      * Returns the field name for the beginning date.
      *
      * @return string
+     *
+     * @internal
      */
     public static function beginDate(): string
     {
@@ -26,10 +27,12 @@ trait BeginDateTrait
      *
      * @param Date $beginDate The beginning date
      *
-     * @return Term
+     * @return static
      */
-    public function addBeginDate(Date $beginDate): Term
+    public function addBeginDate(Date $beginDate): static
     {
-        return $this->addTerm((string) $beginDate, self::beginDate());
+        $this->addTerm((string) $beginDate, self::beginDate());
+
+        return $this;
     }
 }

@@ -1,0 +1,3066 @@
+{
+    "disambiguation": "jazz trumpeter, bandleader, songwriter",
+    "releases": [
+        {
+            "release-group": null,
+            "tags": [],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "title": "Carnegie Hall X-Mas ’49",
+            "country": "US",
+            "packaging": null,
+            "release-events": [
+                {
+                    "date": "1949-12-24",
+                    "area": {
+                        "sort-name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "disambiguation": "",
+                        "type-id": null,
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98"
+                    }
+                }
+            ],
+            "date": "1949-12-24",
+            "id": "a28b16f2-c5c8-4a6e-929a-355b5d1cea90",
+            "quality": "normal",
+            "genres": [],
+            "aliases": [],
+            "packaging-id": null,
+            "media": [
+                {
+                    "title": "",
+                    "discs": [],
+                    "position": 1,
+                    "id": "5daea7bd-93ec-3ab3-9416-1c76cd55a2d8",
+                    "format-id": "10e17707-9751-3aaf-95b2-2432acd5374c",
+                    "track-count": 16,
+                    "format": "Vinyl"
+                }
+            ],
+            "status": "Official",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": null,
+            "disambiguation": ""
+        },
+        {
+            "release-group": null,
+            "tags": [],
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "title": "Jazz Omnibus",
+            "packaging": null,
+            "country": "US",
+            "release-events": [
+                {
+                    "area": {
+                        "name": "United States",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "disambiguation": "",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "sort-name": "United States",
+                        "type": null
+                    },
+                    "date": "1957"
+                }
+            ],
+            "date": "1957",
+            "quality": "normal",
+            "id": "ed481624-e615-4d2f-b8b1-95853ef0addd",
+            "genres": [],
+            "aliases": [],
+            "packaging-id": null,
+            "status": "Official",
+            "media": [
+                {
+                    "position": 1,
+                    "track-count": 10,
+                    "format": "12\" Vinyl",
+                    "id": "bf68d52b-fd67-3797-a07e-883c4d2fa693",
+                    "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+                    "title": "",
+                    "discs": []
+                }
+            ],
+            "disambiguation": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "barcode": null
+        },
+        {
+            "title": "The Many Faces of the Blues",
+            "release-events": [
+                {
+                    "area": {
+                        "type": null,
+                        "sort-name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "name": "United States",
+                        "type-id": null,
+                        "disambiguation": ""
+                    },
+                    "date": "1957"
+                }
+            ],
+            "country": "US",
+            "packaging": null,
+            "tags": [],
+            "release-group": null,
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "packaging-id": null,
+            "aliases": [],
+            "barcode": "",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "disambiguation": "",
+            "media": [
+                {
+                    "discs": [],
+                    "title": "",
+                    "track-count": 18,
+                    "format": "12\" Vinyl",
+                    "id": "860cfda4-383f-3500-8a91-c8af7f3daf11",
+                    "format-id": "3e9080b0-5e6c-34ab-bd15-f526b6306a64",
+                    "position": 1
+                }
+            ],
+            "status": "Official",
+            "date": "1957",
+            "genres": [],
+            "id": "afdda082-6e79-4ee8-9cf8-9d47df821bbb",
+            "quality": "normal"
+        }
+    ],
+    "works": [
+        {
+            "id": "f99aa87a-d665-3d56-8df6-1fb072ab2042",
+            "language": "eng",
+            "genres": [
+                {
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "bebop",
+                    "id": "ac30756b-55a7-4dc3-8908-8f94c93318d0"
+                },
+                {
+                    "id": "8c083468-2dce-4a31-ae77-433af3deafd3",
+                    "name": "hard bop",
+                    "count": 1,
+                    "disambiguation": ""
+                },
+                {
+                    "disambiguation": "",
+                    "count": 2,
+                    "id": "a715278f-1580-409f-8078-4ffbc800e08b",
+                    "name": "jazz"
+                }
+            ],
+            "type-id": null,
+            "type": null,
+            "iswcs": [
+                "T-070.002.363-7",
+                "T-070.243.277-6"
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "bebop"
+                },
+                {
+                    "name": "hard bop",
+                    "count": 1
+                },
+                {
+                    "name": "jazz",
+                    "count": 2
+                },
+                {
+                    "count": 1,
+                    "name": "jazz standard"
+                }
+            ],
+            "disambiguation": "",
+            "aliases": [
+                {
+                    "type-id": null,
+                    "primary": null,
+                    "name": "'Round Midnight",
+                    "type": null,
+                    "locale": null,
+                    "sort-name": "'Round Midnight",
+                    "ended": false,
+                    "end": null,
+                    "begin": null
+                },
+                {
+                    "ended": false,
+                    "begin": null,
+                    "end": null,
+                    "primary": null,
+                    "type-id": null,
+                    "name": "'Round Midnight (reprise)",
+                    "sort-name": "'Round Midnight (reprise)",
+                    "type": null,
+                    "locale": null
+                },
+                {
+                    "end": null,
+                    "begin": null,
+                    "ended": false,
+                    "locale": null,
+                    "type": null,
+                    "sort-name": "'round About Midnight",
+                    "name": "'round About Midnight",
+                    "primary": null,
+                    "type-id": null
+                },
+                {
+                    "begin": null,
+                    "end": null,
+                    "ended": false,
+                    "sort-name": "Around Midnight",
+                    "type": "Search hint",
+                    "locale": null,
+                    "name": "Around Midnight",
+                    "primary": null,
+                    "type-id": "02238bc1-dfd8-39a8-bbf8-c697747291ec"
+                },
+                {
+                    "end": null,
+                    "begin": null,
+                    "ended": false,
+                    "locale": "en",
+                    "type": "Work name",
+                    "sort-name": "At About Midnight",
+                    "name": "At About Midnight",
+                    "primary": false,
+                    "type-id": "a18cab3f-0ae2-3978-8f75-dd9c09702b25"
+                },
+                {
+                    "sort-name": "Около Полуночи",
+                    "type": "Work name",
+                    "locale": "ru",
+                    "name": "Около Полуночи",
+                    "type-id": "a18cab3f-0ae2-3978-8f75-dd9c09702b25",
+                    "primary": false,
+                    "begin": null,
+                    "end": null,
+                    "ended": false
+                }
+            ],
+            "languages": [
+                "eng"
+            ],
+            "attributes": [],
+            "title": "’Round Midnight"
+        },
+        {
+            "title": "(I've Got) The Bluest Blue",
+            "attributes": [],
+            "languages": [],
+            "aliases": [],
+            "disambiguation": "",
+            "tags": [],
+            "iswcs": [],
+            "type": null,
+            "type-id": null,
+            "language": null,
+            "genres": [],
+            "id": "4c1f86b1-f480-4f86-8d14-f99392939d48"
+        },
+        {
+            "genres": [],
+            "language": "zxx",
+            "type-id": null,
+            "id": "aaa19faf-298a-3e89-9599-6a30866cd7fd",
+            "iswcs": [
+                "T-070.940.958-4"
+            ],
+            "tags": [],
+            "type": null,
+            "disambiguation": "",
+            "title": "52nd Street Theme",
+            "aliases": [
+                {
+                    "name": "52nd Street Theme (take 1)",
+                    "primary": null,
+                    "type-id": null,
+                    "locale": null,
+                    "type": null,
+                    "sort-name": "52nd Street Theme (take 1)",
+                    "end": null,
+                    "begin": null,
+                    "ended": false
+                },
+                {
+                    "sort-name": "52nd Street Theme (take 2)",
+                    "locale": null,
+                    "type": null,
+                    "name": "52nd Street Theme (take 2)",
+                    "type-id": null,
+                    "primary": null,
+                    "begin": null,
+                    "end": null,
+                    "ended": false
+                }
+            ],
+            "languages": [
+                "zxx"
+            ],
+            "attributes": []
+        }
+    ],
+    "aliases": [
+        {
+            "locale": "en",
+            "type": null,
+            "sort-name": "Davis",
+            "name": "Davis",
+            "type-id": null,
+            "primary": false,
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "type": null,
+            "locale": null,
+            "sort-name": "Miles Davies",
+            "primary": null,
+            "type-id": null,
+            "name": "Miles Davies",
+            "ended": false,
+            "end": null,
+            "begin": null
+        },
+        {
+            "ended": false,
+            "end": null,
+            "begin": null,
+            "primary": true,
+            "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+            "name": "Miles Davis",
+            "type": "Artist name",
+            "locale": "en",
+            "sort-name": "Davis, Miles"
+        },
+        {
+            "type-id": null,
+            "primary": null,
+            "name": "Miles Dewey Davis III",
+            "type": null,
+            "locale": null,
+            "sort-name": "Miles Dewey Davis III",
+            "ended": false,
+            "end": null,
+            "begin": null
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "sort-name": "Favis, Miles",
+            "locale": null,
+            "type": null,
+            "primary": null,
+            "type-id": null,
+            "name": "Miles Favis"
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "type-id": null,
+            "primary": false,
+            "name": "Майлз Дейвис",
+            "sort-name": "Дейвис, Майлз",
+            "type": null,
+            "locale": "bg"
+        }
+    ],
+    "begin-area": {
+        "disambiguation": "",
+        "type-id": null,
+        "name": "Alton",
+        "id": "39e1719e-2604-4b59-b698-dab7caf85b33",
+        "sort-name": "Alton",
+        "type": null
+    },
+    "genres": [
+        {
+            "disambiguation": "",
+            "count": 3,
+            "id": "ac30756b-55a7-4dc3-8908-8f94c93318d0",
+            "name": "bebop"
+        },
+        {
+            "name": "blues",
+            "id": "fe12b346-a10e-450f-bf81-fa20894b5ea2",
+            "count": 1,
+            "disambiguation": ""
+        },
+        {
+            "name": "classical",
+            "id": "6ed4e4d1-9a97-4e2c-b8df-083754f154f4",
+            "disambiguation": "",
+            "count": 1
+        }
+    ],
+    "isnis": [
+        "000000012144707X"
+    ],
+    "name": "Miles Davis",
+    "release-groups": [
+        {
+            "releases": [],
+            "disambiguation": "",
+            "secondary-types": [],
+            "secondary-type-ids": [],
+            "aliases": [],
+            "genres": [
+                {
+                    "disambiguation": "",
+                    "count": 2,
+                    "name": "jazz",
+                    "id": "a715278f-1580-409f-8078-4ffbc800e08b"
+                }
+            ],
+            "id": "c8d56072-a32d-43c4-b52f-82ff0b8311a4",
+            "first-release-date": "1951-10-05",
+            "title": "The New Sounds",
+            "primary-type": "Album",
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "tags": [
+                {
+                    "name": "jazz",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "jazz"
+                }
+            ],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "primary-type": "Album",
+            "title": "Modern Jazz Trumpets",
+            "first-release-date": "1951",
+            "id": "095878f4-58ac-43f4-93ae-92a1e6588d8d",
+            "genres": [
+                {
+                    "count": 1,
+                    "disambiguation": "",
+                    "name": "jazz",
+                    "id": "a715278f-1580-409f-8078-4ffbc800e08b"
+                }
+            ],
+            "aliases": [],
+            "secondary-type-ids": [],
+            "secondary-types": [],
+            "releases": [],
+            "disambiguation": ""
+        },
+        {
+            "id": "2df9638f-3618-40b1-8928-d7f922f44ef5",
+            "genres": [],
+            "first-release-date": "1951",
+            "secondary-types": [],
+            "disambiguation": "",
+            "releases": [],
+            "aliases": [],
+            "secondary-type-ids": [],
+            "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+            "primary-type": "Album",
+            "tags": [],
+            "title": "The New Sounds"
+        }
+    ],
+    "id": "561d854a-6a28-4aa7-8c99-323e6ce46c2a",
+    "ipis": [
+        "00007619785"
+    ],
+    "sort-name": "Davis, Miles",
+    "rating": {
+        "value": 4.75,
+        "votes-count": 21
+    },
+    "area": {
+        "type": null,
+        "iso-3166-1-codes": [
+            "US"
+        ],
+        "sort-name": "United States",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "type-id": null,
+        "disambiguation": ""
+    },
+    "gender": "Male",
+    "annotation": null,
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "country": "US",
+    "life-span": {
+        "begin": "1926-05-26",
+        "end": "1991-09-28",
+        "ended": true
+    },
+    "relations": [
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "artist": {
+                "type": "Group",
+                "sort-name": "Artists United Against Apartheid",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "",
+                "id": "298fb0c1-5a1f-43c1-854d-663762caad6e",
+                "country": "US",
+                "name": "Artists United Against Apartheid"
+            },
+            "direction": "forward",
+            "ended": false,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "75c09861-6857-4ec0-9729-84eefde7fc86",
+            "type": "collaboration"
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "artist": {
+                "country": null,
+                "id": "55920730-831f-431f-80f7-539a2bf83f98",
+                "name": "Miles Davis and His Band",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "Miles Davis, Art Blakey, Jackie McLean, Sonny Rollins, Tommy Potter & Walter Bishop, Jr.",
+                "type": "Group",
+                "sort-name": "Miles Davis and His Band"
+            },
+            "direction": "forward",
+            "begin": null,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "type-id": "6ed4bfc4-0a0d-44c0-b025-b7fc4d900b67",
+            "type": "founder"
+        },
+        {
+            "direction": "forward",
+            "target-type": "artist",
+            "end": "1991",
+            "attributes": [],
+            "begin": "1949",
+            "ended": true,
+            "type-id": "fd3927ba-fd51-4fa9-bcc2-e83637896fe8",
+            "type": "involved with",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "artist": {
+                "type": "Person",
+                "sort-name": "Gréco, Juliette",
+                "country": "FR",
+                "id": "bb839dd4-94be-4732-b014-135a64c340a6",
+                "name": "Juliette Gréco",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "French singer and actress"
+            }
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "type": "Person",
+                "sort-name": "Henry, Cleo",
+                "country": "US",
+                "id": "8dddb806-0971-4968-ac1d-68340402cd94",
+                "name": "Cleo Henry",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "dd9886f2-1dfe-4270-97db-283f6839a666",
+            "type": "is person",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "begin": "1959-12-21",
+            "target-type": "artist",
+            "attributes": [],
+            "end": "1968",
+            "ended": true,
+            "direction": "forward",
+            "type": "married",
+            "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "artist": {
+                "country": "US",
+                "id": "1d8bf559-e9ab-4009-a61e-def117019485",
+                "name": "Frances Taylor Davis",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "type": "Person",
+                "sort-name": "Davis, Frances Taylor"
+            },
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "id": "bb17dc42-ecaf-42ca-aa35-b23207573060",
+                "country": "US",
+                "name": "Betty Davis",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "funk/soul singer",
+                "type": "Person",
+                "sort-name": "Davis, Betty"
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "married",
+            "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+            "end": "1969",
+            "target-type": "artist",
+            "attributes": [],
+            "begin": "1968-09",
+            "ended": true,
+            "direction": "forward"
+        },
+        {
+            "artist": {
+                "sort-name": "Tyson, Cicely",
+                "type": "Person",
+                "name": "Cicely Tyson",
+                "country": null,
+                "id": "896d0e21-2b6e-4596-a76e-32c29049f19f",
+                "disambiguation": "American actress",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "married",
+            "type-id": "b2bf7a5d-2da6-4742-baf4-e38d8a7ad029",
+            "ended": true,
+            "target-type": "artist",
+            "attributes": [],
+            "end": "1989",
+            "begin": "1981",
+            "direction": "backward"
+        },
+        {
+            "ended": false,
+            "target-type": "artist",
+            "attributes": [
+                "eponymous",
+                "original"
+            ],
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "member of band",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "attribute-ids": {
+                "eponymous": "15eea3b8-5655-43c8-b2c2-dd03c901a79b",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "artist": {
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "US jazz group, active 1955–58 and 1964-1970",
+                "id": "fe7245e7-d734-4ca1-8e26-691883f58201",
+                "country": "US",
+                "name": "Miles Davis Quintet",
+                "type": "Group",
+                "sort-name": "Davis, Miles, Quintet"
+            },
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "eponymous": "15eea3b8-5655-43c8-b2c2-dd03c901a79b",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+            },
+            "source-credit": "",
+            "artist": {
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "",
+                "country": "US",
+                "id": "f137837b-fa55-48d1-8c85-f13961b3ac77",
+                "name": "Miles Davis Sextet",
+                "type": "Group",
+                "sort-name": "Davis, Miles, Sextet"
+            },
+            "direction": "forward",
+            "begin": null,
+            "target-type": "artist",
+            "attributes": [
+                "eponymous",
+                "original"
+            ],
+            "end": null,
+            "ended": false,
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "type": "member of band"
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "disambiguation": "",
+                "country": "US",
+                "id": "03606dee-b333-48fe-b9af-d671c837d40f",
+                "name": "Miles Davis Quartet",
+                "type": "Group",
+                "sort-name": "Davis, Miles, Quartet"
+            },
+            "attribute-values": [],
+            "attribute-ids": {
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "eponymous": "15eea3b8-5655-43c8-b2c2-dd03c901a79b"
+            },
+            "target-credit": "",
+            "type": "member of band",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "ended": false,
+            "begin": null,
+            "target-type": "artist",
+            "attributes": [
+                "eponymous",
+                "original"
+            ],
+            "end": null,
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "attribute-credits": [],
+            "begin": null,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [
+                "eponymous",
+                "original",
+                "trumpet"
+            ],
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "eponymous": "15eea3b8-5655-43c8-b2c2-dd03c901a79b",
+                "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
+            },
+            "source-credit": "",
+            "artist": {
+                "name": "The Miles Davis Nonet",
+                "id": "16d2b8e6-8930-4c9e-856f-e6d096479350",
+                "country": null,
+                "disambiguation": "",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Davis, Miles, Nonet, The",
+                "type": "Group"
+            }
+        },
+        {
+            "ended": false,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "backward",
+            "type": "named after artist",
+            "type-id": "1af24726-5b1f-4b07-826e-5351723f504b",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "name": "Miles Davis and His Band",
+                "id": "55920730-831f-431f-80f7-539a2bf83f98",
+                "country": null,
+                "disambiguation": "Miles Davis, Art Blakey, Jackie McLean, Sonny Rollins, Tommy Potter & Walter Bishop, Jr.",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Miles Davis and His Band",
+                "type": "Group"
+            }
+        },
+        {
+            "artist": {
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "name": "Erin Davis",
+                "id": "acbb43f8-c4b1-4af7-9b94-bf3c8cca0ab2",
+                "country": "US",
+                "sort-name": "Davis, Erin",
+                "type": "Person"
+            },
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "type": "parent",
+            "direction": "forward",
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false
+        },
+        {
+            "artist": {
+                "sort-name": "Davis, Cheryl",
+                "type": "Person",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "name": "Cheryl Davis",
+                "country": "US",
+                "id": "ea389664-0eaa-4ecf-9567-3d1c807dbdc6"
+            },
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "parent",
+            "type-id": "9421ca84-934f-49fe-9e66-dea242430406",
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "sort-name": "Buchanan, Elwood",
+                "type": "Person",
+                "disambiguation": "",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "name": "Elwood Buchanan",
+                "id": "81abda46-7201-4fa4-8026-5280d1b23105",
+                "country": "US"
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "teacher",
+            "type-id": "249fc24f-d573-4290-9d74-0547712d1f1e",
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "backward"
+        },
+        {
+            "type": "teacher",
+            "type-id": "249fc24f-d573-4290-9d74-0547712d1f1e",
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "artist": {
+                "type": "Person",
+                "sort-name": "Roney, Wallace",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "jazz trumpeter",
+                "id": "30907194-57ca-4c7f-8e10-8c2883799052",
+                "country": "US",
+                "name": "Wallace Roney"
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "artist": {
+                "sort-name": "Miles!",
+                "type": "Group",
+                "name": "Miles!",
+                "id": "f2b73b53-3414-4883-b014-622ab6917215",
+                "country": "NL",
+                "disambiguation": "Dutch tribute to Miles Davis",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+            },
+            "begin": null,
+            "target-type": "artist",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "direction": "backward",
+            "type": "tribute",
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f"
+        },
+        {
+            "source-credit": "",
+            "artist": {
+                "name": "A Tribute to Miles Davis",
+                "country": null,
+                "id": "10e59749-62bb-4aec-b18c-6b7a25714ec9",
+                "disambiguation": "",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Tribute to Miles Davis, A",
+                "type": "Group"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "a6f62641-2f58-470e-b02b-88d7b984dc9f",
+            "type": "tribute",
+            "direction": "backward",
+            "begin": null,
+            "target-type": "artist",
+            "attributes": [],
+            "end": null,
+            "ended": false
+        },
+        {
+            "direction": "forward",
+            "target-type": "event",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "type": "main performer",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "event": {
+                "time": "",
+                "cancelled": false,
+                "disambiguation": "",
+                "life-span": {
+                    "ended": true,
+                    "begin": "1986-06-15",
+                    "end": "1986-06-15"
+                },
+                "setlist": "",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                "id": "f21119d6-3a86-4029-9623-ad41af4ec3ad",
+                "name": "A Conspiracy of Hope",
+                "type": "Concert"
+            },
+            "source-credit": ""
+        },
+        {
+            "type": "main performer",
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "begin": null,
+            "target-type": "event",
+            "attributes": [
+                "time"
+            ],
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "event": {
+                "type": "Festival",
+                "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                "name": "Berliner Jazztage 1969",
+                "id": "2ff170ea-bdc0-402e-8708-9abb55cf6f50",
+                "life-span": {
+                    "begin": "1969-11-06",
+                    "end": "1969-11-09",
+                    "ended": true
+                },
+                "setlist": "",
+                "disambiguation": "",
+                "time": "",
+                "cancelled": false
+            },
+            "source-credit": "",
+            "attribute-values": {
+                "time": "1969-11-07"
+            },
+            "attribute-ids": {
+                "time": "ebd303c3-7f57-452a-aa3b-d780ebad868d"
+            },
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "event": {
+                "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                "name": "Berliner Jazztage 1973, Day 1",
+                "id": "e9ee55f4-17a7-47f9-b445-ad332a82ea78",
+                "type": "Festival",
+                "disambiguation": "",
+                "cancelled": false,
+                "time": "",
+                "life-span": {
+                    "ended": true,
+                    "end": "1973-11-01",
+                    "begin": "1973-11-01"
+                },
+                "setlist": ""
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "type": "main performer",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "event",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "event": {
+                "type": "Festival",
+                "id": "2d35d932-29ba-44ea-be41-b9df1b39bc82",
+                "name": "Newport Jazz Festival 1955, Day 3",
+                "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                "setlist": "",
+                "life-span": {
+                    "end": "1955-07-17",
+                    "begin": "1955-07-17",
+                    "ended": true
+                },
+                "time": "",
+                "cancelled": false,
+                "disambiguation": ""
+            },
+            "ended": false,
+            "attributes": [],
+            "target-type": "event",
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "support act",
+            "type-id": "492a850e-97eb-306a-a85e-4b6d98527796"
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "event": {
+                "type": "Festival",
+                "name": "Newport Jazz Festival 1969",
+                "id": "6b7ce10d-c06b-45fe-936d-2bb1f7c7e1af",
+                "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                "setlist": "",
+                "life-span": {
+                    "ended": true,
+                    "begin": "1969-07-03",
+                    "end": "1969-07-06"
+                },
+                "disambiguation": "",
+                "cancelled": false,
+                "time": ""
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "event",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "type-id": "492a850e-97eb-306a-a85e-4b6d98527796",
+            "type": "support act"
+        },
+        {
+            "type": "personal publisher",
+            "type-id": "8fecc8a7-0df7-4637-9152-f12a07f0e9cd",
+            "source-credit": "",
+            "ended": false,
+            "target-type": "label",
+            "attributes": [],
+            "attribute-ids": [],
+            "end": null,
+            "begin": null,
+            "attribute-values": [],
+            "direction": "forward",
+            "label": {
+                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                "disambiguation": "",
+                "id": "9d235ab0-30e0-4608-91d6-d749f099f36b",
+                "name": "Jazz Horn Music",
+                "label-code": null,
+                "type": "Publisher",
+                "sort-name": "Jazz Horn Music"
+            },
+            "target-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "recording": {
+                "id": "1a4577cb-fa8c-4869-aac6-d042787c9a38",
+                "length": 492933,
+                "disambiguation": "",
+                "video": false,
+                "title": "Aïda"
+            },
+            "target-type": "recording",
+            "attributes": [],
+            "end": "1981-01",
+            "begin": "1981-01",
+            "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+            "type": "arranger"
+        },
+        {
+            "direction": "forward",
+            "recording": {
+                "id": "ca408593-8f0a-46cb-857f-693b022e0f2b",
+                "length": 676306,
+                "disambiguation": "",
+                "video": false,
+                "title": "Back Seat Betty"
+            },
+            "ended": true,
+            "begin": "1981-01",
+            "attributes": [],
+            "target-type": "recording",
+            "end": "1981-01",
+            "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+            "type": "arranger",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "recording",
+            "end": "1981-01",
+            "attributes": [],
+            "begin": "1981-01",
+            "recording": {
+                "length": 645169,
+                "id": "6c7ab680-9f4e-49f1-a7e0-7e339f7e36d2",
+                "disambiguation": "",
+                "video": false,
+                "title": "Ursula"
+            },
+            "ended": true,
+            "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+            "type": "arranger"
+        },
+        {
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "type": "instrument",
+            "direction": "forward",
+            "attribute-credits": [],
+            "recording": {
+                "disambiguation": "orig.-take 2",
+                "id": "6d177c1e-f1f5-42d7-8826-b1aa8347781a",
+                "length": null,
+                "title": "Red Cross",
+                "video": false
+            },
+            "ended": true,
+            "begin": "1944-09-15",
+            "end": "1944-09-15",
+            "target-type": "recording",
+            "attributes": [
+                "trumpet"
+            ],
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
+            }
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": {
+                "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "instrument",
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "target-type": "recording",
+            "attributes": [
+                "trumpet"
+            ],
+            "end": "1944-09-15",
+            "begin": "1944-09-15",
+            "recording": {
+                "disambiguation": "orig.-take 3",
+                "length": null,
+                "id": "782518bf-d747-402d-a44e-0981e0e9fd38",
+                "title": "Tiny's Tempo",
+                "video": false
+            },
+            "attribute-credits": [],
+            "ended": true,
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": {
+                "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
+            },
+            "attribute-values": [],
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "type": "instrument",
+            "direction": "forward",
+            "target-type": "recording",
+            "end": "1945-04-24",
+            "attributes": [
+                "trumpet"
+            ],
+            "begin": "1945-04-24",
+            "recording": {
+                "video": false,
+                "title": "Bring It on Home",
+                "length": 171013,
+                "id": "9226ccd7-fe29-4b15-8c49-365a2d940e64",
+                "disambiguation": ""
+            },
+            "ended": true,
+            "attribute-credits": []
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "Miles Davis",
+            "direction": "forward",
+            "ended": false,
+            "recording": {
+                "disambiguation": "",
+                "length": 173573,
+                "id": "33dd49a8-bb22-46eb-8b33-a05fcec2c8d1",
+                "title": "[Jazz Corner of the Word]",
+                "video": false
+            },
+            "begin": null,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "type": "instrument"
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "horn": "e798a2bd-a578-4c28-8eea-6eca2d8b2c5d"
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "horn"
+            ],
+            "recording": {
+                "length": 378262,
+                "id": "4ff98ba4-8a38-4adf-9325-b6d7aecee4d2",
+                "disambiguation": "",
+                "video": false,
+                "title": "Give It Up"
+            },
+            "ended": false,
+            "attribute-credits": [],
+            "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+            "type": "instrument arranger"
+        },
+        {
+            "direction": "forward",
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "recording": {
+                "disambiguation": "",
+                "id": "4ff98ba4-8a38-4adf-9325-b6d7aecee4d2",
+                "length": 378262,
+                "title": "Give It Up",
+                "video": false
+            },
+            "type-id": "4820daa1-98d6-4f8b-aa4b-6895c5b79b27",
+            "type": "instrument arranger",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "Miles Davis",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "recording": {
+                "id": "33dd49a8-bb22-46eb-8b33-a05fcec2c8d1",
+                "length": 173573,
+                "disambiguation": "",
+                "video": false,
+                "title": "[Jazz Corner of the Word]"
+            },
+            "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+            "type": "performer"
+        },
+        {
+            "direction": "forward",
+            "recording": {
+                "video": false,
+                "title": "A Night in Tunisia",
+                "id": "76f1533c-5477-4288-93c1-6699868269b7",
+                "length": 178466,
+                "disambiguation": ""
+            },
+            "ended": false,
+            "begin": null,
+            "end": null,
+            "target-type": "recording",
+            "attributes": [],
+            "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+            "type": "performer",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "type-id": "628a9658-f54c-4142-b0c0-95f031b544da",
+            "type": "performer",
+            "direction": "forward",
+            "ended": false,
+            "recording": {
+                "title": "Baby Won’t You Make Up Your Mind",
+                "video": false,
+                "disambiguation": "",
+                "length": 175866,
+                "id": "f12b5cae-bf4e-4e64-b487-fae61112e50d"
+            },
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "begin": null,
+            "end": null,
+            "target-type": "recording",
+            "attributes": [],
+            "ended": false,
+            "recording": {
+                "title": "Code M.D.",
+                "video": false,
+                "disambiguation": "",
+                "id": "ba60a07e-88bb-460a-a577-1cf6cfcc149b",
+                "length": 359000
+            },
+            "direction": "forward",
+            "type": "producer",
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+        },
+        {
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "recording",
+            "end": null,
+            "attributes": [],
+            "recording": {
+                "video": false,
+                "title": "Decoy",
+                "length": 513826,
+                "id": "984b6ce9-6137-497d-bb15-f1370cdc0be1",
+                "disambiguation": ""
+            },
+            "ended": false,
+            "direction": "forward",
+            "type": "producer",
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+        },
+        {
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "recording": {
+                "video": false,
+                "title": "Freaky Deaky",
+                "id": "93b25d03-dbb9-4e9a-97ea-2f432351164a",
+                "length": 274000,
+                "disambiguation": ""
+            },
+            "ended": false,
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "producer",
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "ended": true,
+            "recording": {
+                "length": 44440,
+                "id": "ed3c340f-312c-4448-8ee6-bbbec34b113d",
+                "disambiguation": "",
+                "video": false,
+                "title": "Miles Davis Comments"
+            },
+            "end": "1959-04-22",
+            "target-type": "recording",
+            "attributes": [],
+            "begin": "1959-04-22",
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "vocal",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "recording": {
+                "id": "ed3c340f-312c-4448-8ee6-bbbec34b113d",
+                "length": 44440,
+                "disambiguation": "",
+                "video": false,
+                "title": "Miles Davis Comments"
+            },
+            "attribute-credits": [],
+            "ended": true,
+            "attributes": [
+                "spoken vocals"
+            ],
+            "target-type": "recording",
+            "end": "1959-04-22",
+            "begin": "1959-04-22",
+            "direction": "forward"
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": {
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "recording": {
+                "disambiguation": "",
+                "length": 402000,
+                "id": "306775d1-896a-4216-abb4-42d4cdbfae37",
+                "title": "We Shall Overcome",
+                "video": false
+            },
+            "attribute-credits": [],
+            "target-type": "recording",
+            "attributes": [
+                "background vocals"
+            ],
+            "end": "1970-05-29",
+            "begin": "1970-05-29",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "attribute-values": [],
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "type": "vocal",
+            "direction": "forward",
+            "ended": false,
+            "recording": {
+                "video": false,
+                "title": "Kyrie",
+                "id": "0cabdf9b-4ac0-4af7-b6a9-2a1e4738053e",
+                "length": 253000,
+                "disambiguation": ""
+            },
+            "attribute-credits": {
+                "spoken vocals": "vocal whispers"
+            },
+            "target-type": "recording",
+            "end": null,
+            "attributes": [
+                "spoken vocals"
+            ],
+            "begin": null
+        },
+        {
+            "target-credit": "",
+            "direction": "forward",
+            "target-type": "release",
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "end": null,
+            "attributes": [
+                "task"
+            ],
+            "attribute-values": {
+                "task": "all drawing, color concepts and basic attitudes"
+            },
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "type-id": "5acef56d-e676-4b4d-a581-db5d36afd213",
+            "type": "artwork",
+            "release": {
+                "media": [],
+                "status": null,
+                "barcode": "07464386571",
+                "status-id": null,
+                "disambiguation": "",
+                "packaging-id": null,
+                "id": "2b5574a5-6b58-4694-bae7-bb12e907b94c",
+                "quality": "normal",
+                "date": "1983",
+                "country": "US",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type": null,
+                            "sort-name": "United States",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "name": "United States"
+                        },
+                        "date": "1983"
+                    }
+                ],
+                "title": "Star People",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "release-group": null
+            }
+        },
+        {
+            "release": {
+                "id": "a3416c90-0704-4dd4-912d-0447318d287a",
+                "quality": "normal",
+                "date": "1998-06-23",
+                "media": [],
+                "status": null,
+                "barcode": "731455719925",
+                "status-id": null,
+                "disambiguation": "",
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "release-group": null,
+                "country": "US",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "date": "1998-06-23",
+                        "area": {
+                            "type": null,
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "sort-name": "United States",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "name": "United States"
+                        }
+                    }
+                ],
+                "title": "I Remember Miles"
+            },
+            "type": "design/illustration",
+            "type-id": "307e95dd-88b5-419b-8223-b146d4a0d439",
+            "source-credit": "",
+            "ended": false,
+            "attribute-values": [],
+            "begin": null,
+            "attribute-ids": [],
+            "target-type": "release",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "target-credit": ""
+        },
+        {
+            "direction": "forward",
+            "target-credit": "",
+            "ended": false,
+            "target-type": "release",
+            "attribute-ids": [],
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "attribute-values": [],
+            "type-id": "a6029157-d96b-4dc3-9f73-f99f76423d11",
+            "source-credit": "",
+            "type": "illustration",
+            "release": {
+                "packaging-id": null,
+                "status-id": null,
+                "barcode": "603497850785",
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "date": "2019-09-06",
+                "id": "125eb0a2-2eeb-48de-98ae-1145033c16b6",
+                "quality": "normal",
+                "title": "Rubberband",
+                "release-events": [
+                    {
+                        "date": "2019-09-06",
+                        "area": {
+                            "disambiguation": "",
+                            "type-id": null,
+                            "name": "Europe",
+                            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                            "iso-3166-1-codes": [
+                                "XE"
+                            ],
+                            "sort-name": "Europe",
+                            "type": null
+                        }
+                    }
+                ],
+                "country": "XE",
+                "packaging": null,
+                "release-group": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                }
+            }
+        },
+        {
+            "source-credit": "",
+            "release": {
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "sort-name": "Germany",
+                            "type": null,
+                            "name": "Germany",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "date": "1990-07-14"
+                    }
+                ],
+                "country": "DE",
+                "packaging": null,
+                "title": "Live in Singen",
+                "text-representation": {
+                    "language": null,
+                    "script": null
+                },
+                "release-group": null,
+                "status-id": null,
+                "barcode": "",
+                "disambiguation": "",
+                "media": [],
+                "status": null,
+                "packaging-id": null,
+                "id": "1064cb56-77d0-40bc-b62d-3cdd32b0882c",
+                "quality": "normal",
+                "date": "1990-07-14"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+            },
+            "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+            "type": "instrument",
+            "direction": "forward",
+            "begin": "1990-07-14",
+            "target-type": "release",
+            "end": "1990-07-14",
+            "attributes": [
+                "keyboard"
+            ],
+            "ended": true,
+            "attribute-credits": []
+        },
+        {
+            "release": {
+                "date": "1990-07-14",
+                "quality": "normal",
+                "id": "1064cb56-77d0-40bc-b62d-3cdd32b0882c",
+                "packaging-id": null,
+                "disambiguation": "",
+                "status-id": null,
+                "barcode": "",
+                "status": null,
+                "media": [],
+                "release-group": null,
+                "text-representation": {
+                    "language": null,
+                    "script": null
+                },
+                "title": "Live in Singen",
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "name": "Germany",
+                            "type": null,
+                            "sort-name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ]
+                        },
+                        "date": "1990-07-14"
+                    }
+                ],
+                "packaging": null,
+                "country": "DE"
+            },
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": {
+                "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
+            },
+            "target-credit": "",
+            "type": "instrument",
+            "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+            "attribute-credits": [],
+            "ended": true,
+            "begin": "1990-07-14",
+            "target-type": "release",
+            "end": "1990-07-14",
+            "attributes": [
+                "trumpet"
+            ],
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "release": {
+                "date": "1993-08-06",
+                "quality": "normal",
+                "id": "664443b3-528b-46b2-acdc-c29ed4edd028",
+                "packaging-id": null,
+                "disambiguation": "",
+                "barcode": "093624522126",
+                "status-id": null,
+                "status": null,
+                "media": [],
+                "release-group": null,
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "title": "Miles & Quincy Live at Montreux",
+                "release-events": [
+                    {
+                        "date": "1993-08-06",
+                        "area": {
+                            "sort-name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "type": null,
+                            "disambiguation": "",
+                            "type-id": null,
+                            "name": "Germany",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+                        }
+                    }
+                ],
+                "packaging": null,
+                "country": "DE"
+            },
+            "target-credit": "",
+            "attribute-ids": {
+                "trumpet": "1c8f9780-2f16-4891-b66d-bb7aa0820dbd"
+            },
+            "attribute-values": [],
+            "type-id": "67555849-61e5-455b-96e3-29733f0115f5",
+            "type": "instrument",
+            "direction": "forward",
+            "attribute-credits": [],
+            "ended": true,
+            "attributes": [
+                "trumpet"
+            ],
+            "target-type": "release",
+            "end": "1991-07-08",
+            "begin": "1991-07-08"
+        },
+        {
+            "type": "dedicated to",
+            "type-id": "b41e7530-cde4-459c-b8c5-dfef08fc8295",
+            "source-credit": "",
+            "ended": false,
+            "attribute-values": [],
+            "begin": null,
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "end": null,
+            "attributes": [],
+            "release_group": {
+                "id": "5b382d1b-8a59-44d7-bb51-ccc36993e39f",
+                "primary-type-id": null,
+                "primary-type": null,
+                "first-release-date": "1992-08-21",
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": "",
+                "title": "Blues for Miles",
+                "secondary-type-ids": []
+            },
+            "direction": "forward",
+            "target-credit": ""
+        },
+        {
+            "begin": null,
+            "attribute-values": [],
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "target-credit": "",
+            "release_group": {
+                "id": "30d21019-2702-30b6-8fcf-b9017cc02aa6",
+                "primary-type-id": null,
+                "primary-type": null,
+                "first-release-date": "2002-06-11",
+                "secondary-types": [],
+                "disambiguation": "'Celebrating Miles Davis & John Coltrane'",
+                "releases": [],
+                "secondary-type-ids": [],
+                "title": "Directions in Music: Live at Massey Hall"
+            },
+            "direction": "forward",
+            "type": "dedicated to",
+            "source-credit": "",
+            "type-id": "b41e7530-cde4-459c-b8c5-dfef08fc8295"
+        },
+        {
+            "target-credit": "",
+            "direction": "forward",
+            "release_group": {
+                "primary-type": null,
+                "primary-type-id": null,
+                "id": "0e6c6c9b-bf10-3466-9efa-2694ec677584",
+                "first-release-date": "1992-05-05",
+                "releases": [],
+                "disambiguation": "",
+                "secondary-types": [],
+                "title": "Milagro",
+                "secondary-type-ids": []
+            },
+            "target-type": "release_group",
+            "attributes": [],
+            "attribute-ids": [],
+            "end": null,
+            "begin": null,
+            "attribute-values": [],
+            "ended": false,
+            "source-credit": "",
+            "type-id": "b41e7530-cde4-459c-b8c5-dfef08fc8295",
+            "type": "dedicated to"
+        },
+        {
+            "ended": false,
+            "attribute-values": [],
+            "begin": null,
+            "target-type": "release_group",
+            "end": null,
+            "attribute-ids": [],
+            "attributes": [],
+            "release_group": {
+                "first-release-date": "1994-03-18",
+                "primary-type-id": null,
+                "id": "78b1e062-09c0-3e30-9f31-9b9261085480",
+                "primary-type": null,
+                "title": "A Tribute to Miles",
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": ""
+            },
+            "direction": "forward",
+            "target-credit": "",
+            "type": "tribute",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "source-credit": ""
+        },
+        {
+            "ended": false,
+            "attribute-ids": [],
+            "target-type": "release_group",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "attribute-values": [],
+            "direction": "forward",
+            "release_group": {
+                "title": "A Tribute to Miles Davis",
+                "secondary-type-ids": [],
+                "secondary-types": [],
+                "releases": [],
+                "disambiguation": "",
+                "first-release-date": "2016",
+                "id": "353d4e39-40cc-4f34-81a4-6c11b7ea8a81",
+                "primary-type-id": null,
+                "primary-type": null
+            },
+            "target-credit": "",
+            "type": "tribute",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff",
+            "source-credit": ""
+        },
+        {
+            "begin": null,
+            "attribute-values": [],
+            "end": null,
+            "target-type": "release_group",
+            "attribute-ids": [],
+            "attributes": [],
+            "ended": false,
+            "target-credit": "",
+            "release_group": {
+                "title": "Endless Miles: A Tribute to Miles Davis",
+                "secondary-type-ids": [],
+                "releases": [],
+                "disambiguation": "",
+                "secondary-types": [],
+                "first-release-date": "",
+                "primary-type": null,
+                "primary-type-id": null,
+                "id": "87a3fe35-c186-3c52-b5d6-eeb72c6f3260"
+            },
+            "direction": "forward",
+            "type": "tribute",
+            "source-credit": "",
+            "type-id": "5e2907db-49ec-4a48-9f11-dfb99d2603ff"
+        },
+        {
+            "attribute-values": {
+                "number": "1984"
+            },
+            "ordering-key": 21,
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-credit": "",
+            "series": {
+                "type": "Artist award",
+                "name": "Léonie Sonnings Musikpris",
+                "id": "28ba9a4b-dd32-488b-abbd-f12063970940",
+                "disambiguation": "",
+                "type-id": "dca73eca-a855-3408-9094-f7d5d073cef0"
+            },
+            "source-credit": "",
+            "begin": "1984",
+            "target-type": "series",
+            "end": "1984",
+            "attributes": [
+                "number"
+            ],
+            "ended": true,
+            "direction": "forward",
+            "type": "part of",
+            "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0"
+        },
+        {
+            "target-credit": "",
+            "ordering-key": 1001,
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "series": {
+                "disambiguation": "",
+                "type-id": "c5358f01-618a-396d-8c78-9e76e6a52d7d",
+                "name": "Hollywood Walk of Fame",
+                "id": "20a6efaf-3580-4948-b8e3-cad42fcf5cc7",
+                "type": "Artist series"
+            },
+            "direction": "forward",
+            "target-type": "series",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0",
+            "type": "part of"
+        },
+        {
+            "attribute-values": {
+                "number": "2006"
+            },
+            "ordering-key": 148,
+            "attribute-ids": {
+                "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+            },
+            "target-credit": "",
+            "series": {
+                "type": "Artist award",
+                "name": "Rock ’n’ Roll Hall of Fame: Performers",
+                "id": "1f49c45f-aa53-445b-9cc3-be483dd93e22",
+                "disambiguation": "",
+                "type-id": "dca73eca-a855-3408-9094-f7d5d073cef0"
+            },
+            "source-credit": "",
+            "begin": null,
+            "target-type": "series",
+            "attributes": [
+                "number"
+            ],
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "type": "part of",
+            "type-id": "d1a845d1-8c03-3191-9454-e4e8d37fa5e0"
+        },
+        {
+            "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+            "url": {
+                "resource": "https://www.allmusic.com/artist/mn0000423829",
+                "id": "ccc88195-4b40-4675-bb80-d0c57c22c86b"
+            },
+            "type": "allmusic",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        },
+        {
+            "url": {
+                "resource": "https://milesdavis.bandcamp.com/",
+                "id": "38c52955-854c-42a4-afac-fdc978c0b152"
+            },
+            "type": "bandcamp",
+            "type-id": "c550166e-0548-4a18-b1d4-e2ae423a3e88",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "type": "BBC Music page",
+            "url": {
+                "id": "fd17940d-c7a8-4989-8a77-e638a8decd4a",
+                "resource": "https://www.bbc.co.uk/music/artists/561d854a-6a28-4aa7-8c99-323e6ce46c2a"
+            },
+            "type-id": "d028a975-000c-4525-9333-d3c8425e4b54",
+            "ended": true,
+            "target-type": "url",
+            "attributes": [],
+            "end": "2020-11-19",
+            "begin": null,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": "",
+            "direction": "forward",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+            "type": "discography page",
+            "url": {
+                "id": "efcf00e7-3dd3-4a4f-91f5-a4dda573c710",
+                "resource": "http://all-blues.de/music/missing.htm"
+            }
+        },
+        {
+            "type": "discography page",
+            "url": {
+                "id": "98b7f571-3459-465a-9ce1-b3e89abd388e",
+                "resource": "https://www.plosin.com/milesahead/"
+            },
+            "type-id": "4fb0eeec-a6eb-4ae3-ad52-b55765b94e8f",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "url": {
+                "id": "c6ca6417-6dc0-4914-8f90-335eca44ba7d",
+                "resource": "https://www.discogs.com/artist/23755"
+            },
+            "type": "discogs",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "type": "fanpage",
+            "url": {
+                "resource": "http://www.kind-of-blue.de/",
+                "id": "40bfe03f-0406-41ea-8eef-a355fea8c90e"
+            },
+            "type-id": "f484f897-81cc-406e-96f9-cd799a04ee24",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "type": "free streaming",
+            "url": {
+                "id": "139d2001-5df7-42d8-99f2-43f0e2b65cf7",
+                "resource": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "free streaming",
+            "url": {
+                "id": "31c4dea3-4030-4a15-8387-307ee2b6cf9c",
+                "resource": "https://www.deezer.com/artist/1910"
+            },
+            "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "type-id": "221132e9-e30e-43f2-a741-15afc4c5fa7c",
+            "type": "image",
+            "url": {
+                "id": "f6ab89ba-ad24-4de5-8fc9-3ec47193e27a",
+                "resource": "https://commons.wikimedia.org/wiki/File:Miles_Davis_by_Palumbo.jpg"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "type-id": "94c8b0cc-4477-4106-932c-da60e63de61c",
+            "url": {
+                "resource": "https://www.imdb.com/name/nm0002537/",
+                "id": "31a29bae-fe0a-4d60-b8b6-dbfe245ed1a6"
+            },
+            "type": "IMDb"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+            "url": {
+                "resource": "https://www.last.fm/music/Miles+Davis",
+                "id": "c026b5bc-d5c4-4b54-a290-8ba130939db1"
+            },
+            "type": "last.fm",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "type": "lyrics",
+            "url": {
+                "id": "f2ac0b6a-2ddf-45dc-87ee-88ac0b33ec97",
+                "resource": "https://genius.com/artists/Miles-davis"
+            },
+            "type-id": "e4d73442-3762-45a8-905c-401da65544ed",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+            "type": "myspace",
+            "url": {
+                "resource": "https://myspace.com/milesdavis",
+                "id": "d40338e0-f6b3-44a1-8853-3338cf87bfef"
+            },
+            "direction": "forward",
+            "begin": null,
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "direction": "forward",
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+            "url": {
+                "resource": "https://www.milesdavis.com/",
+                "id": "e39d9275-589c-4ec4-8b63-fbd669023f8b"
+            },
+            "type": "official homepage",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "type": "other databases",
+            "url": {
+                "id": "43e4f480-dd08-4732-86cf-f2d803bf5681",
+                "resource": "https://jaxsta.com/profile/80eaeb6a-e128-4421-8ab5-a4641d03f790"
+            },
+            "direction": "forward",
+            "ended": true,
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": "2025-12-17"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "url": {
+                "resource": "http://id.loc.gov/authorities/names/n50035608",
+                "id": "12fbb6a0-6cfb-4c15-ac51-d2bfb4635a6a"
+            },
+            "type": "other databases",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false
+        },
+        {
+            "type-id": "d94fb61c-fa20-4e3c-a19a-71a949fb2c55",
+            "type": "other databases",
+            "url": {
+                "resource": "https://catalogue.bnf.fr/ark:/12148/cb13893030g",
+                "id": "05ec5878-83a4-4c28-a804-2ffbfbbe909d"
+            },
+            "direction": "forward",
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "source-credit": "",
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "url": {
+                "resource": "https://mora.jp/artist/38366/",
+                "id": "d97504b6-6c88-4e6d-972a-0975a2eef118"
+            },
+            "type": "purchase for download",
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203"
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "type": "purchase for download",
+            "url": {
+                "resource": "https://music.apple.com/us/artist/44984",
+                "id": "eb2142a9-ad7a-4701-bf4f-6b7d9246e075"
+            },
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": []
+        },
+        {
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "url": {
+                "resource": "https://open.qobuz.com/artist/6760",
+                "id": "222ac0d3-d534-417b-9ab8-6098eb063c13"
+            },
+            "type": "purchase for download",
+            "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "79c5b84d-a206-4f4c-9832-78c028c312c3",
+            "type": "secondhandsongs",
+            "url": {
+                "id": "b0e0d35d-6394-446e-8838-65c31a95577f",
+                "resource": "https://secondhandsongs.com/artist/106"
+            },
+            "direction": "forward",
+            "begin": null,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "ended": false
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "type-id": "bf5d0d5e-27a1-4e94-9df7-3cdc67b3b207",
+            "url": {
+                "resource": "https://www.setlist.fm/setlists/miles-davis-3d6b58b.html",
+                "id": "1d6c9b83-4334-4a96-a912-9fc54f59f52a"
+            },
+            "type": "setlistfm",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "url": {
+                "id": "7648f18c-3964-443c-b6ef-8eff4c6a8aa4",
+                "resource": "https://twitter.com/milesdavis"
+            },
+            "type": "social network",
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "type": "social network",
+            "url": {
+                "id": "c1dbdcae-9818-43fe-8dda-6b5947e4e96d",
+                "resource": "https://www.facebook.com/MilesDavis"
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+            "url": {
+                "resource": "https://www.instagram.com/milesdavis/",
+                "id": "9c64454f-dccf-4ea3-a5ab-42ef8bb369e3"
+            },
+            "type": "social network",
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null
+        },
+        {
+            "type": "songkick",
+            "url": {
+                "resource": "https://www.songkick.com/artists/564879",
+                "id": "2bcbbcf4-e5b2-4721-ae95-778d80deebe1"
+            },
+            "type-id": "aac9c4bc-a5b9-30b8-9839-e3ac314c6e58",
+            "begin": null,
+            "attributes": [],
+            "target-type": "url",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": ""
+        },
+        {
+            "direction": "forward",
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "url": {
+                "resource": "https://music.apple.com/gb/artist/44984",
+                "id": "e6762b3c-35ad-41ae-a46d-a6466f85dddd"
+            },
+            "type": "streaming",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "type": "streaming",
+            "url": {
+                "id": "eb2142a9-ad7a-4701-bf4f-6b7d9246e075",
+                "resource": "https://music.apple.com/us/artist/44984"
+            }
+        },
+        {
+            "url": {
+                "id": "222ac0d3-d534-417b-9ab8-6098eb063c13",
+                "resource": "https://open.qobuz.com/artist/6760"
+            },
+            "type": "streaming",
+            "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": ""
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "0af15ab3-c615-46d6-b95b-a5fcd2a92ed9",
+            "url": {
+                "resource": "https://vgmdb.net/artist/27058",
+                "id": "d89e4042-81de-4b40-96c4-b521904a3922"
+            },
+            "type": "vgmdb",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "target-credit": "",
+            "url": {
+                "resource": "http://viaf.org/viaf/97762193",
+                "id": "bfdc99b9-63f1-4812-ba50-3c25fbb9181b"
+            },
+            "type": "VIAF",
+            "type-id": "e8571dcc-35d4-4e91-a577-a3382fd84460",
+            "ended": false,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "begin": null,
+            "type-id": "689870a4-a1e4-4912-b17f-7b2664215698",
+            "url": {
+                "id": "0640fb28-de58-4c07-a566-24841677402d",
+                "resource": "https://www.wikidata.org/wiki/Q93341"
+            },
+            "type": "wikidata",
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "url": {
+                "resource": "https://www.youtube.com/channel/UC1ZS17c0DlqUjsXZK3K_bgA",
+                "id": "d12dddf8-8ca1-4cf1-bcb7-363976cd7151"
+            },
+            "type": "youtube",
+            "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+            "begin": null,
+            "end": null,
+            "target-type": "url",
+            "attributes": [],
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "type-id": "6a540e5b-58c6-4192-b6ba-dbc71ec8fcf0",
+            "url": {
+                "id": "657d0508-3006-4fbb-9775-5a7c8ba586c2",
+                "resource": "https://www.youtube.com/channel/UC9NlE_veniVpnvpIegfifMQ"
+            },
+            "type": "youtube",
+            "direction": "forward",
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "ended": false,
+            "begin": null,
+            "target-type": "url",
+            "end": null,
+            "attributes": [],
+            "direction": "forward",
+            "type": "youtube music",
+            "url": {
+                "id": "96323341-95da-4819-8403-60b9c20cd4b0",
+                "resource": "https://music.youtube.com/channel/UCIev2PktTH5mI-QlGmbUkiw"
+            },
+            "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "work": {
+                "disambiguation": "",
+                "title": "Vierd Blues",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "zxx",
+                "id": "86c9e309-dc46-4146-af6b-e759c16763c0",
+                "iswcs": [],
+                "type": "Song"
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "type": "composer",
+            "direction": "forward",
+            "ended": true,
+            "begin": "1956",
+            "target-type": "work",
+            "attributes": [],
+            "end": "1956"
+        },
+        {
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "type": "composer",
+            "direction": "forward",
+            "begin": "1963",
+            "target-type": "work",
+            "attributes": [],
+            "end": "1963",
+            "ended": true,
+            "source-credit": "",
+            "work": {
+                "disambiguation": "",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "Seven Steps to Heaven",
+                "id": "caf31d7d-3f08-4ae9-9ad3-ab176ad43407",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "zxx",
+                "type": "Song",
+                "iswcs": [
+                    "T-902.845.190-3"
+                ]
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "attribute-ids": []
+        },
+        {
+            "ended": true,
+            "begin": "1973-07-08",
+            "target-type": "work",
+            "attributes": [],
+            "end": "1973-07-08",
+            "direction": "forward",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "target-credit": "",
+            "work": {
+                "title": "Miles in Montreux ’73, Part 1",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "disambiguation": "Live at Montreaux, July 8 1973",
+                "iswcs": [],
+                "type": "Song",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "zxx",
+                "id": "f31da93d-f19e-4b59-9726-855c885629d0"
+            },
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-values": [],
+            "attribute-ids": [],
+            "work": {
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "All Blues",
+                "disambiguation": "Bob Belden arrangement",
+                "type": "Song",
+                "iswcs": [],
+                "id": "84bc8eda-a2b5-47a7-b4a9-23689a4b91a8",
+                "language": "zxx",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            },
+            "target-credit": "",
+            "type": "dedication",
+            "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+            "ended": false,
+            "begin": null,
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "direction": "forward"
+        },
+        {
+            "direction": "forward",
+            "target-type": "work",
+            "attributes": [],
+            "end": null,
+            "begin": null,
+            "ended": false,
+            "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+            "type": "dedication",
+            "work": {
+                "id": "45bf5521-f055-4015-ba45-9925c5f2816a",
+                "language": "zxx",
+                "type-id": null,
+                "type": null,
+                "iswcs": [],
+                "disambiguation": "Bob Belden arrangement",
+                "languages": [
+                    "zxx"
+                ],
+                "attributes": [],
+                "title": "One of a Kind"
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "work": {
+                "iswcs": [],
+                "type": null,
+                "type-id": null,
+                "language": null,
+                "id": "208719e9-fd15-4935-bf46-c85420600c5e",
+                "title": "Suite for Miles Davis",
+                "attributes": [],
+                "languages": [],
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "type": "dedication",
+            "type-id": "26131498-00e8-4136-b937-22a4be01a63d",
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "direction": "forward"
+        },
+        {
+            "ended": false,
+            "attributes": [],
+            "target-type": "work",
+            "end": null,
+            "begin": null,
+            "direction": "forward",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "attribute-ids": [],
+            "attribute-values": [],
+            "work": {
+                "type": "Song",
+                "iswcs": [],
+                "id": "1c52bb85-84e8-4be8-b7ac-0e4a3e9956d7",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "zxx",
+                "attributes": [],
+                "languages": [
+                    "zxx"
+                ],
+                "title": "81",
+                "disambiguation": ""
+            },
+            "target-credit": "",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "work": {
+                "id": "897baf32-5bb2-4ad6-a7cf-66a1ded6ca42",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": null,
+                "type": "Song",
+                "iswcs": [],
+                "disambiguation": "",
+                "attributes": [],
+                "languages": [],
+                "title": "Call It Anything"
+            },
+            "attribute-values": [],
+            "attribute-ids": [],
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "ended": false,
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "type": "writer"
+        },
+        {
+            "direction": "forward",
+            "ended": false,
+            "target-type": "work",
+            "end": null,
+            "attributes": [],
+            "begin": null,
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "type": "writer",
+            "target-credit": "",
+            "work": {
+                "type": "Song",
+                "iswcs": [],
+                "id": "0715762e-9c92-4251-b34b-3caff4a172b0",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "language": "eng",
+                "attributes": [],
+                "languages": [
+                    "eng"
+                ],
+                "title": "Get Off",
+                "disambiguation": ""
+            },
+            "attribute-ids": [],
+            "attribute-values": [],
+            "source-credit": ""
+        }
+    ],
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "recordings": [
+        {
+            "length": null,
+            "disambiguation": "",
+            "aliases": [],
+            "video": false,
+            "title": "'round About Midnight",
+            "id": "0ec792bd-c290-4f5e-99d2-008c13554a4f",
+            "genres": [],
+            "tags": []
+        },
+        {
+            "title": "'round About Midnight",
+            "video": false,
+            "aliases": [],
+            "disambiguation": "",
+            "length": 361000,
+            "tags": [],
+            "genres": [],
+            "id": "24da8d39-94e1-4e34-9650-47855890df43"
+        },
+        {
+            "disambiguation": "",
+            "length": 487666,
+            "title": "'Round About Midnight",
+            "video": false,
+            "aliases": [],
+            "genres": [],
+            "id": "fdc7c0ba-3b7b-4cc6-a5ed-20d1588b3a0b",
+            "tags": []
+        }
+    ],
+    "end-area": {
+        "sort-name": "Santa Monica",
+        "type": null,
+        "disambiguation": "",
+        "type-id": null,
+        "name": "Santa Monica",
+        "id": "dbacf2e3-7e3e-4cee-8804-999b109285fa"
+    },
+    "tags": [
+        {
+            "count": 3,
+            "name": "bebop"
+        },
+        {
+            "name": "blues",
+            "count": 1
+        },
+        {
+            "count": 1,
+            "name": "classical"
+        }
+    ],
+    "type": "Person"
+}

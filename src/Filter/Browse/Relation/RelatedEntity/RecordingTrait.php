@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type recording.
+ * Provides the relation "linked to a recording".
  */
 trait RecordingTrait
 {
     /**
-     * Defines a relation to a recording.
+     * Browses the entities linked to a recording.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related recording
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the recording
      */
-    public function recording(MBID $mbid): void
+    public static function recording(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::RECORDING));
+        return new static(BrowseParameter::Recording, $mbid);
     }
 }

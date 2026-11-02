@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Recording\ContractedTasks;
 
 use MusicBrainz\Relation\Type\Label\Recording\ContractedTasks;
-use MusicBrainz\Value\Name;
 
 /**
  * Use this relationship for credits like “Recording was arranged by X for Label”.
@@ -17,10 +16,10 @@ class ArrangedFor extends ContractedTasks
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('arranged for');
+        return 'arranged for';
     }
 }

@@ -19,6 +19,6 @@ abstract class Instrument extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::INSTRUMENT);
+        return EntityType::Instrument;
     }
 }

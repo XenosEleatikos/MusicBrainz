@@ -1,0 +1,49 @@
+{
+    "ipis": [
+        "00001749311"
+    ],
+    "sort-name": "Bach, Johann Sebastian",
+    "name": "Johann Sebastian Bach",
+    "isnis": [
+        "0000000122764157"
+    ],
+    "id": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+    "begin-area": {
+        "id": "8331b712-99b9-41ef-bf58-0f033f8d926a",
+        "name": "Eisenach",
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "sort-name": "Eisenach"
+    },
+    "disambiguation": "German Baroque period composer & musician",
+    "type": "Person",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "end-area": {
+        "sort-name": "Leipzig",
+        "type": null,
+        "name": "Leipzig",
+        "id": "20619e36-fca8-4499-bcc8-be01a3ea3e41",
+        "disambiguation": "",
+        "type-id": null
+    },
+    "life-span": {
+        "end": "1750-07-28",
+        "begin": "1685-03-21",
+        "ended": true
+    },
+    "area": {
+        "type": null,
+        "iso-3166-1-codes": [
+            "DE"
+        ],
+        "sort-name": "Germany",
+        "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+        "name": "Germany",
+        "type-id": null,
+        "disambiguation": ""
+    },
+    "gender": "Male",
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "country": "DE"
+}

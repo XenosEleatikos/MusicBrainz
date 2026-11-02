@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\EntityType;
 
 trait EntityTypeTrait
@@ -15,6 +14,8 @@ trait EntityTypeTrait
      * Returns the field name for the type of entity.
      *
      * @return string
+     *
+     * @internal
      */
     public static function entityType(): string
     {
@@ -26,10 +27,12 @@ trait EntityTypeTrait
      *
      * @param EntityType $entityType The type of entity
      *
-     * @return Term
+     * @return static
      */
-    public function addEntityType(EntityType $entityType): Term
+    public function addEntityType(EntityType $entityType): static
     {
-        return $this->addTerm((string) $entityType, self::entityType());
+        $this->addTerm($entityType->value, self::entityType());
+
+        return $this;
     }
 }

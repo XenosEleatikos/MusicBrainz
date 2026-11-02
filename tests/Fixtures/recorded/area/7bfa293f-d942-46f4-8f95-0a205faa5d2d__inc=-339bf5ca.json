@@ -1,0 +1,13 @@
+{
+    "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": null
+    },
+    "name": "London",
+    "type": "City",
+    "sort-name": "London",
+    "disambiguation": "",
+    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+    "id": "7bfa293f-d942-46f4-8f95-0a205faa5d2d"
+}

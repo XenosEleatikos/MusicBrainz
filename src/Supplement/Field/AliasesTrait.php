@@ -14,16 +14,6 @@ trait AliasesTrait
     protected bool $aliases = false;
 
     /**
-     * Returns true, if aliases should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForAliases(): bool
-    {
-        return $this->aliases;
-    }
-
-    /**
      * Sets whether aliases should be included.
      *
      * @param bool $aliases True, if aliases should be included, otherwise false

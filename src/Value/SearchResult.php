@@ -4,22 +4,39 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
 
 /**
- * A result from the search API
+ * An element of a search result: the entity and how well it matches the query.
+ *
+ * @template T of object
  */
-abstract class SearchResult implements Value
+final readonly class SearchResult
 {
-    use Property\ScoreTrait;
+    /**
+     * @param T   $entity Contains the data the search found, which is less than a lookup delivers
+     * @param int $score  0 to 100
+     */
+    public function __construct(
+        public object $entity,
+        public int $score,
+    ) {}
 
     /**
-     * Constructs a result from the search API.
+     * @template E of Parsable
      *
-     * @param array $searchResult Information about the result from the search API
+     * @param array<mixed>    $data  A decoded element of the result list
+     * @param class-string<E> $class A class with a static fromArray(array): E factory
+     *
+     * @return self<E>
+     *
+     * @internal
      */
-    public function __construct(array $searchResult = [])
+    public static function from(array $data, string $class): self
     {
-        $this->score = isset($searchResult['score']) ? new Score((int) $searchResult['score']) : new Score();
+        /** @var E $entity */
+        $entity = $class::fromArray($data);
+
+        return new self($entity, ArrayAccess::getInteger($data, 'score') ?? 0);
     }
 }

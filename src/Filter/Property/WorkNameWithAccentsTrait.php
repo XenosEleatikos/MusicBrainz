@@ -4,17 +4,18 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait WorkNameWithAccentsTrait
 {
     use AbstractAdderTrait;
 
     /**
-     * Returns the field name for the name of the work.
+     * Returns the field name for the name of the work (with accented characters).
      *
      * @return string
+     *
+     * @internal
      */
     public static function workNameWithAccents(): string
     {
@@ -22,14 +23,16 @@ trait WorkNameWithAccentsTrait
     }
 
     /**
-     * Adds the name of the work.
+     * Adds the name of the work (with accented characters).
      *
      * @param Name $workNameWithAccents The name of the work
      *
-     * @return Phrase
+     * @return static
      */
-    public function addWorkNameWithAccents(Name $workNameWithAccents): Phrase
+    public function addWorkNameWithAccents(Name $workNameWithAccents): static
     {
-        return $this->addPhrase((string) $workNameWithAccents, self::workNameWithAccents());
+        $this->addPhrase((string) $workNameWithAccents, self::workNameWithAccents());
+
+        return $this;
     }
 }

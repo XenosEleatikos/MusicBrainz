@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Work\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the publisher of this work. This is not the same concept as the record label.
@@ -17,10 +16,10 @@ class Publishing extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('publishing');
+        return 'publishing';
     }
 }

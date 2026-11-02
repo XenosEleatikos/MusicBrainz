@@ -1,0 +1,654 @@
+{
+    "work-offset": 0,
+    "works": [
+        {
+            "relations": [
+                {
+                    "source-credit": "",
+                    "target-type": "artist",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "artist": {
+                        "sort-name": "Bach, Johann Sebastian",
+                        "name": "Johann Sebastian Bach",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+                        "country": "DE",
+                        "disambiguation": "German Baroque period composer & musician",
+                        "type": "Person"
+                    },
+                    "type": "composer",
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "attributes": [],
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "title": "3 Part Investigation",
+                        "id": "9c8b1f86-f318-4c63-80c1-0a39a03ca6cd",
+                        "length": null,
+                        "video": false
+                    },
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "attributes": [],
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "type": "performance",
+                    "attributes": [],
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "recording": {
+                        "length": 82000,
+                        "video": false,
+                        "title": "3 Part Investigation",
+                        "id": "d4bbd706-8c7a-4c55-8d9a-68d7eca6ae4f",
+                        "disambiguation": ""
+                    }
+                }
+            ],
+            "iswcs": [],
+            "aliases": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "disambiguation": "",
+            "annotation": null,
+            "language": null,
+            "languages": [],
+            "tags": [],
+            "title": "3 Part Investigation",
+            "id": "00c00028-48e1-35c7-803d-eb50c5df46c6",
+            "type": null,
+            "attributes": [],
+            "type-id": null,
+            "genres": []
+        },
+        {
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "aliases": [],
+            "relations": [
+                {
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "attributes": [],
+                    "artist": {
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "country": "DE",
+                        "id": "faeb51c0-04e0-4d54-b8cd-5f7fc3e604c3",
+                        "type": "Person",
+                        "disambiguation": "composer",
+                        "name": "Gottfried August Homilius",
+                        "sort-name": "Homilius, Gottfried August"
+                    },
+                    "type": "composer",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "type-id": "7231dcac-d2dc-4b4a-b218-ecea4123a4cd",
+                    "attributes": [],
+                    "artist": {
+                        "sort-name": "Bach, Johann Sebastian",
+                        "name": "Johann Sebastian Bach",
+                        "id": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+                        "country": "DE",
+                        "disambiguation": "German Baroque period composer & musician",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                    },
+                    "type": "previous attribution",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "attributes": [],
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "ended": true,
+                    "end": "1991",
+                    "source-credit": "",
+                    "target-type": "recording",
+                    "begin": "1991",
+                    "attribute-ids": [],
+                    "recording": {
+                        "title": "Schmücke dich, o liebe Seele, BWV Anh. 74 (App. A)",
+                        "id": "b9cceedb-4f46-47c1-b105-b48f1599f9a9",
+                        "disambiguation": "",
+                        "video": false,
+                        "length": 83706
+                    }
+                },
+                {
+                    "attribute-ids": [],
+                    "recording": {
+                        "disambiguation": "",
+                        "title": "Schmücke dich, o liebe Seele, BWV Anh. II 74",
+                        "id": "e575f5f4-6a5f-4ad4-b450-e4a50f0079a9",
+                        "video": false,
+                        "length": 79000
+                    },
+                    "begin": "1998",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "ended": true,
+                    "end": "1998",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "attributes": [],
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "type": "performance"
+                },
+                {
+                    "type": "part of",
+                    "type-id": "b0d44366-cdf0-3acb-bee6-0f65a77a6ef0",
+                    "attributes": [
+                        "number"
+                    ],
+                    "series": {
+                        "id": "6ade77f7-fb26-41a8-b14d-b679fd890173",
+                        "type": "Catalogue",
+                        "disambiguation": "third edition, 2022, BWV³",
+                        "name": "Bach-Werke-Verzeichnis",
+                        "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002"
+                    },
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": {
+                        "number": "BWV App C, S. 714"
+                    },
+                    "end": null,
+                    "ended": false,
+                    "source-credit": "",
+                    "target-type": "series",
+                    "begin": null,
+                    "ordering-key": 214,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    }
+                },
+                {
+                    "target-type": "series",
+                    "source-credit": "",
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "ordering-key": 233,
+                    "begin": null,
+                    "type-id": "b0d44366-cdf0-3acb-bee6-0f65a77a6ef0",
+                    "attributes": [
+                        "number"
+                    ],
+                    "type": "part of",
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": {
+                        "number": "BWV Anh. II 74"
+                    },
+                    "target-credit": "",
+                    "direction": "backward",
+                    "series": {
+                        "disambiguation": "second edition, 1990, BWV²",
+                        "type": "Catalogue",
+                        "id": "17faeab1-fb83-48b7-9791-c34fd5fbf5ce",
+                        "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002",
+                        "name": "Bach-Werke-Verzeichnis"
+                    }
+                },
+                {
+                    "type": "part of",
+                    "type-id": "b0d44366-cdf0-3acb-bee6-0f65a77a6ef0",
+                    "attributes": [
+                        "number"
+                    ],
+                    "attribute-values": {
+                        "number": "BWV Anh. 74"
+                    },
+                    "target-credit": "",
+                    "direction": "backward",
+                    "series": {
+                        "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002",
+                        "name": "Bach-Werke-Verzeichnis",
+                        "type": "Catalogue",
+                        "disambiguation": "first edition, 1950, BWV¹",
+                        "id": "5b81b0ca-36b0-471b-bbdd-1fc8097c1426"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "target-type": "series",
+                    "begin": null,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "ordering-key": 252
+                },
+                {
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type": "download for free",
+                    "attributes": [],
+                    "type-id": "0cc8527e-ea40-40dd-b144-3b7588e759bf",
+                    "url": {
+                        "resource": "https://imslp.org/wiki/Schm%C3%BCcke_dich,_o_liebe_Seele,_BWV_Anh.74_(Bach,_Johann_Sebastian)",
+                        "id": "b6448563-8b41-41c5-86fd-fff403fa1914"
+                    },
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "end": null,
+                    "ended": false
+                },
+                {
+                    "end": null,
+                    "ended": false,
+                    "url": {
+                        "id": "d7ab3861-1e68-4a4f-b69f-17bce85ea603",
+                        "resource": "https://www.bach-digital.de/receive/BachDigitalWork_work_00001383"
+                    },
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "type-id": "9900c8c5-9844-4f10-8403-23aabafd913c",
+                    "attributes": [],
+                    "type": "work list entry",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "url",
+                    "source-credit": ""
+                }
+            ],
+            "iswcs": [],
+            "disambiguation": "",
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "baroque"
+                },
+                {
+                    "name": "classical",
+                    "count": 1
+                },
+                {
+                    "name": "keyboard",
+                    "count": 1
+                },
+                {
+                    "name": "solo organ",
+                    "count": 1
+                }
+            ],
+            "language": "zxx",
+            "languages": [
+                "zxx"
+            ],
+            "annotation": null,
+            "genres": [
+                {
+                    "name": "baroque",
+                    "id": "9e44c2c9-8c44-4aa6-9de3-0f3e75b49f1b",
+                    "disambiguation": "",
+                    "count": 1
+                },
+                {
+                    "name": "classical",
+                    "disambiguation": "",
+                    "count": 1,
+                    "id": "6ed4e4d1-9a97-4e2c-b8df-083754f154f4"
+                }
+            ],
+            "type-id": null,
+            "attributes": [],
+            "type": null,
+            "title": "\"Schmücke dich, o liebe Seele\", BWV Anh. 74",
+            "id": "0ff01b4a-081e-4840-a98a-ab0e3818d83d"
+        },
+        {
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "iswcs": [],
+            "relations": [
+                {
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "attributes": [],
+                    "artist": {
+                        "name": "Johann Sebastian Bach",
+                        "sort-name": "Bach, Johann Sebastian",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "disambiguation": "German Baroque period composer & musician",
+                        "type": "Person",
+                        "country": "DE",
+                        "id": "24f1766e-9635-4d58-a4d4-9413f9f98a4c"
+                    },
+                    "type": "composer",
+                    "ended": false,
+                    "end": null,
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward"
+                },
+                {
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "end": null,
+                    "ended": false,
+                    "artist": {
+                        "name": "Ottorino Respighi",
+                        "sort-name": "Respighi, Ottorino",
+                        "country": "IT",
+                        "id": "788c380d-247b-42f0-b7a9-64881e1f0fd9",
+                        "type": "Person",
+                        "disambiguation": "composer",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                    },
+                    "type": "orchestrator",
+                    "attributes": [],
+                    "type-id": "0a1771e1-8639-4740-8a43-bdafc050c3da",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "artist"
+                },
+                {
+                    "recording": {
+                        "id": "2fc68569-81be-4539-aee7-1ab88f9f0c8a",
+                        "title": "3 Corali, P. 167: No. 2. Meine Seele erhebt den Herren (after J.S. Bach's BWV 648)",
+                        "disambiguation": "",
+                        "length": 68000,
+                        "video": false
+                    },
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "attributes": [],
+                    "type": "performance"
+                },
+                {
+                    "attributes": [],
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "type": "performance",
+                    "end": null,
+                    "ended": false,
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "recording": {
+                        "length": 77000,
+                        "video": false,
+                        "disambiguation": "",
+                        "id": "203050f8-cd39-4a70-801d-fa53fdb038e8",
+                        "title": "Tre Corali, P. 167: II. Andante Con Moto E Scherzando"
+                    },
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "attributes": [],
+                    "type-id": "dd372cb2-5f4d-4dcd-868e-7564782f460b",
+                    "work": {
+                        "language": "zxx",
+                        "languages": [
+                            "zxx"
+                        ],
+                        "iswcs": [],
+                        "attributes": [],
+                        "type-id": null,
+                        "type": null,
+                        "disambiguation": "",
+                        "title": "Sechs Choräle von Verschiedener Art (Schübler-Choräle): Meine Seele erhebet den Herren, BWV 648",
+                        "id": "2c5ee0ec-3cb1-3cfc-9e8e-56016501d188"
+                    },
+                    "type": "orchestration",
+                    "end": null,
+                    "ended": false,
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "target-type": "work",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null
+                },
+                {
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "backward",
+                    "ended": false,
+                    "end": null,
+                    "work": {
+                        "type": null,
+                        "disambiguation": "",
+                        "title": "3 Corali, P. 167",
+                        "id": "7618da96-601d-405f-aafd-46e295f6539a",
+                        "type-id": null,
+                        "attributes": [],
+                        "language": "zxx",
+                        "languages": [
+                            "zxx"
+                        ],
+                        "iswcs": []
+                    },
+                    "type": "parts",
+                    "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
+                    "attributes": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "source-credit": "",
+                    "target-type": "work"
+                }
+            ],
+            "aliases": [],
+            "disambiguation": "orch. Respighi",
+            "tags": [],
+            "annotation": null,
+            "languages": [
+                "zxx"
+            ],
+            "language": "zxx",
+            "attributes": [],
+            "type-id": null,
+            "genres": [],
+            "id": "3642fe74-dc2e-4d0d-a84a-b2742fbc9514",
+            "title": "3 Corali, P. 167: Meine Seele erhebet den Herren, BWV 648",
+            "type": null
+        },
+        {
+            "id": "f981c5c2-62ae-4c67-a539-f633996963b6",
+            "title": "\"So oft ich meine TobacksPfeife\" BWV 515b",
+            "type": "Song",
+            "attributes": [],
+            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+            "genres": [],
+            "annotation": null,
+            "languages": [
+                "deu"
+            ],
+            "language": "deu",
+            "tags": [],
+            "disambiguation": "",
+            "iswcs": [],
+            "relations": [
+                {
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attributes": [],
+                    "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                    "type": "composer",
+                    "artist": {
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "type": "Person",
+                        "disambiguation": "",
+                        "country": "DE",
+                        "id": "b76e5eb5-2cfd-4e09-990c-1a9dd58ee124",
+                        "name": "Gottfried Heinrich Bach",
+                        "sort-name": "Bach, Gottfried Heinrich"
+                    },
+                    "ended": false,
+                    "end": null,
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "direction": "backward"
+                },
+                {
+                    "attribute-ids": [],
+                    "begin": null,
+                    "target-type": "artist",
+                    "source-credit": "",
+                    "end": null,
+                    "ended": false,
+                    "direction": "backward",
+                    "attribute-values": [],
+                    "target-credit": "",
+                    "attributes": [],
+                    "type-id": "7231dcac-d2dc-4b4a-b218-ecea4123a4cd",
+                    "type": "previous attribution",
+                    "artist": {
+                        "sort-name": "Bach, Johann Sebastian",
+                        "name": "Johann Sebastian Bach",
+                        "id": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+                        "country": "DE",
+                        "disambiguation": "German Baroque period composer & musician",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                    }
+                },
+                {
+                    "recording": {
+                        "video": false,
+                        "length": 161000,
+                        "disambiguation": "",
+                        "title": "So oft ich meine TobacksPfeife BWV 515b",
+                        "id": "a3fa1346-ca17-473d-978d-ba50453e45f4"
+                    },
+                    "attribute-ids": [],
+                    "begin": "1995",
+                    "target-type": "recording",
+                    "source-credit": "",
+                    "end": "1995",
+                    "ended": true,
+                    "direction": "backward",
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+                    "type": "performance"
+                },
+                {
+                    "ordering-key": 387,
+                    "attribute-ids": {
+                        "number": "a59c5830-5ec7-38fe-9a21-c7ea54f6650a"
+                    },
+                    "begin": null,
+                    "target-type": "series",
+                    "source-credit": "",
+                    "ended": false,
+                    "end": null,
+                    "series": {
+                        "id": "d977f7fd-96c9-4e3e-83b5-eb484a9e6582",
+                        "type": "Catalogue",
+                        "disambiguation": "",
+                        "type-id": "49482ff0-fc9e-3b8c-a2d0-30e84d9df002",
+                        "name": "Bach-Werke-Verzeichnis"
+                    },
+                    "attribute-values": {
+                        "number": "BWV 515b"
+                    },
+                    "target-credit": "",
+                    "direction": "backward",
+                    "attributes": [
+                        "number"
+                    ],
+                    "type-id": "b0d44366-cdf0-3acb-bee6-0f65a77a6ef0",
+                    "type": "part of"
+                },
+                {
+                    "type": "download for free",
+                    "attributes": [],
+                    "type-id": "0cc8527e-ea40-40dd-b144-3b7588e759bf",
+                    "url": {
+                        "id": "ae4af8f7-861b-474f-accd-ceda9517d932",
+                        "resource": "https://imslp.org/wiki/Notebook_for_Anna_Magdalena_Bach_(Bach,_Johann_Sebastian)"
+                    },
+                    "target-credit": "",
+                    "attribute-values": [],
+                    "direction": "backward",
+                    "ended": false,
+                    "end": null,
+                    "source-credit": "",
+                    "target-type": "url",
+                    "begin": null,
+                    "attribute-ids": []
+                }
+            ],
+            "aliases": [],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            }
+        }
+    ],
+    "work-count": 8431
+}

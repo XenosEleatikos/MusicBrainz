@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type event.
+ * Provides the relation "linked to an event".
  */
 trait EventTrait
 {
     /**
-     * SDefines a relation to an event.
+     * Browses the entities linked to an event.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related event
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the event
      */
-    public function event(MBID $mbid): void
+    public static function event(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::EVENT));
+        return new static(BrowseParameter::Event, $mbid);
     }
 }

@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Disambiguation;
+use MusicBrainz\Filter\Value\Disambiguation;
 
 trait DisambiguationTrait
 {
@@ -15,6 +14,8 @@ trait DisambiguationTrait
      * Returns the field name for the disambiguation comment.
      *
      * @return string
+     *
+     * @internal
      */
     public static function disambiguation(): string
     {
@@ -26,10 +27,12 @@ trait DisambiguationTrait
      *
      * @param Disambiguation $disambiguation The disambiguation comment
      *
-     * @return Phrase
+     * @return static
      */
-    public function addDisambiguationComment(Disambiguation $disambiguation): Phrase
+    public function addDisambiguation(Disambiguation $disambiguation): static
     {
-        return $this->addPhrase((string) $disambiguation, self::disambiguation());
+        $this->addPhrase((string) $disambiguation, self::disambiguation());
+
+        return $this;
     }
 }

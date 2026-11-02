@@ -4,51 +4,67 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\AreaRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * An area
+ * An area: a country, city, subdivision or other geographic region.
+ *
+ * @see https://musicbrainz.org/doc/Area
  */
-class Area implements Value
+final readonly class Area implements Entity
 {
-    use AreaRelationListTrait;
-    use Property\AliasesTrait;
-    use Property\AreaTypeTrait;
-    use Property\DisambiguationTrait;
-    use Property\ISO31661CodesTrait;
-    use Property\ISO31662CodesTrait;
-    use Property\LifeSpanTrait;
-    use Property\MBIDTrait;
-    use Property\NameTrait;
-    use Property\SortNameTrait;
+    /**
+     * @param list<string> $iso31661Codes
+     * @param list<string> $iso31662Codes
+     * @param list<string> $iso31663Codes
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public ?string $sortName = null,
+        public string $disambiguation = '',
+        public ?AreaType $type = null,
+        public array $iso31661Codes = [],
+        public array $iso31662Codes = [],
+        public array $iso31663Codes = [],
+        public ?LifeSpan $lifeSpan = null,
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs an area.
+     * @param array<mixed> $data A decoded area of the web service
      *
-     * @param array $area Information about an area
+     * @internal
      */
-    public function __construct(array $area = [])
+    public static function fromArray(array $data): static
     {
-        $this->setAliasesFromArray($area);
-        $this->setAreaTypeFromArray($area);
-        $this->setDisambiguationFromArray($area);
-        $this->setIso31661CodesFromArray($area);
-        $this->setIso31662CodesFromArray($area);
-        $this->setLifeSpanFromArray($area);
-        $this->setMbidFromArray($area);
-        $this->setNameFromArray($area);
-        $this->setRelationsFromArray($area);
-        $this->setSortNameFromArray($area);
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'sort-name'),
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            AreaType::fromKeys($data, 'type', 'type-id'),
+            Json::strings($data, 'iso-3166-1-codes'),
+            Json::strings($data, 'iso-3166-2-codes'),
+            Json::strings($data, 'iso-3166-3-codes'),
+            Json::object($data, 'life-span', LifeSpan::class),
+            ...SharedFields::parse($data),
+        );
     }
 
-    /**
-     * Returns the area name.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getName();
-    }
 }

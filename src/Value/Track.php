@@ -4,40 +4,45 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
 
 /**
- * A track
+ * A track of a medium
  */
-class Track implements Value
+final readonly class Track implements Parsable
 {
-    use Property\MBIDTrait;
-    use Property\TitleTrait;
-    use Property\LengthTrait;
-    use Property\ArtistCreditsTrait;
-    use Property\TrackDisplayNumberTrait;
+    /**
+     * @param list<ArtistCredit> $artistCredits
+     * @param null|int           $length        Length in milliseconds
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $title,
+        public ?string $number = null,
+        public ?int $position = null,
+        public ?int $length = null,
+        public array $artistCredits = [],
+        public ?Recording $recording = null,
+    ) {}
 
     /**
-     * Constructs a track.
+     * @param array<mixed> $data
      *
-     * @param array $track Information about the track
+     * @internal
      */
-    public function __construct(array $track = [])
+    public static function fromArray(array $data): static
     {
-        $this->setMbidFromArray($track);
-        $this->setTitleFromArray($track);
-        $this->setLengthFromArray($track);
-        $this->setArtistCreditsFromArray($track);
-        $this->setTrackDisplayNumberFromArray($track);
-    }
+        $recording = Json::object($data, 'recording', Recording::class);
 
-    /**
-     * Returns the track as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->title;
+        return new self(
+            Json::id($data),
+            ArrayAccess::getString($data, 'title') ?? '',
+            ArrayAccess::getString($data, 'number'),
+            ArrayAccess::getInteger($data, 'position'),
+            ArrayAccess::getInteger($data, 'length'),
+            Json::list($data, 'artist-credit', ArtistCredit::class),
+            $recording instanceof Recording ? $recording : null,
+        );
     }
 }

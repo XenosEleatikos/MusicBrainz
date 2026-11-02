@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship;
 
 use MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the artist that inspired this artist’s name.
@@ -17,10 +16,10 @@ class NamedAfter extends PersonalRelationship
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('named after');
+        return 'named after artist';
     }
 }

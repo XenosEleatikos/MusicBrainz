@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Event\Url;
 
 use MusicBrainz\Relation\Type\Event\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * This links an event to a site where tickets can be purchased for it.
@@ -17,10 +16,10 @@ class Ticketing extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('ticketing');
+        return 'ticketing';
     }
 }

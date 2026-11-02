@@ -4,77 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation;
 
-use MusicBrainz\Value\EntityType;
 use MusicBrainz\Value\MBID;
 
 /**
- * An abstract relation to an entity
- * Browse requests are a direct lookup of all the entities directly linked to another entity. For performing them,
- * relation objects may be used to specify the linked entities.
- * As the related entity is defined by its MusicBrainz Identifier (MBID) and its type, this class provides getters and
- * setters for both. The setter for the type of the related entity is protected, because an entity of a certain type
- * may only be related to entities of certain types. For this reason there are derived relation classes for each entity
- * type providing public setters for the possible types of related entities.
- *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2#Browse
+ * The relation the entities of a browse request have to stand in: they are linked to the entity with a given MBID (or, for
+ * the collections of an editor, with a given user name). Create it with the static constructor of the subclass for the
+ * entity you browse, e.g. `ReleaseRelation::artist($mbid)`.
  */
-abstract class AbstractRelation
+abstract readonly class AbstractRelation
 {
     /**
-     * The MusicBrainz Identifier (MBID) for the related entity
-     *
-     * @var MBID
+     * @param BrowseParameter $parameter The kind of entity the requested entities are linked to
+     * @param MBID|string     $value     The MBID of that entity (the user name for an editor)
      */
-    private $entityId;
-
-    /**
-     * The type of the related entity
-     *
-     * @var EntityType
-     */
-    private $entityType;
-
-    /**
-     * Returns the MusicBrainz Identifier (MBID) of the related entity.
-     *
-     * @return MBID
-     */
-    public function getEntityId(): MBID
-    {
-        return $this->entityId;
-    }
-
-    /**
-     * Sets the MusicBrainz Identifier (MBID) of the related entity.
-     *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related entity
-     *
-     * @return self
-     */
-    protected function setEntityId(MBID $mbid): self
-    {
-        $this->entityId = $mbid;
-
-        return $this;
-    }
-
-    /**
-     * Returns the type of the related entity.
-     *
-     * @return EntityType
-     */
-    public function getEntityType(): EntityType
-    {
-        return $this->entityType;
-    }
-
-    /**
-     * Sets the type of the related entity.
-     *
-     * @param EntityType $entityType The type of the related entity
-     */
-    protected function setEntityType(EntityType $entityType): void
-    {
-        $this->entityType = $entityType;
-    }
+    final protected function __construct(
+        public BrowseParameter $parameter,
+        public MBID|string $value,
+    ) {}
 }

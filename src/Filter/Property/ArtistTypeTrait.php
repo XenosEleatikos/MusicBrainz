@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ArtistType;
+use MusicBrainz\Value\ArtistTypeKind;
 
 trait ArtistTypeTrait
 {
@@ -15,6 +14,8 @@ trait ArtistTypeTrait
      * Returns the field name for the type of artist.
      *
      * @return string
+     *
+     * @internal
      */
     public static function artistType(): string
     {
@@ -24,12 +25,14 @@ trait ArtistTypeTrait
     /**
      * Adds the type of artist.
      *
-     * @param ArtistType $artistType The type of artist
+     * @param ArtistTypeKind $artistType The type of artist
      *
-     * @return Term
+     * @return static
      */
-    public function addArtistType(ArtistType $artistType): Term
+    public function addArtistType(ArtistTypeKind $artistType): static
     {
-        return $this->addTerm((string) $artistType, self::artistType());
+        $this->addPhrase($artistType->value, self::artistType());
+
+        return $this;
     }
 }

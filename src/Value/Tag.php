@@ -4,34 +4,31 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use Stringable;
 
 /**
- * A tag
+ * A tag with the number of votes for it
  */
-class Tag implements Value
+final readonly class Tag implements Parsable, Stringable
 {
-    use Value\Property\CountTrait;
-    use Value\Property\NameTrait;
+    public function __construct(
+        public string $name,
+        public int $count = 0,
+    ) {}
 
     /**
-     * Constructs a tag.
+     * @param array<mixed> $data
      *
-     * @param array $tag Array of information about the tag
+     * @internal
      */
-    public function __construct(array $tag = [])
+    public static function fromArray(array $data): static
     {
-        $this->setCountFromArray($tag);
-        $this->setNameFromArray($tag);
+        return new self(ArrayAccess::getString($data, 'name') ?? '', ArrayAccess::getInteger($data, 'count') ?? 0);
     }
 
-    /**
-     * Returns the tag.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return (string) $this->name;
+        return $this->name;
     }
 }

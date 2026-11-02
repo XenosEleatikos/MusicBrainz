@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url\OnlineData;
 
 use MusicBrainz\Relation\Type\Label\Url\OnlineData;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a label to their profile at a crowdfunding site like Kickstarter or Indiegogo.
@@ -17,10 +16,10 @@ class Crowdfunding extends OnlineData
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('crowdfunding');
+        return 'crowdfunding';
     }
 }

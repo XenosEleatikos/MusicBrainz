@@ -7,12 +7,18 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching releases
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Release
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Release
  */
-class ReleaseFilter extends AbstractFilter
+final class ReleaseFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\ReleaseGroupTypeTrait;
+    use \MusicBrainz\Filter\Property\PackagingTrait;
+    use \MusicBrainz\Filter\Property\MediumIdTrait;
+    use \MusicBrainz\Filter\Property\AliasNameTrait;
+    use \MusicBrainz\Filter\Property\CatalogNumberTrait;
+    use \MusicBrainz\Filter\Property\AsinTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
-    use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ArtistNameTrait;
     use \MusicBrainz\Filter\Property\ArtistRealNameTrait;
     use \MusicBrainz\Filter\Property\BarcodeTrait;
     use \MusicBrainz\Filter\Property\CountryTrait;
@@ -21,7 +27,7 @@ class ReleaseFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\DateTrait;
     use \MusicBrainz\Filter\Property\DisambiguationTrait;
     use \MusicBrainz\Filter\Property\LabelIdTrait;
-    use \MusicBrainz\Filter\Property\LabelNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\LabelNameTrait;
     use \MusicBrainz\Filter\Property\LanguageTrait;
     use \MusicBrainz\Filter\Property\NumberOfDiscIdsOnMediumTrait;
     use \MusicBrainz\Filter\Property\NumberOfDiscIdsTrait;
@@ -33,7 +39,7 @@ class ReleaseFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\ReleaseGroupIdTrait;
     use \MusicBrainz\Filter\Property\ReleaseIdTrait;
     use \MusicBrainz\Filter\Property\ReleaseNameWithAccentsTrait;
-    use \MusicBrainz\Filter\Property\ReleaseNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ReleaseNameTrait;
     use \MusicBrainz\Filter\Property\ReleaseStatusTrait;
     use \MusicBrainz\Filter\Property\ScriptTrait;
     use \MusicBrainz\Filter\Property\SecondaryTypeTrait;

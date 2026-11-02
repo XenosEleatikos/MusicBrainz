@@ -7,10 +7,11 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching places
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Place
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Place
  */
-class PlaceFilter extends AbstractFilter
+final class PlaceFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\PlaceNameWithAccentsTrait;
     use \MusicBrainz\Filter\Property\AddressTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;
@@ -21,5 +22,6 @@ class PlaceFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\LatitudeTrait;
     use \MusicBrainz\Filter\Property\LongitudeTrait;
     use \MusicBrainz\Filter\Property\PlaceIdTrait;
+    use \MusicBrainz\Filter\Property\PlaceNameTrait;
     use \MusicBrainz\Filter\Property\PlaceTypeTrait;
 }

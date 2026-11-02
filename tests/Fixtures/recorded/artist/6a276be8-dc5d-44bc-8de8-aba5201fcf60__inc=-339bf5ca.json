@@ -1,0 +1,31 @@
+{
+    "area": {
+        "type": null,
+        "disambiguation": "",
+        "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+        "type-id": null,
+        "iso-3166-1-codes": [
+            "SE"
+        ],
+        "name": "Sweden",
+        "sort-name": "Sweden"
+    },
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "id": "6a276be8-dc5d-44bc-8de8-aba5201fcf60",
+    "life-span": {
+        "begin": null,
+        "end": null,
+        "ended": false
+    },
+    "country": "SE",
+    "type": "Person",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "end-area": null,
+    "sort-name": "Björk, Jon",
+    "name": "Jon Björk",
+    "isnis": [],
+    "ipis": [],
+    "disambiguation": "Swedish composer",
+    "gender": "Male",
+    "begin-area": null
+}

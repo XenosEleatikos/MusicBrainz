@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\CoversAndVersions;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\CoversAndVersions;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to indicate that a release group is a live performance of a studio release group.
@@ -17,10 +16,10 @@ class LivePerformance extends CoversAndVersions
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('live performance');
+        return 'live performance';
     }
 }

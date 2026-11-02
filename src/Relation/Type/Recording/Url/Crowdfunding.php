@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Url;
 
 use MusicBrainz\Relation\Type\Recording\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a recording to the relevant crowdfunding project at a crowdfunding site like Kickstarter or Indiegogo.
@@ -17,10 +16,10 @@ class Crowdfunding extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('crowdfunding');
+        return 'crowdfunding';
     }
 }

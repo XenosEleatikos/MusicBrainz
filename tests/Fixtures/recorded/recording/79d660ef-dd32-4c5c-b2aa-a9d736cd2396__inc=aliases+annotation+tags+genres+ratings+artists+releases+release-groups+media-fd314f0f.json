@@ -1,0 +1,909 @@
+{
+    "first-release-date": "1988",
+    "aliases": [],
+    "video": false,
+    "genres": [],
+    "id": "79d660ef-dd32-4c5c-b2aa-a9d736cd2396",
+    "isrcs": [],
+    "artist-credit": [
+        {
+            "artist": {
+                "aliases": [],
+                "country": null,
+                "tags": [],
+                "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Toussaint, Allen, The, Orchestra",
+                "type": "Group",
+                "genres": [],
+                "disambiguation": "",
+                "name": "The Allen Toussaint Orchestra"
+            },
+            "joinphrase": "",
+            "name": "The Allen Toussaint Orchestra"
+        }
+    ],
+    "disambiguation": "",
+    "annotation": null,
+    "length": 325000,
+    "relations": [
+        {
+            "source-credit": "",
+            "target-credit": "",
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "end": null,
+            "work": {
+                "languages": [
+                    "eng"
+                ],
+                "attributes": [],
+                "language": "eng",
+                "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "type": "Song",
+                "title": "Bohemian Rhapsody",
+                "iswcs": [
+                    "T-010.154.505-4",
+                    "T-304.031.869-8",
+                    "T-900.313.996-6"
+                ],
+                "relations": [
+                    {
+                        "type": "composer",
+                        "target-type": "artist",
+                        "ended": false,
+                        "artist": {
+                            "country": "GB",
+                            "sort-name": "Mercury, Freddie",
+                            "type": "Person",
+                            "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                            "name": "Freddie Mercury",
+                            "disambiguation": ""
+                        },
+                        "direction": "backward",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                        "end": null
+                    },
+                    {
+                        "type": "lyricist",
+                        "direction": "backward",
+                        "target-type": "artist",
+                        "ended": false,
+                        "artist": {
+                            "type": "Person",
+                            "sort-name": "Mercury, Freddie",
+                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                            "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                            "name": "Freddie Mercury",
+                            "disambiguation": "",
+                            "country": "GB"
+                        },
+                        "attributes": [],
+                        "attribute-values": [],
+                        "begin": null,
+                        "attribute-ids": [],
+                        "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "end": null
+                    },
+                    {
+                        "type": "publishing",
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": "2021-07-01",
+                        "direction": "backward",
+                        "ended": false,
+                        "target-type": "label",
+                        "end": null,
+                        "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                        "target-credit": "",
+                        "label": {
+                            "label-code": null,
+                            "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                            "id": "11b7b1e9-815a-4db3-a27f-ce0a882bcd1e",
+                            "type": "Publisher",
+                            "sort-name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                            "name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                            "disambiguation": "sub‐publisher for non‐Japanese works"
+                        },
+                        "source-credit": ""
+                    },
+                    {
+                        "type": "publishing",
+                        "ended": true,
+                        "target-type": "label",
+                        "direction": "backward",
+                        "attribute-ids": [],
+                        "begin": null,
+                        "attribute-values": [],
+                        "attributes": [],
+                        "target-credit": "",
+                        "label": {
+                            "label-code": null,
+                            "name": "イーエムアイ音楽出版 ソニー事業部",
+                            "disambiguation": "",
+                            "type": "Publisher",
+                            "sort-name": "イーエムアイ音楽出版 ソニー事業部",
+                            "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                            "id": "c06dfcf9-a6b6-4d85-841a-3c6df2c6e9a4"
+                        },
+                        "source-credit": "",
+                        "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                        "end": "2021-06-30"
+                    },
+                    {
+                        "direction": "backward",
+                        "ended": false,
+                        "target-type": "label",
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null,
+                        "type": "publishing",
+                        "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                        "target-credit": "",
+                        "label": {
+                            "disambiguation": "publisher est. 1946",
+                            "name": "B. Feldman & Co. Ltd.",
+                            "type": "Publisher",
+                            "sort-name": "B. Feldman & Co. Ltd.",
+                            "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                            "id": "71e25609-33f3-4c22-b341-708f74a943e0",
+                            "label-code": null
+                        },
+                        "source-credit": "",
+                        "end": null
+                    },
+                    {
+                        "type": "lyrics",
+                        "direction": "backward",
+                        "target-type": "url",
+                        "ended": false,
+                        "attributes": [],
+                        "attribute-values": [],
+                        "begin": null,
+                        "attribute-ids": [],
+                        "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "end": null,
+                        "url": {
+                            "resource": "https://genius.com/Queen-bohemian-rhapsody-lyrics",
+                            "id": "1f625f16-0d36-450c-b416-ef6680266cc1"
+                        }
+                    },
+                    {
+                        "end": null,
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                        "url": {
+                            "id": "31278d3a-6ed1-4dff-b63d-f95c3879c35c",
+                            "resource": "https://secondhandsongs.com/work/817"
+                        },
+                        "type": "secondhandsongs",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "target-type": "url",
+                        "ended": false,
+                        "direction": "backward"
+                    },
+                    {
+                        "target-type": "url",
+                        "ended": false,
+                        "direction": "backward",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "type": "songfacts",
+                        "url": {
+                            "resource": "http://www.songfacts.com/detail.php?id=685",
+                            "id": "c31b93a3-7b6a-457f-b234-8da47d549a8d"
+                        },
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+                        "end": null
+                    },
+                    {
+                        "end": null,
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                        "url": {
+                            "resource": "https://www.wikidata.org/wiki/Q187745",
+                            "id": "e9e61fc3-f3be-4b8e-88d6-670d664fbd32"
+                        },
+                        "type": "wikidata",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "target-type": "url",
+                        "ended": false,
+                        "direction": "backward"
+                    },
+                    {
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "target-type": "url",
+                        "ended": false,
+                        "direction": "backward",
+                        "type": "wikidata",
+                        "url": {
+                            "id": "dac2067f-495a-4716-9001-91b85ea66cee",
+                            "resource": "https://www.wikidata.org/wiki/Q6564217"
+                        },
+                        "end": null,
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2"
+                    },
+                    {
+                        "end": null,
+                        "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "arrangement",
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null,
+                        "direction": "forward",
+                        "ended": false,
+                        "work": {
+                            "type-id": null,
+                            "id": "6c8c1ee3-0c88-42d2-908c-47748c702136",
+                            "type": null,
+                            "iswcs": [],
+                            "title": "Bohemian Rhapsody",
+                            "disambiguation": "arr. for wind band",
+                            "languages": [],
+                            "attributes": [],
+                            "language": null
+                        },
+                        "target-type": "work"
+                    },
+                    {
+                        "end": null,
+                        "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type": "based on",
+                        "attributes": [],
+                        "attribute-values": [],
+                        "begin": null,
+                        "attribute-ids": [],
+                        "direction": "forward",
+                        "target-type": "work",
+                        "work": {
+                            "iswcs": [],
+                            "title": "The Real Life",
+                            "disambiguation": "",
+                            "id": "47ea1dd5-b00b-4d0a-a78d-02893ddc15d0",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "type": "Song",
+                            "attributes": [],
+                            "language": null,
+                            "languages": []
+                        },
+                        "ended": false
+                    },
+                    {
+                        "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                        "target-credit": "",
+                        "source-credit": "",
+                        "end": null,
+                        "type": "based on",
+                        "direction": "forward",
+                        "ended": false,
+                        "target-type": "work",
+                        "work": {
+                            "title": "Bohemian Rhapsody (Philharmonix version)",
+                            "iswcs": [],
+                            "disambiguation": "",
+                            "id": "addabf4c-cc29-45fc-b8a0-9f7e22cc3321",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "type": "Song",
+                            "attributes": [],
+                            "language": null,
+                            "languages": []
+                        },
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null
+                    },
+                    {
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null,
+                        "direction": "forward",
+                        "ended": false,
+                        "work": {
+                            "type": null,
+                            "id": "48d012fa-3ae1-48a4-8879-c02a66eec2f0",
+                            "type-id": null,
+                            "disambiguation": "",
+                            "title": "The Queen Symphony: V. Andante doloroso – Allegretto – Alla marcia – Moderato risoluto – Pastorale – Maestoso",
+                            "iswcs": [],
+                            "languages": [],
+                            "language": null,
+                            "attributes": []
+                        },
+                        "target-type": "work",
+                        "type": "based on",
+                        "end": null,
+                        "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                        "target-credit": "",
+                        "source-credit": ""
+                    },
+                    {
+                        "type": "included works",
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null,
+                        "direction": "backward",
+                        "ended": false,
+                        "target-type": "work",
+                        "work": {
+                            "title": "We Will Rock You",
+                            "iswcs": [],
+                            "disambiguation": "Queen musical",
+                            "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24",
+                            "id": "01058179-a28f-4e0d-96be-0678e3d5e053",
+                            "type": "Musical",
+                            "attributes": [],
+                            "language": null,
+                            "languages": []
+                        },
+                        "end": null,
+                        "type-id": "35d45ac2-74ba-4908-804f-21d138fb3d78",
+                        "target-credit": "",
+                        "source-credit": ""
+                    },
+                    {
+                        "direction": "backward",
+                        "ended": false,
+                        "target-type": "work",
+                        "work": {
+                            "type": "Musical",
+                            "id": "3bc30f3c-dd6d-4d20-b368-2253afc050fe",
+                            "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24",
+                            "disambiguation": "German version of the Queen musical",
+                            "title": "We Will Rock You",
+                            "iswcs": [],
+                            "languages": [],
+                            "language": null,
+                            "attributes": []
+                        },
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null,
+                        "type": "included works",
+                        "type-id": "35d45ac2-74ba-4908-804f-21d138fb3d78",
+                        "target-credit": "",
+                        "source-credit": "",
+                        "end": null
+                    },
+                    {
+                        "attribute-values": [],
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "begin": null,
+                        "direction": "backward",
+                        "ended": false,
+                        "work": {
+                            "languages": [],
+                            "language": null,
+                            "attributes": [],
+                            "type": "Song",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "id": "8bdb4eb8-bacf-4b2a-a34d-d0972d7b9780",
+                            "disambiguation": "",
+                            "iswcs": [],
+                            "title": "Bohemian Polka"
+                        },
+                        "target-type": "work",
+                        "type": "medley",
+                        "ordering-key": 1,
+                        "end": null,
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "target-credit": "",
+                        "source-credit": ""
+                    },
+                    {
+                        "end": null,
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "ordering-key": 1,
+                        "type": "medley",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "work": {
+                            "disambiguation": "",
+                            "iswcs": [],
+                            "title": "Don’t Stop Them Now",
+                            "type": "Song",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "id": "c8e57387-f1b3-466e-98e8-8c9d4c65614b",
+                            "language": null,
+                            "attributes": [],
+                            "languages": []
+                        },
+                        "target-type": "work",
+                        "ended": false,
+                        "direction": "backward"
+                    },
+                    {
+                        "type": "medley",
+                        "work": {
+                            "id": "4b2f4ff7-4228-4cdc-b0b5-85989fbabbe4",
+                            "type-id": null,
+                            "type": null,
+                            "iswcs": [],
+                            "title": "Queen I",
+                            "disambiguation": "",
+                            "languages": [],
+                            "attributes": [],
+                            "language": null
+                        },
+                        "target-type": "work",
+                        "ended": false,
+                        "direction": "backward",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "attributes": [],
+                        "attribute-values": [],
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "end": null
+                    },
+                    {
+                        "type": "medley",
+                        "direction": "backward",
+                        "target-type": "work",
+                        "work": {
+                            "iswcs": [],
+                            "title": "The Big Medley",
+                            "disambiguation": "",
+                            "id": "4b4c2399-09ec-4e5b-b255-e956fe83f788",
+                            "type-id": null,
+                            "type": null,
+                            "attributes": [],
+                            "language": null,
+                            "languages": []
+                        },
+                        "ended": false,
+                        "attributes": [],
+                        "attribute-values": [],
+                        "begin": null,
+                        "attribute-ids": [],
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "end": null,
+                        "ordering-key": 3
+                    },
+                    {
+                        "end": null,
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "type": "other version",
+                        "attribute-ids": {
+                            "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                        },
+                        "begin": null,
+                        "attribute-values": [],
+                        "attributes": [
+                            "parody"
+                        ],
+                        "ended": false,
+                        "target-type": "work",
+                        "work": {
+                            "languages": [],
+                            "language": null,
+                            "attributes": [],
+                            "type": null,
+                            "type-id": null,
+                            "id": "ec8b7b38-06ad-3116-a6c9-3ca97555dda8",
+                            "disambiguation": "",
+                            "iswcs": [],
+                            "title": "Bohemian Schnapsidee"
+                        },
+                        "direction": "forward"
+                    },
+                    {
+                        "attribute-values": [],
+                        "attributes": [
+                            "parody"
+                        ],
+                        "attribute-ids": {
+                            "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                        },
+                        "begin": null,
+                        "direction": "forward",
+                        "ended": false,
+                        "target-type": "work",
+                        "work": {
+                            "attributes": [],
+                            "language": null,
+                            "languages": [],
+                            "title": "Zero Wing Rhapsody",
+                            "iswcs": [],
+                            "disambiguation": "",
+                            "type-id": null,
+                            "id": "1fe90765-96b2-3c48-9ee1-9dca780430f7",
+                            "type": null
+                        },
+                        "type": "other version",
+                        "end": null,
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "target-credit": "",
+                        "source-credit": ""
+                    },
+                    {
+                        "end": null,
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "type": "other version",
+                        "attributes": [
+                            "parody",
+                            "translated"
+                        ],
+                        "attribute-values": [],
+                        "begin": null,
+                        "attribute-ids": {
+                            "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+                            "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+                        },
+                        "direction": "forward",
+                        "target-type": "work",
+                        "work": {
+                            "language": null,
+                            "attributes": [],
+                            "languages": [],
+                            "disambiguation": "",
+                            "title": "Rap-soda y bohemia",
+                            "iswcs": [],
+                            "type": "Song",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "id": "a404ddc8-6511-4255-814a-da58d9a7bb86"
+                        },
+                        "ended": false
+                    }
+                ],
+                "disambiguation": ""
+            },
+            "target-type": "work",
+            "ended": false,
+            "direction": "forward",
+            "begin": null,
+            "attribute-ids": {
+                "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+            },
+            "attributes": [
+                "cover"
+            ],
+            "attribute-values": [],
+            "type": "performance"
+        }
+    ],
+    "title": "Bohemian Rhapsody",
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "releases": [
+        {
+            "id": "31996c99-f324-4564-bece-be3b7abf79fe",
+            "quality": "normal",
+            "genres": [],
+            "aliases": [],
+            "country": "XE",
+            "date": "1988",
+            "status": "Official",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "tags": [],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "title": "Classic Rock Symphonies",
+            "barcode": "027726682525",
+            "release-group": {
+                "tags": [],
+                "releases": [],
+                "title": "Classic Rock Symphonies",
+                "rating": {
+                    "votes-count": 0,
+                    "value": null
+                },
+                "disambiguation": "",
+                "artist-credit": [
+                    {
+                        "joinphrase": "",
+                        "name": "The Allen Toussaint Orchestra",
+                        "artist": {
+                            "sort-name": "Toussaint, Allen, The, Orchestra",
+                            "type": "Group",
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                            "name": "The Allen Toussaint Orchestra",
+                            "disambiguation": "",
+                            "rating": {
+                                "value": null,
+                                "votes-count": 0
+                            },
+                            "country": null,
+                            "aliases": []
+                        }
+                    }
+                ],
+                "secondary-type-ids": [],
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "id": "c7f53404-29b7-36ff-9e56-4c41ec3e1ace",
+                "secondary-types": [],
+                "genres": [],
+                "aliases": [],
+                "primary-type": "Album",
+                "first-release-date": "1988"
+            },
+            "media": [
+                {
+                    "title": "",
+                    "track-offset": 1,
+                    "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31",
+                    "id": "3435d657-5326-35af-96f7-b6d00332b5aa",
+                    "track-count": 12,
+                    "position": 1,
+                    "discs": [
+                        {
+                            "id": "zrVxa_19UFElhbo30evxrCXljDY-",
+                            "offsets": [
+                                183,
+                                29870,
+                                54528,
+                                69383,
+                                103663,
+                                123543,
+                                141098,
+                                158113,
+                                184573,
+                                211835,
+                                238130,
+                                259455
+                            ],
+                            "sectors": 283050,
+                            "offset-count": 12
+                        }
+                    ],
+                    "format": "CD",
+                    "tracks": [
+                        {
+                            "number": "2",
+                            "position": 2,
+                            "artist-credit": [
+                                {
+                                    "artist": {
+                                        "aliases": [],
+                                        "country": null,
+                                        "rating": {
+                                            "value": null,
+                                            "votes-count": 0
+                                        },
+                                        "disambiguation": "",
+                                        "name": "The Allen Toussaint Orchestra",
+                                        "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "type": "Group",
+                                        "sort-name": "Toussaint, Allen, The, Orchestra"
+                                    },
+                                    "joinphrase": "",
+                                    "name": "The Allen Toussaint Orchestra"
+                                }
+                            ],
+                            "id": "1b68aa84-a302-4ef2-8da6-153303c21932",
+                            "length": 328773,
+                            "title": "Bohemian Rhapsody"
+                        }
+                    ]
+                }
+            ],
+            "disambiguation": "",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "artist-credit": [
+                {
+                    "name": "The Allen Toussaint Orchestra",
+                    "joinphrase": "",
+                    "artist": {
+                        "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "tags": [],
+                        "sort-name": "Toussaint, Allen, The, Orchestra",
+                        "type": "Group",
+                        "genres": [],
+                        "name": "The Allen Toussaint Orchestra",
+                        "disambiguation": "",
+                        "aliases": [],
+                        "country": null
+                    }
+                }
+            ],
+            "packaging": "Jewel Case",
+            "release-events": [
+                {
+                    "area": {
+                        "iso-3166-1-codes": [
+                            "XE"
+                        ],
+                        "type": null,
+                        "sort-name": "Europe",
+                        "type-id": null,
+                        "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                        "disambiguation": "",
+                        "name": "Europe"
+                    },
+                    "date": "1988"
+                }
+            ]
+        },
+        {
+            "release-events": [
+                {
+                    "date": "1995",
+                    "area": {
+                        "disambiguation": "",
+                        "name": "United States",
+                        "type-id": null,
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "type": null,
+                        "sort-name": "United States",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ]
+                    }
+                }
+            ],
+            "packaging": null,
+            "artist-credit": [
+                {
+                    "artist": {
+                        "tags": [],
+                        "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "sort-name": "Toussaint, Allen, The, Orchestra",
+                        "type": "Group",
+                        "genres": [],
+                        "disambiguation": "",
+                        "name": "The Allen Toussaint Orchestra",
+                        "aliases": [],
+                        "country": null
+                    },
+                    "name": "The Allen Toussaint Orchestra",
+                    "joinphrase": ""
+                }
+            ],
+            "packaging-id": null,
+            "media": [
+                {
+                    "format": null,
+                    "tracks": [
+                        {
+                            "position": 2,
+                            "number": "2",
+                            "id": "b9b57bd2-cc02-39f4-92f2-e8a2b9b8b886",
+                            "artist-credit": [
+                                {
+                                    "name": "The Allen Toussaint Orchestra",
+                                    "joinphrase": "",
+                                    "artist": {
+                                        "type": "Group",
+                                        "sort-name": "Toussaint, Allen, The, Orchestra",
+                                        "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "name": "The Allen Toussaint Orchestra",
+                                        "disambiguation": "",
+                                        "rating": {
+                                            "value": null,
+                                            "votes-count": 0
+                                        },
+                                        "country": null,
+                                        "aliases": []
+                                    }
+                                }
+                            ],
+                            "length": 325000,
+                            "title": "Bohemian Rhapsody"
+                        }
+                    ],
+                    "title": "",
+                    "track-offset": 1,
+                    "id": "72ba7d0d-2869-3c86-86a4-9a0bab75daf5",
+                    "track-count": 12,
+                    "format-id": null,
+                    "position": 1,
+                    "discs": []
+                }
+            ],
+            "disambiguation": "",
+            "release-group": {
+                "id": "c7f53404-29b7-36ff-9e56-4c41ec3e1ace",
+                "secondary-types": [],
+                "genres": [],
+                "primary-type": "Album",
+                "aliases": [],
+                "first-release-date": "1988",
+                "rating": {
+                    "votes-count": 0,
+                    "value": null
+                },
+                "title": "Classic Rock Symphonies",
+                "disambiguation": "",
+                "tags": [],
+                "releases": [],
+                "secondary-type-ids": [],
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "rating": {
+                                "value": null,
+                                "votes-count": 0
+                            },
+                            "disambiguation": "",
+                            "name": "The Allen Toussaint Orchestra",
+                            "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "type": "Group",
+                            "sort-name": "Toussaint, Allen, The, Orchestra",
+                            "aliases": [],
+                            "country": null
+                        },
+                        "name": "The Allen Toussaint Orchestra",
+                        "joinphrase": ""
+                    }
+                ]
+            },
+            "barcode": null,
+            "title": "Classic Rock Symphonies",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "tags": [],
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "status": "Official",
+            "country": "US",
+            "date": "1995",
+            "aliases": [],
+            "genres": [],
+            "quality": "normal",
+            "id": "26615ec9-7f1b-48bb-839d-f31eb2642aac"
+        }
+    ],
+    "tags": []
+}

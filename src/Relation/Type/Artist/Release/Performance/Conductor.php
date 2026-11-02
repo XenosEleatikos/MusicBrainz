@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Performance;
 
 use MusicBrainz\Relation\Type\Artist\Release\Performance;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an artist who conducted an orchestra, band or choir on this release.
@@ -17,10 +16,10 @@ class Conductor extends Performance
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('conductor');
+        return 'conductor';
     }
 }

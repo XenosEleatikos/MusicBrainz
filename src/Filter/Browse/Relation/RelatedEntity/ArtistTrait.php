@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type artist.
+ * Provides the relation "linked to an artist".
  */
 trait ArtistTrait
 {
     /**
-     * Defines a relation to an artist.
+     * Browses the entities linked to an artist.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related artist
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the artist
      */
-    public function artist(MBID $mbid): void
+    public static function artist(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::ARTIST));
+        return new static(BrowseParameter::Artist, $mbid);
     }
 }

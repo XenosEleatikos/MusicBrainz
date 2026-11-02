@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\Series;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\Series;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a concert tour with a release group (generally an album) the tour is connected with.
@@ -17,10 +16,10 @@ class TourInSupportOf extends Series
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('tour in support of');
+        return 'tour in support of';
     }
 }

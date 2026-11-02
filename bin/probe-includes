@@ -1,0 +1,144 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Asks the live MusicBrainz web service which "inc" parameters it accepts for every entity (lookup and browse) and writes
+ * the answer to tests/Fixtures/accepted-includes.json. The unit test tests/unit/Supplement/FieldsTest compares the include
+ * flags of the library with that file.
+ *
+ * Usage: bin/probe-includes [--combinations] [--collections] [pattern ...]     e.g. bin/probe-includes lookup/artist
+ *
+ * Browsing areas, instruments and series needs a collection, and collections need an access token: with --collections these are
+ * probed using the environment variables MB_ACCESS_TOKEN and MB_PROBE_COLLECTIONS ("area=<mbid>,instrument=<mbid>,series=<mbid>", the
+ * MBIDs of collections of that account). Neither is stored anywhere.
+ *
+ * Some parameters are only accepted together with another one: "media", "discids", "isrcs" and "various-artists" need
+ * "releases" or "recordings". With --combinations, parameters that were rejected alone are tried together with these, and
+ * the parent is stored instead of true, e.g. "media": "releases".
+ *
+ * One request per second, about 600 requests for a complete run. Existing entries of entities that are not probed are
+ * kept.
+ */
+
+use Symfony\Component\HttpClient\HttpClient;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$userAgent = 'XenosMusicBrainz/2-dev ( https://github.com/XenosEleatikos/MusicBrainz )';
+$combinations = in_array('--combinations', $argv, true);
+$collections = in_array('--collections', $argv, true);
+$patterns = array_values(array_filter(array_slice($argv, 1), static fn(string $a): bool => !str_starts_with($a, '--')));
+$file = __DIR__ . '/../tests/Fixtures/accepted-includes.json';
+
+$entities = ['area', 'artist', 'event', 'genre', 'instrument', 'label', 'place', 'recording', 'release', 'release-group', 'series', 'url', 'work'];
+$candidates = ['aliases', 'annotation', 'tags', 'genres', 'ratings', 'artists', 'collections', 'labels', 'recordings', 'releases', 'release-groups',
+    'works', 'media', 'discids', 'isrcs', 'artist-credits', 'various-artists', 'recording-level-rels', 'work-level-rels', 'release-group-level-rels'];
+foreach ($entities as $entity) {
+    $candidates[] = $entity . '-rels';
+}
+
+// A popular entity for every lookup, and a browse query that works without authentication
+$lookups = [
+    'area' => '85752fda-13c4-31a3-bee5-0e5cb1f51dad', 'artist' => 'b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d', 'event' => '8e0ff16a-757f-4e16-9877-4c4131621a8b',
+    'instrument' => 'b3eac5f9-7859-4416-ac39-7154e2e8d348', 'label' => 'df7d1c7f-ef95-425f-8eef-445b3d7bcbd9', 'place' => 'bd55aeb7-19d1-4607-a500-14b8479d3fed',
+    'recording' => '106d1527-d378-4e55-ba49-d18f8e63ae8a', 'release' => '31765b9f-e969-4257-855f-c7ea1f657b2a', 'release-group' => '9162580e-5df4-32de-80cc-f45a8d8a9b1d',
+    'series' => 'c91a484c-b9f5-4842-a39f-906c4bfc9c7e', 'url' => '7a14a19d-17d6-452e-8741-6ace4eea275c', 'work' => '41c94a08-a551-3c86-bb17-d9a52e3a618b',
+];
+$browses = [
+    'artist' => 'area=85752fda-13c4-31a3-bee5-0e5cb1f51dad', 'label' => 'area=85752fda-13c4-31a3-bee5-0e5cb1f51dad', 'place' => 'area=f03d09b3-39dc-4083-afd6-159e3f0d462f',
+    'recording' => 'artist=a74b1b7f-71a5-4011-9441-d0b5e4122711', 'release' => 'artist=b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d',
+    'release-group' => 'artist=b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d', 'work' => 'artist=24f1766e-9635-4d58-a4d4-9413f9f98a4c',
+    'event' => 'artist=a74b1b7f-71a5-4011-9441-d0b5e4122711',
+];
+
+$headers = ['User-Agent' => $userAgent];
+if ($collections) {
+    $token = (string) getenv('MB_ACCESS_TOKEN');
+    if ('' === $token) {
+        fwrite(STDERR, "--collections needs the environment variable MB_ACCESS_TOKEN\n");
+        exit(1);
+    }
+    $headers['Authorization'] = 'Bearer ' . $token;
+}
+$client = HttpClient::create(['headers' => $headers]);
+$status = static function (string $url) use ($client): int {
+    for ($attempt = 0; $attempt < 8; ++$attempt) {
+        sleep(1);
+        $code = $client->request('GET', $url)->getStatusCode();
+        if (503 !== $code) {
+            return $code;
+        }
+        sleep(10 + 5 * $attempt);
+    }
+
+    return 503;
+};
+
+$result = is_file($file) ? json_decode((string) file_get_contents($file), true) : [];
+$todo = [];
+foreach ($lookups as $entity => $mbid) {
+    $todo["lookup/$entity"] = ["https://musicbrainz.org/ws/2/$entity/$mbid?fmt=json&inc=%s", 'lookup', $entity];
+}
+if ($collections) {
+    $browses = [];
+    foreach (explode(',', (string) getenv('MB_PROBE_COLLECTIONS')) as $pair) {
+        [$entity, $mbid] = array_pad(explode('=', trim($pair), 2), 2, '');
+        if (in_array($entity, ['area', 'instrument', 'series'], true) && '' !== $mbid) {
+            $browses[$entity] = 'collection=' . $mbid;
+        }
+    }
+    $todo = [];
+}
+foreach ($browses as $entity => $query) {
+    $todo["browse/$entity"] = ["https://musicbrainz.org/ws/2/$entity?$query&limit=1&fmt=json&inc=%s", 'browse', $entity];
+}
+
+foreach ($todo as $name => [$template, $kind, $entity]) {
+    if ($patterns && [] === array_filter($patterns, static fn(string $p): bool => str_contains($name, $p))) {
+        continue;
+    }
+    if ($combinations) {
+        $accepted = $result[$kind][$entity] ?? [];
+        foreach (['media', 'discids', 'isrcs', 'various-artists'] as $inc) {
+            if (true === ($accepted[$inc] ?? null)) {
+                continue;
+            }
+            $accepted[$inc] = false;
+            foreach (['releases', 'recordings'] as $parent) {
+                if (true !== ($accepted[$parent] ?? false)) {
+                    continue;
+                }
+                if (200 === $status(sprintf($template, $parent . '+' . $inc))) {
+                    $accepted[$inc] = $parent;
+                    break;
+                }
+            }
+        }
+        ksort($accepted);
+        $result[$kind][$entity] = $accepted;
+        echo $name, ': ', count(array_filter($accepted)), " accepted (with combinations)\n";
+        file_put_contents($file, json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
+        continue;
+    }
+
+    $accepted = [];
+    foreach ($candidates as $inc) {
+        $code = $status(sprintf($template, $inc));
+        if (!in_array($code, [200, 400], true)) {
+            fwrite(STDERR, "$name inc=$inc: unexpected HTTP status $code, giving up\n");
+            exit(1);
+        }
+        $accepted[$inc] = 200 === $code;
+    }
+    ksort($accepted);
+    $result[$kind][$entity] = $accepted;
+    ksort($result[$kind]);
+    ksort($result);
+    file_put_contents($file, json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
+    echo $name, ': ', count(array_filter($accepted)), " accepted\n";
+}
+
+ksort($result);
+file_put_contents($file, json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");

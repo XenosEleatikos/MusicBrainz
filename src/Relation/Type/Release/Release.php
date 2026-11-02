@@ -20,6 +20,6 @@ abstract class Release extends \MusicBrainz\Relation\Type\Release
      */
     final public static function getRelatedEntityType(): EntityType
     {
-        return new EntityType(EntityType::RELEASE);
+        return EntityType::Release;
     }
 }

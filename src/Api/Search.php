@@ -4,14 +4,35 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Api;
 
+use MusicBrainz\Value\Annotation;
+use MusicBrainz\Value\Area;
+use MusicBrainz\Value\Artist;
+use MusicBrainz\Value\CdStub;
+use MusicBrainz\Value\Event;
+use MusicBrainz\Value\Instrument;
+use MusicBrainz\Value\Series;
+use MusicBrainz\Value\URL;
+use MusicBrainz\Value\Label;
+use MusicBrainz\Value\Place;
+use MusicBrainz\Value\Recording;
+use MusicBrainz\Value\Release;
+use MusicBrainz\Value\ReleaseGroup;
+use MusicBrainz\Value\Tag;
+use MusicBrainz\Value\Work;
+use MusicBrainz\Value\Page;
 use MusicBrainz\Config;
-use MusicBrainz\Exception;
+use MusicBrainz\ExceptionInterface;
+use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AbstractFilter;
 use MusicBrainz\Filter\Search\AnnotationFilter;
 use MusicBrainz\Filter\Search\AreaFilter;
 use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Filter\Search\CdStubFilter;
+use MusicBrainz\Filter\Search\EventFilter;
+use MusicBrainz\Filter\Search\InstrumentFilter;
+use MusicBrainz\Filter\Search\SeriesFilter;
+use MusicBrainz\Filter\Search\UrlFilter;
 use MusicBrainz\Filter\Search\LabelFilter;
 use MusicBrainz\Filter\Search\PlaceFilter;
 use MusicBrainz\Filter\Search\RecordingFilter;
@@ -19,33 +40,22 @@ use MusicBrainz\Filter\Search\ReleaseFilter;
 use MusicBrainz\Filter\Search\ReleaseGroupFilter;
 use MusicBrainz\Filter\Search\TagFilter;
 use MusicBrainz\Filter\Search\WorkFilter;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
-use MusicBrainz\Value\Page\SearchResult\AnnotationListPage;
-use MusicBrainz\Value\Page\SearchResult\AreaListPage;
-use MusicBrainz\Value\Page\SearchResult\ArtistListPage;
-use MusicBrainz\Value\Page\SearchResult\CdStubListPage;
-use MusicBrainz\Value\Page\SearchResult\LabelListPage;
-use MusicBrainz\Value\Page\SearchResult\PlaceListPage;
-use MusicBrainz\Value\Page\SearchResult\RecordingListPage;
-use MusicBrainz\Value\Page\SearchResult\ReleaseGroupListPage;
-use MusicBrainz\Value\Page\SearchResult\ReleaseListPage;
-use MusicBrainz\Value\Page\SearchResult\TagListPage;
-use MusicBrainz\Value\Page\SearchResult\WorkListPage;
+use MusicBrainz\Http\ApiClient;
 use MusicBrainz\Value\SearchResult;
 
 /**
  * The search API provides methods for searching entities based on the parameters supplied in the filter objects.
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search
  */
-class Search
+final class Search
 {
     /**
-     * An HTTP adapter
+     * The API client
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $apiClient;
 
     /**
      * The API client configuration
@@ -57,13 +67,15 @@ class Search
     /**
      * Constructs the search API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
-     * @param Config              $config      The API client configuration
+     * @param ApiClient $apiClient The API client
+     * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $apiClient, Config $config)
     {
-        $this->httpAdapter = $httpAdapter;
-        $this->config      = $config;
+        $this->apiClient = $apiClient;
+        $this->config = $config;
     }
 
     /**
@@ -72,16 +84,16 @@ class Search
      * @param AnnotationFilter $annotationFilter An annotation filter
      * @param PageFilter       $pageFilter       A page filter
      *
-     * @return SearchResult\Annotation[]|AnnotationListPage
+     * @return Page<SearchResult<Annotation>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function annotation(AnnotationFilter $annotationFilter, PageFilter $pageFilter): AnnotationListPage
+    public function annotation(AnnotationFilter $annotationFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($annotationFilter, $pageFilter);
-        $response = $this->httpAdapter->call('annotation' . '/', $this->config, $params, false);
+        $response = $this->apiClient->call('annotation/', $this->config, $params, false);
 
-        return AnnotationListPage::make($response, 'annotation');
+        return Page::search($response, 'annotation', Annotation::class);
     }
 
     /**
@@ -90,16 +102,16 @@ class Search
      * @param AreaFilter $areaFilter An area filter
      * @param PageFilter $pageFilter A page filter
      *
-     * @return SearchResult[]|AreaListPage
+     * @return Page<SearchResult<Area>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function area(AreaFilter $areaFilter, PageFilter $pageFilter): AreaListPage
+    public function area(AreaFilter $areaFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($areaFilter, $pageFilter);
-        $response = $this->httpAdapter->call('area' . '/', $this->config, $params, false);
+        $response = $this->apiClient->call('area/', $this->config, $params, false);
 
-        return AreaListPage::make($response, 'area');
+        return Page::search($response, 'area', Area::class);
     }
 
     /**
@@ -108,16 +120,16 @@ class Search
      * @param ArtistFilter $artistFilter An artist filter
      * @param PageFilter   $pageFilter   A page filter
      *
-     * @return SearchResult\Artist[]|ArtistListPage
+     * @return Page<SearchResult<Artist>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function artist(ArtistFilter $artistFilter, PageFilter $pageFilter): ArtistListPage
+    public function artist(ArtistFilter $artistFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($artistFilter, $pageFilter);
-        $response = $this->httpAdapter->call('artist' . '/', $this->config, $params);
+        $response = $this->apiClient->call('artist/', $this->config, $params);
 
-        return ArtistListPage::make($response, 'artist');
+        return Page::search($response, 'artist', Artist::class);
     }
 
     /**
@@ -126,16 +138,88 @@ class Search
      * @param CdStubFilter $cdStubFilter A CD stub filter
      * @param PageFilter   $pageFilter   A page filter
      *
-     * @return SearchResult\CdStub[]|CdStubListPage
+     * @return Page<SearchResult<CdStub>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function cdStub(CdStubFilter $cdStubFilter, PageFilter $pageFilter): CdStubListPage
+    public function cdStub(CdStubFilter $cdStubFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($cdStubFilter, $pageFilter);
-        $response = $this->httpAdapter->call('cdstub' . '/', $this->config, $params);
+        $response = $this->apiClient->call('cdstub/', $this->config, $params);
 
-        return CdStubListPage::make($response, 'cdstub');
+        return Page::search($response, 'cdstub', CdStub::class);
+    }
+
+    /**
+     * Searches for events and returns the result.
+     *
+     * @param EventFilter $eventFilter A filter for events
+     * @param PageFilter            $pageFilter A page filter
+     *
+     * @return Page<SearchResult<Event>>
+     *
+     * @throws ExceptionInterface
+     */
+    public function event(EventFilter $eventFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($eventFilter, $pageFilter);
+        $response = $this->apiClient->call('event/', $this->config, $params, false);
+
+        return Page::search($response, 'event', Event::class);
+    }
+
+    /**
+     * Searches for instruments and returns the result.
+     *
+     * @param InstrumentFilter $instrumentFilter A filter for instruments
+     * @param PageFilter                 $pageFilter A page filter
+     *
+     * @return Page<SearchResult<Instrument>>
+     *
+     * @throws ExceptionInterface
+     */
+    public function instrument(InstrumentFilter $instrumentFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($instrumentFilter, $pageFilter);
+        $response = $this->apiClient->call('instrument/', $this->config, $params, false);
+
+        return Page::search($response, 'instrument', Instrument::class);
+    }
+
+    /**
+     * Searches for series and returns the result.
+     *
+     * @param SeriesFilter $seriesFilter A filter for series
+     * @param PageFilter             $pageFilter A page filter
+     *
+     * @return Page<SearchResult<Series>>
+     *
+     * @throws ExceptionInterface
+     */
+    public function series(SeriesFilter $seriesFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($seriesFilter, $pageFilter);
+        $response = $this->apiClient->call('series/', $this->config, $params, false);
+
+        return Page::search($response, 'series', Series::class);
+    }
+
+    /**
+     * Searches for URLs and returns the result.
+     *
+     * @param UrlFilter $urlFilter A filter for URLs
+     * @param PageFilter          $pageFilter A page filter
+     *
+     * @return Page<SearchResult<URL>>
+     *
+     * @throws ExceptionInterface
+     */
+    public function url(UrlFilter $urlFilter, PageFilter $pageFilter): Page
+    {
+        $params   = $this->getParameters($urlFilter, $pageFilter);
+        $response = $this->apiClient->call('url/', $this->config, $params, false);
+
+        return Page::search($response, 'url', URL::class);
     }
 
     /**
@@ -144,16 +228,16 @@ class Search
      * @param LabelFilter $labelFilter A label filter
      * @param PageFilter  $pageFilter  A page filter
      *
-     * @return SearchResult\Label[]|LabelListPage
+     * @return Page<SearchResult<Label>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function label(LabelFilter $labelFilter, PageFilter $pageFilter): LabelListPage
+    public function label(LabelFilter $labelFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($labelFilter, $pageFilter);
-        $response = $this->httpAdapter->call('label' . '/', $this->config, $params);
+        $response = $this->apiClient->call('label/', $this->config, $params);
 
-        return LabelListPage::make($response, 'label');
+        return Page::search($response, 'label', Label::class);
     }
 
     /**
@@ -162,16 +246,16 @@ class Search
      * @param PlaceFilter $placeFilter A place filter
      * @param PageFilter  $pageFilter  A page filter
      *
-     * @return SearchResult\Place[]|PlaceListPage
+     * @return Page<SearchResult<Place>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function place(PlaceFilter $placeFilter, PageFilter $pageFilter): PlaceListPage
+    public function place(PlaceFilter $placeFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($placeFilter, $pageFilter);
-        $response = $this->httpAdapter->call('place' . '/', $this->config, $params);
+        $response = $this->apiClient->call('place/', $this->config, $params);
 
-        return PlaceListPage::make($response, 'place');
+        return Page::search($response, 'place', Place::class);
     }
 
     /**
@@ -180,16 +264,16 @@ class Search
      * @param RecordingFilter $recordingFilter A recording filter
      * @param PageFilter      $pageFilter      A page filter
      *
-     * @return SearchResult\Recording[]|RecordingListPage
+     * @return Page<SearchResult<Recording>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function recording(RecordingFilter $recordingFilter, PageFilter $pageFilter): RecordingListPage
+    public function recording(RecordingFilter $recordingFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($recordingFilter, $pageFilter);
-        $response = $this->httpAdapter->call('recording' . '/', $this->config, $params);
+        $response = $this->apiClient->call('recording/', $this->config, $params);
 
-        return RecordingListPage::make($response, 'recording');
+        return Page::search($response, 'recording', Recording::class);
     }
 
     /**
@@ -198,16 +282,16 @@ class Search
      * @param ReleaseFilter $releaseFilter A release group filter
      * @param PageFilter    $pageFilter    A page filter
      *
-     * @return SearchResult\Release[]|ReleaseListPage
+     * @return Page<SearchResult<Release>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function release(ReleaseFilter $releaseFilter, PageFilter $pageFilter): ReleaseListPage
+    public function release(ReleaseFilter $releaseFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($releaseFilter, $pageFilter);
-        $response = $this->httpAdapter->call('release' . '/', $this->config, $params);
+        $response = $this->apiClient->call('release/', $this->config, $params);
 
-        return ReleaseListPage::make($response, 'release');
+        return Page::search($response, 'release', Release::class);
     }
 
     /**
@@ -216,16 +300,16 @@ class Search
      * @param ReleaseGroupFilter $releaseGroupFilter A release group filter
      * @param PageFilter         $pageFilter         A page filter
      *
-     * @return SearchResult\ReleaseGroup[]|ReleaseGroupListPage
+     * @return Page<SearchResult<ReleaseGroup>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function releaseGroup(ReleaseGroupFilter $releaseGroupFilter, PageFilter $pageFilter): ReleaseGroupListPage
+    public function releaseGroup(ReleaseGroupFilter $releaseGroupFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($releaseGroupFilter, $pageFilter);
-        $response = $this->httpAdapter->call('release-group' . '/', $this->config, $params);
+        $response = $this->apiClient->call('release-group/', $this->config, $params);
 
-        return ReleaseGroupListPage::make($response, 'release-group');
+        return Page::search($response, 'release-group', ReleaseGroup::class);
     }
 
     /**
@@ -234,16 +318,16 @@ class Search
      * @param TagFilter  $tagFilter  A tag filter
      * @param PageFilter $pageFilter A page filter
      *
-     * @return TagListPage[]|TagListPage
+     * @return Page<SearchResult<Tag>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function tag(TagFilter $tagFilter, PageFilter $pageFilter): TagListPage
+    public function tag(TagFilter $tagFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($tagFilter, $pageFilter);
-        $response = $this->httpAdapter->call('tag' . '/', $this->config, $params);
+        $response = $this->apiClient->call('tag/', $this->config, $params);
 
-        return new TagListPage($response);
+        return Page::search($response, 'tag', Tag::class);
     }
 
     /**
@@ -252,16 +336,16 @@ class Search
      * @param WorkFilter $workFilter A work filter
      * @param PageFilter $pageFilter A page filter
      *
-     * @return SearchResult\Work[]|WorkListPage
+     * @return Page<SearchResult<Work>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
-    public function work(WorkFilter $workFilter, PageFilter $pageFilter): WorkListPage
+    public function work(WorkFilter $workFilter, PageFilter $pageFilter): Page
     {
         $params   = $this->getParameters($workFilter, $pageFilter);
-        $response = $this->httpAdapter->call('work' . '/', $this->config, $params, false);
+        $response = $this->apiClient->call('work/', $this->config, $params, false);
 
-        return new WorkListPage($response);
+        return Page::search($response, 'work', Work::class);
     }
 
     /**
@@ -270,19 +354,19 @@ class Search
      * @param AbstractFilter $searchFilter A search filter
      * @param PageFilter     $pageFilter   A page filter
      *
-     * @return array
+     * @return array<string, mixed>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     private function getParameters(AbstractFilter $searchFilter, PageFilter $pageFilter): array
     {
-        if (empty((string) $searchFilter)) {
-            throw new Exception('The filter needs at least one argument to create a query.');
+        if ('' === (string) $searchFilter) {
+            throw new InvalidArgumentException('The filter needs at least one argument to create a query.');
         }
 
         return [
-            'limit'  => $pageFilter->getLimit(),
-            'offset' => $pageFilter->getOffset(),
+            'limit'  => $pageFilter->limit,
+            'offset' => $pageFilter->offset,
             'fmt'    => 'json',
             'query'  => (string) $searchFilter,
         ];

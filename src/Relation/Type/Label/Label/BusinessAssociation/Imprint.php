@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Label\BusinessAssociation;
 
 use MusicBrainz\Relation\Type\Label\Label\BusinessAssociation;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that a record label (company) owns or has the right to use an imprint.
@@ -17,10 +16,10 @@ class Imprint extends BusinessAssociation
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('imprint');
+        return 'imprint';
     }
 }

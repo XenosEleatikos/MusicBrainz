@@ -1,0 +1,58 @@
+{
+    "created": "2026-11-01T19:28:43.714Z",
+    "count": 28,
+    "offset": 0,
+    "series": [
+        {
+            "id": "1c3f6112-b66e-43c8-918a-0423a8d5246d",
+            "type": "Release series",
+            "type-id": "52b90f1e-ff62-3bd0-b254-5d91ced5d757",
+            "score": 100,
+            "name": "Beethoven Masterpieces",
+            "disambiguation": "Deutsche Grammophon",
+            "aliases": [
+                {
+                    "sort-name": "Masterpieces",
+                    "type-id": "8950366b-5ea3-32f2-bf74-ee482474c18b",
+                    "name": "Masterpieces",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        },
+        {
+            "id": "e368034d-059e-4ccc-bc3c-fd039954a214",
+            "type": "Release group series",
+            "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+            "score": 100,
+            "name": "Beethoven 32",
+            "disambiguation": "Boris Giltburg on Naxos"
+        },
+        {
+            "id": "7ddce4b9-6680-45db-b59d-23451cc91a8c",
+            "type": "Release group series",
+            "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+            "score": 100,
+            "name": "Beethoven’s World",
+            "disambiguation": "Sony Classical"
+        },
+        {
+            "id": "c91a484c-b9f5-4842-a39f-906c4bfc9c7e",
+            "type": "Release series",
+            "type-id": "52b90f1e-ff62-3bd0-b254-5d91ced5d757",
+            "score": 100,
+            "name": "Beethoven: Symphonies",
+            "disambiguation": "Stradivari Series"
+        },
+        {
+            "id": "77e32a78-87f5-4087-aed0-154bae8f7bfa",
+            "type": "Release group series",
+            "type-id": "4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77",
+            "score": 100,
+            "name": "RESOUND Beethoven"
+        }
+    ]
+}

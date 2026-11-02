@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Recording\Recording;
 
 use MusicBrainz\Relation\Type\Recording\Recording;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a recording to another containing official commentary for it (usually the artist talking about it).
@@ -17,10 +16,10 @@ class Commentary extends Recording
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('commentary');
+        return 'commentary';
     }
 }

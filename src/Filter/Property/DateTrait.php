@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\Date;
 
 trait DateTrait
@@ -15,6 +14,8 @@ trait DateTrait
      * Returns the field name for the date.
      *
      * @return string
+     *
+     * @internal
      */
     public static function date(): string
     {
@@ -22,14 +23,16 @@ trait DateTrait
     }
 
     /**
-     * Adds the recording release date.
+     * Adds the release date (of the release, or of any release that includes the recording).
      *
-     * @param Date $date The recording release date
+     * @param Date $date The release date
      *
-     * @return Term
+     * @return static
      */
-    public function addDate(Date $date): Term
+    public function addDate(Date $date): static
     {
-        return $this->addTerm((string) $date, self::date());
+        $this->addTerm((string) $date, self::date());
+
+        return $this;
     }
 }

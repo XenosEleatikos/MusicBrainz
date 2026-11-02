@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Misc\Artwork;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Misc\Artwork;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates an artist who did design for the release.
@@ -17,10 +16,10 @@ class Design extends Artwork
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('design');
+        return 'design';
     }
 }

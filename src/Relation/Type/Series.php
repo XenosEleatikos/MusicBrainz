@@ -19,6 +19,6 @@ abstract class Series extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::SERIES);
+        return EntityType::Series;
     }
 }

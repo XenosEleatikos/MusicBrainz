@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type label.
+ * Provides the relation "linked to a label".
  */
 trait LabelTrait
 {
     /**
-     * Defines a relation to a label.
+     * Browses the entities linked to a label.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related label
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the label
      */
-    public function label(MBID $mbid): void
+    public static function label(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::LABEL));
+        return new static(BrowseParameter::Label, $mbid);
     }
 }

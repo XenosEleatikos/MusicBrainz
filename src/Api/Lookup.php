@@ -5,10 +5,12 @@ declare(strict_types=1);
 namespace MusicBrainz\Api;
 
 use MusicBrainz\Config;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
+use MusicBrainz\ResponseException;
 use MusicBrainz\Supplement\Fields;
 use MusicBrainz\Supplement\Lookup\AreaFields;
 use MusicBrainz\Supplement\Lookup\ArtistFields;
+use MusicBrainz\Supplement\Lookup\CollectionFields;
 use MusicBrainz\Supplement\Lookup\EventFields;
 use MusicBrainz\Supplement\Lookup\InstrumentFields;
 use MusicBrainz\Supplement\Lookup\LabelFields;
@@ -34,21 +36,22 @@ use MusicBrainz\Value\ReleaseGroup;
 use MusicBrainz\Value\Series;
 use MusicBrainz\Value\URL;
 use MusicBrainz\Value\Work;
-use src\Supplement\Lookup\CollectionFields;
+
+use function is_string;
 
 /**
  * Lookups are direct queries for entities specified by a MusicBrainz Identifier (MBID).
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2#Lookups
+ * @link https://musicbrainz.org/doc/MusicBrainz_API#Lookups
  */
-class Lookup
+final class Lookup
 {
     /**
-     * An HTTP adapter
+     * The API client
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $apiClient;
 
     /**
      * The API client configuration
@@ -58,243 +61,240 @@ class Lookup
     private Config $config;
 
     /**
-     * Constructs the search API.
+     * Constructs the lookup API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
-     * @param Config              $config      The API client configuration
+     * @param ApiClient $apiClient The API client
+     * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $apiClient, Config $config)
     {
-        $this->httpAdapter = $httpAdapter;
-        $this->config      = $config;
+        $this->apiClient = $apiClient;
+        $this->config = $config;
     }
 
     /**
-     * Looks up for an area and returns the result.
+     * Looks up an area and returns the result.
      *
-     * @param MBID       $mbid       A Music Brainz Identifier (MBID) of an area
+     * @param MBID       $mbid       A MusicBrainz Identifier (MBID) of an area
      * @param AreaFields $areaFields List of fields to be included in the response
      *
      * @return Area
      */
     public function area(MBID $mbid, AreaFields $areaFields): Area
     {
-        $result = $this->lookup(new EntityType(EntityType::AREA), $mbid, $areaFields);
+        $result = $this->lookup(EntityType::Area, $mbid, $areaFields);
 
-        return new Area($result);
+        return Area::fromArray($result);
     }
 
     /**
-     * Looks up for an artist and returns the result.
+     * Looks up an artist and returns the result.
      *
-     * @param MBID         $mbid         A Music Brainz Identifier (MBID) of an artist
+     * @param MBID         $mbid         A MusicBrainz Identifier (MBID) of an artist
      * @param ArtistFields $artistFields List of fields to be included in the response
      * @return Artist
      */
     public function artist(MBID $mbid, ArtistFields $artistFields): Artist
     {
-        $result = $this->lookup(new EntityType(EntityType::ARTIST), $mbid, $artistFields);
+        $result = $this->lookup(EntityType::Artist, $mbid, $artistFields);
 
-        return new Artist($result);
+        return Artist::fromArray($result);
     }
 
     /**
-     * Looks up for a collection and returns the result.
+     * Looks up a collection and returns the result.
      *
-     * @param MBID $mbid A Music Brainz Identifier (MBID) of a collection
+     * @param MBID $mbid A MusicBrainz Identifier (MBID) of a collection
      *
      * @return Collection
      */
     public function collection(MBID $mbid): Collection
     {
-        $result = $this->lookup(new EntityType(EntityType::COLLECTION), $mbid, new CollectionFields(), true);
+        $result = $this->lookup(EntityType::Collection, $mbid, new CollectionFields());
 
-        return new Collection($result);
+        return Collection::fromArray($result);
     }
 
     /**
-     * Looks up for an event and returns the result.
+     * Looks up an event and returns the result.
      *
-     * @param MBID        $mbid        A Music Brainz Identifier (MBID) of an event
+     * @param MBID        $mbid        A MusicBrainz Identifier (MBID) of an event
      * @param EventFields $eventFields List of fields to be included in the response
      *
      * @return Event
      */
-    public function event(MBID $mbid, EventFields $eventFields)
+    public function event(MBID $mbid, EventFields $eventFields): Event
     {
-        $result = $this->lookup(new EntityType(EntityType::EVENT), $mbid, $eventFields);
+        $result = $this->lookup(EntityType::Event, $mbid, $eventFields);
 
-        return new Event($result);
+        return Event::fromArray($result);
     }
 
     /**
-     * Looks up for an instrument and returns the result.
+     * Looks up an instrument and returns the result.
      *
-     * @param MBID             $mbid             A Music Brainz Identifier (MBID) of an instrument
+     * @param MBID             $mbid             A MusicBrainz Identifier (MBID) of an instrument
      * @param InstrumentFields $instrumentFields List of fields to be included in the response
      *
      * @return Instrument
      */
     public function instrument(MBID $mbid, InstrumentFields $instrumentFields): Instrument
     {
-        $result = $this->lookup(new EntityType(EntityType::INSTRUMENT), $mbid, $instrumentFields);
+        $result = $this->lookup(EntityType::Instrument, $mbid, $instrumentFields);
 
-        return new Instrument($result);
+        return Instrument::fromArray($result);
     }
 
     /**
-     * Looks up for a label and returns the result.
+     * Looks up a label and returns the result.
      *
-     * @param MBID $mbid A Music Brainz Identifier (MBID) of a label
+     * @param MBID   $mbid A MusicBrainz Identifier (MBID) of a label
+     * @param LabelFields $labelFields List of fields to be included in the response
      *
      * @return Label
      */
     public function label(MBID $mbid, LabelFields $labelFields): Label
     {
-        $result = $this->lookup(new EntityType(EntityType::LABEL), $mbid, $labelFields);
+        $result = $this->lookup(EntityType::Label, $mbid, $labelFields);
 
-        return new Label($result);
+        return Label::fromArray($result);
     }
 
     /**
-     * Looks up for a place and returns the result.
+     * Looks up a place and returns the result.
      *
-     * @param MBID        $mbid        A Music Brainz Identifier (MBID) of a label
+     * @param MBID        $mbid        A MusicBrainz Identifier (MBID) of a place
      * @param PlaceFields $placeFields List of fields to be included in the response
      *
      * @return Place
      */
     public function place(MBID $mbid, PlaceFields $placeFields): Place
     {
-        $result = $this->lookup(new EntityType(EntityType::PLACE), $mbid, $placeFields);
+        $result = $this->lookup(EntityType::Place, $mbid, $placeFields);
 
-        return new Place($result);
+        return Place::fromArray($result);
     }
 
     /**
-     * Looks up for a recording and returns the result.
+     * Looks up a recording and returns the result.
      *
-     * @param MBID            $mbid            A Music Brainz Identifier (MBID) of a recording
+     * @param MBID            $mbid            A MusicBrainz Identifier (MBID) of a recording
      * @param RecordingFields $recordingFields List of fields to be included in the response
      *
      * @return Recording
      */
     public function recording(MBID $mbid, RecordingFields $recordingFields): Recording
     {
-        $result = $this->lookup(new EntityType(EntityType::RECORDING), $mbid, $recordingFields);
+        $result = $this->lookup(EntityType::Recording, $mbid, $recordingFields);
 
-        return new Recording($result);
+        return Recording::fromArray($result);
     }
 
     /**
-     * Looks up for a release and returns the result.
+     * Looks up a release and returns the result.
      *
-     * @param MBID          $mbid          A Music Brainz Identifier (MBID) of a release
+     * @param MBID          $mbid          A MusicBrainz Identifier (MBID) of a release
      * @param ReleaseFields $releaseFields List of fields to be included in the response
      *
      * @return Release
      */
     public function release(MBID $mbid, ReleaseFields $releaseFields): Release
     {
-        $result = $this->lookup(new EntityType(EntityType::RELEASE), $mbid, $releaseFields);
+        $result = $this->lookup(EntityType::Release, $mbid, $releaseFields);
 
-        return new Release($result);
+        return Release::fromArray($result);
     }
 
     /**
-     * Looks up for a release group and returns the result.
+     * Looks up a release group and returns the result.
      *
-     * @param MBID               $mbid               A Music Brainz Identifier (MBID) of a release
+     * @param MBID               $mbid               A MusicBrainz Identifier (MBID) of a release
      * @param ReleaseGroupFields $releaseGroupFields List of fields to be included in the response
      *
      * @return ReleaseGroup
      */
     public function releaseGroup(MBID $mbid, ReleaseGroupFields $releaseGroupFields): ReleaseGroup
     {
-        $result = $this->lookup(new EntityType(EntityType::RELEASE_GROUP), $mbid, $releaseGroupFields);
+        $result = $this->lookup(EntityType::ReleaseGroup, $mbid, $releaseGroupFields);
 
-        return new ReleaseGroup($result);
+        return ReleaseGroup::fromArray($result);
     }
 
     /**
-     * Looks up for an URL and returns the result.
+     * Looks up a URL and returns the result.
      *
-     * @param MBID         $mbid         A Music Brainz Identifier (MBID) of a release
+     * @param MBID         $mbid         A MusicBrainz Identifier (MBID) of a series
      * @param SeriesFields $seriesFields List of fields to be included in the response
      *
      * @return Series
      */
     public function series(MBID $mbid, SeriesFields $seriesFields): Series
     {
-        $result = $this->lookup(new EntityType(EntityType::SERIES), $mbid, $seriesFields);
+        $result = $this->lookup(EntityType::Series, $mbid, $seriesFields);
 
-        return new Series($result);
+        return Series::fromArray($result);
     }
 
     /**
-     * Looks up for an URL and returns the result.
+     * Looks up a URL and returns the result.
      *
-     * @param MBID         $mbid          A Music Brainz Identifier (MBID) of a release
+     * @param MBID         $mbid          A MusicBrainz Identifier (MBID) of a URL
      * @param UrlFields $urlFields List of fields to be included in the response
      *
      * @return URL
      */
-    public function url(MBID $mbid, $urlFields): URL
+    public function url(MBID $mbid, UrlFields $urlFields): URL
     {
-        $result = $this->lookup(new EntityType(EntityType::URL), $mbid, $urlFields);
+        $result = $this->lookup(EntityType::Url, $mbid, $urlFields);
 
-        return new URL($result);
+        return URL::fromArray($result);
     }
 
     /**
-     * Looks up for a work and returns the result.
+     * Looks up a work and returns the result.
      *
-     * @param MBID $mbid A Music Brainz Identifier (MBID) of a work
+     * @param MBID   $mbid A MusicBrainz Identifier (MBID) of a work
+     * @param WorkFields $workFields List of fields to be included in the response
      *
      * @return Work
      */
     public function work(MBID $mbid, WorkFields $workFields): Work
     {
-        $result = $this->lookup(new EntityType(EntityType::WORK), $mbid, $workFields);
+        $result = $this->lookup(EntityType::Work, $mbid, $workFields);
 
-        return new Work($result);
+        return Work::fromArray($result);
     }
 
     /**
-     * Looks up for an entity by performing a request to MusicBrainz webservice.
+     * Looks up an entity by performing a request to the MusicBrainz web service.
      *
-     * @link http://musicbrainz.org/doc/XML_Web_Service
+     * @link https://musicbrainz.org/doc/MusicBrainz_API
      *
-     * @param EntityType $entityType   An entity type
-     * @param MBID       $mbid         A MusicBrainz Identifier (MBID)
-     * @param Fields     $includes     A list of include parameters
-     * @param bool       $authRequired True, if user authentication is required
+     * @param EntityType $entityType An entity type
+     * @param MBID       $mbid       A MusicBrainz Identifier (MBID)
+     * @param Fields     $includes   A list of include parameters
      *
-     * @return array
+     * @return array<mixed, mixed>
      */
-    private function lookup(EntityType $entityType, MBID $mbid, Fields $includes, bool $authRequired = false)
+    private function lookup(EntityType $entityType, MBID $mbid, Fields $includes): array
     {
-        $includes = (string) $includes;
-
         $params = [
             'inc' => (string) $includes,
             'fmt' => 'json',
         ];
 
-        if (!empty($includes)) {
-            $params['inc'] = $includes;
-        }
-
-        $authRequired = $authRequired || stripos($includes, 'user');
-
-        $response = $this->httpAdapter->call(
-            str_replace('_', '-', (string) $entityType) .
-            '/' .
-            $mbid,
+        $response = $this->apiClient->call(
+            $entityType->path() . '/' . $mbid,
             $this->config,
             $params,
-            $authRequired
+            str_contains((string) $includes, 'user-')
         );
+
+        if (!is_string($response['id'] ?? null)) {
+            throw new ResponseException('The answer of the web service is no ' . $entityType->value . ': it has no id');
+        }
 
         return $response;
     }

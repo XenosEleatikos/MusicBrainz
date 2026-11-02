@@ -1,0 +1,179 @@
+{
+    "label-offset": 0,
+    "labels": [
+        {
+            "ipis": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "relations": [
+                {
+                    "end": null,
+                    "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+                    "target-credit": "",
+                    "label": {
+                        "name": "EMI Group",
+                        "disambiguation": "aka “Music from EMI” – this is a company, not an imprint! and neither are its regional subsidiaries",
+                        "type": "Holding",
+                        "sort-name": "EMI Group",
+                        "id": "a8f3eb19-05db-4895-b1d2-7ec911022a5e",
+                        "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                        "label-code": null
+                    },
+                    "source-credit": "",
+                    "type": "label ownership",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "backward",
+                    "ended": false,
+                    "target-type": "label"
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+                    "url": {
+                        "id": "3a7f701e-f4b4-4e80-8b3f-3b4aed94935b",
+                        "resource": "https://www.discogs.com/label/435912"
+                    },
+                    "type": "discogs",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward"
+                },
+                {
+                    "type": "purchase for download",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "end": null,
+                    "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "url": {
+                        "id": "065232b9-8c7f-4be2-9574-823f47739199",
+                        "resource": "https://www.qobuz.com/gb-en/label/emi-catalogue-1/download-streaming-albums/68307"
+                    }
+                },
+                {
+                    "type": "streaming",
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "type-id": "cbe05bdd-a877-4cc6-8060-7ba43a2516ef",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "url": {
+                        "resource": "https://www.qobuz.com/gb-en/label/emi-catalogue-1/download-streaming-albums/68307",
+                        "id": "065232b9-8c7f-4be2-9574-823f47739199"
+                    }
+                },
+                {
+                    "end": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                    "type": "publishing",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "ended": false,
+                    "work": {
+                        "id": "03c5c6a7-9a7d-3670-80b9-26a1f581614b",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "type": "Song",
+                        "iswcs": [
+                            "T-070.041.446-5"
+                        ],
+                        "title": "Delta Dawn",
+                        "disambiguation": "",
+                        "languages": [
+                            "eng"
+                        ],
+                        "attributes": [],
+                        "language": "eng"
+                    },
+                    "target-type": "work",
+                    "direction": "forward"
+                },
+                {
+                    "type": "publishing",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "work",
+                    "work": {
+                        "iswcs": [
+                            "T-070.153.342-7"
+                        ],
+                        "title": "Needles and Pins",
+                        "disambiguation": "",
+                        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                        "id": "c912a864-2361-3a24-bd5d-5287adfb5fe6",
+                        "type": "Song",
+                        "attributes": [],
+                        "language": "eng",
+                        "languages": [
+                            "eng"
+                        ]
+                    },
+                    "ended": false,
+                    "direction": "forward",
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3"
+                }
+            ],
+            "disambiguation": "",
+            "annotation": null,
+            "area": {
+                "sort-name": "United Kingdom",
+                "type": null,
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type-id": null,
+                "name": "United Kingdom",
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "GB"
+                ]
+            },
+            "type-id": null,
+            "tags": [],
+            "label-code": null,
+            "aliases": [],
+            "country": "GB",
+            "isnis": [],
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "name": "EMI Catalogue",
+            "id": "ad4aeb00-9557-4a95-a111-5d422e65b1c6",
+            "sort-name": "EMI Catalogue",
+            "type": null,
+            "genres": []
+        }
+    ],
+    "label-count": 1
+}

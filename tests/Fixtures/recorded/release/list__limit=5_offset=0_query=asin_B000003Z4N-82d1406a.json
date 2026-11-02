@@ -1,0 +1,153 @@
+{
+    "created": "2026-11-01T19:28:45.842Z",
+    "count": 2,
+    "offset": 0,
+    "releases": [
+        {
+            "id": "f627eea8-6862-3eec-96fe-458543738a76",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+            "artist-credit-id": "18dac13e-92f1-389e-b031-eca05eee5027",
+            "count": 1,
+            "title": "Live Seeds",
+            "status": "Official",
+            "packaging": "Jewel Case",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "name": "Nick Cave & the Bad Seeds",
+                    "artist": {
+                        "id": "172e1f1a-504d-4488-b053-6344ba63e6d0",
+                        "name": "Nick Cave & the Bad Seeds",
+                        "sort-name": "Cave, Nick & the Bad Seeds"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "ed4bb6ce-ace6-3841-931b-7f8f0bcfe806",
+                "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Live Seeds",
+                "primary-type": "Album",
+                "secondary-types": [
+                    "Live"
+                ],
+                "secondary-type-ids": [
+                    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                ]
+            },
+            "date": "1996-08-05",
+            "country": "GB",
+            "release-events": [
+                {
+                    "date": "1996-08-05",
+                    "area": {
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "name": "United Kingdom",
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "724348436528",
+            "asin": "B000003Z4N",
+            "label-info": [
+                {
+                    "catalog-number": "MUTE INT 846.930",
+                    "label": {
+                        "id": "e0b106a5-4add-4839-9e40-c192457e1bf8",
+                        "name": "Mute"
+                    }
+                }
+            ],
+            "track-count": 13,
+            "media": [
+                {
+                    "id": "3c8ff552-a514-3cf4-9e79-1944a1f37797",
+                    "format": "CD",
+                    "disc-count": 7,
+                    "track-count": 13
+                }
+            ]
+        },
+        {
+            "id": "8d4688ab-2246-4bc4-9d03-86edfe91a9f4",
+            "score": 100,
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "packaging-id": "9f2e13bc-f84f-428a-8342-fd86ece7fc4d",
+            "artist-credit-id": "18dac13e-92f1-389e-b031-eca05eee5027",
+            "count": 1,
+            "title": "Live Seeds",
+            "status": "Official",
+            "packaging": "Digibook",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "artist-credit": [
+                {
+                    "name": "Nick Cave & the Bad Seeds",
+                    "artist": {
+                        "id": "172e1f1a-504d-4488-b053-6344ba63e6d0",
+                        "name": "Nick Cave & the Bad Seeds",
+                        "sort-name": "Cave, Nick & the Bad Seeds"
+                    }
+                }
+            ],
+            "release-group": {
+                "id": "ed4bb6ce-ace6-3841-931b-7f8f0bcfe806",
+                "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Live Seeds",
+                "primary-type": "Album",
+                "secondary-types": [
+                    "Live"
+                ],
+                "secondary-type-ids": [
+                    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                ]
+            },
+            "date": "1993-09-06",
+            "country": "GB",
+            "release-events": [
+                {
+                    "date": "1993-09-06",
+                    "area": {
+                        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                        "name": "United Kingdom",
+                        "sort-name": "United Kingdom",
+                        "iso-3166-1-codes": [
+                            "GB"
+                        ]
+                    }
+                }
+            ],
+            "barcode": "5016025611225",
+            "asin": "B000003Z4N",
+            "label-info": [
+                {
+                    "catalog-number": "CD STUMM 122",
+                    "label": {
+                        "id": "e0b106a5-4add-4839-9e40-c192457e1bf8",
+                        "name": "Mute"
+                    }
+                }
+            ],
+            "track-count": 13,
+            "media": [
+                {
+                    "id": "a4ba0bef-2baf-3508-a979-e8cfcdf0af4a",
+                    "format": "CD",
+                    "disc-count": 6,
+                    "track-count": 13
+                }
+            ]
+        }
+    ]
+}

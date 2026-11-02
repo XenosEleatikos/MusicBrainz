@@ -4,45 +4,25 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
 
 /**
- * A text representation
+ * Language and script of a release's text (ISO 639-3 and ISO 15924)
  */
-class TextRepresentation implements Value
+final readonly class TextRepresentation implements Parsable
 {
-    use Property\LanguageTrait;
-    use Property\ScriptTrait;
+    public function __construct(
+        public ?string $language = null,
+        public ?string $script = null,
+    ) {}
 
     /**
-     * Constructs a text representation.
+     * @param array<mixed> $data
      *
-     * @param array $textRepresentation Array of information about a text representation
+     * @internal
      */
-    public function __construct(array $textRepresentation = [])
+    public static function fromArray(array $data): static
     {
-        $this->setLanguageFromArray($textRepresentation);
-        $this->setScriptFromArray($textRepresentation);
-    }
-
-    /**
-     * Returns the text representation as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        if (empty((string) $this->getScript())) {
-            $textRepresentation = (empty((string) $this->getLanguage()))
-                ? ''
-                : (string) $this->getLanguage();
-        } else {
-            $textRepresentation = $this->getScript();
-            $textRepresentation .= (empty((string) $this->getLanguage()))
-                ? ''
-                : ' (' . $this->getLanguage() . ')';
-        }
-
-        return $textRepresentation;
+        return new self(ArrayAccess::getString($data, 'language'), ArrayAccess::getString($data, 'script'));
     }
 }

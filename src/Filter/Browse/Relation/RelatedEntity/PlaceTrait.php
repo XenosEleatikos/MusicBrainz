@@ -4,24 +4,21 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 use MusicBrainz\Value\MBID;
 
 /**
- * Provides a setter for the entity type place.
+ * Provides the relation "linked to a place".
  */
 trait PlaceTrait
 {
     /**
-     * Defines a relation to place.
+     * Browses the entities linked to a place.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related place
-     *
-     * @return void
+     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the place
      */
-    public function place(MBID $mbid): void
+    public static function place(MBID $mbid): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::PLACE));
+        return new static(BrowseParameter::Place, $mbid);
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Work\Work;
 
 use MusicBrainz\Relation\Type\Work\Work;
-use MusicBrainz\Value\Name;
 
 /**
  * This links two versions of a work.
@@ -17,10 +16,10 @@ class OtherVersion extends Work
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('other version');
+        return 'other version';
     }
 }

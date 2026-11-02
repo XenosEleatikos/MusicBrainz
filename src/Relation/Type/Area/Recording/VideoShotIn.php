@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Recording;
 
 use MusicBrainz\Relation\Type\Area\Recording;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the video was shot in this area.
@@ -17,10 +16,10 @@ class VideoShotIn extends Recording
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('video shot in');
+        return 'video shot in';
     }
 }

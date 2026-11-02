@@ -1,0 +1,421 @@
+{
+    "created": "2026-11-01T12:54:07.085Z",
+    "count": 848,
+    "offset": 0,
+    "recordings": [
+        {
+            "id": "17eb3129-0f17-403f-bea0-b524d6ffb770",
+            "score": 100,
+            "artist-credit-id": "60ae677c-0566-3074-a500-9ae7ba261602",
+            "title": "Bohemian Rhapsody",
+            "length": 316026,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "The Phones",
+                    "artist": {
+                        "id": "f7b5c78e-e832-4782-94f7-5c788ab6ddd9",
+                        "name": "The Phones",
+                        "sort-name": "Phones, The",
+                        "disambiguation": "Australian a cappella group"
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "07490e7c-f458-4753-b35a-69b80a964c31",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Voices",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "1711436f-cd41-302b-be3a-1580d8f821b1",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Voices",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "id": "61351979-243b-353a-8443-8f4f20f9de4a",
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "a1773d90-e2d4-3f77-91da-df38f76afa8c",
+                                    "number": "9",
+                                    "title": "Bohemian Rhapsody",
+                                    "length": 316026
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d480d302-577d-44c0-b502-99b678d11640",
+            "score": 100,
+            "artist-credit-id": "528bb715-eb07-3136-b429-745f6915eea4",
+            "title": "Bohemian Rhapsody",
+            "length": 424000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "Áspid",
+                    "artist": {
+                        "id": "779c364e-3a3a-4a0a-a843-f22358ed0bb3",
+                        "name": "Áspid",
+                        "sort-name": "Áspid",
+                        "disambiguation": "Spanish metal",
+                        "aliases": [
+                            {
+                                "sort-name": "Aspid",
+                                "name": "Aspid",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "first-release-date": "2004",
+            "releases": [
+                {
+                    "id": "7063ccc5-f7c3-470c-8758-6d077e892c0a",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "artist-credit-id": "528bb715-eb07-3136-b429-745f6915eea4",
+                    "count": 1,
+                    "title": "Latiendo vivo",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "Áspid",
+                            "artist": {
+                                "id": "779c364e-3a3a-4a0a-a843-f22358ed0bb3",
+                                "name": "Áspid",
+                                "sort-name": "Áspid",
+                                "disambiguation": "Spanish metal"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "aa88b5a3-37d9-310e-8e23-4e05ebdd96fc",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Latiendo vivo",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "date": "2004",
+                    "country": "ES",
+                    "release-events": [
+                        {
+                            "date": "2004",
+                            "area": {
+                                "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+                                "name": "Spain",
+                                "sort-name": "Spain",
+                                "iso-3166-1-codes": [
+                                    "ES"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "id": "a1ae8f4f-5668-3e41-9202-9d7797369dd6",
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "5aec89d0-6135-3626-af35-31336dae66f3",
+                                    "number": "13",
+                                    "title": "Bohemian Rhapsody",
+                                    "length": 424000
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ea1bf0b5-e7a9-45d8-bbee-bf058f62537d",
+            "score": 100,
+            "artist-credit-id": "1534d1e8-7e7c-39b8-9520-5091df6243c3",
+            "title": "Bohemian Rhapsody",
+            "length": 425440,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "California Guitar Trio",
+                    "artist": {
+                        "id": "9cf33209-55f0-4f75-bd9c-30623db33b16",
+                        "name": "California Guitar Trio",
+                        "sort-name": "California Guitar Trio",
+                        "aliases": [
+                            {
+                                "sort-name": "The California Guitar Trio",
+                                "name": "The California Guitar Trio",
+                                "locale": null,
+                                "type": null,
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "ce5467f9-b8e2-45ec-80a6-2eed63f6e676",
+                    "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+                    "artist-credit-id": "1534d1e8-7e7c-39b8-9520-5091df6243c3",
+                    "count": 1,
+                    "title": "Monterey Mexico 10-29-03",
+                    "status": "Bootleg",
+                    "artist-credit": [
+                        {
+                            "name": "California Guitar Trio",
+                            "artist": {
+                                "id": "9cf33209-55f0-4f75-bd9c-30623db33b16",
+                                "name": "California Guitar Trio",
+                                "sort-name": "California Guitar Trio"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "23a919b4-9800-30d7-88a9-6f1cc65de13b",
+                        "type-id": "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Monterey Mexico 10-29-03",
+                        "primary-type": "Album",
+                        "secondary-types": [
+                            "Live"
+                        ],
+                        "secondary-type-ids": [
+                            "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                        ]
+                    },
+                    "track-count": 16,
+                    "media": [
+                        {
+                            "id": "15b8659b-6146-320c-8c60-7b9aeef8aba9",
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "60b99d1e-369a-3bac-88f5-a86361d67801",
+                                    "number": "15",
+                                    "title": "Bohemian Rhapsody",
+                                    "length": 425440
+                                }
+                            ],
+                            "track-count": 16,
+                            "track-offset": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f2f4639e-5238-4061-ad9d-4ac16d40c805",
+            "score": 100,
+            "artist-credit-id": "ed803673-30e3-3aa2-b381-607e19009b48",
+            "title": "Bohemian Rhapsody",
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "The Hampton String Quartet",
+                    "artist": {
+                        "id": "32814939-1b8c-4644-98f0-839e134359cf",
+                        "name": "The Hampton String Quartet",
+                        "sort-name": "Hampton String Quartet, The",
+                        "aliases": [
+                            {
+                                "sort-name": "Hampton Rock String Quartet",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "The Hampton Rock String Quartet",
+                                "locale": null,
+                                "type": "Artist name",
+                                "primary": null,
+                                "begin-date": null,
+                                "end-date": null
+                            }
+                        ]
+                    }
+                }
+            ],
+            "releases": [
+                {
+                    "id": "8e425420-db08-405e-ae1f-a0793b5e2ec5",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "artist-credit-id": "ed803673-30e3-3aa2-b381-607e19009b48",
+                    "count": 1,
+                    "title": "HSQ Rides Again",
+                    "status": "Official",
+                    "artist-credit": [
+                        {
+                            "name": "The Hampton String Quartet",
+                            "artist": {
+                                "id": "32814939-1b8c-4644-98f0-839e134359cf",
+                                "name": "The Hampton String Quartet",
+                                "sort-name": "Hampton String Quartet, The"
+                            }
+                        }
+                    ],
+                    "release-group": {
+                        "id": "3a81d187-0e51-380c-842d-089c523cf3fa",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "HSQ Rides Again",
+                        "primary-type": "Album"
+                    },
+                    "track-count": 14,
+                    "media": [
+                        {
+                            "id": "2e8df11c-ae76-3035-9345-1028f43be4f3",
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "f186fd6d-acb4-34ef-9781-63ef2414ab71",
+                                    "number": "14",
+                                    "title": "Bohemian Rhapsody"
+                                }
+                            ],
+                            "track-count": 14,
+                            "track-offset": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "79d660ef-dd32-4c5c-b2aa-a9d736cd2396",
+            "score": 100,
+            "artist-credit-id": "f1ade88a-24c9-3b94-b40e-374fbaa82ced",
+            "title": "Bohemian Rhapsody",
+            "length": 325000,
+            "video": null,
+            "artist-credit": [
+                {
+                    "name": "The Allen Toussaint Orchestra",
+                    "artist": {
+                        "id": "b8504843-eca9-49e9-ae94-f44995bd1afe",
+                        "name": "The Allen Toussaint Orchestra",
+                        "sort-name": "Toussaint, Allen, The, Orchestra"
+                    }
+                }
+            ],
+            "first-release-date": "1988",
+            "releases": [
+                {
+                    "id": "31996c99-f324-4564-bece-be3b7abf79fe",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Classic Rock Symphonies",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "c7f53404-29b7-36ff-9e56-4c41ec3e1ace",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Classic Rock Symphonies",
+                        "primary-type": "Album"
+                    },
+                    "date": "1988",
+                    "country": "XE",
+                    "release-events": [
+                        {
+                            "date": "1988",
+                            "area": {
+                                "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                                "name": "Europe",
+                                "sort-name": "Europe",
+                                "iso-3166-1-codes": [
+                                    "XE"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "id": "3435d657-5326-35af-96f7-b6d00332b5aa",
+                            "position": 1,
+                            "format": "CD",
+                            "track": [
+                                {
+                                    "id": "1b68aa84-a302-4ef2-8da6-153303c21932",
+                                    "number": "2",
+                                    "title": "Bohemian Rhapsody",
+                                    "length": 328773
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 1
+                        }
+                    ]
+                },
+                {
+                    "id": "26615ec9-7f1b-48bb-839d-f31eb2642aac",
+                    "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+                    "count": 1,
+                    "title": "Classic Rock Symphonies",
+                    "status": "Official",
+                    "release-group": {
+                        "id": "c7f53404-29b7-36ff-9e56-4c41ec3e1ace",
+                        "type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                        "title": "Classic Rock Symphonies",
+                        "primary-type": "Album"
+                    },
+                    "date": "1995",
+                    "country": "US",
+                    "release-events": [
+                        {
+                            "date": "1995",
+                            "area": {
+                                "id": "489ce91b-6658-3307-9877-795b68554c98",
+                                "name": "United States",
+                                "sort-name": "United States",
+                                "iso-3166-1-codes": [
+                                    "US"
+                                ]
+                            }
+                        }
+                    ],
+                    "track-count": 12,
+                    "media": [
+                        {
+                            "id": "72ba7d0d-2869-3c86-86a4-9a0bab75daf5",
+                            "position": 1,
+                            "track": [
+                                {
+                                    "id": "b9b57bd2-cc02-39f4-92f2-e8a2b9b8b886",
+                                    "number": "2",
+                                    "title": "Bohemian Rhapsody",
+                                    "length": 325000
+                                }
+                            ],
+                            "track-count": 12,
+                            "track-offset": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

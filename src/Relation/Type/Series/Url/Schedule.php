@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Series\Url;
 
 use MusicBrainz\Relation\Type\Series\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates a page with an official schedule for an event series.
@@ -17,10 +16,10 @@ class Schedule extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('schedule');
+        return 'schedule';
     }
 }

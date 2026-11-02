@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\ReleaseType;
+use MusicBrainz\Value\PrimaryReleaseTypeKind;
 
 trait PrimaryTypeTrait
 {
@@ -15,6 +14,8 @@ trait PrimaryTypeTrait
      * Returns the field name for the primary release type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function primaryType(): string
     {
@@ -24,12 +25,14 @@ trait PrimaryTypeTrait
     /**
      * Adds the primary release type of the release group.
      *
-     * @param ReleaseType $primaryType The primary release type of the release group
+     * @param PrimaryReleaseTypeKind $primaryType The primary release type of the release group
      *
-     * @return Term
+     * @return static
      */
-    public function addPrimaryType(ReleaseType $primaryType): Term
+    public function addPrimaryType(PrimaryReleaseTypeKind $primaryType): static
     {
-        return $this->addTerm((string) $primaryType, self::primaryType());
+        $this->addPhrase($primaryType->value, self::primaryType());
+
+        return $this;
     }
 }

@@ -1,0 +1,198 @@
+{
+    "created": "2026-11-01T12:54:03.557Z",
+    "count": 26,
+    "offset": 0,
+    "labels": [
+        {
+            "id": "df7d1c7f-ef95-425f-8eef-445b3d7bcbd9",
+            "type": "Original Production",
+            "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+            "score": 100,
+            "name": "Parlophone",
+            "sort-name": "Parlophone",
+            "label-code": 299,
+            "country": "GB",
+            "area": {
+                "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "United Kingdom",
+                "sort-name": "United Kingdom",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "1896",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Parlophone UK",
+                    "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                    "name": "Parlophone UK",
+                    "locale": "en_GB",
+                    "type": "Label name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Parlophone Records",
+                    "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                    "name": "Parlophone Records",
+                    "locale": "en",
+                    "type": "Label name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "パーロフォン",
+                    "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                    "name": "パーロフォン",
+                    "locale": "ja",
+                    "type": "Label name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Parlophon",
+                    "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                    "name": "Parlophon",
+                    "locale": "de",
+                    "type": "Label name",
+                    "primary": true,
+                    "begin-date": null,
+                    "end-date": null
+                },
+                {
+                    "sort-name": "Parlaphone",
+                    "type-id": "829662f2-a781-3ec8-8b46-fbcea6196f81",
+                    "name": "Parlaphone",
+                    "locale": null,
+                    "type": "Search hint",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "rock"
+                },
+                {
+                    "count": 1,
+                    "name": "pop"
+                }
+            ]
+        },
+        {
+            "id": "0b81e41d-3029-47dd-847e-12e0195ad4ba",
+            "type": "Production",
+            "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+            "score": 74,
+            "name": "Parlophone France",
+            "sort-name": "Parlophone France",
+            "ipis": [
+                "00602309982"
+            ],
+            "disambiguation": "fka Parlophone Music France",
+            "area": {
+                "id": "dc10c22b-e510-4006-8b7f-fecb4f36436e",
+                "type": "City",
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                "name": "Paris",
+                "sort-name": "Paris",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "begin": "2013-06-03",
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Parlophone Music France",
+                    "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                    "name": "Parlophone Music France",
+                    "locale": null,
+                    "type": "Label name",
+                    "primary": null,
+                    "begin-date": "2013",
+                    "end-date": null
+                }
+            ],
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "clean up"
+                }
+            ]
+        },
+        {
+            "id": "d84ce802-0fce-4323-9096-a27463e55f4d",
+            "score": 67,
+            "name": "Parlophone Sweden",
+            "sort-name": "Parlophone Sweden",
+            "life-span": {
+                "ended": null
+            },
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "clean up"
+                }
+            ]
+        },
+        {
+            "id": "f50f06d2-e8bb-41f4-aa88-cf2e80c4f097",
+            "type": "Bootleg Production",
+            "type-id": "fdac9b96-359b-3488-9322-ad99c2473636",
+            "score": 65,
+            "name": "Parlophone",
+            "sort-name": "Parlophone",
+            "disambiguation": "BOOTLEG LABEL pretending to be the real one",
+            "life-span": {
+                "ended": null
+            }
+        },
+        {
+            "id": "01ad5e97-2bb6-451b-b0c5-02dc3fa90b03",
+            "type": "Production",
+            "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+            "score": 60,
+            "name": "Parlophone Norway",
+            "sort-name": "Parlophone Norway",
+            "country": "NO",
+            "area": {
+                "id": "6743d351-6f37-3049-9724-5041161fff4d",
+                "type": "Country",
+                "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+                "name": "Norway",
+                "sort-name": "Norway",
+                "life-span": {
+                    "ended": null
+                }
+            },
+            "life-span": {
+                "ended": null
+            },
+            "aliases": [
+                {
+                    "sort-name": "Parlophone Music Norway",
+                    "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+                    "name": "Parlophone Music Norway",
+                    "locale": null,
+                    "type": "Label name",
+                    "primary": null,
+                    "begin-date": null,
+                    "end-date": null
+                }
+            ]
+        }
+    ]
+}

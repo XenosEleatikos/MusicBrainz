@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Count;
+use MusicBrainz\Filter\Value\Count;
 
 trait NumberOfReleasesTrait
 {
@@ -15,6 +14,8 @@ trait NumberOfReleasesTrait
      * Returns the field name for the number of releases.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfReleases(): string
     {
@@ -26,10 +27,12 @@ trait NumberOfReleasesTrait
      *
      * @param Count $numberOfReleases The number of releases in the release group
      *
-     * @return Term
+     * @return static
      */
-    public function addNumberOfReleases(Count $numberOfReleases): Term
+    public function addNumberOfReleases(Count $numberOfReleases): static
     {
-        return $this->addTerm((string) $numberOfReleases, self::numberOfReleases());
+        $this->addTerm((string) $numberOfReleases, self::numberOfReleases());
+
+        return $this;
     }
 }

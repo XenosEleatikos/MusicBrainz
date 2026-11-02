@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Engineer\Mastering;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Engineer\Mastering;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a release to the engineer who did the lacquer cutting for it.
@@ -17,10 +16,10 @@ class LacquerCut extends Mastering
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('lacquer cut');
+        return 'lacquer cut';
     }
 }

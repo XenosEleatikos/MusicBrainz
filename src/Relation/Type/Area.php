@@ -19,6 +19,6 @@ abstract class Area extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::AREA);
+        return EntityType::Area;
     }
 }

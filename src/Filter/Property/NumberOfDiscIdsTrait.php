@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Count;
+use MusicBrainz\Filter\Value\Count;
 
 trait NumberOfDiscIdsTrait
 {
@@ -15,6 +14,8 @@ trait NumberOfDiscIdsTrait
      * Returns the field name for the number of disc IDs.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfDiscIds(): string
     {
@@ -26,10 +27,12 @@ trait NumberOfDiscIdsTrait
      *
      * @param Count $numberOfDiscIds The total number of cd ids over all mediums for the release
      *
-     * @return Term
+     * @return static
      */
-    public function addNumberOfDiscIds(Count $numberOfDiscIds): Term
+    public function addNumberOfDiscIds(Count $numberOfDiscIds): static
     {
-        return $this->addTerm((string) $numberOfDiscIds, self::numberOfDiscIds());
+        $this->addTerm((string) $numberOfDiscIds, self::numberOfDiscIds());
+
+        return $this;
     }
 }

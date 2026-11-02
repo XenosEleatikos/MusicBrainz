@@ -5,10 +5,9 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Instrument\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Instrument\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is deprecated and should not be used.
+ * Points to the Wikipedia page for this instrument.
  *
  * @link https://musicbrainz.org/relationship/b21fd997-c813-3bc6-99cc-c64323bd15d3
  */
@@ -17,10 +16,10 @@ class Wikipedia extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('wikipedia');
+        return 'wikipedia';
     }
 }

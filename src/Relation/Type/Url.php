@@ -19,6 +19,6 @@ abstract class Url extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::URL);
+        return EntityType::Url;
     }
 }

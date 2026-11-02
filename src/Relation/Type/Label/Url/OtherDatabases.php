@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url;
 
 use MusicBrainz\Relation\Type\Label\Url;
-use MusicBrainz\Value\Name;
 
 /**
  * This links an entity to the equivalent entry in another database. Please respect the whitelist.
@@ -17,10 +16,10 @@ class OtherDatabases extends Url
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('other databases');
+        return 'other databases';
     }
 }

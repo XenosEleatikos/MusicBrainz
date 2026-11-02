@@ -1,0 +1,40 @@
+{
+    "sort-name": "Radiohead",
+    "name": "Radiohead",
+    "isnis": [
+        "0000000115475162"
+    ],
+    "ipis": [],
+    "disambiguation": "",
+    "gender": null,
+    "begin-area": {
+        "sort-name": "Abingdon-on-Thames",
+        "name": "Abingdon-on-Thames",
+        "type": null,
+        "disambiguation": "",
+        "id": "d840d4b3-8987-4626-928b-398de760cc24",
+        "type-id": null
+    },
+    "area": {
+        "type-id": null,
+        "disambiguation": "",
+        "type": null,
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "sort-name": "United Kingdom",
+        "name": "United Kingdom",
+        "iso-3166-1-codes": [
+            "GB"
+        ]
+    },
+    "gender-id": null,
+    "country": "GB",
+    "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "1991"
+    },
+    "type": "Group",
+    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+    "end-area": null
+}

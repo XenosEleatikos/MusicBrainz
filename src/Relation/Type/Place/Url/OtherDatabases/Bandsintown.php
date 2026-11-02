@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Url\OtherDatabases;
 
 use MusicBrainz\Relation\Type\Place\Url\OtherDatabases;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type links a place to its corresponding page at Bandsintown.
@@ -17,10 +16,10 @@ class Bandsintown extends OtherDatabases
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('bandsintown');
+        return 'bandsintown';
     }
 }

@@ -4,56 +4,82 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\ReleaseGroupRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * A release group
- * A release group, just as the name suggests, is used to group several different releases into a single logical entity.
- * Every release belongs to one, and only one release group.
- * Both release groups and releases are "albums" in a general sense, but with an important difference: a release is
- * something you can buy as media such as a CD or a vinyl record, while a release group embraces the overall concept of
- * an album - it doesn't matter how many CDs or editions/versions it had.
- * When an artist says "We've released our new album", they're talking about a release group. When their publisher says
- * "This new album gets released next week in Japan and next month in Europe", they're referring to the different
- * releases that belong in the above mentioned release group.
- * MusicBrainz automatically considers every release in the database to be part of a release group, even if this group
- * only contains the one release. When a brand new release is added to the database, a new release group is
- * automatically added as well.
+ * A release group: an abstract "album" that groups the different releases of it.
  *
- * @link https://musicbrainz.org/doc/Release_Group
+ * @see https://musicbrainz.org/doc/Release_Group
  */
-class ReleaseGroup implements Value
+final readonly class ReleaseGroup implements Entity
 {
-    use Property\TitleTrait;
-    use Property\MBIDTrait;
-    use Property\DisambiguationTrait;
-    use Property\PrimaryReleaseTypeTrait;
-    use Property\SecondaryReleaseTypesListTrait;
-    use ReleaseGroupRelationListTrait;
+    /**
+     * @param list<SecondaryReleaseType> $secondaryTypes
+     * @param list<ArtistCredit> $artistCredits
+     * @param list<Release> $releases
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $title = '',
+        public string $disambiguation = '',
+        public ?PrimaryReleaseType $primaryType = null,
+        public array $secondaryTypes = [],
+        public array $artistCredits = [],
+        public ?MBID $artistCreditId = null,
+        public ?Date $firstReleaseDate = null,
+        public array $releases = [],
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs a release group.
+     * @param array<mixed> $data A decoded releasegroup of the web service
      *
-     * @param array $releaseGroup Information about the release group
+     * @internal
      */
-    public function __construct(array $releaseGroup = [])
+    public static function fromArray(array $data): static
     {
-        $this->setTitleFromArray($releaseGroup);
-        $this->setMbidFromArray($releaseGroup);
-        $this->setDisambiguationFromArray($releaseGroup);
-        $this->setPrimaryReleaseTypeFromArray($releaseGroup);
-        $this->setSecondaryReleaseTypesFromArray($releaseGroup);
-        $this->setRelationsFromArray($releaseGroup);
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'title') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            PrimaryReleaseType::fromKeys($data, 'primary-type', 'primary-type-id'),
+            self::secondaryTypes($data),
+            Json::list($data, 'artist-credit', ArtistCredit::class),
+            Json::id($data, 'artist-credit-id'),
+            Json::date($data, 'first-release-date'),
+            Json::list($data, 'releases', Release::class),
+            ...SharedFields::parse($data),
+        );
     }
 
     /**
-     * Returns the release group as string.
+     * @param array<mixed> $data
      *
-     * @return string
+     * @return list<SecondaryReleaseType>
      */
-    public function __toString(): string
+    private static function secondaryTypes(array $data): array
     {
-        return (string) $this->getTitle();
+        $ids = Json::strings($data, 'secondary-type-ids');
+        $types = [];
+        foreach (Json::strings($data, 'secondary-types') as $index => $name) {
+            $types[] = SecondaryReleaseType::make($name, $ids[$index] ?? null);
+        }
+
+        return $types;
     }
 }

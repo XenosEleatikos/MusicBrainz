@@ -4,112 +4,119 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use DateTime;
-use MusicBrainz\Value;
+use DateTimeImmutable;
+use MusicBrainz\InvalidArgumentException;
+use MusicBrainz\MusicBrainz;
+use Stringable;
+
+use function in_array;
+use function preg_match;
 
 /**
- * A date
+ * A date as MusicBrainz knows it: a year, a year and a month, or a full date. The precision is kept. Parts may be unknown,
+ * which MusicBrainz writes as question marks.
+ *
+ * Supported are "YYYY", "YYYY-MM", "YYYY-MM-DD" (years before the common era have a minus sign and at least three digits,
+ * as in "-070") and the forms with unknown parts: "YYYY-??-DD" (day known, month unknown),
+ * "????-MM" and "????-MM-DD" (year unknown) and "????-??-DD" (only the day is known). Anything else, and impossible
+ * dates such as "2017-02-30", are refused.
  */
-class Date implements Value
+final readonly class Date implements Stringable
 {
     /**
-     * The original given date format
-     * This value is necessary to interpret the date time object correctly. As the date time object always points to
-     * an exact point of time, it will point to 2017/01/01 at 00:00 a. m. if constructed by the string "2017" that
-     * intends to mean "sometime in 2017".
-     *
-     * @var null|string
+     * The format of the given date: "Y", "Y-m", "Y-m-d", or with unknown parts "Y-??-d", "????-m", "????-m-d" and
+     * "????-??-d".
      */
-    private $originalFormat;
+    public string $originalFormat;
+
+    /** The year, null if it is unknown; negative before the common era */
+    public ?int $year;
+
+    /** The month, null if it is unknown or not given */
+    public ?int $month;
+
+    /** The day, null if it is unknown or not given */
+    public ?int $day;
 
     /**
-     * Date and time
+     * The first moment of the period the date names, or null if the year is unknown.
      *
-     * @var null|DateTime
+     * This is necessary to interpret the date time correctly: it always points to an exact point of time, and will be
+     * 2017-01-01 at 00:00 if constructed by "2017", which means "sometime in 2017". If the month is unknown
+     * ("2017-??-05") it is January.
      */
-    private $dateTime;
+    public ?DateTimeImmutable $dateTime;
 
     /**
-     * Constructs a date
+     * @param string $value A date in one of the supported formats
      *
-     * @param string $date A date formatted as defined on top
+     * @throws InvalidArgumentException
      */
-    public function __construct(string $date = '')
+    public function __construct(public string $value)
     {
-        if (empty($date)) {
-            return;
+        if (1 !== preg_match('/^(-[0-9]{3,}|[0-9]{4}|\?{4})(?:-([0-9]{2}|\?\?)(?:-([0-9]{2}))?)?$/', $value, $match)) {
+            throw new InvalidArgumentException('"' . $value . '" is not a date (YYYY, YYYY-MM or YYYY-MM-DD, parts may be unknown: ?)');
+        }
+        $year = '????' === $match[1] ? null : (int) $match[1];
+        $monthGiven = isset($match[2]);
+        $month = !$monthGiven || '??' === $match[2] ? null : (int) $match[2];
+        $day = isset($match[3]) ? (int) $match[3] : null;
+
+        // "????" and "????-??" tell nothing; an unknown month needs a day, as it would be a plain year otherwise
+        if (null === $year && null === $month && null === $day) {
+            throw new InvalidArgumentException('"' . $value . '" is not a date: nothing of it is known');
+        }
+        if ($monthGiven && null === $month && null === $day) {
+            throw new InvalidArgumentException('"' . $value . '" is not a date: an unknown month needs a known day');
+        }
+        if (null !== $month && ($month < 1 || $month > 12)) {
+            throw new InvalidArgumentException('"' . $value . '" is not a possible date');
+        }
+        if (null !== $day) {
+            // Without a year a leap year is assumed, without a month the longest month
+            $longest = null === $month ? 31 : self::daysInMonth($month, $year ?? 2000);
+            if ($day < 1 || $day > $longest) {
+                throw new InvalidArgumentException('"' . $value . '" is not a possible date');
+            }
         }
 
-        $this->originalFormat = $this->getFormat($date);
+        $this->originalFormat = (null === $year ? '????' : 'Y')
+            . ($monthGiven ? '-' . (null === $month ? '??' : 'm') : '')
+            . (null !== $day ? '-d' : '');
+        $this->year = $year;
+        $this->month = $month;
+        $this->day = $day;
+        $this->dateTime = null === $year ? null : (new DateTimeImmutable('2000-01-01 00:00:00'))->setDate($year, $month ?? 1, $day ?? 1);
+    }
 
-        if (null === $this->originalFormat) {
-            return;
+    private static function daysInMonth(int $month, int $year): int
+    {
+        if (2 === $month) {
+            return (0 === $year % 4 && 0 !== $year % 100) || 0 === $year % 400 ? 29 : 28;
         }
 
-        $dateTime = DateTime::createFromFormat('!' . $this->originalFormat, $date);
-
-        $this->dateTime = ($dateTime && $dateTime->format($this->originalFormat) === $date)
-            ? $dateTime
-            : null;
+        return in_array($month, [4, 6, 9, 11], true) ? 30 : 31;
     }
 
     /**
-     * Returns the date time format by a given date string.
-     * Supported formats are:
-     * - Y-m-d: 2017-03-01
-     * - Y-m: 2017-03
-     * - Y: 2017
+     * Reads a date of a response of the web service. A value that is no date is reported to the logger and gives null,
+     * so that one unexpected value does not spoil the whole response.
      *
-     * @param string $date A date string
-     *
-     * @return null|string
+     * @internal
      */
-    private function getFormat(string $date): ?string
+    public static function tryFrom(string $value): ?self
     {
-        if (preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/', $date)) {
-            return 'Y-m-d';
-        }
+        try {
+            return new self($value);
+        } catch (InvalidArgumentException $exception) {
+            MusicBrainz::log()->warning('Unexpected API behavior: ' . $exception->getMessage());
 
-        if (preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])$/', $date)) {
-            return 'Y-m';
+            return null;
         }
-
-        if (preg_match('/^[0-9]{4}$/', $date)) {
-            return 'Y';
-        }
-
-        return null;
     }
 
-    /**
-     * Returns the date time object.
-     *
-     * @return null|DateTime
-     */
-    public function getDateTime(): ?DateTime
-    {
-        return $this->dateTime;
-    }
-
-    /**
-     * Returns the original format.
-     *
-     * @return null|string
-     */
-    public function getOriginalFormat(): ?string
-    {
-        return $this->originalFormat;
-    }
-
-    /**
-     * Returns the date in the originally given format.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return isset($this->dateTime) && isset($this->originalFormat)
-            ? $this->dateTime->format($this->originalFormat)
-            : '';
+        return $this->value;
     }
 }

@@ -1,0 +1,38 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Applies the slimming rules of FixtureStore::slim() to all recorded fixtures again, without any network request.
+ * Useful after the rules changed. Fixtures are only ever shortened, never extended.
+ */
+
+use MusicBrainz\Test\Support\FixtureStore;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$directory = __DIR__ . '/../tests/Fixtures/recorded';
+$indexFile = $directory . '/index.json';
+$index = json_decode((string) file_get_contents($indexFile), true, 512, JSON_THROW_ON_ERROR);
+
+$changed = 0;
+foreach ($index as $name => $meta) {
+    $file = $directory . '/' . $name;
+    if (!is_file($file)) {
+        continue;
+    }
+    $data = json_decode((string) file_get_contents($file), true);
+    if (!is_array($data)) {
+        continue;
+    }
+    $slim = FixtureStore::slim($data);
+    if ($slim !== $data) {
+        file_put_contents($file, json_encode($slim, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n");
+        $index[$name]['slimmed'] = true;
+        ++$changed;
+    }
+}
+
+file_put_contents($indexFile, json_encode($index, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n");
+printf("%d of %d fixtures shortened\n", $changed, count($index));

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Work\Composition\Writer;
 
 use MusicBrainz\Relation\Type\Artist\Work\Composition\Writer;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates the lyricist for this work.
@@ -17,10 +16,10 @@ class Lyricist extends Writer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('lyricist');
+        return 'lyricist';
     }
 }

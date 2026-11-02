@@ -7,10 +7,13 @@ namespace MusicBrainz\Filter\Search;
 /**
  * A filter for searching areas
  *
- * @link https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/Search#Area
+ * @link https://musicbrainz.org/doc/MusicBrainz_API/Search#Area
  */
-class AreaFilter extends AbstractFilter
+final class AreaFilter extends AbstractFilter
 {
+    use \MusicBrainz\Filter\Property\TagNameTrait;
+    use \MusicBrainz\Filter\Property\SortNameTrait;
+    use \MusicBrainz\Filter\Property\AreaNameWithAccentsTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
     use \MusicBrainz\Filter\Property\AreaIdTrait;
     use \MusicBrainz\Filter\Property\AreaNameTrait;

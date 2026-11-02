@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Recording\EngineeredAt;
 
 use MusicBrainz\Relation\Type\Place\Recording\EngineeredAt;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a recording to the place it was remixed at.
@@ -17,10 +16,10 @@ class RemixedAt extends EngineeredAt
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('remixed at');
+        return 'remixed at';
     }
 }

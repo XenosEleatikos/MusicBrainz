@@ -4,80 +4,68 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\RecordingRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * A recording
- * A recording is an entity in MusicBrainz which can be linked to tracks on releases. Each track must always be
- * associated with a single recording, but a recording can be linked to any number of tracks.
- * A recording represents distinct audio that has been used to produce at least one released track through copying or
- * mastering. A recording itself is never produced solely through copying or mastering.
- * Generally, the audio represented by a recording corresponds to the audio at a stage in the production process before
- * any final mastering but after any editing or mixing.
+ * A recording: a unique piece of audio, e.g. a studio take or a live performance.
  *
- * @link https://musicbrainz.org/doc/Recording
+ * @see https://musicbrainz.org/doc/Recording
  */
-class Recording implements Value
+final readonly class Recording implements Entity
 {
-    use Property\MBIDTrait;
-    use Property\LengthTrait;
-    use Property\TitleTrait;
-    use Property\FirstReleaseDateTrait;
-    use Property\AliasesTrait;
-    use Property\IpisTrait;
-    use Property\CountryTrait;
-    use Property\LabelCodeTrait;
-    use Property\LabelTypeTrait;
-    use Property\AreaTrait;
-    use Property\LifeSpanTrait;
-    use Property\SortNameTrait;
-    use Property\IsnisTrait;
-    use Property\DisambiguationTrait;
-    use Property\RatingTrait;
-    use Property\ReleasesTrait;
-    use Property\TagsTrait;
-    use Property\ArtistCreditsTrait;
-    use Property\VideoFlagTrait;
-    use Property\ScoreTrait;
-    use RecordingRelationListTrait;
+    /**
+     * @param list<ArtistCredit> $artistCredits
+     * @param list<string> $isrcs
+     * @param list<Release> $releases
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $title = '',
+        public string $disambiguation = '',
+        public ?int $length = null,
+        public ?Date $firstReleaseDate = null,
+        public array $artistCredits = [],
+        public ?MBID $artistCreditId = null,
+        public bool $video = false,
+        public array $isrcs = [],
+        public array $releases = [],
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs a recording.
+     * @param array<mixed> $data A decoded recording of the web service
      *
-     * @param array $recording Array of information about a label
+     * @internal
      */
-    public function __construct(array $recording = [])
+    public static function fromArray(array $data): static
     {
-        $this->setMbidFromArray($recording);
-        $this->setLengthFromArray($recording);
-        $this->setTitleFromArray($recording);
-        $this->setFirstReleaseDateFromArray($recording);
-        $this->setAliasesFromArray($recording);
-        $this->setIpisFromArray($recording);
-        $this->setCountryFromArray($recording);
-        $this->setLabelCodeFromArray($recording);
-        $this->setLabelTypeFromArray($recording);
-        $this->setAreaFromArray($recording);
-        $this->setLifeSpanFromArray($recording);
-        $this->setSortNameFromArray($recording);
-        $this->setDisambiguationFromArray($recording);
-        $this->setRatingFromArray($recording);
-        $this->setReleasesFromArray($recording);
-        $this->setTagsFromArray($recording);
-        $this->setArtistCreditsFromArray($recording);
-        $this->setVideoFlagFromArray($recording);
-        $this->setScoreFromArray($recording);
-        $this->setRelationsFromArray($recording);
-    }
-
-    /**
-     * Returns the recording as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getTitle();
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'title') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            ArrayAccess::getInteger($data, 'length'),
+            Json::date($data, 'first-release-date'),
+            Json::list($data, 'artist-credit', ArtistCredit::class),
+            Json::id($data, 'artist-credit-id'),
+            ArrayAccess::getBool($data, 'video') ?? false,
+            Json::strings($data, 'isrcs'),
+            Json::list($data, 'releases', Release::class),
+            ...SharedFields::parse($data),
+        );
     }
 }

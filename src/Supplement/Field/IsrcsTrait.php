@@ -7,26 +7,16 @@ namespace MusicBrainz\Supplement\Field;
 trait IsrcsTrait
 {
     /**
-     * True, if ISRC's should be included, otherwise false
+     * True, if ISRCs should be included, otherwise false
      *
      * @var bool
      */
     protected bool $isrcs = false;
 
     /**
-     * Returns true, if ISRC's should be included, otherwise false.
+     * Sets whether ISRCs should be included.
      *
-     * @return bool
-     */
-    public function getIncludeFlagForIsrcs(): bool
-    {
-        return $this->isrcs;
-    }
-
-    /**
-     * Sets whether ISRC's should be included.
-     *
-     * @param bool $isrcs True, if ISRC's should be included, otherwise false
+     * @param bool $isrcs True, if ISRCs should be included, otherwise false
      *
      * @return self
      */

@@ -1,0 +1,25 @@
+{
+    "id": "bd55aeb7-19d1-4607-a500-14b8479d3fed",
+    "coordinates": {
+        "latitude": 51.53192,
+        "longitude": -0.17835
+    },
+    "life-span": {
+        "ended": false,
+        "end": null,
+        "begin": "1931-11-12"
+    },
+    "area": {
+        "id": "57296e85-ed07-4d79-88ef-7b70d23acf8d",
+        "type": null,
+        "sort-name": "St John's Wood",
+        "type-id": null,
+        "disambiguation": "",
+        "name": "St John's Wood"
+    },
+    "type": "Studio",
+    "disambiguation": "",
+    "type-id": "05fa6a09-ff92-3d34-bdbb-5141d3c24f38",
+    "address": "3 Abbey Road, St John’s Wood, London",
+    "name": "Abbey Road Studios"
+}

@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait CreditNameTrait
 {
@@ -15,6 +14,8 @@ trait CreditNameTrait
      * Returns the field name for the credit name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function creditName(): string
     {
@@ -26,10 +27,12 @@ trait CreditNameTrait
      *
      * @param Name $creditName A name credit
      *
-     * @return Phrase
+     * @return static
      */
-    public function addCreditName(Name $creditName): Phrase
+    public function addCreditName(Name $creditName): static
     {
-        return $this->addPhrase((string) $creditName, self::creditName());
+        $this->addPhrase((string) $creditName, self::creditName());
+
+        return $this;
     }
 }

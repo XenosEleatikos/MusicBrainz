@@ -1,0 +1,49 @@
+{
+    "gender": "Male",
+    "begin-area": {
+        "type-id": null,
+        "id": "39e1719e-2604-4b59-b698-dab7caf85b33",
+        "type": null,
+        "disambiguation": "",
+        "name": "Alton",
+        "sort-name": "Alton"
+    },
+    "isnis": [
+        "000000012144707X"
+    ],
+    "disambiguation": "jazz trumpeter, bandleader, songwriter",
+    "ipis": [
+        "00007619785"
+    ],
+    "sort-name": "Davis, Miles",
+    "name": "Miles Davis",
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "end-area": {
+        "type": null,
+        "disambiguation": "",
+        "id": "dbacf2e3-7e3e-4cee-8804-999b109285fa",
+        "type-id": null,
+        "name": "Santa Monica",
+        "sort-name": "Santa Monica"
+    },
+    "id": "561d854a-6a28-4aa7-8c99-323e6ce46c2a",
+    "life-span": {
+        "begin": "1926-05-26",
+        "ended": true,
+        "end": "1991-09-28"
+    },
+    "country": "US",
+    "type": "Person",
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "area": {
+        "type-id": null,
+        "type": null,
+        "disambiguation": "",
+        "id": "489ce91b-6658-3307-9877-795b68554c98",
+        "name": "United States",
+        "sort-name": "United States",
+        "iso-3166-1-codes": [
+            "US"
+        ]
+    }
+}

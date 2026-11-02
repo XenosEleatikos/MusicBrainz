@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\LabelCode;
+use MusicBrainz\Filter\Value\LabelCode;
 
 trait LabelCodeTrait
 {
@@ -15,6 +14,8 @@ trait LabelCodeTrait
      * Returns the field name for the Label Code (LC).
      *
      * @return string
+     *
+     * @internal
      */
     public static function labelCode(): string
     {
@@ -26,10 +27,12 @@ trait LabelCodeTrait
      *
      * @param LabelCode $labelCode The Label Code (LC) of the label
      *
-     * @return Term
+     * @return static
      */
-    public function addLabelCode(LabelCode $labelCode): Term
+    public function addLabelCode(LabelCode $labelCode): static
     {
-        return $this->addTerm($labelCode->getLabelCodeWithoutLcPrefix(), self::labelCode());
+        $this->addTerm($labelCode->withoutPrefix(), self::labelCode());
+
+        return $this;
     }
 }

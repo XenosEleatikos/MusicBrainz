@@ -1,0 +1,51 @@
+{
+    "life-span": {
+        "ended": true,
+        "begin": "1947-01-08",
+        "end": "2016-01-10"
+    },
+    "country": "GB",
+    "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+    "gender": "Male",
+    "area": {
+        "disambiguation": "",
+        "type": null,
+        "iso-3166-2-codes": [
+            "GB-ENG"
+        ],
+        "sort-name": "England",
+        "id": "9d5dd675-3cf4-4296-9e39-67865ebee758",
+        "name": "England",
+        "type-id": null
+    },
+    "type": "Person",
+    "end-area": {
+        "type-id": null,
+        "disambiguation": "",
+        "id": "74e50e58-5deb-4b99-93a2-decbb365c07f",
+        "name": "New York",
+        "type": null,
+        "sort-name": "New York"
+    },
+    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+    "begin-area": {
+        "type": null,
+        "sort-name": "Brixton",
+        "type-id": null,
+        "disambiguation": "",
+        "id": "61941444-5a83-43e2-ba48-4db7438e0f26",
+        "name": "Brixton"
+    },
+    "disambiguation": "English singer‐songwriter",
+    "sort-name": "Bowie, David",
+    "ipis": [
+        "00003960406",
+        "00015471209"
+    ],
+    "id": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+    "name": "David Bowie",
+    "isnis": [
+        "0000000114448576",
+        "0000000458257298"
+    ]
+}

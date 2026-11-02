@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Production;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Production;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that the artist performed a role not covered by other relationship types.
@@ -17,10 +16,10 @@ class Misc extends Production
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('misc');
+        return 'misc';
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Recording\Performance\Performer;
 
 use MusicBrainz\Relation\Type\Artist\Recording\Performance\Performer;
-use MusicBrainz\Value\Name;
 
 /**
  * Indicates an artist that performed one or more instruments on this recording.
@@ -17,10 +16,10 @@ class Instrument extends Performer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('instrument');
+        return 'instrument';
     }
 }

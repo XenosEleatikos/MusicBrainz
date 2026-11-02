@@ -4,51 +4,72 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\PlaceRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * A place
+ * A place: a venue, studio or other location where music is performed, recorded or released.
  *
- * @link https://musicbrainz.org/doc/Place
+ * @see https://musicbrainz.org/doc/Place
  */
-class Place implements Value
+final readonly class Place implements Entity
 {
-    use PlaceRelationListTrait;
-    use Property\AddressTrait;
-    use Property\AreaTrait;
-    use Property\CoordinatesTrait;
-    use Property\DisambiguationTrait;
-    use Property\LifeSpanTrait;
-    use Property\MBIDTrait;
-    use Property\NameTrait;
-    use Property\PlaceTypeTrait;
+    /**
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public string $disambiguation = '',
+        public ?PlaceType $type = null,
+        public string $address = '',
+        public ?Coordinates $coordinates = null,
+        public ?Area $area = null,
+        public ?LifeSpan $lifeSpan = null,
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs a place.
+     * @param array<mixed> $data A decoded place of the web service
      *
-     * @param array $place Information about the place
+     * @internal
      */
-    public function __construct(array $place = [])
+    public static function fromArray(array $data): static
     {
-        $this->setRelationsFromArray($place);
-        $this->setAddressFromArray($place);
-        $this->setAreaFromArray($place);
-        $this->setCoordinatesFromArray($place);
-        $this->setDisambiguationFromArray($place);
-        $this->setLifeSpanFromArray($place);
-        $this->setMbidFromArray($place);
-        $this->setNameFromArray($place);
-        $this->setPlaceTypeFromArray($place);
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            PlaceType::fromKeys($data, 'type', 'type-id'),
+            ArrayAccess::getString($data, 'address') ?? '',
+            self::coordinates($data),
+            Json::object($data, 'area', Area::class),
+            Json::object($data, 'life-span', LifeSpan::class),
+            ...SharedFields::parse($data),
+        );
     }
 
     /**
-     * Returns the place as string.
-     *
-     * @return string
+     * @param array<mixed> $data
      */
-    public function __toString(): string
+    private static function coordinates(array $data): ?Coordinates
     {
-        return (string) $this->getName();
+        $coordinates = ArrayAccess::getArray($data, 'coordinates');
+
+        return null === $coordinates ? null : Coordinates::tryFromArray($coordinates);
     }
+
 }

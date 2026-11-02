@@ -4,50 +4,64 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * A work
- * In MusicBrainz terminology, a work is a distinct intellectual or artistic creation, which can be expressed in the
- * form of one or more audio recordings. While a work in MusicBrainz is usually musical in nature, it is not necessarily
- * so. For example, a work could be a novel, play, poem or essay, later recorded as an oratory or audiobook.
+ * A work: a distinct intellectual or artistic creation, a composition, as opposed to its recordings.
  *
- * @link https://musicbrainz.org/doc/Work
+ * @see https://musicbrainz.org/doc/Work
  */
-class Work implements Value
+final readonly class Work implements Entity
 {
-    use Property\AttributesTrait;
-    use Property\DisambiguationTrait;
-    use Property\IswcsTrait;
-    use Property\LanguagesTrait;
-    use Property\MBIDTrait;
-    use Property\TitleTrait;
-    use Property\WorkTypeTrait;
+    /**
+     * @param list<string> $languages
+     * @param list<string> $iswcs
+     * @param list<Attribute> $attributes
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $title = '',
+        public string $disambiguation = '',
+        public ?WorkType $type = null,
+        public ?string $language = null,
+        public array $languages = [],
+        public array $iswcs = [],
+        public array $attributes = [],
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs a work.
+     * @param array<mixed> $data A decoded work of the web service
      *
-     * @param array $work Information about the track
+     * @internal
      */
-    public function __construct(array $work = [])
+    public static function fromArray(array $data): static
     {
-        $this->setAttributesFromArray($work);
-        $this->setDisambiguationFromArray($work);
-        $this->setDisambiguationFromArray($work);
-        $this->setIswcsFromArray($work);
-        $this->setLanguagesFromArray($work);
-        $this->setMbidFromArray($work);
-        $this->setTitleFromArray($work);
-        $this->setWorkTypeFromArray($work);
-    }
-
-    /**
-     * Returns the title of the work as string.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getTitle();
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'title') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            WorkType::fromKeys($data, 'type', 'type-id'),
+            ArrayAccess::getString($data, 'language'),
+            Json::strings($data, 'languages'),
+            Json::strings($data, 'iswcs'),
+            Json::list($data, 'attributes', Attribute::class),
+            ...SharedFields::parse($data),
+        );
     }
 }

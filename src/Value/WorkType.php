@@ -4,39 +4,20 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
-
 /**
- * A type of work
- *
- * @see https://musicbrainz.org/doc/Workes
+ * A work type.
  */
-class WorkType implements Value
+final readonly class WorkType extends NamedType
 {
-    /**
-     * The code for the type of work
-     *
-     * @var string
-     */
-    private $typeCode;
-
-    /**
-     * Constructs a type of work.
-     *
-     * @param string $typeCode A type of work
-     */
-    public function __construct(string $typeCode = '')
+    protected static function kindEnum(): string
     {
-        $this->typeCode = $typeCode;
+        return WorkTypeKind::class;
     }
 
-    /**
-     * Returns the code for the type of work.
-     *
-     * @return string
-     */
-    public function __toString(): string
+    public function kind(): ?WorkTypeKind
     {
-        return $this->typeCode;
+        $kind = $this->resolveKind();
+
+        return $kind instanceof WorkTypeKind ? $kind : null;
     }
 }

@@ -1,0 +1,61 @@
+{
+    "name": "The Beatles",
+    "life-span": {
+        "ended": true,
+        "end": "1970-04-10",
+        "begin": "1960-03-27"
+    },
+    "area": {
+        "iso-3166-1-codes": [
+            "GB"
+        ],
+        "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+        "type-id": null,
+        "disambiguation": "",
+        "sort-name": "United Kingdom",
+        "type": null,
+        "name": "United Kingdom"
+    },
+    "gender-id": null,
+    "user-genres": [
+        {
+            "name": "rock",
+            "disambiguation": "",
+            "id": "0e3fc579-2d24-4f20-9dae-736e1ec78798"
+        }
+    ],
+    "user-tags": [
+        {
+            "name": "rock"
+        },
+        {
+            "name": "xenos test favourite"
+        }
+    ],
+    "begin-area": {
+        "iso-3166-2-codes": [
+            "GB-LIV"
+        ],
+        "id": "c249c30e-88ab-4b2f-a745-96a25bd7afee",
+        "type-id": null,
+        "name": "Liverpool",
+        "disambiguation": "",
+        "sort-name": "Liverpool",
+        "type": null
+    },
+    "ipis": [],
+    "user-rating": {
+        "value": 5
+    },
+    "disambiguation": "UK rock band, “The Fab Four”",
+    "gender": null,
+    "country": "GB",
+    "isnis": [
+        "0000000121707484"
+    ],
+    "sort-name": "Beatles, The",
+    "type": "Group",
+    "end-area": null,
+    "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+}

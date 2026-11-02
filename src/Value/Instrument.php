@@ -4,49 +4,55 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Relation\RelationList\Property\InstrumentRelationListTrait;
-use MusicBrainz\Value;
+use MusicBrainz\Helper\ArrayAccess;
+use MusicBrainz\Helper\Json;
+use MusicBrainz\Helper\SharedFields;
 
 /**
- * An instrument
+ * An instrument: a device or object used to make music.
  *
- * @link https://musicbrainz.org/instruments
+ * @see https://musicbrainz.org/doc/Instrument
  */
-class Instrument implements Value
+final readonly class Instrument implements Entity
 {
-    use InstrumentRelationListTrait;
-    use Property\AliasesTrait;
-    use Property\DescriptionTrait;
-    use Property\DisambiguationTrait;
-    use Property\InstrumentNameTrait;
-    use Property\InstrumentTypeTrait;
-    use Property\MBIDTrait;
-    use Property\TagsTrait;
+    /**
+     * @param list<Alias> $aliases
+     * @param list<Tag> $tags
+     * @param list<Genre> $genres
+     * @param list<Tag> $userTags
+     * @param list<Genre> $userGenres
+     */
+    public function __construct(
+        public ?MBID $id,
+        public string $name = '',
+        public string $disambiguation = '',
+        public ?InstrumentType $type = null,
+        public string $description = '',
+        public array $aliases = [],
+        public array $tags = [],
+        public array $genres = [],
+        public array $userTags = [],
+        public array $userGenres = [],
+        public ?Rating $rating = null,
+        public ?int $userRating = null,
+        public ?string $annotation = null,
+        public ?RelationList $relations = null,
+    ) {}
 
     /**
-     * Constructs an instrument.
+     * @param array<mixed> $data A decoded instrument of the web service
      *
-     * @param array $instrument Information about an instrument
+     * @internal
      */
-    public function __construct(array $instrument = [])
+    public static function fromArray(array $data): static
     {
-        $this->setRelationsFromArray($instrument);
-        $this->setAliasesFromArray($instrument);
-        $this->setDescriptionFromArray($instrument);
-        $this->setDisambiguationFromArray($instrument);
-        $this->setInstrumentNameFromArray($instrument);
-        $this->setInstrumentTypeFromArray($instrument);
-        $this->setMbidFromArray($instrument);
-        $this->setTagsFromArray($instrument);
-    }
-
-    /**
-     * Returns the instrument name.
-     *
-     * @return string
-     */
-    public function __toString(): string
-    {
-        return (string) $this->getInstrumentName();
+        return new self(
+            Json::id($data, 'id'),
+            ArrayAccess::getString($data, 'name') ?? '',
+            ArrayAccess::getString($data, 'disambiguation') ?? '',
+            InstrumentType::fromKeys($data, 'type', 'type-id'),
+            ArrayAccess::getString($data, 'description') ?? '',
+            ...SharedFields::parse($data),
+        );
     }
 }

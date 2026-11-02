@@ -1,0 +1,314 @@
+{
+    "tags": [],
+    "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+    "disambiguation": "JFK Stadium",
+    "relations": [
+        {
+            "direction": "backward",
+            "source-credit": "",
+            "ended": false,
+            "artist": {
+                "sort-name": "Collins, Phil",
+                "type": "Person",
+                "id": "401c3991-b76b-499d-8082-9f2df958ef78",
+                "name": "Phil Collins",
+                "country": "GB",
+                "disambiguation": "of Genesis",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "begin": null,
+            "type": "guest performer",
+            "target-credit": "",
+            "end": null,
+            "attributes": [
+                "time"
+            ],
+            "target-type": "artist",
+            "attribute-ids": {
+                "time": "ebd303c3-7f57-452a-aa3b-d780ebad868d"
+            },
+            "attribute-values": {
+                "time": "19:39"
+            },
+            "type-id": "292df906-98a6-307e-86e8-df01a579a321"
+        },
+        {
+            "end": null,
+            "attributes": [
+                "time"
+            ],
+            "target-credit": "",
+            "type": "guest performer",
+            "begin": null,
+            "artist": {
+                "name": "Phil Collins",
+                "country": "GB",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "of Genesis",
+                "sort-name": "Collins, Phil",
+                "type": "Person",
+                "id": "401c3991-b76b-499d-8082-9f2df958ef78"
+            },
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "attribute-values": {
+                "time": "20:10"
+            },
+            "type-id": "292df906-98a6-307e-86e8-df01a579a321",
+            "attribute-ids": {
+                "time": "ebd303c3-7f57-452a-aa3b-d780ebad868d"
+            },
+            "target-type": "artist"
+        },
+        {
+            "begin": null,
+            "artist": {
+                "id": "4dbf5678-7a31-406a-abbe-232f8ac2cd63",
+                "sort-name": "Adams, Bryan",
+                "type": "Person",
+                "disambiguation": "Canadian singer/songwriter",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "name": "Bryan Adams",
+                "country": "CA"
+            },
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "end": null,
+            "attributes": [
+                "time"
+            ],
+            "target-credit": "",
+            "type": "main performer",
+            "attribute-values": {
+                "time": "12:02"
+            },
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "attribute-ids": {
+                "time": "ebd303c3-7f57-452a-aa3b-d780ebad868d"
+            },
+            "target-type": "artist"
+        },
+        {
+            "attribute-ids": {
+                "time": "ebd303c3-7f57-452a-aa3b-d780ebad868d"
+            },
+            "target-type": "artist",
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+            "attribute-values": {
+                "time": "15:57"
+            },
+            "type": "main performer",
+            "end": null,
+            "attributes": [
+                "time"
+            ],
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "backward",
+            "artist": {
+                "name": "Ashford & Simpson",
+                "country": "US",
+                "disambiguation": "",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Ashford & Simpson",
+                "type": "Group",
+                "id": "403bec82-50c4-47fe-a8be-1882a5a43d82"
+            },
+            "begin": null,
+            "ended": false
+        },
+        {
+            "direction": "backward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "US folk singer",
+                "country": "US",
+                "name": "Joan Baez",
+                "id": "92d37892-6186-4459-9cc1-f0dde57652d0",
+                "type": "Person",
+                "sort-name": "Baez, Joan"
+            },
+            "type": "main performer",
+            "target-credit": "",
+            "attributes": [
+                "time"
+            ],
+            "end": null,
+            "target-type": "artist",
+            "attribute-ids": {
+                "time": "ebd303c3-7f57-452a-aa3b-d780ebad868d"
+            },
+            "attribute-values": {
+                "time": "9:02"
+            },
+            "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946"
+        },
+        {
+            "type-id": "65742183-b25c-469e-b094-ff6739e6699c",
+            "attribute-values": [],
+            "target-type": "event",
+            "attribute-ids": [],
+            "event": {
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                "disambiguation": "",
+                "name": "Live Aid",
+                "life-span": {
+                    "begin": "1985-07-13",
+                    "end": "1985-07-13",
+                    "ended": true
+                },
+                "id": "8e0ff16a-757f-4e16-9877-4c4131621a8b",
+                "time": "",
+                "cancelled": false,
+                "setlist": "",
+                "type": "Concert"
+            },
+            "ended": false,
+            "begin": null,
+            "direction": "backward",
+            "source-credit": "",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "type": "parts"
+        },
+        {
+            "target-type": "place",
+            "direction": "forward",
+            "source-credit": "",
+            "attribute-ids": [],
+            "ended": false,
+            "attribute-values": [],
+            "type-id": "e2c6f697-07dc-38b1-be0b-83d740165532",
+            "place": {
+                "type": "Stadium",
+                "area": {
+                    "disambiguation": "",
+                    "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78",
+                    "name": "Philadelphia",
+                    "id": "0eeb01c2-6e31-46ad-96b8-319749f731d2",
+                    "sort-name": "Philadelphia",
+                    "type": "City"
+                },
+                "coordinates": {
+                    "latitude": 39.901389,
+                    "longitude": -75.171944
+                },
+                "id": "68726567-21b1-4e48-a0a1-ac33f9a702b5",
+                "name": "John F. Kennedy Stadium",
+                "address": "S Broad Street, Philadelphia, PA 19148",
+                "type-id": "62664fbd-cd55-3b5f-a5ea-fb5d1bc0113c",
+                "disambiguation": ""
+            },
+            "begin": null,
+            "type": "held at",
+            "target-credit": "",
+            "attributes": [],
+            "end": null
+        },
+        {
+            "type-id": "b06e6732-2603-47d3-8a49-9f589b430483",
+            "attribute-values": [],
+            "recording": {
+                "video": true,
+                "title": "(Don’t You) Forget About Me",
+                "length": 439519,
+                "disambiguation": "live, 1985‐07‐13: Live Aid 1985, JFK Stadium, Philadelphia, PA, USA",
+                "id": "ed48953f-4da5-485e-8dee-369d58377e0a"
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "type": "recorded at",
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "direction": "forward"
+        },
+        {
+            "recording": {
+                "video": false,
+                "title": "[annoncement]",
+                "id": "4a0a49dd-55d4-4450-b13c-6bd120db523d",
+                "length": 12000,
+                "disambiguation": "live, 1985-07-13: Live Aid 1985"
+            },
+            "attribute-ids": [],
+            "target-type": "recording",
+            "type-id": "b06e6732-2603-47d3-8a49-9f589b430483",
+            "attribute-values": [],
+            "type": "recorded at",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false
+        },
+        {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "begin": null,
+            "type": "recorded at",
+            "target-credit": "",
+            "end": null,
+            "attributes": [],
+            "target-type": "recording",
+            "attribute-ids": [],
+            "recording": {
+                "id": "cc322142-ad3a-48b1-aee4-91f4d00f9c01",
+                "length": 34000,
+                "disambiguation": "live, 1985-07-13: Live Aid 1985",
+                "title": "[Dancing In the Streets introduction from JFK]",
+                "video": false
+            },
+            "type-id": "b06e6732-2603-47d3-8a49-9f589b430483",
+            "attribute-values": []
+        },
+        {
+            "attribute-ids": [],
+            "target-type": "url",
+            "attribute-values": [],
+            "type-id": "b022d060-e6a8-340f-8c73-6b21b1d090b9",
+            "url": {
+                "id": "e8c67a79-507e-4c93-a67b-a043b1aef5e6",
+                "resource": "https://www.wikidata.org/wiki/Q193740"
+            },
+            "source-credit": "",
+            "direction": "forward",
+            "begin": null,
+            "ended": false,
+            "type": "wikidata",
+            "end": null,
+            "attributes": [],
+            "target-credit": ""
+        }
+    ],
+    "name": "Live Aid",
+    "life-span": {
+        "ended": true,
+        "begin": "1985-07-13",
+        "end": "1985-07-13"
+    },
+    "time": "08:51",
+    "id": "e4ea9ddd-3fbb-47d0-b570-add507bf0c27",
+    "cancelled": false,
+    "setlist": "",
+    "annotation": null,
+    "aliases": [],
+    "genres": [],
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "type": "Concert"
+}

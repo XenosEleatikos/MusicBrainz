@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Label;
 
 use MusicBrainz\Relation\Type\Artist\Label;
-use MusicBrainz\Value\Name;
 
 /**
- * This relationship type is only used for grouping other relationship types.
+ * This indicates that an artist was officially employed by a label in a position not covered by any more specific
+ * relationship. Specify the position using the “Task” attribute.
  *
  * @link https://musicbrainz.org/relationship/e74a40e7-0f27-4e05-bdbd-eb10f5309472
  */
@@ -17,10 +17,10 @@ class Contract extends Label
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('contract');
+        return 'position at';
     }
 }

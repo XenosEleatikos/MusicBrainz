@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Label\Ownership;
 
 use MusicBrainz\Relation\Type\Artist\Label\Ownership;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates the artist was the owner of this label.
@@ -17,10 +16,10 @@ class Owner extends Ownership
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('owner');
+        return 'owner';
     }
 }

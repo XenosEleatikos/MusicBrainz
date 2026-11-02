@@ -1,0 +1,1082 @@
+{
+    "artists": [
+        {
+            "ipis": [],
+            "gender-id": null,
+            "annotation": null,
+            "disambiguation": "",
+            "end-area": null,
+            "relations": [],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "tags": [],
+            "area": {
+                "type-id": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "sort-name": "Germany",
+                "type": null,
+                "disambiguation": "",
+                "name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "type-id": null,
+            "country": "DE",
+            "isnis": [],
+            "aliases": [],
+            "name": "-Selektor",
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "gender": null,
+            "genres": [],
+            "type": null,
+            "sort-name": "-Selektor",
+            "begin-area": {
+                "disambiguation": "",
+                "name": "Berlin",
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+                "type-id": null,
+                "sort-name": "Berlin",
+                "type": null
+            },
+            "id": "0575c40d-dbcf-4058-bc45-9db9f7d200bd"
+        },
+        {
+            "ipis": [],
+            "gender-id": null,
+            "end-area": null,
+            "annotation": null,
+            "disambiguation": "drums->Arroganz",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "relations": [
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "recording",
+                    "ended": false,
+                    "type": "arranger",
+                    "recording": {
+                        "length": 314000,
+                        "video": false,
+                        "disambiguation": "",
+                        "title": "Death of the Blessed",
+                        "id": "7ebdaad6-7256-4b5f-a993-1266b8cc8e5b"
+                    },
+                    "end": null,
+                    "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+                    "source-credit": "",
+                    "target-credit": ""
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+                    "recording": {
+                        "title": "Disease Ridden",
+                        "disambiguation": "",
+                        "length": 389000,
+                        "video": false,
+                        "id": "d753d4e2-5107-4b6d-9d34-ea810d7ad158"
+                    },
+                    "type": "arranger",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "recording",
+                    "ended": false,
+                    "direction": "forward"
+                },
+                {
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "22661fb8-cdb7-4f67-8385-b2a8be6c9f0d",
+                    "end": null,
+                    "recording": {
+                        "id": "e1d4e375-3d6d-4f5a-9723-c03bfe63cdf9",
+                        "length": 379000,
+                        "video": false,
+                        "disambiguation": "",
+                        "title": "Ecstasy in Doom"
+                    },
+                    "type": "arranger",
+                    "ended": false,
+                    "target-type": "recording",
+                    "direction": "forward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": []
+                },
+                {
+                    "direction": "forward",
+                    "target-type": "recording",
+                    "ended": true,
+                    "attributes": [
+                        "drums (drum set)"
+                    ],
+                    "attribute-values": [],
+                    "begin": "2019-07",
+                    "attribute-ids": {
+                        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+                    },
+                    "type": "instrument",
+                    "recording": {
+                        "title": "553",
+                        "video": false,
+                        "length": 200000,
+                        "disambiguation": "",
+                        "id": "e0ad408a-1b33-4760-b9be-3eaea626c8e0"
+                    },
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": "2019-11",
+                    "attribute-credits": []
+                },
+                {
+                    "recording": {
+                        "id": "f89250c6-c173-4ff4-8d65-c893f6af1ace",
+                        "title": "Anodynon",
+                        "video": false,
+                        "length": 78000,
+                        "disambiguation": ""
+                    },
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "attribute-credits": [],
+                    "end": "2019-11",
+                    "direction": "forward",
+                    "ended": true,
+                    "target-type": "recording",
+                    "attribute-values": [],
+                    "attributes": [
+                        "drums (drum set)"
+                    ],
+                    "attribute-ids": {
+                        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+                    },
+                    "begin": "2019-07",
+                    "type": "instrument"
+                },
+                {
+                    "type": "instrument",
+                    "attribute-ids": {
+                        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+                    },
+                    "begin": "2019-07",
+                    "attribute-values": [],
+                    "attributes": [
+                        "drums (drum set)"
+                    ],
+                    "ended": true,
+                    "target-type": "recording",
+                    "direction": "forward",
+                    "end": "2019-11",
+                    "attribute-credits": [],
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+                    "recording": {
+                        "id": "b0345e84-9696-4bd5-8bae-0a82cc5c9d12",
+                        "disambiguation": "",
+                        "length": 233000,
+                        "video": false,
+                        "title": "Aurora Arroganz"
+                    }
+                },
+                {
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "discogs",
+                    "url": {
+                        "id": "14cd70d6-523c-4262-b476-f1486082856e",
+                        "resource": "https://www.discogs.com/artist/5969882"
+                    },
+                    "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null
+                }
+            ],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "disambiguation": "",
+                "name": "Germany",
+                "sort-name": "Germany",
+                "type": null,
+                "type-id": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+            },
+            "tags": [],
+            "country": "DE",
+            "isnis": [],
+            "aliases": [],
+            "life-span": {
+                "begin": null,
+                "end": null,
+                "ended": false
+            },
+            "name": "-T-",
+            "gender": null,
+            "begin-area": null,
+            "sort-name": "-T-",
+            "type": "Person",
+            "genres": [],
+            "id": "46ad7c26-f884-43a2-bfba-8bdce25083eb"
+        },
+        {
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "relations": [
+                {
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "end": null,
+                    "target-type": "artist",
+                    "artist": {
+                        "country": "DE",
+                        "name": "Alpha",
+                        "disambiguation": "german psytrance artist André Szigethy",
+                        "type": "Person",
+                        "sort-name": "Alpha",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "0eb9c67f-4dd8-4439-a46d-8699254ab0ae"
+                    },
+                    "ended": false,
+                    "direction": "backward",
+                    "begin": null,
+                    "attribute-ids": {
+                        "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+                    },
+                    "attributes": [
+                        "original"
+                    ],
+                    "attribute-values": [],
+                    "type": "member of band"
+                },
+                {
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "type": "member of band",
+                    "begin": null,
+                    "attribute-ids": {
+                        "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+                    },
+                    "attributes": [
+                        "original"
+                    ],
+                    "attribute-values": [],
+                    "target-type": "artist",
+                    "artist": {
+                        "country": "DE",
+                        "disambiguation": "Psychedelic trance (darkpsy) artist from Germany",
+                        "name": "Antagon",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "b813466d-3ade-40ea-a330-5b741814ba40",
+                        "sort-name": "Antagon",
+                        "type": "Person"
+                    },
+                    "ended": false,
+                    "direction": "backward"
+                },
+                {
+                    "direction": "backward",
+                    "ended": false,
+                    "artist": {
+                        "disambiguation": "psytrance artist",
+                        "name": "Peter Lars",
+                        "id": "c37f4a7c-b86a-4d8f-a809-59c426e6bedb",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "type": "Person",
+                        "sort-name": "Lars, Peter",
+                        "country": "DE"
+                    },
+                    "target-type": "artist",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "member of band",
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null
+                },
+                {
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "backward",
+                    "target-type": "artist",
+                    "artist": {
+                        "name": "André Szigethy",
+                        "disambiguation": "",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "id": "0bc259a4-eda3-4104-9c8b-f8d3bead5064",
+                        "type": "Person",
+                        "sort-name": "Szigethy, André",
+                        "country": "DE"
+                    },
+                    "ended": false,
+                    "type": "member of band",
+                    "end": null,
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "source-credit": "",
+                    "target-credit": ""
+                },
+                {
+                    "url": {
+                        "id": "ae883ab2-37a3-4a9e-b9c7-58cbbb350208",
+                        "resource": "https://www.allmusic.com/artist/mn0002576318"
+                    },
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "6b3e3c85-0002-4f34-aca6-80ace0d7e846",
+                    "end": null,
+                    "ended": false,
+                    "target-type": "url",
+                    "direction": "forward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type": "allmusic"
+                },
+                {
+                    "type": "discogs",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://www.discogs.com/artist/1552110",
+                        "id": "a967d26c-a862-4459-9ce6-866093d92247"
+                    }
+                },
+                {
+                    "url": {
+                        "resource": "https://www.facebook.com/Z.alpha.antagon",
+                        "id": "39bb594f-458c-4586-9ca0-89573de97200"
+                    },
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "99429741-f3f6-484b-84f8-23af51991770",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward",
+                    "type": "social network"
+                }
+            ],
+            "end-area": null,
+            "disambiguation": "Psychedelic trance project by Alpha & Antagon",
+            "annotation": null,
+            "area": {
+                "type": null,
+                "sort-name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type-id": null,
+                "name": "Germany",
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "tags": [
+                {
+                    "count": 1,
+                    "name": "sillyname"
+                }
+            ],
+            "ipis": [],
+            "gender-id": null,
+            "gender": null,
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "name": "-Z- (alpha & antagon)",
+            "id": "549b9093-5ae0-49aa-8b44-a0fc64c0e3fe",
+            "begin-area": null,
+            "type": "Group",
+            "genres": [],
+            "sort-name": "-Z- (alpha & antagon)",
+            "aliases": [
+                {
+                    "name": "- Z -",
+                    "end": null,
+                    "type": null,
+                    "locale": null,
+                    "sort-name": "- Z -",
+                    "type-id": null,
+                    "begin": null,
+                    "ended": false,
+                    "primary": null
+                }
+            ],
+            "country": "DE",
+            "isnis": []
+        },
+        {
+            "ipis": [],
+            "gender-id": null,
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "relations": [
+                {
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "backward",
+                    "artist": {
+                        "type": "Person",
+                        "sort-name": "Schulz, Tine",
+                        "id": "8bc5eaf9-e7f9-4088-bed2-2249261f6f9d",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "name": "Tine Schulz",
+                        "disambiguation": "",
+                        "country": "DE"
+                    },
+                    "ended": false,
+                    "target-type": "artist",
+                    "type": "member of band",
+                    "end": null,
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "target-credit": "",
+                    "source-credit": ""
+                },
+                {
+                    "end": null,
+                    "type-id": "78f75830-94e1-4138-8f8a-643e3bb21ce5",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "url": {
+                        "resource": "http://www.parocktikum.de/wiki/index.php/CousCous",
+                        "id": "8048e22a-9e85-4191-ba3a-3cf71a5faa1f"
+                    },
+                    "type": "biography",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url"
+                },
+                {
+                    "type": "discogs",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "url": {
+                        "id": "30e3c94e-e3c8-4989-828b-d307b798d5e2",
+                        "resource": "https://www.discogs.com/artist/3271730"
+                    }
+                }
+            ],
+            "end-area": null,
+            "annotation": null,
+            "disambiguation": "",
+            "area": {
+                "disambiguation": "",
+                "name": "Germany",
+                "type-id": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type": null,
+                "sort-name": "Germany",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "tags": [],
+            "aliases": [],
+            "country": "DE",
+            "isnis": [],
+            "gender": null,
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "name": "_preen",
+            "id": "6a1d7925-ba81-4d21-9206-0271a8a91344",
+            "begin-area": {
+                "disambiguation": "",
+                "name": "Dresden",
+                "sort-name": "Dresden",
+                "type": null,
+                "id": "624f2956-bfdb-43a9-8924-9aadb812ee04",
+                "type-id": null
+            },
+            "type": "Group",
+            "genres": [],
+            "sort-name": "_preen"
+        },
+        {
+            "tags": [],
+            "area": {
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type-id": null,
+                "type": null,
+                "sort-name": "Germany",
+                "name": "Germany",
+                "disambiguation": "",
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+            "relations": [
+                {
+                    "ended": false,
+                    "target-type": "event",
+                    "direction": "forward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "type": "guest performer",
+                    "event": {
+                        "type": "Concert",
+                        "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b",
+                        "id": "dc106e66-06bf-4b0c-bd0d-6102daa5aad0",
+                        "disambiguation": "",
+                        "name": "Gig im legendären Club \"Labor\" in Hannover",
+                        "setlist": "@ -nCor- * Nimm mich # Promotion-Tour",
+                        "life-span": {
+                            "begin": "2006-05-22",
+                            "end": "2006-05-22",
+                            "ended": true
+                        },
+                        "cancelled": false,
+                        "time": ""
+                    },
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "292df906-98a6-307e-86e8-df01a579a321",
+                    "end": null
+                },
+                {
+                    "event": {
+                        "time": "",
+                        "id": "4c3aab56-eb12-4625-918b-cb044639a4a4",
+                        "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                        "type": "Festival",
+                        "cancelled": false,
+                        "setlist": "",
+                        "life-span": {
+                            "ended": true,
+                            "end": "2002-05-20",
+                            "begin": "2002-05-17"
+                        },
+                        "name": "11. Wave-Gotik-Treffen 2002",
+                        "disambiguation": ""
+                    },
+                    "type-id": "936c7c95-3156-3889-a062-8a0cd57f8946",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "event",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type": "main performer"
+                },
+                {
+                    "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "url": {
+                        "id": "818f556f-dc82-4450-8e67-d48632fee26b",
+                        "resource": "https://www.discogs.com/artist/286333"
+                    },
+                    "type": "discogs",
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": []
+                },
+                {
+                    "type": "myspace",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": [],
+                    "ended": false,
+                    "target-type": "url",
+                    "direction": "forward",
+                    "end": null,
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "bac47923-ecde-4b59-822e-d08f0cd10156",
+                    "url": {
+                        "id": "050b3166-0618-4e22-9d66-aa1b6df8db12",
+                        "resource": "https://myspace.com/ncor"
+                    }
+                },
+                {
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "official homepage",
+                    "url": {
+                        "resource": "http://www.ncor.de/",
+                        "id": "183a594e-4f0d-4532-b639-bddc6daded79"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "fe33d22f-c3b0-4d68-bd53-a856badf2b15",
+                    "end": null
+                }
+            ],
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "annotation": null,
+            "disambiguation": "",
+            "end-area": null,
+            "gender-id": null,
+            "ipis": [],
+            "id": "8760bcb1-6dd1-42a6-a674-7edc6830f002",
+            "sort-name": "-nCor-",
+            "type": "Group",
+            "genres": [],
+            "begin-area": null,
+            "gender": null,
+            "name": "-nCor-",
+            "life-span": {
+                "end": null,
+                "begin": null,
+                "ended": false
+            },
+            "aliases": [],
+            "country": "DE",
+            "isnis": []
+        },
+        {
+            "gender-id": "36d3d30a-839d-3eda-8cb3-29be4384e4a9",
+            "ipis": [],
+            "tags": [],
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "disambiguation": "",
+                "name": "Germany",
+                "sort-name": "Germany",
+                "type": null,
+                "type-id": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad"
+            },
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "annotation": null,
+            "disambiguation": "",
+            "end-area": null,
+            "relations": [
+                {
+                    "url": {
+                        "id": "3dbe072b-efc9-4c3d-9b08-8c2fad743884",
+                        "resource": "https://www.discogs.com/artist/2250958"
+                    },
+                    "end": null,
+                    "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "type": "discogs"
+                },
+                {
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "last.fm",
+                    "url": {
+                        "resource": "https://www.last.fm/music/-soundso-",
+                        "id": "a32922dd-be6f-4071-99b9-c60b513730fb"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "08db8098-c0df-4b78-82c3-c8697b4bba7f",
+                    "end": null
+                }
+            ],
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "country": "DE",
+            "isnis": [],
+            "aliases": [],
+            "genres": [],
+            "type": "Person",
+            "sort-name": "-soundso-",
+            "begin-area": null,
+            "id": "8959f9ef-e016-41a8-8639-d590acd9352c",
+            "name": "-soundso-",
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "gender": "Male"
+        },
+        {
+            "life-span": {
+                "ended": false,
+                "end": null,
+                "begin": null
+            },
+            "name": "-L-",
+            "gender": null,
+            "begin-area": null,
+            "sort-name": "-L-",
+            "type": "Person",
+            "genres": [],
+            "id": "a20b27f1-51d1-4cd1-a367-5ce6a2700edc",
+            "isnis": [],
+            "country": "DE",
+            "aliases": [],
+            "end-area": null,
+            "annotation": null,
+            "disambiguation": "drums",
+            "rating": {
+                "value": null,
+                "votes-count": 0
+            },
+            "relations": [
+                {
+                    "direction": "forward",
+                    "target-type": "artist",
+                    "ended": true,
+                    "artist": {
+                        "country": "DE",
+                        "type": "Group",
+                        "sort-name": "Arroganz",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "3bf063b5-58f1-44d6-aaa3-5b2416db6d55",
+                        "name": "Arroganz",
+                        "disambiguation": "German black/death metal"
+                    },
+                    "attributes": [
+                        "drums (drum set)"
+                    ],
+                    "attribute-values": [],
+                    "begin": "2008",
+                    "attribute-ids": {
+                        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+                    },
+                    "type": "member of band",
+                    "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "attribute-credits": [],
+                    "end": "2009"
+                }
+            ],
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+            "area": {
+                "disambiguation": "",
+                "name": "Germany",
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type-id": null,
+                "sort-name": "Germany",
+                "type": null,
+                "iso-3166-1-codes": [
+                    "DE"
+                ]
+            },
+            "tags": [],
+            "ipis": [],
+            "gender-id": null
+        },
+        {
+            "area": {
+                "iso-3166-1-codes": [
+                    "DE"
+                ],
+                "name": "Germany",
+                "disambiguation": "",
+                "sort-name": "Germany",
+                "type": null,
+                "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                "type-id": null
+            },
+            "type-id": null,
+            "tags": [],
+            "end-area": null,
+            "annotation": null,
+            "disambiguation": "phonk producer",
+            "rating": {
+                "votes-count": 0,
+                "value": null
+            },
+            "relations": [
+                {
+                    "type": "recording contract",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "label",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "b336d682-592f-4486-9f45-3d5d59895bdc",
+                    "source-credit": "",
+                    "label": {
+                        "label-code": null,
+                        "sort-name": "$CAR$CHEME",
+                        "type": "Original Production",
+                        "type-id": "7aaa37fe-2def-3476-b359-80245850062d",
+                        "id": "438e6572-d9d9-4a0c-b3f0-ee6206546930",
+                        "name": "$CAR$CHEME",
+                        "disambiguation": ""
+                    },
+                    "target-credit": ""
+                },
+                {
+                    "type": "free streaming",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "end": null,
+                    "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "url": {
+                        "resource": "https://open.spotify.com/artist/3uA4unR7LBOcqjpbOeCs0Y",
+                        "id": "4ea6fd48-b773-4715-8b62-f5bc25a896be"
+                    }
+                },
+                {
+                    "type": "free streaming",
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "type-id": "769085a1-c2f7-4c24-a532-2375a77693bd",
+                    "target-credit": "",
+                    "source-credit": "",
+                    "end": null,
+                    "url": {
+                        "id": "71d07a3b-0b78-43b9-ab18-015be35446e7",
+                        "resource": "https://www.deezer.com/artist/160312872"
+                    }
+                },
+                {
+                    "end": null,
+                    "type-id": "f8319a2f-f824-4617-81c8-be6560b3b203",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "url": {
+                        "id": "dc41899c-cad3-46ca-9c7d-930e9b0f94bd",
+                        "resource": "https://www.qobuz.com/us-en/interpreter/prey-2/13443590"
+                    },
+                    "type": "purchase for download",
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": [],
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false
+                },
+                {
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward",
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "type": "soundcloud",
+                    "url": {
+                        "resource": "https://soundcloud.com/prey_music",
+                        "id": "526e5364-7468-4601-abcb-b08f496cb676"
+                    },
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "89e4a949-0976-440d-bda1-5f772c1e5710",
+                    "end": null
+                },
+                {
+                    "target-credit": "",
+                    "source-credit": "",
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "end": null,
+                    "url": {
+                        "id": "74760056-020e-45b1-b07e-251bd34916f9",
+                        "resource": "https://music.apple.com/us/artist/1616387895"
+                    },
+                    "type": "streaming",
+                    "ended": false,
+                    "target-type": "url",
+                    "direction": "forward",
+                    "attribute-ids": [],
+                    "begin": null,
+                    "attribute-values": [],
+                    "attributes": []
+                },
+                {
+                    "begin": null,
+                    "attribute-ids": [],
+                    "attributes": [],
+                    "attribute-values": [],
+                    "target-type": "url",
+                    "ended": false,
+                    "direction": "forward",
+                    "type": "streaming",
+                    "url": {
+                        "resource": "https://tidal.com/artist/30637411",
+                        "id": "fb0e530d-6289-4180-b614-4f99e0373fee"
+                    },
+                    "end": null,
+                    "source-credit": "",
+                    "target-credit": "",
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161"
+                },
+                {
+                    "attribute-values": [],
+                    "attributes": [],
+                    "attribute-ids": [],
+                    "begin": null,
+                    "direction": "forward",
+                    "ended": false,
+                    "target-type": "url",
+                    "type": "streaming",
+                    "url": {
+                        "id": "dc41899c-cad3-46ca-9c7d-930e9b0f94bd",
+                        "resource": "https://www.qobuz.com/us-en/interpreter/prey-2/13443590"
+                    },
+                    "end": null,
+                    "type-id": "63cc5d1f-f096-4c94-a43f-ecb32ea94161",
+                    "target-credit": "",
+                    "source-credit": ""
+                },
+                {
+                    "type-id": "631712a0-7525-42ba-b7a3-605aa7a238c4",
+                    "source-credit": "",
+                    "target-credit": "",
+                    "end": null,
+                    "url": {
+                        "resource": "https://music.youtube.com/channel/UCR7XBBf6hAbT95q7fF1iqbA",
+                        "id": "64962686-f8eb-4f84-85c0-d54b883eeeb1"
+                    },
+                    "type": "youtube music",
+                    "direction": "forward",
+                    "target-type": "url",
+                    "ended": false,
+                    "attributes": [],
+                    "attribute-values": [],
+                    "begin": null,
+                    "attribute-ids": []
+                }
+            ],
+            "gender-id": null,
+            "ipis": [],
+            "begin-area": null,
+            "type": null,
+            "genres": [],
+            "sort-name": "-Prey",
+            "id": "e7c8371b-7360-468f-b155-a04ec77d158f",
+            "life-span": {
+                "ended": false,
+                "begin": null,
+                "end": null
+            },
+            "name": "-Prey",
+            "gender": null,
+            "isnis": [],
+            "country": "DE",
+            "aliases": []
+        }
+    ],
+    "artist-offset": 0,
+    "artist-count": 117451
+}

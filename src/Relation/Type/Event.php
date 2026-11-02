@@ -19,6 +19,6 @@ abstract class Event extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::EVENT);
+        return EntityType::Event;
     }
 }

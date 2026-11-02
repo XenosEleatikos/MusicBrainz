@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Event\Recording;
 
 use MusicBrainz\Relation\Type\Event\Recording;
-use MusicBrainz\Value\Name;
 
 /**
  * Links a recording to the event it was recorded at.
@@ -17,10 +16,10 @@ class RecordedAt extends Recording
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('recorded at');
+        return 'recorded at';
     }
 }

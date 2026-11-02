@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\AnnotationText;
+use MusicBrainz\Filter\Value\AnnotationText;
 
 trait AnnotationTextTrait
 {
@@ -15,6 +14,8 @@ trait AnnotationTextTrait
      * Returns the field name for the annotation text.
      *
      * @return string
+     *
+     * @internal
      */
     public static function annotationText(): string
     {
@@ -26,10 +27,12 @@ trait AnnotationTextTrait
      *
      * @param AnnotationText $annotationText An annotation text
      *
-     * @return Phrase
+     * @return static
      */
-    public function addAnnotationText(AnnotationText $annotationText): Phrase
+    public function addAnnotationText(AnnotationText $annotationText): static
     {
-        return $this->addPhrase((string) $annotationText, self::annotationText());
+        $this->addPhrase((string) $annotationText, self::annotationText());
+
+        return $this;
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Event\Place;
 
 use MusicBrainz\Relation\Type\Event\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to the place where it was held.
@@ -17,10 +16,10 @@ class HeldAt extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('held at');
+        return 'held at';
     }
 }

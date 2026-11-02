@@ -14,16 +14,6 @@ trait VariousArtistsTrait
     protected bool $variousArtists = false;
 
     /**
-     * Returns true, if various artists should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForVariousArtists(): bool
-    {
-        return $this->variousArtists;
-    }
-
-    /**
      * Sets whether various artists should be included.
      *
      * @param bool $variousArtists True, if various artists should be included, otherwise false

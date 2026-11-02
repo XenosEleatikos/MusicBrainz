@@ -7,21 +7,21 @@ namespace MusicBrainz;
 use MusicBrainz\Api\Browse;
 use MusicBrainz\Api\Lookup;
 use MusicBrainz\Api\Search;
-use MusicBrainz\HttpAdapter\AbstractHttpAdapter;
+use MusicBrainz\Http\ApiClient;
 
 /**
  * Provides methods to get classes for each type of API call: browse, lookup and search.
  *
- * @see https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2/
+ * @see https://musicbrainz.org/doc/MusicBrainz_API
  */
-class Api
+final class Api
 {
     /**
-     * An HTTP adapter
+     * The API client
      *
-     * @var AbstractHttpAdapter
+     * @var ApiClient
      */
-    private AbstractHttpAdapter $httpAdapter;
+    private ApiClient $apiClient;
 
     /**
      * The API client configuration
@@ -31,15 +31,17 @@ class Api
     private Config $config;
 
     /**
-     * Constructs the search API.
+     * Constructs the API.
      *
-     * @param AbstractHttpAdapter $httpAdapter An HTTP adapter
-     * @param Config              $config      The API client configuration
+     * @param ApiClient $apiClient The API client
+     * @param Config    $config    The API client configuration
+     *
+     * @internal
      */
-    public function __construct(AbstractHttpAdapter $httpAdapter, Config $config)
+    public function __construct(ApiClient $apiClient, Config $config)
     {
-        $this->httpAdapter = $httpAdapter;
-        $this->config      = $config;
+        $this->apiClient = $apiClient;
+        $this->config =  $config;
     }
 
     /**
@@ -47,9 +49,9 @@ class Api
      *
      * @return Browse
      */
-    public function browse()
+    public function browse(): Browse
     {
-        return new Browse($this->httpAdapter, $this->config);
+        return new Browse($this->apiClient, $this->config);
     }
 
     /**
@@ -57,9 +59,9 @@ class Api
      *
      * @return Lookup
      */
-    public function lookup()
+    public function lookup(): Lookup
     {
-        return new Lookup($this->httpAdapter, $this->config);
+        return new Lookup($this->apiClient, $this->config);
     }
 
     /**
@@ -67,8 +69,8 @@ class Api
      *
      * @return Search
      */
-    public function search()
+    public function search(): Search
     {
-        return new Search($this->httpAdapter, $this->config);
+        return new Search($this->apiClient, $this->config);
     }
 }

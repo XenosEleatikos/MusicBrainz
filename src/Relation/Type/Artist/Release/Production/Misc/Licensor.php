@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Misc;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship indicates the artist that was the licensor of this release.
@@ -17,10 +16,10 @@ class Licensor extends Misc
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('licensor');
+        return 'licensor';
     }
 }

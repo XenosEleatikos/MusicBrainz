@@ -14,16 +14,6 @@ trait RecordingsTrait
     protected bool $recordings = false;
 
     /**
-     * Returns true, if recordings should be included, otherwise false.
-     *
-     * @return bool
-     */
-    public function getIncludeFlagForRecordings(): bool
-    {
-        return $this->recordings;
-    }
-
-    /**
      * Sets whether recordings should be included.
      *
      * @param bool $recordings True, if recordings should be included, otherwise false

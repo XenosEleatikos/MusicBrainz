@@ -1,0 +1,29 @@
+{
+    "relations": [
+        {
+            "type-id": "04a5b104-a4c2-4bac-99a1-7b837c37d9e4",
+            "type": "discogs",
+            "direction": "backward",
+            "end": null,
+            "target-type": "artist",
+            "attributes": [],
+            "begin": null,
+            "ended": false,
+            "source-credit": "",
+            "artist": {
+                "disambiguation": "UK rock band, “The Fab Four”",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "name": "The Beatles",
+                "country": "GB",
+                "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+                "sort-name": "Beatles, The",
+                "type": "Group"
+            },
+            "target-credit": "",
+            "attribute-ids": [],
+            "attribute-values": []
+        }
+    ],
+    "id": "4327d342-5545-4168-a4c9-f8a740099d5d",
+    "resource": "https://www.discogs.com/artist/82730"
+}

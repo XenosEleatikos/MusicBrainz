@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\MediumNumber;
+use MusicBrainz\Filter\Value\MediumNumber;
 
 trait MediumNumberTrait
 {
@@ -15,6 +14,8 @@ trait MediumNumberTrait
      * Returns the field name for the medium number.
      *
      * @return string
+     *
+     * @internal
      */
     public static function mediumNumber(): string
     {
@@ -26,10 +27,12 @@ trait MediumNumberTrait
      *
      * @param MediumNumber $mediumNumber The medium number
      *
-     * @return Term
+     * @return static
      */
-    public function addMediumNumber(MediumNumber $mediumNumber): Term
+    public function addMediumNumber(MediumNumber $mediumNumber): static
     {
-        return $this->addTerm((string) $mediumNumber, self::mediumNumber());
+        $this->addTerm((string) $mediumNumber, self::mediumNumber());
+
+        return $this;
     }
 }

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\RemixesAndCompilations;
 
 use MusicBrainz\Relation\Type\ReleaseGroup\ReleaseGroup\RemixesAndCompilations;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to indicate that the release group is a mash-up mash-up of two (or more) other release groups.
@@ -17,10 +16,10 @@ class MashesUp extends RemixesAndCompilations
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('mashes up');
+        return 'mashes up';
     }
 }

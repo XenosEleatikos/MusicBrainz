@@ -4,24 +4,20 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Browse\Relation\RelatedEntity;
 
-use MusicBrainz\Value\EntityType;
-use MusicBrainz\Value\MBID;
+use MusicBrainz\Filter\Browse\Relation\BrowseParameter;
 
 /**
- * Provides a setter for the entity type editor.
+ * Provides the relation "belongs to an editor".
  */
 trait EditorTrait
 {
     /**
-     * Defines a relation to an editor.
+     * Browses the entities of an editor, e.g. the collections.
      *
-     * @param MBID $mbid The MusicBrainz Identifier (MBID) of the related editor
-     *
-     * @return void
+     * @param string $username The user name of the editor (editors have no MBID)
      */
-    public function editor(MBID $mbid): void
+    public static function editor(string $username): static
     {
-        $this->setEntityId($mbid);
-        $this->setEntityType(new EntityType(EntityType::EDITOR));
+        return new static(BrowseParameter::Editor, $username);
     }
 }

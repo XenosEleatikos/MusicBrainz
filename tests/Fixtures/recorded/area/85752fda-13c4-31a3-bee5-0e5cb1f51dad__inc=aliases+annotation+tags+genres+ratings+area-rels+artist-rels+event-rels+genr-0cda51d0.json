@@ -1,0 +1,2486 @@
+{
+    "disambiguation": "",
+    "name": "Germany",
+    "sort-name": "Germany",
+    "aliases": [
+        {
+            "primary": true,
+            "type": null,
+            "locale": "es",
+            "type-id": null,
+            "begin": null,
+            "ended": false,
+            "end": null,
+            "sort-name": "Alemania",
+            "name": "Alemania"
+        },
+        {
+            "begin": null,
+            "name": "Allemagne",
+            "sort-name": "Allemagne",
+            "end": null,
+            "ended": false,
+            "primary": true,
+            "type": null,
+            "type-id": null,
+            "locale": "fr"
+        },
+        {
+            "begin": "1949-05-23",
+            "sort-name": "Bundesrepublik Deutschland",
+            "name": "Bundesrepublik Deutschland",
+            "end": null,
+            "ended": false,
+            "primary": true,
+            "type": "Formal name",
+            "type-id": "b280c712-f676-342e-a8f2-e5c5fe0159b4",
+            "locale": "de"
+        },
+        {
+            "sort-name": "Deutschland",
+            "name": "Deutschland",
+            "end": null,
+            "ended": false,
+            "begin": null,
+            "type-id": null,
+            "locale": "de",
+            "type": null,
+            "primary": false
+        },
+        {
+            "primary": false,
+            "type": "Formal name",
+            "type-id": "b280c712-f676-342e-a8f2-e5c5fe0159b4",
+            "locale": "en",
+            "begin": "1949-05-23",
+            "name": "Federal Republic of Germany",
+            "sort-name": "Federal Republic of Germany",
+            "ended": false,
+            "end": null
+        },
+        {
+            "end": "1990-10-02",
+            "ended": true,
+            "name": "West Germany",
+            "sort-name": "West Germany",
+            "begin": "1949-05-23",
+            "locale": "en",
+            "type-id": "0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29",
+            "primary": false,
+            "type": "Area name"
+        }
+    ],
+    "relations": [
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "area",
+            "source-credit": "",
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "area": {
+                "iso-3166-2-codes": [
+                    "DE-BB"
+                ],
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "disambiguation": "",
+                "type": "Subdivision",
+                "id": "6adffea3-b78f-4670-ab6e-cff834a41bde",
+                "sort-name": "Brandenburg",
+                "name": "Brandenburg"
+            },
+            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+            "attributes": [],
+            "type": "part of"
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "area",
+            "area": {
+                "sort-name": "Berlin",
+                "name": "Berlin",
+                "type": "City",
+                "disambiguation": "",
+                "id": "c9ac1239-e832-41bc-9930-e252a1fd1105",
+                "iso-3166-2-codes": [
+                    "DE-BE"
+                ],
+                "type-id": "6fd8f29a-3d0a-32fc-980d-ea697b69da78"
+            },
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "ended": false,
+            "type": "part of",
+            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+            "attributes": []
+        },
+        {
+            "source-credit": "",
+            "target-type": "area",
+            "begin": null,
+            "attribute-ids": [],
+            "type": "part of",
+            "type-id": "de7cc874-8b1b-3a05-8272-f3834c968fb7",
+            "attributes": [],
+            "area": {
+                "name": "Baden-Württemberg",
+                "sort-name": "Baden-Württemberg",
+                "id": "4b8c47dd-0fe2-450e-8a21-d4d739ee0e0c",
+                "disambiguation": "",
+                "type": "Subdivision",
+                "type-id": "fd3d44c5-80a1-3842-9745-2c4972d35afa",
+                "iso-3166-2-codes": [
+                    "DE-BW"
+                ]
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null
+        },
+        {
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+            "attributes": [],
+            "type": "held in",
+            "attribute-ids": [],
+            "begin": null,
+            "event": {
+                "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                "id": "d8067049-052c-4b17-9c78-f2c551a07eb8",
+                "life-span": {
+                    "end": "2022-07-31",
+                    "ended": true,
+                    "begin": "2021-02-21"
+                },
+                "cancelled": false,
+                "type": "Festival",
+                "disambiguation": "Celebration of 1700 years of Jewish life in Germany",
+                "setlist": "",
+                "name": "1700 Jahre jüdisches Leben in Deutschland",
+                "time": ""
+            },
+            "target-type": "event",
+            "source-credit": ""
+        },
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "event",
+            "event": {
+                "name": "Art Rock Festival 2020, Day 1",
+                "time": "20:00",
+                "type-id": "b6ded574-b592-3f0e-b56e-5b5f06aa0678",
+                "cancelled": false,
+                "life-span": {
+                    "begin": "2020-09-18",
+                    "end": "2020-09-18",
+                    "ended": true
+                },
+                "id": "977c203e-dfab-4858-8825-7b2e5895df2b",
+                "setlist": "@ League of Lights * Shockwave\r\n@ League of Lights * Due Diligence\r\n@ League of Lights * Cover Me Now\r\n@ League of Lights * In the in Between\r\n@ League of Lights * Butterfly\r\n@ League of Lights * Fox\r\n@ League of Lights * Half Light\r\n@ League of Lights * Scarlet Thread\r\n@ League of Lights * Down Down\r\n@ League of Lights * Strong Enough\r\n@ League of Lights * Hammer\r\n@ League of Lights * Avalon\r\n@ League of Lights * Don't Leave Me Behind\r\n@ League of Lights * Roll and List\r\n@ League of Lights * On a Night Like This\r\n@ League of Lights * Kings and Queens\r\n@ League of Lights * Forever",
+                "type": "Festival",
+                "disambiguation": ""
+            },
+            "source-credit": "",
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+            "attributes": [],
+            "type": "held in"
+        },
+        {
+            "type": "held in",
+            "type-id": "542f8484-8bc7-3ce5-a022-747850b2b928",
+            "attributes": [],
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "source-credit": "",
+            "event": {
+                "name": "BAND-MAID WORLD TOUR 2026 - DE, Frankfurt",
+                "time": "01:20",
+                "id": "9161e965-f3ef-4cf7-b339-7cdc7b5fa0f6",
+                "life-span": {
+                    "begin": "2026-05-06",
+                    "end": "2026-05-06",
+                    "ended": true
+                },
+                "cancelled": false,
+                "type": "Concert",
+                "setlist": "* DOMINATION\r\n* SUPER SUNSHINE\r\n* Choose me\r\n* DICE\r\n* Shambles\r\n* Sayonakidori\r\n* What is justice?\r\n* Brightest Star\r\n* Unleash!!!!!\r\n* Toi et moi\r\n* Lock and Load\r\n* HATE?\r\n* Present Perfect\r\n* endless Story\r\n* Days\r\n* ENERGETIC\r\n* Ready to Rock\r\n* Dilly-Dally\r\n* NO GOD",
+                "disambiguation": "",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+            },
+            "target-type": "event",
+            "begin": null,
+            "attribute-ids": []
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "genre",
+            "genre": {
+                "id": "ae93e318-c563-4bb7-9a48-eb2f4e4df96f",
+                "disambiguation": "",
+                "name": "berlin school"
+            },
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "ended": false,
+            "type": "genre origin",
+            "type-id": "25ed73f8-a864-42cf-8b9c-68db198dbe0e",
+            "attributes": []
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "genre",
+            "genre": {
+                "disambiguation": "",
+                "id": "f502ac86-d84e-4105-a455-c9df1199ef61",
+                "name": "burger-highlife"
+            },
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": null,
+            "ended": false,
+            "type": "genre origin",
+            "attributes": [],
+            "type-id": "25ed73f8-a864-42cf-8b9c-68db198dbe0e"
+        },
+        {
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "type-id": "25ed73f8-a864-42cf-8b9c-68db198dbe0e",
+            "attributes": [],
+            "type": "genre origin",
+            "attribute-ids": [],
+            "begin": null,
+            "genre": {
+                "name": "fahrtenlied",
+                "id": "bac60fa0-6a6c-4d70-954f-ad2dfeb5e9a2",
+                "disambiguation": ""
+            },
+            "target-type": "genre",
+            "source-credit": ""
+        },
+        {
+            "target-type": "instrument",
+            "source-credit": "",
+            "attribute-ids": [],
+            "instrument": {
+                "type-id": "cc00f97f-cf3d-3ae2-9163-041cb1a0d726",
+                "id": "bd5fa79a-ea6f-4e11-9463-f6f43cca363c",
+                "disambiguation": "German keyed box zither",
+                "type": "String instrument",
+                "description": "Similar to the Japanese taishogoto, it has an elongated teardrop shaped wooden body with button accordion like keys which plays the melody and sets chords.",
+                "name": "akkordolia"
+            },
+            "begin": null,
+            "type-id": "0b67183b-9f36-4b09-b561-0fa531508f91",
+            "attributes": [],
+            "type": "instrument origin",
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward"
+        },
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "instrument": {
+                "name": "baroque rackett",
+                "description": "Improved by Johann Christoph Denner sometime around 1730, its \"coiled snake\" bore now is conical, in addition it is played through a removable metal curled mouth piece.",
+                "disambiguation": "Conical bored compact double reed",
+                "type": "Wind instrument",
+                "id": "dd93de8f-c32a-4bcf-8e90-4463c79676ea",
+                "type-id": "876464a8-e74f-3f40-9bd3-637d2b1743ae"
+            },
+            "target-type": "instrument",
+            "source-credit": "",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "0b67183b-9f36-4b09-b561-0fa531508f91",
+            "attributes": [],
+            "type": "instrument origin"
+        },
+        {
+            "begin": null,
+            "instrument": {
+                "type-id": "98df6cec-95e5-3cbc-9a2d-7ea6c8be6f3c",
+                "id": "c498b4b0-7cbf-4b48-b7f6-18b32df02df1",
+                "type": "Electronic instrument",
+                "disambiguation": "electronic keyboard accordion",
+                "description": "In the form of a piano accordion, the keys control the output, pitch and sound, bellows control only volume. Sold by Hohner since 1952, it has gone through many modernisations through the years.",
+                "name": "elektronium"
+            },
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "instrument",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "instrument origin",
+            "type-id": "0b67183b-9f36-4b09-b561-0fa531508f91",
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "type-id": "c28aa691-74de-4c4c-acc3-348611d7e857",
+            "type": "headquarters",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "target-type": "label",
+            "label": {
+                "label-code": 102183,
+                "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                "id": "e8a01678-d7b0-4a39-8466-2202be453345",
+                "type": "Publisher",
+                "disambiguation": "Production and Publishing",
+                "sort-name": "Absolut Kaputt Music Group",
+                "name": "Absolut Kaputt Music Group"
+            },
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": "2024-07"
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "length": 79000,
+                "id": "c87ba6f2-a762-450a-96e0-205302c9414b",
+                "title": "Artza Alinu",
+                "disambiguation": ""
+            },
+            "source-credit": "",
+            "target-type": "recording",
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "ended": false,
+            "type": "edited in",
+            "attributes": [],
+            "type-id": "e24482da-f568-46ba-a428-9fa56615c7b2"
+        },
+        {
+            "target-type": "recording",
+            "source-credit": "",
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "length": 136000,
+                "disambiguation": "",
+                "title": "Bay Ana Rachetz",
+                "id": "39e4a5db-6f03-42d2-998b-2b20271df3e6"
+            },
+            "begin": null,
+            "attributes": [],
+            "type-id": "e24482da-f568-46ba-a428-9fa56615c7b2",
+            "type": "edited in",
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": []
+        },
+        {
+            "type-id": "e24482da-f568-46ba-a428-9fa56615c7b2",
+            "attributes": [],
+            "type": "edited in",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "target-type": "recording",
+            "source-credit": "",
+            "attribute-ids": [],
+            "recording": {
+                "length": 176000,
+                "video": false,
+                "title": "Doina",
+                "id": "7d7008ef-3d3e-4910-a9dd-5a2819f04cc2",
+                "disambiguation": ""
+            },
+            "begin": null
+        },
+        {
+            "recording": {
+                "id": "8881faac-acb5-4869-becb-850b22bf99bb",
+                "title": "Unrevealed: 2. Satz",
+                "disambiguation": "",
+                "video": false,
+                "length": null
+            },
+            "attribute-ids": [],
+            "begin": "1986-06-25",
+            "target-type": "recording",
+            "source-credit": "",
+            "ended": true,
+            "end": "1986-06-26",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "attributes": [],
+            "type": "engineered in"
+        },
+        {
+            "attribute-ids": [],
+            "recording": {
+                "id": "f4777ee8-805d-4180-8c45-7924e1763d00",
+                "title": "Arabesque Variations",
+                "disambiguation": "",
+                "length": 365000,
+                "video": false
+            },
+            "begin": "1995",
+            "target-type": "recording",
+            "source-credit": "",
+            "end": "1995",
+            "ended": true,
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "attributes": [],
+            "type": "engineered in"
+        },
+        {
+            "ended": true,
+            "end": "1995",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "type-id": "aede7c5e-8bd3-4f07-bad2-c3d159e8c1c5",
+            "attributes": [],
+            "type": "engineered in",
+            "recording": {
+                "disambiguation": "",
+                "title": "Bora",
+                "id": "e41827b5-68d0-4d23-a04a-a463259de8f7",
+                "video": false,
+                "length": 194000
+            },
+            "attribute-ids": [],
+            "begin": "1995",
+            "target-type": "recording",
+            "source-credit": ""
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "mixed in",
+            "type-id": "eef56d04-852a-4ce6-bfc9-678c19392a16",
+            "attributes": [],
+            "begin": null,
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "length": 79000,
+                "id": "c87ba6f2-a762-450a-96e0-205302c9414b",
+                "title": "Artza Alinu",
+                "disambiguation": ""
+            },
+            "source-credit": "",
+            "target-type": "recording"
+        },
+        {
+            "recording": {
+                "video": false,
+                "length": 136000,
+                "disambiguation": "",
+                "title": "Bay Ana Rachetz",
+                "id": "39e4a5db-6f03-42d2-998b-2b20271df3e6"
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "recording",
+            "source-credit": "",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "eef56d04-852a-4ce6-bfc9-678c19392a16",
+            "attributes": [],
+            "type": "mixed in"
+        },
+        {
+            "type-id": "eef56d04-852a-4ce6-bfc9-678c19392a16",
+            "attributes": [],
+            "type": "mixed in",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "target-type": "recording",
+            "source-credit": "",
+            "attribute-ids": [],
+            "recording": {
+                "id": "10d6fbbc-7261-4052-81e3-0b06f814ce87",
+                "title": "Dirty Hands",
+                "disambiguation": "",
+                "length": 284000,
+                "video": false
+            },
+            "begin": null
+        },
+        {
+            "type-id": "93078fc7-6585-40a7-ab7f-6acb9da65b84",
+            "attributes": [],
+            "type": "produced in",
+            "end": "2026-07-06",
+            "ended": true,
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "target-type": "recording",
+            "source-credit": "",
+            "recording": {
+                "length": 105273,
+                "video": false,
+                "disambiguation": "",
+                "id": "5be1e848-7d4b-4075-bcbb-bdd86d797641",
+                "title": "Au Revoir"
+            },
+            "attribute-ids": [],
+            "begin": "2026-06-01"
+        },
+        {
+            "begin": null,
+            "recording": {
+                "id": "842c3c71-2e87-4d85-ad4e-a37fe9b23fce",
+                "title": "Another Dream",
+                "disambiguation": "",
+                "length": 283000,
+                "video": false
+            },
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "recording",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "produced in",
+            "attributes": [],
+            "type-id": "93078fc7-6585-40a7-ab7f-6acb9da65b84"
+        },
+        {
+            "target-type": "recording",
+            "source-credit": "",
+            "recording": {
+                "id": "a9e4c5cc-1225-4ece-a581-599cdb0ce0cd",
+                "title": "Symphony no. 5 in C minor, op. 67: I. Allegro con brio",
+                "disambiguation": "",
+                "length": 410600,
+                "video": false
+            },
+            "attribute-ids": [],
+            "begin": "1913-11",
+            "attributes": [],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "type": "recorded in",
+            "ended": true,
+            "end": "1913-11",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward"
+        },
+        {
+            "type": "recorded in",
+            "attributes": [],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": "1921",
+            "ended": true,
+            "source-credit": "",
+            "target-type": "recording",
+            "begin": "1921",
+            "attribute-ids": [],
+            "recording": {
+                "video": false,
+                "length": null,
+                "disambiguation": "",
+                "title": "Die Meistersinger: Am stillen Herd",
+                "id": "9f054c0d-4943-4dae-acef-045c0fd91f93"
+            }
+        },
+        {
+            "source-credit": "",
+            "target-type": "recording",
+            "begin": "1921",
+            "recording": {
+                "length": null,
+                "video": false,
+                "disambiguation": "",
+                "title": "Die Meistersinger: Preislied",
+                "id": "01617801-f319-440c-afa2-6c6bfa120edd"
+            },
+            "attribute-ids": [],
+            "type": "recorded in",
+            "attributes": [],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "end": "1921"
+        },
+        {
+            "ended": true,
+            "end": "1993",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "type": "recorded in",
+            "recording": {
+                "disambiguation": "",
+                "title": "Germany ’93, Part 1",
+                "id": "d1d8900a-be59-4ca4-a38a-037a42dcbf8f",
+                "video": true,
+                "length": 63000
+            },
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "begin": "1993",
+            "attribute-credits": [],
+            "target-type": "recording",
+            "source-credit": ""
+        },
+        {
+            "source-credit": "",
+            "target-type": "recording",
+            "attribute-credits": [],
+            "begin": "1993",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "recording": {
+                "disambiguation": "",
+                "title": "Germany ’93, Part 2",
+                "id": "79a36444-53fc-4d97-8ce3-2ccb9f66e84e",
+                "length": 73000,
+                "video": true
+            },
+            "type": "recorded in",
+            "attributes": [
+                "spoken vocals"
+            ],
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": "1993",
+            "ended": true
+        },
+        {
+            "attribute-credits": [],
+            "begin": "1993",
+            "attribute-ids": {
+                "spoken vocals": "d3a36e62-a7c4-4eb9-839f-adfebe87ac12"
+            },
+            "recording": {
+                "id": "a52b04fc-2411-4add-8fba-02fc617193b4",
+                "title": "Germany ’93, Part 3",
+                "disambiguation": "",
+                "video": true,
+                "length": 21000
+            },
+            "source-credit": "",
+            "target-type": "recording",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": "1993",
+            "ended": true,
+            "type": "recorded in",
+            "type-id": "37ef3a0c-cac3-4172-b09b-4ca98d2857fc",
+            "attributes": [
+                "spoken vocals"
+            ]
+        },
+        {
+            "type": "remixed in",
+            "attributes": [],
+            "type-id": "582f6452-ff89-4f3b-9e78-eff5b842e208",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": "2015",
+            "ended": true,
+            "source-credit": "",
+            "target-type": "recording",
+            "begin": "2015",
+            "recording": {
+                "title": "Bulut (Aalemarie Remix)",
+                "id": "72c1c36d-639e-4632-9fe0-6165fdd1b411",
+                "disambiguation": "",
+                "video": false,
+                "length": 571089
+            },
+            "attribute-ids": []
+        },
+        {
+            "begin": null,
+            "recording": {
+                "length": 247000,
+                "video": false,
+                "disambiguation": "",
+                "title": "Orange U Ready (Cool Million mix)",
+                "id": "b2f879a5-018d-4bc3-9bbe-c15ed6f8b9da"
+            },
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "recording",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": null,
+            "ended": false,
+            "type": "remixed in",
+            "attributes": [],
+            "type-id": "582f6452-ff89-4f3b-9e78-eff5b842e208"
+        },
+        {
+            "type-id": "d92ee325-0d37-4d1c-aea1-436f36e13565",
+            "attributes": [],
+            "type": "video shot in",
+            "ended": true,
+            "end": "1992",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "target-type": "recording",
+            "source-credit": "",
+            "attribute-ids": [],
+            "recording": {
+                "id": "670a64e1-3855-488d-a111-a23b4edf7637",
+                "title": "Deutchland 1992",
+                "disambiguation": "",
+                "length": 103000,
+                "video": true
+            },
+            "begin": "1992"
+        },
+        {
+            "recording": {
+                "title": "Germany ’93, Part 1",
+                "id": "d1d8900a-be59-4ca4-a38a-037a42dcbf8f",
+                "disambiguation": "",
+                "length": 63000,
+                "video": true
+            },
+            "attribute-ids": [],
+            "begin": "1993",
+            "target-type": "recording",
+            "source-credit": "",
+            "ended": true,
+            "end": "1993",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "type-id": "d92ee325-0d37-4d1c-aea1-436f36e13565",
+            "type": "video shot in"
+        },
+        {
+            "ended": true,
+            "end": "1993",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "attributes": [],
+            "type-id": "d92ee325-0d37-4d1c-aea1-436f36e13565",
+            "type": "video shot in",
+            "attribute-ids": [],
+            "recording": {
+                "length": 73000,
+                "video": true,
+                "title": "Germany ’93, Part 2",
+                "id": "79a36444-53fc-4d97-8ce3-2ccb9f66e84e",
+                "disambiguation": ""
+            },
+            "begin": "1993",
+            "target-type": "recording",
+            "source-credit": ""
+        },
+        {
+            "ended": true,
+            "end": "1983",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "3a24272b-3273-456a-9be8-421580513d4b",
+            "attributes": [],
+            "type": "engineered in",
+            "attribute-ids": [],
+            "begin": "1983",
+            "target-type": "release",
+            "source-credit": "",
+            "release": {
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "date": "1987",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "name": "France",
+                            "sort-name": "France",
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "disambiguation": "",
+                            "type": null,
+                            "type-id": null
+                        }
+                    }
+                ],
+                "status-id": null,
+                "disambiguation": "",
+                "packaging": null,
+                "status": null,
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "fra"
+                },
+                "barcode": "3149021611196",
+                "date": "1987",
+                "id": "aca79639-1b3b-4425-99fb-b657a7bcdecc",
+                "country": "FR",
+                "title": "Stabat Mater"
+            }
+        },
+        {
+            "source-credit": "",
+            "release": {
+                "disambiguation": "",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "date": "1993-10-06",
+                        "area": null
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null,
+                "barcode": "3149025059604",
+                "date": "1993-10-06",
+                "id": "e7368957-ae01-4299-887c-4c0e29b33939",
+                "country": null,
+                "title": "Sonates pour pianoforte et violon, Volume 1 : \"Palatines\" • Mannheim-Paris (1778)",
+                "quality": "normal",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "status": null
+            },
+            "target-type": "release",
+            "begin": "1993",
+            "attribute-ids": [],
+            "type": "engineered in",
+            "attributes": [],
+            "type-id": "3a24272b-3273-456a-9be8-421580513d4b",
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": "1993",
+            "ended": true
+        },
+        {
+            "begin": "1995",
+            "attribute-ids": [],
+            "release": {
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "quality": "normal",
+                "barcode": null,
+                "date": "1995",
+                "id": "2e3c5889-7104-4b9f-be29-ea1564e1f38c",
+                "country": "FR",
+                "title": "Ancient Voices - Vox Sacra",
+                "status": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "08310658-51eb-3801-80de-5a0739207115",
+                            "type": null,
+                            "disambiguation": "",
+                            "sort-name": "France",
+                            "name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ]
+                        },
+                        "date": "1995"
+                    }
+                ],
+                "disambiguation": "",
+                "packaging": null,
+                "packaging-id": null
+            },
+            "source-credit": "",
+            "target-type": "release",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "end": "1995",
+            "type": "engineered in",
+            "type-id": "3a24272b-3273-456a-9be8-421580513d4b",
+            "attributes": []
+        },
+        {
+            "attribute-ids": [],
+            "begin": "1921",
+            "target-type": "release",
+            "release": {
+                "status": null,
+                "text-representation": {
+                    "language": "deu",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "barcode": null,
+                "title": "Die Meistersinger",
+                "country": "DE",
+                "date": "1921",
+                "id": "937c7237-55f4-4ed1-833c-f444361da592",
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type": null,
+                            "disambiguation": "",
+                            "name": "Germany",
+                            "sort-name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ]
+                        },
+                        "date": "1921"
+                    }
+                ],
+                "status-id": null,
+                "disambiguation": "",
+                "packaging": null
+            },
+            "source-credit": "",
+            "ended": true,
+            "end": "1921",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "type-id": "c0998b44-aa21-4d27-be79-2ff64205cecd",
+            "type": "manufactured in"
+        },
+        {
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": true,
+            "end": "1923",
+            "type": "manufactured in",
+            "attributes": [],
+            "type-id": "c0998b44-aa21-4d27-be79-2ff64205cecd",
+            "begin": "1923",
+            "attribute-ids": [],
+            "release": {
+                "status": null,
+                "id": "ae6dde15-8cf8-4097-ac50-45e274955cbb",
+                "date": "1923",
+                "title": "Die Meistersinger",
+                "country": "DE",
+                "barcode": null,
+                "text-representation": {
+                    "language": "deu",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "packaging-id": null,
+                "packaging": null,
+                "disambiguation": "",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "disambiguation": "",
+                            "type": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "sort-name": "Germany",
+                            "name": "Germany"
+                        },
+                        "date": "1923"
+                    }
+                ]
+            },
+            "source-credit": "",
+            "target-type": "release"
+        },
+        {
+            "begin": "1967-10",
+            "attribute-ids": [],
+            "source-credit": "",
+            "release": {
+                "status": null,
+                "barcode": null,
+                "title": "Esther im Kinderland",
+                "country": "DE",
+                "id": "4e95bbe2-e877-494c-8941-69944c36b435",
+                "date": "1967-10",
+                "quality": "normal",
+                "text-representation": {
+                    "language": "deu",
+                    "script": "Latn"
+                },
+                "packaging-id": null,
+                "disambiguation": "",
+                "packaging": null,
+                "release-events": [
+                    {
+                        "date": "1967-10",
+                        "area": {
+                            "sort-name": "Germany",
+                            "name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "type-id": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "disambiguation": "",
+                            "type": null
+                        }
+                    }
+                ],
+                "status-id": null
+            },
+            "target-type": "release",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": "1967-10",
+            "ended": true,
+            "type": "manufactured in",
+            "type-id": "c0998b44-aa21-4d27-be79-2ff64205cecd",
+            "attributes": []
+        },
+        {
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "type-id": "ee380877-3636-462b-b407-ab39370a787e",
+            "attributes": [],
+            "type": "mastered in",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "release",
+            "source-credit": "",
+            "release": {
+                "quality": "normal",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "title": "All the Worlds We Built",
+                "country": "US",
+                "date": "2023-02-24",
+                "id": "446ef981-2398-461b-9cd9-89d3f90b56dc",
+                "barcode": "735263669519",
+                "status": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "US"
+                            ],
+                            "name": "United States",
+                            "sort-name": "United States",
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "type": null,
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "date": "2023-02-24"
+                    }
+                ],
+                "packaging": null,
+                "disambiguation": "",
+                "packaging-id": null
+            }
+        },
+        {
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "ee380877-3636-462b-b407-ab39370a787e",
+            "attributes": [],
+            "type": "mastered in",
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "release",
+            "source-credit": "",
+            "release": {
+                "status": null,
+                "quality": "high",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "barcode": "7277017724325",
+                "country": "AR",
+                "title": "Bleed",
+                "id": "fbaf95b2-c231-4d87-95e2-8da8ca11c147",
+                "date": "1999",
+                "packaging-id": null,
+                "release-events": [
+                    {
+                        "date": "1999",
+                        "area": {
+                            "name": "Argentina",
+                            "sort-name": "Argentina",
+                            "iso-3166-1-codes": [
+                                "AR"
+                            ],
+                            "type-id": null,
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b"
+                        }
+                    }
+                ],
+                "status-id": null,
+                "disambiguation": "",
+                "packaging": null
+            }
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "release": {
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "barcode": "7277017724325",
+                "date": "1999",
+                "id": "14b4bcb1-326f-4936-a8fc-978eca1365b2",
+                "country": "CL",
+                "title": "Bleed",
+                "status": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "CL"
+                            ],
+                            "sort-name": "Chile",
+                            "name": "Chile",
+                            "id": "82d5f4d6-aed4-3ff5-81d1-5363ac6e97a7",
+                            "disambiguation": "",
+                            "type": null,
+                            "type-id": null
+                        },
+                        "date": "1999"
+                    }
+                ],
+                "disambiguation": "",
+                "packaging": null,
+                "packaging-id": null
+            },
+            "source-credit": "",
+            "target-type": "release",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": null,
+            "ended": false,
+            "type": "mastered in",
+            "attributes": [],
+            "type-id": "ee380877-3636-462b-b407-ab39370a787e"
+        },
+        {
+            "type": "mixed in",
+            "type-id": "653b7420-c418-4bdc-83a5-6b2f44a65915",
+            "attributes": [],
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": null,
+            "ended": false,
+            "release": {
+                "release-events": [
+                    {
+                        "date": "1999",
+                        "area": {
+                            "type-id": null,
+                            "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+                            "type": null,
+                            "disambiguation": "",
+                            "sort-name": "Argentina",
+                            "name": "Argentina",
+                            "iso-3166-1-codes": [
+                                "AR"
+                            ]
+                        }
+                    }
+                ],
+                "status-id": null,
+                "disambiguation": "",
+                "packaging": null,
+                "packaging-id": null,
+                "quality": "high",
+                "text-representation": {
+                    "language": "eng",
+                    "script": "Latn"
+                },
+                "barcode": "7277017724325",
+                "date": "1999",
+                "id": "fbaf95b2-c231-4d87-95e2-8da8ca11c147",
+                "title": "Bleed",
+                "country": "AR",
+                "status": null
+            },
+            "source-credit": "",
+            "target-type": "release",
+            "begin": null,
+            "attribute-ids": []
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "release": {
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "barcode": "7277017724325",
+                "title": "Bleed",
+                "country": "CL",
+                "id": "14b4bcb1-326f-4936-a8fc-978eca1365b2",
+                "date": "1999",
+                "status": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "82d5f4d6-aed4-3ff5-81d1-5363ac6e97a7",
+                            "name": "Chile",
+                            "sort-name": "Chile",
+                            "iso-3166-1-codes": [
+                                "CL"
+                            ]
+                        },
+                        "date": "1999"
+                    }
+                ],
+                "status-id": null,
+                "disambiguation": "",
+                "packaging": null,
+                "packaging-id": null
+            },
+            "source-credit": "",
+            "target-type": "release",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "mixed in",
+            "attributes": [],
+            "type-id": "653b7420-c418-4bdc-83a5-6b2f44a65915"
+        },
+        {
+            "attributes": [],
+            "type-id": "653b7420-c418-4bdc-83a5-6b2f44a65915",
+            "type": "mixed in",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "target-type": "release",
+            "release": {
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "0df04709-c7d8-3b55-a6ea-f3e5069a947b",
+                            "disambiguation": "",
+                            "type": null,
+                            "name": "Argentina",
+                            "sort-name": "Argentina",
+                            "iso-3166-1-codes": [
+                                "AR"
+                            ]
+                        },
+                        "date": "1998"
+                    },
+                    {
+                        "area": {
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "BR"
+                            ],
+                            "name": "Brazil",
+                            "sort-name": "Brazil"
+                        },
+                        "date": "1998"
+                    }
+                ],
+                "status-id": null,
+                "packaging": null,
+                "disambiguation": "",
+                "packaging-id": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "mul"
+                },
+                "quality": "normal",
+                "title": "Deus Ex Machina",
+                "country": "AR",
+                "date": "1998",
+                "id": "255628ad-d36d-4e67-992a-5b9f24aac05a",
+                "barcode": "4028466101549",
+                "status": null
+            },
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": null
+        },
+        {
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": "1965-01",
+            "ended": true,
+            "type": "printed in",
+            "type-id": "0123b87a-5b31-4cd7-9df7-03f885bfd90c",
+            "attributes": [],
+            "begin": "1965-01",
+            "attribute-ids": [],
+            "source-credit": "",
+            "release": {
+                "disambiguation": "printed 1/65",
+                "packaging": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "1965",
+                        "area": {
+                            "type-id": null,
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "sort-name": "Germany",
+                            "name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ]
+                        }
+                    }
+                ],
+                "packaging-id": null,
+                "barcode": null,
+                "title": "Esther und Abi Ofarim und ihre schönsten Songs",
+                "country": "DE",
+                "date": "1965",
+                "id": "8e2c77e5-f879-478d-afd8-ed4485fae608",
+                "text-representation": {
+                    "language": "deu",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "status": null
+            },
+            "target-type": "release"
+        },
+        {
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "end": "1965-04",
+            "type": "printed in",
+            "type-id": "0123b87a-5b31-4cd7-9df7-03f885bfd90c",
+            "attributes": [],
+            "begin": "1965-04",
+            "attribute-ids": [],
+            "source-credit": "",
+            "release": {
+                "quality": "normal",
+                "text-representation": {
+                    "language": "deu",
+                    "script": "Latn"
+                },
+                "title": "Melodie einer Nacht",
+                "country": "DE",
+                "id": "38f3fb01-76e7-4ea5-8bd6-91c51b49c2c5",
+                "date": "1965",
+                "barcode": null,
+                "status": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "sort-name": "Germany",
+                            "name": "Germany",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "disambiguation": "",
+                            "type": null,
+                            "type-id": null
+                        },
+                        "date": "1965"
+                    }
+                ],
+                "status-id": null,
+                "packaging": null,
+                "disambiguation": "4.65 print",
+                "packaging-id": null
+            },
+            "target-type": "release"
+        },
+        {
+            "ended": true,
+            "end": "1965-09",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "0123b87a-5b31-4cd7-9df7-03f885bfd90c",
+            "attributes": [],
+            "type": "printed in",
+            "attribute-ids": [],
+            "begin": "1965-09",
+            "target-type": "release",
+            "release": {
+                "title": "Esther und Abi Ofarim und ihre schönsten Songs",
+                "country": "DE",
+                "date": "1965-09",
+                "id": "0ef29874-ad2a-408c-a0a9-a64fdd90ad6f",
+                "barcode": null,
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "deu"
+                },
+                "quality": "normal",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "printed 9/65",
+                "release-events": [
+                    {
+                        "date": "1965-09",
+                        "area": {
+                            "sort-name": "Germany",
+                            "name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "type-id": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "disambiguation": "",
+                            "type": null
+                        }
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null
+            },
+            "source-credit": ""
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "release": {
+                "packaging-id": null,
+                "disambiguation": "",
+                "packaging": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2020-02-02",
+                        "area": {
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "sort-name": "Germany",
+                            "name": "Germany"
+                        }
+                    }
+                ],
+                "status": null,
+                "barcode": "194660732880",
+                "title": "Bachegoone",
+                "country": "DE",
+                "date": "2020-02-02",
+                "id": "37290e9b-bb2d-40c0-b8f4-029ad541b376",
+                "text-representation": {
+                    "language": "fas",
+                    "script": "Latn"
+                },
+                "quality": "normal"
+            },
+            "target-type": "release",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "produced in",
+            "attributes": [],
+            "type-id": "8d60be20-959c-4f5b-85f6-2b1f44321d11"
+        },
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "target-type": "release",
+            "release": {
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "deu"
+                },
+                "barcode": "",
+                "date": "1961",
+                "id": "91735085-aab5-44c6-aaf2-ed1dea31a18d",
+                "country": "DE",
+                "title": "Das find' ich nicht schön von dir / Ich hab' kein Geld",
+                "status": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "name": "Germany",
+                            "sort-name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "type-id": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type": null,
+                            "disambiguation": ""
+                        },
+                        "date": "1961"
+                    }
+                ],
+                "status-id": null,
+                "disambiguation": "",
+                "packaging": null,
+                "packaging-id": null
+            },
+            "source-credit": "",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "8d60be20-959c-4f5b-85f6-2b1f44321d11",
+            "attributes": [],
+            "type": "produced in"
+        },
+        {
+            "target-type": "release",
+            "source-credit": "",
+            "release": {
+                "packaging-id": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "date": "2015-10-09",
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "name": "Germany",
+                            "sort-name": "Germany",
+                            "disambiguation": "",
+                            "type": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type-id": null
+                        }
+                    }
+                ],
+                "disambiguation": "abbreviated version",
+                "packaging": null,
+                "status": null,
+                "text-representation": {
+                    "language": "deu",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "barcode": "090204707058",
+                "date": "2015-10-09",
+                "id": "163d308e-dbbd-46db-8fed-51605d50e8a9",
+                "country": "DE",
+                "title": "Das Weihnachtsoratorium"
+            },
+            "attribute-ids": [],
+            "begin": null,
+            "type-id": "8d60be20-959c-4f5b-85f6-2b1f44321d11",
+            "attributes": [],
+            "type": "produced in",
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward"
+        },
+        {
+            "ended": true,
+            "end": "2001",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "attributes": [],
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "type": "recorded in",
+            "attribute-ids": [],
+            "begin": "1999",
+            "target-type": "release",
+            "release": {
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "id": "6a246cb7-6e7a-4254-992d-c0186e9805d0",
+                "date": "2002",
+                "country": "US",
+                "title": "Live",
+                "barcode": "804699101327",
+                "status": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "id": "489ce91b-6658-3307-9877-795b68554c98",
+                            "disambiguation": "",
+                            "type": null,
+                            "name": "United States",
+                            "sort-name": "United States",
+                            "iso-3166-1-codes": [
+                                "US"
+                            ]
+                        },
+                        "date": "2002"
+                    }
+                ],
+                "status-id": null,
+                "packaging": null,
+                "disambiguation": "",
+                "packaging-id": null
+            },
+            "source-credit": ""
+        },
+        {
+            "attributes": [],
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "type": "recorded in",
+            "ended": true,
+            "end": "2009-10",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "target-type": "release",
+            "source-credit": "",
+            "release": {
+                "title": "Jǫtunheima dolgferð",
+                "country": "DE",
+                "id": "f261a159-c9f6-4642-b279-54b65a9f53ad",
+                "date": "2015-01",
+                "barcode": null,
+                "text-representation": {
+                    "language": "non",
+                    "script": "Latn"
+                },
+                "quality": "normal",
+                "status": null,
+                "packaging": null,
+                "disambiguation": "",
+                "release-events": [
+                    {
+                        "area": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "type": null,
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "sort-name": "Germany",
+                            "name": "Germany",
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ]
+                        },
+                        "date": "2015-01"
+                    }
+                ],
+                "status-id": null,
+                "packaging-id": null
+            },
+            "attribute-ids": [],
+            "begin": "2008-12"
+        },
+        {
+            "release": {
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "disambiguation": "",
+                            "type": null,
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "name": "Germany",
+                            "sort-name": "Germany"
+                        },
+                        "date": "2015-01"
+                    }
+                ],
+                "packaging": null,
+                "disambiguation": "",
+                "packaging-id": null,
+                "quality": "normal",
+                "text-representation": {
+                    "language": "non",
+                    "script": "Latn"
+                },
+                "date": "2015-01",
+                "id": "64b2264e-3052-47de-b8cb-0d571db05a8f",
+                "title": "Vápna lækjar eldr",
+                "country": "DE",
+                "barcode": "",
+                "status": null
+            },
+            "source-credit": "",
+            "target-type": "release",
+            "begin": "2011-04",
+            "attribute-ids": [],
+            "type": "recorded in",
+            "attributes": [],
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": true,
+            "end": "2011-06"
+        },
+        {
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "end": "2023-07",
+            "type": "recorded in",
+            "type-id": "354043e1-bdc2-4c7f-b338-2bf9c1d56e88",
+            "attributes": [
+                "other vocals"
+            ],
+            "begin": "2023-03",
+            "attribute-credits": {
+                "other vocals": "overdubs"
+            },
+            "attribute-ids": {
+                "other vocals": "c359be96-620a-435c-bd25-2eb0ce81a22e"
+            },
+            "source-credit": "green rooms, hotels, airports and busses in Germany",
+            "release": {
+                "barcode": "842812195990",
+                "id": "f88be252-2cca-46ff-9734-413a0e2b0a17",
+                "date": "2023-10-27",
+                "country": "XW",
+                "title": "The Silver Cord",
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "status": null,
+                "disambiguation": "",
+                "packaging": null,
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "XW"
+                            ],
+                            "name": "[Worldwide]",
+                            "sort-name": "[Worldwide]",
+                            "disambiguation": "",
+                            "type": null,
+                            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                            "type-id": null
+                        },
+                        "date": "2023-10-27"
+                    }
+                ],
+                "packaging-id": null
+            },
+            "target-type": "release"
+        },
+        {
+            "source-credit": "",
+            "release": {
+                "packaging": null,
+                "disambiguation": "dutch pressing",
+                "status-id": null,
+                "release-events": [
+                    {
+                        "area": {
+                            "sort-name": "France",
+                            "name": "France",
+                            "iso-3166-1-codes": [
+                                "FR"
+                            ],
+                            "type-id": null,
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "08310658-51eb-3801-80de-5a0739207115"
+                        },
+                        "date": "1994"
+                    },
+                    {
+                        "area": {
+                            "iso-3166-1-codes": [
+                                "DE"
+                            ],
+                            "sort-name": "Germany",
+                            "name": "Germany",
+                            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+                            "type": null,
+                            "disambiguation": "",
+                            "type-id": null
+                        },
+                        "date": "1994"
+                    },
+                    {
+                        "date": "1994",
+                        "area": {
+                            "type": null,
+                            "disambiguation": "",
+                            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+                            "type-id": null,
+                            "iso-3166-1-codes": [
+                                "IT"
+                            ],
+                            "name": "Italy",
+                            "sort-name": "Italy"
+                        }
+                    },
+                    {
+                        "area": {
+                            "type-id": null,
+                            "disambiguation": "",
+                            "type": null,
+                            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+                            "sort-name": "Netherlands",
+                            "name": "Netherlands",
+                            "iso-3166-1-codes": [
+                                "NL"
+                            ]
+                        },
+                        "date": "1994"
+                    }
+                ],
+                "packaging-id": null,
+                "title": "Smoke on the Water: The Best of",
+                "country": "FR",
+                "id": "c5268de0-57f7-423c-9384-01cb6c07fc10",
+                "date": "1994",
+                "barcode": "724383026821",
+                "quality": "normal",
+                "text-representation": {
+                    "script": "Latn",
+                    "language": "eng"
+                },
+                "status": null
+            },
+            "target-type": "release",
+            "begin": null,
+            "attribute-ids": [],
+            "type": "transferred in",
+            "attributes": [],
+            "type-id": "d5baaf36-5e8f-43f5-afaa-845965d28559",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null
+        },
+        {
+            "type": "held in",
+            "type-id": "281bf307-f1e8-4a56-a7b8-fe8304bb2bf3",
+            "attributes": [],
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "series": {
+                "type-id": "8ff6df0e-3dce-3bdf-bd57-d386c51b0060",
+                "name": "Der Tag An Dem Die Welt Unterging Tour 2011",
+                "id": "91e0ed03-f1db-4efb-89aa-81507bbb60af",
+                "type": "Tour",
+                "disambiguation": ""
+            },
+            "end": "2011-04-20",
+            "ended": true,
+            "source-credit": "",
+            "target-type": "series",
+            "begin": "2011-04-20",
+            "attribute-ids": []
+        },
+        {
+            "ended": true,
+            "end": "2015-02-27",
+            "series": {
+                "disambiguation": "Mukke aus der Unterschicht 4 - Tour",
+                "type": "Tour",
+                "id": "d2d538c2-85a1-418b-9167-83bacaac5871",
+                "name": "MadU 4 Tour",
+                "type-id": "8ff6df0e-3dce-3bdf-bd57-d386c51b0060"
+            },
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "attributes": [],
+            "type-id": "281bf307-f1e8-4a56-a7b8-fe8304bb2bf3",
+            "type": "held in",
+            "attribute-ids": [],
+            "begin": "2015-01-08",
+            "target-type": "series",
+            "source-credit": ""
+        },
+        {
+            "type": "held in",
+            "type-id": "281bf307-f1e8-4a56-a7b8-fe8304bb2bf3",
+            "attributes": [],
+            "series": {
+                "id": "3292a421-a257-4230-9d54-7212703ce42a",
+                "type": "Tour",
+                "disambiguation": "[Vega] Kaos Tour 2015",
+                "name": "Kaos Tour 2015",
+                "type-id": "8ff6df0e-3dce-3bdf-bd57-d386c51b0060"
+            },
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": "2015-03-27",
+            "ended": true,
+            "source-credit": "",
+            "target-type": "series",
+            "begin": "2015-03-14",
+            "attribute-ids": []
+        },
+        {
+            "url": {
+                "id": "e95a847d-3816-46d7-811a-0eb00ff4e199",
+                "resource": "http://sws.geonames.org/2921044/"
+            },
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "end": null,
+            "type": "geonames",
+            "type-id": "c52f14c0-e9ac-4a8a-8f7a-c47328de168f",
+            "attributes": [],
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "url"
+        },
+        {
+            "attributes": [],
+            "type-id": "85c5256f-aef1-484f-979a-42007218a1c2",
+            "type": "wikidata",
+            "ended": false,
+            "end": null,
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "url": {
+                "id": "127233ed-4a1d-427a-b6a8-5b9668839340",
+                "resource": "https://www.wikidata.org/wiki/Q183"
+            },
+            "target-type": "url",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": null
+        },
+        {
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": "1922",
+            "type-id": "536b4ee4-bb2d-3b6f-a3f1-082f22e5b17d",
+            "attributes": [],
+            "work": {
+                "languages": [
+                    "deu"
+                ],
+                "language": "deu",
+                "iswcs": [],
+                "attributes": [],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "type": "Song",
+                "disambiguation": "",
+                "id": "9f5f27a9-b337-3fa6-8bcd-b6efeb4d6575",
+                "title": "Deutschlandlied"
+            },
+            "type": "anthem",
+            "ended": true,
+            "end": "1949",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward"
+        },
+        {
+            "end": null,
+            "ended": false,
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "type-id": "536b4ee4-bb2d-3b6f-a3f1-082f22e5b17d",
+            "attributes": [],
+            "type": "anthem",
+            "work": {
+                "disambiguation": "",
+                "type": "Song",
+                "title": "Deutschlandlied",
+                "id": "9f5f27a9-b337-3fa6-8bcd-b6efeb4d6575",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "attributes": [],
+                "language": "deu",
+                "languages": [
+                    "deu"
+                ],
+                "iswcs": []
+            },
+            "attribute-ids": [],
+            "begin": "1990",
+            "target-type": "work",
+            "source-credit": ""
+        },
+        {
+            "begin": null,
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "work",
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "end": null,
+            "ended": false,
+            "work": {
+                "attributes": [],
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "disambiguation": "",
+                "type": "Song",
+                "id": "fd7a97f8-abd2-4c70-ae82-c14c96e15b76",
+                "title": "Deutsche Nationalhymne",
+                "languages": [
+                    "deu"
+                ],
+                "language": "deu",
+                "iswcs": []
+            },
+            "type": "anthem",
+            "attributes": [],
+            "type-id": "536b4ee4-bb2d-3b6f-a3f1-082f22e5b17d"
+        },
+        {
+            "work": {
+                "attributes": [],
+                "type-id": "d8059ee8-cb37-3351-9ca4-23978567339f",
+                "disambiguation": "",
+                "type": "Opera",
+                "id": "8d83ece8-23f3-456f-8b39-605487231197",
+                "title": "Marc' Antonio e Cleopatra",
+                "languages": [
+                    "ita"
+                ],
+                "language": "ita",
+                "iswcs": []
+            },
+            "type": "composed in",
+            "attributes": [],
+            "type-id": "5293c7f7-7950-4fef-b367-b0062b99c4e7",
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "end": "1725",
+            "source-credit": "",
+            "target-type": "work",
+            "begin": "1725",
+            "attribute-ids": []
+        },
+        {
+            "begin": "1726",
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "work",
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": "1726",
+            "ended": true,
+            "work": {
+                "type-id": "212bf9fb-ce4f-396e-87ca-3db671c085fb",
+                "attributes": [],
+                "id": "fe3dc81e-bcad-490f-b1ad-3bb4bea9ad76",
+                "title": "Suite \"Ludovicus Pius\"",
+                "type": "Suite",
+                "disambiguation": "",
+                "iswcs": [],
+                "languages": [
+                    "zxx"
+                ],
+                "language": "zxx"
+            },
+            "type": "composed in",
+            "type-id": "5293c7f7-7950-4fef-b367-b0062b99c4e7",
+            "attributes": []
+        },
+        {
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": "2009",
+            "attributes": [],
+            "type-id": "5293c7f7-7950-4fef-b367-b0062b99c4e7",
+            "type": "composed in",
+            "work": {
+                "title": "Le Fin absolute du monde",
+                "id": "561d6955-f8e0-4330-9416-7652008ddfc2",
+                "type": "Song",
+                "disambiguation": "",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "attributes": [],
+                "iswcs": [],
+                "language": "zxx",
+                "languages": [
+                    "zxx"
+                ]
+            },
+            "ended": true,
+            "end": "2009",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-type": "work",
+            "begin": null,
+            "attribute-ids": [],
+            "type": "lyrics written in",
+            "work": {
+                "iswcs": [],
+                "languages": [
+                    "deu"
+                ],
+                "language": "deu",
+                "id": "ec3dfb19-83e4-474c-8d5a-620c288350d7",
+                "title": "Schlaf mein Kindlein",
+                "disambiguation": "German christmas version of Bajuschki baju",
+                "type": "Song",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "attributes": []
+            },
+            "type-id": "43ba113b-968f-4fa9-93b2-73e60f954c90",
+            "attributes": [],
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "ended": false,
+            "end": null
+        },
+        {
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward",
+            "ended": true,
+            "end": "1981-10-08",
+            "type": "premiere",
+            "work": {
+                "iswcs": [],
+                "languages": [
+                    "eng"
+                ],
+                "language": "eng",
+                "type-id": "db708738-f2b6-3e4e-8f23-1661a3395947",
+                "attributes": [],
+                "id": "f47eda9b-44af-4a6a-85e7-d6f54d4691c6",
+                "title": "Quad",
+                "disambiguation": "television play",
+                "type": "Play"
+            },
+            "type-id": "c6bd908f-41f1-4ff3-83f3-df514278d994",
+            "attributes": [],
+            "begin": "1981-10-08",
+            "attribute-ids": [],
+            "source-credit": "",
+            "target-type": "work"
+        },
+        {
+            "type-id": "c6bd908f-41f1-4ff3-83f3-df514278d994",
+            "attributes": [],
+            "type": "premiere",
+            "work": {
+                "language": "zxx",
+                "languages": [
+                    "zxx"
+                ],
+                "iswcs": [],
+                "disambiguation": "",
+                "type": "Suite",
+                "title": "Vikings of the Sunrise",
+                "id": "4f9dc604-a8c1-4725-86f0-ada44934766e",
+                "attributes": [],
+                "type-id": "212bf9fb-ce4f-396e-87ca-3db671c085fb"
+            },
+            "end": "1995-06",
+            "ended": true,
+            "direction": "forward",
+            "attribute-values": [],
+            "target-credit": "",
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": "1995-05"
+        },
+        {
+            "ended": true,
+            "end": "2013-05-17",
+            "target-credit": "",
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "c6bd908f-41f1-4ff3-83f3-df514278d994",
+            "attributes": [],
+            "work": {
+                "type": null,
+                "disambiguation": "",
+                "id": "8538c90f-28b8-4ce8-88f0-f7b452aa839c",
+                "title": "Step, through Step",
+                "type-id": null,
+                "attributes": [],
+                "languages": [],
+                "language": null,
+                "iswcs": []
+            },
+            "type": "premiere",
+            "attribute-ids": [],
+            "begin": "2013-05-17",
+            "target-type": "work",
+            "source-credit": ""
+        },
+        {
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "type-id": "e02f372b-33c3-41fc-88ba-6b3e95f50d77",
+            "attributes": [],
+            "type": "written in",
+            "work": {
+                "iswcs": [],
+                "languages": [],
+                "language": null,
+                "id": "71623511-f322-4b28-8b6b-c5c4a136b2b9",
+                "title": "Carmina Burana",
+                "type": null,
+                "disambiguation": "original manuscript of poetry, ca. 1230",
+                "type-id": null,
+                "attributes": []
+            },
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward"
+        },
+        {
+            "target-type": "work",
+            "source-credit": "",
+            "attribute-ids": [],
+            "begin": null,
+            "attributes": [],
+            "type-id": "e02f372b-33c3-41fc-88ba-6b3e95f50d77",
+            "work": {
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "attributes": [],
+                "title": "Mistress of Mine",
+                "id": "8ba96c34-481d-43ca-9be5-1eb6a41a8df7",
+                "type": "Song",
+                "disambiguation": "",
+                "iswcs": [],
+                "language": "eng",
+                "languages": [
+                    "eng"
+                ]
+            },
+            "type": "written in",
+            "ended": false,
+            "end": null,
+            "attribute-values": [],
+            "target-credit": "",
+            "direction": "forward"
+        },
+        {
+            "source-credit": "",
+            "target-type": "work",
+            "begin": null,
+            "attribute-ids": [],
+            "work": {
+                "iswcs": [],
+                "languages": [
+                    "deu"
+                ],
+                "language": "deu",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "attributes": [],
+                "id": "7a475bdf-a206-4e1c-99f7-1c4d9c6473dd",
+                "title": "Zu Bethlehem geboren",
+                "disambiguation": "German christmas carol",
+                "type": "Song"
+            },
+            "type": "written in",
+            "type-id": "e02f372b-33c3-41fc-88ba-6b3e95f50d77",
+            "attributes": [],
+            "direction": "forward",
+            "target-credit": "",
+            "attribute-values": [],
+            "end": null,
+            "ended": false
+        }
+    ],
+    "genres": [
+        {
+            "name": "bubblegum dance",
+            "id": "17ea7898-10ff-4c48-8729-3a077f6eb75e",
+            "count": 1,
+            "disambiguation": ""
+        },
+        {
+            "disambiguation": "",
+            "count": 2,
+            "id": "3976e9ba-16d0-461d-b732-99408a0374ba",
+            "name": "edm"
+        },
+        {
+            "name": "eurodance",
+            "id": "e9a67960-9b49-4967-a1c9-c26360e9c612",
+            "disambiguation": "",
+            "count": 2
+        }
+    ],
+    "type-id": "06dd0ae4-8c74-30bb-b43d-95dcedf961de",
+    "type": "Country",
+    "life-span": {
+        "begin": null,
+        "ended": false,
+        "end": null
+    },
+    "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+    "tags": [
+        {
+            "count": 1,
+            "name": "atlantic rim"
+        },
+        {
+            "name": "bubblegum dance",
+            "count": 1
+        },
+        {
+            "name": "eastern hemisphere",
+            "count": 1
+        }
+    ],
+    "iso-3166-1-codes": [
+        "DE"
+    ],
+    "annotation": null
+}

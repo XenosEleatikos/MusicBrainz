@@ -19,6 +19,6 @@ abstract class Place extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::PLACE);
+        return EntityType::Place;
     }
 }

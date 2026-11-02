@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
 
 use MusicBrainz\Relation\Type\Artist\Release\Production\Engineer;
-use MusicBrainz\Value\Name;
 
 /**
  * This links a release to the balance engineer who engineered it.
@@ -17,10 +16,10 @@ class Balance extends Engineer
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('balance');
+        return 'balance';
     }
 }

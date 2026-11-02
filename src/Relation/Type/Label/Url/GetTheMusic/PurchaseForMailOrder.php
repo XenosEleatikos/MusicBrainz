@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Url\GetTheMusic;
 
 use MusicBrainz\Relation\Type\Label\Url\GetTheMusic;
-use MusicBrainz\Value\Name;
 
 /**
  * This relationship type is used to link to a page where the label's releases can be purchased for mail order.
@@ -17,10 +16,10 @@ class PurchaseForMailOrder extends GetTheMusic
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('purchase for mail-order');
+        return 'purchase for mail-order';
     }
 }

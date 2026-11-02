@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Phrase;
-use MusicBrainz\Value\Name;
+use MusicBrainz\Filter\Value\Name;
 
 trait RecordingNameWithAccentsTrait
 {
@@ -15,8 +14,10 @@ trait RecordingNameWithAccentsTrait
      * Returns the field name for the name of the recording (with accented characters).
      *
      * @return string
+     *
+     * @internal
      */
-    public static function recordingNameWithAccent(): string
+    public static function recordingNameWithAccents(): string
     {
         return 'recordingaccent';
     }
@@ -26,10 +27,12 @@ trait RecordingNameWithAccentsTrait
      *
      * @param Name $recordingNameWithAccents The name of the recording (with accented characters)
      *
-     * @return Phrase
+     * @return static
      */
-    public function addRecordingNameWithAccents(Name $recordingNameWithAccents): Phrase
+    public function addRecordingNameWithAccents(Name $recordingNameWithAccents): static
     {
-        return $this->addPhrase((string) $recordingNameWithAccents, self::recordingNameWithAccent());
+        $this->addPhrase((string) $recordingNameWithAccents, self::recordingNameWithAccents());
+
+        return $this;
     }
 }

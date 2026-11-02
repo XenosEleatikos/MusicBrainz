@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Area\Event;
 
 use MusicBrainz\Relation\Type\Area\Event;
-use MusicBrainz\Value\Name;
 
 /**
  * Links an event to the area where it was held. Use only if the exact place is unknown.
@@ -17,10 +16,10 @@ class HeldIn extends Event
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('held in');
+        return 'held in';
     }
 }

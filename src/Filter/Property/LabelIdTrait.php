@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait LabelIdTrait
@@ -15,6 +14,8 @@ trait LabelIdTrait
      * Returns the field name for the label ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function labelId(): string
     {
@@ -26,10 +27,12 @@ trait LabelIdTrait
      *
      * @param MBID $labelId The MusicBrainz Identifier (MBID) of the label
      *
-     * @return Term
+     * @return static
      */
-    public function addLabelId(MBID $labelId): Term
+    public function addLabelId(MBID $labelId): static
     {
-        return $this->addTerm((string) $labelId, self::labelId());
+        $this->addTerm((string) $labelId, self::labelId());
+
+        return $this;
     }
 }

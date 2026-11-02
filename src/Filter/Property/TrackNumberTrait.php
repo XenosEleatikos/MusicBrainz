@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\TrackNumber;
+use MusicBrainz\Filter\Value\TrackNumber;
 
 trait TrackNumberTrait
 {
@@ -15,6 +14,8 @@ trait TrackNumberTrait
      * Returns the field name for the track number.
      *
      * @return string
+     *
+     * @internal
      */
     public static function trackNumber(): string
     {
@@ -26,10 +27,12 @@ trait TrackNumberTrait
      *
      * @param TrackNumber $trackNumber The track number
      *
-     * @return Term
+     * @return static
      */
-    public function addTrackNumber(TrackNumber $trackNumber): Term
+    public function addTrackNumber(TrackNumber $trackNumber): static
     {
-        return $this->addTerm((string) $trackNumber, self::trackNumber());
+        $this->addTerm((string) $trackNumber, self::trackNumber());
+
+        return $this;
     }
 }

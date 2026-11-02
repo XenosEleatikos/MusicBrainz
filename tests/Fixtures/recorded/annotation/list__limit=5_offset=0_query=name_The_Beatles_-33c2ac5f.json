@@ -1,0 +1,42 @@
+{
+    "created": "2026-11-01T14:39:04.257Z",
+    "count": 290,
+    "offset": 0,
+    "annotations": [
+        {
+            "type": "release",
+            "score": 100,
+            "entity": "919490e0-9f63-4728-8709-28a0a5221302",
+            "name": "The Beatles",
+            "text": "From eil.com:\nTHE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus unique inserts and original obi-sticker.\n\n-------\n\nFrom \"The Beatles CD Box Set\"; Eil.com: \"THE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus uniqueinserts and original obi-sticker. All discs are in mint condition except Abby Road which has a few minor surface marks, this set comes housed in the original printed outer mailer box TOCP-50501~16/GSD-62).\"\n\n-------\n\nFrom \"The Beatles CD Box Set\"; Eil.com: \"THE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus uniqueinserts and original obi-sticker. TOCP-50501~16/GSD-62.\"\n\n-------\n\nFrom eil.com:  THE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus unique inserts and original obi-sticker.\n\n-------\n\nFrom eil.com: THE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus unique inserts and original obi-sticker.\n\n-------\n\nFrom eil.com: THE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus uniqueinserts and original obi-sticker.\n\n-------\n\nFrom Eil.com:\nTHE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus uniqueinserts and original obi-sticker.\n\n-------\n\nFrom eil.com:\nTHE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus uniqueinserts and original obi-sticker.\n\n-------\n\nFrom eil.com:\nTHE BEATLES CD Box (Mid 1990's issue Japanese limited edition set comprising of 15 CD albums across 16 CDs & featuring a total of 226 classic tracks! Each disc is Japanese pressed with individual picture booklets - this stunning set is presented in a wooden roll top 'bread bin' style box which stands 8\" high and 11\" across, it come complete with a 62-page book featuring rare photo's and the story behind every song, with an extra 64-page Japanese language translated booklet plus uniqueinserts and original obi-sticker."
+        },
+        {
+            "type": "artist",
+            "score": 100,
+            "entity": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "text": "    * [series:255a357a-909a-4437-9b7a-bfbb814bde77|Core catalogue (worldwide discography standardization)]\n    * [series:bb6b768c-7bf7-456b-a771-629280fed164|UK discography]\n    * [series:384fa008-cccd-4198-8502-379a8e4814e7|US discography]\n\nThe official name of “The White Album” is [release-group:055be730-dcad-31bf-b550-45ba9c202aa3|''The Beatles'']; please do not add incorrectly titled releases to the database!\n\nPlease do not re-add individual mono remaster releases to their individual release groups. The mono remasters were never released separately, and are all already in the database as 13 mediums of the release [release-group:a5550169-ec99-45b1-827b-2d79c0c0fbb8|''The Beatles in Mono'']."
+        },
+        {
+            "type": "artist",
+            "score": 100,
+            "entity": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+            "name": "The Beatles",
+            "text": "The official name of “The White Album” is [release-group:055be730-dcad-31bf-b550-45ba9c202aa3|''The Beatles'']; please do not add incorrectly titled releases to the database!\n\nPlease do not re-add individual mono remaster releases to their individual release groups. The mono remasters were never released separately, and are all already in the database as 13 mediums of the release [release-group:a5550169-ec99-45b1-827b-2d79c0c0fbb8|''The Beatles in Mono'']."
+        },
+        {
+            "type": "release",
+            "score": 100,
+            "entity": "144356ad-50f3-4843-9cc0-74f5e7900fa0",
+            "name": "The Beatles",
+            "text": "Label: Universe - Cat#: UN 4 017"
+        },
+        {
+            "type": "release",
+            "score": 100,
+            "entity": "a4cb303b-59e4-4ea3-9ab8-5a0c7d8556da",
+            "name": "The Beatles",
+            "text": "Bootleg compilation of tracks from the \"The White Album\", plus bonus tracks."
+        }
+    ]
+}

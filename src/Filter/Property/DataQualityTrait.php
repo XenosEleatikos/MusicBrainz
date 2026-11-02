@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\DataQuality;
 
 trait DataQualityTrait
@@ -15,6 +14,8 @@ trait DataQualityTrait
      * Returns the field name for the data quality.
      *
      * @return string
+     *
+     * @internal
      */
     public static function dataQuality(): string
     {
@@ -26,10 +27,12 @@ trait DataQualityTrait
      *
      * @param DataQuality $dataQuality The data quality
      *
-     * @return Term
+     * @return static
      */
-    public function addDataQuality(DataQuality $dataQuality): Term
+    public function addDataQuality(DataQuality $dataQuality): static
     {
-        return $this->addTerm((string) $dataQuality, self::dataQuality());
+        $this->addTerm($dataQuality->value, self::dataQuality());
+
+        return $this;
     }
 }

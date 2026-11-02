@@ -1,0 +1,298 @@
+{
+    "ipis": [],
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "name": "Parlophone Norway",
+    "tags": [],
+    "releases": [
+        {
+            "release-events": [
+                {
+                    "area": {
+                        "disambiguation": "",
+                        "sort-name": "[Worldwide]",
+                        "type": null,
+                        "type-id": null,
+                        "name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ],
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+                    },
+                    "date": "1983"
+                }
+            ],
+            "country": "XW",
+            "media": [
+                {
+                    "id": "04234c14-28d4-4277-a0e3-d2cecfcac8c5",
+                    "track-count": 11,
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "title": "",
+                    "format": "Digital Media",
+                    "position": 1,
+                    "discs": []
+                }
+            ],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "title": "Cheek to Cheek",
+            "packaging": "None",
+            "tags": [],
+            "date": "1983",
+            "aliases": [],
+            "disambiguation": "",
+            "barcode": "0724353931858",
+            "genres": [],
+            "status": "Official",
+            "quality": "normal",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "id": "7f9207ed-3e5e-4871-b878-7711a7ca2985",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe"
+        },
+        {
+            "packaging": "None",
+            "title": "Boarding nu",
+            "tags": [],
+            "release-events": [
+                {
+                    "area": {
+                        "disambiguation": "",
+                        "type-id": null,
+                        "type": null,
+                        "sort-name": "[Worldwide]",
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+                        "name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ]
+                    },
+                    "date": "1999-09-13"
+                }
+            ],
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "media": [
+                {
+                    "title": "",
+                    "id": "6e5232bd-aa35-4f1a-a77f-ee20e922f6e2",
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "track-count": 11,
+                    "discs": [],
+                    "format": "Digital Media",
+                    "position": 1
+                }
+            ],
+            "country": "XW",
+            "text-representation": {
+                "script": "Latn",
+                "language": "nor"
+            },
+            "quality": "normal",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "id": "6508dc7f-be1d-4830-8058-d9643d1cd2d9",
+            "disambiguation": "",
+            "aliases": [],
+            "date": "1999-09-13",
+            "status": "Official",
+            "genres": [],
+            "barcode": "0724352286355"
+        },
+        {
+            "quality": "normal",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "id": "5f6a9223-bbb0-45f1-9505-52be7c1cb8f1",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "date": "2004-07-30",
+            "disambiguation": "",
+            "aliases": [],
+            "status": "Official",
+            "genres": [],
+            "barcode": "724386724458",
+            "title": "Two Way Monologue",
+            "packaging": "None",
+            "tags": [],
+            "release-events": [
+                {
+                    "area": {
+                        "name": "Afghanistan",
+                        "iso-3166-1-codes": [
+                            "AF"
+                        ],
+                        "id": "aa95182f-df0a-3ad6-8bfb-4b63482cd276",
+                        "sort-name": "Afghanistan",
+                        "type-id": null,
+                        "type": null,
+                        "disambiguation": ""
+                    },
+                    "date": "2004-07-30"
+                },
+                {
+                    "area": {
+                        "sort-name": "Albania",
+                        "type": null,
+                        "type-id": null,
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "AL"
+                        ],
+                        "name": "Albania",
+                        "id": "1c69b790-b46b-3e92-b6b4-93b4364badbc"
+                    },
+                    "date": "2004-07-30"
+                },
+                {
+                    "area": {
+                        "name": "Algeria",
+                        "iso-3166-1-codes": [
+                            "DZ"
+                        ],
+                        "id": "28242750-534a-326b-8ed6-1b03dfb88cd0",
+                        "sort-name": "Algeria",
+                        "type-id": null,
+                        "type": null,
+                        "disambiguation": ""
+                    },
+                    "date": "2004-07-30"
+                }
+            ],
+            "media": [
+                {
+                    "title": "",
+                    "id": "3006d38f-5366-3a10-96f1-e0bf9dcf78c6",
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "track-count": 1,
+                    "discs": [],
+                    "format": "Digital Media",
+                    "position": 1
+                }
+            ],
+            "country": "AF",
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b"
+        }
+    ],
+    "sort-name": "Parlophone Norway",
+    "country": "NO",
+    "relations": [
+        {
+            "attribute-ids": [],
+            "begin": null,
+            "target-credit": "",
+            "ended": false,
+            "source-credit": "",
+            "type-id": "ab7a9be0-c060-4852-8f2e-4faf5b33231e",
+            "type": "label ownership",
+            "attributes": [],
+            "target-type": "label",
+            "label": {
+                "type-id": "43f31a62-97e4-36f6-9752-453c131b71ed",
+                "type": "Holding",
+                "sort-name": "Warner Music Norway AS",
+                "disambiguation": "",
+                "id": "09ef1562-c76e-4e94-bf51-ce0e81a1384d",
+                "name": "Warner Music Norway AS",
+                "label-code": null
+            },
+            "attribute-values": [],
+            "direction": "backward",
+            "end": null
+        },
+        {
+            "attribute-ids": [],
+            "url": {
+                "id": "7130f981-f87f-4b9a-bac0-bf758ba52d05",
+                "resource": "https://www.discogs.com/label/589945"
+            },
+            "begin": null,
+            "target-credit": "",
+            "ended": false,
+            "source-credit": "",
+            "type-id": "5b987f87-25bc-4a2d-b3f1-3618795b8207",
+            "type": "discogs",
+            "attributes": [],
+            "target-type": "url",
+            "attribute-values": [],
+            "direction": "forward",
+            "end": null
+        },
+        {
+            "target-credit": "",
+            "begin": null,
+            "attribute-ids": [],
+            "url": {
+                "resource": "https://www.qobuz.com/gb-en/label/parlophone-norway-1/download-streaming-albums/49482",
+                "id": "48df3108-470e-4b47-891b-4f100596faaf"
+            },
+            "ended": false,
+            "source-credit": "",
+            "attributes": [],
+            "type": "purchase for download",
+            "type-id": "dc1a65f4-6458-4f3d-bbb1-57e58668d6e7",
+            "target-type": "url",
+            "attribute-values": [],
+            "direction": "forward",
+            "end": null
+        },
+        {
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "begin": null,
+            "attribute-ids": [],
+            "url": {
+                "id": "48df3108-470e-4b47-891b-4f100596faaf",
+                "resource": "https://www.qobuz.com/gb-en/label/parlophone-norway-1/download-streaming-albums/49482"
+            },
+            "target-type": "url",
+            "attributes": [],
+            "type-id": "cbe05bdd-a877-4cc6-8060-7ba43a2516ef",
+            "type": "streaming",
+            "attribute-values": [],
+            "end": null,
+            "direction": "forward"
+        }
+    ],
+    "area": {
+        "id": "6743d351-6f37-3049-9724-5041161fff4d",
+        "iso-3166-1-codes": [
+            "NO"
+        ],
+        "name": "Norway",
+        "disambiguation": "",
+        "type-id": null,
+        "type": null,
+        "sort-name": "Norway"
+    },
+    "label-code": null,
+    "isnis": [],
+    "annotation": null,
+    "id": "01ad5e97-2bb6-451b-b0c5-02dc3fa90b03",
+    "aliases": [
+        {
+            "locale": null,
+            "ended": false,
+            "begin": null,
+            "name": "Parlophone Music Norway",
+            "primary": null,
+            "end": null,
+            "type-id": "3a1a0c48-d885-3b89-87b2-9e8a483c5675",
+            "type": "Label name",
+            "sort-name": "Parlophone Music Norway"
+        }
+    ],
+    "disambiguation": "",
+    "life-span": {
+        "begin": null,
+        "ended": false,
+        "end": null
+    },
+    "genres": [],
+    "type-id": "a2426aab-2dd4-339c-b47d-b4923a241678",
+    "type": "Production"
+}

@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-use MusicBrainz\Value\Latitude;
+use MusicBrainz\Filter\Value\Latitude;
 
 trait LatitudeTrait
 {
@@ -15,10 +14,12 @@ trait LatitudeTrait
      * Returns the field name for the latitude.
      *
      * @return string
+     *
+     * @internal
      */
     public static function latitude(): string
     {
-        return 'latitude';
+        return 'lat';
     }
 
     /**
@@ -26,10 +27,12 @@ trait LatitudeTrait
      *
      * @param Latitude $latitude The latitude
      *
-     * @return Term
+     * @return static
      */
-    public function addLatitude(Latitude $latitude): Term
+    public function addLatitude(Latitude $latitude): static
     {
-        return $this->addTerm((string) $latitude, self::latitude());
+        $this->addTerm((string) $latitude, self::latitude());
+
+        return $this;
     }
 }

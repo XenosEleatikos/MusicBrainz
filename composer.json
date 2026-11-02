@@ -2,7 +2,17 @@
     "name": "xenos/musicbrainz",
     "type": "library",
     "description": "A PHP library for accessing the MusicBrainz API",
-    "keywords": ["musicbrainz", "library", "php", "api"],
+    "keywords": [
+        "api",
+        "client",
+        "library",
+        "lucene",
+        "metadata",
+        "music",
+        "musicbrainz",
+        "php",
+        "psr-18"
+    ],
     "homepage": "https://github.com/XenosEleatikos/MusicBrainz",
     "license": "MIT",
     "authors": [
@@ -14,27 +24,67 @@
         }
     ],
     "require": {
-        "php": ">=8.1.0",
+        "php": "^8.3",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.1",
+        "psr/http-message": "^2.0",
         "psr/log": "^3.0",
-        "xenos/asklucy": "^2"
+        "xenos/asklucy": "^3.0"
     },
     "require-dev": {
-        "guzzlehttp/guzzle": "^7",
-        "phpunit/phpunit": "^10",
-        "squizlabs/php_codesniffer": "*",
-        "symfony/dom-crawler": "^7.0",
-        "friendsofphp/php-cs-fixer": "^3.48",
-        "phpstan/phpstan": "^1.10"
+        "phpunit/phpunit": "^12.5",
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.90",
+        "nyholm/psr7": "^1.8",
+        "symfony/http-client": "^7.4",
+        "symfony/dom-crawler": "^7.4"
     },
     "suggest": {
-        "guzzle/guzzle": "Allows you to use the GuzzleHttpAdapter.",
-        "monolog/monolog": "Allows logging of the application flow."
+        "monolog/monolog": "Allows logging of the application flow.",
+        "symfony/http-client": "A PSR-18 HTTP client; any other PSR-18 client works as well.",
+        "nyholm/psr7": "A PSR-7 implementation with a PSR-17 request factory, which the client needs besides the PSR-18 client.",
+        "guzzlehttp/guzzle": "A PSR-18 HTTP client; any other PSR-18 client works as well."
     },
     "autoload": {
         "psr-4": {
-            "MusicBrainz\\": "src",
+            "MusicBrainz\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --testsuite unit --no-coverage",
+        "test:coverage": [
+            "phpunit --testsuite unit --coverage-clover build/clover.xml",
+            "@php bin/check-coverage build/clover.xml 85"
+        ],
+        "test:specification": "phpunit --testsuite specification --no-coverage",
+        "stan": "phpstan analyse --no-progress",
+        "cs": "php-cs-fixer fix",
+        "cs:check": "php-cs-fixer fix --dry-run --diff",
+        "ci": [
+            "@cs:check",
+            "@stan",
+            "@test:coverage"
+        ]
+    },
+    "scripts-descriptions": {
+        "test": "Runs the unit tests offline against recorded API responses",
+        "test:coverage": "Runs the unit tests and fails below 85 % line coverage",
+        "test:specification": "Compares the library with the live MusicBrainz documentation (needs network)",
+        "ci": "Everything the CI runs"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload-dev": {
+        "psr-4": {
             "MusicBrainz\\Test\\": "tests/unit",
+            "MusicBrainz\\Test\\Support\\": "tests/Support",
             "MusicBrainz\\SpecificationTest\\": "tests/specification"
         }
+    },
+    "support": {
+        "issues": "https://github.com/XenosEleatikos/MusicBrainz/issues",
+        "source": "https://github.com/XenosEleatikos/MusicBrainz",
+        "security": "https://github.com/XenosEleatikos/MusicBrainz/security/policy"
     }
 }

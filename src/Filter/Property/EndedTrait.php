@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
-
 trait EndedTrait
 {
     use AbstractAdderTrait;
@@ -14,6 +12,8 @@ trait EndedTrait
      * Returns the field name for the "ended" flag.
      *
      * @return string
+     *
+     * @internal
      */
     public static function ended(): string
     {
@@ -25,10 +25,12 @@ trait EndedTrait
      *
      * @param bool $ended A flag indicating whether or not the searched entity has ended
      *
-     * @return Term
+     * @return static
      */
-    public function addEnded(bool $ended): Term
+    public function addEnded(bool $ended): static
     {
-        return $this->addTerm((string) $ended, self::ended());
+        $this->addTerm($ended ? 'true' : 'false', self::ended());
+
+        return $this;
     }
 }

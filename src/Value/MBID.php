@@ -4,53 +4,38 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Value;
 
-use MusicBrainz\Value;
+use MusicBrainz\InvalidArgumentException;
+use Stringable;
+
+use function preg_match;
+use function strtolower;
 
 /**
  * A MusicBrainz Identifier (MBID)
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_Identifier
  */
-class MBID implements Value
+final readonly class MBID implements Stringable
 {
-    /**
-     * The MusicBrainz Identifier (MBID)
-     *
-     * @var string
-     */
-    private $mbid;
+    /** The identifier in the form 8-4-4-4-12 hexadecimal digits, in lower case */
+    public string $value;
 
     /**
-     * Constructs a MusicBrainz Identifier (MBID).
+     * @param string $value A MusicBrainz Identifier (MBID)
      *
-     * @param null|string $mbid A MusicBrainz Identifier (MBID)
+     * @throws InvalidArgumentException if the value is not an MBID
      */
-    public function __construct(?string $mbid = '')
+    public function __construct(string $value)
     {
-        $this->mbid = isset($mbid) && ($this->isValidMBID($mbid))
-            ? $mbid
-            : '';
+        if (1 !== preg_match('/^[a-f\d]{8}(-[a-f\d]{4}){3}-[a-f\d]{12}\z/i', $value)) {
+            throw new InvalidArgumentException('"' . $value . '" is not a valid MusicBrainz Identifier (MBID)');
+        }
+
+        $this->value = strtolower($value);
     }
 
-    /**
-     * Returns true, if the given string, is a valid MusicBrainz Identifier (MBID), otherwise false.
-     *
-     * @param string $mbid A string to be validated
-     *
-     * @return bool
-     */
-    private function isValidMBID(string $mbid): bool
-    {
-        return (bool) preg_match("/^(\{)?[a-f\d]{8}(-[a-f\d]{4}){4}[a-f\d]{8}(?(1)\})$/i", $mbid);
-    }
-
-    /**
-     * Returns the MusikBrainz Identifier (MBID) as string.
-     *
-     * @return string
-     */
     public function __toString(): string
     {
-        return $this->mbid;
+        return $this->value;
     }
 }

@@ -4,24 +4,33 @@ declare(strict_types=1);
 
 namespace MusicBrainz;
 
+use function is_finite;
+use function preg_match;
+use function rtrim;
+use function trim;
+
 /**
  * The API client configuration
  */
-class Config
+final class Config
 {
     /**
-     * The username of a MusicBrainz account
+     * An OAuth2 access token, required for user specific data (user-tags, user-ratings, user-genres, private
+     * collections).
      *
-     * @var string
+     * @see https://musicbrainz.org/doc/Development/OAuth2
      */
-    private string $username;
+    private ?string $accessToken = null;
 
     /**
-     * The password of a MusicBrainz account
-     *
-     * @var string
+     * Minimum interval between two requests in seconds. MusicBrainz allows one request per second per IP address.
      */
-    private string $password;
+    private float $minRequestInterval = 1.0;
+
+    /**
+     * Maximum number of retries if the web service answers with HTTP 503.
+     */
+    private int $maxRetries = 2;
 
     /**
      * The user agent
@@ -30,7 +39,10 @@ class Config
      *
      * @var string
      */
-    private string $userAgent = 'https://github.com/XenosEleatikos/MusicBrainz';
+    /** The user agent used if the application sets none. All applications share it, so please set your own. */
+    public const DEFAULT_USER_AGENT = 'XenosMusicBrainz/2 ( https://github.com/XenosEleatikos/MusicBrainz )';
+
+    private string $userAgent = self::DEFAULT_USER_AGENT;
 
     /**
      * URL of the MusicBrainz API
@@ -39,50 +51,47 @@ class Config
      */
     private string $apiUrl = 'https://musicbrainz.org/ws/2';
 
-    /**
-     * Returns the username.
-     *
-     * @return string
-     */
-    public function getUsername(): string
+    public function getAccessToken(): ?string
     {
-        return $this->username;
+        return $this->accessToken;
     }
 
-    /**
-     * Sets the username.
-     *
-     * @param string $username The username
-     *
-     * @return self
-     */
-    public function setUsername(string $username): self
+    public function setAccessToken(?string $accessToken): self
     {
-        $this->username = $username;
+        if (null !== $accessToken) {
+            self::assertHeaderValue($accessToken, 'access token');
+        }
+        $this->accessToken = $accessToken;
 
         return $this;
     }
 
-    /**
-     * Returns the password.
-     *
-     * @return string
-     */
-    public function getPassword(): string
+    public function getMinRequestInterval(): float
     {
-        return $this->password;
+        return $this->minRequestInterval;
     }
 
-    /**
-     * Sets the password.
-     *
-     * @param string $password The password
-     *
-     * @return self
-     */
-    public function setPassword(string $password): self
+    public function setMinRequestInterval(float $seconds): self
     {
-        $this->password = $password;
+        if (!is_finite($seconds) || $seconds < 0) {
+            throw new InvalidArgumentException('The interval between requests must be a number of seconds that is not negative, got ' . $seconds);
+        }
+        $this->minRequestInterval = $seconds;
+
+        return $this;
+    }
+
+    public function getMaxRetries(): int
+    {
+        return $this->maxRetries;
+    }
+
+    public function setMaxRetries(int $maxRetries): self
+    {
+        if ($maxRetries < 0) {
+            throw new InvalidArgumentException('The number of retries must not be negative, got ' . $maxRetries);
+        }
+        $this->maxRetries = $maxRetries;
 
         return $this;
     }
@@ -106,6 +115,7 @@ class Config
      */
     public function setUserAgent(string $userAgent): self
     {
+        self::assertHeaderValue($userAgent, 'user agent');
         $this->userAgent = $userAgent;
 
         return $this;
@@ -127,11 +137,26 @@ class Config
      * @param string $apiUrl The URL of the MusicBrainz API
      *
      * @return self
+     *
+     * @throws InvalidArgumentException If the URL does not start with http:// or https://
      */
     public function setApiUrl(string $apiUrl): Config
     {
-        $this->apiUrl = $apiUrl;
+        if (1 !== preg_match('~^https?://[^/\s]+~i', $apiUrl)) {
+            throw new InvalidArgumentException('The API URL must start with http:// or https://, got "' . $apiUrl . '"');
+        }
+        $this->apiUrl = rtrim($apiUrl, '/');
 
         return $this;
+    }
+
+    /**
+     * @throws InvalidArgumentException if the value is empty or cannot be an HTTP header value
+     */
+    private static function assertHeaderValue(string $value, string $name): void
+    {
+        if ('' === trim($value) || 1 === preg_match('/[\x00-\x1F\x7F]/', $value)) {
+            throw new InvalidArgumentException('The ' . $name . ' must not be empty and must not contain control characters');
+        }
     }
 }

@@ -19,6 +19,6 @@ abstract class Release extends Type
      */
     final public static function getBaseEntityType(): EntityType
     {
-        return new EntityType(EntityType::RELEASE);
+        return EntityType::Release;
     }
 }

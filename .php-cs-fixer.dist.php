@@ -6,7 +6,8 @@ $finder = (new PhpCsFixer\Finder())
 return (new PhpCsFixer\Config())
     ->setRules([
         '@PER-CS' => true,
-        '@PHP82Migration' => true,
+        '@PHP83Migration' => true,
+        'nullable_type_declaration_for_default_null_value' => true,
         'declare_strict_types' => true,
         'native_function_invocation' => true,
         'no_unused_imports' => true,

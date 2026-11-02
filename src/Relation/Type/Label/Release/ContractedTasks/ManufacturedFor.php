@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Label\Release\ContractedTasks;
 
 use MusicBrainz\Relation\Type\Label\Release\ContractedTasks;
-use MusicBrainz\Value\Name;
 
 /**
  * Use this relationship for credits like “Release was manufactured by X for Label”.
@@ -17,10 +16,10 @@ class ManufacturedFor extends ContractedTasks
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('manufactured for');
+        return 'manufactured for';
     }
 }

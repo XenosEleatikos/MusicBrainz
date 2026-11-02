@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait AreaIdTrait
@@ -15,6 +14,8 @@ trait AreaIdTrait
      * Returns the field name for the area ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function areaId(): string
     {
@@ -26,10 +27,12 @@ trait AreaIdTrait
      *
      * @param MBID $areaId The MusicBrainz Identifier (MBID) of an area
      *
-     * @return Term
+     * @return static
      */
-    public function addAreaId(MBID $areaId): Term
+    public function addAreaId(MBID $areaId): static
     {
-        return $this->addTerm((string) $areaId, self::areaId());
+        $this->addTerm((string) $areaId, self::areaId());
+
+        return $this;
     }
 }

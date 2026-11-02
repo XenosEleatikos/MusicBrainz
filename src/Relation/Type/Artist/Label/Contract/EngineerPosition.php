@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Label\Contract;
 
 use MusicBrainz\Relation\Type\Artist\Label\Contract;
-use MusicBrainz\Value\Name;
 
 /**
  * This indicates that an artist was officially employed by a label as an engineer.
@@ -17,10 +16,10 @@ class EngineerPosition extends Contract
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('engineer position');
+        return 'engineer position at';
     }
 }

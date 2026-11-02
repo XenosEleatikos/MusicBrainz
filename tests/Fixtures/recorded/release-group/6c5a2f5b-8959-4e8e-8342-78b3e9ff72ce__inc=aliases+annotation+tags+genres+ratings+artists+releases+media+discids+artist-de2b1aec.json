@@ -1,0 +1,168 @@
+{
+    "title": "Alexa Play OK Computer",
+    "rating": {
+        "votes-count": 0,
+        "value": null
+    },
+    "secondary-types": [],
+    "tags": [],
+    "primary-type-id": "d6038452-8ee0-3f68-affc-2de9a1ede0b9",
+    "releases": [
+        {
+            "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+            "country": "XW",
+            "media": [
+                {
+                    "format": "Digital Media",
+                    "position": 1,
+                    "discs": [],
+                    "id": "8e4c752b-0a0c-448b-ac7d-6734c9a4d620",
+                    "format-id": "907a28d9-b3b2-3ef6-89a8-7b18d91d4794",
+                    "track-count": 1,
+                    "title": ""
+                }
+            ],
+            "release-events": [
+                {
+                    "date": "2020-12-18",
+                    "area": {
+                        "disambiguation": "",
+                        "sort-name": "[Worldwide]",
+                        "type-id": null,
+                        "type": null,
+                        "name": "[Worldwide]",
+                        "iso-3166-1-codes": [
+                            "XW"
+                        ],
+                        "id": "525d4e18-3d00-31b9-a58b-a146a916de8f"
+                    }
+                }
+            ],
+            "tags": [],
+            "packaging": "None",
+            "title": "Alexa Play OK Computer",
+            "genres": [],
+            "barcode": "195915520078",
+            "status": "Official",
+            "artist-credit": [
+                {
+                    "name": "Us3r",
+                    "artist": {
+                        "id": "89148a39-cb43-4115-b493-b5c1058b6e0e",
+                        "tags": [
+                            {
+                                "count": 1,
+                                "name": "alternative rock"
+                            },
+                            {
+                                "name": "contemporary r&b",
+                                "count": 1
+                            },
+                            {
+                                "count": 1,
+                                "name": "edm"
+                            }
+                        ],
+                        "name": "US3R",
+                        "type": "Person",
+                        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                        "country": null,
+                        "sort-name": "US3R",
+                        "genres": [
+                            {
+                                "disambiguation": "",
+                                "count": 1,
+                                "name": "alternative rock",
+                                "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18"
+                            },
+                            {
+                                "name": "contemporary r&b",
+                                "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0",
+                                "disambiguation": "",
+                                "count": 1
+                            },
+                            {
+                                "id": "3976e9ba-16d0-461d-b732-99408a0374ba",
+                                "name": "edm",
+                                "count": 1,
+                                "disambiguation": ""
+                            }
+                        ],
+                        "aliases": [],
+                        "disambiguation": ""
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "aliases": [],
+            "disambiguation": "",
+            "date": "2020-12-18",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "id": "7c6ebba9-489d-44c4-8c71-7b1c0d4ae344",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "quality": "normal"
+        }
+    ],
+    "relations": [],
+    "secondary-type-ids": [],
+    "annotation": null,
+    "id": "6c5a2f5b-8959-4e8e-8342-78b3e9ff72ce",
+    "first-release-date": "2020-12-18",
+    "aliases": [],
+    "disambiguation": "",
+    "genres": [],
+    "primary-type": "Single",
+    "artist-credit": [
+        {
+            "name": "Us3r",
+            "artist": {
+                "aliases": [],
+                "disambiguation": "",
+                "sort-name": "US3R",
+                "genres": [
+                    {
+                        "count": 1,
+                        "disambiguation": "",
+                        "id": "ceeaa283-5d7b-4202-8d1d-e25d116b2a18",
+                        "name": "alternative rock"
+                    },
+                    {
+                        "id": "4bb4043a-0ee5-4b84-93fa-6ba4567a6ba0",
+                        "name": "contemporary r&b",
+                        "count": 1,
+                        "disambiguation": ""
+                    },
+                    {
+                        "disambiguation": "",
+                        "count": 1,
+                        "name": "edm",
+                        "id": "3976e9ba-16d0-461d-b732-99408a0374ba"
+                    }
+                ],
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "type": "Person",
+                "country": null,
+                "name": "US3R",
+                "id": "89148a39-cb43-4115-b493-b5c1058b6e0e",
+                "tags": [
+                    {
+                        "count": 1,
+                        "name": "alternative rock"
+                    },
+                    {
+                        "name": "contemporary r&b",
+                        "count": 1
+                    },
+                    {
+                        "count": 1,
+                        "name": "edm"
+                    }
+                ]
+            },
+            "joinphrase": ""
+        }
+    ]
+}

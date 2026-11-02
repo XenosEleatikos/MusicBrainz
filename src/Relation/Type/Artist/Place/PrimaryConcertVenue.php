@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Place;
 
 use MusicBrainz\Relation\Type\Artist\Place;
-use MusicBrainz\Value\Name;
 
 /**
  * This is used to link an artist to its primary concert venue.
@@ -17,10 +16,10 @@ class PrimaryConcertVenue extends Place
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('primary concert venue');
+        return 'primary concert venue';
     }
 }

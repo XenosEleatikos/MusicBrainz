@@ -1,0 +1,1830 @@
+{
+    "releases": [
+        {
+            "disambiguation": "",
+            "country": "US",
+            "status": "Official",
+            "packaging": "Keep Case",
+            "media": [
+                {
+                    "format-id": "bb71fd58-ff93-32b4-a201-4ad1b2a80e5f",
+                    "format": "DVD-Video",
+                    "tracks": [
+                        {
+                            "position": 2,
+                            "number": "2",
+                            "artist-credit": [
+                                {
+                                    "artist": {
+                                        "aliases": [
+                                            {
+                                                "name": "Queen",
+                                                "begin": null,
+                                                "sort-name": "Queen",
+                                                "type": "Artist name",
+                                                "locale": "en",
+                                                "primary": true,
+                                                "ended": false,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "end": null
+                                            },
+                                            {
+                                                "primary": true,
+                                                "end": null,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "ended": false,
+                                                "begin": null,
+                                                "name": "クイーン",
+                                                "type": "Artist name",
+                                                "sort-name": "クイーン",
+                                                "locale": "ja"
+                                            },
+                                            {
+                                                "name": "皇后乐队",
+                                                "begin": null,
+                                                "locale": "zh_Hans_CN",
+                                                "sort-name": "皇后乐队",
+                                                "type": "Artist name",
+                                                "primary": true,
+                                                "ended": false,
+                                                "end": null,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                                            }
+                                        ],
+                                        "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "name": "Queen",
+                                        "sort-name": "Queen",
+                                        "type": "Group",
+                                        "disambiguation": "UK rock group",
+                                        "country": "GB",
+                                        "rating": {
+                                            "votes-count": 44,
+                                            "value": 4.7
+                                        }
+                                    },
+                                    "joinphrase": "",
+                                    "name": "Queen"
+                                }
+                            ],
+                            "id": "dbb19eef-9b3e-4f82-bcb0-f1e9b4dd9570",
+                            "length": 124633,
+                            "title": "Bohemian Rhapsody"
+                        }
+                    ],
+                    "title": "...And Live Aid",
+                    "id": "08c2d817-daa5-3416-89d4-3216c89959a1",
+                    "track-offset": 1,
+                    "discs": [],
+                    "track-count": 11,
+                    "position": 2
+                }
+            ],
+            "id": "35c58e93-8ebf-461e-848a-e0d3ea99a14e",
+            "packaging-id": "bb14bb17-e8ad-375f-a3c6-b1f82fd2bcc4",
+            "release-events": [
+                {
+                    "area": {
+                        "name": "United States",
+                        "sort-name": "United States",
+                        "type": null,
+                        "disambiguation": "",
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "US"
+                        ]
+                    },
+                    "date": "2007-10-30"
+                }
+            ],
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "text-representation": {
+                "language": "eng",
+                "script": "Latn"
+            },
+            "release-group": {
+                "id": "e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1",
+                "secondary-types": [
+                    "Live"
+                ],
+                "disambiguation": "",
+                "rating": {
+                    "votes-count": 0,
+                    "value": null
+                },
+                "genres": [],
+                "tags": [],
+                "artist-credit": [
+                    {
+                        "artist": {
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                            "aliases": [
+                                {
+                                    "sort-name": "Queen",
+                                    "type": "Artist name",
+                                    "locale": "en",
+                                    "name": "Queen",
+                                    "begin": null,
+                                    "ended": false,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "end": null,
+                                    "primary": true
+                                },
+                                {
+                                    "name": "クイーン",
+                                    "begin": null,
+                                    "sort-name": "クイーン",
+                                    "type": "Artist name",
+                                    "locale": "ja",
+                                    "primary": true,
+                                    "ended": false,
+                                    "end": null,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                                },
+                                {
+                                    "begin": null,
+                                    "name": "皇后乐队",
+                                    "type": "Artist name",
+                                    "sort-name": "皇后乐队",
+                                    "locale": "zh_Hans_CN",
+                                    "primary": true,
+                                    "end": null,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "ended": false
+                                }
+                            ],
+                            "type": "Group",
+                            "sort-name": "Queen",
+                            "rating": {
+                                "value": 4.7,
+                                "votes-count": 44
+                            },
+                            "country": "GB",
+                            "disambiguation": "UK rock group",
+                            "name": "Queen"
+                        },
+                        "joinphrase": "",
+                        "name": "Queen"
+                    }
+                ],
+                "secondary-type-ids": [
+                    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                ],
+                "first-release-date": "1997-12-16",
+                "aliases": [],
+                "releases": [],
+                "primary-type": "Album",
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "title": "Rock Montreal"
+            },
+            "date": "2007-10-30",
+            "title": "Rock Montreal & Live Aid",
+            "quality": "normal",
+            "artist-credit": [
+                {
+                    "name": "Queen",
+                    "artist": {
+                        "disambiguation": "UK rock group",
+                        "country": "GB",
+                        "sort-name": "Queen",
+                        "type": "Group",
+                        "name": "Queen",
+                        "genres": [
+                            {
+                                "name": "afro house",
+                                "count": 1,
+                                "id": "07041357-bba4-415f-8b9b-5423ae05f907",
+                                "disambiguation": ""
+                            },
+                            {
+                                "name": "art rock",
+                                "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                                "count": 16,
+                                "disambiguation": ""
+                            },
+                            {
+                                "disambiguation": "",
+                                "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                                "count": 1,
+                                "name": "baroque pop"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "name": "70's",
+                                "count": 2
+                            },
+                            {
+                                "count": 1,
+                                "name": "80's"
+                            },
+                            {
+                                "count": 1,
+                                "name": "80s"
+                            }
+                        ],
+                        "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "aliases": [
+                            {
+                                "sort-name": "Queen",
+                                "type": "Artist name",
+                                "locale": "en",
+                                "name": "Queen",
+                                "begin": null,
+                                "ended": false,
+                                "end": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "primary": true
+                            },
+                            {
+                                "primary": true,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "end": null,
+                                "ended": false,
+                                "begin": null,
+                                "name": "クイーン",
+                                "type": "Artist name",
+                                "sort-name": "クイーン",
+                                "locale": "ja"
+                            },
+                            {
+                                "locale": "zh_Hans_CN",
+                                "type": "Artist name",
+                                "sort-name": "皇后乐队",
+                                "begin": null,
+                                "name": "皇后乐队",
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "end": null,
+                                "ended": false,
+                                "primary": true
+                            }
+                        ]
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "tags": [],
+            "barcode": "801213022892",
+            "genres": [],
+            "aliases": []
+        },
+        {
+            "title": "Rock Montreal & Live Aid",
+            "date": "2007-11-21",
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "release-group": {
+                "title": "Rock Montreal",
+                "releases": [],
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "primary-type": "Album",
+                "secondary-type-ids": [
+                    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                ],
+                "first-release-date": "1997-12-16",
+                "aliases": [],
+                "genres": [],
+                "tags": [],
+                "artist-credit": [
+                    {
+                        "joinphrase": "",
+                        "artist": {
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                            "aliases": [
+                                {
+                                    "end": null,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "ended": false,
+                                    "primary": true,
+                                    "type": "Artist name",
+                                    "sort-name": "Queen",
+                                    "locale": "en",
+                                    "begin": null,
+                                    "name": "Queen"
+                                },
+                                {
+                                    "locale": "ja",
+                                    "type": "Artist name",
+                                    "sort-name": "クイーン",
+                                    "begin": null,
+                                    "name": "クイーン",
+                                    "end": null,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "ended": false,
+                                    "primary": true
+                                },
+                                {
+                                    "primary": true,
+                                    "ended": false,
+                                    "end": null,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "name": "皇后乐队",
+                                    "begin": null,
+                                    "sort-name": "皇后乐队",
+                                    "type": "Artist name",
+                                    "locale": "zh_Hans_CN"
+                                }
+                            ],
+                            "rating": {
+                                "value": 4.7,
+                                "votes-count": 44
+                            },
+                            "country": "GB",
+                            "disambiguation": "UK rock group",
+                            "type": "Group",
+                            "sort-name": "Queen",
+                            "name": "Queen"
+                        },
+                        "name": "Queen"
+                    }
+                ],
+                "disambiguation": "",
+                "rating": {
+                    "votes-count": 0,
+                    "value": null
+                },
+                "secondary-types": [
+                    "Live"
+                ],
+                "id": "e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1"
+            },
+            "packaging-id": null,
+            "status-id": null,
+            "release-events": [
+                {
+                    "area": {
+                        "type-id": null,
+                        "id": "489ce91b-6658-3307-9877-795b68554c98",
+                        "iso-3166-1-codes": [
+                            "US"
+                        ],
+                        "type": null,
+                        "sort-name": "United States",
+                        "disambiguation": "",
+                        "name": "United States"
+                    },
+                    "date": "2007-11-21"
+                }
+            ],
+            "aliases": [],
+            "barcode": "801213331598",
+            "tags": [],
+            "genres": [],
+            "quality": "normal",
+            "artist-credit": [
+                {
+                    "name": "Queen",
+                    "artist": {
+                        "aliases": [
+                            {
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "end": null,
+                                "ended": false,
+                                "primary": true,
+                                "type": "Artist name",
+                                "sort-name": "Queen",
+                                "locale": "en",
+                                "begin": null,
+                                "name": "Queen"
+                            },
+                            {
+                                "begin": null,
+                                "name": "クイーン",
+                                "locale": "ja",
+                                "type": "Artist name",
+                                "sort-name": "クイーン",
+                                "primary": true,
+                                "end": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "ended": false
+                            },
+                            {
+                                "primary": true,
+                                "ended": false,
+                                "end": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "name": "皇后乐队",
+                                "begin": null,
+                                "locale": "zh_Hans_CN",
+                                "sort-name": "皇后乐队",
+                                "type": "Artist name"
+                            }
+                        ],
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                        "tags": [
+                            {
+                                "name": "70's",
+                                "count": 2
+                            },
+                            {
+                                "count": 1,
+                                "name": "80's"
+                            },
+                            {
+                                "count": 1,
+                                "name": "80s"
+                            }
+                        ],
+                        "genres": [
+                            {
+                                "name": "afro house",
+                                "disambiguation": "",
+                                "count": 1,
+                                "id": "07041357-bba4-415f-8b9b-5423ae05f907"
+                            },
+                            {
+                                "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                                "count": 16,
+                                "disambiguation": "",
+                                "name": "art rock"
+                            },
+                            {
+                                "count": 1,
+                                "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                                "disambiguation": "",
+                                "name": "baroque pop"
+                            }
+                        ],
+                        "name": "Queen",
+                        "type": "Group",
+                        "sort-name": "Queen",
+                        "disambiguation": "UK rock group",
+                        "country": "GB"
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "status": null,
+            "packaging": null,
+            "country": "US",
+            "disambiguation": "",
+            "media": [
+                {
+                    "track-offset": 27,
+                    "id": "b919f5ca-e3e5-3020-bbb9-d76b5a0d6087",
+                    "position": 1,
+                    "track-count": 37,
+                    "discs": [],
+                    "format-id": "c693c05b-3316-3d69-afc2-5e2bc455bffc",
+                    "tracks": [
+                        {
+                            "length": null,
+                            "artist-credit": [
+                                {
+                                    "joinphrase": "",
+                                    "artist": {
+                                        "aliases": [
+                                            {
+                                                "name": "Queen",
+                                                "begin": null,
+                                                "sort-name": "Queen",
+                                                "type": "Artist name",
+                                                "locale": "en",
+                                                "primary": true,
+                                                "ended": false,
+                                                "end": null,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                                            },
+                                            {
+                                                "type": "Artist name",
+                                                "sort-name": "クイーン",
+                                                "locale": "ja",
+                                                "begin": null,
+                                                "name": "クイーン",
+                                                "end": null,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "ended": false,
+                                                "primary": true
+                                            },
+                                            {
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "end": null,
+                                                "ended": false,
+                                                "primary": true,
+                                                "locale": "zh_Hans_CN",
+                                                "type": "Artist name",
+                                                "sort-name": "皇后乐队",
+                                                "begin": null,
+                                                "name": "皇后乐队"
+                                            }
+                                        ],
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                                        "name": "Queen",
+                                        "rating": {
+                                            "value": 4.7,
+                                            "votes-count": 44
+                                        },
+                                        "disambiguation": "UK rock group",
+                                        "country": "GB",
+                                        "type": "Group",
+                                        "sort-name": "Queen"
+                                    },
+                                    "name": "Queen"
+                                }
+                            ],
+                            "id": "6992ab6f-ec05-4755-bf21-15cf396efddb",
+                            "number": "28",
+                            "position": 28,
+                            "title": "Bohemian Rhapsody"
+                        }
+                    ],
+                    "title": "",
+                    "format": "Blu-ray"
+                }
+            ],
+            "id": "7d638c9c-acb8-4074-9df4-930eebc51c12"
+        },
+        {
+            "aliases": [],
+            "quality": "normal",
+            "artist-credit": [
+                {
+                    "name": "Queen",
+                    "artist": {
+                        "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                        "genres": [
+                            {
+                                "id": "07041357-bba4-415f-8b9b-5423ae05f907",
+                                "count": 1,
+                                "disambiguation": "",
+                                "name": "afro house"
+                            },
+                            {
+                                "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                                "count": 16,
+                                "disambiguation": "",
+                                "name": "art rock"
+                            },
+                            {
+                                "disambiguation": "",
+                                "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                                "count": 1,
+                                "name": "baroque pop"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "name": "70's",
+                                "count": 2
+                            },
+                            {
+                                "count": 1,
+                                "name": "80's"
+                            },
+                            {
+                                "count": 1,
+                                "name": "80s"
+                            }
+                        ],
+                        "aliases": [
+                            {
+                                "type": "Artist name",
+                                "sort-name": "Queen",
+                                "locale": "en",
+                                "begin": null,
+                                "name": "Queen",
+                                "end": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "ended": false,
+                                "primary": true
+                            },
+                            {
+                                "begin": null,
+                                "name": "クイーン",
+                                "type": "Artist name",
+                                "sort-name": "クイーン",
+                                "locale": "ja",
+                                "primary": true,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "end": null,
+                                "ended": false
+                            },
+                            {
+                                "begin": null,
+                                "name": "皇后乐队",
+                                "type": "Artist name",
+                                "sort-name": "皇后乐队",
+                                "locale": "zh_Hans_CN",
+                                "primary": true,
+                                "end": null,
+                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                "ended": false
+                            }
+                        ],
+                        "sort-name": "Queen",
+                        "type": "Group",
+                        "country": "GB",
+                        "disambiguation": "UK rock group",
+                        "name": "Queen"
+                    },
+                    "joinphrase": ""
+                }
+            ],
+            "barcode": "5051300500979",
+            "tags": [],
+            "genres": [],
+            "date": "2007",
+            "title": "Rock Montreal & Live Aid",
+            "packaging-id": "bb14bb17-e8ad-375f-a3c6-b1f82fd2bcc4",
+            "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+            "release-events": [
+                {
+                    "area": {
+                        "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+                        "type-id": null,
+                        "iso-3166-1-codes": [
+                            "XE"
+                        ],
+                        "sort-name": "Europe",
+                        "type": null,
+                        "disambiguation": "",
+                        "name": "Europe"
+                    },
+                    "date": "2007"
+                }
+            ],
+            "text-representation": {
+                "script": "Latn",
+                "language": "eng"
+            },
+            "release-group": {
+                "secondary-types": [
+                    "Live"
+                ],
+                "id": "e0d97e8d-dc9e-3f1b-91a4-ec7df83eecb1",
+                "disambiguation": "",
+                "rating": {
+                    "value": null,
+                    "votes-count": 0
+                },
+                "secondary-type-ids": [
+                    "6fd474e2-6b58-3102-9d17-d6f7eb7da0a0"
+                ],
+                "first-release-date": "1997-12-16",
+                "aliases": [],
+                "genres": [],
+                "tags": [],
+                "artist-credit": [
+                    {
+                        "name": "Queen",
+                        "joinphrase": "",
+                        "artist": {
+                            "name": "Queen",
+                            "sort-name": "Queen",
+                            "type": "Group",
+                            "country": "GB",
+                            "disambiguation": "UK rock group",
+                            "rating": {
+                                "votes-count": 44,
+                                "value": 4.7
+                            },
+                            "aliases": [
+                                {
+                                    "primary": true,
+                                    "ended": false,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "end": null,
+                                    "name": "Queen",
+                                    "begin": null,
+                                    "locale": "en",
+                                    "sort-name": "Queen",
+                                    "type": "Artist name"
+                                },
+                                {
+                                    "end": null,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "ended": false,
+                                    "primary": true,
+                                    "type": "Artist name",
+                                    "sort-name": "クイーン",
+                                    "locale": "ja",
+                                    "begin": null,
+                                    "name": "クイーン"
+                                },
+                                {
+                                    "locale": "zh_Hans_CN",
+                                    "sort-name": "皇后乐队",
+                                    "type": "Artist name",
+                                    "name": "皇后乐队",
+                                    "begin": null,
+                                    "ended": false,
+                                    "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                    "end": null,
+                                    "primary": true
+                                }
+                            ],
+                            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+                        }
+                    }
+                ],
+                "title": "Rock Montreal",
+                "releases": [],
+                "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+                "primary-type": "Album"
+            },
+            "id": "7c75625e-73a5-4439-8159-ca233389ba62",
+            "media": [
+                {
+                    "track-count": 37,
+                    "discs": [],
+                    "position": 1,
+                    "id": "9536e5ed-ec67-3b16-915f-1514a390febb",
+                    "track-offset": 27,
+                    "format": "Blu-ray",
+                    "tracks": [
+                        {
+                            "title": "Bohemian Rhapsody",
+                            "position": 28,
+                            "number": "28",
+                            "id": "73f38c21-b348-48c9-8579-18e08ff0a354",
+                            "artist-credit": [
+                                {
+                                    "artist": {
+                                        "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                                        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                                        "aliases": [
+                                            {
+                                                "name": "Queen",
+                                                "begin": null,
+                                                "sort-name": "Queen",
+                                                "type": "Artist name",
+                                                "locale": "en",
+                                                "primary": true,
+                                                "ended": false,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "end": null
+                                            },
+                                            {
+                                                "primary": true,
+                                                "end": null,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "ended": false,
+                                                "begin": null,
+                                                "name": "クイーン",
+                                                "locale": "ja",
+                                                "type": "Artist name",
+                                                "sort-name": "クイーン"
+                                            },
+                                            {
+                                                "primary": true,
+                                                "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                                                "end": null,
+                                                "ended": false,
+                                                "begin": null,
+                                                "name": "皇后乐队",
+                                                "locale": "zh_Hans_CN",
+                                                "type": "Artist name",
+                                                "sort-name": "皇后乐队"
+                                            }
+                                        ],
+                                        "sort-name": "Queen",
+                                        "type": "Group",
+                                        "disambiguation": "UK rock group",
+                                        "country": "GB",
+                                        "rating": {
+                                            "votes-count": 44,
+                                            "value": 4.7
+                                        },
+                                        "name": "Queen"
+                                    },
+                                    "joinphrase": "",
+                                    "name": "Queen"
+                                }
+                            ],
+                            "length": 125000
+                        }
+                    ],
+                    "title": "",
+                    "format-id": "c693c05b-3316-3d69-afc2-5e2bc455bffc"
+                }
+            ],
+            "status": "Official",
+            "packaging": "Keep Case",
+            "country": "XE",
+            "disambiguation": ""
+        }
+    ],
+    "video": true,
+    "title": "Bohemian Rhapsody",
+    "tags": [],
+    "genres": [],
+    "artist-credit": [
+        {
+            "artist": {
+                "name": "Queen",
+                "type": "Group",
+                "sort-name": "Queen",
+                "disambiguation": "UK rock group",
+                "country": "GB",
+                "aliases": [
+                    {
+                        "locale": "en",
+                        "type": "Artist name",
+                        "sort-name": "Queen",
+                        "begin": null,
+                        "name": "Queen",
+                        "end": null,
+                        "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                        "ended": false,
+                        "primary": true
+                    },
+                    {
+                        "name": "クイーン",
+                        "begin": null,
+                        "sort-name": "クイーン",
+                        "type": "Artist name",
+                        "locale": "ja",
+                        "primary": true,
+                        "ended": false,
+                        "end": null,
+                        "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc"
+                    },
+                    {
+                        "ended": false,
+                        "end": null,
+                        "type-id": "894afba6-2816-3c24-8072-eadb66bd04bc",
+                        "primary": true,
+                        "locale": "zh_Hans_CN",
+                        "sort-name": "皇后乐队",
+                        "type": "Artist name",
+                        "name": "皇后乐队",
+                        "begin": null
+                    }
+                ],
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                "tags": [
+                    {
+                        "count": 2,
+                        "name": "70's"
+                    },
+                    {
+                        "name": "80's",
+                        "count": 1
+                    },
+                    {
+                        "name": "80s",
+                        "count": 1
+                    }
+                ],
+                "genres": [
+                    {
+                        "disambiguation": "",
+                        "id": "07041357-bba4-415f-8b9b-5423ae05f907",
+                        "count": 1,
+                        "name": "afro house"
+                    },
+                    {
+                        "disambiguation": "",
+                        "id": "b7ef058e-6d83-4ca4-8123-9724bff4648b",
+                        "count": 16,
+                        "name": "art rock"
+                    },
+                    {
+                        "count": 1,
+                        "id": "150eb95a-7739-4fde-a5fe-b62ca576a928",
+                        "disambiguation": "",
+                        "name": "baroque pop"
+                    }
+                ]
+            },
+            "joinphrase": "",
+            "name": "Queen"
+        }
+    ],
+    "length": 124633,
+    "annotation": null,
+    "aliases": [],
+    "first-release-date": "2007-10-30",
+    "rating": {
+        "votes-count": 1,
+        "value": 1
+    },
+    "disambiguation": "live, 1985-07-13: Wembley Stadium, London, UK",
+    "isrcs": [],
+    "relations": [
+        {
+            "attribute-credits": [],
+            "attributes": [
+                "electric bass guitar"
+            ],
+            "attribute-values": [],
+            "direction": "backward",
+            "end": "1985-07-13",
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "ended": true,
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "a0b77a10-ecff-4b84-b1f3-008391038d67",
+                "name": "John Deacon",
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Person",
+                "sort-name": "Deacon, John"
+            },
+            "attribute-ids": {
+                "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+            },
+            "target-type": "artist",
+            "begin": "1985-07-13",
+            "type": "instrument",
+            "source-credit": "",
+            "target-credit": ""
+        },
+        {
+            "attributes": [
+                "electric guitar"
+            ],
+            "attribute-credits": [],
+            "artist": {
+                "name": "Brian May",
+                "country": "GB",
+                "disambiguation": "Queen guitarist",
+                "sort-name": "May, Brian",
+                "type": "Person",
+                "id": "6d24f102-5c43-453a-8664-4ee092f441cf",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "ended": true,
+            "end": "1985-07-13",
+            "direction": "backward",
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "instrument",
+            "source-credit": "",
+            "target-type": "artist",
+            "begin": "1985-07-13",
+            "attribute-ids": {
+                "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+            }
+        },
+        {
+            "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+            "end": "1985-07-13",
+            "direction": "backward",
+            "ended": true,
+            "artist": {
+                "name": "Freddie Mercury",
+                "country": "GB",
+                "disambiguation": "",
+                "sort-name": "Mercury, Freddie",
+                "type": "Person",
+                "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-values": [],
+            "type": "instrument",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-ids": {
+                "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+            },
+            "target-type": "artist",
+            "begin": "1985-07-13",
+            "attribute-credits": [],
+            "attributes": [
+                "piano"
+            ]
+        },
+        {
+            "attribute-values": [],
+            "artist": {
+                "disambiguation": "",
+                "country": "GB",
+                "sort-name": "Shirley‐Smith, Justin",
+                "type": "Person",
+                "name": "Justin Shirley‐Smith",
+                "id": "4e19a8c9-2be0-4ade-8e64-aae9f48dc55b",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "ended": false,
+            "direction": "backward",
+            "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+            "end": null,
+            "target-type": "artist",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "mix",
+            "attributes": []
+        },
+        {
+            "attribute-values": {
+                "task": "5.1 audio production"
+            },
+            "artist": {
+                "id": "1a8343e6-d54d-4536-95d1-d26821c7b48f",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Griffin, Jeff",
+                "type": "Person",
+                "country": "GB",
+                "disambiguation": "UK producer",
+                "name": "Jeff Griffin"
+            },
+            "end": null,
+            "direction": "backward",
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+            "ended": false,
+            "target-type": "artist",
+            "begin": null,
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "target-credit": "",
+            "source-credit": "",
+            "type": "producer",
+            "attributes": [
+                "task"
+            ]
+        },
+        {
+            "attribute-ids": {
+                "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+            },
+            "begin": null,
+            "target-type": "artist",
+            "type": "producer",
+            "source-credit": "",
+            "target-credit": "Will Shapland",
+            "attribute-values": {
+                "task": "5.1 audio production"
+            },
+            "ended": false,
+            "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+            "end": null,
+            "direction": "backward",
+            "artist": {
+                "name": "William Shapland",
+                "country": "GB",
+                "disambiguation": "",
+                "type": "Person",
+                "sort-name": "Shapland, William",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "3e6a429c-9ab3-4264-9a53-9a5008459d7e"
+            },
+            "attributes": [
+                "task"
+            ]
+        },
+        {
+            "end": null,
+            "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+            "direction": "backward",
+            "ended": false,
+            "artist": {
+                "id": "1a8343e6-d54d-4536-95d1-d26821c7b48f",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "UK producer",
+                "country": "GB",
+                "sort-name": "Griffin, Jeff",
+                "type": "Person",
+                "name": "Jeff Griffin"
+            },
+            "attribute-values": [],
+            "source-credit": "",
+            "type": "recording",
+            "target-credit": "",
+            "attribute-ids": [],
+            "target-type": "artist",
+            "begin": null,
+            "attributes": []
+        },
+        {
+            "target-credit": "",
+            "source-credit": "",
+            "type": "recording",
+            "begin": null,
+            "target-type": "artist",
+            "attribute-ids": [],
+            "artist": {
+                "disambiguation": "engineer",
+                "country": null,
+                "sort-name": "Robinson, Mike",
+                "type": "Person",
+                "name": "Mike Robinson",
+                "id": "dc592172-6437-4752-846a-a7396d5b04cd",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "direction": "backward",
+            "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+            "end": null,
+            "ended": false,
+            "attribute-values": [],
+            "attributes": []
+        },
+        {
+            "attributes": [],
+            "target-type": "artist",
+            "begin": null,
+            "attribute-ids": [],
+            "target-credit": "",
+            "type": "video director",
+            "source-credit": "",
+            "attribute-values": [],
+            "artist": {
+                "country": null,
+                "disambiguation": "director",
+                "sort-name": "Smith, John G",
+                "type": "Person",
+                "name": "John G Smith",
+                "id": "c1fcac0e-c940-4d47-88c1-1ba832be3df5",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "direction": "backward",
+            "type-id": "578ee04d-3227-4335-ba2c-11e8ba420e0b",
+            "end": null,
+            "ended": false
+        },
+        {
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "begin": "1985-07-13",
+            "target-type": "artist",
+            "type": "vocal",
+            "source-credit": "",
+            "target-credit": "",
+            "attribute-values": [],
+            "ended": true,
+            "end": "1985-07-13",
+            "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+            "direction": "backward",
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                "country": "GB",
+                "disambiguation": "",
+                "type": "Person",
+                "sort-name": "Mercury, Freddie",
+                "name": "Freddie Mercury"
+            },
+            "attribute-credits": [],
+            "attributes": [
+                "lead vocals"
+            ]
+        },
+        {
+            "ended": false,
+            "end": null,
+            "type-id": "b06e6732-2603-47d3-8a49-9f589b430483",
+            "direction": "backward",
+            "attribute-values": [],
+            "target-credit": "",
+            "type": "recorded at",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "event",
+            "attribute-ids": [],
+            "event": {
+                "disambiguation": "Wembley Stadium",
+                "cancelled": false,
+                "type": "Concert",
+                "name": "Live Aid",
+                "life-span": {
+                    "end": "1985-07-13",
+                    "ended": true,
+                    "begin": "1985-07-13"
+                },
+                "setlist": "",
+                "id": "08657c50-71c6-4a3d-b7c4-3db6efbf07fd",
+                "time": "12:00",
+                "type-id": "ef55e8d7-3d00-394a-8012-f5506a29ff0b"
+            },
+            "attributes": []
+        },
+        {
+            "recording": {
+                "id": "5c5e6e29-a48c-4050-a0f8-898e0a92ef0b",
+                "length": 167000,
+                "artist-credit": [
+                    {
+                        "name": "Queen",
+                        "joinphrase": "",
+                        "artist": {
+                            "id": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+                            "type-id": null,
+                            "name": "Queen",
+                            "sort-name": "Queen",
+                            "type": null,
+                            "country": "GB",
+                            "disambiguation": "UK rock group"
+                        }
+                    }
+                ],
+                "video": false,
+                "title": "Bohemian Rhapsody",
+                "isrcs": [],
+                "disambiguation": "live, 1985-07-13: Wembley Stadium, London, UK"
+            },
+            "attributes": [],
+            "target-credit": "",
+            "source-credit": "",
+            "type": "music video",
+            "begin": null,
+            "target-type": "recording",
+            "attribute-ids": [],
+            "ended": false,
+            "type-id": "ce3de655-7451-44d1-9224-87eb948c205d",
+            "direction": "backward",
+            "end": null,
+            "attribute-values": []
+        },
+        {
+            "attributes": [
+                "live"
+            ],
+            "work": {
+                "disambiguation": "",
+                "type": "Song",
+                "language": "eng",
+                "title": "Bohemian Rhapsody",
+                "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                "relations": [
+                    {
+                        "attributes": [],
+                        "attribute-values": [],
+                        "artist": {
+                            "country": "GB",
+                            "disambiguation": "",
+                            "sort-name": "Mercury, Freddie",
+                            "type": "Person",
+                            "name": "Freddie Mercury",
+                            "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+                        },
+                        "ended": false,
+                        "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                        "end": null,
+                        "direction": "backward",
+                        "target-type": "artist",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "type": "composer",
+                        "source-credit": ""
+                    },
+                    {
+                        "attributes": [],
+                        "attribute-ids": [],
+                        "target-type": "artist",
+                        "begin": null,
+                        "type": "lyricist",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "attribute-values": [],
+                        "end": null,
+                        "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                        "direction": "backward",
+                        "ended": false,
+                        "artist": {
+                            "id": "022589ac-7177-460d-a178-9976cf70e29f",
+                            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                            "disambiguation": "",
+                            "country": "GB",
+                            "sort-name": "Mercury, Freddie",
+                            "type": "Person",
+                            "name": "Freddie Mercury"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "source-credit": "",
+                        "type": "publishing",
+                        "target-credit": "",
+                        "attribute-ids": [],
+                        "target-type": "label",
+                        "begin": "2021-07-01",
+                        "direction": "backward",
+                        "end": null,
+                        "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                        "ended": false,
+                        "label": {
+                            "sort-name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                            "type": "Publisher",
+                            "disambiguation": "sub‐publisher for non‐Japanese works",
+                            "name": "ソニー・ミュージックパブリッシング EMI外国事業部",
+                            "id": "11b7b1e9-815a-4db3-a27f-ce0a882bcd1e",
+                            "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                            "label-code": null
+                        },
+                        "attribute-values": []
+                    },
+                    {
+                        "attributes": [],
+                        "label": {
+                            "name": "イーエムアイ音楽出版 ソニー事業部",
+                            "disambiguation": "",
+                            "sort-name": "イーエムアイ音楽出版 ソニー事業部",
+                            "type": "Publisher",
+                            "label-code": null,
+                            "id": "c06dfcf9-a6b6-4d85-841a-3c6df2c6e9a4",
+                            "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c"
+                        },
+                        "ended": true,
+                        "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                        "end": "2021-06-30",
+                        "direction": "backward",
+                        "attribute-values": [],
+                        "target-credit": "",
+                        "type": "publishing",
+                        "source-credit": "",
+                        "begin": null,
+                        "target-type": "label",
+                        "attribute-ids": []
+                    },
+                    {
+                        "attributes": [],
+                        "attribute-values": [],
+                        "label": {
+                            "label-code": null,
+                            "type-id": "e9ad53b0-e3d0-3885-a10b-8193d501338c",
+                            "id": "71e25609-33f3-4c22-b341-708f74a943e0",
+                            "name": "B. Feldman & Co. Ltd.",
+                            "type": "Publisher",
+                            "sort-name": "B. Feldman & Co. Ltd.",
+                            "disambiguation": "publisher est. 1946"
+                        },
+                        "end": null,
+                        "type-id": "05ee6f18-4517-342d-afdf-5897f64276e3",
+                        "direction": "backward",
+                        "ended": false,
+                        "target-type": "label",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "publishing"
+                    },
+                    {
+                        "attributes": [],
+                        "url": {
+                            "id": "1f625f16-0d36-450c-b416-ef6680266cc1",
+                            "resource": "https://genius.com/Queen-bohemian-rhapsody-lyrics"
+                        },
+                        "begin": null,
+                        "target-type": "url",
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "lyrics",
+                        "attribute-values": [],
+                        "ended": false,
+                        "direction": "backward",
+                        "type-id": "e38e65aa-75e0-42ba-ace0-072aeb91a538",
+                        "end": null
+                    },
+                    {
+                        "attributes": [],
+                        "url": {
+                            "id": "31278d3a-6ed1-4dff-b63d-f95c3879c35c",
+                            "resource": "https://secondhandsongs.com/work/817"
+                        },
+                        "attribute-ids": [],
+                        "target-type": "url",
+                        "begin": null,
+                        "source-credit": "",
+                        "type": "secondhandsongs",
+                        "target-credit": "",
+                        "attribute-values": [],
+                        "ended": false,
+                        "end": null,
+                        "type-id": "b80dff64-9560-445a-b824-c8b432d77a52",
+                        "direction": "backward"
+                    },
+                    {
+                        "attributes": [],
+                        "url": {
+                            "id": "c31b93a3-7b6a-457f-b234-8da47d549a8d",
+                            "resource": "http://www.songfacts.com/detail.php?id=685"
+                        },
+                        "target-type": "url",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "songfacts",
+                        "attribute-values": [],
+                        "ended": false,
+                        "type-id": "80402bbc-1aec-41d1-a5be-b599b89bc3c3",
+                        "direction": "backward",
+                        "end": null
+                    },
+                    {
+                        "begin": null,
+                        "target-type": "url",
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "wikidata",
+                        "attribute-values": [],
+                        "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                        "end": null,
+                        "direction": "backward",
+                        "ended": false,
+                        "attributes": [],
+                        "url": {
+                            "id": "e9e61fc3-f3be-4b8e-88d6-670d664fbd32",
+                            "resource": "https://www.wikidata.org/wiki/Q187745"
+                        }
+                    },
+                    {
+                        "ended": false,
+                        "type-id": "587fdd8f-080e-46a9-97af-6425ebbcb3a2",
+                        "end": null,
+                        "direction": "backward",
+                        "attribute-values": [],
+                        "target-credit": "",
+                        "type": "wikidata",
+                        "source-credit": "",
+                        "begin": null,
+                        "target-type": "url",
+                        "attribute-ids": [],
+                        "url": {
+                            "resource": "https://www.wikidata.org/wiki/Q6564217",
+                            "id": "dac2067f-495a-4716-9001-91b85ea66cee"
+                        },
+                        "attributes": []
+                    },
+                    {
+                        "begin": null,
+                        "target-type": "work",
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "type": "arrangement",
+                        "source-credit": "",
+                        "attribute-values": [],
+                        "end": null,
+                        "direction": "forward",
+                        "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+                        "ended": false,
+                        "attributes": [],
+                        "work": {
+                            "attributes": [],
+                            "languages": [],
+                            "iswcs": [],
+                            "id": "6c8c1ee3-0c88-42d2-908c-47748c702136",
+                            "type-id": null,
+                            "title": "Bohemian Rhapsody",
+                            "language": null,
+                            "disambiguation": "arr. for wind band",
+                            "type": null
+                        }
+                    },
+                    {
+                        "end": null,
+                        "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                        "direction": "forward",
+                        "ended": false,
+                        "attribute-values": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "based on",
+                        "begin": null,
+                        "target-type": "work",
+                        "attribute-ids": [],
+                        "work": {
+                            "languages": [],
+                            "attributes": [],
+                            "id": "47ea1dd5-b00b-4d0a-a78d-02893ddc15d0",
+                            "iswcs": [],
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "title": "The Real Life",
+                            "language": null,
+                            "type": "Song",
+                            "disambiguation": ""
+                        },
+                        "attributes": []
+                    },
+                    {
+                        "ended": false,
+                        "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                        "end": null,
+                        "direction": "forward",
+                        "attribute-values": [],
+                        "target-credit": "",
+                        "type": "based on",
+                        "source-credit": "",
+                        "target-type": "work",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "work": {
+                            "title": "Bohemian Rhapsody (Philharmonix version)",
+                            "language": null,
+                            "type": "Song",
+                            "disambiguation": "",
+                            "languages": [],
+                            "attributes": [],
+                            "iswcs": [],
+                            "id": "addabf4c-cc29-45fc-b8a0-9f7e22cc3321",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                        },
+                        "attributes": []
+                    },
+                    {
+                        "attributes": [],
+                        "work": {
+                            "disambiguation": "",
+                            "type": null,
+                            "language": null,
+                            "title": "The Queen Symphony: V. Andante doloroso – Allegretto – Alla marcia – Moderato risoluto – Pastorale – Maestoso",
+                            "type-id": null,
+                            "iswcs": [],
+                            "id": "48d012fa-3ae1-48a4-8879-c02a66eec2f0",
+                            "attributes": [],
+                            "languages": []
+                        },
+                        "attribute-values": [],
+                        "end": null,
+                        "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+                        "direction": "forward",
+                        "ended": false,
+                        "attribute-ids": [],
+                        "begin": null,
+                        "target-type": "work",
+                        "type": "based on",
+                        "source-credit": "",
+                        "target-credit": ""
+                    },
+                    {
+                        "attributes": [],
+                        "work": {
+                            "type": "Musical",
+                            "disambiguation": "Queen musical",
+                            "title": "We Will Rock You",
+                            "language": null,
+                            "iswcs": [],
+                            "id": "01058179-a28f-4e0d-96be-0678e3d5e053",
+                            "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24",
+                            "languages": [],
+                            "attributes": []
+                        },
+                        "attribute-values": [],
+                        "ended": false,
+                        "type-id": "35d45ac2-74ba-4908-804f-21d138fb3d78",
+                        "direction": "backward",
+                        "end": null,
+                        "attribute-ids": [],
+                        "begin": null,
+                        "target-type": "work",
+                        "source-credit": "",
+                        "type": "included works",
+                        "target-credit": ""
+                    },
+                    {
+                        "source-credit": "",
+                        "type": "included works",
+                        "target-credit": "",
+                        "attribute-ids": [],
+                        "target-type": "work",
+                        "begin": null,
+                        "ended": false,
+                        "type-id": "35d45ac2-74ba-4908-804f-21d138fb3d78",
+                        "end": null,
+                        "direction": "backward",
+                        "attribute-values": [],
+                        "work": {
+                            "title": "We Will Rock You",
+                            "language": null,
+                            "disambiguation": "German version of the Queen musical",
+                            "type": "Musical",
+                            "attributes": [],
+                            "languages": [],
+                            "iswcs": [],
+                            "id": "3bc30f3c-dd6d-4d20-b368-2253afc050fe",
+                            "type-id": "9ca5e067-acf7-3cd6-baa4-92bf1975bf24"
+                        },
+                        "attributes": []
+                    },
+                    {
+                        "attribute-values": [],
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "direction": "backward",
+                        "end": null,
+                        "ended": false,
+                        "begin": null,
+                        "target-type": "work",
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "medley",
+                        "ordering-key": 1,
+                        "attributes": [],
+                        "work": {
+                            "title": "Bohemian Polka",
+                            "language": null,
+                            "disambiguation": "",
+                            "type": "Song",
+                            "attributes": [],
+                            "languages": [],
+                            "iswcs": [],
+                            "id": "8bdb4eb8-bacf-4b2a-a34d-d0972d7b9780",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+                        }
+                    },
+                    {
+                        "attribute-ids": [],
+                        "begin": null,
+                        "target-type": "work",
+                        "source-credit": "",
+                        "type": "medley",
+                        "ordering-key": 1,
+                        "target-credit": "",
+                        "attribute-values": [],
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "direction": "backward",
+                        "end": null,
+                        "ended": false,
+                        "attributes": [],
+                        "work": {
+                            "iswcs": [],
+                            "id": "c8e57387-f1b3-466e-98e8-8c9d4c65614b",
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "languages": [],
+                            "attributes": [],
+                            "type": "Song",
+                            "disambiguation": "",
+                            "title": "Don’t Stop Them Now",
+                            "language": null
+                        }
+                    },
+                    {
+                        "work": {
+                            "type": null,
+                            "disambiguation": "",
+                            "language": null,
+                            "title": "Queen I",
+                            "type-id": null,
+                            "id": "4b2f4ff7-4228-4cdc-b0b5-85989fbabbe4",
+                            "iswcs": [],
+                            "languages": [],
+                            "attributes": []
+                        },
+                        "attributes": [],
+                        "target-credit": "",
+                        "type": "medley",
+                        "source-credit": "",
+                        "target-type": "work",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "direction": "backward",
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "end": null,
+                        "ended": false,
+                        "attribute-values": []
+                    },
+                    {
+                        "attributes": [],
+                        "work": {
+                            "attributes": [],
+                            "languages": [],
+                            "type-id": null,
+                            "iswcs": [],
+                            "id": "4b4c2399-09ec-4e5b-b255-e956fe83f788",
+                            "language": null,
+                            "title": "The Big Medley",
+                            "disambiguation": "",
+                            "type": null
+                        },
+                        "attribute-values": [],
+                        "end": null,
+                        "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+                        "direction": "backward",
+                        "ended": false,
+                        "target-type": "work",
+                        "begin": null,
+                        "attribute-ids": [],
+                        "target-credit": "",
+                        "source-credit": "",
+                        "type": "medley",
+                        "ordering-key": 3
+                    },
+                    {
+                        "attribute-values": [],
+                        "ended": false,
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "direction": "forward",
+                        "end": null,
+                        "attribute-ids": {
+                            "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                        },
+                        "begin": null,
+                        "target-type": "work",
+                        "type": "other version",
+                        "source-credit": "",
+                        "target-credit": "",
+                        "attributes": [
+                            "parody"
+                        ],
+                        "work": {
+                            "type": null,
+                            "disambiguation": "",
+                            "title": "Bohemian Schnapsidee",
+                            "language": null,
+                            "iswcs": [],
+                            "id": "ec8b7b38-06ad-3116-a6c9-3ca97555dda8",
+                            "type-id": null,
+                            "languages": [],
+                            "attributes": []
+                        }
+                    },
+                    {
+                        "attribute-ids": {
+                            "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                        },
+                        "begin": null,
+                        "target-type": "work",
+                        "source-credit": "",
+                        "type": "other version",
+                        "target-credit": "",
+                        "attribute-values": [],
+                        "ended": false,
+                        "direction": "forward",
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "end": null,
+                        "attributes": [
+                            "parody"
+                        ],
+                        "work": {
+                            "disambiguation": "",
+                            "type": null,
+                            "language": null,
+                            "title": "Zero Wing Rhapsody",
+                            "type-id": null,
+                            "id": "1fe90765-96b2-3c48-9ee1-9dca780430f7",
+                            "iswcs": [],
+                            "attributes": [],
+                            "languages": []
+                        }
+                    },
+                    {
+                        "attributes": [
+                            "parody",
+                            "translated"
+                        ],
+                        "work": {
+                            "attributes": [],
+                            "languages": [],
+                            "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+                            "id": "a404ddc8-6511-4255-814a-da58d9a7bb86",
+                            "iswcs": [],
+                            "language": null,
+                            "title": "Rap-soda y bohemia",
+                            "disambiguation": "",
+                            "type": "Song"
+                        },
+                        "attribute-values": [],
+                        "ended": false,
+                        "direction": "forward",
+                        "end": null,
+                        "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+                        "target-type": "work",
+                        "begin": null,
+                        "attribute-ids": {
+                            "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1",
+                            "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+                        },
+                        "target-credit": "",
+                        "type": "other version",
+                        "source-credit": ""
+                    }
+                ],
+                "id": "41c94a08-a551-3c86-bb17-d9a52e3a618b",
+                "iswcs": [
+                    "T-010.154.505-4",
+                    "T-304.031.869-8",
+                    "T-900.313.996-6"
+                ],
+                "attributes": [],
+                "languages": [
+                    "eng"
+                ]
+            },
+            "attribute-values": [],
+            "direction": "forward",
+            "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+            "end": "1985-07-13",
+            "ended": true,
+            "target-type": "work",
+            "begin": "1985-07-13",
+            "attribute-ids": {
+                "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+            },
+            "target-credit": "",
+            "source-credit": "",
+            "type": "performance"
+        }
+    ],
+    "id": "106d1527-d378-4e55-ba49-d18f8e63ae8a"
+}

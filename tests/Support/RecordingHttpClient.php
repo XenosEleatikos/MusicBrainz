@@ -1,0 +1,51 @@
+<?php
+
+declare(strict_types=1);
+
+namespace MusicBrainz\Test\Support;
+
+use Psr\Http\Client\ClientInterface;
+use Psr\Http\Message\RequestInterface;
+use Psr\Http\Message\ResponseInterface;
+
+use function in_array;
+
+/**
+ * A PSR-18 decorator that records responses of a real HTTP client in a {@see FixtureStore}.
+ *
+ * Fixtures that already exist are answered from the store without a network request, unless $refresh is set. That
+ * way a recording run never asks the web service twice for the same request.
+ */
+final class RecordingHttpClient implements ClientInterface
+{
+    public int $networkRequests = 0;
+
+    /** @var array<string,true> Names of all fixtures requested so far */
+    public array $used = [];
+
+    public function __construct(
+        private readonly ClientInterface $inner,
+        private readonly FixtureStore $store,
+        private readonly bool $refresh = false,
+    ) {}
+
+    public function sendRequest(RequestInterface $request): ResponseInterface
+    {
+        $name = $this->store->nameFor($request);
+        $this->used[$name] = true;
+
+        if (!$this->refresh && $this->store->has($name)) {
+            return (new ReplayHttpClient($this->store))->sendRequest($request);
+        }
+
+        ++$this->networkRequests;
+        $response = $this->inner->sendRequest($request);
+        $body = (string) $response->getBody();
+        // Only answers that describe the API are fixtures: not server errors, and not a rejected or expired token
+        if (!in_array($response->getStatusCode(), [401, 403, 429], true) && $response->getStatusCode() < 500) {
+            $this->store->save($name, $request, $response->getStatusCode(), $body);
+        }
+
+        return $response->withBody((new \Nyholm\Psr7\Factory\Psr17Factory())->createStream($body));
+    }
+}

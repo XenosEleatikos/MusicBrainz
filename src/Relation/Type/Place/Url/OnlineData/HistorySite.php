@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Place\Url\OnlineData;
 
 use MusicBrainz\Relation\Type\Place\Url\OnlineData;
-use MusicBrainz\Value\Name;
 
 /**
  * This links to a site describing relevant details about a place's history.
@@ -17,10 +16,10 @@ class HistorySite extends OnlineData
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('history site');
+        return 'history site';
     }
 }

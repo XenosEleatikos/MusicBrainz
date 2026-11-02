@@ -2,8 +2,15 @@
 
 declare(strict_types=1);
 
-namespace src\Supplement\Lookup;
+namespace MusicBrainz\Supplement\Lookup;
 
 use MusicBrainz\Supplement\Fields;
 
-class CollectionFields extends Fields {}
+/**
+ * The inc parameters a lookup of collection accepts. The list is derived from the web service itself (see
+ * tests/Fixtures/accepted-includes.json); flags for data that needs authentication (user-tags, user-genres,
+ * user-ratings) require an access token.
+ *
+ * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
+ */
+final class CollectionFields extends Fields {}

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship;
 
 use MusicBrainz\Relation\Type\Artist\Artist\PersonalRelationship;
-use MusicBrainz\Value\Name;
 
 /**
  * This links two siblings (brothers or sisters).
@@ -17,10 +16,10 @@ class Sibling extends PersonalRelationship
     /**
      * Returns the name of the relation.
      *
-     * @return Name
+     * @return string
      */
-    public static function getRelationName(): Name
+    public static function getRelationName(): string
     {
-        return new Name('sibling');
+        return 'sibling';
     }
 }

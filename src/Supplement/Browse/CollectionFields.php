@@ -6,4 +6,11 @@ namespace MusicBrainz\Supplement\Browse;
 
 use MusicBrainz\Supplement\Fields;
 
-class CollectionFields extends Fields {}
+/**
+ * The inc parameters a browse request for collection entities accepts. The list is derived from the web service itself
+ * (see tests/Fixtures/accepted-includes.json); flags for data that needs authentication (user-tags, user-genres,
+ * user-ratings) require an access token.
+ *
+ * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
+ */
+final class CollectionFields extends Fields {}

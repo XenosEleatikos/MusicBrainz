@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Filter\Property;
 
-use AskLucy\Expression\Clause\Term;
 use MusicBrainz\Value\MBID;
 
 trait RecordingIdTrait
@@ -15,6 +14,8 @@ trait RecordingIdTrait
      * Returns the field name for the MusicBrainz ID (MBID) of a recording.
      *
      * @return string
+     *
+     * @internal
      */
     public static function recordingId(): string
     {
@@ -26,10 +27,12 @@ trait RecordingIdTrait
      *
      * @param MBID $recordingId The MusicBrainz ID (MBID) of a recording
      *
-     * @return Term
+     * @return static
      */
-    public function addRecordingId(MBID $recordingId): Term
+    public function addRecordingId(MBID $recordingId): static
     {
-        return $this->addTerm((string) $recordingId, self::recordingId());
+        $this->addTerm((string) $recordingId, self::recordingId());
+
+        return $this;
     }
 }
