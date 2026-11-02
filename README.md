@@ -255,7 +255,8 @@ methods with their filters, fields and page filter, the value objects with their
 Everything marked `@internal` (the `fromArray()` factories, the HTTP client, the helpers, the map of relationship types, the
 static methods of the filters that return Lucene field names) may change in a minor release. The class hierarchy of the
 relationship types mirrors MusicBrainz and may change in minor releases too: compare relationships by `typeId` (the
-MBID), which is stable. New cases of the enums (types, statuses, formats) may be added in minor releases. Result classes, the API classes, filters and fields classes are `final`.
+MBID), which is stable. New cases of the enums (types, statuses, formats) may be added in minor releases. Results and browse relations are immutable;
+search filters and fields (`inc` parameters) are mutable builders that you fill with chained calls. Result classes, the API classes, filters and fields classes are `final`.
 
 ## Upgrading from 1.x
 Version 2 contains breaking changes, the full list is in the [changelog](CHANGELOG.md). The most important ones:
