@@ -10,7 +10,7 @@ Known limitation: the logger is process-wide (the most recently created `MusicBr
 Planned for 2.1: an OAuth2 helper (authorization code flow, token refresh), write access (tags,
 ratings, collection items), lookups by DiscID, ISRC and ISWC, the multi-URL lookup.
 
-## [2.0.0] - unreleased
+## [2.0.0] - 2026-11-02
 
 A modernization of the library after a long break. **This release contains breaking changes**, see the migration
 guide in the README.
@@ -49,7 +49,7 @@ guide in the README.
 - The small value objects the search filters take as input (`Name`, `MBID`, `Date`, `Count`, `Country`, `LabelCode`, ...)
   are `final readonly` with a public `value` and refuse impossible values with an `InvalidArgumentException`
   (negative counts, coordinates outside the earth, an invalid IPI, ...) instead of silently turning them into nothing.
-  `Date` exposes `originalFormat` and `dateTime`; `LabelCode::withoutPrefix()` replaces
+  `Date` exposes `originalFormat`, `year`, `month`, `day` and `dateTime` (null if the year is unknown); `LabelCode::withoutPrefix()` replaces
   `getLabelCodeWithoutLcPrefix()`. The marker interfaces `Value` and `Expression` are gone.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 - The wrapper classes around single scalars that results contained (`Score`, `RatingValue`, `RatingVotes`, `JoinPhrase`, `Cancelled`,
@@ -112,12 +112,16 @@ guide in the README.
 - Relations from labels to artists, and from areas to areas, were dropped.
 - Browsing by release group sent a wrong parameter, the place search had no name field.
 - `begin-area`/`end-area`, `label-code` as integer, coordinates as strings, integer ratings are parsed.
-- The include parameters of all lookup and browse requests (browsing areas, instruments and series excepted, which needs a
-  collection and with it a token) are exactly those the web service accepts (derived from the service itself and kept in
+- The include parameters of all lookup and browse requests are exactly those the web service accepts (derived from the service itself and kept in
   sync by a test): `releases` for releases, `artists` and `release-groups` for works and
   `discids` or `media` for labels without releases were offered but rejected; the relationship includes for every pair of
   entities, `genre-rels`, and the combinations that need `releases` or `recordings` (`media`, `discids`, `isrcs`,
   `various-artists`) were missing.
+- Dates with unknown parts (`1988-??-01`, `????-05-23`, `????-??-17`) and years before the common era (`-070`), as they occur in
+  the data of MusicBrainz, are parsed instead of being dropped with a warning.
+- Values missing from the type lists: 18 medium formats, 2 area types, one label type, the gender "Non-binary" and the event
+  type "Competition"; the lists are now identical to the database of MusicBrainz (checked against the database dump, together
+  with all 697 relationship types). `Music Card` (medium format) and `Super Jewel Box/Case` (packaging) do not exist and are gone.
 - Deprecations of PHP 8.4 (implicitly nullable parameters).
 - Search fields that did not exist at MusicBrainz: places by `lat`/`long` (not `latitude`/`longitude`), areas by
   `iso1`/`iso2`/`iso3`, artists by `endarea` (was `area`), releases by `discidsmedium` (was `discids`), CD stubs by
