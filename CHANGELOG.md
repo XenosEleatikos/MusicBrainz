@@ -31,7 +31,7 @@ guide in the README.
   type the library does not know yet are kept with `type` null) in
   `$entity->relations`, a `RelationList` grouped by `->to(EntityType::Artist)`.
 - `EntityType`, `Direction` and `DataQuality` are backed enums. All other quasi-enums are value objects with a `name`,
-  an `id` (MBID) and a `kind()` returning a backed enum (`MediumFormat` (the format of a medium, 60 values), `CollectionType`, `ArtistType`/`ArtistTypeKind`, `Gender`/`GenderKind`,
+  an `id` (MBID) and a `kind()` returning a backed enum (`MediumFormat` (the format of a medium, 87 values, e.g. `DualDisc (CD side)`, `Microcassette`, `SD Card`), `CollectionType`, `ArtistType`/`ArtistTypeKind`, `Gender`/`GenderKind`,
   `ReleaseStatus`, `PrimaryReleaseType`, `SecondaryReleaseType`, `Packaging`, `AliasType`, `AreaType`, `LabelType`,
   `EventType`, `PlaceType`, `InstrumentType`, `SeriesType`, `WorkType`). A value MusicBrainz knows but the library does
   not is kept in `name` and logged as warning; `kind()` returns `null`.

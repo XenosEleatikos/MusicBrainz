@@ -71,4 +71,33 @@ enum MediumFormatKind: string
     case Vhd = 'VHD';
     case Ced = 'CED';
     case CopyControlCd = 'Copy Control CD';
+
+    // Confirmed with the web service (a search for the format returns releases with exactly this name)
+    case Acetate = 'Acetate';
+    case Acetate7 = '7" Acetate';
+    case Acetate10 = '10" Acetate';
+    case Acetate12 = '12" Acetate';
+    case BluRayR = 'Blu-ray-R';
+    case CdR8cm = '8cm CD-R';
+    case DataPlay = 'DataPlay';
+    case DownloadCard = 'Download Card';
+    case DualDiscCdSide = 'DualDisc (CD side)';
+    case DualDiscDvdSide = 'DualDisc (DVD side)';
+    case DvdPlusCdSide = 'DVDplus (CD side)';
+    case DvdPlusDvdVideoSide = 'DVDplus (DVD-Video side)';
+    case FloppyDisk = 'Floppy Disk';
+    case FloppyDisk525 = '5.25" Floppy Disk';
+    case HiPac = 'HiPac';
+    case HybridSacdCdLayer = 'Hybrid SACD (CD layer)';
+    case HybridSacdSacdLayer = 'Hybrid SACD (SACD layer)';
+    case Microcassette = 'Microcassette';
+    case MinimaxCd = 'Minimax CD';
+    case MixedModeCd = 'Mixed Mode CD';
+    case PlayTape = 'PlayTape';
+    case SdCard = 'SD Card';
+    case Tefifon = 'Tefifon';
+    case VinylDiscDvdSide = 'VinylDisc (DVD side)';
+    case VinylDiscVinylSide = 'VinylDisc (Vinyl side)';
+    case ZipDisk = 'Zip Disk';
+    case EightTrackCartridge = '8-Track Cartridge';
 }

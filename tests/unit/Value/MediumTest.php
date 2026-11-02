@@ -36,4 +36,13 @@ final class MediumTest extends TestCase
         self::assertNull($medium->pregap);
         self::assertSame([], $medium->dataTracks);
     }
+
+    public function testFormatsThatTheWebServiceDeliversTodayAreKnown(): void
+    {
+        // Names confirmed with the web service: the search for a format returns releases with exactly this name
+        foreach (['Microcassette' => MediumFormatKind::Microcassette, 'SD Card' => MediumFormatKind::SdCard, 'DualDisc (CD side)' => MediumFormatKind::DualDiscCdSide,
+            '12" Acetate' => MediumFormatKind::Acetate12, 'Hybrid SACD (CD layer)' => MediumFormatKind::HybridSacdCdLayer] as $name => $kind) {
+            self::assertSame($kind, Medium::fromArray(['format' => $name])->format?->kind(), $name);
+        }
+    }
 }
