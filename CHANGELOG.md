@@ -27,7 +27,7 @@ guide in the README.
   the response does not contain are `null` instead of empty dummy objects, lists are plain arrays, `Page` and
   `SearchResult` are generic, `Page` and `RelationList` are immutable. They are built with `X::fromArray()`; the property traits
   and the per-entity list and page classes are gone.
-- Relations are `Relation` objects (type name, id and class, direction, target entity, period, attributes, credits; those of a
+- `Relation` and `RelationList` live in `MusicBrainz\Value`, with the other results. Relations are `Relation` objects (type name, id and class, direction, target entity, period, attributes, credits; those of a
   type the library does not know yet are kept with `type` null) in
   `$entity->relations`, a `RelationList` grouped by `->to(EntityType::Artist)`.
 - `EntityType`, `Direction` and `DataQuality` are backed enums. All other quasi-enums are value objects with a `name`,

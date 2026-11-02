@@ -7,7 +7,6 @@ namespace MusicBrainz\Value;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
 use MusicBrainz\Helper\SharedFields;
-use MusicBrainz\Relation\RelationList;
 
 /**
  * A URL: a web address that entities are linked to.

@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz\Relation;
+namespace MusicBrainz\Value;
 
 use ArrayIterator;
 use Countable;
 use IteratorAggregate;
-use MusicBrainz\Relation;
-use MusicBrainz\Value\EntityType;
 use Traversable;
 
 use function array_filter;

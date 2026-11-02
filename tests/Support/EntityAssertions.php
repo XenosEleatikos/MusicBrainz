@@ -322,7 +322,7 @@ final class EntityAssertions
      *
      * @param array<int,array<string,mixed>> $json
      */
-    public static function assertRelations(\MusicBrainz\Relation\RelationList $list, array $json, string $path): void
+    public static function assertRelations(\MusicBrainz\Value\RelationList $list, array $json, string $path): void
     {
         $known = RelationTypeId::getClassMap();
         Assert::assertCount(count($json), $list->relations, "$path: no relation may get lost");
@@ -354,6 +354,9 @@ final class EntityAssertions
             Assert::assertSame($relationJson['attribute-values'] ?? [], $relation->attributeValues, $at);
             Assert::assertSame($relationJson['attribute-credits'] ?? [], $relation->attributeCredits, $at);
 
+            if (isset($relationJson['target-type'])) {
+                Assert::assertSame(str_replace('-', '_', $relationJson['target-type']), $relation->targetType->value, "$at: target-type");
+            }
             Assert::assertArrayHasKey($relation->targetType->value, $relationJson, "$at: the target is delivered under its entity type");
             self::assertMirrors($relation->target, $relation->targetType->path(), $relationJson[$relation->targetType->value], "$at.target");
         }

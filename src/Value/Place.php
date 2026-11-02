@@ -7,7 +7,6 @@ namespace MusicBrainz\Value;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
 use MusicBrainz\Helper\SharedFields;
-use MusicBrainz\Relation\RelationList;
 
 /**
  * A place: a venue, studio or other location where music is performed, recorded or released.

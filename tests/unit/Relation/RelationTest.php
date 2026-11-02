@@ -6,8 +6,8 @@ namespace MusicBrainz\Test\Relation;
 
 use MusicBrainz\Config;
 use MusicBrainz\MusicBrainz;
-use MusicBrainz\Relation;
-use MusicBrainz\Relation\RelationList;
+use MusicBrainz\Value\Relation;
+use MusicBrainz\Value\RelationList;
 use MusicBrainz\Test\Support\FakeHttpClient;
 use MusicBrainz\Value\Artist;
 use MusicBrainz\Value\EntityType;
@@ -129,5 +129,28 @@ final class RelationTest extends TestCase
     {
         self::assertNull(Relation::tryFromArray(self::memberOfBand(['artist' => []])));
         self::assertStringContainsString('there is no target', $this->logged[0]);
+    }
+
+    public function testTheTargetTypeDecidesIfThereAreSeveralTargets(): void
+    {
+        $relation = Relation::tryFromArray(self::memberOfBand([
+            'target-type' => 'artist',
+            'place' => ['id' => 'db17e312-ec0a-4d8e-b2e4-bd00a7924588', 'name' => 'Wembley Stadium'],
+        ]));
+
+        self::assertNotNull($relation);
+        self::assertSame(EntityType::Artist, $relation->targetType);
+        self::assertCount(1, $this->logged);
+        self::assertStringContainsString('more than one target', $this->logged[0]);
+    }
+
+    public function testAContradictingTargetTypeIsReported(): void
+    {
+        $relation = Relation::tryFromArray(self::memberOfBand(['target-type' => 'place']));
+
+        self::assertNotNull($relation);
+        self::assertSame(EntityType::Artist, $relation->targetType);
+        self::assertCount(1, $this->logged);
+        self::assertStringContainsString('target-type "place"', $this->logged[0]);
     }
 }

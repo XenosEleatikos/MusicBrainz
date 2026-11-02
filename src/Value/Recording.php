@@ -7,7 +7,6 @@ namespace MusicBrainz\Value;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
 use MusicBrainz\Helper\SharedFields;
-use MusicBrainz\Relation\RelationList;
 
 /**
  * A recording: a unique piece of audio, e.g. a studio take or a live performance.

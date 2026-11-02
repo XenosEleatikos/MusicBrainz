@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Helper;
 
-use MusicBrainz\Relation\RelationList;
+use MusicBrainz\Value\RelationList;
 use MusicBrainz\Value\Alias;
 use MusicBrainz\Value\Genre;
 use MusicBrainz\Value\Rating;

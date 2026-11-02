@@ -2,37 +2,24 @@
 
 declare(strict_types=1);
 
-namespace MusicBrainz;
+namespace MusicBrainz\Value;
 
 use LogicException;
 use MusicBrainz\Definition\RelationTypeId;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
+use MusicBrainz\MusicBrainz;
 use MusicBrainz\Relation\Type;
-use MusicBrainz\Value\Area;
-use MusicBrainz\Value\Artist;
-use MusicBrainz\Value\Date;
-use MusicBrainz\Value\Direction;
-use MusicBrainz\Value\Entity;
-use MusicBrainz\Value\MBID;
-use MusicBrainz\Value\EntityType;
-use MusicBrainz\Value\Event;
-use MusicBrainz\Value\Genre;
-use MusicBrainz\Value\Instrument;
-use MusicBrainz\Value\Label;
-use MusicBrainz\Value\Place;
-use MusicBrainz\Value\Recording;
-use MusicBrainz\Value\Release;
-use MusicBrainz\Value\ReleaseGroup;
-use MusicBrainz\Value\Series;
-use MusicBrainz\Value\URL;
-use MusicBrainz\Value\Work;
 
 use function array_filter;
 use function array_key_exists;
 use function array_values;
 use function is_string;
 use function is_int;
+use function array_keys;
+use function str_replace;
+use function implode;
+use function count;
 
 /**
  * A relationship between two entities, seen from the entity it was requested with: the target is the entity on the
@@ -96,22 +83,33 @@ final readonly class Relation
             MusicBrainz::log()->warning('Unknown relation type "' . $typeName . '". See: https://musicbrainz.org/relationship/' . $typeId);
         }
 
-        // The target is delivered under the key of its entity type; there is exactly one such key
-        $targetType = null;
-        $targetData = null;
+        // The target is delivered under the key of its entity type, which "target-type" names (search results have no
+        // "target-type"); the keys are looked at in the order of the entity types
+        $declared = ArrayAccess::getString($data, 'target-type');
+        $declaredType = null === $declared ? null : EntityType::tryFrom(str_replace('-', '_', $declared));
+        $candidates = [];
         foreach (EntityType::cases() as $candidateType) {
             $candidate = EntityType::Collection === $candidateType ? null : ArrayAccess::getArray($data, $candidateType->value);
             if (!empty($candidate)) {
-                $targetType = $candidateType;
-                $targetData = $candidate;
-                break;
+                $candidates[$candidateType->value] = [$candidateType, $candidate];
             }
         }
 
-        if (null === $targetType || null === $targetData) {
+        if ([] === $candidates) {
             MusicBrainz::log()->warning('Cannot resolve the relation "' . $typeName . '": there is no target. See: https://musicbrainz.org/relationship/' . $typeId);
 
             return null;
+        }
+
+        [$targetType, $targetData] = null !== $declaredType && isset($candidates[$declaredType->value])
+            ? $candidates[$declaredType->value]
+            : array_values($candidates)[0];
+
+        if (null !== $declared && $declaredType !== $targetType) {
+            MusicBrainz::log()->warning('The relation "' . $typeName . '" has the target-type "' . $declared . '", but the target is a ' . $targetType->value);
+        }
+        if (count($candidates) > 1) {
+            MusicBrainz::log()->warning('The relation "' . $typeName . '" has more than one target (' . implode(', ', array_keys($candidates)) . '); using ' . $targetType->value);
         }
 
         return new self(

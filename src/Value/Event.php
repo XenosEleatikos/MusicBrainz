@@ -7,7 +7,6 @@ namespace MusicBrainz\Value;
 use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
 use MusicBrainz\Helper\SharedFields;
-use MusicBrainz\Relation\RelationList;
 
 /**
  * An event: a concert, festival or other musical happening.

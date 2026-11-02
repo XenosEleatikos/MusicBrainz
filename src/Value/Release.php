@@ -8,7 +8,6 @@ use MusicBrainz\Helper\ArrayAccess;
 use MusicBrainz\Helper\Json;
 use MusicBrainz\Helper\SharedFields;
 use MusicBrainz\MusicBrainz;
-use MusicBrainz\Relation\RelationList;
 
 /**
  * A release: the release of a product (an album, a single, ...) in a particular form.
