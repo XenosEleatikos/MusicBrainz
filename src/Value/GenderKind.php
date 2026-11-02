@@ -13,5 +13,5 @@ enum GenderKind: string
     case Female = 'Female';
     case Other = 'Other';
     case NotApplicable = 'Not applicable';
-    case NonBinary = 'non-binary';
+    case NonBinary = 'Non-binary';
 }

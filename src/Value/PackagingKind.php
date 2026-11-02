@@ -11,7 +11,6 @@ enum PackagingKind: string
 {
     case JewelCase = 'Jewel Case';
     case SlimJewelCase = 'Slim Jewel Case';
-    case SuperJewelBoxCase = 'Super Jewel Box/Case';
     case Digipak = 'Digipak';
     case CardboardPaperSleeve = 'Cardboard/Paper Sleeve';
     case KeepCase = 'Keep Case';

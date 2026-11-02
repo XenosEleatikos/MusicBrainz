@@ -20,4 +20,5 @@ enum LabelTypeKind: string
     case Imprint = 'Imprint';
     case Manufacturer = 'Manufacturer';
     case Broadcaster = 'Broadcaster';
+    case CreativeAgency = 'Creative Agency';
 }

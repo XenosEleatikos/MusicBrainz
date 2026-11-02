@@ -16,4 +16,6 @@ enum AreaTypeKind: string
     case District = 'District';
     case Island = 'Island';
     case County = 'County';
+    case IndigenousTerritoryReserve = 'Indigenous territory / reserve';
+    case MilitaryBase = 'Military base';
 }

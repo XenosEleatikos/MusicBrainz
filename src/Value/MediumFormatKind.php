@@ -55,7 +55,6 @@ enum MediumFormatKind: string
     case DataCd = 'Data CD';
     case DtsCd = 'DTS CD';
     case Playbutton = 'Playbutton';
-    case MusicCard = 'Music Card';
     case Dvdplus = 'DVDplus';
     case Vinyldisc = 'VinylDisc';
     case FloppyDisk35 = '3.5" Floppy Disk';
@@ -111,4 +110,22 @@ enum MediumFormatKind: string
     case EightTrackCartridge = '8-Track Cartridge';
     case PhonographRecord = 'Phonograph record';
     case DataDvd = 'Data DVD';
+    case Vinyl3 = '3" Vinyl';
+    case Laserdisc8Inch = '8" LaserDisc';
+    case BetacamSp = 'Betacam SP';
+    case CdI = 'CD-i';
+    case DvdRVideo = 'DVD-R Video';
+    case DataDvdR = 'Data DVD-R';
+    case KitAlbum = 'KiT Album';
+    case MiniDvd = 'MiniDVD';
+    case MiniDvdAudio = 'MiniDVD-Audio';
+    case MiniDvdVideo = 'MiniDVD-Video';
+    case MinimaxDvd = 'Minimax DVD';
+    case MinimaxDvdAudio = 'Minimax DVD-Audio';
+    case MinimaxDvdVideo = 'Minimax DVD-Video';
+    case RomCartridge = 'ROM cartridge';
+    case SacdMultichannel = 'SACD (multichannel)';
+    case ShmSacdMultichannel = 'SHM-SACD (multichannel)';
+    case UltraHdBluRay = 'Ultra HD Blu-ray';
+    case MicroSd = 'microSD';
 }
