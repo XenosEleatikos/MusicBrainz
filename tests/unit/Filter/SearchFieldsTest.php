@@ -48,7 +48,8 @@ final class SearchFieldsTest extends TestCase
         foreach (class_uses($class) as $trait) {
             foreach ((new ReflectionClass($trait))->getMethods(ReflectionMethod::IS_STATIC | ReflectionMethod::IS_PUBLIC) as $method) {
                 if (0 === $method->getNumberOfParameters() && 'string' === (string) $method->getReturnType()) {
-                    $offered[] = (string) $method->invoke(null);
+                    // asked through the filter, so that an override in the filter class is seen
+                    $offered[] = (string) $class::{$method->name}();
                 }
             }
         }

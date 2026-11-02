@@ -46,7 +46,7 @@ final class BrowseRelationTest extends TestCase
     /**
      * The table "Linked entities" of https://musicbrainz.org/doc/MusicBrainz_API#Browse: which entity can be browsed by
      * which linked entity (the web service takes the parameter names "release-group" and "track_artist" literally).
-     * Not offered: genres (the library has no genre browse), and events by events, which the table lists.
+     * Not offered: genres (the library has no genre browse).
      *
      * @return array<string, array{string, list<string>}>
      */
@@ -56,7 +56,7 @@ final class BrowseRelationTest extends TestCase
             'area' => ['Area', ['collection']],
             'artist' => ['Artist', ['area', 'collection', 'recording', 'release', 'release-group', 'work']],
             'collection' => ['Collection', ['area', 'artist', 'editor', 'event', 'label', 'place', 'recording', 'release', 'release-group', 'work']],
-            'event' => ['Event', ['area', 'artist', 'collection', 'place']],
+            'event' => ['Event', ['area', 'artist', 'collection', 'event', 'place']],
             'instrument' => ['Instrument', ['collection']],
             'label' => ['Label', ['area', 'collection', 'release']],
             'place' => ['Place', ['area', 'collection']],

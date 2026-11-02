@@ -25,13 +25,13 @@ trait RecordingNameTrait
     /**
      * Adds the name of the recording (without accented characters).
      *
-     * @param Name $recordingNameWithoutAccents The name of the recording (without accented characters)
+     * @param Name $recordingName The name of the recording (without accented characters)
      *
      * @return static
      */
-    public function addRecordingName(Name $recordingNameWithoutAccents): static
+    public function addRecordingName(Name $recordingName): static
     {
-        $this->addPhrase((string) $recordingNameWithoutAccents, self::recordingName());
+        $this->addPhrase((string) $recordingName, self::recordingName());
 
         return $this;
     }

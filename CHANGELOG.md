@@ -63,6 +63,8 @@ guide in the README.
   of the browse relations are gone, the relation carries its `BrowseParameter` and its value.
 
 ### Added
+- Recordings can be searched by the number of tracks on any medium (`addNumberOfTracksOnAnyMedium()`, field `tracks`) and on
+  any release (`addNumberOfTracksOnAnyRelease()`, `tracksrelease`); events can be browsed by events.
 - The search filters follow one naming scheme: `add<Field>`, with `...WithAccents` for the variant that is sensitive to
   diacritics. 1.x names changed: `addArtistNameWithoutAccents()` is `addArtistName()` (likewise for events, instruments,
   labels, recordings, release groups, series, works), `addReleaseNameWithAccent()` is `addReleaseNameWithAccents()`,

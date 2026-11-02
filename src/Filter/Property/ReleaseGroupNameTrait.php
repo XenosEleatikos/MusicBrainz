@@ -25,13 +25,13 @@ trait ReleaseGroupNameTrait
     /**
      * Adds the name of the release group (without accents).
      *
-     * @param Name $releaseGroupNameWithoutAccents The name of the release group (without accents)
+     * @param Name $releaseGroupName The name of the release group (without accents)
      *
      * @return static
      */
-    public function addReleaseGroupName(Name $releaseGroupNameWithoutAccents): static
+    public function addReleaseGroupName(Name $releaseGroupName): static
     {
-        $this->addPhrase((string) $releaseGroupNameWithoutAccents, self::releaseGroupName());
+        $this->addPhrase((string) $releaseGroupName, self::releaseGroupName());
 
         return $this;
     }

@@ -24,7 +24,7 @@ final class RecordingFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\IsrcTrait;
     use \MusicBrainz\Filter\Property\LengthTrait;
     use \MusicBrainz\Filter\Property\MediumNumberTrait;
-    use \MusicBrainz\Filter\Property\NumberOfTracksOnReleaseTrait;
+    use \MusicBrainz\Filter\Property\NumberOfTracksOnAnyMediumTrait;
     use \MusicBrainz\Filter\Property\PrimaryTypeTrait;
     use \MusicBrainz\Filter\Property\QuantizedLengthTrait;
     use \MusicBrainz\Filter\Property\RecordingIdTrait;
@@ -43,23 +43,4 @@ final class RecordingFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\TrackNumberTrait;
     use \MusicBrainz\Filter\Property\VideoTrait;
 
-    /**
-     * Returns the field name for the number of tracks in the medium.
-     *
-     * @return string
-     */
-    public static function numberOfTracksOnMedium(): string
-    {
-        return 'tracks';
-    }
-
-    /**
-     * Returns the field name for the number of tracks on release as a whole.
-     *
-     * @return string
-     */
-    public static function numberOfTracksOnRelease(): string
-    {
-        return 'tracksrelease';
-    }
 }

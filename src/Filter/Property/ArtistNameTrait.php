@@ -25,13 +25,13 @@ trait ArtistNameTrait
     /**
      * Adds the artist's name (without accented characters).
      *
-     * @param Name $artistNameWithoutAccents The name of the artist (without accented characters)
+     * @param Name $artistName The name of the artist (without accented characters)
      *
      * @return static
      */
-    public function addArtistName(Name $artistNameWithoutAccents): static
+    public function addArtistName(Name $artistName): static
     {
-        $this->addPhrase((string) $artistNameWithoutAccents, self::artistName());
+        $this->addPhrase((string) $artistName, self::artistName());
 
         return $this;
     }

@@ -14,5 +14,6 @@ final readonly class EventRelation extends AbstractRelation
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\AreaTrait;
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\ArtistTrait;
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\CollectionTrait;
+    use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\EventTrait;
     use \MusicBrainz\Filter\Browse\Relation\RelatedEntity\PlaceTrait;
 }
