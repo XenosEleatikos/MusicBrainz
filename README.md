@@ -91,6 +91,47 @@ MusicBrainz and not supported.)
 $musicBrainz->config()->setAccessToken('my-oauth2-access-token');
 ```
 
+The library only sends the token. Obtaining and renewing it is up to your application:
+
+1. **Register your application** at <https://musicbrainz.org/account/applications> (client ID, client secret, redirect URI).
+2. **Request the scopes you need.** `tag`, `rating` and `collection` give access to the private tags, ratings and collections
+   of the user (reading and modifying); `profile` and `email` return profile data. There are no read-only variants.
+3. **Run the OAuth2 authorization code flow** with any OAuth2 client. The endpoints are
+   `https://musicbrainz.org/oauth2/authorize` and `https://musicbrainz.org/oauth2/token`. Pass `access_type=offline` to get a
+   refresh token.
+4. **Renew the token.** Access tokens are short-lived (about one hour), refresh tokens stay valid until the user revokes them.
+   An expired token makes a request fail with an `ApiException` (HTTP 401): refresh the token and call `setAccessToken()` again.
+
+A sketch with [league/oauth2-client](https://github.com/thephpleague/oauth2-client) (not a dependency of this library):
+
+```php
+<?php
+use League\OAuth2\Client\Provider\GenericProvider;
+
+$provider = new GenericProvider([
+    'clientId'                => 'my-client-id',
+    'clientSecret'            => 'my-client-secret',
+    'redirectUri'             => 'https://example.com/callback',
+    'urlAuthorize'            => 'https://musicbrainz.org/oauth2/authorize',
+    'urlAccessToken'          => 'https://musicbrainz.org/oauth2/token',
+    'urlResourceOwnerDetails' => 'https://musicbrainz.org/oauth2/userinfo',
+    'scopes'                  => ['collection'],
+    'scopeSeparator'          => ' ',
+]);
+
+// 1. Send the user to $provider->getAuthorizationUrl(['access_type' => 'offline'])
+// 2. On the redirect back, exchange the code:
+$token = $provider->getAccessToken('authorization_code', ['code' => $_GET['code']]);
+// Store $token->getRefreshToken(), then:
+$musicBrainz->config()->setAccessToken($token->getToken());
+
+// Later, when the access token has expired:
+$token = $provider->getAccessToken('refresh_token', ['refresh_token' => $storedRefreshToken]);
+$musicBrainz->config()->setAccessToken($token->getToken());
+```
+
+The library does not run this flow itself, and it does not refresh tokens automatically.
+
 ### Custom API Path
 By default, all requests are executed against the MusicBrainz API at
 [https://musicbrainz.org/ws/2](https://musicbrainz.org/ws/2). You can set another base path (e. g. for your own MusicBrainz

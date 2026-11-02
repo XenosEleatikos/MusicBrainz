@@ -7,8 +7,8 @@ the versioning follows [Semantic Versioning](https://semver.org/).
 
 Known limitation: the logger is process-wide (the most recently created `MusicBrainz` instance that was given a logger wins).
 
-Planned for 2.1: write access (tags, ratings, collection items), lookups by DiscID, ISRC and ISWC, the multi-URL
-lookup.
+Planned for 2.1: an OAuth2 helper (authorization code flow, token refresh), write access (tags,
+ratings, collection items), lookups by DiscID, ISRC and ISWC, the multi-URL lookup.
 
 ## [2.0.0] - unreleased
 
