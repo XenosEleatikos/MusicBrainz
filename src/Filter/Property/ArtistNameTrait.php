@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait ArtistNameWithoutAccentsTrait
+trait ArtistNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait ArtistNameWithoutAccentsTrait
      * Returns the field name for the artist's name (without accented characters).
      *
      * @return string
+     *
+     * @internal
      */
-    public static function artistNameWithoutAccent(): string
+    public static function artistName(): string
     {
         return 'artist';
     }
@@ -27,9 +29,9 @@ trait ArtistNameWithoutAccentsTrait
      *
      * @return static
      */
-    public function addArtistNameWithoutAccents(Name $artistNameWithoutAccents): static
+    public function addArtistName(Name $artistNameWithoutAccents): static
     {
-        $this->addPhrase((string) $artistNameWithoutAccents, self::artistNameWithoutAccent());
+        $this->addPhrase((string) $artistNameWithoutAccents, self::artistName());
 
         return $this;
     }

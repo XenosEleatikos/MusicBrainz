@@ -14,6 +14,8 @@ trait PlaceIdTrait
      * Returns the field name for the place ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function placeId(): string
     {

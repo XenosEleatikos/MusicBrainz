@@ -12,6 +12,8 @@ trait RelationTypeTrait
      * Returns the field name for the search of the type of a relationship the URL is in.
      *
      * @return string
+     *
+     * @internal
      */
     public static function relationType(): string
     {

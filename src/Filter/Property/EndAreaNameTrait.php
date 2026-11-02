@@ -14,6 +14,8 @@ trait EndAreaNameTrait
      * Returns the field name for the name of the ending area.
      *
      * @return string
+     *
+     * @internal
      */
     public static function endAreaName(): string
     {

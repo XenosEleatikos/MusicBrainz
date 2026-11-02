@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait SeriesNameWithoutAccentsTrait
+trait SeriesNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait SeriesNameWithoutAccentsTrait
      * Returns the field name for the search of the series' name.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function seriesNameWithoutAccents(): string
+    public static function seriesName(): string
     {
         return 'series';
     }
@@ -27,9 +29,9 @@ trait SeriesNameWithoutAccentsTrait
      *
      * @return static
      */
-    public function addSeriesNameWithoutAccents(Name $seriesName): static
+    public function addSeriesName(Name $seriesName): static
     {
-        $this->addPhrase((string) $seriesName, self::seriesNameWithoutAccents());
+        $this->addPhrase((string) $seriesName, self::seriesName());
 
         return $this;
     }

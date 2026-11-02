@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait InstrumentNameWithoutAccentsTrait
+trait InstrumentNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait InstrumentNameWithoutAccentsTrait
      * Returns the field name for the search of the instrument's name.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function instrumentNameWithoutAccents(): string
+    public static function instrumentName(): string
     {
         return 'instrument';
     }
@@ -27,9 +29,9 @@ trait InstrumentNameWithoutAccentsTrait
      *
      * @return static
      */
-    public function addInstrumentNameWithoutAccents(Name $instrumentName): static
+    public function addInstrumentName(Name $instrumentName): static
     {
-        $this->addPhrase((string) $instrumentName, self::instrumentNameWithoutAccents());
+        $this->addPhrase((string) $instrumentName, self::instrumentName());
 
         return $this;
     }

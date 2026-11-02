@@ -14,6 +14,8 @@ trait TrackNumberTrait
      * Returns the field name for the track number.
      *
      * @return string
+     *
+     * @internal
      */
     public static function trackNumber(): string
     {

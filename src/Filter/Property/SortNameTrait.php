@@ -14,6 +14,8 @@ trait SortNameTrait
      * Returns the field name for the sort name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function sortName(): string
     {
@@ -27,7 +29,7 @@ trait SortNameTrait
      *
      * @return static
      */
-    public function addSortNameWithAccents(Name $sortName): static
+    public function addSortName(Name $sortName): static
     {
         $this->addPhrase((string) $sortName, self::sortName());
 

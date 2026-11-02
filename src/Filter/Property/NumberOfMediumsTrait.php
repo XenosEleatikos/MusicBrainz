@@ -14,6 +14,8 @@ trait NumberOfMediumsTrait
      * Returns the field name for the number of mediums.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfMediums(): string
     {

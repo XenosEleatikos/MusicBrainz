@@ -12,6 +12,8 @@ trait EndedTrait
      * Returns the field name for the "ended" flag.
      *
      * @return string
+     *
+     * @internal
      */
     public static function ended(): string
     {

@@ -14,6 +14,8 @@ trait DisambiguationTrait
      * Returns the field name for the disambiguation comment.
      *
      * @return string
+     *
+     * @internal
      */
     public static function disambiguation(): string
     {
@@ -27,7 +29,7 @@ trait DisambiguationTrait
      *
      * @return static
      */
-    public function addDisambiguationComment(Disambiguation $disambiguation): static
+    public function addDisambiguation(Disambiguation $disambiguation): static
     {
         $this->addPhrase((string) $disambiguation, self::disambiguation());
 

@@ -12,6 +12,8 @@ trait VideoTrait
      * Returns the field name for the flag to only show video tracks.
      *
      * @return string
+     *
+     * @internal
      */
     public static function video(): string
     {

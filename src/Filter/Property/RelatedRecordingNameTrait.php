@@ -14,6 +14,8 @@ trait RelatedRecordingNameTrait
      * Returns the field name for the search of the title of a recording related to the work.
      *
      * @return string
+     *
+     * @internal
      */
     public static function relatedRecordingName(): string
     {

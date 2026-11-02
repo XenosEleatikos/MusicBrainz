@@ -14,6 +14,8 @@ trait InstrumentTypeTrait
      * Returns the field name for the search of the instrument's type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function instrumentType(): string
     {

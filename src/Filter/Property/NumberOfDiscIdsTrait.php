@@ -14,6 +14,8 @@ trait NumberOfDiscIdsTrait
      * Returns the field name for the number of disc IDs.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfDiscIds(): string
     {

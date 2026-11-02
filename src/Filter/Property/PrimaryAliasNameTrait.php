@@ -14,6 +14,8 @@ trait PrimaryAliasNameTrait
      * Returns the field name for the search of any primary alias attached to the artist.
      *
      * @return string
+     *
+     * @internal
      */
     public static function primaryAliasName(): string
     {

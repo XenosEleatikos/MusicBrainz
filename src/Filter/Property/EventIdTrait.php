@@ -14,6 +14,8 @@ trait EventIdTrait
      * Returns the field name for the search of the MBID of the event.
      *
      * @return string
+     *
+     * @internal
      */
     public static function eventId(): string
     {

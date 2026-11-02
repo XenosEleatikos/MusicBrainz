@@ -14,6 +14,8 @@ trait NumberOfDiscIdsOnMediumTrait
      * Returns the field name for the number of disc IDs on a medium.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfDiscIdsOnMedium(): string
     {

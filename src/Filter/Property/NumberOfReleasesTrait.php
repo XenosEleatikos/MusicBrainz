@@ -14,6 +14,8 @@ trait NumberOfReleasesTrait
      * Returns the field name for the number of releases.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfReleases(): string
     {

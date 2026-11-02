@@ -14,6 +14,8 @@ trait ReleaseFormatTrait
      * Returns the field name for the format of a medium of the release.
      *
      * @return string
+     *
+     * @internal
      */
     public static function format(): string
     {

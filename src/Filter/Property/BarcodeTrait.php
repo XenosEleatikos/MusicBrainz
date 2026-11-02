@@ -14,6 +14,8 @@ trait BarcodeTrait
      * Returns the field name for the barcode.
      *
      * @return string
+     *
+     * @internal
      */
     public static function barcode(): string
     {

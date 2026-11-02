@@ -14,6 +14,8 @@ trait UrlIdTrait
      * Returns the field name for the search of the URL's MBID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function urlId(): string
     {

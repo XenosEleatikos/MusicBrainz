@@ -14,6 +14,8 @@ trait EventNameWithAccentsTrait
      * Returns the field name for the search of the event's name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function eventNameWithAccents(): string
     {

@@ -14,6 +14,8 @@ trait AreaNameWithAccentsTrait
      * Returns the field name for the search of the area's name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function areaNameWithAccents(): string
     {

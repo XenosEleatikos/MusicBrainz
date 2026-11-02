@@ -14,6 +14,8 @@ trait AnnotationTextTrait
      * Returns the field name for the annotation text.
      *
      * @return string
+     *
+     * @internal
      */
     public static function annotationText(): string
     {

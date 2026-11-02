@@ -14,6 +14,8 @@ trait GenderTrait
      * Returns the field name for the gender.
      *
      * @return string
+     *
+     * @internal
      */
     public static function gender(): string
     {

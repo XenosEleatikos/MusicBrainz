@@ -14,6 +14,8 @@ trait PrimaryTypeTrait
      * Returns the field name for the primary release type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function primaryType(): string
     {

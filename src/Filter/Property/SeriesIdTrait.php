@@ -14,6 +14,8 @@ trait SeriesIdTrait
      * Returns the field name for the search of the series' MBID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function seriesId(): string
     {

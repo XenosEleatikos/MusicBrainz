@@ -14,6 +14,8 @@ trait AnnotationIdTrait
      * Returns the field name for the search of the numeric ID of the annotation.
      *
      * @return string
+     *
+     * @internal
      */
     public static function annotationId(): string
     {

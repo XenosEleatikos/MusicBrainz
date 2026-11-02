@@ -14,6 +14,8 @@ trait AddressTrait
      * Returns the field name for the address.
      *
      * @return string
+     *
+     * @internal
      */
     public static function address(): string
     {

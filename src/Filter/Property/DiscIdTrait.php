@@ -14,6 +14,8 @@ trait DiscIdTrait
      * Returns the field name for the disc ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function discId(): string
     {

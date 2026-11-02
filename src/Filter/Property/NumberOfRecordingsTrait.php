@@ -14,6 +14,8 @@ trait NumberOfRecordingsTrait
      * Returns the field name for the search of the number of recordings related to the work.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfRecordings(): string
     {

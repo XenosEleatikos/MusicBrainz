@@ -14,6 +14,8 @@ trait TrackIdTrait
      * Returns the field name for the MusicBrainz ID (MBID) of a track.
      *
      * @return string
+     *
+     * @internal
      */
     public static function trackId(): string
     {

@@ -14,6 +14,8 @@ trait SeriesNameWithAccentsTrait
      * Returns the field name for the search of the series' name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function seriesNameWithAccents(): string
     {

@@ -30,7 +30,7 @@ final class SearchFilterTest extends TestCase
     public function testReleaseSearchFields(): void
     {
         $filter = new ReleaseFilter();
-        $filter->addASIN(new ASIN('B000003Z4N'));
+        $filter->addAsin(new ASIN('B000003Z4N'));
         $filter->addCatalogNumber(new CatalogNumber('PCS 7088'));
 
         self::assertSame('asin:B000003Z4N AND catno:"PCS 7088"', (string) $filter);
@@ -73,7 +73,7 @@ final class SearchFilterTest extends TestCase
     {
         $filter = new ReleaseFilter();
 
-        $result = $filter->addASIN(new ASIN('B000003Z4N'))->addCatalogNumber(new CatalogNumber('PCS 7088'));
+        $result = $filter->addAsin(new ASIN('B000003Z4N'))->addCatalogNumber(new CatalogNumber('PCS 7088'));
 
         self::assertSame($filter, $result);
         self::assertSame('asin:B000003Z4N AND catno:"PCS 7088"', (string) $filter);

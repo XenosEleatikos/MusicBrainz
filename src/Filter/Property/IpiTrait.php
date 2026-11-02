@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\IPI;
 
-trait IpiCodeTrait
+trait IpiTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait IpiCodeTrait
      * Returns the field name for the IPI (interested party information) code.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function ipiCode(): string
+    public static function ipi(): string
     {
         return 'ipi';
     }
@@ -23,13 +25,13 @@ trait IpiCodeTrait
     /**
      * Adds an IPI (interested party information) code.
      *
-     * @param IPI $ipiCode An IPI (interested party information) code
+     * @param IPI $ipi An IPI (interested party information) code
      *
      * @return static
      */
-    public function addIpiCode(IPI $ipiCode): static
+    public function addIpi(IPI $ipi): static
     {
-        $this->addTerm((string) $ipiCode, self::ipiCode());
+        $this->addTerm((string) $ipi, self::ipi());
 
         return $this;
     }

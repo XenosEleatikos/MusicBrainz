@@ -14,6 +14,8 @@ trait LabelNameWithAccentsTrait
      * Returns the field name for the label's name (with accented characters).
      *
      * @return string
+     *
+     * @internal
      */
     public static function labelNameWithAccents(): string
     {

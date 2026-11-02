@@ -14,6 +14,8 @@ trait LengthTrait
      * Returns the field name for the length.
      *
      * @return string
+     *
+     * @internal
      */
     public static function length(): string
     {

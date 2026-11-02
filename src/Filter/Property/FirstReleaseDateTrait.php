@@ -14,6 +14,8 @@ trait FirstReleaseDateTrait
      * Returns the field name for the search of the release date of the earliest release including this recording or in this release group.
      *
      * @return string
+     *
+     * @internal
      */
     public static function firstReleaseDate(): string
     {

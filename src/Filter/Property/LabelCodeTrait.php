@@ -14,6 +14,8 @@ trait LabelCodeTrait
      * Returns the field name for the Label Code (LC).
      *
      * @return string
+     *
+     * @internal
      */
     public static function labelCode(): string
     {

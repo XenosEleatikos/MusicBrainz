@@ -14,6 +14,8 @@ trait InstrumentDescriptionTrait
      * Returns the field name for the search of the description of the instrument.
      *
      * @return string
+     *
+     * @internal
      */
     public static function instrumentDescription(): string
     {

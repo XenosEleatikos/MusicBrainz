@@ -14,6 +14,8 @@ trait TagNameTrait
      * Returns the field name for the tag name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function tagName(): string
     {

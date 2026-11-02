@@ -14,7 +14,7 @@ final class RecordingFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\NumberOfTracksOnAnyReleaseTrait;
     use \MusicBrainz\Filter\Property\FirstReleaseDateTrait;
     use \MusicBrainz\Filter\Property\AliasNameTrait;
-    use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ArtistNameTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
     use \MusicBrainz\Filter\Property\ArtistRealNameTrait;
     use \MusicBrainz\Filter\Property\CountryTrait;
@@ -29,12 +29,12 @@ final class RecordingFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\QuantizedLengthTrait;
     use \MusicBrainz\Filter\Property\RecordingIdTrait;
     use \MusicBrainz\Filter\Property\RecordingNameWithAccentsTrait;
-    use \MusicBrainz\Filter\Property\RecordingNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\RecordingNameTrait;
     use \MusicBrainz\Filter\Property\ReleaseFormatTrait;
     use \MusicBrainz\Filter\Property\ReleaseGroupIdTrait;
     use \MusicBrainz\Filter\Property\ReleaseGroupTypeTrait;
     use \MusicBrainz\Filter\Property\ReleaseIdTrait;
-    use \MusicBrainz\Filter\Property\ReleaseNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ReleaseNameTrait;
     use \MusicBrainz\Filter\Property\ReleaseStatusTrait;
     use \MusicBrainz\Filter\Property\SecondaryTypeTrait;
     use \MusicBrainz\Filter\Property\TagNameTrait;

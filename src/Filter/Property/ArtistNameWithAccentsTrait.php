@@ -14,8 +14,10 @@ trait ArtistNameWithAccentsTrait
      * Returns the field name for the artist's name (with accented characters).
      *
      * @return string
+     *
+     * @internal
      */
-    public static function artistNameWithAccent(): string
+    public static function artistNameWithAccents(): string
     {
         return 'artistaccent';
     }
@@ -29,7 +31,7 @@ trait ArtistNameWithAccentsTrait
      */
     public function addArtistNameWithAccents(Name $artistNameWithAccents): static
     {
-        $this->addPhrase((string) $artistNameWithAccents, self::artistNameWithAccent());
+        $this->addPhrase((string) $artistNameWithAccents, self::artistNameWithAccents());
 
         return $this;
     }

@@ -14,6 +14,8 @@ trait Iso31661CodeTrait
      * Returns the field name for the ISO 3166-1 code.
      *
      * @return string
+     *
+     * @internal
      */
     public static function iso31661Code(): string
     {

@@ -14,6 +14,8 @@ trait TitleTrait
      * Returns the field name for the title.
      *
      * @return string
+     *
+     * @internal
      */
     public static function title(): string
     {
@@ -27,7 +29,7 @@ trait TitleTrait
      *
      * @return static
      */
-    public function addTitleComment(Title $title): static
+    public function addTitle(Title $title): static
     {
         $this->addPhrase((string) $title, self::title());
 

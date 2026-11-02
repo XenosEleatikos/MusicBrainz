@@ -14,6 +14,8 @@ trait PackagingTrait
      * Returns the field name for the search of the packaging of the release.
      *
      * @return string
+     *
+     * @internal
      */
     public static function packaging(): string
     {

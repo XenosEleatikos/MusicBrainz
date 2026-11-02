@@ -54,6 +54,12 @@ guide in the README.
 - Unused list classes were removed (`ArtistList`, `AreaList`, `WorkList`, ...).
 
 ### Added
+- The search filters follow one naming scheme: `add<Field>`, with `...WithAccents` for the variant that is sensitive to
+  diacritics. 1.x names changed: `addArtistNameWithoutAccents()` is `addArtistName()` (likewise for events, instruments,
+  labels, recordings, release groups, series, works), `addReleaseNameWithAccent()` is `addReleaseNameWithAccents()`,
+  `addASIN()` is `addAsin()`, `addDisambiguationComment()` is `addDisambiguation()`, `addTitleComment()` is `addTitle()`,
+  `addIsrcCode()`/`addIsniCode()`/`addIpiCode()` are `addIsrc()`/`addIsni()`/`addIpi()`, `addSortNameWithAccents()` is
+  `addSortName()` (it always searched `sortname`). The static methods that return the field names are `@internal`.
 - `Config` refuses a user agent or token that cannot be an HTTP header value; MBIDs are normalized to lower case and must not
   carry trailing characters; a lookup whose answer is no entity (no `id`) is a `ResponseException`; a relation list that is an
   object instead of a list no longer crashes the parser.

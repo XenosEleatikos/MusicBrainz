@@ -14,6 +14,8 @@ trait ReleaseStatusTrait
      * Returns the field name for the release status.
      *
      * @return string
+     *
+     * @internal
      */
     public static function releaseStatus(): string
     {

@@ -12,6 +12,8 @@ trait UrlDescendentTrait
      * Returns the field name for the search of the actual URL string, but also returns any descendant paths.
      *
      * @return string
+     *
+     * @internal
      */
     public static function urlDescendent(): string
     {

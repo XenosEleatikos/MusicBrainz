@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait ReleaseGroupNameWithoutAccentsTrait
+trait ReleaseGroupNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait ReleaseGroupNameWithoutAccentsTrait
      * Returns the field name for the name of the release group (without accents).
      *
      * @return string
+     *
+     * @internal
      */
-    public static function releaseGroupNameWithoutAccent(): string
+    public static function releaseGroupName(): string
     {
         return 'releasegroup';
     }
@@ -27,9 +29,9 @@ trait ReleaseGroupNameWithoutAccentsTrait
      *
      * @return static
      */
-    public function addReleaseGroupNameWithoutAccents(Name $releaseGroupNameWithoutAccents): static
+    public function addReleaseGroupName(Name $releaseGroupNameWithoutAccents): static
     {
-        $this->addPhrase((string) $releaseGroupNameWithoutAccents, self::releaseGroupNameWithoutAccent());
+        $this->addPhrase((string) $releaseGroupNameWithoutAccents, self::releaseGroupName());
 
         return $this;
     }

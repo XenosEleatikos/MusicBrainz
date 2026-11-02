@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait EventNameWithoutAccentsTrait
+trait EventNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait EventNameWithoutAccentsTrait
      * Returns the field name for the search of the event's name.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function eventNameWithoutAccents(): string
+    public static function eventName(): string
     {
         return 'event';
     }
@@ -27,9 +29,9 @@ trait EventNameWithoutAccentsTrait
      *
      * @return static
      */
-    public function addEventNameWithoutAccents(Name $eventName): static
+    public function addEventName(Name $eventName): static
     {
-        $this->addPhrase((string) $eventName, self::eventNameWithoutAccents());
+        $this->addPhrase((string) $eventName, self::eventName());
 
         return $this;
     }

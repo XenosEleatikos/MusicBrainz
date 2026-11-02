@@ -14,6 +14,8 @@ trait DataQualityTrait
      * Returns the field name for the data quality.
      *
      * @return string
+     *
+     * @internal
      */
     public static function dataQuality(): string
     {

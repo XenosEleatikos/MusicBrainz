@@ -15,7 +15,7 @@ final class SeriesFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\DisambiguationTrait;
     use \MusicBrainz\Filter\Property\SeriesIdTrait;
     use \MusicBrainz\Filter\Property\SeriesNameWithAccentsTrait;
-    use \MusicBrainz\Filter\Property\SeriesNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\SeriesNameTrait;
     use \MusicBrainz\Filter\Property\SeriesTypeTrait;
     use \MusicBrainz\Filter\Property\TagNameTrait;
 }

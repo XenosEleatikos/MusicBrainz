@@ -14,6 +14,8 @@ trait InstrumentNameWithAccentsTrait
      * Returns the field name for the search of the instrument's name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function instrumentNameWithAccents(): string
     {

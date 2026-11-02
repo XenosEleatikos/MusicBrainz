@@ -14,6 +14,8 @@ trait DateAddedTrait
      * Returns the field name for the search of the date the CD stub was added.
      *
      * @return string
+     *
+     * @internal
      */
     public static function dateAdded(): string
     {

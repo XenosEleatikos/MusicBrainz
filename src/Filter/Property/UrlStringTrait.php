@@ -12,6 +12,8 @@ trait UrlStringTrait
      * Returns the field name for the search of the actual URL string.
      *
      * @return string
+     *
+     * @internal
      */
     public static function urlString(): string
     {

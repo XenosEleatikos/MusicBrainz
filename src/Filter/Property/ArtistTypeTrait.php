@@ -14,6 +14,8 @@ trait ArtistTypeTrait
      * Returns the field name for the type of artist.
      *
      * @return string
+     *
+     * @internal
      */
     public static function artistType(): string
     {

@@ -14,6 +14,8 @@ trait ScriptTrait
      * Returns the field name for the script.
      *
      * @return string
+     *
+     * @internal
      */
     public static function script(): string
     {

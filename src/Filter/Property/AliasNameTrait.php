@@ -14,6 +14,8 @@ trait AliasNameTrait
      * Returns the field name for the alias name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function aliasName(): string
     {

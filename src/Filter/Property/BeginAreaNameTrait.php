@@ -14,6 +14,8 @@ trait BeginAreaNameTrait
      * Returns the field name for the name of the beginning area.
      *
      * @return string
+     *
+     * @internal
      */
     public static function beginAreaName(): string
     {

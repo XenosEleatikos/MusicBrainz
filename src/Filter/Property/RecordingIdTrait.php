@@ -14,6 +14,8 @@ trait RecordingIdTrait
      * Returns the field name for the MusicBrainz ID (MBID) of a recording.
      *
      * @return string
+     *
+     * @internal
      */
     public static function recordingId(): string
     {

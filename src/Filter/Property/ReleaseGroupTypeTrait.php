@@ -15,6 +15,8 @@ trait ReleaseGroupTypeTrait
      * Returns the field name for the type of the release group.
      *
      * @return string
+     *
+     * @internal
      */
     public static function releaseGroupType(): string
     {

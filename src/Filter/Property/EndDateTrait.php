@@ -14,6 +14,8 @@ trait EndDateTrait
      * Returns the field name for the ending date.
      *
      * @return string
+     *
+     * @internal
      */
     public static function endDate(): string
     {

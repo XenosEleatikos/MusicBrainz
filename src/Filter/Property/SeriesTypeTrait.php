@@ -14,6 +14,8 @@ trait SeriesTypeTrait
      * Returns the field name for the search of the series' type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function seriesType(): string
     {

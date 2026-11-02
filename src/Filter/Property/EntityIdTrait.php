@@ -14,6 +14,8 @@ trait EntityIdTrait
      * Returns the field name for the entity ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function entityId(): string
     {

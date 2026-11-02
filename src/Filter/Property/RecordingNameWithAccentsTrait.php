@@ -14,8 +14,10 @@ trait RecordingNameWithAccentsTrait
      * Returns the field name for the name of the recording (with accented characters).
      *
      * @return string
+     *
+     * @internal
      */
-    public static function recordingNameWithAccent(): string
+    public static function recordingNameWithAccents(): string
     {
         return 'recordingaccent';
     }
@@ -29,7 +31,7 @@ trait RecordingNameWithAccentsTrait
      */
     public function addRecordingNameWithAccents(Name $recordingNameWithAccents): static
     {
-        $this->addPhrase((string) $recordingNameWithAccents, self::recordingNameWithAccent());
+        $this->addPhrase((string) $recordingNameWithAccents, self::recordingNameWithAccents());
 
         return $this;
     }

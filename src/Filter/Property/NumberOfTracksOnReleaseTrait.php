@@ -14,6 +14,8 @@ trait NumberOfTracksOnReleaseTrait
      * Returns the field name for the number of tracks on release as a whole.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfTracksOnRelease(): string
     {

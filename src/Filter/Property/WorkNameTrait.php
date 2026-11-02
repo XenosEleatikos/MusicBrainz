@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait WorkNameWithoutAccentsTrait
+trait WorkNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait WorkNameWithoutAccentsTrait
      * Returns the field name for the name of the work.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function workNameWithoutAccents(): string
+    public static function workName(): string
     {
         return 'work';
     }
@@ -23,13 +25,13 @@ trait WorkNameWithoutAccentsTrait
     /**
      * Adds the name of the work.
      *
-     * @param Name $workNameWithoutAccents The name of the work
+     * @param Name $workName The name of the work
      *
      * @return static
      */
-    public function addWorkNameWithoutAccents(Name $workNameWithoutAccents): static
+    public function addWorkName(Name $workName): static
     {
-        $this->addPhrase((string) $workNameWithoutAccents, self::workNameWithoutAccents());
+        $this->addPhrase((string) $workName, self::workName());
 
         return $this;
     }

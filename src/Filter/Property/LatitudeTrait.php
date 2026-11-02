@@ -14,6 +14,8 @@ trait LatitudeTrait
      * Returns the field name for the latitude.
      *
      * @return string
+     *
+     * @internal
      */
     public static function latitude(): string
     {

@@ -12,6 +12,8 @@ trait UrlAncestorTrait
      * Returns the field name for the search of the actual URL string, but also returns any ancestor paths.
      *
      * @return string
+     *
+     * @internal
      */
     public static function urlAncestor(): string
     {

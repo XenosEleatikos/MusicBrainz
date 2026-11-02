@@ -14,6 +14,8 @@ trait IswcTrait
      * Returns the field name for the International Standard Musical Work Code (ISWC).
      *
      * @return string
+     *
+     * @internal
      */
     public static function iswc(): string
     {

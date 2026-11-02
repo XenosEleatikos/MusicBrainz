@@ -14,6 +14,8 @@ trait LongitudeTrait
      * Returns the field name for the longitude.
      *
      * @return string
+     *
+     * @internal
      */
     public static function longitude(): string
     {

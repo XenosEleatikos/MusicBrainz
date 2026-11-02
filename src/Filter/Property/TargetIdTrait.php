@@ -14,6 +14,8 @@ trait TargetIdTrait
      * Returns the field name for the search of the MBID of an entity related to the URL.
      *
      * @return string
+     *
+     * @internal
      */
     public static function targetId(): string
     {

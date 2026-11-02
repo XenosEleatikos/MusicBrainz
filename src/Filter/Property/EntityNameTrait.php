@@ -14,6 +14,8 @@ trait EntityNameTrait
      * Returns the field name for the entity name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function entityName(): string
     {

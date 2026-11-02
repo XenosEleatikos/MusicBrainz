@@ -14,6 +14,8 @@ trait ReleaseGroupIdTrait
      * Returns the field name for the release group.
      *
      * @return string
+     *
+     * @internal
      */
     public static function releaseGroupId(): string
     {

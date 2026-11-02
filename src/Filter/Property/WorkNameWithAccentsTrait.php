@@ -14,6 +14,8 @@ trait WorkNameWithAccentsTrait
      * Returns the field name for the name of the work.
      *
      * @return string
+     *
+     * @internal
      */
     public static function workNameWithAccents(): string
     {

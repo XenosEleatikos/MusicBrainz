@@ -14,6 +14,8 @@ trait LanguageTrait
      * Returns the field name for the language.
      *
      * @return string
+     *
+     * @internal
      */
     public static function language(): string
     {

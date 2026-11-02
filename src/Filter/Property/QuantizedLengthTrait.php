@@ -14,6 +14,8 @@ trait QuantizedLengthTrait
      * Returns the field name for the quantized length (length / 2000).
      *
      * @return string
+     *
+     * @internal
      */
     public static function quantizedLength(): string
     {

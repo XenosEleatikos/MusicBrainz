@@ -14,6 +14,8 @@ trait AsinTrait
      * Returns the field name for the ASIN.
      *
      * @return string
+     *
+     * @internal
      */
     public static function asin(): string
     {
@@ -27,7 +29,7 @@ trait AsinTrait
      *
      * @return static
      */
-    public function addASIN(ASIN $asin): static
+    public function addAsin(ASIN $asin): static
     {
         $this->addTerm((string) $asin, self::asin());
 

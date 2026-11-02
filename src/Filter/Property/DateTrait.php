@@ -14,6 +14,8 @@ trait DateTrait
      * Returns the field name for the date.
      *
      * @return string
+     *
+     * @internal
      */
     public static function date(): string
     {

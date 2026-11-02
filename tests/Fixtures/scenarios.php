@@ -124,13 +124,13 @@ $scenarios['browse/label/by-area-germany']            = static fn(MusicBrainz $m
 // ---------------------------------------------------------------------------------------------------- search
 $scenarios['search/artist/beatles'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new ArtistFilter();
-    $filter->addArtistNameWithoutAccents(new Name('The Beatles'));
+    $filter->addArtistName(new Name('The Beatles'));
 
     return $mb->api()->search()->artist($filter, $page(5));
 };
 $scenarios['search/artist/bjork-accents'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new ArtistFilter();
-    $filter->addArtistNameWithoutAccents(new Name('Björk'));
+    $filter->addArtistName(new Name('Björk'));
 
     return $mb->api()->search()->artist($filter, $page(5));
 };
@@ -142,7 +142,7 @@ $scenarios['search/area/london'] = static function (MusicBrainz $mb) use ($page)
 };
 $scenarios['search/label/parlophone'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new LabelFilter();
-    $filter->addLabelNameWithoutAccents(new Name('Parlophone'));
+    $filter->addLabelName(new Name('Parlophone'));
 
     return $mb->api()->search()->label($filter, $page(5));
 };
@@ -154,19 +154,19 @@ $scenarios['search/release/abbey-road'] = static function (MusicBrainz $mb) use 
 };
 $scenarios['search/release-group/ok-computer'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new ReleaseGroupFilter();
-    $filter->addReleaseGroupNameWithoutAccents(new Name('OK Computer'));
+    $filter->addReleaseGroupName(new Name('OK Computer'));
 
     return $mb->api()->search()->releaseGroup($filter, $page(5));
 };
 $scenarios['search/recording/bohemian-rhapsody'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new RecordingFilter();
-    $filter->addRecordingNameWithoutAccents(new Name('Bohemian Rhapsody'));
+    $filter->addRecordingName(new Name('Bohemian Rhapsody'));
 
     return $mb->api()->search()->recording($filter, $page(5));
 };
 $scenarios['search/work/bohemian-rhapsody'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new WorkFilter();
-    $filter->addWorkNameWithoutAccents(new Name('Bohemian Rhapsody'));
+    $filter->addWorkName(new Name('Bohemian Rhapsody'));
 
     return $mb->api()->search()->work($filter, $page(5));
 };
@@ -190,19 +190,19 @@ $scenarios['search/place/abbey-road'] = static function (MusicBrainz $mb) use ($
 };
 $scenarios['search/event/live-aid'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new EventFilter();
-    $filter->addEventNameWithoutAccents(new Name('Live Aid'));
+    $filter->addEventName(new Name('Live Aid'));
 
     return $mb->api()->search()->event($filter, $page(5));
 };
 $scenarios['search/instrument/piano'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new InstrumentFilter();
-    $filter->addInstrumentNameWithoutAccents(new Name('piano'));
+    $filter->addInstrumentName(new Name('piano'));
 
     return $mb->api()->search()->instrument($filter, $page(5));
 };
 $scenarios['search/series/beethoven'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new SeriesFilter();
-    $filter->addSeriesNameWithoutAccents(new Name('Beethoven'));
+    $filter->addSeriesName(new Name('Beethoven'));
 
     return $mb->api()->search()->series($filter, $page(5));
 };
@@ -214,7 +214,7 @@ $scenarios['search/url/wikidata-beatles'] = static function (MusicBrainz $mb) us
 };
 $scenarios['search/release/by-asin'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new ReleaseFilter();
-    $filter->addASIN(new ASIN('B000003Z4N'));
+    $filter->addAsin(new ASIN('B000003Z4N'));
 
     return $mb->api()->search()->release($filter, $page(5));
 };
@@ -232,7 +232,7 @@ $scenarios['search/annotation/beatles'] = static function (MusicBrainz $mb) use 
 };
 $scenarios['search/cdstub/abbey-road'] = static function (MusicBrainz $mb) use ($page) {
     $filter = new CdStubFilter();
-    $filter->addTitleComment(new Title('Abbey Road'));
+    $filter->addTitle(new Title('Abbey Road'));
 
     return $mb->api()->search()->cdStub($filter, $page(5));
 };

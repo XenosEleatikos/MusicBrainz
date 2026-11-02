@@ -14,6 +14,8 @@ trait ArtistRealNameTrait
      * Returns the field name for the “real name” of an artist.
      *
      * @return string
+     *
+     * @internal
      */
     public static function artistRealName(): string
     {

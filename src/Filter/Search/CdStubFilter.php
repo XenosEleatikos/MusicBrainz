@@ -12,7 +12,7 @@ namespace MusicBrainz\Filter\Search;
 final class CdStubFilter extends AbstractFilter
 {
     use \MusicBrainz\Filter\Property\DateAddedTrait;
-    use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ArtistNameTrait;
     use \MusicBrainz\Filter\Property\BarcodeTrait;
     use \MusicBrainz\Filter\Property\DisambiguationTrait;
     use \MusicBrainz\Filter\Property\DiscIdTrait;

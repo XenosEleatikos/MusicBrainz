@@ -14,6 +14,8 @@ trait NumberOfTracksOnMediumTrait
      * Returns the field name for the number of tracks in the medium.
      *
      * @return string
+     *
+     * @internal
      */
     public static function numberOfTracksOnMedium(): string
     {

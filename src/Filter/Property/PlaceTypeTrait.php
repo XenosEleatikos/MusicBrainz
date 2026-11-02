@@ -14,6 +14,8 @@ trait PlaceTypeTrait
      * Returns the field name for the type of place.
      *
      * @return string
+     *
+     * @internal
      */
     public static function placeType(): string
     {

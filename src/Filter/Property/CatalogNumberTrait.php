@@ -14,6 +14,8 @@ trait CatalogNumberTrait
      * Returns the field name for the catalog number.
      *
      * @return string
+     *
+     * @internal
      */
     public static function catalogNumber(): string
     {

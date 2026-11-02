@@ -14,8 +14,10 @@ trait IsrcTrait
      * Returns the field name for the International Standard Recording Code (ISRC) of the recording.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function isrcCode(): string
+    public static function isrc(): string
     {
         return 'isrc';
     }
@@ -23,13 +25,13 @@ trait IsrcTrait
     /**
      * Adds the International Standard Recording Code (ISRC) of the recording.
      *
-     * @param ISRC $isrcCode The International Standard Recording Code (ISRC) of the recording
+     * @param ISRC $isrc The International Standard Recording Code (ISRC) of the recording
      *
      * @return static
      */
-    public function addIsrcCode(ISRC $isrcCode): static
+    public function addIsrc(ISRC $isrc): static
     {
-        $this->addTerm((string) $isrcCode, self::isrcCode());
+        $this->addTerm((string) $isrc, self::isrc());
 
         return $this;
     }

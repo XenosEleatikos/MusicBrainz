@@ -14,6 +14,8 @@ trait ReleaseIdTrait
      * Returns the field name for the release ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function releaseId(): string
     {

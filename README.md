@@ -124,7 +124,7 @@ use MusicBrainz\Filter\Search\ArtistFilter;
 use MusicBrainz\Filter\Value\Name;
 
 $artistFilter = new ArtistFilter;
-$artistFilter->addArtistNameWithoutAccents(new Name('Tom Waits'));
+$artistFilter->addArtistName(new Name('Tom Waits'));
 $pageFilter = new PageFilter(0, 1);
 
 $artistList = $musicBrainz->api()->search()->artist($artistFilter, $pageFilter);
@@ -251,8 +251,10 @@ input such as an MBID that is no UUID; it is a bug in the calling code and not a
 ## Stability
 The public API is what this readme describes: the `MusicBrainz` entry point and its `Config`, the lookup, browse and search
 methods with their filters, fields and page filter, the value objects with their public properties, and the exceptions.
-Everything marked `@internal` (the `fromArray()` factories, the HTTP client, the helpers, the map of relationship types) may
-change in a minor release. Result classes, the API classes, filters and fields classes are `final`.
+Everything marked `@internal` (the `fromArray()` factories, the HTTP client, the helpers, the map of relationship types, the
+static methods of the filters that return Lucene field names) may change in a minor release. The class hierarchy of the
+relationship types mirrors MusicBrainz and may change in minor releases too: compare relationships by `typeId` (the
+MBID), which is stable. New cases of the enums (types, statuses, formats) may be added in minor releases. Result classes, the API classes, filters and fields classes are `final`.
 
 ## Upgrading from 1.x
 Version 2 contains breaking changes, the full list is in the [changelog](CHANGELOG.md). The most important ones:

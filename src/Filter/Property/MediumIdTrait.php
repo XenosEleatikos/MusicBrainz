@@ -14,6 +14,8 @@ trait MediumIdTrait
      * Returns the field name for the search of the MBID of any of the mediums in the release.
      *
      * @return string
+     *
+     * @internal
      */
     public static function mediumId(): string
     {

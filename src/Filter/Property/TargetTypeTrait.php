@@ -14,6 +14,8 @@ trait TargetTypeTrait
      * Returns the field name for the search of an entity type related to the URL.
      *
      * @return string
+     *
+     * @internal
      */
     public static function targetType(): string
     {

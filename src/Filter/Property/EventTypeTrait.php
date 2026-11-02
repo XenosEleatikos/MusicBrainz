@@ -14,6 +14,8 @@ trait EventTypeTrait
      * Returns the field name for the search of the event's type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function eventType(): string
     {

@@ -14,6 +14,8 @@ trait BeginDateTrait
      * Returns the field name for the beginning date.
      *
      * @return string
+     *
+     * @internal
      */
     public static function beginDate(): string
     {

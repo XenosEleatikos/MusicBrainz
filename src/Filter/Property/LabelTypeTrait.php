@@ -14,6 +14,8 @@ trait LabelTypeTrait
      * Returns the field name for the type of label.
      *
      * @return string
+     *
+     * @internal
      */
     public static function labelType(): string
     {

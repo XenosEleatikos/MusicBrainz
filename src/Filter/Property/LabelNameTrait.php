@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\Name;
 
-trait LabelNameWithoutAccentsTrait
+trait LabelNameTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait LabelNameWithoutAccentsTrait
      * Returns the field name for the label's name (without accented characters).
      *
      * @return string
+     *
+     * @internal
      */
-    public static function labelNameWithoutAccents(): string
+    public static function labelName(): string
     {
         return 'label';
     }
@@ -23,13 +25,13 @@ trait LabelNameWithoutAccentsTrait
     /**
      * Adds the label's name (without accented characters).
      *
-     * @param Name $labelNameWithoutAccents The label's name (without accented characters)
+     * @param Name $labelName The label's name (without accented characters)
      *
      * @return static
      */
-    public function addLabelNameWithoutAccents(Name $labelNameWithoutAccents): static
+    public function addLabelName(Name $labelName): static
     {
-        $this->addPhrase((string) $labelNameWithoutAccents, self::labelNameWithoutAccents());
+        $this->addPhrase((string) $labelName, self::labelName());
 
         return $this;
     }

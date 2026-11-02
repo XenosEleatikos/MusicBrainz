@@ -14,6 +14,8 @@ trait AreaIdTrait
      * Returns the field name for the area ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function areaId(): string
     {

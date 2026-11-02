@@ -14,6 +14,8 @@ trait InstrumentIdTrait
      * Returns the field name for the search of the MBID of the instrument.
      *
      * @return string
+     *
+     * @internal
      */
     public static function instrumentId(): string
     {

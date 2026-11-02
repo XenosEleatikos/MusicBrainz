@@ -14,6 +14,8 @@ trait LabelIdTrait
      * Returns the field name for the label ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function labelId(): string
     {

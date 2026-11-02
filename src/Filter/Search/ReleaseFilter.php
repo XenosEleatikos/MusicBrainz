@@ -18,7 +18,7 @@ final class ReleaseFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\CatalogNumberTrait;
     use \MusicBrainz\Filter\Property\AsinTrait;
     use \MusicBrainz\Filter\Property\ArtistIdTrait;
-    use \MusicBrainz\Filter\Property\ArtistNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ArtistNameTrait;
     use \MusicBrainz\Filter\Property\ArtistRealNameTrait;
     use \MusicBrainz\Filter\Property\BarcodeTrait;
     use \MusicBrainz\Filter\Property\CountryTrait;
@@ -27,7 +27,7 @@ final class ReleaseFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\DateTrait;
     use \MusicBrainz\Filter\Property\DisambiguationTrait;
     use \MusicBrainz\Filter\Property\LabelIdTrait;
-    use \MusicBrainz\Filter\Property\LabelNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\LabelNameTrait;
     use \MusicBrainz\Filter\Property\LanguageTrait;
     use \MusicBrainz\Filter\Property\NumberOfDiscIdsOnMediumTrait;
     use \MusicBrainz\Filter\Property\NumberOfDiscIdsTrait;
@@ -39,7 +39,7 @@ final class ReleaseFilter extends AbstractFilter
     use \MusicBrainz\Filter\Property\ReleaseGroupIdTrait;
     use \MusicBrainz\Filter\Property\ReleaseIdTrait;
     use \MusicBrainz\Filter\Property\ReleaseNameWithAccentsTrait;
-    use \MusicBrainz\Filter\Property\ReleaseNameWithoutAccentsTrait;
+    use \MusicBrainz\Filter\Property\ReleaseNameTrait;
     use \MusicBrainz\Filter\Property\ReleaseStatusTrait;
     use \MusicBrainz\Filter\Property\ScriptTrait;
     use \MusicBrainz\Filter\Property\SecondaryTypeTrait;

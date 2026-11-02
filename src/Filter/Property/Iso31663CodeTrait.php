@@ -14,6 +14,8 @@ trait Iso31663CodeTrait
      * Returns the field name for the ISO 3166-3 code.
      *
      * @return string
+     *
+     * @internal
      */
     public static function iso31663Code(): string
     {

@@ -14,6 +14,8 @@ trait WorkIdTrait
      * Returns the field name for the work ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function workId(): string
     {

@@ -14,6 +14,8 @@ trait CreditNameTrait
      * Returns the field name for the credit name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function creditName(): string
     {

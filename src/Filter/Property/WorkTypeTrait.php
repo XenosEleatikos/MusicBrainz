@@ -14,6 +14,8 @@ trait WorkTypeTrait
      * Returns the field name for the type of work.
      *
      * @return string
+     *
+     * @internal
      */
     public static function workType(): string
     {

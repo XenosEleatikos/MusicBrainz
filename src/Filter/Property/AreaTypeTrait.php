@@ -14,6 +14,8 @@ trait AreaTypeTrait
      * Returns the field name for the area type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function areaType(): string
     {

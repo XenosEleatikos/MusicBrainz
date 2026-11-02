@@ -14,6 +14,8 @@ trait MediumNumberTrait
      * Returns the field name for the medium number.
      *
      * @return string
+     *
+     * @internal
      */
     public static function mediumNumber(): string
     {

@@ -14,6 +14,8 @@ trait PlaceNameWithAccentsTrait
      * Returns the field name for the search of the place's name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function placeNameWithAccents(): string
     {

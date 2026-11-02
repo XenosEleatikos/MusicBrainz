@@ -14,6 +14,8 @@ trait ReleaseCountTrait
      * Returns the field name for the search of the amount of releases related to the label.
      *
      * @return string
+     *
+     * @internal
      */
     public static function releaseCount(): string
     {

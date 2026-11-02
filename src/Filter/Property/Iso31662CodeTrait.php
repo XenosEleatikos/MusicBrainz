@@ -14,6 +14,8 @@ trait Iso31662CodeTrait
      * Returns the field name for the ISO 3166-2 code.
      *
      * @return string
+     *
+     * @internal
      */
     public static function iso31662Code(): string
     {

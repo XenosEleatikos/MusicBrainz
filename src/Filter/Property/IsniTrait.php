@@ -6,7 +6,7 @@ namespace MusicBrainz\Filter\Property;
 
 use MusicBrainz\Filter\Value\ISNI;
 
-trait IsniCodeTrait
+trait IsniTrait
 {
     use AbstractAdderTrait;
 
@@ -14,8 +14,10 @@ trait IsniCodeTrait
      * Returns the field name for the search of an ISNI code associated with the entity.
      *
      * @return string
+     *
+     * @internal
      */
-    public static function isniCode(): string
+    public static function isni(): string
     {
         return 'isni';
     }
@@ -27,9 +29,9 @@ trait IsniCodeTrait
      *
      * @return static
      */
-    public function addIsniCode(ISNI $isni): static
+    public function addIsni(ISNI $isni): static
     {
-        $this->addTerm((string) $isni, self::isniCode());
+        $this->addTerm((string) $isni, self::isni());
 
         return $this;
     }

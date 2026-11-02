@@ -14,6 +14,8 @@ trait SecondaryTypeTrait
      * Returns the field name for the secondary release type.
      *
      * @return string
+     *
+     * @internal
      */
     public static function secondaryType(): string
     {

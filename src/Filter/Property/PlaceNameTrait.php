@@ -14,6 +14,8 @@ trait PlaceNameTrait
      * Returns the field name for the place name.
      *
      * @return string
+     *
+     * @internal
      */
     public static function placeName(): string
     {

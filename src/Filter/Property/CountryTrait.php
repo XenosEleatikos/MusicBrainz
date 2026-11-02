@@ -14,6 +14,8 @@ trait CountryTrait
      * Returns the field name for the country.
      *
      * @return string
+     *
+     * @internal
      */
     public static function country(): string
     {

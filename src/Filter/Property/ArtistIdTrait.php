@@ -14,6 +14,8 @@ trait ArtistIdTrait
      * Returns the field name for the artist ID.
      *
      * @return string
+     *
+     * @internal
      */
     public static function artistId(): string
     {
