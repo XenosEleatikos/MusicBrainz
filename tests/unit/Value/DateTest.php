@@ -40,7 +40,7 @@ final class DateTest extends TestCase
      */
     public static function validDates(): array
     {
-        return ['full date' => ['1969-09-26', 'Y-m-d'], 'month' => ['1969-09', 'Y-m'], 'year' => ['1969', 'Y']];
+        return ['full date' => ['1969-09-26', 'Y-m-d'], 'month' => ['1969-09', 'Y-m'], 'year' => ['1969', 'Y'], 'unknown month' => ['1988-??-01', 'Y-??-d']];
     }
 
     #[DataProvider('validDates')]
@@ -58,7 +58,7 @@ final class DateTest extends TestCase
      */
     public static function invalidDates(): array
     {
-        return ['empty' => [''], 'zero' => ['0'], 'unknown format' => ['26.09.1969'], 'month 13' => ['1969-13'], 'february 30' => ['1969-02-30']];
+        return ['empty' => [''], 'zero' => ['0'], 'unknown format' => ['26.09.1969'], 'month 13' => ['1969-13'], 'february 30' => ['1969-02-30'], 'unknown month, day 32' => ['1969-??-32'], 'unknown month without day' => ['1969-??'], 'unknown year' => ['????-05-01']];
     }
 
     #[DataProvider('invalidDates')]

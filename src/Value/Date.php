@@ -14,16 +14,17 @@ use function preg_match;
 /**
  * A date as MusicBrainz knows it: a year, a year and a month, or a full date. The precision is kept.
  *
- * Supported formats are "YYYY", "YYYY-MM" and "YYYY-MM-DD". Anything else, and impossible dates such as "2017-02-30",
- * are refused.
+ * Supported formats are "YYYY", "YYYY-MM", "YYYY-MM-DD" and "YYYY-??-DD" (the day is known, the month is not). Anything
+ * else, and impossible dates such as "2017-02-30", are refused.
  */
 final readonly class Date implements Stringable
 {
     /**
-     * The format of the given date ("Y", "Y-m" or "Y-m-d").
+     * The format of the given date ("Y", "Y-m", "Y-m-d" or "Y-??-d").
      *
      * This is necessary to interpret the date time correctly: it always points to an exact point of time, and will be
-     * 2017-01-01 at 00:00 if constructed by "2017", which means "sometime in 2017".
+     * 2017-01-01 at 00:00 if constructed by "2017", which means "sometime in 2017". If the month is unknown ("2017-??-05")
+     * it is January.
      */
     public string $originalFormat;
 
@@ -39,12 +40,15 @@ final readonly class Date implements Stringable
     {
         $format = match (true) {
             1 === preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/', $value) => 'Y-m-d',
+            1 === preg_match('/^[0-9]{4}-\?\?-(0[1-9]|[1-2][0-9]|3[0-1])$/', $value) => 'Y-??-d',
             1 === preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])$/', $value) => 'Y-m',
             1 === preg_match('/^[0-9]{4}$/', $value) => 'Y',
             default => throw new InvalidArgumentException('"' . $value . '" is not a date (YYYY, YYYY-MM or YYYY-MM-DD)'),
         };
-        $dateTime = DateTimeImmutable::createFromFormat('!' . $format, $value);
-        if (false === $dateTime || $dateTime->format($format) !== $value) {
+        $dateTime = 'Y-??-d' === $format
+            ? DateTimeImmutable::createFromFormat('!Y-m-d', str_replace('??', '01', $value))
+            : DateTimeImmutable::createFromFormat('!' . $format, $value);
+        if (false === $dateTime || $dateTime->format('Y-??-d' === $format ? 'Y-\\?\\?-d' : $format) !== $value) {
             throw new InvalidArgumentException('"' . $value . '" is not a possible date');
         }
 
