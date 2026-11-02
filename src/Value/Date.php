@@ -9,27 +9,43 @@ use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\MusicBrainz;
 use Stringable;
 
+use function in_array;
 use function preg_match;
+use function sprintf;
 
 /**
- * A date as MusicBrainz knows it: a year, a year and a month, or a full date. The precision is kept.
+ * A date as MusicBrainz knows it: a year, a year and a month, or a full date. The precision is kept. Parts may be unknown,
+ * which MusicBrainz writes as question marks.
  *
- * Supported formats are "YYYY", "YYYY-MM", "YYYY-MM-DD" and "YYYY-??-DD" (the day is known, the month is not). Anything
- * else, and impossible dates such as "2017-02-30", are refused.
+ * Supported are "YYYY", "YYYY-MM", "YYYY-MM-DD" and the forms with unknown parts: "YYYY-??-DD" (day known, month unknown),
+ * "????-MM" and "????-MM-DD" (year unknown) and "????-??-DD" (only the day is known). Anything else, and impossible
+ * dates such as "2017-02-30", are refused.
  */
 final readonly class Date implements Stringable
 {
     /**
-     * The format of the given date ("Y", "Y-m", "Y-m-d" or "Y-??-d").
-     *
-     * This is necessary to interpret the date time correctly: it always points to an exact point of time, and will be
-     * 2017-01-01 at 00:00 if constructed by "2017", which means "sometime in 2017". If the month is unknown ("2017-??-05")
-     * it is January.
+     * The format of the given date: "Y", "Y-m", "Y-m-d", or with unknown parts "Y-??-d", "????-m", "????-m-d" and
+     * "????-??-d".
      */
     public string $originalFormat;
 
-    /** The first moment of the period the date names */
-    public DateTimeImmutable $dateTime;
+    /** The year, null if it is unknown */
+    public ?int $year;
+
+    /** The month, null if it is unknown or not given */
+    public ?int $month;
+
+    /** The day, null if it is unknown or not given */
+    public ?int $day;
+
+    /**
+     * The first moment of the period the date names, or null if the year is unknown.
+     *
+     * This is necessary to interpret the date time correctly: it always points to an exact point of time, and will be
+     * 2017-01-01 at 00:00 if constructed by "2017", which means "sometime in 2017". If the month is unknown
+     * ("2017-??-05") it is January.
+     */
+    public ?DateTimeImmutable $dateTime;
 
     /**
      * @param string $value A date in one of the supported formats
@@ -38,22 +54,48 @@ final readonly class Date implements Stringable
      */
     public function __construct(public string $value)
     {
-        $format = match (true) {
-            1 === preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$/', $value) => 'Y-m-d',
-            1 === preg_match('/^[0-9]{4}-\?\?-(0[1-9]|[1-2][0-9]|3[0-1])$/', $value) => 'Y-??-d',
-            1 === preg_match('/^[0-9]{4}-(0[1-9]|1[0-2])$/', $value) => 'Y-m',
-            1 === preg_match('/^[0-9]{4}$/', $value) => 'Y',
-            default => throw new InvalidArgumentException('"' . $value . '" is not a date (YYYY, YYYY-MM or YYYY-MM-DD)'),
-        };
-        $dateTime = 'Y-??-d' === $format
-            ? DateTimeImmutable::createFromFormat('!Y-m-d', str_replace('??', '01', $value))
-            : DateTimeImmutable::createFromFormat('!' . $format, $value);
-        if (false === $dateTime || $dateTime->format('Y-??-d' === $format ? 'Y-\\?\\?-d' : $format) !== $value) {
+        if (1 !== preg_match('/^([0-9]{4}|\?{4})(?:-([0-9]{2}|\?\?)(?:-([0-9]{2}))?)?$/', $value, $match)) {
+            throw new InvalidArgumentException('"' . $value . '" is not a date (YYYY, YYYY-MM or YYYY-MM-DD, parts may be unknown: ?)');
+        }
+        $year = '????' === $match[1] ? null : (int) $match[1];
+        $monthGiven = isset($match[2]);
+        $month = !$monthGiven || '??' === $match[2] ? null : (int) $match[2];
+        $day = isset($match[3]) ? (int) $match[3] : null;
+
+        // "????" and "????-??" tell nothing; an unknown month needs a day, as it would be a plain year otherwise
+        if (null === $year && null === $month && null === $day) {
+            throw new InvalidArgumentException('"' . $value . '" is not a date: nothing of it is known');
+        }
+        if ($monthGiven && null === $month && null === $day) {
+            throw new InvalidArgumentException('"' . $value . '" is not a date: an unknown month needs a known day');
+        }
+        if (null !== $month && ($month < 1 || $month > 12)) {
             throw new InvalidArgumentException('"' . $value . '" is not a possible date');
         }
+        if (null !== $day) {
+            // Without a year a leap year is assumed, without a month the longest month
+            $longest = null === $month ? 31 : self::daysInMonth($month, $year ?? 2000);
+            if ($day < 1 || $day > $longest) {
+                throw new InvalidArgumentException('"' . $value . '" is not a possible date');
+            }
+        }
 
-        $this->originalFormat = $format;
-        $this->dateTime = $dateTime;
+        $this->originalFormat = (null === $year ? '????' : 'Y')
+            . ($monthGiven ? '-' . (null === $month ? '??' : 'm') : '')
+            . (null !== $day ? '-d' : '');
+        $this->year = $year;
+        $this->month = $month;
+        $this->day = $day;
+        $this->dateTime = null === $year ? null : new DateTimeImmutable(sprintf('%04d-%02d-%02d', $year, $month ?? 1, $day ?? 1));
+    }
+
+    private static function daysInMonth(int $month, int $year): int
+    {
+        if (2 === $month) {
+            return (0 === $year % 4 && 0 !== $year % 100) || 0 === $year % 400 ? 29 : 28;
+        }
+
+        return in_array($month, [4, 6, 9, 11], true) ? 30 : 31;
     }
 
     /**
