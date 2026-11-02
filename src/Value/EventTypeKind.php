@@ -16,4 +16,5 @@ enum EventTypeKind: string
     case ConventionExpo = 'Convention/Expo';
     case AwardCeremony = 'Award ceremony';
     case StagePerformance = 'Stage performance';
+    case Competition = 'Competition';
 }
