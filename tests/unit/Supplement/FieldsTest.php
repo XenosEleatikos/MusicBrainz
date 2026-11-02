@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace MusicBrainz\Test\Supplement;
 
+use MusicBrainz\Supplement\Browse\ReleaseFields as BrowseReleaseFields;
 use MusicBrainz\Supplement\Fields;
+use MusicBrainz\Supplement\Lookup\ArtistFields;
+use MusicBrainz\Supplement\Lookup\ReleaseFields;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -13,6 +16,7 @@ use function array_keys;
 use function array_map;
 use function array_unique;
 use function array_values;
+use function explode;
 use function file_get_contents;
 use function get_class_methods;
 use function json_decode;
@@ -75,10 +79,20 @@ final class FieldsTest extends TestCase
             if (str_starts_with($method, 'include')) {
                 $fields = new $class();
                 $fields->$method();
-                $flags[] = (string) $fields;
+                // A flag that needs another parameter brings it along: the flag itself is the first one
+                $flags[] = explode('+', (string) $fields)[0];
             }
         }
 
         return array_values(array_unique(array_map(static fn(string $flag): string => $flag, $flags)));
+    }
+
+    public function testAParameterThatNeedsAnotherOneBringsItAlong(): void
+    {
+        self::assertSame('media+releases', (string) (new ArtistFields())->includeMedia());
+        self::assertSame('releases+media', (string) (new ArtistFields())->includeReleases()->includeMedia());
+        self::assertSame('isrcs+recordings', (string) (new ReleaseFields())->includeIsrcs());
+        self::assertSame('isrcs+recordings', (string) (new BrowseReleaseFields())->includeIsrcs());
+        self::assertSame('tags', (string) (new ArtistFields())->includeTags());
     }
 }

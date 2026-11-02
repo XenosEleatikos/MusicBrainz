@@ -21,7 +21,7 @@ use MusicBrainz\Value\Tag;
 use MusicBrainz\Value\Work;
 use MusicBrainz\Value\Page;
 use MusicBrainz\Config;
-use MusicBrainz\Exception;
+use MusicBrainz\ExceptionInterface;
 use MusicBrainz\InvalidArgumentException;
 use MusicBrainz\Filter\PageFilter;
 use MusicBrainz\Filter\Search\AbstractFilter;
@@ -86,7 +86,7 @@ final class Search
      *
      * @return Page<SearchResult<Annotation>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function annotation(AnnotationFilter $annotationFilter, PageFilter $pageFilter): Page
     {
@@ -104,7 +104,7 @@ final class Search
      *
      * @return Page<SearchResult<Area>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function area(AreaFilter $areaFilter, PageFilter $pageFilter): Page
     {
@@ -122,7 +122,7 @@ final class Search
      *
      * @return Page<SearchResult<Artist>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function artist(ArtistFilter $artistFilter, PageFilter $pageFilter): Page
     {
@@ -140,7 +140,7 @@ final class Search
      *
      * @return Page<SearchResult<CdStub>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function cdStub(CdStubFilter $cdStubFilter, PageFilter $pageFilter): Page
     {
@@ -158,7 +158,7 @@ final class Search
      *
      * @return Page<SearchResult<Event>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function event(EventFilter $eventFilter, PageFilter $pageFilter): Page
     {
@@ -176,7 +176,7 @@ final class Search
      *
      * @return Page<SearchResult<Instrument>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function instrument(InstrumentFilter $instrumentFilter, PageFilter $pageFilter): Page
     {
@@ -194,7 +194,7 @@ final class Search
      *
      * @return Page<SearchResult<Series>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function series(SeriesFilter $seriesFilter, PageFilter $pageFilter): Page
     {
@@ -212,7 +212,7 @@ final class Search
      *
      * @return Page<SearchResult<URL>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function url(UrlFilter $urlFilter, PageFilter $pageFilter): Page
     {
@@ -230,7 +230,7 @@ final class Search
      *
      * @return Page<SearchResult<Label>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function label(LabelFilter $labelFilter, PageFilter $pageFilter): Page
     {
@@ -248,7 +248,7 @@ final class Search
      *
      * @return Page<SearchResult<Place>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function place(PlaceFilter $placeFilter, PageFilter $pageFilter): Page
     {
@@ -266,7 +266,7 @@ final class Search
      *
      * @return Page<SearchResult<Recording>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function recording(RecordingFilter $recordingFilter, PageFilter $pageFilter): Page
     {
@@ -284,7 +284,7 @@ final class Search
      *
      * @return Page<SearchResult<Release>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function release(ReleaseFilter $releaseFilter, PageFilter $pageFilter): Page
     {
@@ -302,7 +302,7 @@ final class Search
      *
      * @return Page<SearchResult<ReleaseGroup>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function releaseGroup(ReleaseGroupFilter $releaseGroupFilter, PageFilter $pageFilter): Page
     {
@@ -320,7 +320,7 @@ final class Search
      *
      * @return Page<SearchResult<Tag>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function tag(TagFilter $tagFilter, PageFilter $pageFilter): Page
     {
@@ -338,7 +338,7 @@ final class Search
      *
      * @return Page<SearchResult<Work>>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     public function work(WorkFilter $workFilter, PageFilter $pageFilter): Page
     {
@@ -356,7 +356,7 @@ final class Search
      *
      * @return array<string, mixed>
      *
-     * @throws Exception
+     * @throws ExceptionInterface
      */
     private function getParameters(AbstractFilter $searchFilter, PageFilter $pageFilter): array
     {

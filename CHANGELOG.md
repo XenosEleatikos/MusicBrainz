@@ -5,7 +5,7 @@ the versioning follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-Known limitation: the logger is process-wide (the most recently created `MusicBrainz` instance wins).
+Known limitation: the logger is process-wide (the most recently created `MusicBrainz` instance that was given a logger wins).
 
 Planned for 2.1: write access (tags, ratings, collection items), lookups by DiscID, ISRC and ISWC, the multi-URL
 lookup.
@@ -101,8 +101,9 @@ guide in the README.
 - Relations from labels to artists, and from areas to areas, were dropped.
 - Browsing by release group sent a wrong parameter, the place search had no name field.
 - `begin-area`/`end-area`, `label-code` as integer, coordinates as strings, integer ratings are parsed.
-- The include parameters of all lookup and browse requests are exactly those the web service accepts (derived from the
-  service itself and kept in sync by a test): `releases` for releases, `artists` and `release-groups` for works and
+- The include parameters of all lookup and browse requests (browsing areas, instruments and series excepted, which needs a
+  collection and with it a token) are exactly those the web service accepts (derived from the service itself and kept in
+  sync by a test): `releases` for releases, `artists` and `release-groups` for works and
   `discids` or `media` for labels without releases were offered but rejected; the relationship includes for every pair of
   entities, `genre-rels`, and the combinations that need `releases` or `recordings` (`media`, `discids`, `isrcs`,
   `various-artists`) were missing.

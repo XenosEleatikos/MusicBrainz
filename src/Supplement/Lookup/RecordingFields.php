@@ -7,9 +7,8 @@ namespace MusicBrainz\Supplement\Lookup;
 use MusicBrainz\Supplement\Fields;
 
 /**
- * The inc parameters a lookup of recording accepts. The list is derived from the web service itself (see tests/Fixtures/accepted-includes.json). Some parameters (media,
- * discids, isrcs, various-artists) only work together with releases or recordings. The flags for data that needs
- * authentication (user-tags, user-genres, user-ratings) require an access token.
+ * The inc parameters a lookup of recording accepts. The list is derived from the web service itself (see tests/Fixtures/accepted-includes.json). discids, media only work together with releases; the required parameter is added automatically. The flags for
+ * data that needs authentication (user-tags, user-genres, user-ratings) require an access token.
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */
@@ -44,4 +43,6 @@ final class RecordingFields extends Fields
     use \MusicBrainz\Supplement\Field\Relation\SeriesRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\UrlRelationsTrait;
     use \MusicBrainz\Supplement\Field\Relation\WorkRelationsTrait;
+
+    protected const REQUIRES = ['discids' => 'releases', 'media' => 'releases'];
 }

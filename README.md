@@ -236,7 +236,8 @@ foreach ($artist->relations?->to(EntityType::Artist) ?? [] as $relation) {
 ```
 
 ### Errors
-Everything the library throws on purpose implements `MusicBrainz\ExceptionInterface`:
+Everything the library throws on purpose about requests and input implements `MusicBrainz\ExceptionInterface`. (Only misuse of
+read-only objects, such as writing to a `Page`, throws an SPL `LogicException` or `OutOfRangeException`.)
 
 - `MusicBrainz\ApiException`: the web service answered with an HTTP error; the code is the HTTP status (404 for an unknown
   MBID, 401 for a missing or invalid token). Responses with HTTP 503 are retried automatically, see
@@ -293,6 +294,9 @@ This library stands on the shoulders of others, and I am grateful for their work
   and **papposilene** contributed fixes and features between 2012 and 2019.
 - **Roland Dalmulder** added relationship types and fixes in 2023.
 
+Until April 2013 the project was licensed under the GPL version 2; Mike Almond changed the license to MIT then, and it has
+been MIT since.
+
 Since 2017 the library is maintained by **Christoph Hochholzer**. Version 2.0 is a complete rewrite, but it builds on what
-the people above made, and the history of this repository keeps their contributions (and their copyright notice, see
-[LICENSE.md](LICENSE.md)).
+the people above made, and the history of this repository keeps their contributions (the license file keeps the copyright notice of Mike Almond,
+see [LICENSE.md](LICENSE.md)).

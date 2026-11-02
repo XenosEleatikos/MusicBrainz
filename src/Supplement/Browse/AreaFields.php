@@ -7,9 +7,9 @@ namespace MusicBrainz\Supplement\Browse;
 use MusicBrainz\Supplement\Fields;
 
 /**
- * The inc parameters a browse request for area entities accepts. The list is derived from the web service itself (see
- * tests/Fixtures/accepted-includes.json); flags for data that needs authentication (user-tags, user-genres,
- * user-ratings) require an access token.
+ * The inc parameters a browse request for area entities accepts. The list was not verified against the web service: browsing these entities
+ * needs a collection, and collections need an access token. The flags for data that needs authentication (user-tags,
+ * user-genres, user-ratings) require an access token.
  *
  * @see https://musicbrainz.org/doc/MusicBrainz_API#inc.3D
  */

@@ -165,7 +165,7 @@ final class Lookup
     /**
      * Looks up a place and returns the result.
      *
-     * @param MBID        $mbid        A MusicBrainz Identifier (MBID) of a label
+     * @param MBID        $mbid        A MusicBrainz Identifier (MBID) of a place
      * @param PlaceFields $placeFields List of fields to be included in the response
      *
      * @return Place
@@ -223,9 +223,9 @@ final class Lookup
     }
 
     /**
-     * Looks up an URL and returns the result.
+     * Looks up a URL and returns the result.
      *
-     * @param MBID         $mbid         A MusicBrainz Identifier (MBID) of a release
+     * @param MBID         $mbid         A MusicBrainz Identifier (MBID) of a series
      * @param SeriesFields $seriesFields List of fields to be included in the response
      *
      * @return Series
@@ -238,9 +238,9 @@ final class Lookup
     }
 
     /**
-     * Looks up an URL and returns the result.
+     * Looks up a URL and returns the result.
      *
-     * @param MBID         $mbid          A MusicBrainz Identifier (MBID) of a release
+     * @param MBID         $mbid          A MusicBrainz Identifier (MBID) of a URL
      * @param UrlFields $urlFields List of fields to be included in the response
      *
      * @return URL
