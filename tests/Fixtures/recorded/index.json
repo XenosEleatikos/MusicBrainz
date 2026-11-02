@@ -36,10 +36,10 @@
         "recorded": "2026-11-01T18:48:29+00:00",
         "slimmed": true
     },
-    "area/list__collection=abde7cff-3493-4c98-bc4a-1647f216331d_inc=aliases+annotation+genres+ta-3ec16f0a.json": {
-        "url": "https://musicbrainz.org/ws/2/area?collection=abde7cff-3493-4c98-bc4a-1647f216331d&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Btags%2Buser-genres%2Buser-tags%2Barea-rels%2Bevent-rels%2Binstrument-rels%2Brecording-rels%2Brelease-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
+    "area/list__collection=c4ab4659-5500-4440-88a1-989f98741ad9_inc=aliases+annotation+tags+user-7f467bb3.json": {
+        "url": "https://musicbrainz.org/ws/2/area?collection=c4ab4659-5500-4440-88a1-989f98741ad9&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Btags%2Buser-tags%2Bgenres%2Buser-genres%2Bratings%2Buser-ratings%2Barea-rels%2Bartist-rels%2Bevent-rels%2Bgenre-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
         "status": 200,
-        "recorded": "2026-11-01T17:05:55+00:00"
+        "recorded": "2026-11-02T11:44:48+00:00"
     },
     "area/list__limit=5_offset=0_query=area_London_-0840856c.json": {
         "url": "https://musicbrainz.org/ws/2/area/?limit=5&offset=0&fmt=json&query=area%3A%22London%22",
@@ -193,7 +193,7 @@
     "collection/list__editor=example-user_limit=10_offset=0-4a5ad49f.json": {
         "url": "https://musicbrainz.org/ws/2/collection?editor=example-user&limit=10&offset=0&fmt=json",
         "status": 200,
-        "recorded": "2026-11-01T17:09:36+00:00"
+        "recorded": "2026-11-02T11:44:46+00:00"
     },
     "event/8e0ff16a-757f-4e16-9877-4c4131621a8b__inc=-339bf5ca.json": {
         "url": "https://musicbrainz.org/ws/2/event/8e0ff16a-757f-4e16-9877-4c4131621a8b?inc=&fmt=json",
@@ -245,10 +245,10 @@
         "recorded": "2026-11-01T18:49:21+00:00",
         "slimmed": true
     },
-    "instrument/list__collection=8e72551b-040d-49d5-afb5-70d37928de0a_inc=aliases+annotation+genres+ta-f864719e.json": {
-        "url": "https://musicbrainz.org/ws/2/instrument?collection=8e72551b-040d-49d5-afb5-70d37928de0a&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Btags%2Buser-genres%2Buser-tags",
+    "instrument/list__collection=c064b35f-1bef-4641-bd9b-710ee884b268_inc=aliases+annotation+tags+user-cb155c13.json": {
+        "url": "https://musicbrainz.org/ws/2/instrument?collection=c064b35f-1bef-4641-bd9b-710ee884b268&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Btags%2Buser-tags%2Bgenres%2Buser-genres%2Barea-rels%2Bartist-rels%2Bevent-rels%2Bgenre-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
         "status": 200,
-        "recorded": "2026-11-01T17:06:03+00:00"
+        "recorded": "2026-11-02T11:44:49+00:00"
     },
     "instrument/list__limit=5_offset=0_query=instrument_piano_-b56efd43.json": {
         "url": "https://musicbrainz.org/ws/2/instrument/?limit=5&offset=0&fmt=json&query=instrument%3A%22piano%22",
@@ -514,10 +514,10 @@
         "status": 200,
         "recorded": "2026-11-01T18:49:59+00:00"
     },
-    "series/list__collection=29b2933b-7282-4fc1-a03c-f4ca57855938_inc=aliases+annotation+genres+ta-386458b2.json": {
-        "url": "https://musicbrainz.org/ws/2/series?collection=29b2933b-7282-4fc1-a03c-f4ca57855938&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Bgenres%2Btags%2Buser-genres%2Buser-tags",
+    "series/list__collection=6e98c169-8368-472d-8df8-a7d64c7e0abb_inc=aliases+annotation+tags+user-f3afdc9f.json": {
+        "url": "https://musicbrainz.org/ws/2/series?collection=6e98c169-8368-472d-8df8-a7d64c7e0abb&limit=10&offset=0&fmt=json&inc=aliases%2Bannotation%2Btags%2Buser-tags%2Bgenres%2Buser-genres%2Barea-rels%2Bartist-rels%2Bevent-rels%2Bgenre-rels%2Binstrument-rels%2Blabel-rels%2Bplace-rels%2Brecording-rels%2Brelease-rels%2Brelease-group-rels%2Bseries-rels%2Burl-rels%2Bwork-rels",
         "status": 200,
-        "recorded": "2026-11-01T17:06:05+00:00"
+        "recorded": "2026-11-02T11:47:47+00:00"
     },
     "series/list__limit=5_offset=0_query=series_Beethoven_-a52a5807.json": {
         "url": "https://musicbrainz.org/ws/2/series/?limit=5&offset=0&fmt=json&query=series%3A%22Beethoven%22",

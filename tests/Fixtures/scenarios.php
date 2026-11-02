@@ -257,9 +257,9 @@ $scenarios['auth/browse/collection/by-editor'] = static function (MusicBrainz $m
     return $mb->api()->browse()->collection(CollectionRelation::editor($editor), $page(10));
 };
 // Collections created for these tests (type area, instrument, series); the area and instrument collections are empty
-$scenarios['auth/browse/area/by-collection']       = static fn(MusicBrainz $mb) => $mb->api()->browse()->area($relation(AreaRelation::class, 'collection', 'abde7cff-3493-4c98-bc4a-1647f216331d'), $withUser(new Browse\AreaFields()), $page(10));
-$scenarios['auth/browse/instrument/by-collection'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->instrument($relation(InstrumentRelation::class, 'collection', '8e72551b-040d-49d5-afb5-70d37928de0a'), $withUser(new Browse\InstrumentFields()), $page(10));
-$scenarios['auth/browse/series/by-collection']     = static fn(MusicBrainz $mb) => $mb->api()->browse()->series($relation(SeriesRelation::class, 'collection', '29b2933b-7282-4fc1-a03c-f4ca57855938'), $withUser(new Browse\SeriesFields()), $page(10));
+$scenarios['auth/browse/area/by-collection']       = static fn(MusicBrainz $mb) => $mb->api()->browse()->area($relation(AreaRelation::class, 'collection', 'c4ab4659-5500-4440-88a1-989f98741ad9'), $withUser(new Browse\AreaFields()), $page(10));
+$scenarios['auth/browse/instrument/by-collection'] = static fn(MusicBrainz $mb) => $mb->api()->browse()->instrument($relation(InstrumentRelation::class, 'collection', 'c064b35f-1bef-4641-bd9b-710ee884b268'), $withUser(new Browse\InstrumentFields()), $page(10));
+$scenarios['auth/browse/series/by-collection']     = static fn(MusicBrainz $mb) => $mb->api()->browse()->series($relation(SeriesRelation::class, 'collection', '6e98c169-8368-472d-8df8-a7d64c7e0abb'), $withUser(new Browse\SeriesFields()), $page(10));
 foreach ([
     'artist'       => 'b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d',
     'release'      => '31765b9f-e969-4257-855f-c7ea1f657b2a',

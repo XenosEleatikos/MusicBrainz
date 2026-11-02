@@ -64,13 +64,13 @@ if ($collections) {
 }
 $client = HttpClient::create(['headers' => $headers]);
 $status = static function (string $url) use ($client): int {
-    for ($attempt = 0; $attempt < 4; ++$attempt) {
+    for ($attempt = 0; $attempt < 8; ++$attempt) {
         sleep(1);
         $code = $client->request('GET', $url)->getStatusCode();
         if (503 !== $code) {
             return $code;
         }
-        sleep(5);
+        sleep(10 + 5 * $attempt);
     }
 
     return 503;
@@ -135,6 +135,8 @@ foreach ($todo as $name => [$template, $kind, $entity]) {
     ksort($accepted);
     $result[$kind][$entity] = $accepted;
     ksort($result[$kind]);
+    ksort($result);
+    file_put_contents($file, json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n");
     echo $name, ': ', count(array_filter($accepted)), " accepted\n";
 }
 
