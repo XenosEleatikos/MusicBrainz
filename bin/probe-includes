@@ -8,7 +8,11 @@ declare(strict_types=1);
  * the answer to tests/Fixtures/accepted-includes.json. The unit test tests/unit/Supplement/FieldsTest compares the include
  * flags of the library with that file.
  *
- * Usage: bin/probe-includes [--combinations] [pattern ...]     e.g. bin/probe-includes lookup/artist
+ * Usage: bin/probe-includes [--combinations] [--collections] [pattern ...]     e.g. bin/probe-includes lookup/artist
+ *
+ * Browsing areas, instruments and series needs a collection, and collections need an access token: with --collections these are
+ * probed using the environment variables MB_ACCESS_TOKEN and MB_PROBE_COLLECTIONS ("area=<mbid>,instrument=<mbid>,series=<mbid>", the
+ * MBIDs of collections of that account). Neither is stored anywhere.
  *
  * Some parameters are only accepted together with another one: "media", "discids", "isrcs" and "various-artists" need
  * "releases" or "recordings". With --combinations, parameters that were rejected alone are tried together with these, and
@@ -24,6 +28,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $userAgent = 'XenosMusicBrainz/2-dev ( https://github.com/XenosEleatikos/MusicBrainz )';
 $combinations = in_array('--combinations', $argv, true);
+$collections = in_array('--collections', $argv, true);
 $patterns = array_values(array_filter(array_slice($argv, 1), static fn(string $a): bool => !str_starts_with($a, '--')));
 $file = __DIR__ . '/../tests/Fixtures/accepted-includes.json';
 
@@ -48,7 +53,16 @@ $browses = [
     'event' => 'artist=a74b1b7f-71a5-4011-9441-d0b5e4122711',
 ];
 
-$client = HttpClient::create(['headers' => ['User-Agent' => $userAgent]]);
+$headers = ['User-Agent' => $userAgent];
+if ($collections) {
+    $token = (string) getenv('MB_ACCESS_TOKEN');
+    if ('' === $token) {
+        fwrite(STDERR, "--collections needs the environment variable MB_ACCESS_TOKEN\n");
+        exit(1);
+    }
+    $headers['Authorization'] = 'Bearer ' . $token;
+}
+$client = HttpClient::create(['headers' => $headers]);
 $status = static function (string $url) use ($client): int {
     for ($attempt = 0; $attempt < 4; ++$attempt) {
         sleep(1);
@@ -66,6 +80,16 @@ $result = is_file($file) ? json_decode((string) file_get_contents($file), true) 
 $todo = [];
 foreach ($lookups as $entity => $mbid) {
     $todo["lookup/$entity"] = ["https://musicbrainz.org/ws/2/$entity/$mbid?fmt=json&inc=%s", 'lookup', $entity];
+}
+if ($collections) {
+    $browses = [];
+    foreach (explode(',', (string) getenv('MB_PROBE_COLLECTIONS')) as $pair) {
+        [$entity, $mbid] = array_pad(explode('=', trim($pair), 2), 2, '');
+        if (in_array($entity, ['area', 'instrument', 'series'], true) && '' !== $mbid) {
+            $browses[$entity] = 'collection=' . $mbid;
+        }
+    }
+    $todo = [];
 }
 foreach ($browses as $entity => $query) {
     $todo["browse/$entity"] = ["https://musicbrainz.org/ws/2/$entity?$query&limit=1&fmt=json&inc=%s", 'browse', $entity];
