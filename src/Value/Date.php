@@ -11,13 +11,13 @@ use Stringable;
 
 use function in_array;
 use function preg_match;
-use function sprintf;
 
 /**
  * A date as MusicBrainz knows it: a year, a year and a month, or a full date. The precision is kept. Parts may be unknown,
  * which MusicBrainz writes as question marks.
  *
- * Supported are "YYYY", "YYYY-MM", "YYYY-MM-DD" and the forms with unknown parts: "YYYY-??-DD" (day known, month unknown),
+ * Supported are "YYYY", "YYYY-MM", "YYYY-MM-DD" (years before the common era have a minus sign and at least three digits,
+ * as in "-070") and the forms with unknown parts: "YYYY-??-DD" (day known, month unknown),
  * "????-MM" and "????-MM-DD" (year unknown) and "????-??-DD" (only the day is known). Anything else, and impossible
  * dates such as "2017-02-30", are refused.
  */
@@ -29,7 +29,7 @@ final readonly class Date implements Stringable
      */
     public string $originalFormat;
 
-    /** The year, null if it is unknown */
+    /** The year, null if it is unknown; negative before the common era */
     public ?int $year;
 
     /** The month, null if it is unknown or not given */
@@ -54,7 +54,7 @@ final readonly class Date implements Stringable
      */
     public function __construct(public string $value)
     {
-        if (1 !== preg_match('/^([0-9]{4}|\?{4})(?:-([0-9]{2}|\?\?)(?:-([0-9]{2}))?)?$/', $value, $match)) {
+        if (1 !== preg_match('/^(-[0-9]{3,}|[0-9]{4}|\?{4})(?:-([0-9]{2}|\?\?)(?:-([0-9]{2}))?)?$/', $value, $match)) {
             throw new InvalidArgumentException('"' . $value . '" is not a date (YYYY, YYYY-MM or YYYY-MM-DD, parts may be unknown: ?)');
         }
         $year = '????' === $match[1] ? null : (int) $match[1];
@@ -86,7 +86,7 @@ final readonly class Date implements Stringable
         $this->year = $year;
         $this->month = $month;
         $this->day = $day;
-        $this->dateTime = null === $year ? null : new DateTimeImmutable(sprintf('%04d-%02d-%02d', $year, $month ?? 1, $day ?? 1));
+        $this->dateTime = null === $year ? null : (new DateTimeImmutable('2000-01-01 00:00:00'))->setDate($year, $month ?? 1, $day ?? 1);
     }
 
     private static function daysInMonth(int $month, int $year): int

@@ -83,6 +83,18 @@ final class DateTest extends TestCase
         }
     }
 
+    public function testYearsBeforeTheCommonEra(): void
+    {
+        $date = new Date('-070');
+
+        self::assertSame('Y', $date->originalFormat);
+        self::assertSame(-70, $date->year);
+        self::assertSame(-70, (int) $date->dateTime?->format('Y'));
+        self::assertSame('-070', (string) $date);
+        self::assertSame(-200, (new Date('-200-05-17'))->year);
+        self::assertSame(17, (new Date('-200-05-17'))->day);
+    }
+
     public function testKnownPartsGiveYearMonthAndDay(): void
     {
         $date = new Date('1969-09-26');
@@ -97,7 +109,7 @@ final class DateTest extends TestCase
      */
     public static function invalidDates(): array
     {
-        return ['empty' => [''], 'zero' => ['0'], 'unknown format' => ['26.09.1969'], 'month 13' => ['1969-13'], 'february 30' => ['1969-02-30'], 'unknown month without day' => ['1969-??'], 'nothing known' => ['????'], 'nothing known, with month placeholder' => ['????-??'], 'only unknown parts' => ['????-??-??'], 'unknown month at the end' => ['1969-??-??'], 'unknown month, day 32' => ['1969-??-32'], 'feb 30 without a year' => ['????-02-30'], 'april 31 without a year' => ['????-04-31']];
+        return ['empty' => [''], 'zero' => ['0'], 'unknown format' => ['26.09.1969'], 'month 13' => ['1969-13'], 'february 30' => ['1969-02-30'], 'unknown month without day' => ['1969-??'], 'nothing known' => ['????'], 'minus without digits' => ['-'], 'two digits after the minus' => ['-07'], 'plus sign' => ['+1969'], 'nothing known, with month placeholder' => ['????-??'], 'only unknown parts' => ['????-??-??'], 'unknown month at the end' => ['1969-??-??'], 'unknown month, day 32' => ['1969-??-32'], 'feb 30 without a year' => ['????-02-30'], 'april 31 without a year' => ['????-04-31']];
     }
 
     #[DataProvider('invalidDates')]
