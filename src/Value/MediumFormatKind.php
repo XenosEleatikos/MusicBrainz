@@ -67,6 +67,7 @@ enum MediumFormatKind: string
     case Shellac12 = '12" Shellac';
     case Shellac7 = '7" Shellac';
     case ShmSacd = 'SHM-SACD';
+    case ShmSacd2Channels = 'SHM-SACD (2 channels)';
     case PatheDisc = 'Pathé disc';
     case Vhd = 'VHD';
     case Ced = 'CED';
@@ -108,4 +109,6 @@ enum MediumFormatKind: string
     case VinylDiscVinylSide = 'VinylDisc (Vinyl side)';
     case ZipDisk = 'Zip Disk';
     case EightTrackCartridge = '8-Track Cartridge';
+    case PhonographRecord = 'Phonograph record';
+    case DataDvd = 'Data DVD';
 }
